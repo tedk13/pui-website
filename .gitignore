@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+public/
+resources/
+assets/js/platform-ui.min.js
+assets/css/platform-ui.min.css
+static/css/
+
+# JetBrains Rider
+.idea/
+

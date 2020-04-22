@@ -1,0 +1,43 @@
+<header class="site-menu-wrapper site-header site-header--fixed background-purple py-3 px-4">
+  <div class="block-container mobile-up-3 flex--align-center">
+    <div class="block tablet-up--shrink">
+      <a href="/"><img src="/images/platform-ui.svg" alt="Platform UI" /></a>
+    </div>
+    <div class="block tablet-up--fill">
+      <button class="site-menu-mobile-action button--plain text-white">
+        <span class="sr-only">Toggle Navigation</span>
+        <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
+      </button>
+      <nav class="site-menu inverted">
+        {{ $currentPage := . }}
+        {{ $currentSection := $currentPage.Section }}
+        {{ range .Site.Menus.main }}
+          {{ $active := eq $currentSection .Identifier }}
+          {{ if .HasChildren }}
+          <div class="site-menu__item no-border mx-3 has-dropdown">
+            <a href="{{ .URL }}" class="site-menu__link flex flex--justify-between w-100 p-0{{ if $active }} active{{ end }}">
+              {{ .Name }} <i class="pi-angle-right mx-2 site-menu__link-icon"></i>
+            </a>
+            <div class="dropdown-menu background-purple">
+              {{ range .Children }}
+              <a href="{{ .URL }}" class="dropdown-menu__item">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </div>
+          {{ else }}
+          <div class="site-menu__item mx-3 no-border">
+            <a href="{{ .URL }}" class="site-menu__link p-0{{ if $active }} active{{end}}">{{ .Name }}</a>
+          </div>
+          {{ end }}
+        {{ end }}
+      </nav>
+    </div>
+    <div class="block tablet-up--shrink inverted">
+      <div class="flex--center-content">
+        <span class="mr-3">v1.1</span>
+        <a class="mr-3 text-white" href="https://rimdev.io"><i class='pi-rimdev-circle'></i></a>
+        <a href="#" class="button button--salmon inverted">Get Started</a>
+      </div>
+    </div>
+  </div>
+</header>

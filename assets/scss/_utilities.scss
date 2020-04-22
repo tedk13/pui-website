@@ -1,0 +1,10 @@
+@each $name, $color in $brand-colors {
+    // background brand colors
+    .background-#{$name} {
+        background: $color !important;
+    }
+    // text color brand $brand-colors
+    .text-#{$name} {
+        color: $color !important;
+    }
+}

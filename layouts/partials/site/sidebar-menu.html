@@ -1,0 +1,22 @@
+{{ $page := .currentPage}}
+{{ range .menu }}
+{{ if in .URL $page.Section }}
+<ul class="sidebar-menu pui-list{{ if ne .FirstSection .Page }} pui-accordion no-border{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
+    <li class="{{ if eq .FirstSection .Page }}hidden{{ else }}pui-accordion__header pt-3 pb-2 pl-3{{ end }}">
+        <i class="pi-angle-down pui-accordion__icon mr-2 text-light"></i>
+        <a href="{{ .URL }}" class="text-base{{ if .IsAncestor $page }} active{{ end }}">{{ .Name }}</a>
+    </li>
+    <ul class="pui-list{{ if ne .FirstSection .Page }} pui-accordion__content background-lighter pl-4 pb-2 pt-3 pr-2{{ end }}">
+        {{ if .Sections }}
+            {{- partial "site/sidebar-menu" (dict "menu" .Sections "currentPage" $page)}}
+        {{ end }}
+        {{ $sectionPages := where .Pages "File.Dir" "in" .Dir }}
+        {{ range $sectionPages }}
+            <li>
+                <a href="{{ .URL }}" class="text-base{{ if eq . $page }} active{{ end }}">{{ .Name }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</ul>
+{{ end }}
+{{ end }}
