@@ -1,0 +1,3 @@
+{{ $pui := resources.Get "js/platform-ui.min.js" }}
+{{ $defaultJS := slice $pui | resources.Concat "js/global.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $defaultJS.Permalink | relURL }}" defer></script>

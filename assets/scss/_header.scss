@@ -1,0 +1,20 @@
+.site-menu {
+  background-color: transparent;
+  &.active {
+    background: map-get($brand-colors, 'purple');
+  }
+  .site-menu__item {
+    &.dropdown-active {
+      background: map-get($brand-colors, 'purple');
+    }
+    .site-menu__link {
+      &:hover:not(.search):not(.active) {
+        background: map-get($brand-colors, 'purple');
+      }
+      &.active:first-child {
+        font-weight: bold;
+        border-bottom: 1px solid;
+      }
+    }
+  }
+}

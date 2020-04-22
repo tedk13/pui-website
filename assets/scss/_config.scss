@@ -1,0 +1,46 @@
+// PUI brand colors
+$brand-colors: (
+  'purple':   #31225C,
+  'light-purple':#604D9E,
+  'salmon': #e58967
+);
+
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto Slab";
+}
+
+.highlight {
+  pre {
+    padding: .5rem;
+    border-radius: .5rem;
+    overflow-x: scroll;
+    code {
+      color: unset;
+      font-size: 85%;
+    }
+  }
+}
+
+.pui-accordion {
+  &.active {
+    box-shadow: none;
+    .pui-accordion__header {
+      background-color: transparent;
+    }
+  }
+}
+
+.sidebar-menu {
+  a {
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+.hero {
+  height: 350px;
+  background-image: url(/images/platform-ui-background.svg);
+  background-size: cover;
+  background-position: bottom center;
+}

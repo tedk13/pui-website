@@ -1,0 +1,21 @@
+<head>
+    <title>{{ .Title }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {{ with .Description }}
+    <meta name="description" content="{{ . }}">{{ end }}
+    {{ hugo.Generator }}
+    <!-- iOS smart app banner -->
+    <meta name="apple-itunes-app" content="app-id=1310637866">
+    {{ if (eq .RelPermalink "/carriers/") }}
+    <meta http-equiv="refresh" content="0;/products/by-carrier/">
+    {{ end }}
+  
+    {{ partial "head/preconnects.html" . }}
+    {{ partial "head/styles.html" . }}
+    {{ partial "head/gtm.html" . }}
+    {{ partial "head/twitter.html" . }}
+    {{ partial "head/og.html" . }}
+    {{ partial "head/schemadotorg.html" . }}
+  </head>
