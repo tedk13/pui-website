@@ -8,6 +8,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 2
+    ordered: false
   highlight:
     codeFences: true
     guessSyntax: false
