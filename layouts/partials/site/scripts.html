@@ -1,3 +1,7 @@
-{{ $pui := resources.Get "js/platform-ui.min.js" }}
-{{ $defaultJS := slice $pui | resources.Concat "js/global.js" | resources.Minify | resources.Fingerprint }}
-<script src="{{ $defaultJS.Permalink | relURL }}" defer></script>
+{{ if (fileExists "./assets/output/index.js") }}
+  {{ $js := resources.Get "output/index.js" }}
+  {{ with $js }}
+    {{ $secureJS := . | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{ end }}
+{{ end }}

@@ -24,7 +24,7 @@
       </div>
       {{ end }}
 
-      <div class="block-container h-100">
+      <div class="block-container{{ if not .IsHome }} h-100{{ end }}">
         {{ if not .IsHome }}
         <aside id="sidebar-left" class="block block-11 tablet-up-2 py-3 border-r border--width-5 border--color-light-mid" role="sidebar">
           {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
@@ -36,8 +36,9 @@
         {{ end }}
         </main>
         {{ if not .IsHome }}
-        <aside id="sidebar-right" class="block block-11 tablet-up-2 p-3 border-l border--color-light-mid" role="sidebar">
-          <p>Add TOC here</p>
+        <aside id="sidebar-right" class="block block-11 tablet-up-2 p-3 border-l border--color-light-mid pos-fix pin-right h-100" role="sidebar">
+          <h3>On This Page</h3>
+          {{ .TableOfContents }}
         </aside>
         {{ end }}
       </div>
