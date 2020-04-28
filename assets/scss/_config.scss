@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+.pui-card {
+  @media only screen and (min-width: 1800px) {
+    min-height: auto;
+  }
+}
+
 .sidebar-menu {
   a {
     &.active {
@@ -39,7 +45,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero {
-  height: 350px;
+  height: 500px;
   background-image: url(/images/platform-ui-background.svg);
   background-size: cover;
   background-position: bottom center;
