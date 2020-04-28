@@ -5,7 +5,7 @@
   }
 }
 .site-menu-mobile-action {
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     position: absolute;
     top: 1.5rem;
     right: 3rem;

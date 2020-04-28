@@ -30,7 +30,7 @@
           {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
         </aside>
         {{ end }}
-        <main class="block{{ if not .IsHome }} block-11 tablet-up-8{{ end }} p-3" role="main">
+        <main class="block{{ if not .IsHome }} block-11 tablet-up-8 p-3{{ end }}" role="main">
         {{ block "main" . }}
           {{ .Content }}
         {{ end }}
