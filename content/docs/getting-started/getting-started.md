@@ -2,17 +2,6 @@
 title: Getting Started
 date: 2018-07-20T12:59:15-04:00
 ---
-# Prologue 
-
-As part of [Ritter Insurance Marketing](https://ritterim.com)'s software development team, RIMdev, our frontend folks started Platform UI as a CSS framework for faster, more efficient development. Our suite of agent and staff tools have benefitted greatly, along with our team.
-
-Platform UI has evolved in scope to include a base icon font family, Platform Icons, UI kits based in Adode XD, and, our philosophies and practices SPAs, static sites, and application development. 
-
-We hope you find it as useful and easy to use as we do.
-
-
-# Getting Started
-
 ## Quick Start
 
 
@@ -20,24 +9,28 @@ If you're not downloading or building, then CDN access via [UNPKG](https://unpkg
 
 ### CSS
 
-```html
+<div class="mb-4">
+{{< highlight html >}}
 <link rel="stylesheet" href="https://unpkg.com/@ritterim/platform-ui/dist/platform-ui.min.css">
-
-```
+{{< /highlight >}}
+</div>
 
 ### JS
 
 Platform UI doesn't bring a lot of JS to the party as it was built as a companion to VueJS. That said, we ship with fully functional vanilla JS to get you started.
 
-```html
+<div class="mb-4">
+{{< highlight html >}}
 <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js"></script>
-```
+{{< /highlight >}}
+</div>
 
 ### Starter Templates
 
 This is the basic template to get started for any HTML project.
 
-```html
+<div class="mb-4">
+{{< highlight html >}}
 <!doctype html>
 <html lang="en">
   <head>
@@ -53,12 +46,14 @@ This is the basic template to get started for any HTML project.
   </body>
   <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js"></script>
 </html>
-```
+{{< /highlight >}}
+</div>
  
 Looking for a little more to get going? 
 
 
-```html
+<div class="mb-4">
+{{< highlight html >}}
 <!doctype html>
 <html lang="en">
 
@@ -93,35 +88,63 @@ Looking for a little more to get going?
 <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js"></script>
 
 </html>
-```
+{{< /highlight >}}
+</div>
  
+ ## Third Parties
 
-## Download version xxx
+There are a few third party choices we've incorporated into Platform UI, these are part of the compiled version only. If you choose to build Platform UI from source, you'll need to consider the following.
 
-Get platform UI in the flavour that best suites your project!
+### Animate.css
 
-### Compiled CSS and JS
+We started to build our own animations, but why bother when [Animate.css](https://daneden.github.io/animate.css/) is around? It fits all of our needs and plays nicely with VueJS. 
 
-Compiled minified versions of Sass and JS source. 
+**If you're using Platform UI in your own build process, you'll need to include Animate.css.**
 
-[Download]()
+For a list of supported More from the Animate.css [docs](https://github.com/daneden/animate.css#animatecss------).
 
-### Source Files
+Simple usage:
 
-You can also download the source files, uncompiled Sass and JS, to compile on your own. 
+<div class="mb-4">
+{{< highlight html >}}
+<div class="animated {animation name} delay-2s">Example</div>
+{{< /highlight >}}
+</div>
 
-**This method gives you access to the Sass config file to implement your own custom theming**
+Combining Animate.css with Vue transitions:
 
-[Download Source]()
+<div class="mb-4">
+{{< highlight html >}}
+<transition
+	name="custom-classes-transition"
+	enter-active-class="animated {animation name}"
+	leave-active-class="animated {animation name}"
+>
+{{< /highlight >}}
+</div>
+### Highlight.js
 
-### NPM
+Platform UI handles inline code, `<code></code>`, highlights, however we leverage [Highlight.js](https://highlightjs.org/) during the build to add a more complete syntax highlighting solutions. 	 
 
-Add Platform UIs source files to your build. [Autoprefixer](https://github.com/postcss/autoprefixer), [Normalize](https://github.com/necolas/normalize.css/), and version 1.23 or higher of the [Sass](https://www.npmjs.com/package/sass) compiler will be needed to successfully build Platform UI.
+**If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
-```
-$ npm install @ritterim/platform-ui
-```
+### Normalize.css
 
-### CDN
+The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include [Normalize.css](https://necolas.github.io/normalize.css/) as part of Patform UIs build process.
 
-While we don't host a dedicated CDN version of Platform UI, if you prefer, you can always access any npm package using [UNPKG](https://unpkg.com/).
+**If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
+
+### Postcss
+
+In the same spirit as Normalize.css, we also leverage [Postcss](https://github.com/postcss/postcss) and [Autoprefixer](https://github.com/postcss/autoprefixer) to reduce browser inconsistencies. 
+
+**If you're using Platform UI in you're own build process, you'll need to include Postcss. Likewise, if you prefer greater browser support, you will have to build Platform UI from source.**
+
+Our current browser support settings:
+
+{{< highlight js >}}
+"browserslist": [
+	"last 2 version",
+	"> 2%"
+]
+{{< /highlight >}}

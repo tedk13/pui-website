@@ -2,4 +2,260 @@
 title: Installation
 date: 2018-07-20T12:59:15-04:00
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ex in nunc laoreet tempus. Integer sit amet quam sodales, sollicitudin purus quis, bibendum urna. Aliquam erat volutpat. Sed fermentum efficitur feugiat. Sed eget ligula ex. Pellentesque lobortis fringilla congue. Nunc pellentesque eu velit ut aliquet. Sed at sapien ut lectus tempor rutrum et a orci. Curabitur ultricies luctus ante, vitae sodales orci cursus at. Curabitur dictum pharetra risus. Cras a mauris vitae odio volutpat accumsan.
+## Download version xxx
+
+Get platform UI in the flavour that best suites your project!
+
+### Compiled CSS and JS
+
+Compiled minified versions of Sass and JS source. 
+
+[Download](test)
+
+### Source Files
+
+You can also download the source files, uncompiled Sass and JS, to compile on your own. 
+
+**This method gives you access to the Sass config file to implement your own custom theming**
+
+[Download Source](test)
+
+### NPM
+
+Add Platform UIs source files to your build. [Autoprefixer](https://github.com/postcss/autoprefixer), [Normalize](https://github.com/necolas/normalize.css/), and version 1.23 or higher of the [Sass](https://www.npmjs.com/package/sass) compiler will be needed to successfully build Platform UI.
+
+<div class="mb-3">
+{{< highlight bash >}}
+$ npm install @ritterim/platform-ui
+{{< /highlight >}}
+</div>
+
+### CDN
+
+While we don't host a dedicated CDN version of Platform UI, if you prefer, you can always access any npm package using [UNPKG](https://unpkg.com/).
+
+## Theming
+
+Both the downloaded and npm versions of Platform UI give you access to the config file `_config.scss`. Color maps, component and base defaults, and, breakpoints for Platfrom UI are set here. Direct access to this file in your custom build allow you to customize the compiled feel of Platform UI.
+
+{{< highlight scss >}}
+// _config.scss
+
+@use "sass:map";
+@use "sass:meta";
+
+// Needed maps whether populated below of not. //-- DO NOT DELETE
+$config-colors: () !default;
+$platform-colors: () !default;
+
+
+// ------------------
+// Colors
+// ------------------
+// Add custom colors here to support your theme.
+
+$brand-colors: (
+  'navy':   #003f70,
+  'skyblue':#91b9dc,
+  'lightblue': #E5F5FF,
+  'med-blue': #3f7bad,
+  'beige':  #ecd7b1,
+  'peach':  #dfa278,
+  'salmon': #e58967,
+  'brown':  #866657,
+  'orange': #f48418
+) !default;
+
+$secondary-colors: (
+  'red':    tomato,
+  'olive':  #b5cc18,
+  'purple': lighten(purple, 10%),
+  'yellow': #FBBD08, // semantic-ui yellow
+  'pink': pink,
+  'cyan':   cyan,
+  'violet': #6435C9,
+  'blue':   dodgerblue,
+  'green': #21BA45,
+  'teal': teal,
+  'gold': #ffcc00
+) !default;
+
+// $brand-colors and $secondary colors will be made available as text and background colors
+// e.g., .text--{color} .background--{color}
+
+// Comment out if not using a secondary-colors map
+
+@if meta.variable-exists('secondary-colors') {
+  $config-colors: map.merge($brand-colors, $secondary-colors);
+} @else {
+  $config-colors: map.merge($brand-colors, $config-colors);
+}
+
+// Default colors used in the Ritter Platform
+
+$platform-focus-color: map.get($config-colors, 'med-blue') !default;
+$platform-menu-color: map.get($config-colors, 'navy') !default;
+$platform-link-color: map.get($config-colors, 'med-blue') !default;
+$platform-help-color: map.get($config-colors, 'lightblue') !default;
+$platform-note-color: #FFFDF5 !default;
+$platform-help-text-color: map.get($config-colors, 'navy') !default;
+
+// Platform colors need to be placed back in a map
+// Removing platform-colors will not affect compilation
+
+
+$platform-colors-vars: (
+  'focus' : $platform-focus-color,
+  'menu' : $platform-menu-color,
+  'link' : $platform-link-color,
+  'help' : $platform-help-color,
+  'note' : $platform-note-color,
+  'help-text' : $platform-help-text-color
+) !default;
+
+@if meta.type-of($platform-colors-vars) == 'map' {
+  $platform-colors: map.merge($platform-colors-vars, $platform-colors);
+}
+
+
+// --------------------
+// Breakpoints
+// --------------------
+
+// Breakpoints map used in our breakpoints mixin
+// as well as some of our utility classes
+
+$breakpoints: (
+  mobile: 	0px,
+  tablet: 	768px,
+  lg-tablet: 	991px,
+  laptop: 	1240px,
+  desktop: 	1800px
+);
+
+
+
+
+// --------------------
+// Sizes
+// --------------------
+
+// image radius
+$image-size: (
+  'small' : 100px,
+  'medium': 150px,
+  'large':  200px
+);
+
+// Some height variables
+$menu-height: 4.5rem;
+$menu-banner-height: 14rem;
+
+$max-height: 600px; // NOTE: define where we're using this
+
+$radius: (
+  'button': 5rem,
+  'default': .3rem,
+  'round': 50%
+);
+
+
+
+
+// --------------------
+// Timing
+// --------------------
+
+// milliseconds; animations, transitions
+
+$duration: .2s;
+$transitions: .2s;
+$hue-threshold: .1;   // NOTE: Set to .1 to use with math.percentage
+$opacity: .9;
+
+
+
+
+// --------------------
+// Fonts
+// --------------------
+
+@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500|Roboto+Slab|Roboto:300i,400,500,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css');
+
+$fonts: (
+  'base': #{'Inter UI', sans-serif},
+  'base-alt': #{'Inter UI var alt', sans-serif},
+  'code': #{'Lucida Console', 'Courier New', 'Courier', monospace},
+  'color': #333333,
+  'headline': #{'Roboto', sans-serif},
+  'headline-slab': #{'Roboto Slab', serif},
+  'post-headline': #{'Raleway', sans-serif},
+  'size': 1rem
+);
+
+
+
+
+// --------------------
+// Drawers
+// --------------------
+
+$drawer-background: #fff !default;
+
+$drawer-primary-padding: 2rem;
+
+$drawer-right-height: calc(100% - #{$menu-height});
+$drawer-right-width: 27rem;
+
+
+
+
+// --------------------
+// Button specific
+// --------------------
+
+$button-border-radius: 5rem !default;
+
+$button-primary-background: #FFFFFF !default;
+$button-primary-color: #666666 !default;
+$button-secondary-background: map.get($config-colors, 'salmon') !default;
+$button-secondary-color: #FFFFFF !default;
+$button-filter-color: map.get($brand-colors, 'med-blue') !default;
+
+$button-primary-padding: .25rem 1rem;
+$button-large-padding: .5rem 1rem;
+$button-group-margin: 0 .25rem;
+
+
+
+
+// --------------------
+// Cards
+// --------------------
+
+$card-padding: 1rem;
+$card-footer-top-margin: 1rem;
+$card-min-height: 23rem;
+
+
+
+
+// --------------------
+// Loader
+// --------------------
+
+$loader-color-primary: map.get($config-colors, "navy") !default;
+$loader-border-top-primary: transparent !default;
+$loader-color-inverted: #fff !default;
+$loader-border-top-inverted: transparent !default;
+
+$loader-colors: (
+  'primary': $loader-color-primary,
+  'primary-top': $loader-border-top-primary,
+  'inverted': $loader-color-inverted,
+  'inverted-top': $loader-border-top-inverted
+) !default;
+
+{{< /highlight >}}

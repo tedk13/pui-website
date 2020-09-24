@@ -60,7 +60,7 @@ npm install @ritterim/platform-ui
 {{< block-container class="block-container flex--justify-center" >}}
 {{< block class="block block-11 tablet-up-4 px-2" >}}
 ### CDN Links
-The compiled files of all Platform UI versions are alos hosted on the UNPKG content delivery network via unpkg.com
+The compiled files of all Platform UI versions are also hosted on the UNPKG content delivery network via unpkg.com
 See All Files and Versions
 {{< /block >}}
 {{< block class="block block-11 tablet-up-8 px-2 mt-2" >}}

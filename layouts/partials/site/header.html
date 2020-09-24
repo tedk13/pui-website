@@ -1,16 +1,16 @@
 <header class="site-menu-wrapper site-header site-header--fixed background-purple px-4 flex flex--justify-center">
-  <div class="block-container mobile-up-3 flex--align-center">
+  <div class="block-container mobile-up-3 flex--align-center h-100">
     <div class="block tablet-up--shrink">
       <a href="/" class="flex flex--align-center">
         <img src="/images/platform-ui.svg" alt="Platform UI" />
       </a>
     </div>
-    <div class="block tablet-up--fill">
+    <div class="block tablet-up--fill h-100">
       <button class="site-menu-mobile-action button--plain text-white">
         <span class="sr-only">Toggle Navigation</span>
         <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
       </button>
-      <nav class="site-menu inverted">
+      <nav class="site-menu inverted h-100 ml-2">
         {{ $currentPage := . }}
         {{ $currentSection := $currentPage.Section }}
         {{ range .Site.Menus.main }}
