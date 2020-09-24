@@ -1,7 +1,9 @@
-<header class="site-menu-wrapper site-header site-header--fixed background-purple py-3 px-4">
+<header class="site-menu-wrapper site-header site-header--fixed background-purple px-4 flex flex--justify-center">
   <div class="block-container mobile-up-3 flex--align-center">
     <div class="block tablet-up--shrink">
-      <a href="/"><img src="/images/platform-ui.svg" alt="Platform UI" /></a>
+      <a href="/" class="flex flex--align-center">
+        <img src="/images/platform-ui.svg" alt="Platform UI" />
+      </a>
     </div>
     <div class="block tablet-up--fill">
       <button class="site-menu-mobile-action button--plain text-white">
@@ -14,19 +16,19 @@
         {{ range .Site.Menus.main }}
           {{ $active := eq $currentSection .Identifier }}
           {{ if .HasChildren }}
-          <div class="site-menu__item no-border mx-3 has-dropdown">
-            <a href="{{ .URL }}" class="site-menu__link flex flex--justify-between w-100 p-0{{ if $active }} active{{ end }}">
+          <div class="site-menu__item no-border dropdown p-0">
+            <a href="{{ .URL }}" class="dropdown__trigger flex flex--justify-between w-100 p-3{{ if $active }} active{{ end }}">
               {{ .Name }} <i class="pi-angle-right mx-2 site-menu__link-icon"></i>
             </a>
-            <div class="dropdown-menu background-purple">
+            <div class="dropdown__content background-purple">
               {{ range .Children }}
-              <a href="{{ .URL }}" class="dropdown-menu__item">{{ .Name }}</a>
+              <a href="{{ .URL }}" class="">{{ .Name }}</a>
               {{ end }}
             </div>
           </div>
           {{ else }}
-          <div class="site-menu__item mx-3 no-border">
-            <a href="{{ .URL }}" class="site-menu__link p-0{{ if $active }} active{{end}}">{{ .Name }}</a>
+          <div class="site-menu__item no-border p-0">
+            <a href="{{ .URL }}" class="site-menu__link p-3{{ if $active }} active{{end}}">{{ .Name }}</a>
           </div>
           {{ end }}
         {{ end }}

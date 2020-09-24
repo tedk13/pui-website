@@ -20,14 +20,20 @@
     &.dropdown-active {
       background: map-get($brand-colors, 'purple');
     }
-    .site-menu__link {
+    .dropdown__trigger {
       &:hover:not(.search):not(.active) {
-        background: map-get($brand-colors, 'purple');
+        background: map-get($brand-colors, 'light-purple');
       }
       &.active:first-child {
         font-weight: bold;
         border-bottom: 1px solid;
       }
     }
+  }
+}
+
+@media (pointer: fine) {
+  .site-menu__item:hover:not(.search):not(.active) {
+    background: map-get($brand-colors, 'light-purple');
   }
 }
