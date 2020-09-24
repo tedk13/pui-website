@@ -1,13 +1,12 @@
 ---
-title: Getting Started
+title: Quick Start
 date: 2018-07-20T12:59:15-04:00
+weight: 1
 ---
-## Quick Start
-
 
 If you're not downloading or building, then CDN access via [UNPKG](https://unpkg.com/) is fast and easy to start working wityh Platform UI in your project!
 
-### CSS
+## CSS
 
 <div class="mb-4">
 {{< highlight html >}}
@@ -15,7 +14,7 @@ If you're not downloading or building, then CDN access via [UNPKG](https://unpkg
 {{< /highlight >}}
 </div>
 
-### JS
+## JS
 
 Platform UI doesn't bring a lot of JS to the party as it was built as a companion to VueJS. That said, we ship with fully functional vanilla JS to get you started.
 
@@ -25,7 +24,7 @@ Platform UI doesn't bring a lot of JS to the party as it was built as a companio
 {{< /highlight >}}
 </div>
 
-### Starter Templates
+## Starter Templates
 
 This is the basic template to get started for any HTML project.
 
@@ -95,7 +94,7 @@ Looking for a little more to get going?
 
 There are a few third party choices we've incorporated into Platform UI, these are part of the compiled version only. If you choose to build Platform UI from source, you'll need to consider the following.
 
-### Animate.css
+## Animate.css
 
 We started to build our own animations, but why bother when [Animate.css](https://daneden.github.io/animate.css/) is around? It fits all of our needs and plays nicely with VueJS. 
 
@@ -122,19 +121,19 @@ Combining Animate.css with Vue transitions:
 >
 {{< /highlight >}}
 </div>
-### Highlight.js
+## Highlight.js
 
 Platform UI handles inline code, `<code></code>`, highlights, however we leverage [Highlight.js](https://highlightjs.org/) during the build to add a more complete syntax highlighting solutions. 	 
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
-### Normalize.css
+## Normalize.css
 
 The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include [Normalize.css](https://necolas.github.io/normalize.css/) as part of Patform UIs build process.
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
-### Postcss
+## Postcss
 
 In the same spirit as Normalize.css, we also leverage [Postcss](https://github.com/postcss/postcss) and [Autoprefixer](https://github.com/postcss/autoprefixer) to reduce browser inconsistencies. 
 

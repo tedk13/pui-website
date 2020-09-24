@@ -72,7 +72,7 @@ To hide altogether via `hidden`, or a print specifc consideration, to `show-` or
 
 #### Display and @print
 
-| Target    | class        | display | 
+| Target    | class        | display |
 |-----------|--------------|---------|
 | All       | `hidden`     | `none`  |
 | `@print`  | `show-print` | `block` |

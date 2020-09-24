@@ -1,0 +1,15 @@
+#sidebar-right {
+  height: calc(100vh - #{$header-height});
+  overflow-y: auto;
+}
+
+main {
+  h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -$header-height; 
+    height: $header-height; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+}
