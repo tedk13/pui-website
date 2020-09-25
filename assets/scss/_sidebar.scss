@@ -13,3 +13,20 @@ main {
     pointer-events: none;
   }
 }
+
+.sidebar-menu {
+
+  .pui-accordion {
+
+    &.active {
+      background-color: var(--pui-background-lighter);
+
+      > .pui-accordion__header {
+
+        .pui-accordion__icon {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}

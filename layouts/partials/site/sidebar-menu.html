@@ -1,9 +1,9 @@
 {{ $page := .currentPage}}
 {{ range .menu }}
 {{ if in .URL $page.Section }}
-<ul class="sidebar-menu pui-list{{ if ne .FirstSection .Page }} pui-accordion no-border{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
+<ul class="sidebar-menu pui-list{{ if ne .FirstSection .Page }} pui-accordion no-border{{ end }}{{ if .IsAncestor $page }} active background-lighter{{ end }}">
     <a href="{{ .URL }}" class="text-base{{ if .IsAncestor $page }} active{{ end }} {{ if eq .FirstSection .Page }}hidden{{ else }}pui-accordion__header py-2 px-3 mb-0{{ end }}">
-        <i class="pi-angle-down pui-accordion__icon mr-2 text-light"></i>
+        <i class="pi-angle-right pui-accordion__icon mr-2 text-light"></i>
         {{ .Name }}
     </a>
     <ul class="pui-list{{ if ne .FirstSection .Page }} pui-accordion__content background-lighter {{ end }}{{ if .IsAncestor $page }} active{{ end }}">
