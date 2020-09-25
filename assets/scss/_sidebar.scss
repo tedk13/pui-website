@@ -19,6 +19,10 @@ main {
   .pui-accordion {
 
     &.active {
+      box-shadow: none;
+      .pui-accordion__header {
+        background-color: transparent;
+      }
 
       > .pui-accordion__header {
 
