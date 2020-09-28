@@ -5,17 +5,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   if(toc) {
     const headings = main.querySelectorAll('h2');
+    const codeHeading = document.querySelector('code h2');
     let tocList = document.createElement('ul');
     tocList.classList.add('pui-list')
   
     headings.forEach((heading) => {
       let li = document.createElement('li');
       let a = document.createElement('a');
-      a.setAttribute('href', '#'+heading.id);
-      a.className = 'text-base text-light--hover toc-link';
-      a.textContent = heading.innerText;
-      li.append(a);
-      tocList.append(li);
+      if(heading.id) {
+        a.setAttribute('href', '#'+heading.id);
+        a.className = 'text-base text-light--hover toc-link';
+        a.textContent = heading.innerText;
+        li.append(a);
+        tocList.append(li);
+      }
     });
   
     toc.append(tocList);
