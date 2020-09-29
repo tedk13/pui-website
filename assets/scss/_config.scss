@@ -7,10 +7,6 @@ $brand-colors: (
 
 $header-height: 4.5rem;
 
-h1, h2, h3, h4, h5 {
-  font-family: "Roboto Slab";
-}
-
 .highlight {
   pre {
     padding: .5rem;
@@ -42,10 +38,4 @@ h1, h2, h3, h4, h5 {
   background-image: url(/images/platform-ui-background.svg);
   background-size: cover;
   background-position: bottom center;
-}
-
-.block {
-  .pui-card {
-    height: 100%;
-  }
 }
