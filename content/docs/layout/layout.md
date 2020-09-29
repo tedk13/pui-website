@@ -15,7 +15,125 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 
 ### 12 Columns
 
-<div class="mb-4">
+<div class="block-container blocks-px-2 blocks-py-2">
+  <div class="block block-1">
+    <div class="pui-card">
+    block-1    
+    </div>  
+  </div>
+  <div class="block block-11">
+    <div class="pui-card h-100">
+    block-11
+    </div>  
+  </div>
+  <div class="block block-2">
+    <div class="pui-card">
+    block-2    
+    </div>  
+  </div>
+  <div class="block block-10">
+    <div class="pui-card">
+    block-10  
+    </div>
+  </div>
+  <div class="block block-3">
+    <div class="pui-card">
+    block-3    
+    </div>
+  </div>
+  <div class="block block-9">
+    <div class="pui-card">
+    block-9    
+    </div>  
+  </div>
+  <div class="block block-4">
+    <div class="pui-card">
+    block-4    
+    </div>  
+  </div>
+  <div class="block block-8">
+    <div class="pui-card">
+    block-8    
+    </div>  
+  </div>
+  <div class="block block-5">
+    <div class="pui-card">
+    block-5    
+    </div>  
+  </div>
+  <div class="block block-7">
+    <div class="pui-card">
+    block-7    
+    </div>  
+  </div>
+  <div class="block block-6">
+    <div class="pui-card">
+    block-6    
+    </div>  
+  </div>
+  <div class="block block-6">
+    <div class="pui-card">
+    block-6    
+    </div>  
+  </div>
+  <div class="block block-7">
+    <div class="pui-card">
+    block-7    
+    </div>  
+  </div>
+  <div class="block block-5">
+    <div class="pui-card">
+    block-5    
+    </div>  
+  </div>
+  <div class="block block-8">
+    <div class="pui-card">
+    block-8    
+    </div>  
+  </div>
+  <div class="block block-4">
+    <div class="pui-card">
+    block-4    
+    </div>  
+  </div>
+  <div class="block block-9">
+    <div class="pui-card">
+    block-9    
+    </div>  
+  </div>
+  <div class="block block-3">
+    <div class="pui-card">
+    block-3    
+    </div>  
+  </div>
+  <div class="block block-10">
+    <div class="pui-card">
+    block-10  
+    </div>
+  </div>
+  <div class="block block-2">
+    <div class="pui-card">
+    block-2    
+    </div>  
+  </div>
+  <div class="block block-11">
+    <div class="pui-card h-100">
+    block-11
+    </div>
+  </div>
+  <div class="block block-1">
+    <div class="pui-card">
+    block-1    
+    </div>  
+  </div>
+  <div class="block block-12">
+    <div class="pui-card">
+    block-12  
+    </div>
+  </div>
+</div>
+
+<div class="mt-4 mb-4">
 {{< highlight html >}}
 <div class="block-container blocks-px-2 blocks-py-2">
   <div class="block block-1">
@@ -24,8 +142,8 @@ Blocks are Platform UI's core structural component. Here are some of the feature
     </div>  
   </div>
   <div class="block block-11">
-    <div class="pui-card">
-    block-11  
+    <div class="pui-card h-100">
+    block-11
     </div>  
   </div>
   <div class="block block-2">
@@ -119,8 +237,8 @@ Blocks are Platform UI's core structural component. Here are some of the feature
     </div>  
   </div>
   <div class="block block-11">
-    <div class="pui-card">
-    block-11  
+    <div class="pui-card h-100">
+    block-11
     </div>
   </div>
   <div class="block block-1">
@@ -139,7 +257,30 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 
 ### Standard Grid
 
-<div class="mb-4">
+<div class="block-container blocks-px-2 blocks-py-2 tablet-up-3 laptop-up-4">
+  <div class="block">
+    <div class="pui-card">
+      Test
+    </div>
+  </div>
+  <div class="block">
+    <div class="pui-card">
+      Test
+    </div>
+  </div>
+  <div class="block block--shrink">
+    <div class="pui-card">
+      Test
+    </div>
+  </div>
+  <div class="block">
+    <div class="pui-card">
+      Test
+    </div>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="block-container blocks-px-2 blocks-py-2 tablet-up-3 laptop-up-4">
   <div class="block">
