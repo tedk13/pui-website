@@ -19,6 +19,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
         tocList.append(li);
       }
     });
+
+    if(headings.length == 0) {
+      document.querySelector('#sidebar-right').remove();
+    }
   
     toc.append(tocList);
 
