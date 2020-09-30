@@ -228,7 +228,7 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
 | `text-underline--hover` |   |         |      |
 
 | <i class="pi-warning text-orange"></i> NOTE: A `flex--` utility should be used were possible. |
-| --
+| ----- |
 
  The `text-underline--hover` class will add an animated underline to links or any element you add the class to. By default, the underline color is the
  standard link color in the platform(light blue). If you want to change the color of the element and the underline on hover you can add a `text-{color}--hover`

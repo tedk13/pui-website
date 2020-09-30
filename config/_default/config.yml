@@ -42,18 +42,6 @@ menu:
   - identifier: examples
     name: Examples
     url: /examples/
-  - identifier: portfolio
-    parent: examples
-    name: Portfolio
-    url: /examples/portfolio/
-  - identifier: ecommerce
-    parent: examples
-    name: Ecommerce
-    url: /examples/ecommerce/
-  - identifier: blog
-    parent: examples
-    name: Blog
-    url: /examples/blog/
   - identifier: tutorials
     name: Tutorials
     url: /tutorials/

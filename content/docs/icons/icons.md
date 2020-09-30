@@ -2395,7 +2395,7 @@ clipboard.on('success', function(e) {
 | stroke: join | round |
 
 | <i class="pi-warning text-orange"></i> NOTE: Rememeber to expand to outlines before committing. |
-| --
+| ----- |
 
 
 ## Sizing

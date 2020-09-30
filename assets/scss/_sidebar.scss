@@ -4,6 +4,10 @@
   overflow-y: auto;
 }
 
+#sidebar-left {
+  box-shadow: 3px 3px 5px 0px var(--pui-light-mid);
+}
+
 main {
   h2::before { 
     display: block; 
