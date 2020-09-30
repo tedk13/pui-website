@@ -313,61 +313,9 @@ ghost white button example below.
   <button class="button button--white button--ghost">Button</button>
   <button class="button button--white button--ghost text-med-blue--hover">Button</button>
 </div>
-<div class="button-group mb-4 p-2">
-  <button class="button button--navy">Navy</button>
-  <button class="button button--skyblue">Skyblue</button>
-  <button class="button button--lightblue">Lightblue</button>
-  <button class="button button--med-blue">Med-blue</button>
-  <button class="button button--beige">Beige</button>
-  <button class="button button--peach">Peach</button>
-  <button class="button button--salmon">Salmon</button>
-  <button class="button button--brown">Brown</button>
-  <button class="button button--orange">Orange</button>
-</div>
-<div class="button-group mb-4 p-2 background-lighter">
-  <button class="button button--ghost button--navy">Navy</button>
-  <button class="button button--ghost button--skyblue">Skyblue</button>
-  <button class="button button--ghost button--lightblue">Lightblue</button>
-  <button class="button button--ghost button--med-blue">Med-blue</button>
-  <button class="button button--ghost button--beige">Beige</button>
-  <button class="button button--ghost button--peach">Peach</button>
-  <button class="button button--ghost button--salmon">Salmon</button>
-  <button class="button button--ghost button--brown">Brown</button>
-  <button class="button button--ghost button--orange">Orange</button>
-</div>
-<div class="button-group p-2 background-med-blue">
-  <button class="button button--white button--ghost">Button</button>
-  <button class="button button--white button--ghost text-med-blue--hover">Button</button>
-</div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="button-group mb-4 p-2">
-  <button class="button button--navy">Navy</button>
-  <button class="button button--skyblue">Skyblue</button>
-  <button class="button button--lightblue">Lightblue</button>
-  <button class="button button--med-blue">Med-blue</button>
-  <button class="button button--beige">Beige</button>
-  <button class="button button--peach">Peach</button>
-  <button class="button button--salmon">Salmon</button>
-  <button class="button button--brown">Brown</button>
-  <button class="button button--orange">Orange</button>
-</div>
-<div class="button-group mb-4 p-2 background-lighter">
-  <button class="button button--ghost button--navy">Navy</button>
-  <button class="button button--ghost button--skyblue">Skyblue</button>
-  <button class="button button--ghost button--lightblue">Lightblue</button>
-  <button class="button button--ghost button--med-blue">Med-blue</button>
-  <button class="button button--ghost button--beige">Beige</button>
-  <button class="button button--ghost button--peach">Peach</button>
-  <button class="button button--ghost button--salmon">Salmon</button>
-  <button class="button button--ghost button--brown">Brown</button>
-  <button class="button button--ghost button--orange">Orange</button>
-</div>
-<div class="button-group p-2 background-med-blue">
-  <button class="button button--white button--ghost">Button</button>
-  <button class="button button--white button--ghost text-med-blue--hover">Button</button>
-</div>
 <div class="button-group mb-4 p-2">
   <button class="button button--navy">Navy</button>
   <button class="button button--skyblue">Skyblue</button>

@@ -4,8 +4,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   const main = document.querySelector('main');
 
   if(toc) {
-    const headings = main.querySelectorAll('h2');
-    const codeHeading = document.querySelector('code h2');
+    const headings = main.querySelectorAll('h2,h3,h4,h5');
     let tocList = document.createElement('ul');
     tocList.classList.add('pui-list')
   
