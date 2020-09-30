@@ -1,34 +1,38 @@
 <header id="main-header" class="site-menu-wrapper site-header site-header--fixed background-purple px-4 flex flex--justify-center">
   <div class="block-container mobile-up-3 flex--align-center h-100">
-    <div class="block tablet-up--shrink">
+    <div class="block tablet-up--shrink mr-2">
       <a href="/" class="flex flex--align-center">
         <img src="/images/platform-ui.svg" alt="Platform UI" />
       </a>
     </div>
-    <div class="block tablet-up--fill h-100">
+    <div class="block tablet-up--fill">
       <button class="site-menu-mobile-action button--plain text-white">
         <span class="sr-only">Toggle Navigation</span>
         <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
       </button>
-      <nav class="site-menu inverted h-100 ml-2">
+      <nav class="site-menu background-purple inverted">
         {{ $currentPage := . }}
         {{ $currentSection := $currentPage.Section }}
         {{ range .Site.Menus.main }}
           {{ $active := eq $currentSection .Identifier }}
           {{ if .HasChildren }}
-          <div class="site-menu__item no-border dropdown p-0">
-            <a href="{{ .URL }}" class="dropdown__trigger flex flex--justify-between w-100 p-3{{ if $active }} active{{ end }}">
-              {{ .Name }} <i class="pi-angle-right mx-2 site-menu__link-icon"></i>
+          <div class="site-menu__item no-border dropdown p-3">
+            <a href="{{ .URL }}" class="dropdown__trigger flex flex--justify-between w-100{{ if $active }} active{{ end }}">
+              {{ .Name }} <i class="pi-angle-right ml-2 site-menu__link-icon"></i>
             </a>
             <div class="dropdown__content background-purple">
-              {{ range .Children }}
-              <a href="{{ .URL }}" class="">{{ .Name }}</a>
-              {{ end }}
+              <ul class="pui-list">
+                {{ range .Children }}
+                <li class="m-0">
+                  <a href="{{ .URL }}" class="w-100 px-3 py-2 flex">{{ .Name }}</a>
+                </li>
+                {{ end }}
+              </ul>
             </div>
           </div>
           {{ else }}
-          <div class="site-menu__item no-border p-0">
-            <a href="{{ .URL }}" class="site-menu__link p-3{{ if $active }} active{{end}}">{{ .Name }}</a>
+          <div class="site-menu__item no-border p-3">
+            <a href="{{ .URL }}" class="site-menu__link{{ if $active }} active{{end}}">{{ .Name }}</a>
           </div>
           {{ end }}
         {{ end }}

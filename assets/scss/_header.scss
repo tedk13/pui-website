@@ -10,7 +10,7 @@
       }
       .dropdown__trigger {
         &:hover:not(.search):not(.active) {
-          background: map-get($brand-colors, 'light-purple');
+          background: map-get($brand-colors, 'purple');
         }
         &.active:first-child {
           font-weight: bold;
@@ -18,11 +18,38 @@
         }
       }
     }
+
+    .site-menu__link,
+    .dropdown__trigger {
+      position: relative;
+      &:hover {
+        &:before {
+          width: 100%;
+        }
+      }
+      &:before {
+        background-color: var(--pui-white);
+        content: '';
+        height: 1px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        transition: width ease var(--pui-transitions);
+        width: 0;
+        bottom: -1px;
+      }
+
+      &.active {
+        &::before {
+          width: 100%;
+        }
+      }
+    }
   }
 
   @media (pointer: fine) {
     .site-menu__item:hover:not(.search):not(.active) {
-      background: map-get($brand-colors, 'light-purple');
+      background: map-get($brand-colors, 'purple');
     }
   }
 
