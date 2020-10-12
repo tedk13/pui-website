@@ -9,13 +9,17 @@
 }
 
 main {
-  h2::before { 
-    display: block; 
-    content: " "; 
-    margin-top: calc(var(--header-height) * -1); 
-    height: var(--header-height); 
-    visibility: hidden; 
-    pointer-events: none;
+  h2,
+  h3 {
+
+    &::before { 
+      display: block; 
+      content: " "; 
+      margin-top: calc(var(--header-height) * -1); 
+      height: var(--header-height); 
+      visibility: hidden; 
+      pointer-events: none;
+    }
   }
 }
 
@@ -36,5 +40,19 @@ main {
         }
       }
     }
+  }
+}
+
+
+#sidebar-right {
+
+  &:before {
+    background-color: var(--pui-light-mid);
+    content: '';
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
   }
 }
