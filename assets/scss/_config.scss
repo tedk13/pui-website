@@ -9,9 +9,9 @@ $brand-colors: (
   @each $key, $value in $brand-colors {
     --#{$key}: #{$value};
   }
-}
 
-$header-height: 4.5rem;
+  --header-height: var(--pui-menu-height);
+}
 
 .highlight {
   pre {
