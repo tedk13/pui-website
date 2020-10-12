@@ -5,6 +5,12 @@ $brand-colors: (
   'salmon': #e58967
 );
 
+:root {
+  @each $key, $value in $brand-colors {
+    --#{$key}: #{$value};
+  }
+}
+
 $header-height: 4.5rem;
 
 .highlight {
