@@ -60,7 +60,7 @@ npm install @ritterim/platform-ui
 {{< block-container class="block-container flex--justify-center" >}}
 {{< block class="block block-11 tablet-up-4 px-2" >}}
 ### CDN Links
-The compiled files of all Platform UI versions are alos hosted on the UNPKG content delivery network via unpkg.com
+The compiled files of all Platform UI versions are also hosted on the UNPKG content delivery network via unpkg.com
 See All Files and Versions
 {{< /block >}}
 {{< block class="block block-11 tablet-up-8 px-2 mt-2" >}}
@@ -93,7 +93,7 @@ Platform UI is built to give frontend developers full control over their UI's. I
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Import your fonts here -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto|Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/platform-ui.min.css" />
   </head>
   <body>

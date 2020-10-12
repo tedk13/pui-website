@@ -1,0 +1,40 @@
+#sidebar-left,
+#sidebar-right {
+  height: calc(100vh - #{$header-height});
+  overflow-y: auto;
+}
+
+#sidebar-left {
+  box-shadow: 3px 3px 5px 0px var(--pui-light-mid);
+}
+
+main {
+  h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -$header-height; 
+    height: $header-height; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+}
+
+.sidebar-menu {
+
+  .pui-accordion {
+
+    &.active {
+      box-shadow: none;
+      .pui-accordion__header {
+        background-color: transparent;
+      }
+
+      > .pui-accordion__header {
+
+        .pui-accordion__icon {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}

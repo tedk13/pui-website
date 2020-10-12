@@ -5,9 +5,7 @@ $brand-colors: (
   'salmon': #e58967
 );
 
-h1, h2, h3, h4, h5 {
-  font-family: "Roboto Slab";
-}
+$header-height: 4.5rem;
 
 .highlight {
   pre {
@@ -17,15 +15,6 @@ h1, h2, h3, h4, h5 {
     code {
       color: unset;
       font-size: 85%;
-    }
-  }
-}
-
-.pui-accordion {
-  &.active {
-    box-shadow: none;
-    .pui-accordion__header {
-      background-color: transparent;
     }
   }
 }

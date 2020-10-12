@@ -1,33 +1,70 @@
-.header-info {
-  @media (max-width: 768px) {
-    position: absolute;
-    right: 7rem;
-  }
-}
-.site-menu-mobile-action {
-  @media only screen and (max-width: 768px) {
-    position: absolute;
-    top: 1.5rem;
-    right: 3rem;
-  }
-}
-.site-menu {
-  background-color: transparent;
-  &.active {
-    background: map-get($brand-colors, 'purple');
-  }
-  .site-menu__item {
-    &.dropdown-active {
+#main-header{
+  .site-menu {
+    background-color: transparent;
+    &.active {
       background: map-get($brand-colors, 'purple');
     }
-    .site-menu__link {
-      &:hover:not(.search):not(.active) {
+    .site-menu__item {
+      &.dropdown-active {
         background: map-get($brand-colors, 'purple');
       }
-      &.active:first-child {
-        font-weight: bold;
-        border-bottom: 1px solid;
+      .dropdown__trigger {
+        &:hover:not(.search):not(.active) {
+          background: map-get($brand-colors, 'purple');
+        }
+        &.active:first-child {
+          font-weight: bold;
+          border-bottom: 1px solid;
+        }
       }
+    }
+
+    .site-menu__link,
+    .dropdown__trigger {
+      position: relative;
+      &:hover {
+        &:before {
+          width: 100%;
+        }
+      }
+      &:before {
+        background-color: var(--pui-white);
+        content: '';
+        height: 2px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        transition: width ease var(--pui-transitions);
+        width: 0;
+        bottom: -1px;
+      }
+
+      &.active {
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (pointer: fine) {
+    .site-menu__item:hover:not(.search):not(.active) {
+      background: map-get($brand-colors, 'purple');
+    }
+  }
+
+  .site-menu-mobile-action {
+    @media only screen and (max-width: 768px) {
+      position: absolute;
+      top: 1.5rem;
+      right: 3rem;
+    }
+  }
+
+  .header-info {
+    @media (max-width: 768px) {
+      position: absolute;
+      right: 7rem;
     }
   }
 }
