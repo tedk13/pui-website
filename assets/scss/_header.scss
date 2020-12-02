@@ -53,14 +53,6 @@
     }
   }
 
-  .site-menu-mobile-action {
-    @media only screen and (max-width: 768px) {
-      position: absolute;
-      top: 1.5rem;
-      right: 3rem;
-    }
-  }
-
   .header-info {
     @media (max-width: 768px) {
       position: absolute;
