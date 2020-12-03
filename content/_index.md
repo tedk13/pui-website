@@ -96,7 +96,7 @@ https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/js/platform-ui.min.js
 Setup
 {{< /heading >}}
 Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
-{{< block-container class="flex--justify-center blocks px-2" >}}
+{{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 lg-tablet-up-8 laptop-up-7" >}}
 {{< highlight html >}}
 <!doctype html>
