@@ -8,21 +8,6 @@
   box-shadow: 3px 3px 5px 0px var(--pui-light-mid);
 }
 
-main {
-  h2,
-  h3 {
-
-    &::before { 
-      display: block; 
-      content: " "; 
-      margin-top: calc(var(--header-height) * -1); 
-      height: var(--header-height); 
-      visibility: hidden; 
-      pointer-events: none;
-    }
-  }
-}
-
 .sidebar-menu {
 
   .pui-accordion {
