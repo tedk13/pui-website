@@ -2,15 +2,15 @@
   .site-menu {
     background-color: transparent;
     &.active {
-      background: map-get($brand-colors, 'purple');
+      background-color: var(--purple);
     }
     .site-menu__item {
       &.dropdown-active {
-        background: map-get($brand-colors, 'purple');
+        background-color: var(--purple);
       }
       .dropdown__trigger {
         &:hover:not(.search):not(.active) {
-          background: map-get($brand-colors, 'purple');
+          background-color: var(--purple);
         }
         &.active:first-child {
           font-weight: bold;
@@ -49,15 +49,7 @@
 
   @media (pointer: fine) {
     .site-menu__item:hover:not(.search):not(.active) {
-      background: map-get($brand-colors, 'purple');
-    }
-  }
-
-  .site-menu-mobile-action {
-    @media only screen and (max-width: 768px) {
-      position: absolute;
-      top: 1.5rem;
-      right: 3rem;
+      background: var(--purple);
     }
   }
 

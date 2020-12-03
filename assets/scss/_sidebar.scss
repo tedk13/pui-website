@@ -1,22 +1,11 @@
 #sidebar-left,
 #sidebar-right {
-  height: calc(100vh - #{$header-height});
+  height: calc(100vh - var(--header-height));
   overflow-y: auto;
 }
 
 #sidebar-left {
   box-shadow: 3px 3px 5px 0px var(--pui-light-mid);
-}
-
-main {
-  h2::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -$header-height; 
-    height: $header-height; 
-    visibility: hidden; 
-    pointer-events: none;
-  }
 }
 
 .sidebar-menu {
@@ -36,5 +25,19 @@ main {
         }
       }
     }
+  }
+}
+
+
+#sidebar-right {
+
+  &:before {
+    background-color: var(--pui-light-mid);
+    content: '';
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
   }
 }

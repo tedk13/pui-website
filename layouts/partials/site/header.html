@@ -1,49 +1,41 @@
-<header id="main-header" class="site-menu-wrapper site-header site-header--fixed background-purple px-4 flex flex--justify-center">
-  <div class="block-container mobile-up-3 flex--align-center h-100">
-    <div class="block tablet-up--shrink mr-2">
-      <a href="/" class="flex flex--align-center">
-        <img src="/images/platform-ui.svg" alt="Platform UI" />
-      </a>
-    </div>
-    <div class="block tablet-up--fill">
-      <button class="site-menu-mobile-action button--plain text-white">
-        <span class="sr-only">Toggle Navigation</span>
-        <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
-      </button>
-      <nav class="site-menu background-purple inverted">
-        {{ $currentPage := . }}
-        {{ $currentSection := $currentPage.Section }}
-        {{ range .Site.Menus.main }}
-          {{ $active := eq $currentSection .Identifier }}
-          {{ if .HasChildren }}
-          <div class="site-menu__item no-border dropdown p-3">
-            <a href="{{ .URL }}" class="dropdown__trigger flex flex--justify-between w-100{{ if $active }} active{{ end }}">
-              {{ .Name }} <i class="pi-angle-right ml-2 site-menu__link-icon"></i>
-            </a>
-            <div class="dropdown__content background-purple">
-              <ul class="pui-list">
-                {{ range .Children }}
-                <li class="m-0">
-                  <a href="{{ .URL }}" class="w-100 px-3 py-2 flex">{{ .Name }}</a>
-                </li>
-                {{ end }}
-              </ul>
-            </div>
-          </div>
-          {{ else }}
-          <div class="site-menu__item no-border p-3">
-            <a href="{{ .URL }}" class="site-menu__link{{ if $active }} active{{end}}">{{ .Name }}</a>
-          </div>
-          {{ end }}
-        {{ end }}
-      </nav>
-    </div>
-    <div class="block tablet-up--shrink inverted header-info">
-      <div class="flex--center-content">
-        <span class="mr-3">v1.1</span>
-        <a class="mr-3 text-white" href="https://rimdev.io"><i class='pi-rimdev-circle'></i></a>
-        <a href="#" class="button button--salmon text-salmon--hover inverted">Get Started</a>
+<header id="main-header" class="site-menu-wrapper site-header site-header--fixed background-purple p-3 flex--align-center flex--justify-start">
+  <a href="/" class="site-logo mr-3">
+    <img src="/images/platform-ui.svg" alt="Platform UI" />
+  </a>
+  <button class="site-menu-mobile-action button--plain text-white pos-abs pin-right pin-center-top mr-3">
+    <span class="sr-only">Toggle Navigation</span>
+    <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
+  </button>
+  <nav class="site-menu hover-underline hover-underline--white text-white">
+    {{ $currentPage := . }}
+    {{ $currentSection := $currentPage.Section }}
+    {{ range .Site.Menus.main }}
+      {{ $active := eq $currentSection .Identifier }}
+      {{ if .HasChildren }}
+      <div class="no-border dropdown p-3">
+        <a href="{{ .URL }}" class="site-menu__item dropdown__trigger flex flex--justify-between w-100{{ if $active }} active{{ end }}">
+          {{ .Name }} <i class="pi-angle-right ml-2 site-menu__link-icon"></i>
+        </a>
+        <div class="dropdown__content background-purple">
+          <ul class="pui-list">
+            {{ range .Children }}
+            <li class="m-0">
+              <a href="{{ .URL }}" class="w-100 px-3 py-2 flex">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
+      {{ else }}
+        <a href="{{ .URL }}" class="site-menu__item{{ if $active }} active{{end}}">{{ .Name }}</a>
+      {{ end }}
+    {{ end }}
+  </nav>
+  <div class="block-container flex--grow">
+    <div class="block block-10 tablet-up-11 lg-tablet-up-12 text-white flex flex--justify-end flex--align-center">
+      <span class="mr-3">v1.1</span>
+      <a class="mr-3 text-white" href="https://rimdev.io"><i class='pi-rimdev-circle'></i></a>
+      <a href="#" class="button button--post">Get Started</a>
     </div>
   </div>
 </header>

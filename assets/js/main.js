@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   const main = document.querySelector('main');
 
   if(toc) {
-    const headings = main.querySelectorAll('h2,h3,h4,h5');
+    const headings = main.querySelectorAll('h2,h3');
     let tocList = document.createElement('ul');
     tocList.classList.add('pui-list')
   
@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       let li = document.createElement('li');
       let a = document.createElement('a');
       if(heading.id) {
+        heading.classList.add('page-anchor-target');
         a.setAttribute('href', '#'+heading.id);
         a.className = 'text-base text-light--hover toc-link';
         a.textContent = heading.innerText;

@@ -5,7 +5,13 @@ $brand-colors: (
   'salmon': #e58967
 );
 
-$header-height: 4.5rem;
+:root {
+  @each $key, $value in $brand-colors {
+    --#{$key}: #{$value};
+  }
+
+  --header-height: var(--pui-menu-height);
+}
 
 .highlight {
   pre {

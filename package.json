@@ -14,7 +14,7 @@
   "author": "RIMdev",
   "license": "ISC",
   "dependencies": {
-    "@ritterim/platform-ui": "^1.1.8",
+    "@ritterim/platform-ui": "^1.1.29",
     "vue": "^2.6.11"
   },
   "devDependencies": {
