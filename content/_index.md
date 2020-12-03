@@ -3,67 +3,83 @@ title: Platform UI
 date: 2018-07-20T12:59:15-04:00
 ---
 
-{{< block-container class="block-container flex--justify-center py-4" >}}
-{{< block class="block block-11 tablet-up-8 desktop-up-6 text--center" >}}
-## Your Project Starts Here
+{{< block-container class="flex--justify-center py-4 cards" >}}
+{{< block class="block-11 tablet-up-8 desktop-up-6 text--center" >}}
+{{< heading heading="h2" class="text--center" >}}
+Your Project Starts Here
+{{< /heading >}}
 Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
 {{< /block >}}
 {{< /block-container >}}
-{{< block-container class="block-container flex--justify-center pb-4" >}}
-{{< block class="block block-7 tablet-up-8" >}}
-{{< block-container class="block-container blocks tablet-up-2 lg-tablet-up-3 laptop-up-4 px-4 flex--justify-center" >}}
-{{< card class="block card text--center hover-scale h-auto no-border" >}}
-### Responsive
+{{< block-container class="flex--justify-center pb-4" >}}
+{{< block class="block-7 tablet-up-8" >}}
+{{< block-container class="blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center" >}}
+{{< block >}}
+{{< card class="card text--center hover-shadow no-border" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+Responsive
+{{< /heading >}}
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
 Platform UI is powered by a responsive grid system. Your design will look great on all screens and resolutions.
 {{< /card >}}
-{{< card class="block card text--center hover-scale h-auto no-border" >}}
-### Customizable
+{{< /block >}}
+{{< block >}}
+{{< card class="card text--center hover-shadow no-border" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+Customizable
+{{< /heading >}}
 {{< figure src="/images/icons/customizable.svg" class="px-4" >}}
 Helps to build a custom design by adding or removing elements, and controlling sizes, colors, and fonts.
 {{< /card >}}
-{{< card class="block card text--center hover-scale h-auto no-border" >}}
-### Free
+{{< /block >}}
+{{< block >}}
+{{< card class="card text--center hover-shadow no-border" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+Free
+{{< /heading >}}
 {{< figure src="/images/icons/github.svg" class="px-4" >}}
 Created as an open source project, Platform UI is available to the general public for use and/or modification from its original design, free of charge.
 {{< /card >}}
-{{< card class="block card text--center hover-scale h-auto no-border" >}}
-### Accessible
+{{< /block >}}
+{{< block >}}
+{{< card class="card text--center hover-shadow no-border" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+Accessible
+{{< /heading >}}
 {{< figure src="/images/icons/accessible.svg" class="px-4" >}}
 HTML elements with accessible color combinations and screen reader utility classes allow you to build accessible web interfaces.
 {{< /card >}}
+{{< /block >}}
 {{< /block-container >}}
 {{< /block >}}
 {{< /block-container >}}
-{{< block-container class="block-container flex--justify-center background-lighter py-4" >}}
-{{< block class="block tablet-up-8 text--center" >}}
-## Quick Start
-{{< /block >}}
-{{< /block-container >}}
-{{< block-container class="block-container flex--justify-center background-lighter pb-2" >}}
-{{< block class="block block-11 tablet-up-8" >}}
-{{< block-container class="block-container flex--justify-center" >}}
-{{< block class="block block-11 tablet-up-4 px-2" >}}
-### Install with Package Manager
+<section class="block-container flex--justify-center background-lighter py-4 px-0">
+{{< block class="block-11 tablet-up-8" >}}
+{{< heading heading="h2" class="text--center" >}}
+Quick Start
+{{< /heading >}}
+{{< block-container class="flex--justify-center blocks p-2" >}}
+{{< block class="block-11 tablet-up-4 laptop-up-5" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+Install with Package Manager
+{{< /heading >}}
 This release contains source files as well as the compiled CSS and JavaScript files.
 {{< /block >}}
-{{< block class="block block-11 tablet-up-8 px-2 mt-2" >}}
+{{< block class="block-11 tablet-up-8 laptop-up-7" >}}
 {{< highlight bash >}}
 npm install @ritterim/platform-ui
 {{< /highlight >}}
 {{< /block >}}
 {{< /block-container >}}
-{{< /block >}}
-{{< /block-container >}}
-{{< block-container class="block-container flex--justify-center background-lighter pb-4" >}}
-{{< block class="block block-11 tablet-up-8" >}}
-{{< block-container class="block-container flex--justify-center" >}}
-{{< block class="block block-11 tablet-up-4 px-2" >}}
-### CDN Links
+{{< block-container class="flex--justify-center blocks p-2" >}}
+{{< block class="block-11 tablet-up-4 laptop-up-5" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+CDN Links
+{{< /heading >}}
 The compiled files of all Platform UI versions are also hosted on the UNPKG content delivery network via unpkg.com
 See All Files and Versions
 {{< /block >}}
-{{< block class="block block-11 tablet-up-8 px-2 mt-2" >}}
+{{< block class="block-11 tablet-up-8 laptop-up-7" >}}
 {{< highlight html >}}
 <!-- Compressed CSS -->
 https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/platform-ui.min.css
@@ -73,17 +89,15 @@ https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/js/platform-ui.min.js
 {{< /block >}}
 {{< /block-container >}}
 {{< /block >}}
-{{< /block-container >}}
-{{< block-container class="block-container flex--justify-center py-4" >}}
-{{< block class="block block-11 tablet-up-8 desktop-up-6 text--center" >}}
-## Setup
+</section>
+<section class="block-container flex--justify-center py-4 px-0">
+{{< block class="block-11 tablet-up-8 desktop-up-6" >}}
+{{< heading heading="h2" class="text--center" >}}
+Setup
+{{< /heading >}}
 Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
-{{< /block >}}
-{{< /block-container >}}
-{{< block-container class="block-container flex--justify-center pb-4" >}}
-{{< block class="block block-11 tablet-up-10 lg-tablet-up-12 laptop-up-10 desktop-up-8" >}}
-{{< block-container class="block-container flex--justify-center" >}}
-{{< block class="block block-11 lg-tablet-up-8 laptop-up-7 pb-4" >}}
+{{< block-container class="flex--justify-center blocks px-2" >}}
+{{< block class="block-11 lg-tablet-up-8 laptop-up-7" >}}
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">
@@ -103,41 +117,45 @@ Platform UI is built to give frontend developers full control over their UI's. I
 </html>
 {{< /highlight >}}
 {{< /block >}}
-{{< block class="block block-11 lg-tablet-up-8 laptop-up-5 px-2" >}}
+{{< block class="block-11 lg-tablet-up-8 laptop-up-5" >}}
 {{< card class="mb-3 pb-0 h-auto" >}}
-{{< block-container class="block-container flex--justify-center flex--align-center" >}}
-{{< block class="block block-4 tablet-up-3 laptop-up-3" >}}
+{{< block-container class="flex--justify-center flex--align-center" >}}
+{{< block class="block-4 tablet-up-3 laptop-up-3" >}}
 {{< figure src="/images/icons/template.svg" >}}
 {{< /block >}}
-{{< block class="block block-11 tablet-up-8 laptop-up-9 text--center px-3" >}}
-### HTML Templates
+{{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+HTML Templates
+{{< /heading >}}
 Start your project with basic HTML template and adapt it to your needs.
 {{< /block >}}
 {{< /block-container >}}
 {{< /card >}}
 {{< card class="mb-3 pb-0 h-auto" >}}
-{{< block-container class="block-container flex--justify-center flex--align-center" >}}
-{{< block class="block block-4 tablet-up-3 laptop-up-3" >}}
+{{< block-container class="flex--justify-center flex--align-center" >}}
+{{< block class="block-4 tablet-up-3 laptop-up-3" >}}
 {{< figure src="/images/icons/fonts.svg" >}}
 {{< /block >}}
-{{< block class="block block-11 tablet-up-8 laptop-up-9 text--center px-3" >}}
-### Fonts
+{{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+Fonts
+{{< /heading >}}
 Import your fonts to the template.
 {{< /block >}}
 {{< /block-container >}}
 {{< /card >}}
 {{< card class="mb-3 pb-0 h-auto" >}}
-{{< block-container class="block-container flex--justify-center flex--align-center" >}}
-{{< block class="block block-4 tablet-up-3 laptop-up-3" >}}
+{{< block-container class="flex--justify-center flex--align-center" >}}
+{{< block class="block-4 tablet-up-3 laptop-up-3" >}}
 {{< figure src="/images/icons/layout.svg" >}}
 {{< /block >}}
-{{< block class="block block-11 tablet-up-8 laptop-up-9 text--center px-3" >}}
-### Layout
+{{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
+{{< heading heading="h3" class="text--size-lg" >}}
+Layout
+{{< /heading >}}
 Customize it with the grid system.
 {{< /block >}}
 {{< /block-container >}}
 {{< /card >}}
 {{< /block >}}
-{{< /block-container >}}
-{{< /block >}}
-{{< /block-container >}}
+</section>

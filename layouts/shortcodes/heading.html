@@ -1,0 +1,25 @@
+{{ if eq (.Get `heading`) "h1" }}
+<h1 class="{{ if .Get `class` }} {{ .Get `class` }}{{ end }}">
+    {{ .Inner | markdownify }}
+</h1>
+{{ else if eq (.Get `heading`) "h2" }}
+<h2 class="{{ if .Get `class` }} {{ .Get `class` }}{{ end }}">
+    {{ .Inner | markdownify }}
+</h2>
+{{ else if eq (.Get `heading`) "h3" }}
+<h3 class="{{ if .Get `class` }} {{ .Get `class` }}{{ end }}">
+    {{ .Inner | markdownify }}
+</h3>
+{{ else if eq (.Get `heading`) "h4" }}
+<h4 class="{{ if .Get `class` }} {{ .Get `class` }}{{ end }}">
+    {{ .Inner | markdownify }}
+</h4>
+{{ else if eq (.Get `heading`) "h5" }}
+<h5 class="{{ if .Get `class` }} {{ .Get `class` }}{{ end }}">
+    {{ .Inner | markdownify }}
+</h5>
+{{ else if eq (.Get `heading`) "h6" }}
+<h6 class="{{ if .Get `class` }} {{ .Get `class` }}{{ end }}">
+    {{ .Inner | markdownify }}
+</h6>
+{{ end }}
