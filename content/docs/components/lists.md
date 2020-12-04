@@ -6,7 +6,9 @@ date: 2018-07-20T12:59:15-04:00
 The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The `li`s in those lists have `margin-bottom: .5rem`.
 Each `post-item` also has a `border-bottom` all except the last item in the list.
 
-## Post Lists
+{{< heading heading="h2" id="post-lists">}}
+Post Lists
+{{< /heading >}}
 
 A `post-list` is a pretty basic list. The margin and padding is removed from the list itself. The `post-item`s which should be added to the `li`s in the list, have a `padding-bottom: 1rem` and `margin-bottom: 1rem`.
 
@@ -54,7 +56,9 @@ You can add some arrow icons to be in front of each `li` by adding the class `po
  {{< /highlight >}}
 </div>
 
-## pui-list
+{{< heading heading="h2" id="pui-list">}}
+pui-list
+{{< /heading >}}
 
 The pui-list is a simplified list that strips the `list-style-type`, `margin`, and `padding`.
 You can have a bordered list by adding the `pui-list--bordered` modifier. Be sure to add the class `pui-list__item` to the li.

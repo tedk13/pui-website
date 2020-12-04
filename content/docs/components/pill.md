@@ -8,7 +8,9 @@ A pill can support color by adding a text or background modifier.
 Pills have no hover state.
 
 
-## Default
+{{< heading heading="h2" id="default">}}
+Default
+{{< /heading >}}
 
 A pill can also have a label of it's own.
 A slight variation of a pill is a straight circle with a very small amount of content.
@@ -44,7 +46,9 @@ A slight variation of a pill is a straight circle with a very small amount of co
 </div>
 
 
-## Split
+{{< heading heading="h2" id="split">}}
+Split
+{{< /heading >}}
 
 <div class="pill pill--split">
   <div class="pill__label">Left:</div>
@@ -79,7 +83,9 @@ A slight variation of a pill is a straight circle with a very small amount of co
 </div>
 
 
-## Close
+{{< heading heading="h2" id="close">}}
+Close
+{{< /heading >}}
 
 <div class="pill">
  <div class="pill__close"><i class="pi-times-solid text-salmon"></i></div>
@@ -96,7 +102,9 @@ A slight variation of a pill is a straight circle with a very small amount of co
 </div>
 
 
-## Circle
+{{< heading heading="h2" id="circle">}}
+Circle
+{{< /heading >}}
 Pills can be circular. Sizes above `dot`, can have content. They come in 5 sizes, `dot`, `empty`, `pill--circle` (_default_), `pill--circle-medium`, `pill--circle-large`
 
 

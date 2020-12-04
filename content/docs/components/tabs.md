@@ -64,7 +64,9 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 </div>
 
 
-## Tabs Flat
+{{< heading heading="h2" id="tabs-flat">}}
+Tabs Flat
+{{< /heading >}}
 
 If you want the borders removed from the tabs, add the class `pui-tab--flat` to the `pui-tab`.
 
@@ -122,7 +124,9 @@ If you want the borders removed from the tabs, add the class `pui-tab--flat` to 
 
 
 
-## Tabs Flat-Responsive 
+{{< heading heading="h2" id="tabs-flat-responsive ">}}
+Tabs Flat-Responsive 
+{{< /heading >}}
 
 The flat tabs do not change at lower/higher screen resolutions. You can make the tabs respond, however, by adding
 the class `responsive` to `pui-tabs pui-tabs--flat`. This will make the tabs stack at the mobile breakpoint and 

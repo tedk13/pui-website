@@ -17,29 +17,29 @@ best used in cases where less content will be needed.
 
 
 
- <div class="block-container">
-   <button class="button button--post button--lg pui-drawer__open mr-2" data-drawer="default">Toggle default drawer</button>
-   <button class="button button--post button--lg pui-drawer__open" data-drawer="single-row">Toggle single row drawer</button>
- </div>
- <div id="default" class="pui-drawer pui-drawer-bottom pui-drawer--closed animated slideInUp fastest">
-   <div class="pui-drawer__inner animated slideInUp fastest">
-     <div class="pui-drawer__header">
-       <button class="button pui-drawer__close" data-drawer="default">Close <i class="pi-times" aria-hidden="true"></i></button>
-       <h3 class="mb-2">Header.</h3>
-     </div>
-     <div class="pui-drawer__content">
-       <p>Content.</p>
-     </div>
-   </div>
- </div>
- <div id="single-row" class="pui-drawer pui-drawer-bottom pui-drawer--single-row pui-drawer--closed animated slideInUp fastest">
-   <div class="pui-drawer__inner animated slideInUp fastest">
-     <div class="pui-drawer__content">
-       <button class="button pui-drawer__close" data-drawer="single-row">Close <i class="pi-times" aria-hidden="true"></i></button>
-       <p>Single row drawer without a header.</p>
-     </div>
-   </div>
- </div>
+<div class="block-container">
+  <button class="button button--post button--lg pui-drawer__open mr-2" data-drawer="default">Toggle default drawer</button>
+  <button class="button button--post button--lg pui-drawer__open" data-drawer="single-row">Toggle single row drawer</button>
+</div>
+<div id="default" class="pui-drawer pui-drawer-bottom pui-drawer--closed animated slideInUp fastest">
+  <div class="pui-drawer__inner animated slideInUp fastest">
+    <div class="pui-drawer__header">
+      <button class="button pui-drawer__close" data-drawer="default">Close <i class="pi-times" aria-hidden="true"></i></button>
+      <h3 class="mb-2">Header.</h3>
+    </div>
+    <div class="pui-drawer__content">
+      <p>Content.</p>
+    </div>
+  </div>
+</div>
+<div id="single-row" class="pui-drawer pui-drawer-bottom pui-drawer--single-row pui-drawer--closed animated slideInUp fastest">
+  <div class="pui-drawer__inner animated slideInUp fastest">
+    <div class="pui-drawer__content">
+      <button class="button pui-drawer__close" data-drawer="single-row">Close <i class="pi-times" aria-hidden="true"></i></button>
+      <p>Single row drawer without a header.</p>
+    </div>
+  </div>
+</div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
@@ -70,7 +70,9 @@ best used in cases where less content will be needed.
 </div>
 
 
-## Drawer Right
+{{< heading heading="h2" id="drawer-right">}}
+Drawer Right
+{{< /heading >}}
 
 This Drawer slides in from the right.
 
@@ -108,7 +110,9 @@ This Drawer slides in from the right.
  </div>
 
 
-## Drawer Left
+{{< heading heading="h2" id="drawer-left">}}
+Drawer Left
+{{< /heading >}}
 
 This Drawer slides in from the left.
 

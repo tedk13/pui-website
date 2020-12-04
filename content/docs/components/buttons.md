@@ -25,7 +25,9 @@ The default platform button. Usually paired visually with an icon. Can be the de
 </div>
 
 
-## Secondary
+{{< heading heading="h2" id="secondary">}}
+Secondary
+{{< /heading >}}
 
 The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
 
@@ -42,7 +44,9 @@ The secondary platform button. Always a round button paired with a Platform icon
 </div>
 
 
-## Secondary - Text
+{{< heading heading="h2" id="secondary-text">}}
+Secondary - Text
+{{< /heading >}}
 
 If you want to use the secondary button for the look and hover effect, but you need to include text, you can.
 Include the class `has-text` on the secondary button. So the classes would be, `button button--secondary has-text`.
@@ -72,7 +76,9 @@ You can use `has-text` in combination with `data-button-text="Some Text"` and yo
 </div>
 
 
-## Post
+{{< heading heading="h2" id="post">}}
+Post
+{{< /heading >}}
 
 Used exclsively in Post, or blog, content imported into the platform. e.g., CRM dashboard.
 
@@ -90,7 +96,9 @@ Used exclsively in Post, or blog, content imported into the platform. e.g., CRM 
 </div>
 
 
-## Group
+{{< heading heading="h2" id="group">}}
+Group
+{{< /heading >}}
 
 Evenly space any group of buttons.
 
@@ -113,7 +121,9 @@ Evenly space any group of buttons.
 </div>
 
 
-## Loading
+{{< heading heading="h2" id="loading">}}
+Loading
+{{< /heading >}}
 
 Buttons with a loading icon. Example for form submissions.
 
@@ -166,7 +176,9 @@ submit, you would add `<span class="sr-only">Loading...</span>` the class
 `sr-only` is key to prevent the button from changin size.
 
 
-## Accessibility
+{{< heading heading="h2" id="accessibility">}}
+Accessibility
+{{< /heading >}}
 
 For our links that should look like buttons, and contain an icon, we need to add specific
 `aria-roles` for accessibility.
@@ -191,7 +203,9 @@ Learn more about <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibi
 </div>
 
 
-## Active
+{{< heading heading="h2" id="active">}}
+Active
+{{< /heading >}}
 
 By adding the class `active` to a button, the button's hover effect is mimicked.
 
@@ -222,7 +236,9 @@ By adding the class `active` to a button, the button's hover effect is mimicked.
 </div>
 
 
-## Disabled
+{{< heading heading="h2" id="disabled">}}
+Disabled
+{{< /heading >}}
 
 To make a button look inactive, add the disabled attribute.
 
@@ -281,7 +297,9 @@ Although the links look disabled and have the css property of `pointer-events: n
 To ensure that your users could not interact with disabled links, it's recommended to use JavaScript to disable functionality further.
 
 
-## Colors
+{{< heading heading="h2" id="colors">}}
+Colors
+{{< /heading >}}
 
 We loop through a map to give you these color variations. The white button is not in this map however. A white ghost button, on hover, will resemble
 our standard `.button` look. You can get really fancy if you want by adding a specific text color on hover with any of these buttons. See the second

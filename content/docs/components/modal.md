@@ -192,7 +192,9 @@ You may run into issues where the background scrolls while your modal is open. T
  
 
 
-## Dialog Modal
+{{< heading heading="h2" id="dialog-modal">}}
+Dialog Modal
+{{< /heading >}}
 
 To make a dialog box using the pui-modal, remove `pui-modal__header` from the modal. The header is typically reserved for
 a modal title as well as a close button. In the case of most dialogs, the options you choose will close the modal so the
