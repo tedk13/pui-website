@@ -1,14 +1,13 @@
-#sidebar-right {
+#sidebar-right,
+#sidebar-left {
   height: calc(100vh - var(--header-height));
   overflow-y: auto;
-  padding: 1rem;
 }
 
 #sidebar-left {
-
-  .sidebar-wrapper {
-    box-shadow: 3px 3px 5px 0px var(--light-mid);
-  }  
+  box-shadow: 3px 3px 5px 0px var(--light-mid);
+  position: sticky;
+  top: var(--header-height);
 }
 
 .sidebar-menu {

@@ -29,17 +29,15 @@
 
       <div class="block-container{{ if not .IsHome }} h-100{{ end }}">
         {{ if not .IsHome }}
-        <nav id="sidebar-left" class="block block-11 tablet-up-2" role="sidebar">
-          <div class="sidebar-wrapper py-3">
-            <div class="form form--rounded px-2 mb-3 pb-2">
-              <label for="search" class="form__field pos-rel">
-                <span class="sr-only">Type to Search</span>                
-                <input id="search" class="pl-4" type="text" placeholder="Type to Search">
-                <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1"></i>
-              </label>
-            </div>
-            {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
+        <nav id="sidebar-left" class="block block-11 tablet-up-2 py-3" role="sidebar">
+          <div class="form form--rounded px-2 mb-3 pb-2">
+            <label for="search" class="form__field pos-rel">
+              <span class="sr-only">Type to Search</span>                
+              <input id="search" class="pl-4" type="text" placeholder="Type to Search">
+              <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1"></i>
+            </label>
           </div>
+          {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
         </nav>
         {{ end }}
         <main class="block{{ if not .IsHome }} block-11 tablet-up-8 p-3{{ end }}" role="main">
@@ -48,7 +46,7 @@
         {{ end }}
         </main>
         {{ if not .IsHome }}
-        <nav id="sidebar-right" class="block block-11 tablet-up-2 pos-fix pin-right h-100 background-white" role="sidebar">
+        <nav id="sidebar-right" class="block block-11 tablet-up-2 pos-fix pin-right h-100 background-white p-3" role="sidebar">
           <h3>On This Page</h3>
           <div id="toc"></div>
         </nav>

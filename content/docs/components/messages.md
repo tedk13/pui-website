@@ -56,5 +56,5 @@ These are examples of global messages or alerts
 <div class="pui-message pui-message--info" data-header="Alternate heading based on data-header">
   <p>This is an example of a message that displays some simple information.</p>
 </div>
-{{< highlight html >}}
+{{< /highlight >}}
 </div>
