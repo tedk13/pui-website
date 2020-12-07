@@ -2,7 +2,9 @@
 title: Typography
 date: 2018-07-20T12:59:15-04:00
 ---
-## Headings
+{{< heading heading="h2" id="headings">}}
+Headings
+{{< /heading >}}
 
 <div class="pui-card block-container mb-3 flex--align-center">
   <div class="block block-6">
@@ -106,7 +108,9 @@ date: 2018-07-20T12:59:15-04:00
 {{< /highlight >}}
 </div>
 
-## Paragraphs
+{{< heading heading="h2" id="paragraphs">}}
+Paragraphs
+{{< /heading >}}
 
 <div class="pui-card block-container mb-3 flex--align-center">
   <div class="block block-6">
@@ -133,12 +137,16 @@ date: 2018-07-20T12:59:15-04:00
 </div>
 
 
-## Typography Utilities
+{{< heading heading="h2" id="typography-utilities">}}
+Typography Utilities
+{{< /heading >}}
 
 Below are some of our typography utilities.
 
 
-## Color
+{{< heading heading="h2" id="color">}}
+Color
+{{< /heading >}}
 
 `text-{ color }`, `text-{ color }--hover` combines our [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
 
@@ -184,7 +192,9 @@ Below are some of our typography utilities.
 </div>
  
 
-## Sizing
+{{< heading heading="h2" id="sizing">}}
+Sizing
+{{< /heading >}}
 
 `text--size-{ size }` leverages percetages for smaller or larger text. The defaut `font-size` is `1rem`.
 
@@ -217,7 +227,9 @@ Below are some of our typography utilities.
 
  
 
-## General
+{{< heading heading="h2" id="general">}}
+General
+{{< /heading >}}
 
 General utilities add class-based css transforms like `uppercase` and `bold`. See the chart below for the full list.
 
@@ -256,7 +268,9 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
  
 
 
-## Text Shadow
+{{< heading heading="h2" id="text-shadow">}}
+Text Shadow
+{{< /heading >}}
 
 You can add a text-shadow to an element using colors from our [greyscale](/section-color.html#kssref-color-greyscale) map.
 

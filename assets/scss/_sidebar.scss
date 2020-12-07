@@ -1,6 +1,7 @@
 #sidebar-right {
   height: calc(100vh - var(--header-height));
   overflow-y: auto;
+  padding: 1rem;
 }
 
 #sidebar-left {

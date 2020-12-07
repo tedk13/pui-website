@@ -2,7 +2,9 @@
 title: Layout
 date: 2018-07-20T12:59:15-04:00
 ---
-## Block Grid
+{{< heading heading="h3" id="block-grid">}}
+Block Grid
+{{< /heading >}}
 
 Blocks are Platform UI's core structural component. Here are some of the features and concepts behind our grid.
 
@@ -13,7 +15,9 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 - Using `block-container` and adding `block` children will give you an evenly distributed block grid.
 - If a resposive pattern is not placed on `block-container tablet-up-4`, responsive modifiers can be placed on the `block-{number}` level item as well. The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
 
-### 12 Columns
+{{< heading heading="h3" id="columns">}}
+12 Columns
+{{< /heading >}}
 
 <div class="block-container blocks-px-2 blocks-py-2">
   <div class="block block-1">
@@ -255,7 +259,9 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 {{< /highlight >}}
 </div>
 
-### Standard Grid
+{{< heading heading="h3" id="standard-grid">}}
+Standard Grid
+{{< /heading >}}
 
 <div class="block-container blocks-px-2 blocks-py-2 tablet-up-3 laptop-up-4">
   <div class="block">
@@ -307,7 +313,9 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 {{< /highlight >}}
 </div>
 
-### Responsive Grid with Flex
+{{< heading heading="h3" id="responsive-grid-with-flex">}}
+Responsive Grid with Flex
+{{< /heading >}}
 
 <div class="mb-4">
 {{< highlight html >}}
@@ -375,7 +383,9 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 </div>
 
 
-## Block grid breakpoints
+{{< heading heading="h3" id="block-grid-breakpoints">}}
+Block grid breakpoints
+{{< /heading >}}
 
 Spacing in Platform UI is based on `rem` values with the exception of breakpoints.
 
