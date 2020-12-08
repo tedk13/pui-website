@@ -1,4 +1,4 @@
-#main-header{
+#main-header {
   .site-menu {
     background-color: transparent;
     &.active {
@@ -29,7 +29,7 @@
       }
       &:before {
         background-color: var(--pui-white);
-        content: '';
+        content: "";
         height: 2px;
         left: 0;
         position: absolute;

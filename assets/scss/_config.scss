@@ -1,8 +1,8 @@
 // PUI brand colors
 $brand-colors: (
-  'purple':   #31225C,
-  'light-purple':#604D9E,
-  'salmon': #e58967
+  "purple": #31225c,
+  "light-purple": #604d9e,
+  "salmon": #e58967,
 );
 
 :root {
@@ -15,8 +15,8 @@ $brand-colors: (
 
 .highlight {
   pre {
-    padding: .5rem;
-    border-radius: .5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     overflow-x: scroll;
     code {
       color: unset;

@@ -9,9 +9,7 @@
 }
 
 .sidebar-menu {
-
   .pui-accordion {
-
     &.active {
       box-shadow: none;
       .pui-accordion__header {
@@ -19,7 +17,6 @@
       }
 
       > .pui-accordion__header {
-
         .pui-accordion__icon {
           transform: rotate(90deg);
         }
@@ -28,12 +25,10 @@
   }
 }
 
-
 #sidebar-right {
-
   &:before {
     background-color: var(--pui-light-mid);
-    content: '';
+    content: "";
     height: 200px;
     left: 0;
     position: absolute;
