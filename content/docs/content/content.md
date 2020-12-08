@@ -2,7 +2,9 @@
 title: Content
 date: 2018-07-20T12:59:15-04:00
 ---
-## Fonts
+{{< heading heading="h2" id="fonts">}}
+Fonts
+{{< /heading >}}
 
 Platform UI also considers font strategy; Specific to legibility in the scope of our appliactions, we've chosen the following Google webfonts:
 
@@ -15,7 +17,9 @@ Platform UI also considers font strategy; Specific to legibility in the scope of
 
 Nunito and Roboto both being members of Google fonts [Superfamilies](https://fonts.google.com/featured/Superfamilies). Combined link reference:
 
-### Standard embed
+{{< heading heading="h3" id="standard-embed">}}
+Standard embed
+{{< /heading >}}
 
 Include a `<link>` reference in your document `<head>`:
 
@@ -25,7 +29,9 @@ Include a `<link>` reference in your document `<head>`:
 {{< /highlight >}}
 </div>
 
-### @import
+{{< heading heading="h3" id="import">}}
+@import
+{{< /heading >}}
 
 If your incorporating Platform UI into your own build pipeline, you may want to consider importing this font stack via a seperate css sheet.
 
@@ -36,7 +42,9 @@ If your incorporating Platform UI into your own build pipeline, you may want to 
 {{< /highlight >}}
 </div>
 
-## Icons
+{{< heading heading="h2" id="icons">}}
+Icons
+{{< /heading >}}
 
 Platform UI has a specific scope when considering icon fonts. While there's little doubt as to Font Awesome's formidable library, it's grown quite large for our needs, so we've developed a smaller companion icon font to Platform UI...Platform icons.
 
@@ -45,32 +53,56 @@ As with our Font usage, we recommend downloading and storing Platform Icons loca
 
 [Download]()
 
-## Typography
+{{< heading heading="h2" id="typography">}}
+Typography
+{{< /heading >}}
 
-### Headlines
+{{< heading heading="h3" id="headlines">}}
+Headlines
+{{< /heading >}}
 
-### Paragraphs
+{{< heading heading="h3" id="paragraphs">}}
+Paragraphs
+{{< /heading >}}
 
-## Utilities
+{{< heading heading="h2" id="utilities">}}
+Utilities
+{{< /heading >}}
 
-### Borders
-### Close action
+{{< heading heading="h3" id="borders">}}
+Borders
+{{< /heading >}}
+{{< heading heading="h3" id="close-action">}}
+Close action
+{{< /heading >}}
 
 _**Move this over to buttons, it's NOT a utility.**_
 
 _**The example does not relfect a clear close action.**_
 
-### Background Colors
-### Inverted
-### Transparent
-### Pointer (not Cursor pointer)
-### Display
+{{< heading heading="h3" id="background-colors">}}
+Background Colors
+{{< /heading >}}
+{{< heading heading="h3" id="inverted">}}
+Inverted
+{{< /heading >}}
+{{< heading heading="h3" id="transparent">}}
+Transparent
+{{< /heading >}}
+{{< heading heading="h3" id="pointer-not-cursor-pointer">}}
+Pointer (not Cursor pointer)
+{{< /heading >}}
+{{< heading heading="h3" id="display">}}
+Display
+{{< /heading >}}
 
 Not everything works the way you want it to, so we've provided utilities for print and responsive display.
 
 To hide altogether via `hidden`, or a print specifc consideration, to `show-` or `hide-print` it's fairly simple.
 
-#### Display and @print
+{{< heading heading="h4" id="display-print">}}
+Display and @print
+{{< /heading >}}
 
 | Target    | class        | display |
 |-----------|--------------|---------|
@@ -78,7 +110,9 @@ To hide altogether via `hidden`, or a print specifc consideration, to `show-` or
 | `@print`  | `show-print` | `block` |
 | `@print`  | `hide-print` | `none`  |
 
-#### Responsive display 
+{{< heading heading="h4" id="responsive-display ">}}
+Responsive display 
+{{< /heading >}}
 
 Responsive display becomes more complex. Intent to `show-` or `hide-`, then determine your target resolution e.g., `mobile-only`. 
 
@@ -127,13 +161,17 @@ The button will be show only on mobile resolution.
 {{< /highlight >}}
 </div>
 
-### Flex
+{{< heading heading="h3" id="flex">}}
+Flex
+{{< /heading >}}
 
 Leveraging flexbox is easy with Platform UI. For more on [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ...
 
-### Position
+{{< heading heading="h3" id="position">}}
+Position
+{{< /heading >}}
 
 Position fixed, `pos-fix`, takes an element out of the natural DOM order.
 
@@ -146,7 +184,9 @@ When positioning an element absolute, the element will position according to the
 
 
 
-### Color
+{{< heading heading="h3" id="color">}}
+Color
+{{< /heading >}}
 
 Color is one of the largest extensions of utilities in Platform UI. All colors set in the `_config.scss`, along with Platform UI's default greyscale, are generated into utilities for `color` (text) and `background-color`. 
 
@@ -159,7 +199,9 @@ Usage will be governed by color naming conventions set either by Platform UI, or
 | Background color | `background-{color name}` | `background-navy`|
 
 
-#### CSS variables
+{{< heading heading="h4" id="css-variables">}}
+CSS variables
+{{< /heading >}}
 
 Not every design system, or framework, covers every need. There may be that custom-thing-you-want, but you'd still like to incorporate the style of what you've already built.
 

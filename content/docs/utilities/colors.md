@@ -4,7 +4,9 @@ date: 2018-07-20T12:59:15-04:00
 ---
 Find some utility classes that you can use to use along our existing color classes.
 
-## Background Colors 
+{{< heading heading="h2" id="background-colors">}}
+Background Colors 
+{{< /heading >}}
 
 These classes are to be used to set, or change a background-color on a specific element. Similar to our `text-{color}` classes.
 You can view our list of colors [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
@@ -30,12 +32,16 @@ You can view our list of colors [greyscale](/section-color.html#kssref-color-gre
 | `background-transparent`  |                          |                           |                            |
 
 
-## Inverted
+{{< heading heading="h2" id="inverted">}}
+Inverted
+{{< /heading >}}
 
 The `inverted` class changes the color of an element to white. It has a transition, so after the class is added, the color
 will transition to white.
 
-## Transparent
+{{< heading heading="h2" id="transparent">}}
+Transparent
+{{< /heading >}}
 
 If you want to remove the background color and border color on an element, add the class `transparent`.
 

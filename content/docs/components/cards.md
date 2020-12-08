@@ -29,7 +29,9 @@ Note: The use of the block-container and block classes are only to give the pui-
 </div>
 
 
-## Headers
+{{< heading heading="h2" id="headers">}}
+Headers
+{{< /heading >}}
 
 For the headings in your cards, you generally want to wrap them in the class `pui-card__header`. This works best when you
 have a layout of inline content that should have space between. The class `pui-card__group` will give the element `display: flex`.
@@ -71,7 +73,9 @@ When it is nested inside the class `pui-card__header` it will also have `align-i
 </div>
 
 
-## Image Card
+{{< heading heading="h2" id="image-card">}}
+Image Card
+{{< /heading >}}
 
 Images can be placed at the top of cards. The `<img>` element gets the class `pui-card__image` and is expected to be the first child element of the card.
 When `rounded-` modifiers are used on the card, the image takes on the radius as well. Other modifiers can be used as needed.
@@ -216,7 +220,9 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
 </div>
 
 
-## Content Overflow
+{{< heading heading="h2" id="content-overflow">}}
+Content Overflow
+{{< /heading >}}
 
 If you have a lot of content in a card that is causing other cards to grow too much, you could add the class
 `pui-card__content--scroll` to the `pui-card__content` in order to set a height and add an `overflow-y: auto;`.

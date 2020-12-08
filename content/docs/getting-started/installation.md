@@ -2,17 +2,23 @@
 title: Installation
 date: 2018-07-20T12:59:15-04:00
 ---
-## Download version xxx
+{{< heading heading="h2" id="download-version">}}
+Download version xxx
+{{< /heading >}}
 
 Get platform UI in the flavour that best suites your project!
 
-### Compiled CSS and JS
+{{< heading heading="h3" id="compiled-css-and-js">}}
+Compiled CSS and JS
+{{< /heading >}}
 
 Compiled minified versions of Sass and JS source. 
 
 [Download](test)
 
-### Source Files
+{{< heading heading="h3" id="source-files">}}
+Source Files
+{{< /heading >}}
 
 You can also download the source files, uncompiled Sass and JS, to compile on your own. 
 
@@ -20,7 +26,9 @@ You can also download the source files, uncompiled Sass and JS, to compile on yo
 
 [Download Source](test)
 
-### NPM
+{{< heading heading="h3" id="npm">}}
+NPM
+{{< /heading >}}
 
 Add Platform UIs source files to your build. [Autoprefixer](https://github.com/postcss/autoprefixer), [Normalize](https://github.com/necolas/normalize.css/), and version 1.23 or higher of the [Sass](https://www.npmjs.com/package/sass) compiler will be needed to successfully build Platform UI.
 
@@ -30,11 +38,15 @@ $ npm install @ritterim/platform-ui
 {{< /highlight >}}
 </div>
 
-### CDN
+{{< heading heading="h3" id="cdn">}}
+CDN
+{{< /heading >}}
 
 While we don't host a dedicated CDN version of Platform UI, if you prefer, you can always access any npm package using [UNPKG](https://unpkg.com/).
 
-## Theming
+{{< heading heading="h2" id="theming">}}
+Theming
+{{< /heading >}}
 
 Both the downloaded and npm versions of Platform UI give you access to the config file `_config.scss`. Color maps, component and base defaults, and, breakpoints for Platfrom UI are set here. Direct access to this file in your custom build allow you to customize the compiled feel of Platform UI.
 

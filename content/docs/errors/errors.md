@@ -7,7 +7,9 @@ These classes affect Pills and Text only.
 If you come across a scenario/combination where these are not applied, or not applied as expected, contact the Platform UI team.
 Styleguide Errors
 
-## Errors text
+{{< heading heading="h2" id="errors-text">}}
+Errors text
+{{< /heading >}}
 
 <p class="text-positive">Positive</p>
 <p class="text-negative">Negative</p>
@@ -22,7 +24,9 @@ Styleguide Errors
 </div>
 
 
-## Error Pills
+{{< heading heading="h2" id="error-pills">}}
+Error Pills
+{{< /heading >}}
 Throughout the Platform, we leverage a concept of `positive`, `Negative`, and `Neutral` for success, errors, and no change, or neutral states.
 
 <div class="pill pill--circle-empty positive"></div>

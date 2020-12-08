@@ -10,7 +10,7 @@ $brand-colors: (
     --#{$key}: #{$value};
   }
 
-  --header-height: var(--pui-menu-height);
+  --header-height: 4.5rem;
 }
 
 .highlight {

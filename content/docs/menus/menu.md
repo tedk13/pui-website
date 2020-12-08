@@ -115,7 +115,9 @@ You can also invert the colors of the site-menu by adding the classes `.primary`
 </div>
 
 
-## Fixed Header
+{{< heading heading="h2" id="fixed-header">}}
+Fixed Header
+{{< /heading >}}
 
 To get a fixed header you can set the desired height in the config file. The `site-header` needs the modifier, `site-header--fixed`. This is what gives the header the `position: fixed` style.
 In order to ensure that you have proper space between your header and main content, add the class `header-fixed` to the direct sibling of your `site-header`.
@@ -123,7 +125,9 @@ To see this in action, inspect the header of this style guide.
 
 
 
-## Responsive Menu
+{{< heading heading="h2" id="responsive-menu">}}
+Responsive Menu
+{{< /heading >}}
 
 If you want the site menu to be responsive, add the class `site-menu-wrapper` to the parent element of the `site-menu`.
 In the example below, the class is added to the `header`. You will also need to add a button to toggle the menu. Below, you see we
@@ -261,7 +265,9 @@ is active. In the example below we're using a platform icon. `<i class="pi-angle
  
  
 
-## Icon Menu
+{{< heading heading="h2" id="icon-menu">}}
+Icon Menu
+{{< /heading >}}
 
 When you need a horizontal list of icons, look no further than "Icon Menu". Use the mark up below
 to get the list you want. Be sure to use the specific `icon-menu` classes. With this strcuture you have

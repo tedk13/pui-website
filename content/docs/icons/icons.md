@@ -2385,7 +2385,9 @@ clipboard.on('success', function(e) {
 </script>
 
 
-## Setup
+{{< heading heading="h2" id="setup">}}
+Setup
+{{< /heading >}}
 | source| default|
 | ------- | ----- |
 | artboard | 4" x 4" |
@@ -2398,7 +2400,9 @@ clipboard.on('success', function(e) {
 | ----- |
 
 
-## Sizing
+{{< heading heading="h2" id="sizing">}}
+Sizing
+{{< /heading >}}
 
 | class | size |
 | ------- | ----- |
