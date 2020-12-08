@@ -24,7 +24,7 @@ $header-line-widths:(
     overflow: hidden;
     margin: 0 0 0.6rem 0;
     font-size: map-get($headers, 'h1');
-    width: map-get($line-widths, 'full');
+    width: map-get($header-line-widths, 'full');
 
     // Header tag modifiers, creates modifiers based on mapped header above
     @each $type, $size in $headers {
