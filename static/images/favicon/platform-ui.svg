@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="35.477" height="46.197" viewBox="0 0 35.477 46.197">
   <style>
-    path { fill: #31225C; }
+    path, circle { fill: #31225C; }
     @media (prefers-color-scheme: dark) {
-      path { fill: #ffffff; }
+      path, circle { fill: #ffffff; }
     }
   </style>
   <g id="Group_344" data-name="Group 344" transform="translate(-322.342 -861.727)">
