@@ -1,0 +1,63 @@
+// Add in the font-sizes of your headers here:
+$headers: (
+  "h1": 2rem,
+  "h2": 1.8rem,
+  "h3": 1.6rem,
+  "h4": 1.4rem,
+  "h5": 1.2rem,
+  "h6": 1rem,
+);
+
+$header-line-widths: (
+  "sm": 25%,
+  "md": 50%,
+  "lg": 75%,
+  "full": 100%,
+);
+
+.skeleton {
+  &__header {
+    box-sizing: border-box;
+    height: 1em;
+    background: #cdcdcd;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0 0 0.6rem 0;
+    font-size: map-get($headers, "h1");
+    width: map-get($header-line-widths, "full");
+
+    // Header tag modifiers, creates modifiers based on mapped header above
+    @each $type, $size in $headers {
+      &--#{$type} {
+        font-size: $size;
+      }
+    }
+
+    // Line Width Modifiers
+    @each $width-label, $width in $header-line-widths {
+      &--#{$width-label} {
+        width: $width;
+      }
+    }
+  }
+  &__paragraph {
+    display: flex;
+    flex-flow: column;
+  }
+  &__paragraph-line {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.2rem;
+    margin-bottom: 0.6em;
+    background: #ddd;
+    border-radius: 3px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // This means if there is only 1 line it will be full width, otherwise the last-child will only be 50% width
+  &__paragraph-line + &__paragraph-line:last-child {
+    width: 50%;
+  }
+}
