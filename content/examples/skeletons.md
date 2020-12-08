@@ -76,7 +76,10 @@ You can create skeleton paragraphs by applying the `.skeleton__paragraph` class 
 </div>
 {{< /highlight >}}
 
-Note: As long as there is more than one line, the last span tag will always be at 50% width.
+<div class="message message--info">
+  <p>If there is more than one line, the last span tag will always be at 50% width.</p>
+</div>
+
 
 ## Paragraph JavaScript Utility
 We've also built in a JavaScript utility to help create paragraphs easier. Create an empty `div` and apply the `.skeleton__paragraph-container` class to it. Next add the `data-lines` attribute and set it to however many lines you'd like the paragraph to include, such as:
