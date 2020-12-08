@@ -8,7 +8,7 @@ $headers:(
   'h6': 1em
 );
 
-$line-widths:(
+$header-line-widths:(
   'sm': 25%,
   'md': 50%,
   'lg': 75%,
@@ -34,7 +34,7 @@ $line-widths:(
     }
     
     // Line Width Modifiers
-    @each $width-label, $width in $line-widths{
+    @each $width-label, $width in $header-line-widths{
       &--#{$width-label}{
         width: $width;
       }
