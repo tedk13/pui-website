@@ -65,20 +65,17 @@ $skeleton-color: #EFEFEF;
   }
 }
 
-p {
-  .skeleton__line {
-    // margin-bottom: 0.6em;
-  }
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  padding: 0;
+  &.skeleton{
+    margin: 0;
+    padding: 0;
+  }
+
   .skeleton__line {
     background:darken($skeleton-color, 5%);
   }
