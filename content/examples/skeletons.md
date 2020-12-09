@@ -5,10 +5,10 @@ summary: How to add skeleton screen content components
 ---
 
 ## Basic Usage
-Skeleton content can be utilized within the Platform UI styleguide to replace placeholder text in demos. We've come up with a simple way to add skeletons content within any element or component using CSS.
+Skeleton content can be utilized within the Platform UI styleguide to replace placeholder text in demos. We've come up with a simple way to add skeleton content within any element or component using CSS.
 
 ### Headers
-Apply the skeleton class to any type of header and it will automatically adjust to the font-size of the header stylings:
+Apply the `skeleton` class to any type of header and it will automatically adjust to the font-size of the header stylings:
 | Header Type  |  Result |
 | ------------ | ------------ |
 | `h1` |  <h1 class="skeleton"></h1> |
@@ -143,7 +143,6 @@ You can also give the skeleton animation by adding the `data-animation` attribut
 <br />
 
 ## Examples
-### Article
 <article>
   <h1 class="skeleton skeleton--md"></h1>
   <p class="skeleton" data-lines="4"></p>
@@ -151,8 +150,8 @@ You can also give the skeleton animation by adding the `data-animation` attribut
   <p class="skeleton" data-lines="7"></p>
 </article>
 
-### Cards
-<div class="block-container mb-4">
+
+<div class="block-container my-4">
   <div class="block block-4">
     <div class="card mx-2">
       <h1 class="skeleton skeleton--md"></h1>
@@ -173,7 +172,6 @@ You can also give the skeleton animation by adding the `data-animation` attribut
   </div>
 </div>
 
-### Modal
 <div id="default-modal" class="modal modal--closed" tabindex="-1">
    <div class="modal__inner animated slideInUp faster">
      <div class="modal__header flex flex--justify-between">
