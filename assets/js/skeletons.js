@@ -1,31 +1,36 @@
-// Skeleton Paragraph Utility
-// Grab all skeleton paragraphs that appear in the page
-const skeletonParagraphs = document.querySelectorAll(
-  '.skeleton__paragraph-container'
-);
+// Grab all instances of anything using the .skeleton class
+const skeletons = document.querySelectorAll('.skeleton');
 
-// if there are any, append a p tag to them and apply the skeleton__paragraph tag
-if (skeletonParagraphs) {
-  skeletonParagraphs.forEach((p) => {
-    let paragraph = document.createElement('p');
-    paragraph.classList.add('skeleton__paragraph');
+//check if there are any skeletons
+if (skeletons) {
+  skeletons.forEach((skelly) => {
+    // grab the requested number of lines
+    let lineCount = parseInt(skelly.getAttribute('data-lines'));
 
-    // Grab the number of lines from the data-lines attribute
-    let lineCount = parseInt(p.getAttribute('data-lines'));
+    // set animation boolean for later when we check if the animation attribute is true or not
+    let animation = skelly.getAttribute('data-animation') === 'true';
 
-    // If no data-lines attribute applied, defaults to 4
-    if (!lineCount) {
-      lineCount = 4;
+    // if there is no data-line attribute set and that the inside of the .skeleton element is empty, set default lineCount to 1
+    if (!lineCount && skelly.innerHTML.trim().length == 0) {
+      lineCount = 1;
     }
 
-    // Loop to append a span tag with the skeleton__paragraph-line class on every iteration until i = lineCount
+    // adds span.skeleton__line for however many lines have been requested to the .skeleton element
     for (i = 0; i < lineCount; i++) {
-      const line = document.createElement('span');
-      line.classList.add('skeleton__paragraph-line');
-      paragraph.appendChild(line);
-    }
 
-    // Finally append the newly built paragraph tag to the skeleton__paragraph-container
-    p.appendChild(paragraph);
+      // creates the span.skeleton__line element
+      const line = document.createElement('span');
+      line.classList.add('skeleton__line');
+
+      // check if animation was requested
+      if (animation === true) {
+        // if true, adds span.skeleton__animation to the span.skeleton__line element
+        const animationElement = document.createElement('span');
+        animationElement.classList.add('skeleton__animation');
+        line.appendChild(animationElement);
+      }
+      
+      skelly.appendChild(line);
+    }
   });
 }
