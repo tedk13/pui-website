@@ -8,9 +8,9 @@ Flex
 
 Flexbox utilities to use when flexbox is present.
 
-To use the flexbox utilites add the class `.flex` to set `display: flex` , or `.flex-inline` to set `display: inline-flex` along with any other modifier class tags in the table below.
+To use the flexbox utilites add the class `flex` to set `display: flex` , or `flex-inline` to set `display: inline-flex` along with any other modifier class tags in the table below.
 
-Using the class `.flex--center-content` centers content horizontaly and vertically. This class includes `display: flex` so there is no need for the class tags `.flex` or `.flex-inline` when using this class.
+Using the class `flex--center-content` centers content horizontaly and vertically. This class includes `display: flex` so there is no need for the class tags `flex` or `flex-inline` when using this class.
 
 | Class Name                  | CSS Attribute                     |
 | --------------------------- | --------------------------------- |
