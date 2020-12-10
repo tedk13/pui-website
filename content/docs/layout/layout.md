@@ -2,7 +2,39 @@
 title: Layout
 date: 2018-07-20T12:59:15-04:00
 ---
-{{< heading heading="h3" id="block-grid">}}
+{{< heading heading="h2" id="flex">}}
+Flex
+{{< /heading >}}
+
+Flexbox utilities to use when flexbox is present.
+
+When `display: flex` add any of the class modifiers from the table below to work with flexbox.
+
+| Class Name                  | CSS Attribute                                   |
+| --------------------------- | ----------------------------------------------- |
+| `flex--align-center`        | `align-items: center;`                          |
+| `flex--align-start`         | `align-items: flex-start;`                      |
+| `flex--align-end`           | `align-items: flex-end;`                        |
+| `flex--align-baseline`      | `align-items: baseline;`                        |
+| `flex--align-self-center`   | `align-self: center;`                           |
+| `flex--align-self-start`    | `align-self: flex-start;`                       |
+| `flex--align-self-end`      | `align-self: flex-end;`                         |
+| `flex--align-self-baseline` | `align-self: baseline;`                         |
+| `flex--justify-center`      | `justify-content: center;`                      |
+| `flex--justify-start`       | `justify-content: flex-start;`                  |
+| `flex--justify-end`         | `justify-content: flex-end;`                    |
+| `flex--justify-between`     | `justify-content: space-between;`               |
+| `flex--justify-around`      | `justify-content: space-around;`                |
+| `flex--column`              | `flex-direction: column;`                       |
+| `flex--column-reverse`      | `flex-direction: column-reverse;`               |
+| `flex--row-reverse`         | `flex-direction: row-reverse;`                  |
+| `flex--grow`                | `flex-grow: 1;`                                 |
+| `flex--wrap`                | `flex-wrap: wrap;`                              |
+| `flex--nowrap`              | `flex-wrap: nowrap;`                            |
+| `flex--center-content`      | `display: flex; align-items: center; justify-content: center;` |
+
+
+{{< heading heading="h2" id="block-grid">}}
 Block Grid
 {{< /heading >}}
 
@@ -15,7 +47,8 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 - Using `block-container` and adding `block` children will give you an evenly distributed block grid.
 - If a resposive pattern is not placed on `block-container tablet-up-4`, responsive modifiers can be placed on the `block-{number}` level item as well. The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
 
-{{< heading heading="h3" id="columns">}}
+
+{{< heading heading="h2" id="columns">}}
 12 Columns
 {{< /heading >}}
 
@@ -259,7 +292,8 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h3" id="standard-grid">}}
+
+{{< heading heading="h2" id="standard-grid">}}
 Standard Grid
 {{< /heading >}}
 
@@ -313,7 +347,8 @@ Standard Grid
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h3" id="responsive-grid-with-flex">}}
+
+{{< heading heading="h2" id="responsive-grid-with-flex">}}
 Responsive Grid with Flex
 {{< /heading >}}
 
@@ -383,7 +418,7 @@ Responsive Grid with Flex
 </div>
 
 
-{{< heading heading="h3" id="block-grid-breakpoints">}}
+{{< heading heading="h2" id="block-grid-breakpoints">}}
 Block grid breakpoints
 {{< /heading >}}
 
