@@ -31,7 +31,7 @@ When `display: flex` add any of the class modifiers from the table below to work
 | `flex--grow`                | `flex-grow: 1;`                                 |
 | `flex--wrap`                | `flex-wrap: wrap;`                              |
 | `flex--nowrap`              | `flex-wrap: nowrap;`                            |
-| `flex--center-content`      | `align-items: center; justify-content: center;` |
+| `flex--center-content`      | `display: flex; align-items: center; justify-content: center;` |
 
 
 {{< heading heading="h2" id="block-grid">}}
