@@ -56,41 +56,41 @@ You can add some arrow icons to be in front of each `li` by adding the class `po
  {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="pui-list">}}
-pui-list
+{{< heading heading="h2" id="list">}}
+list
 {{< /heading >}}
 
-The pui-list is a simplified list that strips the `list-style-type`, `margin`, and `padding`.
-You can have a bordered list by adding the `pui-list--bordered` modifier. Be sure to add the class `pui-list__item` to the li.
+The list is a simplified list that strips the `list-style-type`, `margin`, and `padding`.
+You can have a bordered list by adding the `list--bordered` modifier. Be sure to add the class `list__item` to the li.
 This puts a top border on the list, as well as a border-bottom on each li.
 
- <ul class="pui-list">
-   <li>This is a pui-list item.</li>
-   <li>This is a pui-list item.</li>
-   <li>This is a pui-list item.</li>
+ <ul class="list">
+   <li>This is a list item.</li>
+   <li>This is a list item.</li>
+   <li>This is a list item.</li>
  </ul>
  <br>
  <div class="mt-4">
-   <ul class="pui-list pui-list--bordered">
-     <li class="pui-list__item">This is a pui-list item.</li>
-     <li class="pui-list__item">This is a pui-list item.</li>
-     <li class="pui-list__item">This is a pui-list item.</li>
+   <ul class="list list--bordered">
+     <li class="list__item">This is a list item.</li>
+     <li class="list__item">This is a list item.</li>
+     <li class="list__item">This is a list item.</li>
    </ul>
  </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
- <ul class="pui-list">
-   <li>This is a pui-list item.</li>
-   <li>This is a pui-list item.</li>
-   <li>This is a pui-list item.</li>
+ <ul class="list">
+   <li>This is a list item.</li>
+   <li>This is a list item.</li>
+   <li>This is a list item.</li>
  </ul>
  <br>
  <div class="mt-4">
-   <ul class="pui-list pui-list--bordered">
-     <li class="pui-list__item">This is a pui-list item.</li>
-     <li class="pui-list__item">This is a pui-list item.</li>
-     <li class="pui-list__item">This is a pui-list item.</li>
+   <ul class="list list--bordered">
+     <li class="list__item">This is a list item.</li>
+     <li class="list__item">This is a list item.</li>
+     <li class="list__item">This is a list item.</li>
    </ul>
  </div>
 {{< /highlight >}}</div>

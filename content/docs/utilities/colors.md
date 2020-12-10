@@ -45,7 +45,7 @@ Transparent
 
 If you want to remove the background color and border color on an element, add the class `transparent`.
 
-<div class="block-container pui-card background-lighter">
+<div class="block-container card background-lighter">
   <div class="block-6">
     <button class="button">Button</button>
   </div>
@@ -56,7 +56,7 @@ If you want to remove the background color and border color on an element, add t
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block-container pui-card background-lighter">
+<div class="block-container card background-lighter">
   <div class="block-6">
     <button class="button">Button</button>
   </div>

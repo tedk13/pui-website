@@ -1,7 +1,7 @@
 {{ $page := .currentPage}}
 {{ range .menu }}
 {{ if in .URL $page.Section }}
-<ul class="sidebar-menu pui-list{{ if ne .FirstSection .Page }} pui-accordion__content py-2 background-lighter {{ end }}{{ if .IsAncestor $page }} active{{ end }}">
+<ul class="sidebar-menu list{{ if ne .FirstSection .Page }} accordion__content py-2 background-lighter {{ end }}{{ if .IsAncestor $page }} active{{ end }}">
     {{ if .Sections }}
         {{- partial "site/sidebar-menu-item" (dict "menu" .Sections "currentPage" $page)}}
     {{ end }}

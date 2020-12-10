@@ -21,117 +21,117 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 
 <div class="block-container blocks-px-2 blocks-py-2">
   <div class="block block-1">
-    <div class="pui-card">
+    <div class="card">
     block-1    
     </div>  
   </div>
   <div class="block block-11">
-    <div class="pui-card h-100">
+    <div class="card h-100">
     block-11
     </div>  
   </div>
   <div class="block block-2">
-    <div class="pui-card">
+    <div class="card">
     block-2    
     </div>  
   </div>
   <div class="block block-10">
-    <div class="pui-card">
+    <div class="card">
     block-10  
     </div>
   </div>
   <div class="block block-3">
-    <div class="pui-card">
+    <div class="card">
     block-3    
     </div>
   </div>
   <div class="block block-9">
-    <div class="pui-card">
+    <div class="card">
     block-9    
     </div>  
   </div>
   <div class="block block-4">
-    <div class="pui-card">
+    <div class="card">
     block-4    
     </div>  
   </div>
   <div class="block block-8">
-    <div class="pui-card">
+    <div class="card">
     block-8    
     </div>  
   </div>
   <div class="block block-5">
-    <div class="pui-card">
+    <div class="card">
     block-5    
     </div>  
   </div>
   <div class="block block-7">
-    <div class="pui-card">
+    <div class="card">
     block-7    
     </div>  
   </div>
   <div class="block block-6">
-    <div class="pui-card">
+    <div class="card">
     block-6    
     </div>  
   </div>
   <div class="block block-6">
-    <div class="pui-card">
+    <div class="card">
     block-6    
     </div>  
   </div>
   <div class="block block-7">
-    <div class="pui-card">
+    <div class="card">
     block-7    
     </div>  
   </div>
   <div class="block block-5">
-    <div class="pui-card">
+    <div class="card">
     block-5    
     </div>  
   </div>
   <div class="block block-8">
-    <div class="pui-card">
+    <div class="card">
     block-8    
     </div>  
   </div>
   <div class="block block-4">
-    <div class="pui-card">
+    <div class="card">
     block-4    
     </div>  
   </div>
   <div class="block block-9">
-    <div class="pui-card">
+    <div class="card">
     block-9    
     </div>  
   </div>
   <div class="block block-3">
-    <div class="pui-card">
+    <div class="card">
     block-3    
     </div>  
   </div>
   <div class="block block-10">
-    <div class="pui-card">
+    <div class="card">
     block-10  
     </div>
   </div>
   <div class="block block-2">
-    <div class="pui-card">
+    <div class="card">
     block-2    
     </div>  
   </div>
   <div class="block block-11">
-    <div class="pui-card h-100">
+    <div class="card h-100">
     block-11
     </div>
   </div>
   <div class="block block-1">
-    <div class="pui-card">
+    <div class="card">
     block-1    
     </div>  
   </div>
   <div class="block block-12">
-    <div class="pui-card">
+    <div class="card">
     block-12  
     </div>
   </div>
@@ -141,117 +141,117 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 {{< highlight html >}}
 <div class="block-container blocks-px-2 blocks-py-2">
   <div class="block block-1">
-    <div class="pui-card">
+    <div class="card">
     block-1    
     </div>  
   </div>
   <div class="block block-11">
-    <div class="pui-card h-100">
+    <div class="card h-100">
     block-11
     </div>  
   </div>
   <div class="block block-2">
-    <div class="pui-card">
+    <div class="card">
     block-2    
     </div>  
   </div>
   <div class="block block-10">
-    <div class="pui-card">
+    <div class="card">
     block-10  
     </div>
   </div>
   <div class="block block-3">
-    <div class="pui-card">
+    <div class="card">
     block-3    
     </div>
   </div>
   <div class="block block-9">
-    <div class="pui-card">
+    <div class="card">
     block-9    
     </div>  
   </div>
   <div class="block block-4">
-    <div class="pui-card">
+    <div class="card">
     block-4    
     </div>  
   </div>
   <div class="block block-8">
-    <div class="pui-card">
+    <div class="card">
     block-8    
     </div>  
   </div>
   <div class="block block-5">
-    <div class="pui-card">
+    <div class="card">
     block-5    
     </div>  
   </div>
   <div class="block block-7">
-    <div class="pui-card">
+    <div class="card">
     block-7    
     </div>  
   </div>
   <div class="block block-6">
-    <div class="pui-card">
+    <div class="card">
     block-6    
     </div>  
   </div>
   <div class="block block-6">
-    <div class="pui-card">
+    <div class="card">
     block-6    
     </div>  
   </div>
   <div class="block block-7">
-    <div class="pui-card">
+    <div class="card">
     block-7    
     </div>  
   </div>
   <div class="block block-5">
-    <div class="pui-card">
+    <div class="card">
     block-5    
     </div>  
   </div>
   <div class="block block-8">
-    <div class="pui-card">
+    <div class="card">
     block-8    
     </div>  
   </div>
   <div class="block block-4">
-    <div class="pui-card">
+    <div class="card">
     block-4    
     </div>  
   </div>
   <div class="block block-9">
-    <div class="pui-card">
+    <div class="card">
     block-9    
     </div>  
   </div>
   <div class="block block-3">
-    <div class="pui-card">
+    <div class="card">
     block-3    
     </div>  
   </div>
   <div class="block block-10">
-    <div class="pui-card">
+    <div class="card">
     block-10  
     </div>
   </div>
   <div class="block block-2">
-    <div class="pui-card">
+    <div class="card">
     block-2    
     </div>  
   </div>
   <div class="block block-11">
-    <div class="pui-card h-100">
+    <div class="card h-100">
     block-11
     </div>
   </div>
   <div class="block block-1">
-    <div class="pui-card">
+    <div class="card">
     block-1    
     </div>  
   </div>
   <div class="block block-12">
-    <div class="pui-card">
+    <div class="card">
     block-12  
     </div>
   </div>
@@ -265,22 +265,22 @@ Standard Grid
 
 <div class="block-container blocks-px-2 blocks-py-2 tablet-up-3 laptop-up-4">
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block block--shrink">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
@@ -290,22 +290,22 @@ Standard Grid
 {{< highlight html >}}
 <div class="block-container blocks-px-2 blocks-py-2 tablet-up-3 laptop-up-4">
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block block--shrink">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
@@ -321,37 +321,37 @@ Responsive Grid with Flex
 {{< highlight html >}}
 <div class="block-container blocks-px-2 blocks-py-2 tablet-up-3 laptop-up-4">
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block block--fill">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
@@ -359,22 +359,22 @@ Responsive Grid with Flex
 
 <div class="block-container blocks-px-2 blocks-py-2 tablet-up-3 laptop-up-4">
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block block--shrink">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>
   <div class="block">
-    <div class="pui-card">
+    <div class="card">
       Test
     </div>
   </div>

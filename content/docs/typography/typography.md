@@ -6,7 +6,7 @@ date: 2018-07-20T12:59:15-04:00
 Headings
 {{< /heading >}}
 
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h1>Heading 1</h1>
   </div>
@@ -14,7 +14,7 @@ Headings
     <p class="mb-0">Roboto Slab, 500, #003f70</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h2>Heading 2</h2>
   </div>
@@ -22,7 +22,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h3>Heading 3</h3>
   </div>
@@ -30,7 +30,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h4>Heading 4</h4>
   </div>
@@ -38,7 +38,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h5>Heading 5</h5>
   </div>
@@ -46,7 +46,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h6>Heading 6</h6>
   </div>
@@ -57,7 +57,7 @@ Headings
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h1>Heading 1</h1>
   </div>
@@ -65,7 +65,7 @@ Headings
     <p class="mb-0">Roboto Slab, 500, #003f70</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h2>Heading 2</h2>
   </div>
@@ -73,7 +73,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h3>Heading 3</h3>
   </div>
@@ -81,7 +81,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h4>Heading 4</h4>
   </div>
@@ -89,7 +89,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h5>Heading 5</h5>
   </div>
@@ -97,7 +97,7 @@ Headings
     <p class="mb-0">Roboto, sans-serif, 500, #666</p>
   </div>
 </div>
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <h6>Heading 6</h6>
   </div>
@@ -112,7 +112,7 @@ Headings
 Paragraphs
 {{< /heading >}}
 
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <p>Paragraph</p>
   </div>
@@ -124,7 +124,7 @@ Paragraphs
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <p>Paragraph</p>
   </div>
@@ -167,7 +167,7 @@ Color
 | `text-green`      | `text-teal`        | `text-gold`         |                      |
 
 
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <p>
       <span class="text-brown">Brown text</span>,
@@ -179,7 +179,7 @@ Color
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
     <p>
       <span class="text-brown">Brown text</span>,
@@ -209,7 +209,7 @@ Sizing
 | `text--size-xxl`  | `200%`  |
 
  
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block">
     <p class="text--size-xl">Text xl</p>
   </div>
@@ -217,7 +217,7 @@ Sizing
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block">
     <p class="text--size-xl">Text xl</p>
   </div>
@@ -247,7 +247,7 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
  class. This will change the color of the underline as well as the element with the hover color class.
 
  
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block">
     <p>Text underline on hover <a class="text-underline--hover">standard</a>.</p>
     <p>Text underline on hover <a class="text-underline--hover text-red--hover">red</a>.</p>
@@ -256,7 +256,7 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="pui-card block-container mb-3 flex--align-center">
+<div class="card block-container mb-3 flex--align-center">
   <div class="block">
     <p>Text underline on hover <a class="text-underline--hover">standard</a>.</p>
     <p>Text underline on hover <a class="text-underline--hover text-red--hover">red</a>.</p>

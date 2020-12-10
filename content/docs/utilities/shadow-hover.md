@@ -9,17 +9,17 @@ example below.
 <section>
     <div class="block-container blocks px-2">
         <div class="block block-4">
-        <div class="pui-card hover-shadow">
+        <div class="card hover-shadow">
             <h4 class="pb-2 mb-2">Hover over this</h4>
-            <div class="pui-card__content">
+            <div class="card__content">
             <p>Notice how it shadows on hover</p>
             </div>
         </div>
         </div>
         <div class="block block-4">
-        <div class="pui-card hover-shadow hover-scale">
+        <div class="card hover-shadow hover-scale">
             <h4 class="pb-2 mb-2">Hover over this</h4>
-            <div class="pui-card__content">
+            <div class="card__content">
             <p>Notice how it shadows on hover</p>
             </div>
         </div>
@@ -32,17 +32,17 @@ example below.
 <section>
     <div class="block-container blocks px-2">
         <div class="block block-4">
-        <div class="pui-card hover-shadow">
+        <div class="card hover-shadow">
             <h4 class="pb-2 mb-2">Hover over this</h4>
-            <div class="pui-card__content">
+            <div class="card__content">
             <p>Notice how it shadows on hover</p>
             </div>
         </div>
         </div>
         <div class="block block-4">
-        <div class="pui-card hover-shadow hover-scale">
+        <div class="card hover-shadow hover-scale">
             <h4 class="pb-2 mb-2">Hover over this</h4>
-            <div class="pui-card__content">
+            <div class="card__content">
             <p>Notice how it shadows on hover</p>
             </div>
         </div>
