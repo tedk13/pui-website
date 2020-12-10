@@ -8,18 +8,31 @@ Flex
 
 Flexbox utilities to use when flexbox is present.
 
-Usage:
-`.flex .flex--align-center`
+To use the flexbox utilites add the class `.flex` to set `display: flex` , or `.flex-inline` to set `display: inline-flex` along with any other modifier class tags in the table below.
 
-`.flex--center-content` centers content horizontaly and vertically. It includes `display: flex`
+Using the class `.flex--center-content` centers content horizontaly and vertically. This class includes `display: flex` so there is no need for the class tags `.flex` or `.flex-inline` when using this class.
 
-| Class Name               |                        |                           |                             |                         |
-| ------------------------ | ---------------------- | ------------------------- | --------------------------- | ----------------------- |
-| `flex--align-center`     | `flex--column`         | `flex--justify-between`   | `flex--justify-end`         | `flex--justify-start`   |
-| `flex--justify-center`   | `flex--wrap`           | `flex--grow`              | `flex-inline`               | `flex--align-baseline`  |
-| `flex--align-start`      | `flex--align-end`      | `flex--align-center`      | `flex-nowrap`               | `flex--justify-between` |
-| `flex--row-reverse`      | `flex--column-reverse` | `flex--align-center`      | `flex-nowrap`               | `flex--justify-between` |
-| `flex--align-self-start` | `flex--align-self-end` | `flex--align-self-center` | `flex--align-self-baseline` |
+| Class Name                  | CSS Attribute                     |
+| --------------------------- | --------------------------------- |
+| `flex--align-center`        | `align-items: center;`            |
+| `flex--align-start`         | `align-items: flex-start;`        |
+| `flex--align-end`           | `align-items: flex-end;`          |
+| `flex--align-baseline`      | `align-items: baseline;`          |
+| `flex--align-self-center`   | `align-self: center;`             |
+| `flex--align-self-start`    | `align-self: flex-start;`         |
+| `flex--align-self-end`      | `align-self: flex-end;`           |
+| `flex--align-self-baseline` | `align-self: baseline;`           |
+| `flex--justify-center`      | `justify-content: center;`        |
+| `flex--justify-start`       | `justify-content: flex-start;`    |
+| `flex--justify-end`         | `justify-content: flex-end;`      |
+| `flex--justify-between`     | `justify-content: space-between;` |
+| `flex--justify-around`      | `justify-content: space-around;`  |
+| `flex--column`              | `flex-direction: column;`         |
+| `flex--column-reverse`      | `flex-direction: column-reverse;` |
+| `flex--row-reverse`         | `flex-direction: row-reverse;`    |
+| `flex--grow`                | `flex-grow: 1;`                   |
+| `flex--wrap`                | `flex-wrap: wrap;`                |
+| `flex--nowrap`              | `flex-wrap: nowrap;`              |
 
 
 {{< heading heading="h2" id="block-grid">}}
