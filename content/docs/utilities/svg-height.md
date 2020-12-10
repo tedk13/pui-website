@@ -5,25 +5,13 @@ date: 2018-07-20T12:59:15-04:00
 
 Use these classes to change the height of an svg used for an icon.
 
-<div class="mt-3 mb-4">
-{{< highlight scss >}}
-.icon--svg {
-  height: 2rem;
-}
+| Class Name         | Height   |
+| ------------------ | -------- |
+| `icon--svg`        | `2rem`   |
+| `icon--svg-small`  | `1rem`   |
+| `icon--svg-large`  | `3rem`   |
+| `icon--svg-xlarge` | `6.5rem` |
 
-.icon--svg-small {
-  height: 1rem;
-}
-
-.icon--svg-large {
-  height: 3rem;
-}
-
-.icon--svg-xlarge {
-  height: 6.5rem;
-}
-{{< /highlight >}}
-</div>
 
 <div class="block-container mobile-up-2 tablet-up-4">
     <div class="block">
