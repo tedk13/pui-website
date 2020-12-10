@@ -209,12 +209,12 @@ Click the button to toggle the info box.
 <div class="block-container blocks tablet-up-6">
  <div class="block">
  <div class="pui-info-box" style="width: 32px">
-   <button class="button button--secondary toggle-hidden" role="button" aria-label="Toggle">
-     <i class="pi-filter" aria-hidden="hidden"></i>
+   <button class="button button--secondary toggle-hidden">
+     <i class="pi-filter"></i>
    </button>
    <div class="pui-info-box__content hidden">
      <button class="button pui-info-box__close">
-       Close <i class="pi-times" aria-hidden="hidden"></i>
+       Close <i class="pi-times"></i>
      </button>
      <form action="" class="block-container block-mb-4 pui-form">
        <label for="dob" class="block pui-form__field has-icon">Birthday
@@ -249,64 +249,65 @@ Click the button to toggle the info box.
        </fieldset>
        <fieldset class="block pui-form__field">
          <legend id="radio-heading">Pick Some Letters</legend>
-         <div class="block-container" role="radiogroup" aria-labelledby="radio-heading">
+         <div class="block-container">
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="a" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="a">
                <i class="pi-circle"></i> A
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="B" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="B">
                <i class="pi-circle"></i> B
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="C" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="C">
                <i class="pi-circle"></i> C
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="D" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="D">
                <i class="pi-circle"></i> D
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="F" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="F">
                <i class="pi-circle"></i> F
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="G" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="G">
                <i class="pi-circle"></i> G
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="Hi-F" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="Hi-F">
                <i class="pi-circle"></i> Hi-F
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="K" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="K">
                <i class="pi-circle"></i> K
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="L" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="L"
+             >
                <i class="pi-circle"></i> L
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="M" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="M">
                <i class="pi-circle"></i> M
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="N" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="N">
                <i class="pi-circle"></i> N
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="All" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="All">
                <i class="pi-circle"></i> All
              </spann>
            </div>
@@ -335,62 +336,62 @@ Click the button to toggle the info box.
          <legend id="radio-heading">Pick Some Letters</legend>
          <div class="block-container" role="radiogroup" aria-labelledby="radio-heading">
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="a" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="a">
                <i class="pi-circle"></i> A
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="B" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="B">
                <i class="pi-circle"></i> B
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="C" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="C">
                <i class="pi-circle"></i> C
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="D" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="D">
                <i class="pi-circle"></i> D
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="F" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="F">
                <i class="pi-circle"></i> F
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="G" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="G">
                <i class="pi-circle"></i> G
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="Hi-F" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="Hi-F">
                <i class="pi-circle"></i> Hi-F
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="K" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="K">
                <i class="pi-circle"></i> K
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="L" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="L">
                <i class="pi-circle"></i> L
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="M" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="M">
                <i class="pi-circle"></i> M
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="N" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="N">
                <i class="pi-circle"></i> N
              </span>
            </div>
            <div class="block-3 my-2 px-1">
-             <span class="pill background-light text-white flex--align-center" id="All" tabindex="0" role="radio" aria-checked="false">
+             <span class="pill background-light text-white flex--align-center" id="All">
                <i class="pi-circle"></i> All
              </spann>
            </div>

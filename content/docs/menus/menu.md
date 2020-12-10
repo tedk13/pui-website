@@ -207,7 +207,7 @@ is active. In the example below we're using a platform icon. `<i class="pi-angle
     </div>
     <button class="site-menu-mobile-action button--plain text-white">
       <span class="sr-only">Toggle Navigation</span>
-      <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
+      <i focusable="false" class="pi-menu pi-xl"></i>
     </button>
     <nav class="site-menu background-teal inverted">
       <div class="site-menu__item">
@@ -324,29 +324,29 @@ You can add as many icons as you'd like.
 <div class="icon-menu">
   <div class="icon-menu__item">
     <button class="icon-menu__action button--plain text-negative--hover pointer">
-      <i class="pi-trash" aria-hidden="hidden"></i>
+      <i class="pi-trash"></i>
     </button>
   </div>
   <div class="icon-menu__item">
     <button class="icon-menu__action button--plain text-positive--hover pointer">
-      <i class="pi-edit" aria-hidden="hidden"></i>
+      <i class="pi-edit"></i>
     </button>
   </div>
   <div class="icon-menu__item">
     <button class="icon-menu__action button--plain text-red--hover pointer">
-      <i class="pi-clock" aria-hidden="hidden"></i>
+      <i class="pi-clock"></i>
     </button>
   </div>
 </div>
 <div class="icon-menu icon-menu--vertical">
   <div class="icon-menu__item">
     <button class="icon-menu__action button--plain text-negative--hover pointer">
-      <i class="pi-trash" aria-hidden="hidden"></i>
+      <i class="pi-trash"></i>
     </button>
   </div>
   <div class="icon-menu__item">
     <button class="icon-menu__action button--plain text-positive--hover pointer">
-      <i class="pi-edit" aria-hidden="hidden"></i>
+      <i class="pi-edit"></i>
     </button>
   </div>
 </div>

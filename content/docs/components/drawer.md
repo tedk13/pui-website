@@ -50,7 +50,7 @@ best used in cases where less content will be needed.
  <div id="default" class="pui-drawer pui-drawer-bottom pui-drawer--closed animated slideInUp fastest">
    <div class="pui-drawer__inner animated slideInUp fastest">
      <div class="pui-drawer__header">
-       <button class="button pui-drawer__close" data-drawer="default">Close <i class="pi-times" aria-hidden="true"></i></button>
+       <button class="button pui-drawer__close" data-drawer="default">Close <i class="pi-times"></i></button>
        <h3 class="mb-2">Header.</h3>
      </div>
      <div class="pui-drawer__content">
@@ -61,7 +61,7 @@ best used in cases where less content will be needed.
  <div id="single-row" class="pui-drawer pui-drawer-bottom pui-drawer--single-row pui-drawer--closed animated slideInUp fastest">
    <div class="pui-drawer__inner animated slideInUp fastest">
      <div class="pui-drawer__content">
-       <button class="button pui-drawer__close" data-drawer="single-row">Close <i class="pi-times" aria-hidden="true"></i></button>
+       <button class="button pui-drawer__close" data-drawer="single-row">Close <i class="pi-times"></i></button>
        <p>Single row drawer without a header.</p>
      </div>
    </div>
@@ -103,7 +103,7 @@ This Drawer slides in from the right.
        </button>
        <h2 class="ml-2 my-0 text-navy">Drawer Right</h2>
      </div>
-     <button class="button pui-drawer__close" data-drawer="right">Close <i class="pi-times" aria-hidden="true"></i></button>
+     <button class="button pui-drawer__close" data-drawer="right">Close <i class="pi-times"></i></button>
    </div>
  </div>
  {{< /highlight >}}
@@ -127,7 +127,7 @@ This Drawer slides in from the left.
        </button>
        <h2 class="ml-2 my-0 text-navy">Drawer Left</h2>
      </div>
-     <button class="button pui-drawer__close" data-drawer="left">Close <i class="pi-times" aria-hidden="true"></i></button>
+     <button class="button pui-drawer__close" data-drawer="left">Close <i class="pi-times"></i></button>
    </div>
  </div>
 
@@ -143,7 +143,7 @@ This Drawer slides in from the left.
        </button>
        <h2 class="ml-2 my-0 text-navy">Drawer Left</h2>
      </div>
-     <button class="button pui-drawer__close" data-drawer="left">Close <i class="pi-times" aria-hidden="true"></i></button>
+     <button class="button pui-drawer__close" data-drawer="left">Close <i class="pi-times"></i></button>
    </div>
  </div>
 {{< /highlight >}}

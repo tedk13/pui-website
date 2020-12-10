@@ -53,13 +53,13 @@ mobile breakpopint. In platform UI's case, below `768px`.
 </div>
 <div class="block-container pb-3">
   <div class="tooltip-right" data-pui-tooltip="Not a true help tooltip.">
-    <i class="pi-help-solid" focusable="false" aria-hidden="true"></i>
+    <i class="pi-help-solid" focusable="false"></i>
   </div>
 </div>
 <p>Mobile tooltip.</p>
 <div class="block-container pb-3">
   <div class="tooltip-right tooltip-mobile" data-pui-tooltip="This tooltip is centered on a mobile screen.">
-    <i class="pi-help-solid" focusable="false" aria-hidden="true"></i>
+    <i class="pi-help-solid" focusable="false"></i>
   </div>
 </div>
 <div class="tooltip-right" data-pui-tooltip="This is what our tooltips look like.">Tooltip</div>

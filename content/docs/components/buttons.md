@@ -149,32 +149,25 @@ Buttons with a loading icon. Example for form submissions.
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="button-group">
-  <button class="button loading mb-2" aria-label="Loading...">
+  <button class="button loading mb-2">
     Submit
     <span class="sr-only">Loading...</span>
   </button>
-  <button class="button button--lg loading mb-2" aria-label="Loading...">
+  <button class="button button--lg loading mb-2">
     Submit
     <span class="sr-only">Loading...</span>
   </button>
-  <button class="button button--secondary loading mb-2" aria-label="Download" aria-label="Loading...">
+  <button class="button button--secondary loading mb-2">
     <i class="pi-download" aria-hidden="hidden"></i>
     <span class="sr-only">Loading...</span>
   </button>
-  <button class="button button--post loading mb-2" aria-label="Loading...">
+  <button class="button button--post loading mb-2">
     Submit
     <span class="sr-only">Loading...</span>
   </button>
 </div>
 {{< /highlight >}}
 </div>
-
-
-Notice: For styleguide purposes all of the code is rendered here. The things that should be
-toggled are the `aria-label="Loading"` and the text in the button. So for example, on
-submit, you would add `<span class="sr-only">Loading...</span>` the class
-`sr-only` is key to prevent the button from changin size.
-
 
 {{< heading heading="h2" id="accessibility">}}
 Accessibility
@@ -222,14 +215,14 @@ By adding the class `active` to a button, the button's hover effect is mimicked.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<button class="button mb-2">Add <i class="pi-plus" aria-hidden="hidden"></i></button>
-<button class="button button--lg active">Add <i class="pi-plus" aria-hidden="hidden"></i></button>
+<button class="button mb-2">Add <i class="pi-plus"></i></button>
+<button class="button button--lg active">Add <i class="pi-plus"></i></button>
 <div class="button-group mt-4">
-  <a class="button button--secondary" role="button" aria-label="Download">
-    <i class="pi-download" aria-hidden="hidden"></i>
+  <a class="button button--secondary" role="button">
+    <i class="pi-download"></i>
   </a>
-  <a class="button button--secondary active" role="button" aria-label="locked">
-    <i class="pi-lock" aria-hidden="hidden"></i>
+  <a class="button button--secondary active">
+    <i class="pi-lock"></i>
   </a>
 </div>
 {{< /highlight >}}
@@ -272,21 +265,21 @@ Also, note that adding specific aria roles and attributes to your button will he
 <div class="button-group">
   <button class="button" disabled>
     Download
-    <i class="pi-download" aria-hidden="hidden"></i>
+    <i class="pi-download"></i>
   </button>
   <button class="button" disabled>
     Lock
-    <i class="pi-lock" aria-hidden="hidden"></i>
+    <i class="pi-lock"></i>
   </button>
   <button class="button button--post" disabled>
     Submit
   </button>
 </div>
 <div class="button-group mt-4">
-  <a href="#" class="button disabled" disabled role="button" aria-disabled="true">
+  <a href="#" class="button disabled" disabled>
     Status
   </a>
-  <a href="#" class="button disabled" disabled role="button" aria-disabled="true">
+  <a href="#" class="button disabled" disabled>
     Account
   </a>
 </div>

@@ -158,7 +158,7 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
         <div class="flex flex--justify-between">
             <div class="text--bold text--uppercase">Part 1</div>
             <div class="text--bold flex flex--align-center">
-                <i class="pi-clock text-navy mr-1" aria-hidden="true"></i>
+                <i class="pi-clock text-navy mr-1"></i>
                 1:45
             </div>
         </div>
@@ -174,7 +174,7 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
         <div class="flex flex--justify-between">
             <div class="text--bold text--uppercase">Part 1</div>
             <div class="text--bold flex flex--align-center">
-                <i class="pi-clock text-navy mr-1" aria-hidden="true"></i>
+                <i class="pi-clock text-navy mr-1"></i>
                 1:45
             </div>
         </div>
@@ -190,7 +190,7 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
         <div class="flex flex--justify-between">
             <div class="text--bold text--uppercase">Part 1</div>
             <div class="text--bold flex flex--align-center">
-                <i class="pi-clock text-navy mr-1" aria-hidden="true"></i>
+                <i class="pi-clock text-navy mr-1"></i>
                 1:45
             </div>
         </div>
@@ -206,7 +206,7 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
         <div class="flex flex--justify-between">
             <div class="text--bold text--uppercase">Part 1</div>
             <div class="text--bold flex flex--align-center">
-                <i class="pi-clock text-navy mr-1" aria-hidden="true"></i>
+                <i class="pi-clock text-navy mr-1"></i>
                 1:45
             </div>
         </div>
@@ -234,8 +234,7 @@ If you have a lot of content in a card that is causing other cards to grow too m
             <div class="pui-card__group">
                 <div class="pui-card__title pui-card__title--normal">Card Header</div>
             </div>
-            <div class="pui-card__header-actions"><a role="button" aria-label="remove"
-                    class="pui-card-action text-light"><i class="pi-trash" aria-hidden="true"></i></a>
+            <div class="pui-card__header-actions"><a class="pui-card-action text-light"><i class="pi-trash" aria-hidden="true"></i></a>
                 <a role="button" aria-label="edit" class="pui-card-action text-light"><i class="pi-edit"
                         aria-hidden="true"></i></a></div>
         </div>
@@ -365,24 +364,24 @@ If you have a lot of content in a card that is causing other cards to grow too m
             <div class="pui-card__group">
                 <div class="pui-card__title pui-card__title--normal">Card Header</div>
             </div>
-            <div class="pui-card__header-actions"><a role="button" aria-label="remove"
-                    class="pui-card-action text-light"><i class="pi-trash" aria-hidden="true"></i></a>
-                <a role="button" aria-label="edit" class="pui-card-action text-light"><i class="pi-edit"
-                        aria-hidden="true"></i></a></div>
+            <div class="pui-card__header-actions"><a role="button"
+                    class="pui-card-action text-light"><i class="pi-trash"></i></a>
+                <a class="pui-card-action text-light"><i class="pi-edit"
+                        ></i></a></div>
         </div>
         <div class="pui-card__content">
             <p>Card content.</p>
         </div>
         <div class="pui-card__footer pui-card__footer">
             <div>
-                <p><i class="pi-calendar text-skyblue" aria-hidden="true"></i> <time
+                <p><i class="pi-calendar text-skyblue" ></i> <time
                         datetime="22 Jul 2019">22 Jul 2019</time></p>
-                <p><i class="pi-clock text-skyblue" aria-hidden="true"></i> <time datetime="9:15 am">9:15
+                <p><i class="pi-clock text-skyblue"></i> <time datetime="9:15 am">9:15
                         am</time></p>
             </div>
             <div class="div-btn">
                 <div class="check-circle">
-                    <div class="pill pill--circle-large text-light"><i class="pi-check pi-xl" aria-hidden="true"></i>
+                    <div class="pill pill--circle-large text-light"><i class="pi-check pi-xl"></i>
                     </div>
                     <p class="check-circle__status">Complete</p>
                 </div>
@@ -397,10 +396,10 @@ If you have a lot of content in a card that is causing other cards to grow too m
             <div class="pui-card__group">
                 <div class="pui-card__title pui-card__title--normal">Testing stuff</div>
             </div>
-            <div class="pui-card__header-actions"><a role="button" aria-label="remove"
-                    class="pui-card-action text-light"><i class="pi-trash" aria-hidden="true"></i></a>
-                <a role="button" aria-label="edit" class="pui-card-action text-light"><i class="pi-edit"
-                        aria-hidden="true"></i></a></div>
+            <div class="pui-card__header-actions">
+                <a class="pui-card-action text-light"><i class="pi-trash"></i></a>
+                <a class="pui-card-action text-light"><i class="pi-edit"></i></a>
+            </div>
         </div>
         <div class="pui-card__content pui-card__content--scroll">
             <p>Desc</p>
@@ -437,14 +436,14 @@ If you have a lot of content in a card that is causing other cards to grow too m
         </div>
         <div class="pui-card__footer pui-card__footer">
             <div>
-                <p><i class="pi-calendar text-skyblue" aria-hidden="true"></i> <time
+                <p><i class="pi-calendar text-skyblue"></i> <time
                         datetime="23 Jul 2019">23 Jul 2019</time></p>
-                <p><i class="pi-clock text-skyblue" aria-hidden="true"></i> <time datetime="12:00 am">12:00
+                <p><i class="pi-clock text-skyblue"></i> <time datetime="12:00 am">12:00
                         am</time></p>
             </div>
             <div class="div-btn">
                 <div class="check-circle">
-                    <div class="pill pill--circle-large text-light"><i class="pi-check pi-xl" aria-hidden="true"></i>
+                    <div class="pill pill--circle-large text-light"><i class="pi-check pi-xl"></i>
                     </div>
                     <p class="check-circle__status">Complete</p>
                 </div>
@@ -459,24 +458,22 @@ If you have a lot of content in a card that is causing other cards to grow too m
             <div class="pui-card__group">
                 <div class="pui-card__title pui-card__title--normal">Call Carol</div>
             </div>
-            <div class="pui-card__header-actions"><a role="button" aria-label="remove"
-                    class="pui-card-action text-light"><i class="pi-trash" aria-hidden="true"></i></a>
-                <a role="button" aria-label="edit" class="pui-card-action text-light"><i class="pi-edit"
-                        aria-hidden="true"></i></a></div>
+            <div class="pui-card__header-actions">
+                <a class="pui-card-action text-light"><i class="pi-trash"></i></a>
+                <a role="button" class="pui-card-action text-light"><i class="pi-edit"></i></a>
+            </div>
         </div>
         <div class="pui-card__content">
             <p>Carol from accounting need to get some updates.</p>
         </div>
         <div class="pui-card__footer pui-card__footer">
             <div>
-                <p><i class="pi-calendar text-skyblue" aria-hidden="true"></i> <time
-                        datetime="23 Jul 2019">23 Jul 2019</time></p>
-                <p><i class="pi-clock text-skyblue" aria-hidden="true"></i> <time datetime="6:30 pm">6:30
-                        pm</time></p>
+                <p><i class="pi-calendar text-skyblue"></i> <time datetime="23 Jul 2019">23 Jul 2019</time></p>
+                <p><i class="pi-clock text-skyblue"></i> <time datetime="6:30 pm">6:30pm</time></p>
             </div>
             <div class="div-btn">
                 <div class="check-circle">
-                    <div class="pill pill--circle-large text-light"><i class="pi-check pi-xl" aria-hidden="true"></i>
+                    <div class="pill pill--circle-large text-light"><i class="pi-check pi-xl"></i>
                     </div>
                     <p class="check-circle__status">Complete</p>
                 </div>
