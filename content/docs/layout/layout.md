@@ -8,31 +8,30 @@ Flex
 
 Flexbox utilities to use when flexbox is present.
 
-To use the flexbox utilites add the class `flex` to set `display: flex` , or `flex-inline` to set `display: inline-flex` along with any other modifier class tags in the table below.
+When `display: flex` add any of the class modifiers from the table below to work with flexbox.
 
-Using the class `flex--center-content` centers content horizontaly and vertically. This class includes `display: flex` so there is no need for the class tags `flex` or `flex-inline` when using this class.
-
-| Class Name                  | CSS Attribute                     |
-| --------------------------- | --------------------------------- |
-| `flex--align-center`        | `align-items: center;`            |
-| `flex--align-start`         | `align-items: flex-start;`        |
-| `flex--align-end`           | `align-items: flex-end;`          |
-| `flex--align-baseline`      | `align-items: baseline;`          |
-| `flex--align-self-center`   | `align-self: center;`             |
-| `flex--align-self-start`    | `align-self: flex-start;`         |
-| `flex--align-self-end`      | `align-self: flex-end;`           |
-| `flex--align-self-baseline` | `align-self: baseline;`           |
-| `flex--justify-center`      | `justify-content: center;`        |
-| `flex--justify-start`       | `justify-content: flex-start;`    |
-| `flex--justify-end`         | `justify-content: flex-end;`      |
-| `flex--justify-between`     | `justify-content: space-between;` |
-| `flex--justify-around`      | `justify-content: space-around;`  |
-| `flex--column`              | `flex-direction: column;`         |
-| `flex--column-reverse`      | `flex-direction: column-reverse;` |
-| `flex--row-reverse`         | `flex-direction: row-reverse;`    |
-| `flex--grow`                | `flex-grow: 1;`                   |
-| `flex--wrap`                | `flex-wrap: wrap;`                |
-| `flex--nowrap`              | `flex-wrap: nowrap;`              |
+| Class Name                  | CSS Attribute                                   |
+| --------------------------- | ----------------------------------------------- |
+| `flex--align-center`        | `align-items: center;`                          |
+| `flex--align-start`         | `align-items: flex-start;`                      |
+| `flex--align-end`           | `align-items: flex-end;`                        |
+| `flex--align-baseline`      | `align-items: baseline;`                        |
+| `flex--align-self-center`   | `align-self: center;`                           |
+| `flex--align-self-start`    | `align-self: flex-start;`                       |
+| `flex--align-self-end`      | `align-self: flex-end;`                         |
+| `flex--align-self-baseline` | `align-self: baseline;`                         |
+| `flex--justify-center`      | `justify-content: center;`                      |
+| `flex--justify-start`       | `justify-content: flex-start;`                  |
+| `flex--justify-end`         | `justify-content: flex-end;`                    |
+| `flex--justify-between`     | `justify-content: space-between;`               |
+| `flex--justify-around`      | `justify-content: space-around;`                |
+| `flex--column`              | `flex-direction: column;`                       |
+| `flex--column-reverse`      | `flex-direction: column-reverse;`               |
+| `flex--row-reverse`         | `flex-direction: row-reverse;`                  |
+| `flex--grow`                | `flex-grow: 1;`                                 |
+| `flex--wrap`                | `flex-wrap: wrap;`                              |
+| `flex--nowrap`              | `flex-wrap: nowrap;`                            |
+| `flex--center-content`      | `align-items: center; justify-content: center;` |
 
 
 {{< heading heading="h2" id="block-grid">}}
