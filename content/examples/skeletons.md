@@ -7,6 +7,8 @@ summary: How to add skeleton screen content components
 ## Basic Usage
 Skeleton content can be utilized within the Platform UI styleguide to replace placeholder text in demos. We've come up with a simple way to add skeleton content within any element or component using CSS.
 
+<br />
+
 ### Headers
 Apply the `skeleton` class to any type of header and it will automatically adjust to the font-size of the header stylings:
 | Header Type  |  Result |
@@ -44,6 +46,8 @@ You can adjust the width of the header by applying a size modifier class:
 <h1 class="skeleton skeleton--full"></h1>
 {{< /highlight >}}
 
+<br />
+
 ## Paragraphs
 You can create paragraph skeletons by applying the `skeleton` class to the paragraph tag, then including however many span tags you'd like with the `skeleton__line` class within the paragraph:
 
@@ -70,6 +74,73 @@ You can create paragraph skeletons by applying the `skeleton` class to the parag
 <div class="message message--info">
   <p>If there is more than one line, the last span tag will always be at 50% width.</p>
 </div>
+
+<br />
+
+## Alignment
+You can text align the skeleton using alignment modifier classes:
+
+| Alignment | Modifier Class |
+| ------------ | ------------|
+| Left | `.skeleton--left` |
+| Medium, 50% | `.skeleton--right` |
+| Large, 75% | `.skeleton--center` |
+
+<div class="block-container mb-4">
+  <div class="block block-3 mx-2">
+    <p class="skeleton skeleton--left">
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+    </p>
+  </div>
+  <div class="block block-3 mx-2">
+    <p class="skeleton skeleton--center">
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+    </p>
+  </div>
+  <div class="block block-3 mx-2">
+    <p class="skeleton skeleton--right">
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+      <span class="skeleton__line"></span>
+    </p>
+  </div>
+</div>
+
+{{< highlight html >}}
+<!-- Left Align -->
+<p class="skeleton skeleton--left">
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+</p>
+
+<!-- Center Align -->
+<p class="skeleton skeleton--center">
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+</p>
+
+<!-- Right Align -->
+<p class="skeleton skeleton--right">
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+  <span class="skeleton__line"></span>
+</p>
+
+{{< /highlight >}}
+
+<br />
 
 ## Images
 You can create an image skeleton by adding the `.skeleton-image` class to an img tag -- do not include the `src` attribute. By default this will apply the image skeleton at 100% height and width of the parent container.
@@ -123,6 +194,8 @@ You can also do different shapes using shape modifier classes:
 <img class="skeleton-image skeleton-image--lg skeleton-image--circle" />
 {{< /highlight >}}
 
+<br />
+
 ## Animation
 You can include a `span.skeleton__animation` within a header, paragraph, or image to apply an animation to it.
 <div class="block block-4">
@@ -161,6 +234,7 @@ You can include a `span.skeleton__animation` within a header, paragraph, or imag
 </div>
 {{< /highlight >}}
 
+<br />
 
 ## JavaScript Utility
 We've also built in a JavaScript utility to help create skeletons easier. On either a header tag or a paragraph tag, add the `skeleton` class and a `data-lines` attribute with the number of lines you'd like the skeleton to have:
