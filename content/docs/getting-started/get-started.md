@@ -3,12 +3,16 @@ title: Get Started
 date: 2018-07-20T12:59:15-04:00
 weight: 1
 ---
+## Prologue
+As part of [Ritter Insurance Marketing](https://ritterim.com)'s software development team, RIMdev, our frontend folks started Platform UI as a CSS framework for faster, more efficient development. Our suite of agent and staff tools have benefitted greatly, along with our team.
+
+Platform UI has evolved in scope to include a base icon font family, Platform Icons, UI kits based in Adode XD, and, our philosophies and practices SPAs, static sites, and application development. 
+
+We hope you find it as useful and easy to use as we do.
 
 If you're not downloading or building, then CDN access via [UNPKG](https://unpkg.com/) is fast and easy to start working wityh Platform UI in your project!
 
-{{< heading heading="h2" id="css" >}}
-CSS
-{{< /heading >}}
+## CSS
 
 <div class="mb-4">
 {{< highlight html >}}
@@ -16,9 +20,7 @@ CSS
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="js" >}}
-JS
-{{< /heading >}}
+## JS
 
 Platform UI doesn't bring a lot of JS to the party as it was built as a companion to VueJS. That said, we ship with fully functional vanilla JS to get you started.
 
@@ -28,9 +30,7 @@ Platform UI doesn't bring a lot of JS to the party as it was built as a companio
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="starter-templates" >}}
-Starter Templates
-{{< /heading >}}
+## Starter Templates
 
 This is the basic template to get started for any HTML project.
 
@@ -96,15 +96,11 @@ Looking for a little more to get going?
 {{< /highlight >}}
 </div>
  
-{{< heading heading="h2" id="third-parties" >}}
-Third Parties
-{{< /heading >}}
+## Third Parties
 
 There are a few third party choices we've incorporated into Platform UI, these are part of the compiled version only. If you choose to build Platform UI from source, you'll need to consider the following.
 
-{{< heading heading="h3" id="animate-css" >}}
-Animate.css
-{{< /heading >}}
+### Animate.css
 
 We started to build our own animations, but why bother when [Animate.css](https://daneden.github.io/animate.css/) is around? It fits all of our needs and plays nicely with VueJS. 
 
@@ -131,25 +127,20 @@ Combining Animate.css with Vue transitions:
 >
 {{< /highlight >}}
 </div>
-{{< heading heading="h3" id="highlight-js" >}}
-Highlight.js
-{{< /heading >}}
+
+### Highlight.js
 
 Platform UI handles inline code, `<code></code>`, highlights, however we leverage [Highlight.js](https://highlightjs.org/) during the build to add a more complete syntax highlighting solutions. 	 
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
-{{< heading heading="h3" id="normalize-css" >}}
-Normalize.css
-{{< /heading >}}
+### Normalize.css
 
 The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include [Normalize.css](https://necolas.github.io/normalize.css/) as part of Patform UIs build process.
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
-{{< heading heading="h3" id="postcss" >}}
-Postcss
-{{< /heading >}}
+### Postcss
 
 In the same spirit as Normalize.css, we also leverage [Postcss](https://github.com/postcss/postcss) and [Autoprefixer](https://github.com/postcss/autoprefixer) to reduce browser inconsistencies. 
 
