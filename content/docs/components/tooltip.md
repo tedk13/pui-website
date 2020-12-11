@@ -52,14 +52,14 @@ mobile breakpopint. In platform UI's case, below `768px`.
   <p>Lorem ipsum dolor sit amet, <span data-tooltip="This is a default tooltip with data-inline." class="tooltip-inline">consectetur</span> adipiscing elit. Maecenas mi nunc, egestas id consectetur a, consectetur a lorem. Maecenas interdum enim felis, eget fringilla massa rhoncus sed.
 </div>
 <div class="block-container pb-3">
-  <div class="tooltip-right" data-tooltip="Not a true help tooltip.">
-    <i class="pi-help-solid" focusable="false" aria-hidden="true"></i>
+  <div class="tooltip-right" data-pui-tooltip="Not a true help tooltip.">
+    <i class="pi-help-solid" focusable="false"></i>
   </div>
 </div>
 <p>Mobile tooltip.</p>
 <div class="block-container pb-3">
-  <div class="tooltip-right tooltip-mobile" data-tooltip="This tooltip is centered on a mobile screen.">
-    <i class="pi-help-solid" focusable="false" aria-hidden="true"></i>
+  <div class="tooltip-right tooltip-mobile" data-pui-tooltip="This tooltip is centered on a mobile screen.">
+    <i class="pi-help-solid" focusable="false"></i>
   </div>
 </div>
 <div class="tooltip-right" data-tooltip="This is what our tooltips look like.">Tooltip</div>

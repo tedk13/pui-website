@@ -39,22 +39,37 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 {{< highlight html >}}
 <div class="tabs">
   <input type="radio" id="tab-input-a" name="tabs" checked>
+<<<<<<< HEAD
   <label for="tab-input-a" class="tab">
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
+=======
+  <label for="tab-input-a" class="pui-tab">
+    <i class="pi-folder-open" focusable="false"></i> Tab 1
+>>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635383449" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-b" name="tabs">
+<<<<<<< HEAD
   <label for="tab-input-b" class="tab">
     <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
+=======
+  <label for="tab-input-b" class="pui-tab">
+    <i class="pi-folder" focusable="false"></i> Tab 2
+>>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635267224" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-c" name="tabs">
+<<<<<<< HEAD
   <label for="tab-input-c" class="tab">
     <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
+=======
+  <label for="tab-input-c" class="pui-tab">
+    <i class="pi-users" focusable="false"></i> Tab 3
+>>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635322782" style="max-width: 100%;">
@@ -98,22 +113,37 @@ If you want the borders removed from the tabs, add the class `tab--flat` to the 
 {{< highlight html >}}
 <div class="tabs tabs--flat">
   <input type="radio" id="tab-input-2a" name="tabs-2" checked>
+<<<<<<< HEAD
   <label for="tab-input-2a" class="tab">
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
+=======
+  <label for="tab-input-2a" class="pui-tab">
+    <i class="pi-folder-open" focusable="false"></i> Tab 1
+>>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635383449" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-2b" name="tabs-2">
+<<<<<<< HEAD
   <label for="tab-input-2b" class="tab">
     <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
+=======
+  <label for="tab-input-2b" class="pui-tab">
+    <i class="pi-folder" focusable="false"></i> Tab 2
+>>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635267224" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-2c" name="tabs-2">
+<<<<<<< HEAD
   <label for="tab-input-2c" class="tab">
     <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
+=======
+  <label for="tab-input-2c" class="pui-tab">
+    <i class="pi-users" focusable="false"></i> Tab 3
+>>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635322782" style="max-width: 100%;">
@@ -161,22 +191,22 @@ go back to the flat tab look above mobile.
 {{< highlight html >}}
 <div class="tabs tabs--flat responsive">
   <input type="radio" id="tab-input-ar" name="tabs-r" checked>
-  <label for="tab-input-ar" class="tab">
-    <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
+  <label for="tab-input-ar" class="pui-tab">
+    <i class="pi-folder-open" focusable="false"></i> Tab 1
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635383449" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-br" name="tabs-r">
-  <label for="tab-input-br" class="tab">
-    <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
+  <label for="tab-input-br" class="pui-tab">
+    <i class="pi-folder" focusable="false"></i> Tab 2
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635267224" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-cr" name="tabs-r">
-  <label for="tab-input-cr" class="tab">
-    <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
+  <label for="tab-input-cr" class="pui-tab">
+    <i class="pi-users" focusable="false"></i> Tab 3
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635322782" style="max-width: 100%;">
