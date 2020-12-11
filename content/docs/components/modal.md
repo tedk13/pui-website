@@ -210,11 +210,7 @@ header can seem unecessarry. See the code example below.
            <button class="button mx-2 modal__close" data-modal="dialog">
              No
            </button>
-<<<<<<< HEAD
-           <button aria-label="" class="button button--post mx-2 modal__close" data-modal="dialog">
-=======
            <button class="button button--post mx-2 pui-modal__close" data-modal="dialog">
->>>>>>> rt-remove-aria-from-examples
              Yes
            </button>
          </div>

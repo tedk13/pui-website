@@ -113,37 +113,22 @@ If you want the borders removed from the tabs, add the class `tab--flat` to the 
 {{< highlight html >}}
 <div class="tabs tabs--flat">
   <input type="radio" id="tab-input-2a" name="tabs-2" checked>
-<<<<<<< HEAD
-  <label for="tab-input-2a" class="tab">
-    <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
-=======
   <label for="tab-input-2a" class="pui-tab">
     <i class="pi-folder-open" focusable="false"></i> Tab 1
->>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635383449" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-2b" name="tabs-2">
-<<<<<<< HEAD
-  <label for="tab-input-2b" class="tab">
-    <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
-=======
   <label for="tab-input-2b" class="pui-tab">
     <i class="pi-folder" focusable="false"></i> Tab 2
->>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635267224" style="max-width: 100%;">
   </div>
   <input type="radio" id="tab-input-2c" name="tabs-2">
-<<<<<<< HEAD
-  <label for="tab-input-2c" class="tab">
-    <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
-=======
   <label for="tab-input-2c" class="pui-tab">
     <i class="pi-users" focusable="false"></i> Tab 3
->>>>>>> rt-remove-aria-from-examples
   </label>
   <div class="tab-panel">
     <img src="https://placeimg.com/640/480/animals?t=1565635322782" style="max-width: 100%;">

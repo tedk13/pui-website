@@ -322,10 +322,10 @@ Click the button to toggle the info box.
  </div>
  <div class="block">
  <div class="info-box info-box--left">
-   <a href="https://ritterim.com" class="toggle-hidden--left" aria-label="Toggle">Text Link - Left info box</a>
+   <a href="https://ritterim.com" class="toggle-hidden--left">Text Link - Left info box</a>
    <div class="info-box__content hidden">
      <button class="button info-box__close">
-       Close <i class="pi-times" aria-hidden="hidden"></i>
+       Close <i class="pi-times"></i>
      </button>
      <form action="" class="block-container block-mb-4 form">
        <label for="dob" class="block form__field has-icon">Birthday
@@ -334,7 +334,7 @@ Click the button to toggle the info box.
        </label>
        <fieldset class="block form__field">
          <legend id="radio-heading">Pick Some Letters</legend>
-         <div class="block-container" role="radiogroup" aria-labelledby="radio-heading">
+         <div class="block-container">
            <div class="block-3 my-2 px-1">
              <span class="pill background-light text-white flex--align-center" id="a">
                <i class="pi-circle"></i> A

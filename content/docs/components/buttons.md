@@ -158,7 +158,7 @@ Buttons with a loading icon. Example for form submissions.
     <span class="sr-only">Loading...</span>
   </button>
   <button class="button button--secondary loading mb-2">
-    <i class="pi-download" aria-hidden="hidden"></i>
+    <i class="pi-download"></i>
     <span class="sr-only">Loading...</span>
   </button>
   <button class="button button--post loading mb-2">

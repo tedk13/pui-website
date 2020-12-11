@@ -203,7 +203,7 @@ To open a drawer from the right side of the viewport, apply the `.drawer-right` 
     <div class="drawer__content">
       <button class="button drawer__close" data-drawer="right">
         Close 
-        <i class="pi-times" aria-hidden="true"></i>
+        <i class="pi-times"></i>
       </button>
       <!-- Drawer content goes here! -->
     </div>
@@ -249,7 +249,7 @@ To open a drawer from the left side of the viewport, apply the `.drawer-left` cl
     <div class="drawer__content">
       <button class="button drawer__close" data-drawer="left">
         Close 
-        <i class="pi-times" aria-hidden="true"></i>
+        <i class="pi-times"></i>
       </button>
       <!-- Drawer content goes here! -->
     </div>
