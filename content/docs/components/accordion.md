@@ -2,9 +2,9 @@
 title: Accordion
 date: 2018-07-20T12:59:15-04:00
 ---
-
 Leverage spacing utility classes for padding and margin for the content within the accordion.
 To show the content of the accordion toggle the class `active` on `accordion`. These accordions are also keyboard accessible.
+
 Platform UI accordions were designed to be stacked.
 
 <div class="accordion">

@@ -11,7 +11,6 @@ date: 2018-07-20T12:59:15-04:00
   </div>
 </div>
 
-## Description
 Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport. 
 
 ## Default Drawer
