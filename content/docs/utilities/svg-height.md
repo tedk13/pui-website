@@ -8,9 +8,9 @@ Use these classes to change the height of an svg used for an icon.
 | Class Name         | Height   |
 | ------------------ | -------- |
 | `icon--svg`        | `2rem`   |
-| `icon--svg-small`  | `1rem`   |
-| `icon--svg-large`  | `3rem`   |
-| `icon--svg-xlarge` | `6.5rem` |
+| `icon--svg-sm`  | `1rem`   |
+| `icon--svg-lg`  | `3rem`   |
+| `icon--svg-xlg` | `6.5rem` |
 
 
 <div>
@@ -32,7 +32,7 @@ Use these classes to change the height of an svg used for an icon.
 <div class="mt-4 mb-4">
 {{< highlight html >}}
 <div>
-    <img class="icon--svg-small mr-2" src="/images/getting-started.svg" alt="">
+    <img class="icon--svg-sm mr-2" src="/images/getting-started.svg" alt="">
     Small
 </div>
 {{< /highlight >}}
@@ -44,7 +44,7 @@ Use these classes to change the height of an svg used for an icon.
 <div class="mt-4 mb-4">
 {{< highlight html >}}
 <div>
-    <img class="icon--svg-large mr-2" src="/images/getting-started.svg" alt="">
+    <img class="icon--svg-lg mr-2" src="/images/getting-started.svg" alt="">
     Large
 </div>
 {{< /highlight >}}
@@ -56,7 +56,7 @@ Use these classes to change the height of an svg used for an icon.
 <div class="mt-4 mb-4">
 {{< highlight html >}}
 <div>
-    <img class="icon--svg-xlarge mr-2" src="/images/getting-started.svg" alt="">
+    <img class="icon--svg-xlg mr-2" src="/images/getting-started.svg" alt="">
     XLarge
 </div>
 {{< /highlight >}}
