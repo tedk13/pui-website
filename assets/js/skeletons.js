@@ -34,3 +34,20 @@ if (skeletons) {
     }
   });
 }
+
+// Grab all instances of .skeleton-images elements
+const skeletonImages = document.querySelectorAll(".skeleton-image");
+
+if (skeletonImages) {
+  skeletonImages.forEach((skelly) => {
+    // set animation boolean for later when we check if the animation attribute is true or not
+    let animation = skelly.getAttribute("data-animation") === "true";
+
+    // add animation if data-animation is true
+    if (animation === true) {
+      const animationElement = document.createElement("span");
+      animationElement.classList.add("skeleton--animation");
+      skelly.appendChild(animationElement);
+    }
+  });
+}
