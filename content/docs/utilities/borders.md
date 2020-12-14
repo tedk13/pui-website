@@ -24,7 +24,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
   <div class="card">
     <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
     <div class="card__content">
-      <p>Here is some generic content for testing purposes. Don't worry about the actualy content of this card. The idea is to show how cool we can get with making borders.</p>
+      <p class="skeleton" data-lines="7" data-animation="true"></p>
     </div>
   </div>
 </div>
@@ -34,7 +34,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
   <div class="card">
     <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
     <div class="card__content">
-      <p>Here is some generic content for testing purposes. Don't worry about the actualy content of this card. The idea is to show how cool we can get with making borders.</p>
+      <!-- Card content goes here! -->
     </div>
   </div>
 </div>
@@ -45,10 +45,10 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
     <h4 class="pb-2 mb-2">Card Header</h4>
     <div class="card__content block-container blocks px-3">
       <div class="block block-6 border-r border--color-med-blue">
-        <p>Here is some generic content for testing purposes. Don't worry about the actualy content of this card.</p>
+        <p class="skeleton" data-lines="7" data-animation="true"></p>
       </div>
       <div class="block block-6">
-        <p>The idea is to show how cool we can get with making borders.</p>
+        <p class="skeleton" data-lines="7" data-animation="true"></p>
       </div>
     </div>
   </div>
@@ -60,10 +60,10 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
     <h4 class="pb-2 mb-2">Card Header</h4>
     <div class="card__content block-container blocks px-3">
       <div class="block block-6 border-r border--color-med-blue">
-        <p>Here is some generic content for testing purposes. Don't worry about the actualy content of this card.</p>
+        <!-- Card content goes here! -->
       </div>
       <div class="block block-6">
-        <p>The idea is to show how cool we can get with making borders.</p>
+        <!-- Card content goes here! -->
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
   <div class="card">
     <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
     <div class="card__content">
-      <p>Here is some generic content for testing purposes. Don't worry about the actualy content of this card. The idea is to show how cool we can get with making borders.</p>
+      <p class="skeleton" data-lines="7" data-animation="true"></p>
     </div>
   </div>
 </div>
@@ -84,7 +84,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
   <div class="card">
     <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
     <div class="card__content">
-      <p>Here is some generic content for testing purposes. Don't worry about the actualy content of this card. The idea is to show how cool we can get with making borders.</p>
+      <!-- Card content goes here! -->
     </div>
   </div>
 </div>
