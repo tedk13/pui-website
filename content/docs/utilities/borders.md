@@ -18,7 +18,7 @@ You can add specific borders to elements by using the following classes:
 | `border--width-{i}`     | `border-width: {i}px;`
 | `border--color-{color}` | `border-color: {color};`
 
-The `border--color-{color}` class combines the [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
+The `border--color-{color}` class uses the [brand colors](/section-color.html#kssref-color-brandcolors) map.
 
 <div class="block-6">
   <div class="card">
