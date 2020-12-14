@@ -2,7 +2,39 @@
 title: Layout
 date: 2018-07-20T12:59:15-04:00
 ---
-{{< heading heading="h3" id="block-grid">}}
+{{< heading heading="h2" id="flex">}}
+Flex
+{{< /heading >}}
+
+Flexbox utilities to use when flexbox is present.
+
+When `display: flex` add any of the class modifiers from the table below to work with flexbox.
+
+| Class Name                  | CSS Attribute                                                  |
+| --------------------------- | -------------------------------------------------------------- |
+| `flex--align-center`        | `align-items: center;`                                         |
+| `flex--align-start`         | `align-items: flex-start;`                                     |
+| `flex--align-end`           | `align-items: flex-end;`                                       |
+| `flex--align-baseline`      | `align-items: baseline;`                                       |
+| `flex--align-self-center`   | `align-self: center;`                                          |
+| `flex--align-self-start`    | `align-self: flex-start;`                                      |
+| `flex--align-self-end`      | `align-self: flex-end;`                                        |
+| `flex--align-self-baseline` | `align-self: baseline;`                                        |
+| `flex--justify-center`      | `justify-content: center;`                                     | 
+| `flex--justify-start`       | `justify-content: flex-start;`                                 |
+| `flex--justify-end`         | `justify-content: flex-end;`                                   |
+| `flex--justify-between`     | `justify-content: space-between;`                              |
+| `flex--justify-around`      | `justify-content: space-around;`                               |
+| `flex--column`              | `flex-direction: column;`                                      |
+| `flex--column-reverse`      | `flex-direction: column-reverse;`                              |
+| `flex--row-reverse`         | `flex-direction: row-reverse;`                                 |
+| `flex--grow`                | `flex-grow: 1;`                                                |
+| `flex--wrap`                | `flex-wrap: wrap;`                                             |
+| `flex--nowrap`              | `flex-wrap: nowrap;`                                           |
+| `flex--center-content`      | `display: flex; align-items: center; justify-content: center;` |
+
+
+{{< heading heading="h2" id="block-grid">}}
 Block Grid
 {{< /heading >}}
 
@@ -21,7 +53,8 @@ The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
 - `block-container` has modifiers to allow auto-placement based on responsive breakpoints.
 - Adding a `{breakpoint}-up-{value}` class will create a grid of equally size blocks within the grid. For example: `block-container` `tablet-up-2` `laptop-up-4` would result in a grid with 2 blocks per row starting at the tablet resolution, then when the screen size reaches the laptop resolution, you would see 4 blocks per row. Each block would have the same width as well.
 
-{{< heading heading="h3" id="columns">}}
+
+{{< heading heading="h2" id="columns">}}
 12 Columns
 {{< /heading >}}
 
@@ -265,6 +298,7 @@ The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
 {{< /highlight >}}
 </div>
 
+
 {{< heading heading="h3" id="building-grids">}}
 Building Grids
 {{< /heading >}}
@@ -372,6 +406,7 @@ The second approach is to add the sizing classes to the wrapping `block-containe
 </div>
 {{< /highlight >}}
 </div>
+
 
 {{< heading heading="h3" id="responsive-grid-with-flex">}}
 Responsive Grid

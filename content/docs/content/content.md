@@ -98,7 +98,7 @@ Display
 
 Not everything works the way you want it to, so we've provided utilities for print and responsive display.
 
-To hide altogether via `hidden`, or a print specifc consideration, to `show-` or `hide-print` it's fairly simple.
+To hide altogether via `hidden`, or a print specific consideration, to `show-` or `hide-print` it's fairly simple.
 
 {{< heading heading="h4" id="display-print">}}
 Display and @print
