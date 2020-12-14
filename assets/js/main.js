@@ -78,7 +78,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   loaderButton.addEventListener('click', () => {
     loaderButton.classList.add('loading');
     setTimeout(() => loaderButton.classList.remove('loading'), 3000);
-  })
+  });
 
   loaderModalButton.addEventListener('click', () => {
     setTimeout(function() {
@@ -109,5 +109,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
       loaderCard.appendChild(loader);
     }
   }, 5000);
+
+  //truncate with ellipsis
+  let ellipsisButton = document.querySelector('.ellipsis-submit');
+  let ellipsisHeader = document.querySelector('.ellipsis-header');
+
+  ellipsisButton.addEventListener('click', () => {
+    ellipsisHeader.classList.toggle('truncate-with-ellipsis');
+  });
 });
 
