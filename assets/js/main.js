@@ -69,11 +69,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
   }
 
   // loader
-  let loaderButton = document.querySelector('.loader__submit');
-  let loaderModalButton = document.querySelector('.loader__modal');
+  let loaderButton = document.querySelector('.loader-submit');
+  let loaderModalButton = document.querySelector('.loader-modal');
   let loaderModal = document.querySelector('#loader-modal');
-  let loaderModalCloseButton = document.querySelector('.loader__modal-close');
-  let loaderCard = document.querySelector('.loader__card');
+  let loaderModalCloseButton = document.querySelector('.loader-modal-close');
+  let loaderCard = document.querySelector('.loader-card');
 
   loaderButton.addEventListener('click', () => {
     loaderButton.classList.add('loading');
