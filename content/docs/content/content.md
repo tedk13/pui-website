@@ -4,7 +4,7 @@ date: 2018-07-20T12:59:15-04:00
 ---
 ## Fonts
 
-Platform UI also considers font strategy; Specific to legibility in the scope of our appliactions, we've chosen the following Google webfonts:
+Platform UI also considers font strategy; Specific to legibility in the scope of our applications, we've chosen the following Google webfonts:
 
 | Usage | Font Family |
 |----------|-------------------------------------------------------------|
@@ -68,7 +68,7 @@ _**The example does not relfect a clear close action.**_
 
 Not everything works the way you want it to, so we've provided utilities for print and responsive display.
 
-To hide altogether via `hidden`, or a print specifc consideration, to `show-` or `hide-print` it's fairly simple.
+To hide altogether via `hidden`, or a print specific consideration, to `show-` or `hide-print` it's fairly simple.
 
 #### Display and @print
 
