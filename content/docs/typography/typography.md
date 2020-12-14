@@ -143,7 +143,7 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
 Sizing
 {{< /heading >}}
 
-`text--size-{ size }` leverages percetages for smaller or larger text. The defaut `font-size` is `1rem`.
+`text--size-{ size }` leverages percentages for smaller or larger text. The defaut `font-size` is `1rem`.
 
 | Size | Modifier Class | Result |
 | ------- | -----------------| ------- |
