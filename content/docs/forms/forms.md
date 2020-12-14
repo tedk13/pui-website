@@ -13,8 +13,8 @@ responsive forms, we recommend that you utilize the block layout and our spacers
   <label for="first-name-a" class="form__field">First Name
     <input id="first-name-a" type="text" placeholder="First Name">
   </label>
-  <label for="last-name" class="form__field">Last Name
-    <input id="last-name" type="text" placeholder="Last Name">
+  <label for="last-name-a" class="form__field">Last Name
+    <input id="last-name-a" type="text" placeholder="Last Name">
   </label>
 </form>
 
@@ -24,8 +24,8 @@ responsive forms, we recommend that you utilize the block layout and our spacers
   <label for="first-name-a" class="form__field">First Name
     <input id="first-name-a" type="text" placeholder="First Name">
   </label>
-  <label for="last-name" class="form__field">Last Name
-    <input id="last-name" type="text" placeholder="Last Name">
+  <label for="last-name-a" class="form__field">Last Name
+    <input id="last-name-a" type="text" placeholder="Last Name">
   </label>
 </form>
 {{< /highlight >}}
@@ -47,20 +47,20 @@ probably be best for a simple form that has text inputs.
 
 <form action="" class="form">
   <div class="form__field form__field--fancy">
-    <input id="first-name" type="text" required placeholder="Jane">
-    <label for="first-name">First Name</label>
+    <input id="first-name-b" type="text" required placeholder="Jane">
+    <label for="first-name-b">First Name</label>
   </div>
   <div class="form__field form__field--fancy">
-    <input id="last-name" type="text" required placeholder="Smith">
-    <label for="last-name">Last Name</label>
+    <input id="last-name-b" type="text" required placeholder="Smith">
+    <label for="last-name-b">Last Name</label>
   </div>
   <div class="form__field form__field--fancy">
-    <input id="zipcode" type="tel" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required placeholder="12345">
-    <label for="zipcode">ZIP Code</label>
+    <input id="zipcode-b" type="tel" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required placeholder="12345">
+    <label for="zipcode-b">ZIP Code</label>
   </div>
   <div class="form__field form__field--fancy">
     <div class="form__select-wrapper">
-      <select name="Option Select" id="Option" required placeholder="Option">
+      <select name="Option Select" id="option-b" required placeholder="Option">
         <option value=""></option>
         <option value="Option1">Option 1</option>
         <option value="Option2">Option 2</option>
@@ -69,7 +69,7 @@ probably be best for a simple form that has text inputs.
         <option value="Option5">Option 5</option>
         <option value="Option6">Option 6</option>
       </select>
-      <label for="Option">Option</label>
+      <label for="option-b">Option</label>
     </div>
   </div>
 </form>
@@ -78,20 +78,20 @@ probably be best for a simple form that has text inputs.
 {{< highlight html >}}
 <form action="" class="form">
   <div class="form__field form__field--fancy">
-    <input id="first-name" type="text" required placeholder="Jane">
-    <label for="first-name">First Name</label>
+    <input id="first-name-b" type="text" required placeholder="Jane">
+    <label for="first-name-b">First Name</label>
   </div>
   <div class="form__field form__field--fancy">
-    <input id="last-name" type="text" required placeholder="Smith">
-    <label for="last-name">Last Name</label>
+    <input id="last-name-b" type="text" required placeholder="Smith">
+    <label for="last-name-b">Last Name</label>
   </div>
   <div class="form__field form__field--fancy">
-    <input id="zipcode" type="tel" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required placeholder="12345">
-    <label for="zipcode">ZIP Code</label>
+    <input id="zipcode-b" type="tel" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required placeholder="12345">
+    <label for="zipcode-b">ZIP Code</label>
   </div>
   <div class="form__field form__field--fancy">
     <div class="form__select-wrapper">
-      <select name="Option Select" id="Option" required placeholder="Option">
+      <select name="Option Select" id="option-b" required placeholder="Option">
         <option value=""></option>
         <option value="Option1">Option 1</option>
         <option value="Option2">Option 2</option>
@@ -100,7 +100,7 @@ probably be best for a simple form that has text inputs.
         <option value="Option5">Option 5</option>
         <option value="Option6">Option 6</option>
       </select>
-      <label for="Option">Option</label>
+      <label for="option-b">Option</label>
     </div>
   </div>
 </form>
@@ -117,23 +117,23 @@ This modifier class adds a full border to each input within the form. Just add `
 
 <form action="" class="form form--bordered block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
-    <label for="first-name" class="form__field">First Name
-      <input id="first-name" type="text" placeholder="First Name">
+    <label for="first-name-c" class="form__field">First Name
+      <input id="first-name-c" type="text" placeholder="First Name">
     </label>
   </div>
   <div class="block">
-    <label for="last-name" class="form__field">Last Name
-      <input id="last-name" type="text" placeholder="Last Name">
+    <label for="last-name-c" class="form__field">Last Name
+      <input id="last-name-c" type="text" placeholder="Last Name">
     </label>
   </div>
   <div class="block">
-    <label for="dob" class="form__field">Birthday
-      <input id="dob" type="date">
+    <label for="dob-c" class="form__field">Birthday
+      <input id="dob-c" type="date">
     </label>
   </div>
   <div class="block">
-    <label for="zipcode" class="form__field">ZIP Code
-      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    <label for="zipcode-c" class="form__field">ZIP Code
+      <input id="zipcode-c" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
     </label>
   </div>
 </form>
@@ -142,23 +142,23 @@ This modifier class adds a full border to each input within the form. Just add `
 {{< highlight html >}}
 <form action="" class="form form--bordered block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
-    <label for="first-name" class="form__field">First Name
-      <input id="first-name" type="text" placeholder="First Name">
+    <label for="first-name-c" class="form__field">First Name
+      <input id="first-name-c" type="text" placeholder="First Name">
     </label>
   </div>
   <div class="block">
-    <label for="last-name" class="form__field">Last Name
-      <input id="last-name" type="text" placeholder="Last Name">
+    <label for="last-name-c" class="form__field">Last Name
+      <input id="last-name-c" type="text" placeholder="Last Name">
     </label>
   </div>
   <div class="block">
-    <label for="dob" class="form__field">Birthday
-      <input id="dob" type="date">
+    <label for="dob-c" class="form__field">Birthday
+      <input id="dob-c" type="date">
     </label>
   </div>
   <div class="block">
-    <label for="zipcode" class="form__field">ZIP Code
-      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    <label for="zipcode-c" class="form__field">ZIP Code
+      <input id="zipcode-c" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
     </label>
   </div>
 </form>
@@ -178,20 +178,20 @@ the padding of the rounded input. Checkout the markup below.
 
 <form action="" class="form form--rounded block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block form__field">
-    <label class="ml-2" for="first-name">First Name</label>
-    <input id="first-name" type="text" placeholder="First Name">
+    <label class="ml-2" for="first-name-d">First Name</label>
+    <input id="first-name-d" type="text" placeholder="First Name">
   </div>
   <div class="block form__field">
-    <label class="ml-2" for="last-name">Last Name</label>
-    <input id="last-name" type="text" placeholder="Last Name">
+    <label class="ml-2" for="last-name-d">Last Name</label>
+    <input id="last-name-d" type="text" placeholder="Last Name">
   </div>
   <div class="block form__field">
-    <label class="ml-2" for="dob">Birthday</label>
-    <input id="dob" type="date">
+    <label class="ml-2" for="dob-d">Birthday</label>
+    <input id="dob-d" type="date">
   </div>
   <div class="block form__field">
-    <label class="ml-2" for="zipcode">ZIP Code</label>
-    <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    <label class="ml-2" for="zipcode-d">ZIP Code</label>
+    <input id="zipcode-d" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
   </div>
 </form>
 
@@ -199,20 +199,20 @@ the padding of the rounded input. Checkout the markup below.
 {{< highlight html >}}
 <form action="" class="form form--rounded block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block form__field">
-    <label class="ml-2" for="first-name">First Name</label>
-    <input id="first-name" type="text" placeholder="First Name">
+    <label class="ml-2" for="first-name-d">First Name</label>
+    <input id="first-name-d" type="text" placeholder="First Name">
   </div>
   <div class="block form__field">
-    <label class="ml-2" for="last-name">Last Name</label>
-    <input id="last-name" type="text" placeholder="Last Name">
+    <label class="ml-2" for="last-name-d">Last Name</label>
+    <input id="last-name-d" type="text" placeholder="Last Name">
   </div>
   <div class="block form__field">
-    <label class="ml-2" for="dob">Birthday</label>
-    <input id="dob" type="date">
+    <label class="ml-2" for="dob-d">Birthday</label>
+    <input id="dob-d" type="date">
   </div>
   <div class="block form__field">
-    <label class="ml-2" for="zipcode">ZIP Code</label>
-    <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    <label class="ml-2" for="zipcode-d">ZIP Code</label>
+    <input id="zipcode-d" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
   </div>
 </form>
 {{< /highlight >}}
@@ -229,10 +229,10 @@ This will replace the arrow down icon with a clock icon.
 
 <form action="" class="form block-container">
   <div class="block block-4">
-    <label for="task-1-time" class="form__field">
+    <label for="task-1-time-e" class="form__field">
       <span class="sr-only">Time Icon Example</span>
-      <div class="form__select-wrapper time" id="task-1-time">
-        <select class="px-2" name="Select a time" id="task-1-time-select">
+      <div class="form__select-wrapper time" id="task-1-time-e">
+        <select class="px-2" name="Select a time" id="task-1-time-select-e">
           <option value="8:00 AM">8:00 AM</option>
           <option value="8:30 AM">8:30 AM</option>
           <option value="9:00 AM">9:00 AM</option>
@@ -250,10 +250,10 @@ This will replace the arrow down icon with a clock icon.
 {{< highlight html >}}
 <form action="" class="form block-container">
   <div class="block block-4">
-    <label for="task-1-time" class="form__field">
+    <label for="task-1-time-e" class="form__field">
       <span class="sr-only">Time Icon Example</span>
-      <div class="form__select-wrapper time" id="task-1-time">
-        <select class="px-2" name="Select a time" id="task-1-time-select">
+      <div class="form__select-wrapper time" id="task-1-time-e">
+        <select class="px-2" name="Select a time" id="task-1-time-select-e">
           <option value="8:00 AM">8:00 AM</option>
           <option value="8:30 AM">8:30 AM</option>
           <option value="9:00 AM">9:00 AM</option>
@@ -282,38 +282,38 @@ field will receive the error styling. However, if you only want to highlight on 
 
 <form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
-    <label for="first-name" class="form__field">First Name
-      <input id="first-name" type="text" placeholder="First Name">
+    <label for="first-name-f" class="form__field">First Name
+      <input id="first-name-f" type="text" placeholder="First Name">
     </label>
   </div>
   <div class="block">
-    <label for="last-name" class="form__field error">Last Name
-      <input id="last-name" type="text" placeholder="Last Name">
+    <label for="last-name-f" class="form__field error">Last Name
+      <input id="last-name-f" type="text" placeholder="Last Name">
     </label>
   </div>
   <div class="block">
-    <label for="dob" class="form__field">Birthday
-      <input id="dob" type="date">
+    <label for="dob-f" class="form__field">Birthday
+      <input id="dob-f" type="date">
     </label>
   </div>
   <div class="block">
-    <label for="zipcode" class="form__field">ZIP Code
-      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    <label for="zipcode-f" class="form__field">ZIP Code
+      <input id="zipcode-f" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
     </label>
   </div>
   <div class="block">
     <fieldset class="form__field error">
       <legend>Error on entire fieldset</legend>
       <div class="form__option-group">
-        <input class="form__checkbox" id="youcan-this-one" type="checkbox">
-        <label for="youcan-this-one">
+        <input class="form__checkbox" id="youcan-this-one-f" type="checkbox">
+        <label for="youcan-this-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
           </div>This
         </label>
-        <input class="form__checkbox" id="youcan-that-one" type="checkbox">
-        <label for="youcan-that-one">
+        <input class="form__checkbox" id="youcan-that-one-f" type="checkbox">
+        <label for="youcan-that-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
@@ -326,16 +326,16 @@ field will receive the error styling. However, if you only want to highlight on 
     <fieldset class="form__field">
       <legend>Error on individual input</legend>
       <div class="form__option-group">
-        <input class="form__checkbox error" id="gender-this-one" type="checkbox">
-        <label for="gender-this-one">
+        <input class="form__checkbox error" id="gender-this-one-f" type="checkbox">
+        <label for="gender-this-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
           This One
         </label>
-        <input class="form__checkbox" id="gender-that-one" type="checkbox">
-        <label for="gender-that-one">
+        <input class="form__checkbox" id="gender-that-one-f" type="checkbox">
+        <label for="gender-that-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
@@ -351,38 +351,38 @@ field will receive the error styling. However, if you only want to highlight on 
 {{< highlight html >}}
 <form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
-    <label for="first-name" class="form__field">First Name
-      <input id="first-name" type="text" placeholder="First Name">
+    <label for="first-name-f" class="form__field">First Name
+      <input id="first-name-f" type="text" placeholder="First Name">
     </label>
   </div>
   <div class="block">
-    <label for="last-name" class="form__field error">Last Name
-      <input id="last-name" type="text" placeholder="Last Name">
+    <label for="last-name-f" class="form__field error">Last Name
+      <input id="last-name-f" type="text" placeholder="Last Name">
     </label>
   </div>
   <div class="block">
-    <label for="dob" class="form__field">Birthday
-      <input id="dob" type="date">
+    <label for="dob-f" class="form__field">Birthday
+      <input id="dob-f" type="date">
     </label>
   </div>
   <div class="block">
-    <label for="zipcode" class="form__field">ZIP Code
-      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    <label for="zipcode-f" class="form__field">ZIP Code
+      <input id="zipcode-f" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
     </label>
   </div>
   <div class="block">
     <fieldset class="form__field error">
       <legend>Error on entire fieldset</legend>
       <div class="form__option-group">
-        <input class="form__checkbox" id="youcan-this-one" type="checkbox">
-        <label for="youcan-this-one">
+        <input class="form__checkbox" id="youcan-this-one-f" type="checkbox">
+        <label for="youcan-this-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
           </div>This
         </label>
-        <input class="form__checkbox" id="youcan-that-one" type="checkbox">
-        <label for="youcan-that-one">
+        <input class="form__checkbox" id="youcan-that-one-f" type="checkbox">
+        <label for="youcan-that-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
@@ -395,16 +395,16 @@ field will receive the error styling. However, if you only want to highlight on 
     <fieldset class="form__field">
       <legend>Error on individual input</legend>
       <div class="form__option-group">
-        <input class="form__checkbox error" id="gender-this-one" type="checkbox">
-        <label for="gender-this-one">
+        <input class="form__checkbox error" id="gender-this-one-f" type="checkbox">
+        <label for="gender-this-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
           This One
         </label>
-        <input class="form__checkbox" id="gender-that-one" type="checkbox">
-        <label for="gender-that-one">
+        <input class="form__checkbox" id="gender-that-one-f" type="checkbox">
+        <label for="gender-that-one-f">
           <div class="input-icons">
             <i class='pi-circle'></i>
             <i class='pi-check pi-heavy'></i>
@@ -428,20 +428,20 @@ If you would like the icon to be on the right side of the input, add the class `
 
 <form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
-    <label for="dob" class="form__field has-icon--right">Birthday
-      <input id="dob" type="date">
+    <label for="dob-g" class="form__field has-icon--right">Birthday
+      <input id="dob-g" type="date">
       <i class="pi-calendar background-white"></i>
     </label>
   </div>
   <div class="block">
-    <label for="date" class="form__field has-icon">Date
-      <input id="date" type="date">
+    <label for="date-g" class="form__field has-icon">Date
+      <input id="date-g" type="date">
       <i class="pi-calendar text-med-blue background-white"></i>
     </label>
   </div>
   <div class="block">
-    <label for="time" class="form__field has-icon--right">Your Time
-      <input id="time" type="time" placeholder="10:00 AM">
+    <label for="time-g" class="form__field has-icon--right">Your Time
+      <input id="time-g" type="time" placeholder="10:00 AM">
       <i class="pi-clock"></i>
     </label>
   </div>
@@ -456,20 +456,20 @@ If you would like the icon to be on the right side of the input, add the class `
 {{< highlight html >}}
 <form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
-    <label for="dob" class="form__field has-icon--right">Birthday
-      <input id="dob" type="date">
+    <label for="dob-g" class="form__field has-icon--right">Birthday
+      <input id="dob-g" type="date">
       <i class="pi-calendar background-white"></i>
     </label>
   </div>
   <div class="block">
-    <label for="date" class="form__field has-icon">Date
-      <input id="date" type="date">
+    <label for="date-g" class="form__field has-icon">Date
+      <input id="date-g" type="date">
       <i class="pi-calendar text-med-blue background-white"></i>
     </label>
   </div>
   <div class="block">
-    <label for="time" class="form__field has-icon--right">Your Time
-      <input id="time" type="time" placeholder="10:00 AM">
+    <label for="time-g" class="form__field has-icon--right">Your Time
+      <input id="time-g" type="time" placeholder="10:00 AM">
       <i class="pi-clock"></i>
     </label>
   </div>
@@ -705,248 +705,6 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
 {{< /highlight >}}
 </div>
 
-
-
-{{< heading heading="h2" id="putting-it-together">}}
-Putting it together
-{{< /heading >}}
-
-Here's an example of a larger responsive form using the block layout.
-
-<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
-  <div class="block">
-    <label for="first-name" class="form__field">First Name
-      <input id="first-name" type="text" placeholder="First Name">
-    </label>
-  </div>
-  <div class="block">
-    <label for="last-name" class="form__field">Last Name
-      <input id="last-name" type="text" placeholder="Last Name">
-    </label>
-  </div>
-  <div class="block">
-    <label for="dob" class="form__field">Birthday
-      <input id="dob" type="date">
-    </label>
-  </div>
-  <div class="block">
-    <label for="zipcode" class="form__field">ZIP Code
-      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
-    </label>
-  </div>
-  <div class="block">
-    <fieldset class="form__field">
-      <legend>Choose</legend>
-      <div class="form__option-group">
-        <input class="form__checkbox" id="gender-this-one" type="checkbox">
-        <label for="gender-this-one">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
-          </div>
-          This One
-        </label>
-        <input class="form__checkbox" id="gender-that-one" type="checkbox">
-        <label for="gender-that-one">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
-          </div>
-          That One
-        </label>
-      </div>
-    </fieldset>
-  </div>
-  <div class="block">
-    <fieldset class="form__field">
-      <legend>Gender</legend>
-      <div class="form__option-group">
-        <input class="form__radio" id="gender-male" type="radio" name="gender">
-        <label for="gender-male">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
-          </div>
-          Male
-        </label>
-        <input class="form__radio" id="gender-female" type="radio" name="gender">
-        <label for="gender-female">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
-          </div>
-          Female
-        </label>
-      </div>
-    </fieldset>
-  </div>
-  <div class="block">
-    <label for="Option" class="form__field">Option
-      <div class="form__select-wrapper">
-        <select name="Option Select" id="Option">
-          <option value="Option1">Option 1</option>
-          <option value="Option2">Option 2</option>
-          <option value="Option3">Option 3</option>
-          <option value="Option4">Option 4</option>
-          <option value="Option5">Option 5</option>
-          <option value="Option6">Option 6</option>
-        </select>
-      </div>
-    </label>
-  </div>
-  <div class="block">
-    <fieldset class="form__field">
-      <legend>Are You</legend>
-      <div class="toggle">
-        <div class="toggle__content">
-          <input id="tall" type="radio" checked name="height">
-          <label for="tall"><i class='pi-check pi-heavy'></i> Tall</label>
-        </div>
-        <div class="toggle__content">
-          <input id="short" type="radio" name="height">
-          <label for="short"><i class='pi-check pi-heavy'></i> Short</label>
-        </div>
-      </div>
-    </fieldset>
-  </div>
-  <div class="block">
-    <label for="date-1" class="form__field has-icon">Date
-      <input id="date-1" type="date">
-      <i class="pi-calendar text-skyblue background-white"></i>
-    </label>
-  </div>
-  <div class="block">
-    <label for="time" class="form__field">Your Time
-      <input id="time" type="time" placeholder="10:00 AM">
-    </label>
-  </div>
-  <div class="block">
-    <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
-    </div>
-  </div>
-</form>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
-  <div class="block">
-    <label for="first-name" class="form__field">First Name
-      <input id="first-name" type="text" placeholder="First Name">
-    </label>
-  </div>
-  <div class="block">
-    <label for="last-name" class="form__field">Last Name
-      <input id="last-name" type="text" placeholder="Last Name">
-    </label>
-  </div>
-  <div class="block">
-    <label for="dob" class="form__field">Birthday
-      <input id="dob" type="date">
-    </label>
-  </div>
-  <div class="block">
-    <label for="zipcode" class="form__field">ZIP Code
-      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
-    </label>
-  </div>
-  <div class="block">
-    <fieldset class="form__field">
-      <legend>Choose</legend>
-      <div class="form__option-group">
-        <input class="form__checkbox" id="gender-this-one" type="checkbox">
-        <label for="gender-this-one">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
-          </div>
-          This One
-        </label>
-        <input class="form__checkbox" id="gender-that-one" type="checkbox">
-        <label for="gender-that-one">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
-          </div>
-          That One
-        </label>
-      </div>
-    </fieldset>
-  </div>
-  <div class="block">
-    <fieldset class="form__field">
-      <legend>Gender</legend>
-      <div class="form__option-group">
-        <input class="form__radio" id="gender-male" type="radio" name="gender">
-        <label for="gender-male">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
-          </div>
-          Male
-        </label>
-        <input class="form__radio" id="gender-female" type="radio" name="gender">
-        <label for="gender-female">
-          <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
-          </div>
-          Female
-        </label>
-      </div>
-    </fieldset>
-  </div>
-  <div class="block">
-    <label for="Option" class="form__field">Option
-      <div class="form__select-wrapper">
-        <select name="Option Select" id="Option">
-          <option value="Option1">Option 1</option>
-          <option value="Option2">Option 2</option>
-          <option value="Option3">Option 3</option>
-          <option value="Option4">Option 4</option>
-          <option value="Option5">Option 5</option>
-          <option value="Option6">Option 6</option>
-        </select>
-      </div>
-    </label>
-  </div>
-  <div class="block">
-    <fieldset class="form__field">
-      <legend>Are You</legend>
-      <div class="toggle">
-        <div class="toggle__content">
-          <input id="tall" type="radio" checked name="height">
-          <label for="tall"><i class='pi-check pi-heavy'></i> Tall</label>
-        </div>
-        <div class="toggle__content">
-          <input id="short" type="radio" name="height">
-          <label for="short"><i class='pi-check pi-heavy'></i> Short</label>
-        </div>
-      </div>
-    </fieldset>
-  </div>
-  <div class="block">
-    <label for="date-1" class="form__field has-icon">Date
-      <input id="date-1" type="date">
-      <i class="pi-calendar text-skyblue background-white"></i>
-    </label>
-  </div>
-  <div class="block">
-    <label for="time" class="form__field">Your Time
-      <input id="time" type="time" placeholder="10:00 AM">
-    </label>
-  </div>
-  <div class="block">
-    <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
-    </div>
-  </div>
-</form>
-{{< /highlight >}}
-</div>
-
-
-
 {{< heading heading="h2" id="select">}}
 Select
 {{< /heading >}}
@@ -979,9 +737,9 @@ allows for consistent spacing with the other form elements. If you wish to have 
 {{< highlight html >}}
 <form action="" class="form block-container">
   <div class="block block-4">
-    <label for="Option" class="form__field">Option
+    <label for="option" class="form__field">Option
       <div class="form__select-wrapper">
-        <select name="Option Select" id="Option">
+        <select name="Option Select" id="option">
           <option value="Option1">Option 1</option>
           <option value="Option2">Option 2</option>
           <option value="Option3">Option 3</option>
@@ -991,6 +749,246 @@ allows for consistent spacing with the other form elements. If you wish to have 
         </select>
       </div>
     </label>
+  </div>
+</form>
+{{< /highlight >}}
+</div>
+
+
+
+{{< heading heading="h2" id="putting-it-together">}}
+Putting it together
+{{< /heading >}}
+
+Here's an example of a larger responsive form using the block layout.
+
+<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
+  <div class="block">
+    <label for="first-name-h" class="form__field">First Name
+      <input id="first-name-h" type="text" placeholder="First Name">
+    </label>
+  </div>
+  <div class="block">
+    <label for="last-name-h" class="form__field">Last Name
+      <input id="last-name-h" type="text" placeholder="Last Name">
+    </label>
+  </div>
+  <div class="block">
+    <label for="dob-h" class="form__field">Birthday
+      <input id="dob-h" type="date">
+    </label>
+  </div>
+  <div class="block">
+    <label for="zipcode-h" class="form__field">ZIP Code
+      <input id="zipcode-h" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    </label>
+  </div>
+  <div class="block">
+    <fieldset class="form__field">
+      <legend>Choose</legend>
+      <div class="form__option-group">
+        <input class="form__checkbox" id="gender-this-one-h" type="checkbox">
+        <label for="gender-this-one-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-check pi-heavy'></i>
+          </div>
+          This One
+        </label>
+        <input class="form__checkbox" id="gender-that-one-h" type="checkbox">
+        <label for="gender-that-one-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-check pi-heavy'></i>
+          </div>
+          That One
+        </label>
+      </div>
+    </fieldset>
+  </div>
+  <div class="block">
+    <fieldset class="form__field">
+      <legend>Gender</legend>
+      <div class="form__option-group">
+        <input class="form__radio" id="gender-male-h" type="radio" name="gender">
+        <label for="gender-male-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-circle-solid'></i>
+          </div>
+          Male
+        </label>
+        <input class="form__radio" id="gender-female-h" type="radio" name="gender">
+        <label for="gender-female-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-circle-solid'></i>
+          </div>
+          Female
+        </label>
+      </div>
+    </fieldset>
+  </div>
+  <div class="block">
+    <label for="option-h" class="form__field">Option
+      <div class="form__select-wrapper">
+        <select name="Option Select" id="option-h">
+          <option value="Option1">Option 1</option>
+          <option value="Option2">Option 2</option>
+          <option value="Option3">Option 3</option>
+          <option value="Option4">Option 4</option>
+          <option value="Option5">Option 5</option>
+          <option value="Option6">Option 6</option>
+        </select>
+      </div>
+    </label>
+  </div>
+  <div class="block">
+    <fieldset class="form__field">
+      <legend>Are You</legend>
+      <div class="toggle">
+        <div class="toggle__content">
+          <input id="tall-h" type="radio" checked name="height">
+          <label for="tall-h"><i class='pi-check pi-heavy'></i> Tall</label>
+        </div>
+        <div class="toggle__content">
+          <input id="short-h" type="radio" name="height">
+          <label for="short-h"><i class='pi-check pi-heavy'></i> Short</label>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div class="block">
+    <label for="date-h" class="form__field has-icon">Date
+      <input id="date-h" type="date">
+      <i class="pi-calendar text-skyblue background-white"></i>
+    </label>
+  </div>
+  <div class="block">
+    <label for="time-h" class="form__field">Your Time
+      <input id="time-h" type="time" placeholder="10:00 AM">
+    </label>
+  </div>
+  <div class="block">
+    <div class="form__field form__button-group">
+      <button class="button button--post button--lg">Submit</button>
+    </div>
+  </div>
+</form>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
+  <div class="block">
+    <label for="first-name-h" class="form__field">First Name
+      <input id="first-name-h" type="text" placeholder="First Name">
+    </label>
+  </div>
+  <div class="block">
+    <label for="last-name-h" class="form__field">Last Name
+      <input id="last-name-h" type="text" placeholder="Last Name">
+    </label>
+  </div>
+  <div class="block">
+    <label for="dob-h" class="form__field">Birthday
+      <input id="dob-h" type="date">
+    </label>
+  </div>
+  <div class="block">
+    <label for="zipcode-h" class="form__field">ZIP Code
+      <input id="zipcode-h" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    </label>
+  </div>
+  <div class="block">
+    <fieldset class="form__field">
+      <legend>Choose</legend>
+      <div class="form__option-group">
+        <input class="form__checkbox" id="gender-this-one-h" type="checkbox">
+        <label for="gender-this-one-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-check pi-heavy'></i>
+          </div>
+          This One
+        </label>
+        <input class="form__checkbox" id="gender-that-one-h" type="checkbox">
+        <label for="gender-that-one-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-check pi-heavy'></i>
+          </div>
+          That One
+        </label>
+      </div>
+    </fieldset>
+  </div>
+  <div class="block">
+    <fieldset class="form__field">
+      <legend>Gender</legend>
+      <div class="form__option-group">
+        <input class="form__radio" id="gender-male-h" type="radio" name="gender">
+        <label for="gender-male-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-circle-solid'></i>
+          </div>
+          Male
+        </label>
+        <input class="form__radio" id="gender-female-h" type="radio" name="gender">
+        <label for="gender-female-h">
+          <div class="input-icons">
+            <i class='pi-circle pi-lg'></i>
+            <i class='pi-circle-solid'></i>
+          </div>
+          Female
+        </label>
+      </div>
+    </fieldset>
+  </div>
+  <div class="block">
+    <label for="option-h" class="form__field">Option
+      <div class="form__select-wrapper">
+        <select name="Option Select" id="option-h">
+          <option value="Option1">Option 1</option>
+          <option value="Option2">Option 2</option>
+          <option value="Option3">Option 3</option>
+          <option value="Option4">Option 4</option>
+          <option value="Option5">Option 5</option>
+          <option value="Option6">Option 6</option>
+        </select>
+      </div>
+    </label>
+  </div>
+  <div class="block">
+    <fieldset class="form__field">
+      <legend>Are You</legend>
+      <div class="toggle">
+        <div class="toggle__content">
+          <input id="tall-h" type="radio" checked name="height">
+          <label for="tall-h"><i class='pi-check pi-heavy'></i> Tall</label>
+        </div>
+        <div class="toggle__content">
+          <input id="short-h" type="radio" name="height">
+          <label for="short-h"><i class='pi-check pi-heavy'></i> Short</label>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div class="block">
+    <label for="date-h" class="form__field has-icon">Date
+      <input id="date-h" type="date">
+      <i class="pi-calendar text-skyblue background-white"></i>
+    </label>
+  </div>
+  <div class="block">
+    <label for="time-h" class="form__field">Your Time
+      <input id="time-h" type="time" placeholder="10:00 AM">
+    </label>
+  </div>
+  <div class="block">
+    <div class="form__field form__button-group">
+      <button class="button button--post button--lg">Submit</button>
+    </div>
   </div>
 </form>
 {{< /highlight >}}
