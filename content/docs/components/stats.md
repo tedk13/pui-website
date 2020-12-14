@@ -74,7 +74,7 @@ Used to display statistics in different situations throughout the platform. Ther
       <i class="pi-calendar card__title-icon--large"></i>
       <h2 class="card__title">Stats</h2>
     </div>
-    <div class="pui-card__group button-group">
+    <div class="card__group button-group">
       <button class="button">Add <i class="pi-plus"></i></button>
       <button class="button">View All <i class="pi-arrow-right"></i></button>
     </div>
@@ -85,13 +85,13 @@ Used to display statistics in different situations throughout the platform. Ther
             <div class="text-light">Monthly Statistics</div>
         </div>
         <div class="block">
-            <div class="pui-stat pui-stat--lg text-salmon" data-stat-label="Total Stats">
-                <span class="pui-stat__number">4374</span>
+            <div class="stat stat--lg text-salmon" data-stat-label="Total Stats">
+                <span class="stat__number">4374</span>
             </div>
         </div>
         <div class="block">
-            <div class="pui-stat pui-stat--lg text-navy" data-stat-label="New Stats">
-                <span class="pui-stat__number">46</span>
+            <div class="stat stat--lg text-navy" data-stat-label="New Stats">
+                <span class="stat__number">46</span>
             </div>
         </div>
     </div>
@@ -101,13 +101,13 @@ Used to display statistics in different situations throughout the platform. Ther
             <div class="text-light">Monthly Statistics</div>
         </div>
         <div class="block">
-            <div class="pui-stat pui-stat--md text-salmon" data-stat-label="New Stats">
-                <span class="pui-stat__number">10</span>
+            <div class="stat stat--md text-salmon" data-stat-label="New Stats">
+                <span class="stat__number">10</span>
             </div>
         </div>
         <div class="block">
-            <div class="pui-stat pui-stat--md text-salmon" data-stat-label="New Stats">
-                <span class="pui-stat__number">56</span>
+            <div class="stat stat--md text-salmon" data-stat-label="New Stats">
+                <span class="stat__number">56</span>
             </div>
         </div>
     </div>
@@ -117,17 +117,17 @@ Used to display statistics in different situations throughout the platform. Ther
             <div class="text-light">New Stats</div>
         </div>
         <div class="block">
-            <div class="pui-stat pui-stat--sm text-salmon" data-stat-label="Submitted Stats">
-                <span class="pui-stat__number">474</span>
+            <div class="stat stat--sm text-salmon" data-stat-label="Submitted Stats">
+                <span class="stat__number">474</span>
             </div>
         </div>
         <div class="block">
-            <div class="pui-stat pui-stat--sm text-salmon" data-stat-label="New Stats">
-                <span class="pui-stat__number">4</span>
+            <div class="stat stat--sm text-salmon" data-stat-label="New Stats">
+                <span class="stat__number">4</span>
             </div>
         </div>
     </div>
   </div>
 </div>
-{{< highlight html >}}
+{{< /highlight >}}
 </div>
