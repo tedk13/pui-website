@@ -11,16 +11,10 @@ The heading in the first block has the class `truncate-with-ellipsis` added to i
         <h3 class="truncate-with-ellipsis">This is a heading for a block</h3>
         <p>This a a paragraph inside a block. This paragraph also happens to be unerneath the heading.</p>
     </div>
-    <div class="block">
-        <h3>This is a heading for a block</h3>
-        <p>This a a paragraph inside a block. This paragraph also happens to be unerneath the heading.</p>
-    </div>
-    <div class="block">
-        <h3>This is a heading for a block</h3>
-        <p>This a a paragraph inside a block. This paragraph also happens to be unerneath the heading.</p>
-    </div>
-    <div class="block">
-        <h3>This is a heading for a block</h3>
-        <p>This a a paragraph inside a block. This paragraph also happens to be unerneath the heading.</p>
-    </div>
+</div>
+
+<div class="mb-4">
+{{< highlight html >}}
+<h3 class="truncate-with-ellipsis">This is a heading for a block</h3>
+{{< /highlight >}}
 </div>
