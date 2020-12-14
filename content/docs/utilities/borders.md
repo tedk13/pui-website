@@ -5,18 +5,18 @@ date: 2018-07-20T12:59:15-04:00
 
 You can add specific borders to elements by using the following classes:
 
-| Classes                 | CSS Attribute           |
-| ----------------------- | ----------------------- |
-| `border`                | `border: 1px solid;`
-| `no-border`             | `border: none;`
-| `border-x`              | `border-left: 1px solid; border-right: 1px solid;`
-| `border-y`              | `border-top: 1px solid; border-bottom: 1px solid;`
-| `border-t`              | `border-top: 1px solid;`
-| `border-b`              | `border-bottom: 1px solid;`
-| `border-r`              | `border-right: 1px solid;`
-| `border-l`              | `border-left: 1px solid;`
-| `border--width-{i}`     | `border-width: {i}px;`
-| `border--color-{color}` | `border-color: {color};`
+| Classes                 | CSS Attribute                                      |
+| ----------------------- | -------------------------------------------------- |
+| `border`                | `border: 1px solid;`                               |
+| `no-border`             | `border: none;`                                    |
+| `border-x`              | `border-left: 1px solid; border-right: 1px solid;` |
+| `border-y`              | `border-top: 1px solid; border-bottom: 1px solid;` |
+| `border-t`              | `border-top: 1px solid;`                           |
+| `border-b`              | `border-bottom: 1px solid;`                        |
+| `border-r`              | `border-right: 1px solid;`                         |
+| `border-l`              | `border-left: 1px solid;`                          |
+| `border--width-{i}`     | `border-width: {i}px;`                             |
+| `border--color-{color}` | `border-color: {color};`                           |
 
 The `border--color-{color}` class uses the [brand colors](/section-color.html#kssref-color-brandcolors) map.
 
