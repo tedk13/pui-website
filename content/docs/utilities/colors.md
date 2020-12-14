@@ -2,7 +2,7 @@
 title: Colors
 date: 2018-07-20T12:59:15-04:00
 ---
-Find some utility classes that you can use to use along our existing color classes.
+Find some utility classes that you can use along with our existing color classes.
 
 {{< heading heading="h2" id="background-colors">}}
 Background Colors 

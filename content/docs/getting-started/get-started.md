@@ -4,7 +4,7 @@ date: 2018-07-20T12:59:15-04:00
 weight: 1
 ---
 
-If you're not downloading or building, then CDN access via [UNPKG](https://unpkg.com/) is fast and easy to start working wityh Platform UI in your project!
+If you're not downloading or building, then CDN access via [UNPKG](https://unpkg.com/) is fast and easy to start working with Platform UI in your project!
 
 {{< heading heading="h2" id="css" >}}
 CSS

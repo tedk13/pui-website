@@ -6,7 +6,7 @@ date: 2018-07-20T12:59:15-04:00
 Fonts
 {{< /heading >}}
 
-Platform UI also considers font strategy; Specific to legibility in the scope of our appliactions, we've chosen the following Google webfonts:
+Platform UI also considers font strategy; Specific to legibility in the scope of our applications, we've chosen the following Google webfonts:
 
 | Usage | Font Family |
 |----------|-------------------------------------------------------------|

@@ -3,7 +3,7 @@ title: Menu
 date: 2018-07-20T12:59:15-04:00
 ---
 
-The default menu has a white background with Navy text color. The hover color on the items in the menu is set to a light gray. These colors can be cahnged in the config file.
+The default menu has a white background with Navy text color. The hover color on the items in the menu is set to a light gray. These colors can be changed in the config file.
 You can also invert the colors of the site-menu by adding the classes `.primary` and `.inverted` to the site-menu. This would give the menu a navy background and white text color.
 
 
