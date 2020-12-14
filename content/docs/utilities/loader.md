@@ -7,11 +7,11 @@ The standard loading wheel that is used throughout platform-ui.
 
 Use these classes to change the size of a loader.
 
-| Class Name   | Height   |
-| ------------ | -------- |
-| `loader`     | `1.4rem` |
-| `loader--sm` | `.9rem`  |
-| `loader--lg` | `2rem`   |
+| Class Name   | Height and Width |
+| ------------ | ---------------- |
+| `loader`     | `1.4rem`         |
+| `loader--sm` | `.9rem`          |
+| `loader--lg` | `2rem`           |
 
 To use with a button add the class `loading`
 
