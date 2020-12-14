@@ -1,9 +1,101 @@
 ---
-title: Background Utilities
+title: Backgrounds
 date: 2018-07-20T12:59:15-04:00
 ---
 
-## Background Images
+{{< heading heading="h2" id="background-colors">}}
+Colors 
+{{< /heading >}}
+The background color classes are used to set, or change a `background-color` on a specific element. 
+
+| Color | Class |
+|-------|-------|
+| <p class="background-white">White</p> | `.background-white` |
+| <p class="background-lighter">Lighter</p> | `.background-lighter` |
+| <p class="background-light-mid">Light Mid</p> | `.background-light-mid` |
+| <p class="background-light">Light</p> | `.background-light` |
+| <p class="background-base text-white">Base</p> | `.background-base` |
+| <p class="background-dark text-white">Dark</p> | `.background-dark` |
+| <p class="background-black text-white">Black</p> | `.background-black` |
+| <p class="background-navy text-white">Navy</p> | `.background-navy` |
+| <p class="background-skyblue text-white">Skyblue</p> | `.background-skyblue` |
+| <p class="background-med-blue text-white">Med Blue</p> | `.background-med-blue` |
+| <p class="background-beige text-white">Beige</p> | `.background-beige` |
+| <p class="background-peach text-white">Peach</p> | `.background-peach` |
+| <p class="background-salmon text-white">Salmon</p> | `.background-salmon` |
+| <p class="background-brown text-white">Brown</p> | `.background-brown` |
+| <p class="background-orange text-white">Orange</p> | `.background-orange` |
+
+<div class="mb-4">
+{{< highlight html >}}
+<p class="background-white">White</p>
+<p class="background-lighter">Lighter</p>
+<p class="background-light-mid">Light Mid</p>
+<p class="background-light">Light</p>
+<p class="background-base">Base</p>
+<p class="background-dark">Dark</p>
+<p class="background-black">Black</p>
+<p class="background-navy">Navy</p>
+<p class="background-skyblue">Skyblue</p>
+<p class="background-med-blue">Med Blue</p>
+<p class="background-beige">Beige</p>
+<p class="background-peach">Peach</p>
+<p class="background-salmon">Salmon</p>
+<p class="background-brown">Brown</p>
+<p class="background-orange">Orange</p>
+{{< /highlight >}}
+</div>
+
+{{< heading heading="h2" id="inverted">}}
+Inverted
+{{< /heading >}}
+
+The `inverted` class changes the color of an element to white. It has a transition, so after the class is added, the color
+will transition to white.
+
+<div class="card background-black">
+  <h1 class="inverted">Hello world</h1>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<div class="card background-black">
+  <h1 class="inverted">Hello world</h1>
+</div>
+{{< /highlight >}}
+</div>
+
+
+{{< heading heading="h2" id="transparent">}}
+Transparent
+{{< /heading >}}
+
+If you want to remove the background color and border color on an element, add the class `transparent`.
+
+<div class="block-container card background-lighter">
+  <div class="block-6">
+    <button class="button">Button</button>
+  </div>
+  <div class="block-6">
+    <button class="button transparent">Transparent Button</button>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<div class="block-container card background-lighter">
+  <div class="block-6">
+    <button class="button">Button</button>
+  </div>
+  <div class="block-6">
+    <button class="button transparent">Transparent Button</button>
+  </div>
+</div>
+{{< /highlight >}}
+</div>
+
+
+## Images
 Note This section leverages javascript and is not pure css.
 
 You can use platform UI to add background images using data attributes and some javascript.
@@ -135,7 +227,7 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   {{< /highlight >}}
   </div>
 
-## Background Gradient
+## Gradient
 Note This section leverages javascript and is not pure css. This feature will also not work in IE.
 
 You can create your own custom linear gradient. Start by adding the linear-gradient class. From there, enter the values you like for your direction and color using the appropriate data attributes. See the example and table below.
@@ -236,7 +328,7 @@ You can also change the distance of your colors by adding a perceentage in the d
 {{< /highlight >}}
 </div>
 
-## Background Image and Gradient
+## Image and Gradient
 You can get really fancy with your backgrounds by adding a gradient over a background image. To do this, you will need both classes `linear-gradient` `background-image`. From there, add the appropriate data attributes to get your desired image and gradient.
 
 <div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
@@ -271,7 +363,7 @@ You can get really fancy with your backgrounds by adding a gradient over a backg
 {{< /highlight >}}
 </div>
 
-## Background Ratio
+## Ratio
 Set the size of an element equal to a common ratio with the ratio-{val} class.
 | Ratio | Class |
 |--|--|
