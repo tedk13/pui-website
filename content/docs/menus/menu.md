@@ -4,6 +4,14 @@ date: 2018-07-20T12:59:15-04:00
 ---
 
 ## Site Menu
+<div class="block-container blocks mb-4">
+  <div class="block">
+    <div class="pill text--size-xs text-dark">
+      <i class="pi-bolt mr-1 text-negative"></i>
+      Requires <span class="text--bold ml-1">JavaScript</span>
+    </div> 
+  </div>
+</div>
 
 Here is a simple menu. This should be used inside your site header. It would work great as a navigation menu. The link colors are set to inherit the color defined by the `body`. In this case, `#333`. The links have a subtle shadow on mouse over to give the links a nice hover effect.
 

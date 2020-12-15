@@ -96,7 +96,14 @@ If you want to remove the background color and border color on an element, add t
 
 
 ## Images
-Note This section leverages javascript and is not pure css.
+<div class="block-container blocks mb-4">
+  <div class="block">
+    <div class="pill text--size-xs text-dark">
+      <i class="pi-bolt mr-1 text-negative"></i>
+      Requires <span class="text--bold ml-1">JavaScript</span>
+    </div> 
+  </div>
+</div>
 
 You can use platform UI to add background images using data attributes and some javascript.
 
@@ -228,7 +235,14 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   </div>
 
 ## Gradient
-Note This section leverages javascript and is not pure css. This feature will also not work in IE.
+<div class="block-container blocks mb-4">
+  <div class="block">
+    <div class="pill text--size-xs text-dark">
+      <i class="pi-bolt mr-1 text-negative"></i>
+      Requires <span class="text--bold ml-1">JavaScript</span>
+    </div> 
+  </div>
+</div>
 
 You can create your own custom linear gradient. Start by adding the linear-gradient class. From there, enter the values you like for your direction and color using the appropriate data attributes. See the example and table below.
 
@@ -283,7 +297,7 @@ You can also change the distance of your colors by adding a perceentage in the d
   </div>
 </div>
 
-<div class="mb-4">
+<div>
 {{< highlight html >}}
 <div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
   <div class="block">
@@ -326,6 +340,9 @@ You can also change the distance of your colors by adding a perceentage in the d
   </div>
 </div>
 {{< /highlight >}}
+</div>
+<div class="message message--warning mb-4">
+  <p>This feature will not work in IE.</p>
 </div>
 
 ## Image and Gradient

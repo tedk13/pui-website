@@ -216,10 +216,13 @@ By adding the class `active` to a button, the button's hover effect is mimicked.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<button class="button mb-2">Add <i class="pi-plus"></i></button>
+<button class="button mb-2">
+  Add 
+  <i class="pi-plus"></i>
+</button>
 <button class="button button--lg active">Add <i class="pi-plus"></i></button>
 <div class="button-group mt-4">
-  <a class="button button--secondary" role="button">
+  <a class="button button--secondary">
     <i class="pi-download"></i>
   </a>
   <a class="button button--secondary active">

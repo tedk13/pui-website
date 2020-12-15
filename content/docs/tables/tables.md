@@ -2,7 +2,7 @@
 title: Tables
 date: 2018-07-20T12:59:15-04:00
 ---
-## Default table
+## Default Tables
 Use the `table` class to get the table styles applied.
 
 Attach any `click` event directly to the `<th>` for a larger click target.

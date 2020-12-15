@@ -2,6 +2,14 @@
 title: Modal
 date: 2018-07-20T12:59:15-04:00
 ---
+<div class="block-container blocks mb-4">
+  <div class="block">
+    <div class="pill text--size-xs text-dark">
+      <i class="pi-bolt mr-1 text-negative"></i>
+      Requires <span class="text--bold ml-1">JavaScript</span>
+    </div> 
+  </div>
+</div>
 
 Modal default state is closed. Toggling `.modal--closed` on both the `.modal--overlay` and `.modal` will diplay the modal.
 
