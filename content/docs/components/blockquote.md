@@ -23,7 +23,7 @@ Our blockquotes are similar to the browser default. We added a left border, whic
 {{< /highlight >}}
 
 ## Colors
-As previously mentioned, the default color of the left border is light gray, but you can change it if you like. You can change the color of the border by using a border utility. For example, adding the class `border--color-navy`, to the blockquote, will change the border to navy. Learn more about border utilities. You can view our list of colors available greyscale, brand colors, and secondary colors maps.
+As previously mentioned, the default color of the left border is light gray, but you can change it if you like. You can change the color of the border by using a border utility. For example, adding the class `border--color-navy`, to the blockquote, will change the border to navy. Learn more about border utilities. You can view our list of colors available greyscale, and brand colors maps.
 
 <blockquote class="border--color-orange block-6">
     <p class="skeleton" data-lines="3"></p>
