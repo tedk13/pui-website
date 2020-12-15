@@ -115,7 +115,9 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
 <div class="block-container blocks tablet-up-4">
     <div class="block">
         <div class="card">
-            <img class="card__image" src="http://placeimg.com/640/480/any" alt="" />
+            <div class="card__image">
+                <img class="skeleton-image skeleton-image--lg skeleton-image--landscape" />
+            </div>
             <div class="card__content">
                 <h3 class="skeleton skeleton--md"></h3>
                 <p class="skeleton" data-lines="4"></p>

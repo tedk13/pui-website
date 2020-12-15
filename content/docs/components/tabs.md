@@ -18,7 +18,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635383449" style="max-width: 100%;">
+    <p class="skeleton" data-lines="6"></p>
   </div>
 
   <!-- Tab 2 -->
@@ -27,7 +27,10 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635267224" style="max-width: 100%;">
+    <div class="flex">
+      <img class="skeleton-image skeleton-image--lg mb-3">
+      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3">
+    </div>
   </div>
 
   <!-- Tab 3 -->
@@ -36,7 +39,9 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635322782" style="max-width: 100%;">
+    <img class="skeleton-image skeleton-image--lg mb-3">
+    <h2 class="skeleton skeleton--md"></h2>
+    <p class="skeleton" data-lines="3"></p>
   </div>
 </div>
 
@@ -86,21 +91,26 @@ If you want the borders removed from the tabs, add the class `tab--flat` to the 
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635383449" style="max-width: 100%;">
+    <p class="skeleton" data-lines="6"></p>
   </div>
   <input type="radio" id="tab-input-2b" name="tabs-2">
   <label for="tab-input-2b" class="tab">
     <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635267224" style="max-width: 100%;">
+    <div class="flex">
+      <img class="skeleton-image skeleton-image--lg mb-3">
+      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3">
+    </div>
   </div>
   <input type="radio" id="tab-input-2c" name="tabs-2">
   <label for="tab-input-2c" class="tab">
     <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635322782" style="max-width: 100%;">
+    <img class="skeleton-image skeleton-image--lg mb-3">
+    <h2 class="skeleton skeleton--md"></h2>
+    <p class="skeleton" data-lines="3"></p>
   </div>
 </div>
 
@@ -154,21 +164,26 @@ go back to the flat tab look above mobile.
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635383449" style="max-width: 100%;">
+    <p class="skeleton" data-lines="6"></p>
   </div>
   <input type="radio" id="tab-input-br" name="tabs-r">
   <label for="tab-input-br" class="tab">
     <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635267224" style="max-width: 100%;">
+    <div class="flex">
+      <img class="skeleton-image skeleton-image--lg mb-3">
+      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3">
+    </div>
   </div>
   <input type="radio" id="tab-input-cr" name="tabs-r">
   <label for="tab-input-cr" class="tab">
     <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
   </label>
   <div class="tab-panel">
-    <img src="https://placeimg.com/640/480/animals?t=1565635322782" style="max-width: 100%;">
+    <img class="skeleton-image skeleton-image--lg mb-3">
+    <h2 class="skeleton skeleton--md"></h2>
+    <p class="skeleton" data-lines="3"></p>
   </div>
 </div>
 
