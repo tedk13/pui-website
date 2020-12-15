@@ -58,6 +58,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         e.preventDefault();
         accordion.classList.toggle('active');
       });
+
       el.addEventListener('keydown', function (e) {
         let accordion = el.parentElement;
         if (e.keyCode === 13) {
@@ -82,6 +83,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         loaderButton.classList.remove('loading')
       }, 3000);
     });
+
     loaderModalButton.addEventListener('click', () => {
       setTimeout(() => {
         loaderModal.querySelector('.modal__content div').remove();
@@ -90,12 +92,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
         loaderModal.querySelector('.modal__content').appendChild(content);
       }, 3000);
     });
+
     loaderModalCloseButton.addEventListener('click', () => {
       loaderModal.querySelector('.modal__content p').remove();
       let loader = document.createElement('div');
       loader.classList.add('loader', 'loader--lg');
       loaderModal.querySelector('.modal__content').appendChild(loader);
     });
+    
     setInterval(() => {
       if (loaderCard.querySelector('div .loader')) {
         loaderCard.querySelector('div .loader').remove();
