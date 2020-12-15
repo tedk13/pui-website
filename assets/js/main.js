@@ -58,6 +58,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         e.preventDefault();
         accordion.classList.toggle('active');
       });
+
       el.addEventListener('keydown', function (e) {
         let accordion = el.parentElement;
         if (e.keyCode === 13) {
@@ -74,40 +75,54 @@ window.addEventListener('DOMContentLoaded', (event) => {
   let loaderModal = document.querySelector('#loader-modal');
   let loaderModalCloseButton = document.querySelector('.loader-modal-close');
   let loaderCard = document.querySelector('.loader-card');
+  
+  if (loaderButton) {
+    loaderButton.addEventListener('click', () => {
+      loaderButton.classList.add('loading');
+      setTimeout(() => {
+        loaderButton.classList.remove('loading')
+      }, 3000);
+    });
 
-  loaderButton.addEventListener('click', () => {
-    loaderButton.classList.add('loading');
-    setTimeout(() => loaderButton.classList.remove('loading'), 3000);
-  })
+    loaderModalButton.addEventListener('click', () => {
+      setTimeout(() => {
+        loaderModal.querySelector('.modal__content div').remove();
+        let content = document.createElement('p');
+        content.innerHTML = 'Modal Content';
+        loaderModal.querySelector('.modal__content').appendChild(content);
+      }, 3000);
+    });
 
-  loaderModalButton.addEventListener('click', () => {
-    setTimeout(function() {
-                            loaderModal.querySelector('.modal__content div').remove();
-                            let content = document.createElement('p');
-                            content.innerHTML = 'Modal Content';
-                            loaderModal.querySelector('.modal__content').appendChild(content);
-              }, 3000);
-  });
-
-  loaderModalCloseButton.addEventListener('click', () => {
-    loaderModal.querySelector('.modal__content p').remove();
-    let loader = document.createElement('div');
-    loader.classList.add('loader', 'loader--lg');
-    loaderModal.querySelector('.modal__content').appendChild(loader);
-  });
-
-  setInterval(function() {
-    if (loaderCard.querySelector('div .loader')) {
-      loaderCard.querySelector('div .loader').remove();
-      let content = document.createElement('p');
-      content.innerHTML = 'Card Content';
-      loaderCard.appendChild(content);
-    } else {
-      loaderCard.querySelector('div p').remove();
+    loaderModalCloseButton.addEventListener('click', () => {
+      loaderModal.querySelector('.modal__content p').remove();
       let loader = document.createElement('div');
       loader.classList.add('loader', 'loader--lg');
-      loaderCard.appendChild(loader);
-    }
-  }, 5000);
+      loaderModal.querySelector('.modal__content').appendChild(loader);
+    });
+    
+    setInterval(() => {
+      if (loaderCard.querySelector('div .loader')) {
+        loaderCard.querySelector('div .loader').remove();
+        let content = document.createElement('p');
+        content.innerHTML = 'Card Content';
+        loaderCard.appendChild(content);
+      } else {
+        loaderCard.querySelector('div p').remove();
+        let loader = document.createElement('div');
+        loader.classList.add('loader', 'loader--lg');
+        loaderCard.appendChild(loader);
+      }
+    }, 5000);
+  }
+
+  //truncate with ellipsis
+  let ellipsisButton = document.querySelector('.ellipsis-button');
+  let ellipsisHeader = document.querySelector('.ellipsis-header');
+
+  if (ellipsisButton) {
+    ellipsisButton.addEventListener('click', () => {
+      ellipsisHeader.classList.toggle('truncate-with-ellipsis');
+    });
+  }
 });
 
