@@ -78,10 +78,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
   if (loaderButton) {
     loaderButton.addEventListener('click', () => {
       loaderButton.classList.add('loading');
-      setTimeout(() => loaderButton.classList.remove('loading'), 3000);
+      setTimeout(() => {
+        loaderButton.classList.remove('loading')
+      }, 3000);
     });
     loaderModalButton.addEventListener('click', () => {
-      setTimeout(function() {
+      setTimeout(() => {
         loaderModal.querySelector('.modal__content div').remove();
         let content = document.createElement('p');
         content.innerHTML = 'Modal Content';
@@ -94,7 +96,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       loader.classList.add('loader', 'loader--lg');
       loaderModal.querySelector('.modal__content').appendChild(loader);
     });
-    setInterval(function() {
+    setInterval(() => {
       if (loaderCard.querySelector('div .loader')) {
         loaderCard.querySelector('div .loader').remove();
         let content = document.createElement('p');
