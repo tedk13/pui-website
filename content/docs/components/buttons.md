@@ -126,8 +126,6 @@ Loading
 
 Buttons with a loading icon. Example for form submissions.
 
-Notice: For styleguide purposes all of the code is rendered here. The things that should be toggled are the aria-label="Loading" and the text in the button. So for example, on submit, you would add <span class="sr-only">Loading...</span> the class sr-only is key to prevent the button from changin size.
-
 <div class="button-group">
   <button class="button loading mb-2" aria-label="Loading...">
     Submit
