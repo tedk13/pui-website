@@ -10,7 +10,7 @@ Platform UI has evolved in scope to include a base icon font family, Platform Ic
 
 We hope you find it as useful and easy to use as we do.
 
-If you're not downloading or building, then CDN access via [UNPKG](https://unpkg.com/) is fast and easy to start working wityh Platform UI in your project!
+If you're not downloading or building, then CDN access via [UNPKG](https://unpkg.com/) is fast and easy to start working with Platform UI in your project!
 
 ## CSS
 

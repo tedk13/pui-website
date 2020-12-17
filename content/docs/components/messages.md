@@ -6,42 +6,42 @@ date: 2018-07-20T12:59:15-04:00
 These are examples of global messages or alerts
 
 <div class="message message--success">
-  <p>This is an example of a message that displays a success message. Congratulations! You're form has been submitted. </p>
+  <p class="skeleton" data-lines="2"></p>
 </div>
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="message message--success">
-  <p>This is an example of a message that displays a success message. Congratulations! You're form has been submitted. </p>
+  <!-- Success message goes here! -->
 </div>
 {{< /highlight >}}
 </div>
 <div class="message message--error">
-  <p>This is an example of a message that fires after an error has occured. </p>
+  <p class="skeleton" data-lines="2"></p>
 </div>
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="message message--error">
-  <p>This is an example of a message that fires after an error has occured. </p>
+  <!-- Error message goes here! -->
 </div>
 {{< /highlight >}}
 </div>
 <div class="message message--warning">
-  <p>This is an example of a message that displays a warning but not necessarily an error.</p>
+  <p class="skeleton" data-lines="2"></p>
 </div>
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="message message--warning">
-  <p>This is an example of a message that displays a warning but not necessarily an error.</p>
+  <!-- Warning message goes here! -->
 </div>
 {{< /highlight >}}
 </div>
 <div class="message message--info">
-  <p>This is an example of a message that displays some simple information.</p>
+  <p class="skeleton" data-lines="2"></p>
 </div>
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="message message--info">
-  <p>This is an example of a message that displays some simple information.</p>
+  <!-- Info message goes here! -->
 </div>
 {{< /highlight >}}
 </div>
@@ -53,25 +53,28 @@ Alternate Headings
 
 Messages can have custom headings. Adding `data-header="{Your Heading}"` to the message will display the custom heading. 
 
-Adding `data-header=""` to the message will display a message with no heading.
+
 
 <div class="message message--success" data-header="Alternate heading based on data-header">
-  <p>This is an example of a message that displays a success message with an alternate header. Congratulations! You're form has been submitted. </p>
+  <p class="skeleton" data-lines="2"></p>
 </div>
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="message message--success" data-header="Alternate heading based on data-header">
-  <p>This is an example of a message that displays a success message with an alternate header. Congratulations! You're form has been submitted. </p>
+  <!-- Message content goes here! -->
 </div>
 {{< /highlight >}}
 </div>
+
+Adding `data-header=""` to the message will display a message with no heading.
+
 <div class="message message--success" data-header="">
-  <p>This is an example of a message that displays a success message without a header. Congratulations! You're form has been submitted. </p>
+  <p class="skeleton" data-lines="2"></p>
 </div>
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="message message--success" data-header="">
-  <p>This is an example of a message that displays a success message without a header. Congratulations! You're form has been submitted. </p>
+  <!-- Message content goes here! -->
 </div>
 {{< /highlight >}}
 </div>
