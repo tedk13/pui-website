@@ -12,41 +12,27 @@
     <div id="app" class="header-fixed flex--grow{{ if .IsHome }} home{{ end }}">
       
       {{ if .IsHome }}
-
-      <div class="hero pos-rel">
-        <div class="flex flex--justify-center flex--align-center h-100">
-          <div class="h-100 w-50 hide-lg-tablet-down flex flex--align-center flex--justify-center">
-            <img class="h-50" src="/images/hero/rocket.svg" alt="Launch your project today!">
+      <div
+        class="hero background-image block-container flex--justify-center p-4 mb-4 w-100"
+        data-background-image="/images/hero/background.svg"
+        data-background-position="center bottom"
+        data-background-size="cover"
+        data-background-repeat="no-repeat">
+          <div class="block hide-lg-tablet-down tablet-up-4 p-4">
+            <div class="h-100 w-100 flex flex--justify-center">
+              <img class="h-100" src="/images/hero/platformUI-rocket.svg" alt="Platform UI Rocket">
+            </div>
           </div>
-          <div class="h-100 w-75 flex flex--column flex--justify-center flex--align-center text--size-lg">
-            <h1 class="text-white text--size-xxl">Platform UI</h1>
-            <p class="text-white text--center">Fast, simple, and powerful css framework that's built with the user experience in mind.</p>
-            <div class="button-group">
+          <div class="block tablet-up-5 py-4">
+            <h1 class="text-white text--size-xxl text--center">Platform UI</h1>
+            <p class="text-white text--center mb-4">Fast, simple, and powerful css framework that's built with the user experience in mind.</p>
+            <div class="button-group flex flex--justify-center">
               <a href="#" class="button button--post">Get Started</a>
               <a href="#" class="button background-transparent text-white background-salmon--hover">New in v1.1</a>
             </div>
           </div>
-        </div>
 
       </div>
-
-      <!-- <div class="hero background-image ratio-16_9 pos-rel">
-        <div class="pos-abs pin-top pin-right pin-bottom pin-left block-container">
-          <div class="block hide-lg-tablet-down">
-            <div class="h-100 tablet-up-4 lg-tablet-up-6 flex flex--align-center flex--justify-center">
-              <img class="h-75 hide-lg-tablet-down" src="/images/hero/rocket.svg" />
-            </div>
-          </div>
-          <div class="block tablet-up-8 lg-tablet-up-6 laptop-up-4 pt-4 pb-6 px-3 text-white text--size-xxl">
-            <h1 class="text-white text--size-xxl">Platform UI</h1>
-            <p class="text--size-xxs">Fast, simple, and powerful css framework that's built with the user experience in mind.</p>
-            <div class="button-group">
-              <a href="#" class="button button--post">Get Started</a>
-              <a href="#" class="button background-transparent text-white background-salmon--hover">New in v1.1</a>
-            </div>
-          </div>
-        </div>
-      </div> -->
       {{ end }}
 
       <div class="block-container{{ if not .IsHome }} h-100{{ end }}">
