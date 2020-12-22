@@ -7,9 +7,9 @@ The class `hover-scale` will scale the element, on hover, to 1.05 the original s
 
 <div class="block-container">
     <div class="block block-4">
-    <div class="pui-card hover-scale">
+    <div class="card hover-scale">
         <h4 class="pb-2 mb-2">Hover over this</h4>
-        <div class="pui-card__content">
+        <div class="card__content">
         <p>Notice how it scales on hover</p>
         </div>
     </div>
@@ -20,9 +20,9 @@ The class `hover-scale` will scale the element, on hover, to 1.05 the original s
 {{< highlight html >}}
 <div class="block-container">
     <div class="block block-4">
-        <div class="pui-card hover-scale">
+        <div class="card hover-scale">
             <h4 class="pb-2 mb-2">Hover over this</h4>
-            <div class="pui-card__content">
+            <div class="card__content">
             <p>Notice how it scales on hover</p>
             </div>
         </div>
