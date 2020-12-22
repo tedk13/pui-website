@@ -41,17 +41,17 @@ $brand-colors: (
 
 .hero {
   height: 500px;
-  background-image: url(/images/platform-ui-background.svg);
+  background-image: url(/images/hero/background.svg);
   background-size: cover;
   background-position: bottom right;
-  @media screen and (min-width:768px){
-    background-position: bottom left;
-  }
-  @media screen and (min-width:1239px){
-    background-position:bottom center;
-    height:600px;
-  }
-  @media screen and (min-width:1799px){
-    height:700px;
-  }
+  // @media screen and (min-width:768px){
+  //   background-position: bottom left;
+  // }
+  // @media screen and (min-width:1239px){
+  //   background-position:bottom center;
+  //   height:600px;
+  // }
+  // @media screen and (min-width:1799px){
+  //   height:700px;
+  // }
 }
