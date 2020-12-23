@@ -115,13 +115,35 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }, 5000);
   }
 
-  //truncate with ellipsis
+  // truncate with ellipsis
   let ellipsisButton = document.querySelector('.ellipsis-button');
   let ellipsisHeader = document.querySelector('.ellipsis-header');
 
   if (ellipsisButton) {
     ellipsisButton.addEventListener('click', () => {
       ellipsisHeader.classList.toggle('truncate-with-ellipsis');
+    });
+  }
+
+  // rotate
+  let rotateButton = document.querySelector('.rotate-button');
+  let rotatePositions = [['rotate-45', '45 degrees'], ['rotate-90', '90 degrees'], ['rotate-180', '180 degrees']];
+  let rotateIndex = 0;
+
+  if (rotateButton) {
+    rotateButton.addEventListener('click', () => {
+      if (rotateIndex < 3) {
+        if (rotateIndex > 0) {
+          rotateButton.classList.remove(rotatePositions[rotateIndex - 1][0]);
+        }
+        rotateButton.classList.add(rotatePositions[rotateIndex][0]);
+        rotateButton.innerHTML = rotatePositions[rotateIndex][1];
+        rotateIndex++;
+      } else {
+        rotateButton.classList.remove('rotate-180');
+        rotateButton.innerHTML = "Normal";
+        rotateIndex = 0;
+      }
     });
   }
 });
