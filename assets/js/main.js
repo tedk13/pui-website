@@ -141,7 +141,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         rotateIndex++;
       } else {
         rotateButton.classList.remove('rotate-180');
-        rotateButton.innerHTML = "Normal";
+        rotateButton.innerHTML = 'Normal';
         rotateIndex = 0;
       }
     });
