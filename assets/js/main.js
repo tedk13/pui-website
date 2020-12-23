@@ -146,5 +146,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
       }
     });
   }
+
+  // overflow
+  let overflowButton = document.querySelector('.overflow-button');
+  let overflowParagraph = document.querySelector('.overflow-paragraph');
+
+  if (overflowButton) {
+    overflowButton.addEventListener('click', () => {
+      overflowParagraph.classList.toggle('overflow-y--scroll');
+    });
+  }
 });
 
