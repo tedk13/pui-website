@@ -151,7 +151,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       if (rotateIndex > 0) {
         rotateButton.classList.remove(rotatePositions[rotateIndex - 1].class);
       }
-      if (rotateIndex == 3) {
+      if (rotatePositions[rotateIndex].label === 'Normal') {
         rotateIndex = 0;
       } else {
         rotateButton.classList.add(rotatePositions[rotateIndex].class);
