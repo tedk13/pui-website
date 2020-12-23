@@ -12,7 +12,7 @@ date: 2018-07-20T12:59:15-04:00
   </div>
 </div>
 
-Modal default state is closed. Toggling `.modal--closed` on both the `.modal--overlay` and `.modal` will diplay the modal.
+Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay the modal.
 
 `.modal__close` on the close button is also a handle for JS.
 
