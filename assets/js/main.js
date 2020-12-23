@@ -115,13 +115,58 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }, 5000);
   }
 
-  //truncate with ellipsis
+  // truncate with ellipsis
   let ellipsisButton = document.querySelector('.ellipsis-button');
   let ellipsisHeader = document.querySelector('.ellipsis-header');
 
   if (ellipsisButton) {
     ellipsisButton.addEventListener('click', () => {
       ellipsisHeader.classList.toggle('truncate-with-ellipsis');
+    });
+  }
+
+  // rotate
+  let rotateButton = document.querySelector('.rotate-button');
+  let rotatePositions = [{
+                          label: '45 degrees',
+                          class: 'rotate-45'
+                        },
+                        {
+                          label: '90 degrees',
+                          class: 'rotate-90'
+                        },
+                        {
+                          label: '180 degrees',
+                          class: 'rotate-180'
+                        },
+                        {
+                          label: 'Normal',
+                          class: ''
+                        }];
+  let rotateIndex = 0;
+
+  if (rotateButton) {
+    rotateButton.addEventListener('click', () => {
+      rotateButton.innerHTML = rotatePositions[rotateIndex].label;
+      if (rotateIndex > 0) {
+        rotateButton.classList.remove(rotatePositions[rotateIndex - 1].class);
+      }
+      if (rotatePositions[rotateIndex].label === 'Normal') {
+        rotateIndex = 0;
+      } else {
+        rotateButton.classList.add(rotatePositions[rotateIndex].class);
+        rotateIndex++;
+      }
+    });
+  }
+
+  // overflow
+  let overflowButton = document.querySelector('.overflow-button');
+  let overflowParagraph = document.querySelector('.overflow-paragraph');
+
+  if (overflowButton) {
+    overflowButton.addEventListener('click', () => {
+      overflowParagraph.classList.toggle('overflow-y--scroll');
     });
   }
 });
