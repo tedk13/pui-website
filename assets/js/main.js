@@ -127,22 +127,34 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   // rotate
   let rotateButton = document.querySelector('.rotate-button');
-  let rotatePositions = [['rotate-45', '45 degrees'], ['rotate-90', '90 degrees'], ['rotate-180', '180 degrees']];
+  let rotatePositions = [{
+                          label: '45 degrees',
+                          class: 'rotate-45'
+                        },
+                        {
+                          label: '90 degrees',
+                          class: 'rotate-90'
+                        },
+                        {
+                          label: '180 degrees',
+                          class: 'rotate-180'
+                        },
+                        {
+                          label: 'Normal',
+                        }];
   let rotateIndex = 0;
 
   if (rotateButton) {
     rotateButton.addEventListener('click', () => {
-      if (rotateIndex < 3) {
-        if (rotateIndex > 0) {
-          rotateButton.classList.remove(rotatePositions[rotateIndex - 1][0]);
-        }
-        rotateButton.classList.add(rotatePositions[rotateIndex][0]);
-        rotateButton.innerHTML = rotatePositions[rotateIndex][1];
-        rotateIndex++;
-      } else {
-        rotateButton.classList.remove('rotate-180');
-        rotateButton.innerHTML = 'Normal';
+      rotateButton.innerHTML = rotatePositions[rotateIndex].label;
+      if (rotateIndex > 0) {
+        rotateButton.classList.remove(rotatePositions[rotateIndex - 1].class);
+      }
+      if (rotateIndex == 3) {
         rotateIndex = 0;
+      } else {
+        rotateButton.classList.add(rotatePositions[rotateIndex].class);
+        rotateIndex++;
       }
     });
   }
