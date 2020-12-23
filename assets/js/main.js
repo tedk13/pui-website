@@ -141,6 +141,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                         },
                         {
                           label: 'Normal',
+                          class: ''
                         }];
   let rotateIndex = 0;
 
