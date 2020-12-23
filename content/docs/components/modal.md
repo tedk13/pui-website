@@ -2,6 +2,7 @@
 title: Modal
 date: 2018-07-20T12:59:15-04:00
 ---
+
 <div class="block-container blocks mb-4">
   <div class="block">
     <div class="pill text--size-xs text-dark">
@@ -15,14 +16,26 @@ Modal default state is closed. Toggling `.modal--closed` on both the `.modal--ov
 
 `.modal__close` on the close button is also a handle for JS.
 
-The default size of the modal is `medium`, you can use `modal--small`, `modal--large`, or `modal--full` for different sized modals.
+| Modifier Class     | Description                                     |
+| ------------------ | ----------------------------------------------- |
+| `.modal--small`    | Small sized modal                               |
+| `.modal--medium`   | Medium sized modal, default size                |
+| `.modal--large`    | Large sized modal                               |
+| `.modal--full`     | Full sized modal, takes up 100% of the viewport |
+| `.modal--centered` | Centers the modal in the middle of the viewport |
 
-You can center a modal in the middle of the window with the modifier `modal--centered`.
+<div class="message message--info mb-4">
+  <p>You can add animation effects to modals by adding <a class="text-navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes to the .modal__inner element!</p>
+</div>
+<div class="message message--warning">
+  <p>You may run into issues where the background scrolls while your modal is open. To prevent this behavior, add the <code>.modal-open</code> class to your body element when a modal is open. See demo below for example and note how adding the <code>.modal-open</code> class to the body on open makes the background scroll bar go away.</p>
+</div>
+<br />
 
-You may run into issues where the background scrolls while your modal is open. To prevent this behavior, add the `.modal-open` class to your body element when a modal is open. See demo below for example and note how adding the `.modal-open` class to the body on open makes the background scroll bar go away.
+## Examples
 
+### Standard
 
-## Standard
 <div class="block mb-3">
     <button class="button button--post button--lg modal__open" data-modal="default-modal">Standard Modal</button>
 </div>
@@ -65,11 +78,10 @@ You may run into issues where the background scrolls while your modal is open. T
 {{< /highlight >}}
 </div>
 
-<div class="message message--info mb-4">
-  <p>You can add animation effects to modals by adding <a class="text-navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes to the .modal__inner element!</p>
-</div>
 
-## Small
+
+### Small
+
 <div class="block mb-3">
     <button class="button button--post button--lg modal__open" data-modal="small-modal">Small Modal</button>
 </div>
@@ -108,7 +120,8 @@ You may run into issues where the background scrolls while your modal is open. T
 {{< /highlight >}}
 </div>
 
- ## Centered
+### Centered
+
 <div class="block mb-3">
   <button class="button button--post button--lg modal__open" data-modal="centered-modal">Centered Modal</button>
 </div>
@@ -147,7 +160,8 @@ You may run into issues where the background scrolls while your modal is open. T
 {{< /highlight>}}
 </div>
 
-## Large
+### Large
+
 <div class="block mb-3">
     <button class="button button--post button--lg modal__open" data-modal="large-modal">Large Modal</button>
 </div>
@@ -188,7 +202,8 @@ You may run into issues where the background scrolls while your modal is open. T
 {{< /highlight >}}
 </div>
 
-## Full Screen
+### Full Screen
+
 <div class="block">
   <button class="button button--post button--lg modal__open" data-modal="full-modal">Full Screen Modal</button>
 </div>
@@ -285,9 +300,8 @@ header can seem unecessarry. See the code example below.
 </div>
 
 ## Message
-If you would like to add a message to a modal, you can add it after `modal__content`. If the message is a sibling of `modal__content`, the message will be the full width of the modal as seen in the example. You can simply use use the message inside `modal__content` if you would like the message to have the same padding as the rest of of the modal content. If you want the message to be aligned to the bottom of the modal you'll need to remove the margin of the message with a spacer modifier class (`my-0`, `m-0`). See the example below.
 
-Note: This look may not be best for the larger modals. It may be better to include the message inside the `modal__content` container.
+If you would like to add a message to a modal, you can add it after `modal__content`. If the message is a sibling of `modal__content`, the message will be the full width of the modal as seen in the example. You can simply use use the message inside `modal__content` if you would like the message to have the same padding as the rest of of the modal content. If you want the message to be aligned to the bottom of the modal you'll need to remove the margin of the message with a spacer modifier class (`my-0`, `m-0`). See the example below.
 
 <button class="button button--post button--lg modal__open" data-modal="message-modal">Message Modal</button>
 
@@ -308,7 +322,9 @@ Note: This look may not be best for the larger modals. It may be better to inclu
 </div>
 
 {{< highlight html >}}
+
 <!-- Modal Trigger -->
+
 <button class="button button--post button--lg modal__open" data-modal="message-modal">Message Modal</button>
 
 <!-- Message Modal -->
@@ -327,3 +343,7 @@ Note: This look may not be best for the larger modals. It may be better to inclu
   </div>
 </div>
 {{< /highlight >}}
+
+<div class="message message--info">
+  <p>This look may not be best for the larger modals. It may be better to include the message inside the <code>.modal__content</code> container.</p>
+</div>
