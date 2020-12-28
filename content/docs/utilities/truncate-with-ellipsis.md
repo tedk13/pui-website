@@ -21,7 +21,7 @@ This can be done by adding the class `truncate-with-ellipsis`
 
 Try out this example below where you can toggle the class `truncate-with-ellipsis`
 
-<button class="button button--post button--lg ellipsis-button">Toggle Ellipsis</button>
+<button class="button button--secondary has-text button--lg ellipsis-button">Toggle Ellipsis</button>
 <div class="block-3 mb-4">
     <h3 class="truncate-with-ellipsis ellipsis-header">This is a heading for a block</h3>
     <p class="skeleton" data-lines="7" data-animation="true"></p>
