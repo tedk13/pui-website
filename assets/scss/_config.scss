@@ -45,3 +45,48 @@ $brand-colors: (
   background-size: cover;
   background-position: bottom center;
 }
+
+
+.content{
+  display:flex;
+  flex-flow:column;
+  @media (min-width:1024px){
+    flex-flow:row;
+  }
+  &__main{
+    order:2;
+    width:100%;
+    @media (min-width:1024px){
+      order:1;
+      flex:4;
+    }
+  }
+  &__nav{
+    order:1;
+    flex:1;
+  }
+}
+
+.frame{
+  display:flex;
+  flex-flow:column;
+  width:100%;
+  @media (min-width:768px){
+    flex-flow:row;
+  }
+  &__nav{
+    flex:1;
+  }
+  &__main{
+    @media (min-width:768px){
+      flex:4
+    }
+  }
+}
+
+#toc-trigger{
+  display:block;
+  @media (min-width:768px){
+    display:none;
+  }
+}
