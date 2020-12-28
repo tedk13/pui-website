@@ -44,7 +44,7 @@ The secondary platform button. Always a round button paired with a Platform icon
 </div>
 
 
-{{< heading heading="h2" id="secondary-text">}}
+{{< heading heading="h3" id="secondary-text">}}
 Secondary - Text
 {{< /heading >}}
 

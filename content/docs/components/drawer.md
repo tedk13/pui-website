@@ -163,7 +163,7 @@ The default drawer opens from the bottom of the viewport, however you can also s
  {{< /highlight >}}
  </div>
 
-### Right Drawer
+## Right Drawer
 To open a drawer from the right side of the viewport, apply the `.drawer-right` class to the `.drawer` element.
 
 <div class="block-container">
@@ -211,7 +211,7 @@ To open a drawer from the right side of the viewport, apply the `.drawer-right` 
  {{< /highlight >}}
  </div>
 
-### Left Drawer
+## Left Drawer
 To open a drawer from the left side of the viewport, apply the `.drawer-left` class to the `.drawer` element.
 
 <button class="button button--post button--lg drawer__open" data-drawer="left">
