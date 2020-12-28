@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   }
 
   // accordion
-  let accordionHeader = document.querySelectorAll('.pui-accordion__header');
+  let accordionHeader = document.querySelectorAll('.accordion__header');
 
   if (accordionHeader) {
     accordionHeader.forEach(function (el) {
