@@ -8,7 +8,7 @@ Used to display statistics in different situations throughout the platform. Ther
   <div class="card__header">
     <div class="card__group">
       <i class="pi-calendar card__title-icon--large"></i>
-      <div class="card__title">Stats</div>
+      <h2 class="card__title">Stats</h2>
     </div>
     <div class="card__group button-group">
       <button class="button">Add <i class="pi-plus" aria-hidden="hidden"></i></button>

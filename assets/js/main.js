@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       }
     });
 
-    if (headings.length == 0) {
+    if (tocList.childNodes.length == 0) {
       document.querySelector('#sidebar-right').remove();
     }
 
