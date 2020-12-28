@@ -27,7 +27,7 @@
       </div>
       {{ end }}
 
-      <div class="block-container{{ if not .IsHome }} {{ end }}">
+      <div class="block-container">
         <div id="frame" class="block-container w-100">
           {{ if not .IsHome }}
             <!-- Mobile Nav & Trigger -->
@@ -87,8 +87,8 @@
               </nav>
             </div>
           {{ end }}
-          <main id="frame-content" class="block-container tablet-up-9 lg-tablet-up-10">
-            <article id="content" class="tablet-up-8 lg-tablet-up-9 laptop-up-10  px-4">
+          <main id="frame-content" class="block-container {{ if not .IsHome }} tablet-up-9 lg-tablet-up-10 {{ end }}">
+            <article id="content" class="{{ if not .IsHome }} tablet-up-8 lg-tablet-up-9 laptop-up-10 px-4{{ end }}">
               {{ block "main" . }}
                 {{ .Content }}
               {{ end }}
