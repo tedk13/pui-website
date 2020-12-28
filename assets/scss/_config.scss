@@ -47,46 +47,39 @@ $brand-colors: (
 }
 
 
-.content{
-  display:flex;
-  flex-flow:column;
-  @media (min-width:1024px){
-    flex-flow:row;
+#frame {
+  flex-flow: column;
+  @media screen and (min-width: 768px) {
+    flex-flow: row;
   }
-  &__main{
-    order:2;
-    width:100%;
-    @media (min-width:1024px){
-      order:1;
-      flex:4;
-    }
+}
+
+#frame-content {
+  flex-flow: column;
+  @media screen and (min-width: 768px) {
+    flex-flow: row;
   }
-  &__nav{
+}
+
+#frame-mobile-nav-drawer{
+  width:75%;
+}
+
+#frame-mobile-nav-trigger{
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+
+#content {
+  order: 2;
+  @media screen and (min-width:768px){
     order:1;
-    flex:1;
   }
 }
 
-.frame{
-  display:flex;
-  flex-flow:column;
-  width:100%;
-  @media (min-width:768px){
-    flex-flow:row;
-  }
-  &__nav{
-    flex:1;
-  }
-  &__main{
-    @media (min-width:768px){
-      flex:4
-    }
-  }
-}
-
-#toc-trigger{
-  display:block;
-  @media (min-width:768px){
-    display:none;
+#content-nav {
+  order: 1;
+  @media screen and (min-width:768px){
+    padding-top:1em;
   }
 }

@@ -27,69 +27,81 @@
       </div>
       {{ end }}
 
-      <div class="block-container{{ if not .IsHome }} h-100{{ end }}">
-        <div class="frame">
-        {{ if not .IsHome }}
-          <div class="frame__nav">
-            <!-- Table of contents, mobile trigger-->
-            <button id="toc-trigger" class="button button--post button--lg background-lighter border--color-lighter mx-3 text-base drawer__open" data-drawer="toc-drawer">
-              Table of Contents
-              <i class="pi-arrow-right"></i>
-            </button>
-  
-            <!-- Table of contents, mobile -->
-            <div id="toc-drawer" class="drawer drawer--closed drawer-left hide-tablet-up  animated slideInLeft fastest">
-              <div class="drawer__inner animated slideInLeft fastest">
-                <div class="drawer__content p-0">
-                  <div class="flex flex--justify-end my-3">
-                    <button class="button drawer__close" data-drawer="toc-drawer">
-                      Close 
-                      <i class="pi-times"></i>
-                    </button>
-                  </div>
-                  <nav class="block block-11 tablet-up-2 py-3" role="sidebar">
-                    <div class="form form--rounded mb-3 pb-2">
-                      <label for="search" class="form__field pos-rel">
-                        <span class="sr-only">Type to Search</span>                
-                        <input id="search" class="pl-4" type="text" placeholder="Type to Search">
-                        <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1"></i>
-                      </label>
+      <div class="block-container{{ if not .IsHome }} {{ end }}">
+        <div id="frame" class="block-container w-100">
+          {{ if not .IsHome }}
+            <!-- Mobile Nav & Trigger -->
+            <div id="frame-mobile-nav" class="hide-tablet-up py-4 px-0">
+              <button 
+                id="frame-mobile-nav-trigger" 
+                class="mobile-menu-action button button--post button--lg background-lighter border--color-lighter text-base drawer__open" 
+                data-drawer="frame-mobile-nav-drawer">
+                Table of Contents
+                <div class="pill pill--circle text-white background-light ml-2">
+                  <i class="pi-angle-right"></i>
+                </div>
+              </button>
+              <div 
+                id="frame-mobile-nav-drawer" 
+                class="drawer drawer--closed drawer-left animated slideInLeft fastest">
+                <div class="drawer__inner animated slideInLeft fastest">
+                  <div class="drawer__content p-0">
+                    <div class="flex flex--justify-end my-3 mr-2">
+                      <button 
+                        class="button drawer__close mobile-menu-action" 
+                        data-drawer="frame-mobile-nav-drawer">
+                        Close 
+                        <i class="pi-times"></i>
+                      </button>
                     </div>
-                    {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
-                  </nav>
+                    <nav role="sidebar">
+                      <div class="form form--rounded mb-3 px-2">
+                        <label for="search" class="form__field pos-rel">
+                          <span class="sr-only">Type to Search</span>                
+                          <input 
+                            id="search" 
+                            class="pl-4" 
+                            type="text" 
+                            placeholder="Type to Search">
+                          <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1"></i>
+                        </label>
+                      </div>
+                      {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
+                    </nav>
+                  </div>
                 </div>
               </div>
             </div>
-  
-            <!-- Table of contents, tablet and up -->
-            <nav id="sidebar-left" class="block block-11 hide-tablet-down tablet-up-2 py-3" role="sidebar">
-              <div class="form form--rounded px-2 mb-3 pb-2">
-                <label for="search" class="form__field pos-rel">
-                  <span class="sr-only">Type to Search</span>                
-                  <input id="search" class="pl-4" type="text" placeholder="Type to Search">
-                  <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1"></i>
-                </label>
-              </div>
-              {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
-            </nav>
-          </div>
+
+            <!-- Nav Drawer (Tablet and up) -->
+            <div id="frame-nav" class="hide-tablet-down tablet-up-3 lg-tablet-up-2">
+              <nav id="sidebar-left" role="sidebar">
+                <div class="form form--rounded px-2 my-3">
+                  <label for="search" class="form__field pos-rel">
+                    <span class="sr-only">Type to Search</span>                
+                    <input id="search" class="pl-4" type="text" placeholder="Type to Search">
+                    <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1"></i>
+                  </label>
+                </div>
+                {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
+              </nav>
+            </div>
           {{ end }}
-          <div class="frame__main px-3">
-            <main class="content">
-              <article class="content__main block{{ if not .IsHome }} {{ end }}" role="main">
+          <main id="frame-content" class="block-container tablet-up-9 lg-tablet-up-10">
+            <article id="content" class="tablet-up-8 lg-tablet-up-9 laptop-up-10  px-4">
               {{ block "main" . }}
                 {{ .Content }}
               {{ end }}
-              
-              </article>
+            </article>
+            <aside id="content-nav" class="tablet-up-4 lg-tablet-up-3 laptop-up-2 px-4">
               {{ if not .IsHome }}
               <nav class="content__nav background-white" role="sidebar">
-                <h3>On This Page</h3>
+                <h2 class="text--size-lg">On This Page</h2>
                 <div id="on-this-page"></div>
               </nav>
               {{ end }}
-            </main>
-          </div>
+            </aside>
+          </main>
         </div>
       </div>
 
