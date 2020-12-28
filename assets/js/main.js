@@ -9,6 +9,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     headings.forEach((heading) => {
       let li = document.createElement('li');
+      if (heading.localName === 'h3') {
+        li.className = 'pl-3';
+      }
       let a = document.createElement('a');
       if (heading.id) {
         heading.classList.add('page-anchor-target');
