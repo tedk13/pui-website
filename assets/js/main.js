@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-  const toc = document.querySelector('#toc');
+  const toc = document.querySelector('#on-this-page');
   const main = document.querySelector('main');
 
   if (toc) {

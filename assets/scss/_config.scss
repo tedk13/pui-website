@@ -42,3 +42,41 @@ $brand-colors: (
 .hero {
   height: 500px;
 }
+
+
+#frame {
+  flex-flow: column;
+  @media screen and (min-width: 768px) {
+    flex-flow: row;
+  }
+}
+
+#frame-content {
+  flex-flow: column;
+  @media screen and (min-width: 768px) {
+    flex-flow: row;
+  }
+}
+
+#frame-mobile-nav-drawer{
+  width:75%;
+}
+
+#frame-mobile-nav-trigger{
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+
+#content {
+  order: 2;
+  @media screen and (min-width:768px){
+    order:1;
+  }
+}
+
+#content-nav {
+  order: 1;
+  @media screen and (min-width:768px){
+    padding-top:1em;
+  }
+}
