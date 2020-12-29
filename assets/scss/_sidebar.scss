@@ -4,10 +4,6 @@
   overflow-y: auto;
 }
 
-#sidebar-right {
-  position: fixed;
-}
-
 #sidebar-left {
   box-shadow: 3px 3px 5px 0px var(--light-mid);
   position: sticky;
@@ -32,6 +28,8 @@
 }
 
 #sidebar-right {
+  position: fixed;
+
   &:before {
     background-color: var(--light-mid);
     content: '';
