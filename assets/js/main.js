@@ -197,3 +197,52 @@ window.addEventListener('DOMContentLoaded', (event) => {
   }
 });
 
+
+// Copy & Paste Button
+
+// Grab all code examples on a page
+const codeExamples = document.querySelectorAll(".highlight");
+
+// Copy Button component
+const copyButton = () => {
+  const btn = document.createElement("button");
+  const classes = ["button", "button--primary", "background-dark", "background-orange--hover", "text-white", "button--copy"];
+  btn.classList = classes.join(" ");
+  btn.innerHTML = `<i class="pi-clipboard"></i> Copy`;
+  return btn;
+};
+
+// Textarea component that will contain the text to copy
+const codeText = (code) => {
+  const textArea = document.createElement("textarea");
+  textArea.classList.add("code-text");
+  textArea.setAttribute('aria-hidden', true);
+  textArea.innerHTML = code;
+  return textArea;
+};
+
+// Check if there are any code examples on the page
+if (codeExamples) {
+  codeExamples.forEach((example) => {
+
+    // Create a copy button and add it to the example
+    example.appendChild(copyButton());
+    // Store the button in a variable
+    const copyBtn = example.querySelector(".button--copy");
+
+    // Grab the inner text of the code example
+    const code = example.querySelector("code").innerText;
+
+    // Create a textarea and add in the code example text
+    example.appendChild(codeText(code));
+
+    // Store the textarea element in a variable
+    const textToCopy = example.querySelector(".code-text");
+
+    // When the copy button is clicked, select the text within the textarea and update the clipboard
+    copyBtn.addEventListener("click", () => {
+      textToCopy.select();
+      document.execCommand("copy");
+    });
+  });
+}
