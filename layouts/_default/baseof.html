@@ -101,14 +101,14 @@
                 {{ .Content }}
               {{ end }}
             </article>
+            {{ if not .IsHome }}
             <aside id="content-nav" class="tablet-up-4 lg-tablet-up-3 laptop-up-2 px-4">
-              {{ if not .IsHome }}
               <nav class="content__nav background-white" role="sidebar" id="sidebar-right">
                 <h2 class="text--size-lg">On This Page</h2>
                 <div id="on-this-page"></div>
               </nav>
-              {{ end }}
             </aside>
+            {{ end }}
           </main>
         </div>
       </div>
