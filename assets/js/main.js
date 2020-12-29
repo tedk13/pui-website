@@ -197,3 +197,51 @@ window.addEventListener('DOMContentLoaded', (event) => {
   }
 });
 
+
+// * Copy & Paste Button for Code Examples:
+
+// * Find all code examples on page
+const codeExamples = document.querySelectorAll(".highlight");
+
+// * Create a copy button component for reuse
+const copyButton = () => {
+  const btn = document.createElement("button");
+  const classes = ["button", "button--primary", "background-dark", "background-orange--hover", "text-white", "button--copy"];
+  btn.classList = classes.join(" ");
+  btn.innerHTML = `<i class="pi-clipboard"></i> Copy`;
+  return btn;
+};
+
+// * Function to update clipboard using clipboard API
+const updateClipboard = (newClip) => {
+  navigator.clipboard.writeText(newClip);
+};
+
+// * Check if there are any code examples on the page
+if (codeExamples) {
+  codeExamples.forEach((example) => {
+
+    // * For each code example, add a copy button
+    example.appendChild(copyButton());
+    
+    // * Store the copy button in a variable
+    const copyBtn = example.querySelector(".button--copy");
+
+    // * Find and select the text within the code example
+    const code = example.querySelector("code").innerText;
+
+    
+    // * Now whenever the copy button is clicked, 
+    // * run the update clipboard function and pass
+    // * in the code text
+    copyBtn.addEventListener("click", () => {
+      navigator.permissions
+        .query({ name: "clipboard-write" })
+        .then((result) => {
+          if (result.state == "granted" || result.state == "prompt") {
+            updateClipboard(code);
+          }
+        });
+    });
+  });
+}

@@ -45,3 +45,14 @@ $brand-colors: (
   background-size: cover;
   background-position: bottom center;
 }
+
+
+// Copy Button CSS
+.highlight{
+  position:relative;
+}
+.button--copy {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+}
