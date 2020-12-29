@@ -216,6 +216,7 @@ const copyButton = () => {
 const codeText = (code) => {
   const textArea = document.createElement("textarea");
   textArea.classList.add("code-text");
+  textArea.setAttribute('aria-hidden', true);
   textArea.innerHTML = code;
   return textArea;
 };
