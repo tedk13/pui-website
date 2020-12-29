@@ -14,11 +14,11 @@
   "author": "RIMdev",
   "license": "ISC",
   "dependencies": {
-    "@ritterim/platform-ui": "^1.1.29",
-    "vue": "^2.6.11"
+    "@ritterim/platform-ui": "^1.2.3",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "shx": "^0.3.2"
+    "shx": "^0.3.3"
   }
 }
