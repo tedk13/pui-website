@@ -56,7 +56,7 @@ Here are some working examples of how you could use loader with other platform-u
       </div>
     </div>
   </div>
-  <button class="button button--post button--lg modal__open loader-modal" data-modal="loader-modal">Modal</button>
+  <button class="button button--secondary has-text button--lg modal__open loader-modal" data-modal="loader-modal">Modal</button>
 </div>
 <div class="mb-4">
   <div class="block-container">

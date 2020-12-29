@@ -21,7 +21,7 @@ Platform UI accordions were designed to be stacked.
     <div class="flex flex--align-center">
       <p>This is an accordion header. </p>
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
     <p class="skeleton" data-lines="6"></p>
@@ -32,7 +32,7 @@ Platform UI accordions were designed to be stacked.
     <div class="flex flex--align-center">
       <p>This is an accordion header. </p>
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
     <p class="skeleton" data-lines="6"></p>
@@ -46,7 +46,7 @@ Platform UI accordions were designed to be stacked.
     <div class="flex flex--align-center">
       <!-- Accordion header goes here! -->
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
     <!-- Accordion content goes here! -->
@@ -57,7 +57,7 @@ Platform UI accordions were designed to be stacked.
     <div class="flex flex--align-center">
       <!-- Accordion header goes here! -->
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
     <!-- Accordion content goes here! -->
@@ -78,7 +78,7 @@ Adding `.active` changes the default header bar background and hover highlight.
     <div class="flex flex--align-center">
       <p>This is an accordion header.</p>
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
     <p class="skeleton" data-lines="6"></p>
@@ -92,7 +92,7 @@ Adding `.active` changes the default header bar background and hover highlight.
     <div class="flex flex--align-center">
       <!-- Accordion header goes here! -->
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
     <!-- Accordion content goes here! -->
@@ -106,14 +106,14 @@ Adding `.active` changes the default header bar background and hover highlight.
 Nested
 {{< /heading >}}
 
-Nesting accordions gives the appearance of active accordions within.
+Accordions can be nested inside one of another.
 
-<div class="accordion active">
+<div class="accordion">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
     <div class="flex flex--align-center">
       <p>This is an accordion header.</p>
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content">
     <div class="px-3 py-3">
@@ -124,7 +124,7 @@ Nesting accordions gives the appearance of active accordions within.
         <div class="flex flex--align-center">
           <p>This is a nested accordion header.</p>
         </div>
-        <i class="pi-angle-down accordion__icon text-med-blue"></i>
+        <i class="pi-angle-up accordion__icon text-med-blue"></i>
       </a>
       <div class="accordion__content">
         <div class="px-3 py-3">
@@ -137,12 +137,12 @@ Nesting accordions gives the appearance of active accordions within.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="accordion active">
+<div class="accordion">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
     <div class="flex flex--align-center">
       <!-- Accordion header goes here! -->
     </div>
-    <i class="pi-angle-down accordion__icon text-med-blue"></i>
+    <i class="pi-angle-up accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content">
     <div class="px-3 py-3">
@@ -153,7 +153,7 @@ Nesting accordions gives the appearance of active accordions within.
         <div class="flex flex--align-center">
           <!-- Nested accordion header goes here! -->
         </div>
-        <i class="pi-angle-down accordion__icon text-med-blue"></i>
+        <i class="pi-angle-up accordion__icon text-med-blue"></i>
       </a>
       <div class="accordion__content">
         <div class="px-3 py-3">

@@ -41,7 +41,74 @@ $brand-colors: (
 
 .hero {
   height: 500px;
-  background-image: url(/images/platform-ui-background.svg);
-  background-size: cover;
-  background-position: bottom center;
 }
+
+
+#frame {
+  flex-flow: column;
+  @media screen and (min-width: 768px) {
+    flex-flow: row;
+  }
+}
+
+#frame-content {
+  flex-flow: column;
+  @media screen and (min-width: 768px) {
+    flex-flow: row;
+  }
+}
+
+#frame-mobile-nav-drawer{
+  width:75%;
+}
+
+#frame-mobile-nav-trigger{
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+
+#content {
+  order: 2;
+  @media screen and (min-width:768px){
+    order:1;
+  }
+}
+
+#content-nav {
+  order: 1;
+  @media screen and (min-width:768px){
+    padding-top:1em;
+  }
+}
+
+// Copy Button CSS
+// ===============
+// Adjustments to the .highlight CSS class to hide the .code-text textarea
+.highlight {
+  position: relative;
+  pre {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+// CSS to place copy button in top-right corner of code example
+.button--copy {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  z-index: 2;
+}
+
+// CSS to hide the code textarea
+.code-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  opacity:0;
+} 
