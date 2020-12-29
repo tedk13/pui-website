@@ -788,13 +788,13 @@ All platform icons have a prefix of `pi` and are house in the `<i>` element tag.
   </li>
   <li class="block flex--center-content flex--column">
     <span class="flex text--size-xxl text-base p-3">
-      <i class=" pi-check-cirle-solid"></i>
+      <i class=" pi-check-circle-solid"></i>
     </span>
-    <span class="flex--center-content">pi-check-cirle-solid</span>
+    <span class="flex--center-content">pi-check-circle-solid</span>
     <div
       class="button mt-2 tooltip-bottom"
       data-copy-button
-      data-clipboard-text="<i class='pi-check-cirle-solid'></i>"
+      data-clipboard-text="<i class='pi-check-circle-solid'></i>"
     >
       Copy <i class="pi-clipboard"></i>
     </div>
