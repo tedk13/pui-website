@@ -22,12 +22,12 @@ Most of the colors we have set in Platform UI meet the contrast ratio of 4.5:1, 
 ## Accessible Content
 Content that should be made accessible to screen readers, but is not necessary for users not using a screen reader, can be hidden using the `.sr-only` class. An example of this could be for an action, like a button, that only contains a font-icon.
  
-```
+{{< highlight html >}}
 <button class=”button”>
  <i class=”pi-download” aria-hidden=”true”>
  <span class=”sr-only”>Download a copy of your form</span>
 </button>
-```
+{{< /highlight >}}
  
 On the flip side, sometimes it can be necessary to hide content from a screen reader. Take the button example above. Notice the `aria-hidden=”true”`. In this case, we’re hiding decorative content from a screen reader. You can use [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) roles and attributes to improve the experience of a screen reader.
  
