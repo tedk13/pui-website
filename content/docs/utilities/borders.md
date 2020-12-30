@@ -17,11 +17,14 @@ You can add specific borders to elements by using the following classes:
 | `border--width-{i}`     | `border-width: {i}px;`                             |
 | `border--color-{color}` | `border-color: {color};`                           |
 
+
+## Color
+
 The `border--color-{color}` class uses the [brand colors](/section-color.html#kssref-color-brandcolors) map.
 
 <div class="block-6">
   <div class="card">
-    <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
+    <h4 class="border border--color-navy pb-2 mb-2">Card Header</h4>
     <div class="card__content">
       <p class="skeleton" data-lines="7" data-animation="true"></p>
     </div>
@@ -39,6 +42,10 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 </div>
 {{< /highlight >}}
 </div>
+
+
+## Right Border
+
 <div class="block-6">
   <div class="card">
     <h4 class="pb-2 mb-2">Card Header</h4>
@@ -69,6 +76,10 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 </div>
 {{< /highlight >}}
 </div>
+
+
+## Vertical Border
+
 <div class="block-6">
   <div class="card">
     <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
