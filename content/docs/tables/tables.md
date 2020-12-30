@@ -2,7 +2,6 @@
 title: Tables
 date: 2018-07-20T12:59:15-04:00
 ---
-## Default Tables
 Use the `table` class to get the table styles applied.
 
 Attach any `click` event directly to the `<th>` for a larger click target.
@@ -172,7 +171,9 @@ Turn row hover off by adding `table--no-hover`
 {{< /highlight >}}
 </div>
 
+
 ## Unresponsive Tables
+
 Sometimes you don't want a resposive table? just add `unresponsive` to `table`
 
 <table class="table unresponsive">

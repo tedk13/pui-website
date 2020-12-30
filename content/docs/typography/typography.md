@@ -2,9 +2,7 @@
 title: Typography
 date: 2018-07-20T12:59:15-04:00
 ---
-{{< heading heading="h2" id="headings">}}
-Headings
-{{< /heading >}}
+## Headings
 
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -24,9 +22,8 @@ Headings
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="paragraphs">}}
-Paragraphs
-{{< /heading >}}
+
+## Paragraphs
 
 <div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
@@ -43,12 +40,14 @@ Paragraphs
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="typography-utilities">}}
-Typography Utilities
-{{< /heading >}}
+
+## Typography Utilities
+
 Below are some of our typography utilities.
 
+
 ### Case
+
 Utility classes to modify text case type.
 
 | Type | Modifier Class | Result |
@@ -68,9 +67,7 @@ Utility classes to modify text case type.
 </div>
 
 
-{{< heading heading="h3" id="color">}}
-Color
-{{< /heading >}}
+### Color
 
 `text-{ color }`, `text-{ color }--hover` combines our [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
 
@@ -112,10 +109,9 @@ Color
 <p class="text-orange">Orange</p> 
 {{< /highlight >}}
 </div>
- 
-{{< heading heading="h3" id="general">}}
-General Utilities
-{{< /heading >}}
+
+
+### General Utilities
 
 General utilities add class-based css transforms like `uppercase` and `bold`. See the chart below for the full list.
 
@@ -139,9 +135,8 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h3" id="sizing">}}
-Sizing
-{{< /heading >}}
+
+### Sizing
 
 `text--size-{ size }` leverages percentages for smaller or larger text. The defaut `font-size` is `1rem`.
 
@@ -167,9 +162,8 @@ Sizing
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h3" id="text-shadow">}}
-Text Shadow
-{{< /heading >}}
+
+### Text Shadow
 
 You can add a text-shadow to an element using colors from our [greyscale](/section-color.html#kssref-color-greyscale) map.
 

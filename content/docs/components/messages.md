@@ -47,13 +47,9 @@ These are examples of global messages or alerts
 </div>
 
 
-{{< heading heading="h2" id="alternate-headings">}}
-Alternate Headings
-{{< /heading >}}
+## Alternate Headings
 
 Messages can have custom headings. Adding `data-header="{Your Heading}"` to the message will display the custom heading. 
-
-
 
 <div class="message message--success" data-header="Alternate heading based on data-header">
   <p class="skeleton" data-lines="2"></p>

@@ -5,7 +5,9 @@ date: 2018-07-20T12:59:15-04:00
 
 Blocks are Platform UI's core structural component. Here are some of the features and concepts behind our grid.
 
+
 ## Block Containers
+
 - All block grids start with a wrapper of `block-container` that is set to `display: flex ` with `flex-wrap: wrap`.
 - `block-container` can also act as a row.
 - `block-container` has modifiers to allow auto-placement based on responsive breakpoints.
@@ -19,9 +21,9 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="columns">}}
-Block Sizes
-{{< /heading >}}
+
+## Block Sizes
+
 - Blocks are based on a 12 column grid, they allow content to be evenly distributed. They are a mobile first approach.
 - Blocks can have responsive modifiers attached directly to them.
 - Each `.block` has a width of 100%. From there, you can add modifiers to each block to take up the desired amount of columns in the 12 column grid.
@@ -43,9 +45,9 @@ The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
 | `.block-11` | <div class="block-container"><div class="block block-11"><div class="card background-lighter"></div></div></div> | 
 | `.block-12` | <div class="block-container"><div class="block block-12"><div class="card background-lighter"></div></div></div> | 
 
-{{< heading heading="h3" id="building-grids">}}
-Building Grids
-{{< /heading >}}
+
+### Building Grids
+
 You can build a grid of equally sized blocks using the block layout. This can be done in a couple ways. The first way is by adding the classes to each individual block. Something like `block` `block-3` on each block will result in a grid of 4 blocks per row.
 
 
@@ -143,9 +145,9 @@ The second approach is to add the sizing classes to the wrapping `block-containe
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h3" id="responsive-grid-with-flex">}}
-Responsive Grid
-{{< /heading >}}
+
+### Responsive Grid
+
 You can build a responsive grid with blocks. You can add the responsive classes to the individual blocks, or add them to the container. Adding layout classes to the container works best when you need a grid of equally sized blocks.
 
 | Breakpoints | Label | Prefix |
@@ -206,7 +208,9 @@ On the blocks: In this example, each block will take up an entire row at the sma
 {{< /highlight >}}
 </div>
 
+
 ## Spacing
+
 - Spacing is based on Platform UI spacing with the following changes in behavior; Attaching padding to the horizontal axis, px-2, with a modifier of blocks will add that spacing to the block-container.
 - Without the blocks modifier, placing block-container px-2 will not apply the horizontal axis padding to the block children within the container but rather apply padding: 0 .5rem to the block-container.
 
@@ -261,6 +265,7 @@ Each block in the example below has padding: .5rem applied.
 
 
 ## Block Utilities
+
 Breakpoint classes can be added to each of these utilities as well. So, for example, you could have a `block-8` from mobile up. Then, at a laptop size you wanted the block to shrink to the size of it's content, you could add the class `laptop-up--shrink`. This would give the styles `width: auto` within that set media query. So you're block would have the classes, `block` `block-8` `laptop-up--shrink`.
 
 The utility classes use the BEM syntax.

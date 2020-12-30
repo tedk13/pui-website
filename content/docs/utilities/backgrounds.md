@@ -2,10 +2,8 @@
 title: Backgrounds
 date: 2018-07-20T12:59:15-04:00
 ---
+## Colors
 
-{{< heading heading="h2" id="background-colors">}}
-Colors 
-{{< /heading >}}
 The background color classes are used to set, or change a `background-color` on a specific element. 
 
 | Color | Class |
@@ -46,9 +44,8 @@ The background color classes are used to set, or change a `background-color` on 
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="inverted">}}
-Inverted
-{{< /heading >}}
+
+## Inverted
 
 The `inverted` class changes the color of an element to white. It has a transition, so after the class is added, the color
 will transition to white.
@@ -66,9 +63,7 @@ will transition to white.
 </div>
 
 
-{{< heading heading="h2" id="transparent">}}
-Transparent
-{{< /heading >}}
+## Transparent
 
 If you want to remove the background color and border color on an element, add the class `transparent`.
 
@@ -96,6 +91,7 @@ If you want to remove the background color and border color on an element, add t
 
 
 ## Images
+
 <div class="block-container blocks mb-4">
   <div class="block">
     <div class="pill text--size-xs text-dark">
@@ -234,7 +230,9 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   {{< /highlight >}}
   </div>
 
+
 ## Gradient
+
 <div class="block-container blocks mb-4">
   <div class="block">
     <div class="pill text--size-xs text-dark">
@@ -345,7 +343,9 @@ You can also change the distance of your colors by adding a perceentage in the d
   <p>This feature will not work in IE.</p>
 </div>
 
+
 ## Image and Gradient
+
 You can get really fancy with your backgrounds by adding a gradient over a background image. To do this, you will need both classes `linear-gradient` `background-image`. From there, add the appropriate data attributes to get your desired image and gradient.
 
 <div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
@@ -380,7 +380,9 @@ You can get really fancy with your backgrounds by adding a gradient over a backg
 {{< /highlight >}}
 </div>
 
+
 ## Ratio
+
 Set the size of an element equal to a common ratio with the ratio-{val} class.
 | Ratio | Class |
 |--|--|

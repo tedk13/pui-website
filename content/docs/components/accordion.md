@@ -67,9 +67,7 @@ Platform UI accordions were designed to be stacked.
 </div>
 
 
-{{< heading heading="h2" id="active">}}
-Active
-{{< /heading >}}
+## Active 
 
 Adding `.active` changes the default header bar background and hover highlight.
 
@@ -102,9 +100,7 @@ Adding `.active` changes the default header bar background and hover highlight.
 </div>
 
 
-{{< heading heading="h2" id="nested">}}
-Nested
-{{< /heading >}}
+## Nested
 
 Accordions can be nested inside one of another.
 

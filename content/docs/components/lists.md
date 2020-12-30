@@ -16,6 +16,7 @@ The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The lis
   <li>Third</li>
 </ol>
 
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Unordered List -->
 <ul>
@@ -31,13 +32,10 @@ The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The lis
   <li>Third</li>
 </ol>
 {{< /highlight >}}
+</div>
 
 
-
-
-{{< heading heading="h2" id="lists">}}
-List
-{{< /heading >}}
+## List
 
 Our list is simplified and strips the `list-style-type`, `margin`, and `padding` from the user agent stylesheet.
 
@@ -46,8 +44,6 @@ Our list is simplified and strips the `list-style-type`, `margin`, and `padding`
   <li>This is a list item.</li>
   <li>This is a list item.</li>
 </ul>
- <br>
-
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
@@ -60,9 +56,8 @@ Our list is simplified and strips the `list-style-type`, `margin`, and `padding`
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="lists-inline">}}
-Inline
-{{< /heading >}}
+
+## Inline
 
 You can create an inline list by adding the `list--inline` modifier to `list`. This adds `display: flex` to the list rather than adding `display: inline` to each `li` inside the list.
 
@@ -72,6 +67,7 @@ You can create an inline list by adding the `list--inline` modifier to `list`. T
   <li>Inline list item.</li>
 </ul>
 
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <ul class="list list--inline">
   <li>Inline list item.</li>
@@ -79,10 +75,10 @@ You can create an inline list by adding the `list--inline` modifier to `list`. T
   <li>Inline list item.</li>
 </ul>
 {{< /highlight >}}
+</div>
 
-{{< heading heading="h2" id="lists-bordered">}}
-Bordered
-{{< /heading >}}
+
+## Bordered
 
 You can have a bordered list by adding the `list--bordered` modifier. Be sure to add the class `list__item` to the `li`. This adds a border-bottom to each li except the last. A `padding-bottom: .5rem` is added to each `li` to match the `margin-bottom` in order to create a cleaner separation from the bottom border.
 
@@ -92,6 +88,7 @@ You can have a bordered list by adding the `list--bordered` modifier. Be sure to
   <li class="list__item">This is a list item.</li>
 </ul>
 
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <ul class="list list--bordered">
   <li class="list__item">This is a list item.</li>
@@ -99,10 +96,10 @@ You can have a bordered list by adding the `list--bordered` modifier. Be sure to
   <li class="list__item">This is a list item.</li>
 </ul>
 {{< /highlight >}}
+</div>
 
-{{< heading heading="h2" id="lists-breadcrumbs">}}
-Breadcrumbs
-{{< /heading >}}
+
+## Breadcrumbs
 
 You can use our list classes as well as some other utilities to build yourself a simple breadcrumb trail. In the example below we're using `list` `list--inline` to change the direction of the flow for the list items. This removes any user agent styles for margin and padding as well as the list style type. Adding `list--inline` also gives a `margin-right` to each `li` in the list. This can be changed with our spacing utilities. From there, we added an angle right icon to show direction of the breadcrumbs. You can switch this out for any icon you'd like.
 
@@ -125,6 +122,7 @@ Adding `aria-label="breadcrumbs"` to a nav wrapping the list as well as adding `
   </ol>
 </nav>
 
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <nav aria-label="breadcrumbs">
   <ol class="list list--inline">
@@ -143,10 +141,11 @@ Adding `aria-label="breadcrumbs"` to a nav wrapping the list as well as adding `
   </ol>
 </nav>
 {{< /highlight >}}
+</div>
 
-{{< heading heading="h2" id="lists-other">}}
-Other Examples
-{{< /heading >}}
+
+## Other Examples
+
 Using our utilities, icons, and modifiers, you can create some pretty fancy lists. We think so anyway. Substitute a font-icon for `list-style-type`.
 <ul class="list">
   <li class="flex">
@@ -163,6 +162,7 @@ Using our utilities, icons, and modifiers, you can create some pretty fancy list
   </li>
 </ul>
 
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <ul class="list">
   <li class="flex">
@@ -179,10 +179,11 @@ Using our utilities, icons, and modifiers, you can create some pretty fancy list
   </li>
 </ul>
 {{< /highlight >}}
+</div>
 
-{{< heading heading="h2" id="post-lists">}}
-Post Lists
-{{< /heading >}}
+
+## Post Lists
+
 <div class="block-4 mb-3">
   <div class="pill text--size-xs background-negative inverted no-border">
     <i class="pi-flag mr-1"></i>

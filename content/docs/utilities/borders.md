@@ -2,7 +2,6 @@
 title: Borders
 date: 2018-07-20T12:59:15-04:00
 ---
-## Border Types
 You can add specific borders to elements by using the following classes:
 
 | Classes                 | CSS Attribute                                      |

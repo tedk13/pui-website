@@ -79,9 +79,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 </div>
 
 
-{{< heading heading="h2" id="tabs-flat">}}
-Tabs Flat
-{{< /heading >}}
+## Tabs Flat
 
 If you want the borders removed from the tabs, add the class `tab--flat` to the `tab`.
 
@@ -148,15 +146,11 @@ If you want the borders removed from the tabs, add the class `tab--flat` to the 
 </div>
 
 
-
-{{< heading heading="h2" id="tabs-flat-responsive ">}}
-Tabs Flat-Responsive 
-{{< /heading >}}
+## Tabs Flat-Responsive
 
 The flat tabs do not change at lower/higher screen resolutions. You can make the tabs respond, however, by adding
 the class `responsive` to `tabs tabs--flat`. This will make the tabs stack at the mobile breakpoint and 
 go back to the flat tab look above mobile.
-
 
 <div class="tabs tabs--flat responsive">
   <input type="radio" id="tab-input-ar" name="tabs-r" checked>

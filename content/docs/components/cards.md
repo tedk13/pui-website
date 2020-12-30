@@ -30,9 +30,8 @@ some padding.
   <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text-navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to give the card size.</p>
 </div>
 
-{{< heading heading="h2" id="card-headers">}}
-Card Headers
-{{< /heading >}}
+
+## Card Headers
 
 For the headings in your cards, you generally want to wrap them in the class `card__header`. This works best when you
 have a layout of inline content that should have space between. 
@@ -63,9 +62,9 @@ have a layout of inline content that should have space between.
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="card-group">}}
-Card Group
-{{< /heading >}}
+
+## Card Group
+
 The class `card__group` will give the element `display: flex`.
 When it is nested inside the class `card__header` it will also have `align-items: center`.
 
@@ -104,9 +103,7 @@ When it is nested inside the class `card__header` it will also have `align-items
 </div>
 
 
-{{< heading heading="h2" id="image-card">}}
-Image Card
-{{< /heading >}}
+## Image Card
 
 Images can be placed at the top of cards. The `<img>` element gets the class `card__image` and is expected to be the first child element of the card.
 When `rounded-` modifiers are used on the card, the image takes on the radius as well. Other modifiers can be used as needed.
@@ -138,9 +135,7 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
 </div>
 
 
-{{< heading heading="h2" id="content-overflow">}}
-Content Overflow
-{{< /heading >}}
+## Content Overflow
 
 If you have a lot of content in a card that is causing other cards to grow too much, you could add the class
 `card__content--scroll` to the `card__content` in order to set a height and add an `overflow-y: auto;`.

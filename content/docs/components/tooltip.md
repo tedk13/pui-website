@@ -4,7 +4,9 @@ date: 2018-07-20T12:59:15-04:00
 ---
 Add your tooltip text to a `data-tooltip` attribute on any item you want a tooltip.
 
+
 ## Direction
+
 To specify the placement of your tooltip, add a `tooltip-{direction}` class. Directions include:
 
 | Direction | Modifier Class |
@@ -37,7 +39,9 @@ To specify the placement of your tooltip, add a `tooltip-{direction}` class. Dir
 {{< /highlight >}}
 </div>
 
+
 ## Inline
+
 Adding the class `.tooltip-inline` will add a dashed underline to identify the tooltip. See example below.
 
 <div class="block-container pb-3">
@@ -52,6 +56,7 @@ Adding the class `.tooltip-inline` will add a dashed underline to identify the t
 
 
 ## Mobile
+
 If you want a tooltip to be mobile friendly, add the class `tooltip-mobile`. This will ensure that the tooltip, when fired, will be centered in the middle of the page. This will happen within the mobile breakpopint. In platform UI's case, below `768px`.
 
 <div class="block-container pb-3">
@@ -70,7 +75,9 @@ If you want a tooltip to be mobile friendly, add the class `tooltip-mobile`. Thi
 {{< /highlight >}}
 </div>
 
+
 ## Icons
+
 We use a font icon for our tooltip, but we don't want the hover to take place on the icon.
 Be sure to add the tooltip data attribute to the `<div>` wrapper instead. Place any color changes, whether they be a hover or not, on the `<div>` as well. This will ensure that our tooltip text does not render a different font due to the icon having the font icon style.
 

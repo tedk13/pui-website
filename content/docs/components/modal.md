@@ -30,11 +30,9 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 <div class="message message--warning">
   <p>You may run into issues where the background scrolls while your modal is open. To prevent this behavior, add the <code>.modal-open</code> class to your body element when a modal is open. See demo below for example and note how adding the <code>.modal-open</code> class to the body on open makes the background scroll bar go away.</p>
 </div>
-<br />
 
-## Examples
 
-### Standard
+## Standard
 
 <div class="block mb-3">
     <button class="button button--post button--lg modal__open" data-modal="default-modal">Standard Modal</button>
@@ -79,8 +77,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 </div>
 
 
-
-### Small
+## Small
 
 <div class="block mb-3">
     <button class="button button--post button--lg modal__open" data-modal="small-modal">Small Modal</button>
@@ -120,7 +117,8 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 {{< /highlight >}}
 </div>
 
-### Centered
+
+## Centered
 
 <div class="block mb-3">
   <button class="button button--post button--lg modal__open" data-modal="centered-modal">Centered Modal</button>
@@ -160,7 +158,8 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 {{< /highlight>}}
 </div>
 
-### Large
+
+## Large
 
 <div class="block mb-3">
     <button class="button button--post button--lg modal__open" data-modal="large-modal">Large Modal</button>
@@ -202,7 +201,8 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 {{< /highlight >}}
 </div>
 
-### Full Screen
+
+## Full Screen
 
 <div class="block">
   <button class="button button--post button--lg modal__open" data-modal="full-modal">Full Screen Modal</button>
@@ -247,9 +247,8 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="dialog">}}
-Dialog
-{{< /heading >}}
+
+## Dialog
 
 To make a dialog box using the modal, remove `modal__header` from the modal. The header is typically reserved for
 a modal title as well as a close button. In the case of most dialogs, the options you choose will close the modal so the
@@ -298,6 +297,7 @@ header can seem unecessarry. See the code example below.
 </div>
 {{< /highlight >}}
 </div>
+
 
 ## Message
 
