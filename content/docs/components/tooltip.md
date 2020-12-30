@@ -9,12 +9,12 @@ Add your tooltip text to a `data-tooltip` attribute on any item you want a toolt
 
 To specify the placement of your tooltip, add a `tooltip-{direction}` class. Directions include:
 
-| Direction | Modifier Class |
-| ------------ | ------------|
-| Top | `.tooltip-top` | 
-| Right | `.tooltip-right` |
-| Bottom | `.tooltip-bottom` |
-| Left | `.tooltip-left` |
+| Modifier Class    | Direction |
+| ----------------- | --------- |
+| `.tooltip-top`    | Top       | 
+| `.tooltip-right`  | Right     |
+| `.tooltip-bottom` | Bottom    |
+| `.tooltip-left`   | Left      |
 
 <div class="block-container pb-3 flex flex--justify-between">
   <div class="tooltip-top" data-tooltip="This is a top facing tooltip.">top</div>

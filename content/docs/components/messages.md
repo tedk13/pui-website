@@ -3,7 +3,17 @@ title: Messages
 date: 2018-07-20T12:59:15-04:00
 ---
 
-These are examples of global messages or alerts
+Messages can be used to display important information that will stand out on the screen.
+
+| Modifier Class      | Description            |
+| ------------------- | ---------------------- |
+| `.message--success` | Green success message  |
+| `.message--error`   | Red error message      |
+| `.message--warning` | Yellow warning message |
+| `.message--info`    | Blue info message      |
+
+
+## Success
 
 <div class="message message--success">
   <p class="skeleton" data-lines="2"></p>
@@ -15,6 +25,10 @@ These are examples of global messages or alerts
 </div>
 {{< /highlight >}}
 </div>
+
+
+## Error
+
 <div class="message message--error">
   <p class="skeleton" data-lines="2"></p>
 </div>
@@ -25,6 +39,10 @@ These are examples of global messages or alerts
 </div>
 {{< /highlight >}}
 </div>
+
+
+## Warning
+
 <div class="message message--warning">
   <p class="skeleton" data-lines="2"></p>
 </div>
@@ -35,6 +53,10 @@ These are examples of global messages or alerts
 </div>
 {{< /highlight >}}
 </div>
+
+
+## Info
+
 <div class="message message--info">
   <p class="skeleton" data-lines="2"></p>
 </div>

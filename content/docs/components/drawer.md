@@ -13,6 +13,13 @@ date: 2018-07-20T12:59:15-04:00
 
 Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport. 
 
+| Modifier Class        | Description                                     |
+| --------------------- | ----------------------------------------------- |
+| `.drawer--single-row` | Small sized drawer                              |
+| `.drawer-bottom`      | Drawer opens from bottom of the viewport        |
+| `.drawer-right`       | Drawer opens from right side of the viewport    |
+| `.drawer-left`        | Drawer opens from left side of the viewport     |
+
 <div class="block-container mt-3">
   <button class="button button--post button--lg drawer__open" data-drawer="default">
     Toggle default drawer

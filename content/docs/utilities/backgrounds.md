@@ -24,26 +24,6 @@ The background color classes are used to set, or change a `background-color` on 
 | <p class="background-brown text-white">Brown</p> | `.background-brown` |
 | <p class="background-orange text-white">Orange</p> | `.background-orange` |
 
-<div class="mb-4">
-{{< highlight html >}}
-<p class="background-white">White</p>
-<p class="background-lighter">Lighter</p>
-<p class="background-light-mid">Light Mid</p>
-<p class="background-light">Light</p>
-<p class="background-base">Base</p>
-<p class="background-dark">Dark</p>
-<p class="background-black">Black</p>
-<p class="background-navy">Navy</p>
-<p class="background-skyblue">Skyblue</p>
-<p class="background-med-blue">Med Blue</p>
-<p class="background-beige">Beige</p>
-<p class="background-peach">Peach</p>
-<p class="background-salmon">Salmon</p>
-<p class="background-brown">Brown</p>
-<p class="background-orange">Orange</p>
-{{< /highlight >}}
-</div>
-
 
 ## Inverted
 
