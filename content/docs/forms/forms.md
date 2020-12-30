@@ -32,10 +32,7 @@ responsive forms, we recommend that you utilize the block layout and our spacers
 </div>
 
 
-
-{{< heading heading="h2" id="fancy-forms">}}
-Fancy Forms
-{{< /heading >}}
+## Fancy Forms
 
 You want a fancy form that animates the `label`? You got it.
 To get the animation, add the class `form__field--fancy` to the `form__field`.
@@ -108,10 +105,7 @@ probably be best for a simple form that has text inputs.
 </div>
 
 
-
-{{< heading heading="h2" id="form-border">}}
-Form Border
-{{< /heading >}}
+## Form Border
 
 This modifier class adds a full border to each input within the form. Just add `form--bordered`
 
@@ -166,10 +160,7 @@ This modifier class adds a full border to each input within the form. Just add `
 </div>
 
 
-
-{{< heading heading="h2" id="form-rounded-border">}}
-Form Rounded Border
-{{< /heading >}}
+## Form Rounded Border
 
 This modifier class adds a full border with a `5rem` radius to each input within the form. Just add `form--rounded`.
 If you want to give the label an indented look, we suggest moving the `form__field` class to a wrapping div containing 
@@ -219,9 +210,7 @@ the padding of the rounded input. Checkout the markup below.
 </div>
 
 
-{{< heading heading="h2" id="time-icon">}}
-Time Icon
-{{< /heading >}}
+## Time Icon
 
 The select wrapper displays an arrow down icon. We can change that by adding the class `time`
 to the class `form__select-wrapper`. So the classes would be `form__select-wrapper time`.
@@ -270,10 +259,7 @@ This will replace the arrow down icon with a clock icon.
 </div>
 
 
-
-{{< heading heading="h2" id="error-styles">}}
-Error styles
-{{< /heading >}}
+## Error Styles
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
 **Note** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
@@ -419,10 +405,7 @@ field will receive the error styling. However, if you only want to highlight on 
 </div>
 
 
-
-{{< heading heading="h2" id="has-icon">}}
-Has Icon
-{{< /heading >}}
+## Has Icon
 
 If you would like the icon to be on the right side of the input, add the class `has-icon--right` to the `form__field` class.
 
@@ -483,10 +466,7 @@ If you would like the icon to be on the right side of the input, add the class `
 </div>
 
 
-
-{{< heading heading="h2" id="input-checkbox">}}
-Input - Checkbox
-{{< /heading >}}
+## Input - Checkbox
 
 The platform check boxes require some specific markup to get the look you see in the example below.
 In this case, be sure to add `<div class="input-icons">` your label. Inside this `<div class="input-icons">`
@@ -593,10 +573,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
 </div>
 
 
-
-{{< heading heading="h2" id="input-radio">}}
-Input - Radio
-{{< /heading >}}
+## Input - Radio
 
 Radio buttons in platform UI are almost identical to how the check boxes work. Only different here is the input type
 and the font icon that shows when the input is checked.
@@ -705,9 +682,8 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="select">}}
-Select
-{{< /heading >}}
+
+## Select
 
 To get this look you see in the example below, be sure to wrap your `select` in the class, `form__select-wrapper`.
 This allows for the angle down arrow to show. We're using a pseudo element to create the angle down arrow here. Since
@@ -755,10 +731,7 @@ allows for consistent spacing with the other form elements. If you wish to have 
 </div>
 
 
-
-{{< heading heading="h2" id="putting-it-together">}}
-Putting it together
-{{< /heading >}}
+## Putting it Together
 
 Here's an example of a larger responsive form using the block layout.
 

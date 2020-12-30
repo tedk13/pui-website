@@ -2,9 +2,10 @@
 title: Typography
 date: 2018-07-20T12:59:15-04:00
 ---
-{{< heading heading="h2" id="headings">}}
-Headings
-{{< /heading >}}
+The typography settings created for headings and paragraphs by platform-ui, as well as the different typography utilities.
+
+
+## Headings
 
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -24,9 +25,8 @@ Headings
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="paragraphs">}}
-Paragraphs
-{{< /heading >}}
+
+## Paragraphs
 
 <div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
@@ -43,12 +43,14 @@ Paragraphs
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="typography-utilities">}}
-Typography Utilities
-{{< /heading >}}
+
+## Typography Utilities
+
 Below are some of our typography utilities.
 
+
 ### Case
+
 Utility classes to modify text case type.
 
 | Type | Modifier Class | Result |
@@ -56,21 +58,10 @@ Utility classes to modify text case type.
 | Uppercase | `.text--uppercase` | <p class="text--uppercase">this is uppercase</p> |
 | Lowercase | `.text--lowercase` | <p class="text--lowercase">THIS IS LOWERCASE</p> |
 | Capitalize Case | `.text--capitalize` | <p class="text--capitalize">this is capitalize case</p> |
-| Sentence Case | `.text--uppercase` | <p class="text--sentencecase">This IS senTENCe cASe</p> |
-
-<div class="mb-4">
-{{< highlight html >}}
-<p class="text--uppercase">this is uppercase</p>
-<p class="text--lowercase">THIS IS LOWERCASE</p>
-<p class="text--capitalize">this is capitalize case</p>
-<p class="text--sentencecase">This IS senTENCe cASe</p>
-{{< /highlight >}}
-</div>
+| Sentence Case | `.text--sentencecase` | <p class="text--sentencecase">This IS senTENCe cASe</p> |
 
 
-{{< heading heading="h3" id="color">}}
-Color
-{{< /heading >}}
+### Color
 
 `text-{ color }`, `text-{ color }--hover` combines our [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
 
@@ -93,29 +84,8 @@ Color
 | <p class="text-brown">Brown</p> | `.text-brown` | `.text-brown--hover` |
 | <p class="text-orange">Orange</p> | `.text-orange` | `.text-orange--hover` |
 
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<p class="text-white">White</p> 
-<p class="text-lighter">Lighter</p> 
-<p class="text-light-mid">Light Mid</p> 
-<p class="text-light">Light</p> 
-<p class="text-base">Base</p> 
-<p class="text-dark">Dark</p> 
-<p class="text-black">Black</p> 
-<p class="text-navy">Navy</p> 
-<p class="text-skyblue">Skyblue</p> 
-<p class="text-med-blue">Med Blue</p> 
-<p class="text-beige">Beige</p> 
-<p class="text-peach">Peach</p> 
-<p class="text-salmon">Salmon</p> 
-<p class="text-brown">Brown</p> 
-<p class="text-orange">Orange</p> 
-{{< /highlight >}}
-</div>
- 
-{{< heading heading="h3" id="general">}}
-General Utilities
-{{< /heading >}}
+
+### General Utilities
 
 General utilities add class-based css transforms like `uppercase` and `bold`. See the chart below for the full list.
 
@@ -128,20 +98,8 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
 | Align Right | `.text--right` | <p class="text--right">Hello World!</p> |
 | No Line Wrap | `.text--nowrap` | <p class="text--nowrap">The quick brown fox jumped over the lazy dog</p> |
 
-<div class="mb-4">
-{{< highlight html >}}
-<p class="text--bold">Hello World!</p>
-<p class="text--underline">Hello World!</p>
-<p><span class="text-underline--hover">Hello World!</span></p>
-<p class="text--center">Hello World!</p>
-<p class="text--right">Hello World!</p>
-<p class="text--nowrap">The quick brown fox jumped over the lazy dog</p>
-{{< /highlight >}}
-</div>
 
-{{< heading heading="h3" id="sizing">}}
-Sizing
-{{< /heading >}}
+### Sizing
 
 `text--size-{ size }` leverages percentages for smaller or larger text. The defaut `font-size` is `1rem`.
 
@@ -155,21 +113,8 @@ Sizing
 | `150%`  | `text--size-xl`  | <p class="text--size-xl">Hello World!</p> |
 | `200%`  | `text--size-xxl` | <p class="text--size-xxl">Hello World!</p> |
 
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<p class="text--size-xxs">Hello World!</p>
-<p class="text--size-xs">Hello World!</p>
-<p class="text--size-sm">Hello World!</p>
-<p class="text--size-md">Hello World!</p>
-<p class="text--size-lg">Hello World!</p>
-<p class="text--size-xl">Hello World!</p>
-<p class="text--size-xxl">Hello World!</p>
-{{< /highlight >}}
-</div>
 
-{{< heading heading="h3" id="text-shadow">}}
-Text Shadow
-{{< /heading >}}
+### Text Shadow
 
 You can add a text-shadow to an element using colors from our [greyscale](/section-color.html#kssref-color-greyscale) map.
 
@@ -181,17 +126,4 @@ You can add a text-shadow to an element using colors from our [greyscale](/secti
 | Light | `.text--shadow-light` | <p class="text--shadow-light">Hello World!</p> |
 | Base | `.text--shadow-base` | <p class="text--shadow-base">Hello World!</p> |
 | Dark | `.text--shadow-dark` | <p class="text--shadow-dark">Hello World!</p> |
-| Black | `.text--shadow-black` | <p class="text--shadow-black">Hello World!</p> |
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<p class="text--shadow-white">Hello World!</p>
-<p class="text--shadow-lighter">Hello World!</p>
-<p class="text--shadow-light-mid">Hello World!</p>
-<p class="text--shadow-light">Hello World!</p>
-<p class="text--shadow-base">Hello World!</p>
-<p class="text--shadow-dark">Hello World!</p>
-<p class="text--shadow-black">Hello World!</p>
-{{< /highlight >}}
-</div>
- 
+| Black | `.text--shadow-black` | <p class="text--shadow-black">Hello World!</p> | 

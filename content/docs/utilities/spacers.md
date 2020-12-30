@@ -24,9 +24,8 @@ Example:
 .mx-3 // margin: 0 1rem;
 {{< /highlight >}}
 
-{{< heading heading="h2" id="responsive">}}
-Responsive
-{{< /heading >}}
+
+## Responsive
 
 Currently we only have responsive spacers for mobile. We are also only using them for `margin-bottom` and `padding-bottom`.
 

@@ -13,7 +13,13 @@ date: 2018-07-20T12:59:15-04:00
 
 Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport. 
 
-## Default Drawer
+| Modifier Class        | Description                                     |
+| --------------------- | ----------------------------------------------- |
+| `.drawer--single-row` | Small sized drawer                              |
+| `.drawer-bottom`      | Drawer opens from bottom of the viewport        |
+| `.drawer-right`       | Drawer opens from right side of the viewport    |
+| `.drawer-left`        | Drawer opens from left side of the viewport     |
+
 <div class="block-container mt-3">
   <button class="button button--post button--lg drawer__open" data-drawer="default">
     Toggle default drawer
@@ -116,7 +122,9 @@ If you want a smaller drawer you can add the modifier class `.drawer--single-row
   <p>The single row modifier class only applies to the default drawer and drawer-bottom stylings.</p>
 </div>
 
+
 ## Bottom Drawer
+
 The default drawer opens from the bottom of the viewport, however you can also specify this by adding the `.drawer-bottom` class to the `.drawer` element.
 <div class="block-container">
   <button class="button button--post button--lg drawer__open" data-drawer="bottom">
@@ -163,7 +171,9 @@ The default drawer opens from the bottom of the viewport, however you can also s
  {{< /highlight >}}
  </div>
 
+
 ## Right Drawer
+
 To open a drawer from the right side of the viewport, apply the `.drawer-right` class to the `.drawer` element.
 
 <div class="block-container">
@@ -211,7 +221,9 @@ To open a drawer from the right side of the viewport, apply the `.drawer-right` 
  {{< /highlight >}}
  </div>
 
+
 ## Left Drawer
+
 To open a drawer from the left side of the viewport, apply the `.drawer-left` class to the `.drawer` element.
 
 <button class="button button--post button--lg drawer__open" data-drawer="left">

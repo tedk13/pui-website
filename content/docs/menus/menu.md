@@ -4,6 +4,7 @@ date: 2018-07-20T12:59:15-04:00
 ---
 
 ## Site Menu
+
 <div class="block-container blocks mb-4">
   <div class="block">
     <div class="pill text--size-xs text-dark">
@@ -87,9 +88,8 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="background-color">}}
-Background Color
-{{< /heading >}}
+
+## Background Color
 
 You can add a background color to your `site-menu`. This will accomplish two things. First, the background color of your menu will change. Second, the hover effect on the links in the menu will reflect a darker version of the background color you set. The color of the links will also change based on the color of the site-menu. If the color is dark, the link color will be white. If the background color is a lighter color, the link color will be `var(--dark)`. Which is currently set to the body color.
 
@@ -115,6 +115,7 @@ You can add a background color to your `site-menu`. This will accomplish two thi
 
 
 ## Bordered
+
 Adding the modifier class of site-menu--bordered will add borders separating each menu item.
 
 <nav class="site-menu site-menu--bordered mb-3">
@@ -138,7 +139,9 @@ Adding the modifier class of site-menu--bordered will add borders separating eac
 {{< /highlight >}}
 </div>
 
+
 ## Hover Underline
+
 Adding the class hover-underline to your site-menu will give the `<button>`s in the menu a bottom border on hover.
 
 <nav class="site-menu hover-underline mb-3">
@@ -161,7 +164,9 @@ Adding the class hover-underline to your site-menu will give the `<button>`s in 
 {{< /highlight >}}
 </div>
 
+
 ## Dropdown
+
 You can add a dropdown submenu to your site-menu. The markup for this component is pretty specific. Be sure to include the following classes. You will need a `dropdown` class wrapping two sibling elements, a `dropdown__trigger` and your `dropdown__content`. View the example below to see how this structure works.
 
 By default, the dropdowns will open positioned to the left of their parent, all except for the last dropdown in the menu. This will help prevent any dropdowns from opening off the page.
@@ -316,18 +321,15 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 {{< /highlight >}}
 </div>
 
-{{< heading heading="h2" id="fixed-header">}}
-Fixed Header
-{{< /heading >}}
+
+## Fixed Header
 
 To get a fixed header you can set the desired height in the config file. The `site-header` needs the modifier, `site-header--fixed`. This is what gives the header the `position: fixed` style.
 In order to ensure that you have proper space between your header and main content, add the class `header-fixed` to the direct sibling of your `site-header`.
 To see this in action, inspect the header of this style guide.
 
  
-{{< heading heading="h2" id="icon-menu">}}
-Icon Menu
-{{< /heading >}}
+## Icon Menu
 
 When you need a horizontal list of icons, look no further than "Icon Menu". Use the mark up below
 to get the list you want. Be sure to use the specific `icon-menu` classes. With this strcuture you have
