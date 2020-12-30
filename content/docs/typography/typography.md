@@ -2,6 +2,9 @@
 title: Typography
 date: 2018-07-20T12:59:15-04:00
 ---
+The typography settings created for headings and paragraphs by platform-ui, as well as the different typography utilities.
+
+
 ## Headings
 
 <h1>Heading 1</h1>
