@@ -7,26 +7,19 @@ The class `hover-scale` will scale the element, on hover, to 1.05 the original s
 
 <div class="block-container">
     <div class="block block-4">
-    <div class="card hover-scale">
-        <h4 class="pb-2 mb-2">Hover over this</h4>
-        <div class="card__content">
-        <p>Notice how it scales on hover</p>
+        <div class="card hover-scale">
+            <h4 class="skeleton skeleton--lg"></h4>
+            <div class="card__content">
+                <p class="skeleton" data-lines="3"></p>
+            </div>
         </div>
-    </div>
     </div>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block-container">
-    <div class="block block-4">
-        <div class="card hover-scale">
-            <h4 class="pb-2 mb-2">Hover over this</h4>
-            <div class="card__content">
-            <p>Notice how it scales on hover</p>
-            </div>
-        </div>
-    </div>
+<div class="card hover-scale">
+    <!-- Content goes here! -->
 </div>
 {{< /highlight >}}
 </div>
