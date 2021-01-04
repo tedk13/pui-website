@@ -6,84 +6,37 @@ Use the `table` class to get the table styles applied.
 
 Attach any `click` event directly to the `<th>` for a larger click target.
 
-These tables are responsive. They get the mobile view below the mobile breakpoint.
-You need to add the `data-label="{th - name}"` to the corresponding `<td>`. See the markup below.
-
-Turn row hover off by adding `table--no-hover`
+Tables are responsive by default, so they will display differently below the mobile breakpoint. To make sure data displays properly, set the `data-label` attribute on a table cell to the corresponding column header text. In the event that you do not want a table to be responsive, simply add the `unresponsive` class to the table component.
 
 <table class="table">
   <thead>
     <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
+      <th>Menu Item</th>
+      <th>Size</th>
+      <th>Price</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td data-label="Company">
-        Alfreds Futterkiste
+      <td data-label="Menu Item">
+        Pork Buns
       </td>
-      <td data-label="Contact">
-        Maria Anders
+      <td data-label="Size">
+        Large
       </td>
-      <td data-label="Country">
-        Germany
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Centro comercial Moctezuma
-      </td>
-      <td data-label="Contact">
-        Francisco Chang
-      </td>
-      <td data-label="Country">
-        Mexico
+      <td data-label="Price">
+        $8.99
       </td>
     </tr>
     <tr>
-      <td data-label="Company">
-        Ernst Handel
+      <td data-label="Menu Item">
+        Pork Buns
       </td>
-      <td data-label="Contact">
-        Roland Mendel
+      <td data-label="Size">
+        Small
       </td>
-      <td data-label="Country">
-        Austria
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Island Trading
-      </td>
-      <td data-label="Contact">
-        Helen Bennett
-      </td>
-      <td data-label="Country">
-        UK
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Laughing Bacchus Winecellars
-      </td>
-      <td data-label="Contact">
-        Yoshi Tannamuri
-      </td>
-      <td data-label="Country">
-        Canada
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Magazzini Alimentari Riuniti
-      </td>
-      <td data-label="Contact">
-        Giovanni Rovelli
-      </td>
-      <td data-label="Country">
-        Italy
+      <td data-label="Price">
+        $5.99
       </td>
     </tr>
   </tbody>
@@ -92,180 +45,27 @@ Turn row hover off by adding `table--no-hover`
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <table class="table">
+  <!-- Table Heading -->
   <thead>
     <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
+  <!-- Table Body -->
   <tbody>
+    <!-- Table Row -->
     <tr>
-      <td data-label="Company">
-        Alfreds Futterkiste
-      </td>
-      <td data-label="Contact">
-        Maria Anders
-      </td>
-      <td data-label="Country">
-        Germany
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Centro comercial Moctezuma
-      </td>
-      <td data-label="Contact">
-        Francisco Chang
-      </td>
-      <td data-label="Country">
-        Mexico
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Ernst Handel
-      </td>
-      <td data-label="Contact">
-        Roland Mendel
-      </td>
-      <td data-label="Country">
-        Austria
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Island Trading
-      </td>
-      <td data-label="Contact">
-        Helen Bennett
-      </td>
-      <td data-label="Country">
-        UK
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Laughing Bacchus Winecellars
-      </td>
-      <td data-label="Contact">
-        Yoshi Tannamuri
-      </td>
-      <td data-label="Country">
-        Canada
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Magazzini Alimentari Riuniti
-      </td>
-      <td data-label="Contact">
-        Giovanni Rovelli
-      </td>
-      <td data-label="Country">
-        Italy
-      </td>
+      <td data-label="..."></td>
+      <td data-label="..."></td>
+      <td data-label="..."></td>
     </tr>
   </tbody>
 </table>
 {{< /highlight >}}
 </div>
 
-
-## Unresponsive Tables
-
-Sometimes you don't want a resposive table? just add `unresponsive` to `table`
-
-<table class="table unresponsive">
-  <thead>
-    <tr>
-      <th></th>
-      <th>option one</th>
-      <th>option two</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        Desc
-      </td>
-      <td>
-        Pork Buns
-      </td>
-      <td>
-        Pork Buns
-      </td>
-    </tr>
-    <tr>
-      <td>
-        price
-      </td>
-      <td>
-        $5.00
-      </td>
-      <td>
-        $9.00
-      </td>
-    </tr>
-    <tr>
-      <td>
-        qty
-      </td>
-      <td>
-        5
-      </td>
-      <td>
-        2
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<table class="table unresponsive">
-  <thead>
-    <tr>
-      <th></th>
-      <th>option one</th>
-      <th>option two</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        Desc
-      </td>
-      <td>
-        Pork Buns
-      </td>
-      <td>
-        Pork Buns
-      </td>
-    </tr>
-    <tr>
-      <td>
-        price
-      </td>
-      <td>
-        $5.00
-      </td>
-      <td>
-        $9.00
-      </td>
-    </tr>
-    <tr>
-      <td>
-        qty
-      </td>
-      <td>
-        5
-      </td>
-      <td>
-        2
-      </td>
-    </tr>
-  </tbody>
-</table>
-{{< /highlight >}}
+<div class="message message--info mb-3">
+  <p>You can also turn off the table row hover styles by adding <code>.table--no-hover</code> to the table component.</p>
 </div>

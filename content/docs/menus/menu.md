@@ -31,8 +31,8 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
 
 
 <header class="site-menu-wrapper">
-    <a href="/" class="site-logo">
-        <img src="https://via.placeholder.com/150x50.png?text=Site+Logo" alt="Site Logo" />
+    <a href="#" class="site-logo">
+        <img class="skeleton-image" style="height:50px; width:150px;" />
     </a>
     <button class="site-menu-mobile-action">
       <span class="sr-only">Toggle Navigation</span>
@@ -61,26 +61,28 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
 {{< highlight html >}}
 <header class="site-menu-wrapper">
     <a href="/" class="site-logo">
-        <img src="https://via.placeholder.com/150x50.png?text=Site+Logo" alt="Site Logo" />
+        <!-- Logo goes here! -->
     </a>
+
     <button class="site-menu-mobile-action">
-      <span class="sr-only">Toggle Navigation</span>
-      <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
+      <!-- Mobile toggle goes here! -->
     </button>
+
     <nav class="site-menu">
-      <a href="#" class="site-menu__item">Item 1</a>
-      <a href="#" class="site-menu__item">Item 2</a>
-      <a href="#" class="site-menu__item">Item 3</a>
-      <a href="#" class="site-menu__item">Item 4</a>
+      <!-- Navigation Items -->
+      <a href="#" class="site-menu__item">Item</a>
+      <a href="#" class="site-menu__item">Item</a>
+
+      <!-- Dropdown Menu Item -->
       <div class="dropdown">
+        <!-- Dropdown Trigger -->
         <a href="#" class="site-menu__item dropdown__trigger">
-          Item 1 <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
+          Item
         </a>
         <div class="dropdown__content">
-          <a href="#" class="dropdown__content-item">Link 1</a>
-          <a href="#" class="dropdown__content-item">Link 2</a>
-          <a href="#" class="dropdown__content-item">Link 3</a>
-          <a href="#" class="dropdown__content-item">Link 4</a>
+          <!-- Dropdown Menu Links -->
+          <a href="#" class="dropdown__content-item">Link</a>
+          <a href="#" class="dropdown__content-item">Link</a>
         </div>
       </div>
     </nav>
@@ -104,11 +106,8 @@ You can add a background color to your `site-menu`. This will accomplish two thi
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <nav class="site-menu background-navy">
-  <a href="#" class="site-menu__item">Item 1</a>
-  <a href="#" class="site-menu__item">Item 2</a>
-  <a href="#" class="site-menu__item">Item 3</a>
-  <a href="#" class="site-menu__item">Item 4</a>
-  <a href="#" class="site-menu__item">Item 5</a>
+  <a href="#" class="site-menu__item">Item</a>
+  <a href="#" class="site-menu__item">Item</a>
 </nav>
 {{< /highlight >}}
 </div>
@@ -130,11 +129,8 @@ Adding the modifier class of site-menu--bordered will add borders separating eac
 <div class="mb-4">
 {{< highlight html >}}
 <nav class="site-menu site-menu--bordered">
-  <a href="#" class="site-menu__item">Item 1</a>
-  <a href="#" class="site-menu__item">Item 2</a>
-  <a href="#" class="site-menu__item">Item 3</a>
-  <a href="#" class="site-menu__item">Item 4</a>
-  <a href="#" class="site-menu__item">Item 5</a>
+  <a href="#" class="site-menu__item">Item</a>
+  <a href="#" class="site-menu__item">Item</a>
 </nav>
 {{< /highlight >}}
 </div>
@@ -155,11 +151,8 @@ Adding the class hover-underline to your site-menu will give the `<button>`s in 
 <div class="mb-4">
 {{< highlight html >}}
 <nav class="site-menu hover-underline">
-  <a href="#" class="site-menu__item">Item 1</a>
-  <a href="#" class="site-menu__item">Item 2</a>
-  <a href="#" class="site-menu__item">Item 3</a>
-  <a href="#" class="site-menu__item">Item 4</a>
-  <a href="#" class="site-menu__item">Item 5</a>
+  <a href="#" class="site-menu__item">Item</a>
+  <a href="#" class="site-menu__item">Item</a>
 </nav>
 {{< /highlight >}}
 </div>
@@ -249,75 +242,17 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 
 <div class="mb-4">
 {{< highlight html >}}
-<div class="background-white">
-  <nav class="site-menu">
-    <div class="dropdown">
-      <div class="site-menu__item dropdown__trigger">
-        Item 1
-        <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-      </div>
-      <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
-      </div>
+<nav class="site-menu">
+  <div class="dropdown">
+    <div class="site-menu__item dropdown__trigger">
+      Item
     </div>
-    <div class="dropdown">
-      <div class="site-menu__item dropdown__trigger">
-        Item 2
-        <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-      </div>
-      <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
-      </div>
+    <div class="dropdown__content">
+      <a href="#" class="dropdown__content-item">Dropdown Item</a>
+      <a href="#" class="dropdown__content-item">Dropdown Item</a>
     </div>
-    <div class="dropdown">
-      <div class="site-menu__item dropdown__trigger">
-        Item 3
-        <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-      </div>
-      <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <div class="site-menu__item dropdown__trigger">
-        Item 4
-        <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-      </div>
-      <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <div class="site-menu__item dropdown__trigger">
-        Item 5
-        <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-      </div>
-      <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
-      </div>
-    </div>
-  </nav>
-</div>
+  </div>
+</nav>
 {{< /highlight >}}
 </div>
 
@@ -344,9 +279,9 @@ Also notice that the `pointer` class was added to those elements that do not hav
 
 Adding `icon-menu icon-menu--vertical` creates a vertical icon menu.
 
-| <i class="fpi-warning text-orange"></i> Be sure to always wrap the font icon in another element. We don't want to have the click event be on the `<icon>` itself. |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
+<div class="message message--warning">
+  <p>Be sure to always wrap the font icon in another element. We don't want to have the click event be on the <code>icon</code> itself.</p>
+</div>
 
 You can add as many icons as you'd like.
 
@@ -383,31 +318,34 @@ You can add as many icons as you'd like.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
+<!-- Horizontal Icon Menu -->
 <div class="icon-menu">
   <div class="icon-menu__item">
-    <button class="icon-menu__action button--plain text-negative--hover pointer">
+    <button class="icon-menu__action">
       <i class="pi-trash"></i>
     </button>
   </div>
   <div class="icon-menu__item">
-    <button class="icon-menu__action button--plain text-positive--hover pointer">
+    <button class="icon-menu__action">
       <i class="pi-edit"></i>
     </button>
   </div>
   <div class="icon-menu__item">
-    <button class="icon-menu__action button--plain text-red--hover pointer">
+    <button class="icon-menu__action">
       <i class="pi-clock"></i>
     </button>
   </div>
 </div>
+
+ <!-- Vertical Icon Menu -->
 <div class="icon-menu icon-menu--vertical">
   <div class="icon-menu__item">
-    <button class="icon-menu__action button--plain text-negative--hover pointer">
+    <button class="icon-menu__action">
       <i class="pi-trash"></i>
     </button>
   </div>
   <div class="icon-menu__item">
-    <button class="icon-menu__action button--plain text-positive--hover pointer">
+    <button class="icon-menu__action">
       <i class="pi-edit"></i>
     </button>
   </div>

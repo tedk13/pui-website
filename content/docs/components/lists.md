@@ -52,7 +52,6 @@ Our list is simplified and strips the `list-style-type`, `margin`, and `padding`
    <li>This is a list item.</li>
    <li>This is a list item.</li>
  </ul>
- <br>
 {{< /highlight >}}
 </div>
 

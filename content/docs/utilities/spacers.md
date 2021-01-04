@@ -19,9 +19,16 @@ Platform UI provides padding and margin utilities for most scenarios based on it
 Usage: `{padding, p or margin, m }{ direction if not surrounding: t, b, l, r, x, y }-{ number }`
 
 Example:
-{{< highlight scss >}}
-.pl-2 // padding-left: .5rem;
-.mx-3 // margin: 0 1rem;
+{{< highlight html >}}
+<!-- padding-left: .5rem -->
+<div class="pl-2">
+  <!-- Content goes here! -->
+</div>
+
+<!-- margin: 0 1rem; -->
+<div class="mx-3">
+  <!-- Content goes here! -->
+</div>
 {{< /highlight >}}
 
 
@@ -30,7 +37,14 @@ Example:
 Currently we only have responsive spacers for mobile. We are also only using them for `margin-bottom` and `padding-bottom`.
 
 Example:
-{{< highlight scss >}}
-.mobile-mb-3 // margin-bottom: 1rem
-.mobile-pb-3 // padding-bottom: 1rem
+{{< highlight html >}}
+<!-- margin-bottom: 1rem -->
+<div class="mobile-mb-3">
+  <!-- Content goes here! -->
+</div>
+
+<!-- padding-bottom: 1rem -->
+<div class="mobile-pb-3">
+  <!-- Content goes here! -->
+</div>
 {{< /highlight >}}
