@@ -42,24 +42,10 @@ Platform UI accordions were designed to be stacked.
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="accordion">
-  <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <!-- Accordion header goes here! -->
-    </div>
-    <i class="pi-angle-up accordion__icon text-med-blue"></i>
+  <a href="#" class="accordion__header">
+    <!-- Accordion header goes here! -->
   </a>
-  <div class="accordion__content px-3 py-3">
-    <!-- Accordion content goes here! -->
-  </div>
-</div>
-<div class="accordion">
-  <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <!-- Accordion header goes here! -->
-    </div>
-    <i class="pi-angle-up accordion__icon text-med-blue"></i>
-  </a>
-  <div class="accordion__content px-3 py-3">
+  <div class="accordion__content">
     <!-- Accordion content goes here! -->
   </div>
 </div>
@@ -86,13 +72,10 @@ Adding `.active` changes the default header bar background and hover highlight.
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="accordion active">
-  <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <!-- Accordion header goes here! -->
-    </div>
-    <i class="pi-angle-up accordion__icon text-med-blue"></i>
+  <a href="#" class="accordion__header">
+    <!-- Accordion header goes here! -->
   </a>
-  <div class="accordion__content px-3 py-3">
+  <div class="accordion__content">
     <!-- Accordion content goes here! -->
   </div>
 </div>
@@ -134,27 +117,17 @@ Accordions can be nested inside one of another.
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="accordion">
-  <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <!-- Accordion header goes here! -->
-    </div>
-    <i class="pi-angle-up accordion__icon text-med-blue"></i>
+  <a href="#" class="accordion__header">
+    <!-- Accordion header goes here! -->
   </a>
   <div class="accordion__content">
-    <div class="px-3 py-3">
       <!-- Accordion content goes here! -->
-    </div>
     <div class="accordion">
-      <a href="#" class="accordion__header px-3 py-3 flex flex--justify-between flex--align-center">
-        <div class="flex flex--align-center">
-          <!-- Nested accordion header goes here! -->
-        </div>
-        <i class="pi-angle-up accordion__icon text-med-blue"></i>
+      <a href="#" class="accordion__header">
+        <!-- Nested accordion header goes here! -->
       </a>
       <div class="accordion__content">
-        <div class="px-3 py-3">
-          <!-- Nested accordion content goes here! -->
-        </div>
+        <!-- Nested accordion content goes here! -->
       </div>
     </div>
   </div>

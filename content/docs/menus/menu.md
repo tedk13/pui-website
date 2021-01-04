@@ -31,8 +31,8 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
 
 
 <header class="site-menu-wrapper">
-    <a href="/" class="site-logo">
-        <img src="https://via.placeholder.com/150x50.png?text=Site+Logo" alt="Site Logo" />
+    <a href="#" class="site-logo">
+        <img class="skeleton-image" style="height:50px; width:150px;" />
     </a>
     <button class="site-menu-mobile-action">
       <span class="sr-only">Toggle Navigation</span>

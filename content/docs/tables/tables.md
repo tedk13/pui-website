@@ -74,13 +74,9 @@ Turn row hover off by adding `table--no-hover`
       <td data-label="Column 1 Heading">
         Column 1 Data
       </td>
-    </tr>
-    <tr>
       <td data-label="Column 2 Heading">
         Column 2 Data
       </td>
-    </tr>
-    <tr>
       <td data-label="Column 3 Heading">
         Column 3 Data
       </td>
@@ -157,13 +153,9 @@ If you do not want a table to be responsive, simply add the `unresponsive` class
       <td>
         Column 1 Data
       </td>
-    </tr>
-    <tr>
       <td>
         Column 2 Data
       </td>
-    </tr>
-    <tr>
       <td>
         Column 3 Data
       </td>
