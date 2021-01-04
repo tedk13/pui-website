@@ -53,117 +53,36 @@ Turn row hover off by adding `table--no-hover`
         Austria
       </td>
     </tr>
-    <tr>
-      <td data-label="Company">
-        Island Trading
-      </td>
-      <td data-label="Contact">
-        Helen Bennett
-      </td>
-      <td data-label="Country">
-        UK
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Laughing Bacchus Winecellars
-      </td>
-      <td data-label="Contact">
-        Yoshi Tannamuri
-      </td>
-      <td data-label="Country">
-        Canada
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Magazzini Alimentari Riuniti
-      </td>
-      <td data-label="Contact">
-        Giovanni Rovelli
-      </td>
-      <td data-label="Country">
-        Italy
-      </td>
-    </tr>
   </tbody>
 </table>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <table class="table">
+  <!-- Table Heading -->
   <thead>
     <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
+      <th>Column 1 Heading</th>
+      <th>Column 2 Heading</th>
+      <th>Column 3 Heading</th>
     </tr>
   </thead>
+  <!-- Table Body -->
   <tbody>
+    <!-- Table Row -->
     <tr>
-      <td data-label="Company">
-        Alfreds Futterkiste
-      </td>
-      <td data-label="Contact">
-        Maria Anders
-      </td>
-      <td data-label="Country">
-        Germany
+      <td data-label="Column 1 Heading">
+        Column 1 Data
       </td>
     </tr>
     <tr>
-      <td data-label="Company">
-        Centro comercial Moctezuma
-      </td>
-      <td data-label="Contact">
-        Francisco Chang
-      </td>
-      <td data-label="Country">
-        Mexico
+      <td data-label="Column 2 Heading">
+        Column 2 Data
       </td>
     </tr>
     <tr>
-      <td data-label="Company">
-        Ernst Handel
-      </td>
-      <td data-label="Contact">
-        Roland Mendel
-      </td>
-      <td data-label="Country">
-        Austria
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Island Trading
-      </td>
-      <td data-label="Contact">
-        Helen Bennett
-      </td>
-      <td data-label="Country">
-        UK
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Laughing Bacchus Winecellars
-      </td>
-      <td data-label="Contact">
-        Yoshi Tannamuri
-      </td>
-      <td data-label="Country">
-        Canada
-      </td>
-    </tr>
-    <tr>
-      <td data-label="Company">
-        Magazzini Alimentari Riuniti
-      </td>
-      <td data-label="Contact">
-        Giovanni Rovelli
-      </td>
-      <td data-label="Country">
-        Italy
+      <td data-label="Column 3 Heading">
+        Column 3 Data
       </td>
     </tr>
   </tbody>
@@ -173,8 +92,7 @@ Turn row hover off by adding `table--no-hover`
 
 
 ## Unresponsive Tables
-
-Sometimes you don't want a resposive table? just add `unresponsive` to `table`
+If you do not want a table to be responsive, simply add the `unresponsive` class to the table component.
 
 <table class="table unresponsive">
   <thead>
@@ -224,45 +142,30 @@ Sometimes you don't want a resposive table? just add `unresponsive` to `table`
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <table class="table unresponsive">
+  <!-- Table Heading -->
   <thead>
     <tr>
-      <th></th>
-      <th>option one</th>
-      <th>option two</th>
+      <th>Column 1 Heading</th>
+      <th>Column 2 Heading</th>
+      <th>Column 3 Heading</th>
     </tr>
   </thead>
+  <!-- Table Body -->
   <tbody>
+    <!-- Table Row -->
     <tr>
       <td>
-        Desc
-      </td>
-      <td>
-        Pork Buns
-      </td>
-      <td>
-        Pork Buns
+        Column 1 Data
       </td>
     </tr>
     <tr>
       <td>
-        price
-      </td>
-      <td>
-        $5.00
-      </td>
-      <td>
-        $9.00
+        Column 2 Data
       </td>
     </tr>
     <tr>
       <td>
-        qty
-      </td>
-      <td>
-        5
-      </td>
-      <td>
-        2
+        Column 3 Data
       </td>
     </tr>
   </tbody>
