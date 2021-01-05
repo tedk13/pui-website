@@ -9,7 +9,6 @@ some padding.
   <div class="block block-4">
     <div class="card">
         <div class="card__content">
-            <h2 class="skeleton skeleton--md"></h2>
             <p class="skeleton" data-lines="4"></p>
         </div>
     </div>
