@@ -27,7 +27,7 @@
             <h1 class="text-white text--size-xxl text--center">Platform UI</h1>
             <p class="text-white text--center mb-4">Fast, simple, and powerful css framework that's built with the user experience in mind.</p>
             <div class="button-group flex flex--justify-center">
-              <a href="#" class="button button--post">Get Started</a>
+              <a href="/docs/getting-started/get-started" class="button button--post">Get Started</a>
               <a href="#" class="button background-transparent text-white background-salmon--hover">New in v1.1</a>
             </div>
           </div>
@@ -95,7 +95,7 @@
               </nav>
             </div>
           {{ end }}
-          <main id="frame-content" class="block-container w-100{{ if not .IsHome }} tablet-up-9 lg-tablet-up-10 {{ end }}">
+          <main id="frame-content" class="block-container w-100{{ if not .IsHome }} tablet-up-9 lg-tablet-up-10{{ end }}">
             <article id="content" class="w-100{{ if not .IsHome }} tablet-up-8 lg-tablet-up-9 laptop-up-10 px-4{{ end }}">
               {{ block "main" . }}
                 {{ .Content }}
