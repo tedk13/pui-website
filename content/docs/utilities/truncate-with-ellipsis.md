@@ -6,10 +6,13 @@ A utility that does what it's name says. It truncates text within an element wit
 
 This can be done by adding the class `truncate-with-ellipsis`
 
-<div class="block-3">
+<div class="block-container blocks laptop-up-4">
+  <div class="block">
     <h3 class="truncate-with-ellipsis">This is a heading for a block</h3>
-    <p class="skeleton" data-lines="7" data-animation="true"></p>
+        <p class="skeleton" data-lines="7" data-animation="true"></p>
+    </div>
 </div>
+
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="block-3">
@@ -21,8 +24,10 @@ This can be done by adding the class `truncate-with-ellipsis`
 
 Try out this example below where you can toggle the class `truncate-with-ellipsis`
 
-<button class="button button--secondary has-text button--lg ellipsis-button">Toggle Ellipsis</button>
-<div class="block-3 mb-4">
-    <h3 class="truncate-with-ellipsis ellipsis-header">This is a heading for a block</h3>
-    <p class="skeleton" data-lines="7" data-animation="true"></p>
+<button class="button button--primary background-orange text-white has-text button--lg ellipsis-button">Toggle Ellipsis</button>
+<div class="block-container blocks laptop-up-4">
+    <div class="block">
+        <h3 class="truncate-with-ellipsis ellipsis-header block-8">This is a heading for a block</h3>
+        <p class="skeleton" data-lines="7" data-animation="true"></p>
+    </div>
 </div>

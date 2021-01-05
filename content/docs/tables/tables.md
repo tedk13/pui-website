@@ -81,7 +81,7 @@ Use the `table` class to get the table styles applied.
 Tables are responsive by default, so they will display differently below the mobile breakpoint.
 
 Mobile column labels are achieved using the `:before` pseudo element. Adding your column name expressed in `<th>` to the `data-label` attribute for each `<td>` in that column adds the column name to the left of your data.
-
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <table class="table">
   <thead>
@@ -96,12 +96,14 @@ Mobile column labels are achieved using the `:before` pseudo element. Adding you
   <tbody>
 </table>
 {{< /highlight >}}
+</div>
 
 ## Unresponsive
 If you would prefer to retain the desktop view even on mobile, you can do so by adding the `unresponsive` class to the table element. 
 
 For tables with many columns, we recommend wrapping a `unresponsive` table within an `.overflow-x--auto` utility class to add horizontal scrolling.
 
+<div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="overflow-x--auto">
   <table class="table unresponsive">
@@ -109,6 +111,7 @@ For tables with many columns, we recommend wrapping a `unresponsive` table withi
   </table>
 </div>
 {{< /highlight >}}
+</div>
 
 
 <div class="message message--info mb-3">
