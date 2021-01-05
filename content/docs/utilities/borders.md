@@ -22,8 +22,8 @@ You can add specific borders to elements by using the following classes:
 
 The `border--color-{color}` class uses the [brand colors](/section-color.html#kssref-color-brandcolors) map.
 
-<div class="block-container blocks laptop-up-4">
-  <div class="block">
+<div class="block-container">
+  <div class="block laptop-up-3">
     <div class="card">
       <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
       <div class="card__content">
@@ -35,11 +35,13 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 
 <div class="mt-4 mb-4">
 {{< highlight html >}}
-<div class="block-6">
-  <div class="card">
-    <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
-    <div class="card__content">
-      <!-- Card content goes here! -->
+<div class="block-container">
+  <div class="block laptop-up-3">
+    <div class="card">
+      <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
+      <div class="card__content">
+        <!-- Card content goes here! -->
+      </div>
     </div>
   </div>
 </div>
@@ -48,9 +50,8 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 
 
 ## Right Border
-
-<div class="block-container blocks laptop-up-4">
-  <div class="block">
+<div class="block-container">
+  <div class="block laptop-up-3">
     <div class="card">
       <h4 class="pb-2 mb-2">Card Header</h4>
       <div class="card__content block-container blocks px-3">
@@ -67,15 +68,17 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 
 <div class="mt-4 mb-4">
 {{< highlight html >}}
-<div class="block-6">
-  <div class="card">
-    <h4 class="pb-2 mb-2">Card Header</h4>
-    <div class="card__content block-container blocks px-3">
-      <div class="block block-6 border-r border--color-med-blue">
-        <!-- Card content goes here! -->
-      </div>
-      <div class="block block-6">
-        <!-- Card content goes here! -->
+<div class="block-container">
+  <div class="block laptop-up-3">
+    <div class="card">
+      <h4 class="pb-2 mb-2">Card Header</h4>
+      <div class="card__content block-container blocks px-3">
+        <div class="block block-6 border-r border--color-med-blue">
+          <!-- Card content goes here! -->
+        </div>
+        <div class="block block-6">
+          <!-- Card content goes here! -->
+        </div>
       </div>
     </div>
   </div>
@@ -85,9 +88,8 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 
 
 ## Vertical Border
-
-<div class="block-container blocks laptop-up-4">
-  <div class="block">
+<div class="block-container">
+  <div class="block laptop-up-3">
     <div class="card">
       <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
       <div class="card__content">
@@ -99,14 +101,15 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 
 <div class="mt-4 mb-4">
 {{< highlight html >}}
-<div class="block-6">
-  <div class="card">
-    <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
-    <div class="card__content">
-      <!-- Card content goes here! -->
+<div class="block-container">
+  <div class="block laptop-up-3">
+    <div class="card">
+      <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
+      <div class="card__content">
+        <!-- Card content goes here! -->
+      </div>
     </div>
   </div>
 </div>
-
 {{< /highlight >}}
 </div>
