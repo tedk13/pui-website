@@ -9,7 +9,7 @@
 
     {{ partial "site/header" . }}
 
-    <div id="app" class="header-fixed flex--grow{{ if .IsHome }} home{{ end }}">
+    <div id="app" class="header-fixed flex--grow {{ if .IsHome }} home {{ end }}">
       
       {{ if .IsHome }}
       <div
@@ -96,7 +96,7 @@
             </div>
           {{ end }}
           <main id="frame-content" class="block-container {{ if not .IsHome }} tablet-up-9 lg-tablet-up-10 {{ end }}">
-            <article id="content" class="{{ if not .IsHome }} tablet-up-8 lg-tablet-up-9 laptop-up-10 px-4{{ end }}">
+            <article id="content" class="{{ if not .IsHome }} tablet-up-8 lg-tablet-up-9 laptop-up-10 px-4 {{ end }}">
               {{ block "main" . }}
                 {{ .Content }}
               {{ end }}
