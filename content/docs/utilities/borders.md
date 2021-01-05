@@ -22,14 +22,17 @@ You can add specific borders to elements by using the following classes:
 
 The `border--color-{color}` class uses the [brand colors](/section-color.html#kssref-color-brandcolors) map.
 
-<div class="block-6">
-  <div class="card">
-    <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
-    <div class="card__content">
-      <p class="skeleton" data-lines="7" data-animation="true"></p>
+<div class="block-container blocks laptop-up-4">
+  <div class="block">
+    <div class="card">
+      <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
+      <div class="card__content">
+        <p class="skeleton" data-lines="7" data-animation="true"></p>
+      </div>
     </div>
   </div>
 </div>
+
 <div class="mt-4 mb-4">
 {{< highlight html >}}
 <div class="block-6">
@@ -46,19 +49,22 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 
 ## Right Border
 
-<div class="block-6">
-  <div class="card">
-    <h4 class="pb-2 mb-2">Card Header</h4>
-    <div class="card__content block-container blocks px-3">
-      <div class="block block-6 border-r border--color-med-blue">
-        <p class="skeleton" data-lines="7" data-animation="true"></p>
-      </div>
-      <div class="block block-6">
-        <p class="skeleton" data-lines="7" data-animation="true"></p>
+<div class="block-container blocks laptop-up-4">
+  <div class="block">
+    <div class="card">
+      <h4 class="pb-2 mb-2">Card Header</h4>
+      <div class="card__content block-container blocks px-3">
+        <div class="block block-6 border-r border--color-med-blue">
+          <p class="skeleton" data-lines="7" data-animation="true"></p>
+        </div>
+        <div class="block block-6">
+          <p class="skeleton" data-lines="7" data-animation="true"></p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 <div class="mt-4 mb-4">
 {{< highlight html >}}
 <div class="block-6">
@@ -80,14 +86,17 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 
 ## Vertical Border
 
-<div class="block-6">
-  <div class="card">
-    <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
-    <div class="card__content">
-      <p class="skeleton" data-lines="7" data-animation="true"></p>
+<div class="block-container blocks laptop-up-4">
+  <div class="block">
+    <div class="card">
+      <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
+      <div class="card__content">
+        <p class="skeleton" data-lines="7" data-animation="true"></p>
+      </div>
     </div>
   </div>
 </div>
+
 <div class="mt-4 mb-4">
 {{< highlight html >}}
 <div class="block-6">
