@@ -19,6 +19,8 @@ value and the next breakpoint value. So `mobile` will be between `mobile` and `t
 The suffix represents the direction of the media query. `-up` generates a `min-width` media query. `-down` generates a
 `max-width` media query. `-only` generates a `min-width` and `max-width` media query.
 
+<div class="overflow-x--auto">
+
 | Class Name            | Display Value     | Generated Media Query                                |
 | --------------------- | ----------------- | ---------------------------------------------------- |
 | `hidden`              | `display: none;`  | No specified resolution                              |
@@ -52,3 +54,5 @@ The suffix represents the direction of the media query. `-up` generates a `min-w
 | `show-desktop-only`   | `display: block;` | `@media (min-width: 1800px) and (max-width: 1799px)` |
 | `hide-desktop-up`     | `display: none;`  | `@media (min-width: 1800px)`                         |
 | `hide-desktop-only`   | `display: none;`  | `@media (min-width: 1800px) and (max-width: 1799px)` |
+
+</div>
