@@ -146,13 +146,11 @@ If you want the borders removed from the tabs, add the class `tab--flat` to the 
 </div>
 
 
-## Tabs Flat-Responsive
+## Tabs Flat Unresponsive
 
-The flat tabs do not change at lower/higher screen resolutions. You can make the tabs respond, however, by adding
-the class `responsive` to `tabs tabs--flat`. This will make the tabs stack at the mobile breakpoint and 
-go back to the flat tab look above mobile.
+To keep the flat look at every screen size add the class `unresponsive` to tabs tabs--flat.
 
-<div class="tabs tabs--flat responsive">
+<div class="tabs tabs--flat unresponsive">
   <input type="radio" id="tab-input-ar" name="tabs-r" checked>
   <label for="tab-input-ar" class="tab">
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
@@ -183,7 +181,7 @@ go back to the flat tab look above mobile.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="tabs tabs--flat responsive">
+<div class="tabs tabs--flat unresponsive">
   <!-- Tab 1 -->
   <input type="radio" id="tab-input-a" name="tabs" checked>
   <label for="tab-input-a" class="tab">
