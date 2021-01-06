@@ -90,12 +90,16 @@ For starters, you'll need to add the class `background-image` onto the element w
 
 See the example below to see it all come together. You may notice a `ratio-` class on the image container. We talk more about that [here](https://style.rimdev.io/section-utilities.html#utilities-backgroundratio).
 
+<div class="overflow-x--auto">
+
 | Class | Data-Attribute | Scenarios |
 |---|---|---|
 | `.background-image` | `data-background-image` | image path; `no-repeat`, position `center`, and size `cover` all default |
 |  | `data-background-position` | overrides default |
 |  | `data-background-size` | overrides default |
 |  | `data-background-repeat` | overrides default |
+
+</div>
 
 <div
     class="block-container background-image p-4 mb-4"
@@ -227,12 +231,16 @@ See the example below to see it all come together. You may notice a `ratio-` cla
 
 You can create your own custom linear gradient. Start by adding the linear-gradient class. From there, enter the values you like for your direction and color using the appropriate data attributes. See the example and table below.
 
+<div class="overflow-x--auto">
+
 | Class | Data-Attribute | Scenarios |
 |---|---|---|
 | `.linear-gradient` | `data-gradient-direction` | `background-image: linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))` |
 |  | `data-gradient-start` | `	linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))` |
 |  | `data-gradient-stop` | `linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))` |
 |  | `data-gradient-fallback` | Add a fallback `background-color` |
+
+</div>
 
 Keep in mind you can use platform UI [color variables](/section-color.html) as well. Something like `data-gradient-start="var(--navy)"` will work just fine.
 You can also change the distance of your colors by adding a perceentage in the data attribute value for data-gradient-start and or data-gradient-start. Something like data-gradient-start="var(--navy) 20%" would render just fine. See the first example.
