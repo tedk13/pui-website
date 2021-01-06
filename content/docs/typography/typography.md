@@ -53,6 +53,8 @@ Below are some of our typography utilities.
 
 Utility classes to modify text case type.
 
+<div class="overflow-x--auto">
+
 | Type | Modifier Class | Result |
 |---|---|---|
 | Uppercase | `.text--uppercase` | <p class="text--uppercase">this is uppercase</p> |
@@ -60,11 +62,13 @@ Utility classes to modify text case type.
 | Capitalize Case | `.text--capitalize` | <p class="text--capitalize">this is capitalize case</p> |
 | Sentence Case | `.text--sentencecase` | <p class="text--sentencecase">This IS senTENCe cASe</p> |
 
+</div>
 
 ### Color
 
 `text-{ color }`, `text-{ color }--hover` combines our [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
 
+<div class="overflow-x--auto">
 
 | Color | Modifier Class | Hover Class |
 |-------|-------|-------|-------|
@@ -84,10 +88,13 @@ Utility classes to modify text case type.
 | <p class="text-brown">Brown</p> | `.text-brown` | `.text-brown--hover` |
 | <p class="text-orange">Orange</p> | `.text-orange` | `.text-orange--hover` |
 
+</div>
 
 ### General Utilities
 
 General utilities add class-based css transforms like `uppercase` and `bold`. See the chart below for the full list.
+
+<div class="overflow-x--auto">
 
 | Utility | Modifier Class | Result |
 |---|---|---|
@@ -98,6 +105,7 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
 | Align Right | `.text--right` | <p class="text--right">Hello World!</p> |
 | No Line Wrap | `.text--nowrap` | <p class="text--nowrap">The quick brown fox jumped over the lazy dog</p> |
 
+</div>
 
 ### Sizing
 
