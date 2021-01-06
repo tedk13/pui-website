@@ -47,7 +47,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   if (table) {
     table.forEach((table) => {
-      table.className = 'pui-table mb-4';
+      if (!table.classList.contains('table')) {
+        table.className = 'table mb-4 unresponsive';
+      }
     });
   }
 

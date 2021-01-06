@@ -2,9 +2,9 @@
 title: Tables
 date: 2018-07-20T12:59:15-04:00
 ---
-Use the `table` class to get the table styles applied.
+This is a standard table.
 
-<table class="table unresponsive">
+<table class="table">
   <thead>
     <tr>
       <th>Menu Item</th>
