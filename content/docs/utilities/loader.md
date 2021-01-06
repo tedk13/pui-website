@@ -58,9 +58,9 @@ Here are some working examples of how you could use loader with other platform-u
   </div>
   <button class="button button--secondary has-text button--lg modal__open loader-modal" data-modal="loader-modal">Modal</button>
 </div>
-<div class="mb-4">
-  <div class="block-container">
-    <div class="block block-4">
+
+ <div class="block-container blocks laptop-up-4 mb-4">
+  <div class="block">
       <div class="card loader-card" style="height: 7rem">
         <div class="card__header">
           <div class="card__group">

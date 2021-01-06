@@ -5,11 +5,10 @@ date: 2018-07-20T12:59:15-04:00
 Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
 some padding.
 
-<div class="block-container mb-3">
-  <div class="block block-4">
+<div class="block-container">
+  <div class="block laptop-up-3">
     <div class="card">
         <div class="card__content">
-            <h2 class="skeleton skeleton--md"></h2>
             <p class="skeleton" data-lines="4"></p>
         </div>
     </div>
@@ -37,7 +36,7 @@ For the headings in your cards, you generally want to wrap them in the class `ca
 have a layout of inline content that should have space between. 
 
 <div class="block-container">
-    <div class="block block-4">
+  <div class="block laptop-up-3">
     <div class="card">
         <div class="card__header">
             <h2 class="skeleton skeleton--md"></h2>
@@ -69,11 +68,10 @@ The class `card__group` will give the element `display: flex`.
 When it is nested inside the class `card__header` it will also have `align-items: center`.
 
 <div class="block-container">
-  <div class="block block-4">
+  <div class="block laptop-up-3">
     <div class="card">
       <div class="card__header">
         <div class="card__group">
-          <i class="pi-quill"></i>
           <div class="card__title">
             Card Header
           </div>
@@ -109,8 +107,8 @@ Images can be placed at the top of cards. The `<img>` element gets the class `ca
 When `rounded-` modifiers are used on the card, the image takes on the radius as well. Other modifiers can be used as needed.
 
 
-<div class="block-container blocks tablet-up-4">
-    <div class="block">
+<div class="block-container">
+  <div class="block laptop-up-3">
         <div class="card">
             <div class="card__image">
                 <img class="skeleton-image skeleton-image--lg skeleton-image--landscape" />
@@ -140,8 +138,8 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
 If you have a lot of content in a card that is causing other cards to grow too much, you could add the class
 `card__content--scroll` to the `card__content` in order to set a height and add an `overflow-y: auto;`.
 
-<div class="block-container mobile-up-3 blocks px-2">
-  <div class="block">
+<div class="block-container">
+  <div class="block laptop-up-3">
     <div class="card flex flex--column flex--justify-between">
         <div class="card__header">
             <h2 class="skeleton skeleton--md">
