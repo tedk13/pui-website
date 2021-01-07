@@ -485,7 +485,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
 
 
 <form action="" class="form block-container">
-  <div class="block block-4">
+  <div class="block block-5">
     <fieldset class="form__field">
       <legend>Choose</legend>
       <div class="form__option-group">
@@ -495,7 +495,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          This One
+          Option 1
         </label>
         <input id="choose-that-one" type="checkbox">
         <label for="choose-that-one">
@@ -503,7 +503,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          That One
+          Option 2
         </label>
         <input id="choose-that-one-2" type="checkbox">
         <label for="choose-that-one-2">
@@ -511,7 +511,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          Or This One
+          Option 3
         </label>
         <input id="choose-that-one-3" type="checkbox">
         <label for="choose-that-one-3">
@@ -519,7 +519,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          Or Even That One
+          Option 4
         </label>
       </div>
     </fieldset>
@@ -529,7 +529,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <form action="" class="form block-container">
-  <div class="block block-4">
+  <div class="block block-5">
     <fieldset class="form__field">
       <legend>Choose</legend>
       <div class="form__option-group">
@@ -539,7 +539,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          This One
+          Option 1
         </label>
         <input id="choose-that-one" type="checkbox">
         <label for="choose-that-one">
@@ -547,7 +547,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          That One
+          Option 2
         </label>
         <input id="choose-that-one-2" type="checkbox">
         <label for="choose-that-one-2">
@@ -555,7 +555,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          Or This One
+          Option 3
         </label>
         <input id="choose-that-one-3" type="checkbox">
         <label for="choose-that-one-3">
@@ -563,7 +563,7 @@ different utility classes to the `form__option-group` wrapper. In this case, `fl
             <i class='pi-circle pi-lg'></i>
             <i class='pi-check pi-heavy'></i>
           </div>
-          Or Even That One
+          Option 4
         </label>
       </div>
     </fieldset>
@@ -735,7 +735,7 @@ allows for consistent spacing with the other form elements. If you wish to have 
 
 Here's an example of a larger responsive form using the block layout.
 
-<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
+<form action="" class="form block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
     <label for="first-name-h" class="form__field">First Name
       <input id="first-name-h" type="text" placeholder="First Name">
@@ -851,7 +851,7 @@ Here's an example of a larger responsive form using the block layout.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
+<form action="" class="form block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
     <label for="first-name-h" class="form__field">First Name
       <input id="first-name-h" type="text" placeholder="First Name">
