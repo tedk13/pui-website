@@ -38,10 +38,10 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
   </button>
   <nav class="site-menu background-white">
     <div class="dropdown">
-      <div class="site-menu__item dropdown__trigger">
+      <a href="#" class="site-menu__item dropdown__trigger">
         Item 1 
         <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-      </div>
+      </a>
       <div class="dropdown__content">
         <a href="#" class="dropdown__content-item demo-menu-item">Link 1</a>
         <a href="#" class="dropdown__content-item demo-menu-item">Link 2</a>
@@ -68,10 +68,10 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
   </button>
   <nav class="site-menu background-white">
     <div class="dropdown">
-      <div class="site-menu__item dropdown__trigger">
+      <a href="#" class="site-menu__item dropdown__trigger">
         Item 1 
         <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-      </div>
+      </a>
       <div class="dropdown__content">
         <a href="#" class="dropdown__content-item">Link 1</a>
         <a href="#" class="dropdown__content-item">Link 2</a>
@@ -180,10 +180,10 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 
 <nav class="site-menu">
   <div class="dropdown background-white">
-    <div class="site-menu__item dropdown__trigger">
-      Item 1
+    <a href="#" class="site-menu__item dropdown__trigger">
+      Item 1 
       <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-    </div>
+    </a>
     <div class="dropdown__content">
       <a href="#" class="dropdown__content-item demo-menu-item">Item 1</a>
       <a href="#" class="dropdown__content-item demo-menu-item">Item 2</a>
@@ -193,10 +193,10 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
     </div>
   </div>
   <div class="dropdown background-white">
-    <div class="site-menu__item dropdown__trigger">
-      Item 2
+    <a href="#" class="site-menu__item dropdown__trigger">
+      Item 2 
       <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-    </div>
+    </a>
     <div class="dropdown__content">
       <a href="#" class="dropdown__content-item demo-menu-item">Item 1</a>
       <a href="#" class="dropdown__content-item demo-menu-item">Item 2</a>
@@ -212,10 +212,10 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 {{< highlight html >}}
 <nav class="site-menu">
   <div class="dropdown background-white">
-    <div class="site-menu__item dropdown__trigger">
-      Item 1
+    <a href="#" class="site-menu__item dropdown__trigger">
+      Item 1 
       <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-    </div>
+    </a>
     <div class="dropdown__content">
       <a href="#" class="dropdown__content-item">Item 1</a>
       <a href="#" class="dropdown__content-item">Item 2</a>
@@ -225,10 +225,10 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
     </div>
   </div>
   <div class="dropdown background-white">
-    <div class="site-menu__item dropdown__trigger">
-      Item 2
+    <a href="#" class="site-menu__item dropdown__trigger">
+      Item 2 
       <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
-    </div>
+    </a>
     <div class="dropdown__content">
       <a href="#" class="dropdown__content-item">Item 1</a>
       <a href="#" class="dropdown__content-item">Item 2</a>
