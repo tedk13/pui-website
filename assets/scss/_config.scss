@@ -87,6 +87,8 @@ $brand-colors: (
 .highlight {
   position: relative;
   pre {
+    padding:1rem;
+    padding-right:100px; 
     position: relative;
     height: 100%;
     width: 100%;
@@ -100,6 +102,10 @@ $brand-colors: (
   top: 0.5em;
   right: 0.5em;
   z-index: 2;
+  display:none;
+  @media (min-width:768px){
+    display:block;
+  }
 }
 
 // CSS to hide the code textarea

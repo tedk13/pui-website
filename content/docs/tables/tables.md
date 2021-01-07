@@ -85,7 +85,9 @@ Mobile column labels are achieved using the `:before` pseudo element. Adding you
 {{< highlight html >}}
 <table class="table">
   <thead>
-    <th>Menu Item</th>
+    <tr>
+      <th>Menu Item</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
