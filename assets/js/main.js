@@ -203,12 +203,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
 // Copy & Paste Button
 
 // Grab all code examples on a page
-const codeExamples = document.querySelectorAll(".highlight");
+const codeExamples = document.querySelectorAll('.highlight');
 
 // Copy Button component
 const copyButton = () => {
-  const btn = document.createElement("button");
-  const classes = ["button", "button--primary", "background-dark", "background-orange--hover", "text-white", "button--copy"];
+  const btn = document.createElement('button');
+  const classes = ['button', 'button--primary', 'background-dark', 'background-orange--hover', 'text-white', 'button--copy'];
   btn.classList = classes.join(" ");
   btn.innerHTML = `<i class="pi-clipboard"></i> Copy`;
   return btn;
@@ -216,8 +216,8 @@ const copyButton = () => {
 
 // Textarea component that will contain the text to copy
 const codeText = (code) => {
-  const textArea = document.createElement("textarea");
-  textArea.classList.add("code-text");
+  const textArea = document.createElement('textarea');
+  textArea.classList.add('code-text');
   textArea.setAttribute('aria-hidden', true);
   textArea.innerHTML = code;
   return textArea;
@@ -230,21 +230,34 @@ if (codeExamples) {
     // Create a copy button and add it to the example
     example.appendChild(copyButton());
     // Store the button in a variable
-    const copyBtn = example.querySelector(".button--copy");
+    const copyBtn = example.querySelector('.button--copy');
 
     // Grab the inner text of the code example
-    const code = example.querySelector("code").innerText;
+    const code = example.querySelector('code').innerText;
 
     // Create a textarea and add in the code example text
     example.appendChild(codeText(code));
 
     // Store the textarea element in a variable
-    const textToCopy = example.querySelector(".code-text");
+    const textToCopy = example.querySelector('.code-text');
 
     // When the copy button is clicked, select the text within the textarea and update the clipboard
-    copyBtn.addEventListener("click", () => {
+    copyBtn.addEventListener('click', () => {
       textToCopy.select();
-      document.execCommand("copy");
+      document.execCommand('copy');
     });
   });
+
+  // menu
+  let siteMenu = document.querySelector('.site-menu');
+  let siteMenuItems = document.querySelectorAll('.demo-menu-item');
+
+  // prevents going to the top of the page when a user clicks on a menu item
+  if (siteMenu) {
+    siteMenuItems.forEach(Item => 
+      Item.addEventListener('click', (event) => {
+        event.preventDefault();
+      })
+    )
+  }
 }

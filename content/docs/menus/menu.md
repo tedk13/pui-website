@@ -28,10 +28,8 @@ If you want to have a dropdown menu within the `site-menu`, you can add `dropdow
 
 We built the `site-menu` to be light, and work well for your needs. It does not come with a background color set. However, the `site-menu` will inherit its parent background-colors. You can read more about this below in the documentation.
 
-
-
 <header class="site-menu-wrapper">
-    <a href="#" class="site-logo">
+    <a href="#" class="site-logo demo-menu-item">
         <img class="skeleton-image" style="height:50px; width:150px;" />
     </a>
     <button class="site-menu-mobile-action">
@@ -39,19 +37,19 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
       <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
     </button>
     <nav class="site-menu">
-      <a href="#" class="site-menu__item">Item 1</a>
-      <a href="#" class="site-menu__item">Item 2</a>
-      <a href="#" class="site-menu__item">Item 3</a>
-      <a href="#" class="site-menu__item">Item 4</a>
+      <a href="#" class="site-menu__item demo-menu-item">Item 1</a>
+      <a href="#" class="site-menu__item demo-menu-item">Item 2</a>
+      <a href="#" class="site-menu__item demo-menu-item">Item 3</a>
+      <a href="#" class="site-menu__item demo-menu-item">Item 4</a>
       <div class="dropdown">
         <a href="#" class="site-menu__item dropdown__trigger">
           Item 1 <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
         </a>
         <div class="dropdown__content">
-          <a href="#" class="dropdown__content-item">Link 1</a>
-          <a href="#" class="dropdown__content-item">Link 2</a>
-          <a href="#" class="dropdown__content-item">Link 3</a>
-          <a href="#" class="dropdown__content-item">Link 4</a>
+          <a href="#" class="dropdown__content-item demo-menu-item">Link 1</a>
+          <a href="#" class="dropdown__content-item demo-menu-item">Link 2</a>
+          <a href="#" class="dropdown__content-item demo-menu-item">Link 3</a>
+          <a href="#" class="dropdown__content-item demo-menu-item">Link 4</a>
         </div>
       </div>
     </nav>
@@ -63,16 +61,13 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
     <a href="/" class="site-logo">
         <!-- Logo goes here! -->
     </a>
-
     <button class="site-menu-mobile-action">
       <!-- Mobile toggle goes here! -->
     </button>
-
     <nav class="site-menu">
       <!-- Navigation Items -->
       <a href="#" class="site-menu__item">Item</a>
       <a href="#" class="site-menu__item">Item</a>
-
       <!-- Dropdown Menu Item -->
       <div class="dropdown">
         <!-- Dropdown Trigger -->
@@ -96,11 +91,11 @@ We built the `site-menu` to be light, and work well for your needs. It does not 
 You can add a background color to your `site-menu`. This will accomplish two things. First, the background color of your menu will change. Second, the hover effect on the links in the menu will reflect a darker version of the background color you set. The color of the links will also change based on the color of the site-menu. If the color is dark, the link color will be white. If the background color is a lighter color, the link color will be `var(--dark)`. Which is currently set to the body color.
 
 <nav class="site-menu background-navy">
-  <a href="#" class="site-menu__item">Item 1</a>
-  <a href="#" class="site-menu__item">Item 2</a>
-  <a href="#" class="site-menu__item">Item 3</a>
-  <a href="#" class="site-menu__item">Item 4</a>
-  <a href="#" class="site-menu__item">Item 5</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 1</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 2</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 3</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 4</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 5</a>
 </nav>
 
 <div class="mt-3 mb-4">
@@ -118,11 +113,11 @@ You can add a background color to your `site-menu`. This will accomplish two thi
 Adding the modifier class of site-menu--bordered will add borders separating each menu item.
 
 <nav class="site-menu site-menu--bordered mb-3">
-  <a href="#" class="site-menu__item">Item 1</a>
-  <a href="#" class="site-menu__item">Item 2</a>
-  <a href="#" class="site-menu__item">Item 3</a>
-  <a href="#" class="site-menu__item">Item 4</a>
-  <a href="#" class="site-menu__item">Item 5</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 1</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 2</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 3</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 4</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 5</a>
 </nav>
 
 
@@ -141,11 +136,11 @@ Adding the modifier class of site-menu--bordered will add borders separating eac
 Adding the class hover-underline to your site-menu will give the `<button>`s in the menu a bottom border on hover.
 
 <nav class="site-menu hover-underline mb-3">
-  <a href="#" class="site-menu__item">Item 1</a>
-  <a href="#" class="site-menu__item">Item 2</a>
-  <a href="#" class="site-menu__item">Item 3</a>
-  <a href="#" class="site-menu__item">Item 4</a>
-  <a href="#" class="site-menu__item">Item 5</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 1</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 2</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 3</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 4</a>
+  <a href="#" class="site-menu__item demo-menu-item">Item 5</a>
 </nav>
 
 <div class="mb-4">
@@ -178,11 +173,11 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
         <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
       </div>
       <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 1</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 2</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 3</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 4</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 5</a>
       </div>
     </div>
     <div class="dropdown">
@@ -191,11 +186,11 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
         <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
       </div>
       <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 1</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 2</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 3</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 4</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 5</a>
       </div>
     </div>
     <div class="dropdown">
@@ -204,11 +199,11 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
         <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
       </div>
       <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 1</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 2</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 3</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 4</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 5</a>
       </div>
     </div>
     <div class="dropdown">
@@ -217,11 +212,11 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
         <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
       </div>
       <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 1</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 2</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 3</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 4</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 5</a>
       </div>
     </div>
     <div class="dropdown">
@@ -230,11 +225,11 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
         <i class="ml-1 pi-angle-down" aria-hidden="true"></i>
       </div>
       <div class="dropdown__content">
-        <a href="#" class="dropdown__content-item">Item 1</a>
-        <a href="#" class="dropdown__content-item">Item 2</a>
-        <a href="#" class="dropdown__content-item">Item 3</a>
-        <a href="#" class="dropdown__content-item">Item 4</a>
-        <a href="#" class="dropdown__content-item">Item 5</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 1</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 2</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 3</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 4</a>
+        <a href="#" class="dropdown__content-item demo-menu-item">Item 5</a>
       </div>
     </div>
   </nav>
