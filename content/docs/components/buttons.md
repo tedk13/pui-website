@@ -283,20 +283,24 @@ To ensure that your users could not interact with disabled links, it's recommend
 
 Buttons can be customized by using background, text, and hover (grouped with the background and text color documentation) utilities. See some examples below.
 
-<div class="button-group mb-4 p-2">
+<div class="button-group mb-4">
   <button class="button background-lightblue background-skyblue--hover text-navy text-white--hover border--color-med-blue">Blue</button>
   <button class="button background-skyblue background-navy--hover text-navy text-white--hover border--color-navy">Blue</button>
   <button class="button background-beige background-brown--hover text-brown text-white--hover border--color-brown">Brown</button>
+</div>
+<div class="button-group mt-4">
   <button class="button background-lighter background-orange--hover text-black border--color-orange">Yellow</button>
   <button class="button background-light-mid background-dark--hover text-dark text-white--hover border--color-dark">Dark Grey</button>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="button-group mb-4 p-2">
+<div class="button-group mb-4">
   <button class="button background-lightblue background-skyblue--hover text-navy text-white--hover border--color-med-blue">Blue</button>
   <button class="button background-skyblue background-navy--hover text-navy text-white--hover border--color-navy">Blue</button>
   <button class="button background-beige background-brown--hover text-brown text-white--hover border--color-brown">Brown</button>
+</div>
+<div class="button-group mt-4">
   <button class="button background-lighter background-orange--hover text-black border--color-orange">Yellow</button>
   <button class="button background-light-mid background-dark--hover text-dark text-white--hover border--color-dark">Dark Grey</button>
 </div>

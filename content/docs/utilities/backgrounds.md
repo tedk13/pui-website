@@ -107,7 +107,7 @@ See the example below to see it all come together. You may notice a `ratio-` cla
     data-background-position="center center"
     data-background-size="cover"
     data-background-repeat="no-repeat">
-      <div class="block tablet-up-6 background-black-a90 rounded-2 p-4">
+      <div class="block lg-tablet-up-6 background-black-a90 rounded-2 p-4">
         <h1 class="mb-3 mt-0 text-white">Hero Heading</h1>
         <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit elit, efficitur a purus eget, porttitor aliquam turpis.</p>
        </div>
@@ -118,11 +118,11 @@ See the example below to see it all come together. You may notice a `ratio-` cla
     data-background-position="center bottom"
     data-background-size="cover"
     data-background-repeat="no-repeat">
-      <div class="block tablet-up-5 py-4">
+      <div class="block lg-tablet-up-5 py-4">
         <h1 class="mb-3 mt-0 text-white">Signup Today!</h1>
         <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
       </div>
-      <div class="block tablet-up-4 background-white-a70 border-t border--color-orange border--width-5 p-4">
+      <div class="block lg-tablet-up-4 background-white-a70 border-t border--color-orange border--width-5 p-4">
         <p class="text-black">Signup for a newsletter! We promise we won't spam you.</p>
         <form action="" class="form form--rounded">
            <div class="block form__field mb-3">
@@ -165,7 +165,7 @@ See the example below to see it all come together. You may notice a `ratio-` cla
     data-background-position="center center"
     data-background-size="cover"
     data-background-repeat="no-repeat">
-      <div class="block tablet-up-6 background-black-a90 rounded-2 p-4">
+      <div class="block lg-tablet-up-6 background-black-a90 rounded-2 p-4">
         <h1 class="mb-3 mt-0 text-white">Hero Heading</h1>
         <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit elit, efficitur a purus eget, porttitor aliquam turpis.</p>
        </div>
@@ -176,11 +176,11 @@ See the example below to see it all come together. You may notice a `ratio-` cla
     data-background-position="center bottom"
     data-background-size="cover"
     data-background-repeat="no-repeat">
-      <div class="block tablet-up-5 py-4">
+      <div class="block lg-tablet-up-5 py-4">
         <h1 class="mb-3 mt-0 text-white">Signup Today!</h1>
         <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
       </div>
-      <div class="block tablet-up-4 background-white-a70 border-t border--color-orange border--width-5 p-4">
+      <div class="block lg-tablet-up-4 background-white-a70 border-t border--color-orange border--width-5 p-4">
         <p class="text-black">Signup for a newsletter! We promise we won't spam you.</p>
         <form action="" class="form form--rounded">
            <div class="block form__field mb-3">

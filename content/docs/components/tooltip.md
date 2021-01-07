@@ -44,13 +44,11 @@ To specify the placement of your tooltip, add a `tooltip-{direction}` class. Dir
 
 Adding the class `.tooltip-inline` will add a dashed underline to identify the tooltip. See example below.
 
-<div class="block-container pb-3">
-  <p>Lorem ipsum dolor sit amet, <span data-tooltip="This is a default tooltip with data-inline." class="tooltip-inline">consectetur</span> adipiscing elit. Maecenas mi nunc, egestas id consectetur a, consectetur a lorem. Maecenas interdum enim felis, eget fringilla massa rhoncus sed.</p>
-</div>
+<p class="overflow-x--auto">Lorem <span data-tooltip="This is a default tooltip with data-inline." class="tooltip-inline">ipsum</span> dolor sit amet, consectetur adipiscing elit. Maecenas mi nunc, egestas id consectetur a, consectetur a lorem. Maecenas interdum enim felis, eget fringilla massa rhoncus sed.</p>
 
 <div class="mt-3 mb-4">
 {{< highlight html>}}
-<p>Lorem ipsum dolor sit amet, <span data-tooltip="This is a default tooltip with data-inline." class="tooltip-inline">consectetur</span> adipiscing elit. Maecenas mi nunc, egestas id consectetur a, consectetur a lorem. Maecenas interdum enim felis, eget fringilla massa rhoncus sed.</p>
+<p>Lorem <span data-tooltip="This is a default tooltip with data-inline." class="tooltip-inline">ipsum</span> dolor sit amet, consectetur adipiscing elit. Maecenas mi nunc, egestas id consectetur a, consectetur a lorem. Maecenas interdum enim felis, eget fringilla massa rhoncus sed.</p>
 {{< /highlight >}}
 </div>
 

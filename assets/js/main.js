@@ -255,4 +255,17 @@ if (codeExamples) {
       document.execCommand('copy');
     });
   });
+
+  // menu
+  let siteMenu = document.querySelector('.site-menu');
+  let siteMenuItems = document.querySelectorAll('.demo-menu-item');
+
+  // prevents going to the top of the page when a user clicks on a menu item
+  if (siteMenu) {
+    siteMenuItems.forEach(Item => 
+      Item.addEventListener('click', (event) => {
+        event.preventDefault();
+      })
+    )
+  }
 }
