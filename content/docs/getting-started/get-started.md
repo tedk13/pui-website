@@ -148,9 +148,11 @@ In the same spirit as Normalize.css, we also leverage [Postcss](https://github.c
 
 Our current browser support settings:
 
+<div class="mt-3 mb-4">
 {{< highlight js >}}
 "browserslist": [
 	"last 2 version",
 	"> 2%"
 ]
 {{< /highlight >}}
+</div>

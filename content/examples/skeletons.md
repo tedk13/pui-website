@@ -170,11 +170,16 @@ You can create an image skeleton by adding the `.skeleton-image` class to an img
 <br />
 
 You can also do different shapes using shape modifier classes:
+
+<div class="overflow-x--auto">
+
 | Shape | Description | Modifier Class |
 | ------------ |------------ | ------------| 
 | Landscape Rectangle | Sets the width of the image to 100% | `.skeleton-image--landscape` |
 | Portrait Rectangle | Sets the height of the image to 100% | `.skeleton-image--portrait` |
 | Circle | Sets the border radius to 50% | `.skeleton-image--circle` |
+
+</div>
 
 <div class="block-container mb-3">
   <div class="block-4 flex flex--justify-center">

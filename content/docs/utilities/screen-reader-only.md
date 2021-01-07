@@ -1,5 +1,5 @@
 ---
-title: Screen reader only
+title: Screen Reader Only
 date: 2018-07-20T12:59:15-04:00
 ---
 

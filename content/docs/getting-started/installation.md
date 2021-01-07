@@ -50,6 +50,7 @@ Theming
 
 Both the downloaded and npm versions of Platform UI give you access to the config file `_config.scss`. Color maps, component and base defaults, and, breakpoints for Platfrom UI are set here. Direct access to this file in your custom build allow you to customize the compiled feel of Platform UI.
 
+<div class="mt-3 mb-4">
 {{< highlight scss >}}
 // _config.scss
 
@@ -271,3 +272,4 @@ $loader-colors: (
 ) !default;
 
 {{< /highlight >}}
+</div>
