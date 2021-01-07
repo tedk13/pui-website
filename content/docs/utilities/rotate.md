@@ -32,7 +32,7 @@ Utility classes to rotate an element.
 <p class="flex flex--align-center flex--wrap mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
-    Click the butotn below to cycle through the different rotate utility classes.
+    Click the button below to cycle through the different rotate utility classes.
 </p>
 
 <div class="blocks-container my-5">
