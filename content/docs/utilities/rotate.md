@@ -29,7 +29,14 @@ Utility classes to rotate an element.
 {{< /highlight >}}
 </div>
 
-Try out this example below where you can cycle through the different rotate utility classes.
-<div class="mt-5">
-    <button class="button rotate-button">Normal</button>
+<p class="flex flex--align-center flex--wrap mb-2">
+    <i class="pi-rocket mr-1 text-negative"></i>
+    <strong class="mr-1">Try it!</strong> 
+    Click the butotn below to cycle through the different rotate utility classes.
+</p>
+
+<div class="blocks-container my-5">
+    <div class="block laptop-up-4">
+        <button class="button rotate-button">Normal</button>
+    </div>
 </div>
