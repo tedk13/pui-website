@@ -217,9 +217,11 @@ const copyButton = () => {
     'text-white',
     'button--copy',
     'text--size-sm',
+    'flex',
+    'flex--align-center'
   ];
   btn.classList = classes.join(' ');
-  btn.innerHTML = "<i class=\"pi-clipboard\"></i> Copy";
+  btn.innerHTML = "<i class=\"pi-clipboard mr-1\"></i> Copy";
   return btn;
 };
 
