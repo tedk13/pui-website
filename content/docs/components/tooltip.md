@@ -17,19 +17,19 @@ To specify the placement of your tooltip, add a `tooltip-{direction}` class. Dir
 | `.tooltip-left`   | Left      |
 
 <div class="block-container pb-3 flex flex--justify-between">
-  <div class="tooltip-top" data-tooltip="This is a top facing tooltip.">top</div>
   <div class="tooltip-right" data-tooltip="This is a right facing tooltip.">right</div>
+  <div class="tooltip-top" data-tooltip="This is a top facing tooltip.">top</div>
   <div class="tooltip-bottom" data-tooltip="This is a bottom facing tooltip.">bottom</div>
   <div class="tooltip-left" data-tooltip="This is a left facing tooltip.">left</div>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<!-- Top -->
-<div class="tooltip-top" data-tooltip="This is a top facing tooltip.">top</div>
-
 <!-- Right -->
 <div class="tooltip-right" data-tooltip="This is a right facing tooltip.">right</div>
+
+<!-- Top -->
+<div class="tooltip-top" data-tooltip="This is a top facing tooltip.">top</div>
 
 <!-- Bottom -->
 <div class="tooltip-bottom" data-tooltip="This is a bottom facing tooltip.">bottom</div>

@@ -39,7 +39,7 @@
         <div id="frame" class="block-container w-100">
           {{ if not .IsHome }}
             <!-- Mobile Nav & Trigger -->
-            <div id="frame-mobile-nav" class="hide-tablet-up py-4 px-0">
+            <div id="frame-mobile-nav" class="hide-lg-tablet-up py-4 px-0">
               <button 
                 id="frame-mobile-nav-trigger" 
                 class="mobile-menu-action button button--post button--lg background-lighter border--color-lighter text-base drawer__open" 
@@ -82,7 +82,7 @@
             </div>
 
             <!-- Nav Drawer (Tablet and up) -->
-            <div id="frame-nav" class="hide-tablet-down tablet-up-3 lg-tablet-up-2">
+            <div id="frame-nav" class="hide-lg-tablet-down tablet-up-3 lg-tablet-up-2">
               <nav id="sidebar-left" role="sidebar">
                 <div class="form form--rounded px-2 my-3">
                   <label for="search" class="form__field pos-rel">
@@ -95,8 +95,8 @@
               </nav>
             </div>
           {{ end }}
-          <main id="frame-content" class="block-container w-100{{ if not .IsHome }} tablet-up-9 lg-tablet-up-10 {{ end }}">
-            <article id="content" class="w-100{{ if not .IsHome }} tablet-up-8 lg-tablet-up-9 laptop-up-10 px-4{{ end }}">
+          <main id="frame-content" class="block-container w-100{{ if not .IsHome }} lg-tablet-up-10{{ end }}">
+            <article id="content" class="w-100{{ if not .IsHome }} lg-tablet-up-9 laptop-up-10 px-4{{ end }}">
               {{ block "main" . }}
                 {{ .Content }}
               {{ end }}

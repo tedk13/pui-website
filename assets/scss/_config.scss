@@ -46,14 +46,14 @@ $brand-colors: (
 
 #frame {
   flex-flow: column;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 991px) {
     flex-flow: row;
   }
 }
 
 #frame-content {
   flex-flow: column;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 991px) {
     flex-flow: row;
   }
 }
@@ -69,14 +69,14 @@ $brand-colors: (
 
 #content {
   order: 2;
-  @media screen and (min-width:768px){
+  @media screen and (min-width:991px){
     order:1;
   }
 }
 
 #content-nav {
   order: 1;
-  @media screen and (min-width:768px){
+  @media screen and (min-width:991px){
     padding-top:1em;
   }
 }
