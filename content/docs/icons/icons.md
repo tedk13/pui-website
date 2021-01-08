@@ -5,7 +5,7 @@ date: 2018-07-20T12:59:15-04:00
 All platform icons have a prefix of `pi` and are house in the `<i>` element tag. **Click the button below the icon to copy to clipboard.**
 `<i class="pi-arrow-right"></i>` produces: <i class="pi-arrow-right"></i>
 
-<ul class="list block-container tablet-up-2 lg-tablet-up-3 laptop-up-5 blocks p-2 mb-3">
+<ul class="list block-container tablet-up-3 laptop-up-5 blocks p-2 mb-3">
   <li class="block flex--center-content flex--column">
     <span class="flex text--size-xxl text-base p-3">
       <i class=" pi-eye-line"></i>
