@@ -16,7 +16,7 @@ Platform UI provides padding and margin utilities for most scenarios based on it
 </div>
 <div class="overflow-x--auto mb-4">
 
-| Spacer Number values map |                   |                     |                    |                   |                   |                   |                     |                     |
+| Distance |                   |                     |                    |                   |                   |                   |                     |                     |
 | ------------------------ | ----------------- | ------------------- | ------------------ | ----------------- | ----------------- | ----------------- | ------------------- | ------------------- |
 | number value             | 0                 | 1                   | 2                  | 3                 | 4                 | 5                 | 6                   | 7                   |
 | rem value                | <code>0rem</code> | <code>.25rem</code> | <code>.5rem</code> | <code>1rem</code> | <code>2rem</code> | <code>3rem</code> | <code>4.5rem</code> | <code>6.5rem</code> |
