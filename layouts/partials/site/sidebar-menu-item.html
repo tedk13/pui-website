@@ -2,12 +2,12 @@
 {{ range .menu }}
 {{ if in .URL $page.Section }}
 <!-- removing pui- prefixes seems to break the left navigation a bit -->
-<li class="{{ if ne .FirstSection .Page }}pui-accordion no-border mb-0{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
-    <a href="{{ .URL }}" class="text-base text--size-md{{ if .IsAncestor $page }} active{{ end }} {{ if eq .FirstSection .Page }}hidden{{ else }}pui-accordion__header py-2 px-3 mb-0{{ end }}">
-        <i class="pi-angle-right pui-accordion__icon mr-2 text-light"></i>
+<li class="{{ if ne .FirstSection .Page }}accordion no-border mb-0{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
+    <a href="{{ .URL }}" class="text-base text--size-md{{ if .IsAncestor $page }} active{{ end }} {{ if eq .FirstSection .Page }}hidden{{ else }}accordion__header py-2 px-3 mb-0{{ end }}">
+        <i class="pi-angle-down accordion__icon mr-2 text-light"></i>
         {{ .Name }}
     </a>
-    <ul class="pui-list{{ if ne .FirstSection .Page }} pui-accordion__content py-2 background-lighter{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
+    <ul class="pui-list{{ if ne .FirstSection .Page }} accordion__content py-2 background-lighter{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
         {{ if .Sections }}
             {{- partial "site/sidebar-menu" (dict "menu" .Sections "currentPage" $page)}}
         {{ end }}
