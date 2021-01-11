@@ -32,6 +32,11 @@ $brand-colors: (
 }
 
 .sidebar-menu {
+  .accordion {
+    &.active {
+      box-shadow: none;
+    }
+  }
   a {
     &.active {
       font-weight: bold;
@@ -93,6 +98,9 @@ $brand-colors: (
     height: 100%;
     width: 100%;
     z-index: 1;
+    code {
+      padding: 0;
+    }
   }
 }
 

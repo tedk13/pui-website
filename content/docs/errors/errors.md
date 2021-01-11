@@ -2,10 +2,8 @@
 title: Errors
 date: 2018-07-20T12:59:15-04:00
 ---
-Throughout the Platform, we leverage a concept of `positive`, `Negative`, and `Neutral` for success, errors, and no change, or neutral states.
+Throughout the Platform, we leverage a concept of `positive`, `negative`, and `neutral` for success, errors, and no change, or neutral states.
 These classes affect Pills and Text only.
-If you come across a scenario/combination where these are not applied, or not applied as expected, contact the Platform UI team.
-Styleguide Errors
 
 
 ## Errors Text
@@ -24,8 +22,6 @@ Styleguide Errors
 
 
 ## Error Pills
-
-Throughout the Platform, we leverage a concept of `positive`, `Negative`, and `Neutral` for success, errors, and no change, or neutral states.
 
 <div class="pill pill--circle-empty positive"></div>
 <div class="pill pill--circle-empty negative"></div>
