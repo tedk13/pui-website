@@ -1,10 +1,11 @@
 ---
 title: Page Not Found
 date: 2021-01-12T08:37:40-04:00
+layout: single
 ---
 
 <div class="block-container">
-    <img class="block tablet-up-6 laptop-up-4" src="/images/astronaut.png" alt="astronaut">
+  <img class="block tablet-up-6 laptop-up-4" src="/images/astronaut.png" alt="astronaut">
 </div>
 
 <strong>It looks like you got lost in space.</strong>
