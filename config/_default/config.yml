@@ -33,15 +33,11 @@ menu:
   main:
   - identifier: docs
     name: Docs
-    url: /docs/
+    url: /docs/getting-started/get-started/
     weight: 1
-  - identifier: icons
-    name: Icons
-    url: /docs/icons/icons/
-    weight: 2
   - identifier: examples
     name: Examples
-    url: /examples/
+    url: /examples/skeletons/
   - identifier: tutorials
     name: Tutorials
     url: /tutorials/
