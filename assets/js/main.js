@@ -270,4 +270,12 @@ if (codeExamples) {
       })
     )
   }
+
+  // 404 page
+  let body = document.querySelector('body');
+  let astronaut = document.querySelector('.astronaut');
+  
+  if (astronaut) {
+    body.classList.add('overflow-hidden');
+  }
 }
