@@ -35,10 +35,6 @@ menu:
     name: Docs
     url: /docs/
     weight: 1
-  - identifier: icons
-    name: Icons
-    url: /docs/icons/icons/
-    weight: 2
   - identifier: examples
     name: Examples
     url: /examples/

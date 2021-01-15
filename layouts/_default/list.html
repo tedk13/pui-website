@@ -1,10 +1,14 @@
 {{ define "main" }}
-{{ range .Paginator.Pages }}
-    <article>
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        <p>{{ .Summary }}</p>
-        <a href="{{ .Permalink }}">Learn More &raquo;</a>
-    </article>
-{{ end }}
-{{ template "_internal/pagination.html" . }}
+<div class="block-container laptop-up-2 p-5">
+  <div class="block">
+  <h1>{{ .Title }}</h1>
+  {{ range (.Paginator 20).Pages }}
+  <article class="py-4">
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary }}</p>
+    <a href="{{ .Permalink }}">Learn More &raquo;</a>
+  </article>
+  {{ end }}
+  </div>
+</div>
 {{ end }}
