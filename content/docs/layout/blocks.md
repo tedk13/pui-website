@@ -3,15 +3,18 @@ title: Blocks
 date: 2018-07-20T12:59:15-04:00
 ---
 
-Blocks are Platform UI's core structural component. Here are some of the features and concepts behind our grid.
+Blocks are Platform UI's core structural component. Here are some of the features and concepts behind our grid. The block layout is 
+powered by flex-box. This layout is based on a 12 column grid. When building your layouts, you will need to assign values to either 
+a wrapping `block-container` for equal size grids, or to the individual `block` for specific sizes. This layout is also fully responsive. 
+Each `block` has a width of 100% applied for all resolutions. We kept mobile-first in mind so from there, you add responsive modifiers 
+to change the size of your block or blocks at larger resolutions. More about all of this below.
 
 
 ## Block Containers
 
-- All block grids start with a wrapper of `block-container` that is set to `display: flex ` with `flex-wrap: wrap`.
-- `block-container` can also act as a row.
+- All block grids start with a wrapper of `block-container` that is set to `display: flex `.
+- `block-container`s have `flex-wrap: wrap` applied as well.
 - `block-container` has modifiers to allow auto-placement based on responsive breakpoints.
-- Adding a `{breakpoint}-up-{value}` class will create a grid of equally size blocks within the grid. For example: `block-container` `tablet-up-2` `laptop-up-4` would result in a grid with 2 blocks per row starting at the tablet resolution, then when the screen size reaches the laptop resolution, you would see 4 blocks per row. Each block would have the same width as well.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
@@ -24,11 +27,70 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 
 ## Block Sizes
 
-- Blocks are based on a 12 column grid, they allow content to be evenly distributed. They are a mobile first approach.
-- Blocks can have responsive modifiers attached directly to them.
 - Each `.block` has a width of 100%. From there, you can add modifiers to each block to take up the desired amount of columns in the 12 column grid.
 You can use responsive modifiers on each block as well. These modiifiers change the width (or amount of columns taken) of individual blocks from each breakpoint and up. The breakpoint modifiers use min-width media queries.
 The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
+- Blocks can have responsive modifiers attached directly to them.
+
+
+The example below shows how each block lays out along the 12 column grid.
+
+<div class="block-container pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
+  <div class="block block-3 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-3</strong>
+    </div>
+  </div>
+  <div class="block block-9 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-9</strong>
+    </div>
+  </div>
+  <div class="block block-6 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-6</strong>
+    </div>
+  </div>
+  <div class="block block-6 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-6</strong>
+    </div>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<div class="block-container blocks">
+  <div class="block block-3">
+    <!-- Content goes here! -->
+  </div>
+  <div class="block block-9">
+    <!-- Content goes here! -->    
+  </div>
+  <div class="block block-6">
+    <!-- Content goes here! -->
+  </div>
+  <div class="block block-6">
+    <!-- Content goes here! -->
+  </div>
+</div>
+{{< /highlight >}}
+</div>
 
 | Modifier Class | Example |
 |--|--|--| 
@@ -97,9 +159,15 @@ You can build a grid of equally sized blocks using the block layout. This can be
 {{< /highlight >}}
 </div>
 
-The second approach is to add the sizing classes to the wrapping `block-container`. This way prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. So an example would be `tablet-up-3`. This would give you 3 blocks per row starting at the tablet screen size.
+The second approach is to add the sizing classes to the wrapping `block-container`. This way prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. When building from the mobile-first approach, so if you want more that one `block`
+per row at your smallest screen size, you will need to start with a `mobile-up-{number-of-blocks-per-row}` unless you want a `block` to be full width of 
+your `block-container`.
 
-<div class="block-container blocks p-2 mobile-up-4">
+Adding a `{breakpoint}-up-{value}` class will create a grid of equally size blocks within the grid. For example: `block-container` `tablet-up-2` `laptop-up-4` would result in a grid with 1 block per row at your smallest screen size, 2 blocks per row starting at the tablet resolution, then when the screen size reaches the laptop resolution, you would see 4 blocks per row. Each block would have the same width as well. Check out the example below. 
+
+Scale your window to watch the grid change.
+
+<div class="block-container blocks p-2 tablet-up-2 laptop-up-4">
   <div class="block">
     <div class="card">
       <h2 class="skeleton skeleton--md"></h2>
@@ -128,7 +196,7 @@ The second approach is to add the sizing classes to the wrapping `block-containe
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block-container blocks mobile-up-4">
+<div class="block-container blocks tablet-up-2 laptop-up-4">
   <div class="block">
     <!-- Content goes here! -->
   </div>
