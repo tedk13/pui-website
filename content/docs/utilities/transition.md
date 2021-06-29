@@ -19,7 +19,7 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
 {{< /highlight >}}
 </div>
 
-<p class="flex flex--align-center flex--wrap mt-6 mb-2">
+<p class="mt-6 mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Using the <code class="mx-1">.transition</code> class, smoothly toggle the border color of a card via click.
@@ -40,7 +40,7 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
 </div>
 
 
-<p class="flex flex--align-center flex--wrap mt-6 mb-2">
+<p class="mt-6 mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Using the <code class="mx-1">.transition</code> class, smoothly increase the padding of an element via click.
@@ -53,7 +53,7 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
   </div>
 </div>
 
-<p class="flex flex--align-center flex--wrap mt-6 mb-2">
+<p class="mt-6 mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Using the <code class="mx-1">.transition</code> class, smoothy transition the background color of an element on hover.

@@ -7,7 +7,7 @@ A utility that does what it's name says. It truncates text within an element wit
 This can be done by adding the class `truncate-with-ellipsis`
 
 <div class="block-container">
-    <div class="block block-4">
+    <div class="block tablet-up-8 laptop-up-4">
         <h3 class="truncate-with-ellipsis">This is a heading for a block</h3>
     </div>
 </div>
@@ -19,7 +19,7 @@ This can be done by adding the class `truncate-with-ellipsis`
 </div>
 
 
-<p class="flex flex--align-center flex--wrap mb-4">
+<p class="mb-4">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Click the button below to toggle the <code class="mx-1">truncate-with-ellipsis</code> class!

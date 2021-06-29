@@ -42,7 +42,7 @@ Use these classes to change the size of a loader.
   </div>
 </div>
 
-<p class="flex flex--align-center flex--wrap mb-2">
+<p class="mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Here are a few examples of how to use <code class="mx-1">.loader</code> with other Platform UI components!

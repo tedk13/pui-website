@@ -24,7 +24,7 @@ You can add or hide specific overflow on an element with the following classes.
 
 </div>
 
-<p class="flex flex--align-center flex--wrap mb-2">
+<p class="mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Click the button below to toggle the <code class="mx-1">.overflow-y--auto</code> class!

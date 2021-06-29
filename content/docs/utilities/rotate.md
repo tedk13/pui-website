@@ -29,7 +29,7 @@ Utility classes to rotate an element.
 {{< /highlight >}}
 </div>
 
-<p class="flex flex--align-center flex--wrap mb-2">
+<p class="mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Click the button below to cycle through the different rotate utility classes.
