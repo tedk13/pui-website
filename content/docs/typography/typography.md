@@ -128,10 +128,10 @@ You can add a text-shadow to an element using colors from our [greyscale](/secti
 
 | Greyscale | Modifier Class | Result |
 |--|--|--|
-| White | `.text--shadow-white` | <p class="text--shadow-white">Hello World!</p> |
-| Lighter | `.text--shadow-lighter` | <p class="text--shadow-lighter">Hello World!</p> |
-| Light Mid | `.text--shadow-light-mid` | <p class="text--shadow-light-mid">Hello World!</p> |
-| Light | `.text--shadow-light` | <p class="text--shadow-light">Hello World!</p> |
+| White | `.text--shadow-white` | <p class="p-2 background-base text--shadow-white">Hello World!</p> |
+| Lighter | `.text--shadow-lighter` | <p class="p-2 background-base text--shadow-lighter">Hello World!</p> |
+| Light Mid | `.text--shadow-light-mid` | <p class="p-2 background-base text--shadow-light-mid">Hello World!</p> |
+| Light | `.text--shadow-light` | <p class="p-2 background-base text-light-mid text--shadow-light">Hello World!</p> |
 | Base | `.text--shadow-base` | <p class="text--shadow-base">Hello World!</p> |
 | Dark | `.text--shadow-dark` | <p class="text--shadow-dark">Hello World!</p> |
 | Black | `.text--shadow-black` | <p class="text--shadow-black">Hello World!</p> | 
