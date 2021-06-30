@@ -2401,10 +2401,11 @@ clipboard.on('success', function(e) {
 
 ## Sizing
 
-| class | size |
-| ------- | ----- |
-| `pi-sm` | 75% |
-| `pi-lg` | 150% |
-| `pi-xl` | 2rem |
-| `pi-xxl` | 3rem |
+| Class    | Size                |
+| -------- | ------------------- |
+| `pi-xs`  | `font-size: .5rem ` |
+| `pi-sm`  | `font-size: .75rem` |
+| `pi-lg`  | `font-size: 1.5rem` |
+| `pi-xl`  | `font-size: 2rem  ` |
+| `pi-xxl` | `font-size: 3rem  ` |
 
