@@ -281,28 +281,276 @@ To ensure that your users could not interact with disabled links, it's recommend
 
 ## Colors
 
-Buttons can be customized by using background, text, and hover (grouped with the background and text color documentation) utilities. See some examples below.
+You can make colored buttons using colors from the brand-colors and grayscale maps. So button button--navy will set the navy background color to the button.
 
-<div class="button-group mb-4">
+The hover on the buttons will either darken, or lighten, based on the lightness of the background color applied to the button. Checkout the example below and you'll see that the darker buttons, like Navy and Black, will lighten on hover. Whereas buttons like Skyblue, Light Blue, and Beige, will darken on hover.
+
+To ensure the proper color contrast is set on the buttons for accessibility, we check the lightness of the background color. Based on the value that is returned, the text will either be white, or one of the other grayscale colors.
+
+<i class="pi-warning text-orange"></i> **NOTE:** You can still add a text color utility class like text-salmon to any button you'd like and it will still work.
+
+<div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
+  <div class="block">
+    <button class="button button--navy">Navy</button>
+  </div>
+  <div class="block">
+    <button class="button button--skyblue">Skyblue</button>
+  </div>
+  <div class="block background-light">
+    <button class="button button--lightblue">Light Blue</button>
+  </div>
+  <div class="block">
+    <button class="button button--med-blue">Med Blue</button>
+  </div>
+  <div class="block">
+    <button class="button button--beige">Beige</button>
+  </div>
+  <div class="block">
+    <button class="button button--peach">Peach</button>
+  </div>
+  <div class="block">
+    <button class="button button--salmon">Salmon</button>
+  </div>
+  <div class="block">
+    <button class="button button--brown">Brown</button>
+  </div>
+  <div class="block">
+    <button class="button button--orange">Orange</button>
+  </div>
+</div>
+<div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
+  <div class="block background-navy">
+    <button class="button button--white">White</button>
+  </div>
+  <div class="block">
+    <button class="button button--lighter">Lighter</button>
+  </div>
+  <div class="block">
+    <button class="button button--light-mid">Light Mid</button>
+  </div>
+  <div class="block">
+    <button class="button button--light">Light</button>
+  </div>
+  <div class="block">
+    <button class="button button--base">Base</button>
+  </div>
+  <div class="block">
+    <button class="button button--dark">Dark</button>
+  </div>
+  <div class="block">
+    <button class="button button--black">Black</button>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <button class="button button--navy">Navy</button>
+  <button class="button button--skyblue">Skyblue</button>
+  <button class="button button--lightblue">Light Blue</button>
+  <button class="button button--med-blue">Med Blue</button>
+  <button class="button button--beige">Beige</button>
+  <button class="button button--peach">Peach</button>
+  <button class="button button--salmon">Salmon</button>
+  <button class="button button--brown">Brown</button>
+  <button class="button button--orange">Orange</button>
+  <button class="button button--white">White</button>
+  <button class="button button--lighter">Lighter</button>
+  <button class="button button--light-mid">Light Mid</button>
+  <button class="button button--light">Light</button>
+  <button class="button button--base">Base</button>
+  <button class="button button--dark">Dark</button>
+  <button class="button button--black">Black</button>
+{{< /highlight >}}
+</div>
+
+### Secondary Button Colors
+
+The secondary buttons will also work with background colors applied.
+
+The hover state is based on the applied background color just like the standard background buttons. Notice, some of the buttons below have text displayed on hover.
+
+<div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
+  <div class="block">
+    <button class="button button--secondary"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--navy" data-button-text="Download"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--skyblue has-text" data-button-text="Has Text"><i class="pi-download"></i></button>
+  </div>
+  <div class="block background-light">
+    <button class="button button--secondary button--lightblue"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--med-blue"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--beige"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--peach"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--salmon"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--brown" data-button-text="Download"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--orange"><i class="pi-download"></i></button>
+  </div>
+</div>
+<div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
+  <div class="block background-navy">
+    <button class="button button--secondary button--white"><i class="pi-download"></i></button>
+  </div>
+  <div class="block background-navy">
+    <button class="button button--secondary button--lighter"><i class="pi-download"></i></button>
+  </div>
+  <div class="block background-navy">
+    <button class="button button--secondary button--light-mid"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--light"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--base"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--dark"><i class="pi-download"></i></button>
+  </div>
+  <div class="block">
+    <button class="button button--secondary button--black"><i class="pi-download"></i></button>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <button class="button button--secondary"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--navy" data-button-text="Download"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--skyblue has-text" data-button-text="Has Text"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--lightblue"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--med-blue"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--beige"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--peach"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--salmon"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--brown" data-button-text="Download"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--orange"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--white"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--lighter"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--light-mid"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--light"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--base"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--dark"><i class="pi-download"></i></button>
+  <button class="button button--secondary button--black"><i class="pi-download"></i></button>
+{{< /highlight >}}
+</div>
+
+### Ghost Buttons
+
+Ghost buttons can be used by applying button--ghost to a button class. You set the color of the text and border by adding a button--{color} class. This will set the color and border-color using the color from the class.
+
+When you hover over one of the buttons, it becomes inverted. The background color will change too that of the color used in the color class, and the text color will change to either white, or a darker color, based on the contrast of the background color.
+
+<div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
+  <div class="block">
+    <button class="button button--ghost">Ghost</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--navy">Navy</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--skyblue">Skyblue</button>
+  </div>
+  <div class="block background-light">
+    <button class="button button--ghost button--lightblue">Lightblue</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--med-blue">Med Blue</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--beige">Beige</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--peach">Peach</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--salmon">Salmon</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--brown">Brown</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--orange">Orange</button>
+  </div>
+</div>
+<div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
+  <div class="block background-light">
+    <button class="button button--ghost button--white">White</button>
+  </div>
+  <div class="block background-light">
+    <button class="button button--ghost button--lighter">Lighter</button>
+  </div>
+  <div class="block background-light">
+    <button class="button button--ghost button--light-mid">Light Mid</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--light">Light</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--base">Base</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--dark">Dark</button>
+  </div>
+  <div class="block">
+    <button class="button button--ghost button--black">Black</button>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <button class="button button--ghost">Ghost</button>
+  <button class="button button--ghost button--navy">Navy</button>
+  <button class="button button--ghost button--skyblue">Skyblue</button>
+  <button class="button button--ghost button--lightblue">Lightblue</button>
+  <button class="button button--ghost button--med-blue">Med Blue</button>
+  <button class="button button--ghost button--beige">Beige</button>
+  <button class="button button--ghost button--peach">Peach</button>
+  <button class="button button--ghost button--salmon">Salmon</button>
+  <button class="button button--ghost button--brown">Brown</button>
+  <button class="button button--ghost button--orange">Orange</button>
+  <button class="button button--ghost button--white">White</button>
+  <button class="button button--ghost button--lighter">Lighter</button>
+  <button class="button button--ghost button--light-mid">Light Mid</button>
+  <button class="button button--ghost button--light">Light</button>
+  <button class="button button--ghost button--base">Base</button>
+  <button class="button button--ghost button--dark">Dark</button>
+  <button class="button button--ghost button--black">Black</button>
+{{< /highlight >}}
+</div>
+
+### Custom
+
+If none of these options work for you, buttons can be customized by using background, text, and hover (grouped with the background and text color documentation) utilities. See some examples below.
+
+<div class="button-group mb-4 p-2">
   <button class="button background-lightblue background-skyblue--hover text-navy text-white--hover border--color-med-blue">Blue</button>
   <button class="button background-skyblue background-navy--hover text-navy text-white--hover border--color-navy">Blue</button>
   <button class="button background-beige background-brown--hover text-brown text-white--hover border--color-brown">Brown</button>
-</div>
-<div class="button-group mt-4">
-  <button class="button background-lighter background-orange--hover text-black border--color-orange">Yellow</button>
+  <button class="button background-lighter background-orange--hover text-black border--color-orange">Orange</button>
   <button class="button background-light-mid background-dark--hover text-dark text-white--hover border--color-dark">Dark Grey</button>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="button-group mb-4">
-  <button class="button background-lightblue background-skyblue--hover text-navy text-white--hover border--color-med-blue">Blue</button>
-  <button class="button background-skyblue background-navy--hover text-navy text-white--hover border--color-navy">Blue</button>
-  <button class="button background-beige background-brown--hover text-brown text-white--hover border--color-brown">Brown</button>
-</div>
-<div class="button-group mt-4">
-  <button class="button background-lighter background-orange--hover text-black border--color-orange">Yellow</button>
-  <button class="button background-light-mid background-dark--hover text-dark text-white--hover border--color-dark">Dark Grey</button>
-</div>
+  <div class="button-group mb-4 p-2">
+    <button class="button background-lightblue background-skyblue--hover text-navy text-white--hover border--color-med-blue">Blue</button>
+    <button class="button background-skyblue background-navy--hover text-navy text-white--hover border--color-navy">Blue</button>
+    <button class="button background-beige background-brown--hover text-brown text-white--hover border--color-brown">Brown</button>
+    <button class="button background-lighter background-orange--hover text-black border--color-orange">Orange</button>
+    <button class="button background-light-mid background-dark--hover text-dark text-white--hover border--color-dark">Dark Grey</button>
+  </div>
 {{< /highlight >}}
 </div>
