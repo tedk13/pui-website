@@ -173,6 +173,8 @@ You can build a grid of equally sized blocks using the block layout. This can be
 {{< /highlight >}}
 </div>
 
+#### On The Block-container
+
 The second approach is to add the sizing classes to the wrapping `block-container`. This way prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. When building from the mobile-first approach, so if you want more that one `block`
 per row at your smallest screen size, you will need to start with a `mobile-up-{number-of-blocks-per-row}` unless you want a `block` to be full width of 
 your `block-container`.
@@ -255,9 +257,11 @@ You can build a responsive grid with blocks. You can add the responsive classes 
 | 1240px | laptop | `laptop-up-` |
 | 1800px | desktop | `desktop-up-` |
 
+#### On The Block
+
 Adding the responsive classes on a block means, at that resolution, the block will take up as many columns in the 12 column row that are applied via the class. For example: `<div class="block tablet-up-6 laptop-up-4"></div>` This div will take up all 12 columns at the smallest screen size, 6 columns starting at the tablet screen size, and 4 columns at the laptop screen size.
 
-On the blocks: In this example, each block will take up an entire row at the smallest screen sizes. When the screen reaches the tablet resolution, each row will contain 2 blocks, and at the laptop size, each row will have 3 blocks.
+In this example, each block will take up an entire row at the smallest screen sizes. When the screen reaches the tablet resolution, each row will contain 2 blocks, and at the laptop size, each row will have 3 blocks.
 
 <div class="block-container pos-rel">
   <!-- Grid key background -->
@@ -320,7 +324,7 @@ On the blocks: In this example, each block will take up an entire row at the sma
 {{< /highlight >}}
 </div>
 
-#### On the block-container
+#### On The Block-container
 
 You can also add these classes to the wrapping `block-container`. As mentioned above, this method works well for equally sized grids. You use the same class names as on the block, but when the class is on the `block-container` the class is decribing how many `block`s there will be per row.
 
