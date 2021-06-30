@@ -171,8 +171,14 @@ The default drawer opens from the bottom of the viewport, however you can also s
  {{< /highlight >}}
  </div>
 
+## Side Drawers
 
-## Right Drawer
+Drawers can also open from the sides. 
+
+| <i class="pi-warning text-orange"></i> NOTE: Side drawers account for the fixed header. If the  `header-fixed` class is added to your main wrapper the side drawers will open below the header. |
+| ----- |
+
+### Right Drawer
 
 To open a drawer from the right side of the viewport, apply the `.drawer-right` class to the `.drawer` element.
 
@@ -222,7 +228,7 @@ To open a drawer from the right side of the viewport, apply the `.drawer-right` 
  </div>
 
 
-## Left Drawer
+### Left Drawer
 
 To open a drawer from the left side of the viewport, apply the `.drawer-left` class to the `.drawer` element.
 
