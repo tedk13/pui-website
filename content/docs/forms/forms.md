@@ -39,8 +39,9 @@ To get the animation, add the class `form__field--fancy` to the `form__field`.
 You will also need to change the markup slightly. Instead of a `label` the `form__field` should now be a `div`
 put the `label` under the `input` as a sibling of the `form__field` `div`. See markup below.
 
-**Note:** Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
-probably be best for a simple form that has text inputs.
+| <i class="pi-warning text-orange"></i> NOTE: Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
+probably be best for a simple form that has text inputs. |
+| ----- |
 
 <form action="" class="form">
   <div class="form__field form__field--fancy">
