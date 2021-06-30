@@ -2,12 +2,12 @@
 title: Flex
 date: 2018-07-20T12:59:15-04:00
 ---
-Flexbox utilities to use when flexbox is present.
-
-When `display: flex` add any of the class modifiers from the table below to work with flexbox.
+Flexbox utilities to use when `display: flex` is being used.
 
 | Class Name                  | CSS Attribute                                                  |
 | --------------------------- | -------------------------------------------------------------- |
+| `flex`                      | `display: flex;`                                               |
+| `flex-inline`               | `display: inline-flex`                                         |
 | `flex--align-center`        | `align-items: center;`                                         |
 | `flex--align-start`         | `align-items: flex-start;`                                     |
 | `flex--align-end`           | `align-items: flex-end;`                                       |
