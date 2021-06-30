@@ -967,3 +967,135 @@ Here's an example of a larger responsive form using the block layout.
 </form>
 {{< /highlight >}}
 </div>
+
+## Togles
+
+To create this toggle effect around 2 radio buttons you need to wrap the set of inputs in a `<div class="pui-toggle">`.
+From there, be sure to add your input, followed by it's label. These elements should be sibligns of one another and
+children of the `pui-toggle`. Each pair of inputs and children should be siblings of one another.
+
+From a semantic perspective, we would recommend _not_ using check boxes inside the toggle. The reason being that one
+option needs to be checked for the toggle to make sense. Also, the toggle works so you that you could never select both
+options.
+
+We put the toggle inside a `fieldset` in the example below, but this is not required for the toggle to work.
+
+<form class="pui-form">
+  <div class="block-container">
+    <fieldset class="pui-form__field block-4">
+      <legend>Are You</legend>
+      <div class="pui-toggle">
+        <input id="Tall-2" type="radio" checked name="height">
+        <label for="Tall-2">
+          <i class='pi-check pi-heavy'></i> Tall
+        </label>
+        <input id="Short-2" type="radio" name="height">
+        <label for="Short-2">
+          <i class='pi-check pi-heavy'></i> Short
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <form class="pui-form">
+    <div class="block-container">
+      <fieldset class="pui-form__field block-4">
+        <legend>Are You</legend>
+        <div class="pui-toggle">
+          <input id="Tall-2" type="radio" checked name="height">
+          <label for="Tall-2">
+            <i class='pi-check pi-heavy'></i> Tall
+          </label>
+          <input id="Short-2" type="radio" name="height">
+          <label for="Short-2">
+            <i class='pi-check pi-heavy'></i> Short
+          </label>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+{{< /highlight >}}
+</div>
+
+
+### Toggle Option Disabled
+
+If the toggle needs to be disabled, simply add the attribute `disabled` to a `fieldset` wrapping the `pui-toggle`. See the markup below.
+
+<form class="pui-form">
+  <div class="block-container">
+    <fieldset class="pui-form__field block-4" disabled>
+      <legend>Are You</legend>
+      <div class="pui-toggle">
+        <input id="Tall-2" type="radio" checked name="height">
+        <label for="Tall-2">
+          <i class='pi-check pi-heavy'></i> Tall
+        </label>
+        <input id="Short-2" type="radio" name="height">
+        <label for="Short-2">
+          <i class='pi-check pi-heavy'></i> Short
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <form class="pui-form">
+    <div class="block-container">
+      <fieldset class="pui-form__field block-4" disabled>
+        <legend>Are You</legend>
+        <div class="pui-toggle">
+          <input id="Tall-2" type="radio" checked name="height">
+          <label for="Tall-2">
+            <i class='pi-check pi-heavy'></i> Tall
+          </label>
+          <input id="Short-2" type="radio" name="height">
+          <label for="Short-2">
+            <i class='pi-check pi-heavy'></i> Short
+          </label>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+{{< /highlight >}}
+</div>
+
+### Toggle Option Small
+ 
+For a smaller toggle component, use the class `toggle-small`. This is a great option for a checkbox. The idea for this toggle is to 
+use only one input and label. Think of it as a light switch. One item, one or off. 
+
+<form class="pui-form">
+  <div class="block-container">
+    <fieldset class="pui-form__field block-4">
+      <legend>Active</legend>
+      <div class="toggle-small">
+        <input id="active" type="checkbox" name="active">
+        <label for="active">
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <form class="pui-form">
+    <div class="block-container">
+      <fieldset class="pui-form__field block-4">
+        <legend>Active</legend>
+        <div class="toggle-small">
+          <input id="active" type="checkbox" name="active">
+          <label for="active">
+          </label>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+{{< /highlight >}}
+</div>
