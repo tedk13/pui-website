@@ -210,6 +210,59 @@ the padding of the rounded input. Checkout the markup below.
 </div>
 
 
+## Form Light
+
+Adding a `form--light` modifier gives the form a white theme. Thhe text color and border colors are both white.
+
+The light modifier works with [form--bordered](/docs/forms/forms/#form-border) and [form--rounded](/docs/forms/forms/#form-rounded-border).
+
+<div class="background-navy p-3">
+  <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
+    <div class="block form__field">
+      <label for="first-name">First Name</label>
+      <input id="first-name" type="text" placeholder="First Name">
+    </div>
+    <div class="block form__field">
+      <label for="last-name">Last Name</label>
+      <input id="last-name" type="text" placeholder="Last Name">
+    </div>
+    <div class="block form__field">
+      <label for="dob">Birthday</label>
+      <input id="dob" type="date">
+    </div>
+    <div class="block form__field">
+      <label for="zipcode">ZIP Code</label>
+      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    </div>
+  </form>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<div class="background-navy p-3">
+  <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
+    <div class="block form__field">
+      <label for="first-name">First Name</label>
+      <input id="first-name" type="text" placeholder="First Name">
+    </div>
+    <div class="block form__field">
+      <label for="last-name">Last Name</label>
+      <input id="last-name" type="text" placeholder="Last Name">
+    </div>
+    <div class="block form__field">
+      <label for="dob">Birthday</label>
+      <input id="dob" type="date">
+    </div>
+    <div class="block form__field">
+      <label for="zipcode">ZIP Code</label>
+      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    </div>
+  </form>
+</div>
+{{< /highlight >}}
+</div>
+
+
 ## Time Icon
 
 The select wrapper displays an arrow down icon. We can change that by adding the class `time`
@@ -262,6 +315,7 @@ This will replace the arrow down icon with a clock icon.
 ## Error Styles
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
+
 <i class="pi-warning text-orange"></i> **Note:** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
 field will receive the error styling. However, if you only want to highlight on specific check or radio, simply add
 `error` to the proper input. This will give the icon as well as the corresponding label the error style.
