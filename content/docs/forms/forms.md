@@ -7,7 +7,7 @@ weight: 1
 Out of the box, our form fields have a margin-top added to them. This spacing should work just fine for smaller, simple forms. For larger,
 responsive forms, we recommend that you utilize the block layout and our spacers to build the perfect form.
 
-**Note** All of the following form elements must be nested inside the `form` class to get the desired look.
+<i class="pi-warning text-orange"></i> **Note:** All of the following form elements must be nested inside the `form` class to get the desired look.
 
 <form action="" class="form">
   <label for="first-name-a" class="form__field">First Name
@@ -39,7 +39,7 @@ To get the animation, add the class `form__field--fancy` to the `form__field`.
 You will also need to change the markup slightly. Instead of a `label` the `form__field` should now be a `div`
 put the `label` under the `input` as a sibling of the `form__field` `div`. See markup below.
 
-**Note:** Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
+<i class="pi-warning text-orange"></i> **NOTE:** Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
 probably be best for a simple form that has text inputs.
 
 <form action="" class="form">
@@ -210,6 +210,59 @@ the padding of the rounded input. Checkout the markup below.
 </div>
 
 
+## Form Light
+
+Adding a `form--light` modifier gives the form a white theme. Thhe text color and border colors are both white.
+
+The light modifier works with [form--bordered](/docs/forms/forms/#form-border) and [form--rounded](/docs/forms/forms/#form-rounded-border).
+
+<div class="background-navy p-3">
+  <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
+    <div class="block form__field">
+      <label for="first-name">First Name</label>
+      <input id="first-name" type="text" placeholder="First Name">
+    </div>
+    <div class="block form__field">
+      <label for="last-name">Last Name</label>
+      <input id="last-name" type="text" placeholder="Last Name">
+    </div>
+    <div class="block form__field">
+      <label for="dob">Birthday</label>
+      <input id="dob" type="date">
+    </div>
+    <div class="block form__field">
+      <label for="zipcode">ZIP Code</label>
+      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    </div>
+  </form>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<div class="background-navy p-3">
+  <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
+    <div class="block form__field">
+      <label for="first-name">First Name</label>
+      <input id="first-name" type="text" placeholder="First Name">
+    </div>
+    <div class="block form__field">
+      <label for="last-name">Last Name</label>
+      <input id="last-name" type="text" placeholder="Last Name">
+    </div>
+    <div class="block form__field">
+      <label for="dob">Birthday</label>
+      <input id="dob" type="date">
+    </div>
+    <div class="block form__field">
+      <label for="zipcode">ZIP Code</label>
+      <input id="zipcode" type="tel" placeholder="e.g.90012" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+    </div>
+  </form>
+</div>
+{{< /highlight >}}
+</div>
+
+
 ## Time Icon
 
 The select wrapper displays an arrow down icon. We can change that by adding the class `time`
@@ -262,7 +315,8 @@ This will replace the arrow down icon with a clock icon.
 ## Error Styles
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
-**Note** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
+
+<i class="pi-warning text-orange"></i> **Note:** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
 field will receive the error styling. However, if you only want to highlight on specific check or radio, simply add
 `error` to the proper input. This will give the icon as well as the corresponding label the error style.
 
@@ -480,7 +534,7 @@ consistent with the rest of the form elements. It also allows the inputs inside 
  and `flex-wrap: wrap`. If you do not want the items to wrap, but rather look like block level elements, you can simplay add
 different utility classes to the `form__option-group` wrapper. In this case, `flex--column` and `flex--nowrap`.
 
-**Note** For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your
+<i class="pi-warning text-orange"></i> **Note:** For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your
 `form__field` then adding a `legend`. See the example below.
 
 
@@ -590,7 +644,7 @@ consistent with the rest of the form elements. It also allows the inputs inside 
  and `flex-wrap: wrap`. If you do not want the items to wrap, but rather look like block level elements, you can simplay add
 different utility classes to the `form__option-group` wrapper. In this case, `flex--column` and `flex--nowrap`.
 
-**Note** For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
+<i class="pi-warning text-orange"></i> **Note:** For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
 `form__field` then adding a `legend`. See the example below.
 
 
@@ -964,5 +1018,137 @@ Here's an example of a larger responsive form using the block layout.
     </div>
   </div>
 </form>
+{{< /highlight >}}
+</div>
+
+## Togles
+
+To create this toggle effect around 2 radio buttons you need to wrap the set of inputs in a `<div class="pui-toggle">`.
+From there, be sure to add your input, followed by it's label. These elements should be sibligns of one another and
+children of the `pui-toggle`. Each pair of inputs and children should be siblings of one another.
+
+From a semantic perspective, we would recommend _not_ using check boxes inside the toggle. The reason being that one
+option needs to be checked for the toggle to make sense. Also, the toggle works so you that you could never select both
+options.
+
+We put the toggle inside a `fieldset` in the example below, but this is not required for the toggle to work.
+
+<form class="pui-form">
+  <div class="block-container">
+    <fieldset class="pui-form__field block-4">
+      <legend>Are You</legend>
+      <div class="pui-toggle">
+        <input id="Tall-2" type="radio" checked name="height">
+        <label for="Tall-2">
+          <i class='pi-check pi-heavy'></i> Tall
+        </label>
+        <input id="Short-2" type="radio" name="height">
+        <label for="Short-2">
+          <i class='pi-check pi-heavy'></i> Short
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <form class="pui-form">
+    <div class="block-container">
+      <fieldset class="pui-form__field block-4">
+        <legend>Are You</legend>
+        <div class="pui-toggle">
+          <input id="Tall-2" type="radio" checked name="height">
+          <label for="Tall-2">
+            <i class='pi-check pi-heavy'></i> Tall
+          </label>
+          <input id="Short-2" type="radio" name="height">
+          <label for="Short-2">
+            <i class='pi-check pi-heavy'></i> Short
+          </label>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+{{< /highlight >}}
+</div>
+
+
+### Toggle Option Disabled
+
+If the toggle needs to be disabled, simply add the attribute `disabled` to a `fieldset` wrapping the `pui-toggle`. See the markup below.
+
+<form class="pui-form">
+  <div class="block-container">
+    <fieldset class="pui-form__field block-4" disabled>
+      <legend>Are You</legend>
+      <div class="pui-toggle">
+        <input id="Tall-2" type="radio" checked name="height">
+        <label for="Tall-2">
+          <i class='pi-check pi-heavy'></i> Tall
+        </label>
+        <input id="Short-2" type="radio" name="height">
+        <label for="Short-2">
+          <i class='pi-check pi-heavy'></i> Short
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <form class="pui-form">
+    <div class="block-container">
+      <fieldset class="pui-form__field block-4" disabled>
+        <legend>Are You</legend>
+        <div class="pui-toggle">
+          <input id="Tall-2" type="radio" checked name="height">
+          <label for="Tall-2">
+            <i class='pi-check pi-heavy'></i> Tall
+          </label>
+          <input id="Short-2" type="radio" name="height">
+          <label for="Short-2">
+            <i class='pi-check pi-heavy'></i> Short
+          </label>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+{{< /highlight >}}
+</div>
+
+### Toggle Option Small
+ 
+For a smaller toggle component, use the class `toggle-small`. This is a great option for a checkbox. The idea for this toggle is to 
+use only one input and label. Think of it as a light switch. One item, one or off. 
+
+<form class="pui-form">
+  <div class="block-container">
+    <fieldset class="pui-form__field block-4">
+      <legend>Active</legend>
+      <div class="toggle-small">
+        <input id="active" type="checkbox" name="active">
+        <label for="active">
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+  <form class="pui-form">
+    <div class="block-container">
+      <fieldset class="pui-form__field block-4">
+        <legend>Active</legend>
+        <div class="toggle-small">
+          <input id="active" type="checkbox" name="active">
+          <label for="active">
+          </label>
+        </div>
+      </div>
+    </fieldset>
+  </form>
 {{< /highlight >}}
 </div>

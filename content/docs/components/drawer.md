@@ -171,8 +171,11 @@ The default drawer opens from the bottom of the viewport, however you can also s
  {{< /highlight >}}
  </div>
 
+## Side Drawers
 
-## Right Drawer
+Drawers can also open from the sides. Side drawers account for the fixed header. If the  `header-fixed` class is added to your main wrapper the side drawers will open below the header. Side drawers also will open full screen at the mobile resolution (below 768px).
+
+### Right Drawer
 
 To open a drawer from the right side of the viewport, apply the `.drawer-right` class to the `.drawer` element.
 
@@ -222,7 +225,7 @@ To open a drawer from the right side of the viewport, apply the `.drawer-right` 
  </div>
 
 
-## Left Drawer
+### Left Drawer
 
 To open a drawer from the left side of the viewport, apply the `.drawer-left` class to the `.drawer` element.
 
@@ -249,7 +252,7 @@ To open a drawer from the left side of the viewport, apply the `.drawer-left` cl
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<!-- Right drawer trigger -->
+<!-- Left drawer trigger -->
 <button class="button button--post button--lg drawer__open" data-drawer="left">
   Toggle left drawer
 </button>
@@ -259,6 +262,49 @@ To open a drawer from the left side of the viewport, apply the `.drawer-left` cl
   <div class="drawer__inner">
     <div class="drawer__content">
       <button class="button drawer__close" data-drawer="left">
+        Close 
+        <i class="pi-times"></i>
+      </button>
+      <!-- Drawer content goes here! -->
+    </div>
+  </div>
+</div>
+{{< /highlight >}}
+</div>
+
+## Top Drawer
+
+This Drawer slides in from the top.
+
+<button class="button button--post button--lg drawer__open" data-drawer="top">Toggle top drawer</button>
+
+<div id="top" class="drawer drawer-top slide-top-enter-active drawer--closed p-4">
+  <div class="drawer__inner">
+    <div class="drawer__content">
+      <div class="flex flex--justify-end mb-3">
+        <button class="button drawer__close" data-drawer="top">
+          Close 
+          <i class="pi-times" aria-hidden="true"></i>
+        </button>
+      </div>
+      <h2 class="skeleton skeleton--lg"></h2>
+      <p class="skeleton" data-lines="5"></p>
+      <p class="skeleton" data-lines="3"></p>
+      <p class="skeleton" data-lines="6"></p>
+    </div>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<!-- Top drawer trigger -->
+<button class="button button--post button--lg drawer__open" data-drawer="top">Toggle top drawer</button>
+
+<!-- Top Drawer -->
+<div id="top" class="drawer drawer-top slide-top-enter-active drawer--closed p-4">
+  <div class="drawer__inner">
+    <div class="drawer__content">
+      <button class="button drawer__close" data-drawer="top">
         Close 
         <i class="pi-times"></i>
       </button>

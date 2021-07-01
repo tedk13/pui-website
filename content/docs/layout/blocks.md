@@ -3,15 +3,18 @@ title: Blocks
 date: 2018-07-20T12:59:15-04:00
 ---
 
-Blocks are Platform UI's core structural component. Here are some of the features and concepts behind our grid.
+Blocks are Platform UI's core structural component. Here are some of the features and concepts behind our grid. The block layout is 
+powered by flex-box. This layout is based on a 12 column grid. When building your layouts, you will need to assign values to either 
+a wrapping `block-container` for equal size grids, or to the individual `block` for specific sizes. This layout is also fully responsive. 
+Each `block` has a width of 100% applied for all resolutions. We kept mobile-first in mind so from there, you add responsive modifiers 
+to change the size of your block or blocks at larger resolutions. More about all of this below.
 
 
 ## Block Containers
 
-- All block grids start with a wrapper of `block-container` that is set to `display: flex ` with `flex-wrap: wrap`.
-- `block-container` can also act as a row.
+- All block grids start with a wrapper of `block-container` that is set to `display: flex `.
+- `block-container`s have `flex-wrap: wrap` applied as well.
 - `block-container` has modifiers to allow auto-placement based on responsive breakpoints.
-- Adding a `{breakpoint}-up-{value}` class will create a grid of equally size blocks within the grid. For example: `block-container` `tablet-up-2` `laptop-up-4` would result in a grid with 2 blocks per row starting at the tablet resolution, then when the screen size reaches the laptop resolution, you would see 4 blocks per row. Each block would have the same width as well.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
@@ -24,11 +27,70 @@ Blocks are Platform UI's core structural component. Here are some of the feature
 
 ## Block Sizes
 
-- Blocks are based on a 12 column grid, they allow content to be evenly distributed. They are a mobile first approach.
-- Blocks can have responsive modifiers attached directly to them.
 - Each `.block` has a width of 100%. From there, you can add modifiers to each block to take up the desired amount of columns in the 12 column grid.
 You can use responsive modifiers on each block as well. These modiifiers change the width (or amount of columns taken) of individual blocks from each breakpoint and up. The breakpoint modifiers use min-width media queries.
 The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
+- Blocks can have responsive modifiers attached directly to them.
+
+
+The example below shows how each block lays out along the 12 column grid.
+
+<div class="block-container pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
+  <div class="block block-3 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-3</strong>
+    </div>
+  </div>
+  <div class="block block-9 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-9</strong>
+    </div>
+  </div>
+  <div class="block block-6 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-6</strong>
+    </div>
+  </div>
+  <div class="block block-6 my-2">
+    <div class="card background-light-mid">
+      <strong>Block-6</strong>
+    </div>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<div class="block-container blocks">
+  <div class="block block-3">
+    <!-- Content goes here! -->
+  </div>
+  <div class="block block-9">
+    <!-- Content goes here! -->    
+  </div>
+  <div class="block block-6">
+    <!-- Content goes here! -->
+  </div>
+  <div class="block block-6">
+    <!-- Content goes here! -->
+  </div>
+</div>
+{{< /highlight >}}
+</div>
 
 | Modifier Class | Example |
 |--|--|--| 
@@ -50,85 +112,122 @@ The `block-{number}` will always reflect the mobile, smallest breakpoint, value.
 
 You can build a grid of equally sized blocks using the block layout. This can be done in a couple ways. The first way is by adding the classes to each individual block. Something like `block` `block-3` on each block will result in a grid of 4 blocks per row.
 
-
-<div class="block-container blocks p-2">
-  <div class="block block-3">
+<div class="block-container pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
+  <div class="block block-3 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block-3</h2>
+      <p>This block takes up 3 columns and has .5rem padding.</p>
     </div>
   </div>
-  <div class="block block-3">
+  <div class="block block-3 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block-3</h2>
+      <p>This block takes up 3 columns and has .5rem padding.</p>
     </div>
   </div>
-  <div class="block block-3">
+  <div class="block block-3 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block-3</h2>
+      <p>This block takes up 3 columns and has .5rem padding.</p>
     </div>
   </div>
-  <div class="block block-3">
+  <div class="block block-3 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block-3</h2>
+      <p>This block takes up 3 columns and has .5rem padding.</p>
     </div>
   </div>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block-container blocks">
-  <div class="block block-3">
+<div class="block-container">
+  <div class="block block-3 p-2">
     <!-- Content goes here! -->
   </div>
-  <div class="block block-3">
+  <div class="block block-3 p-2">
     <!-- Content goes here! -->    
   </div>
-  <div class="block block-3">
+  <div class="block block-3 p-2">
     <!-- Content goes here! -->
   </div>
-  <div class="block block-3">
+  <div class="block block-3 p-2">
     <!-- Content goes here! -->
   </div>
 </div>
 {{< /highlight >}}
 </div>
 
-The second approach is to add the sizing classes to the wrapping `block-container`. This way prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. So an example would be `tablet-up-3`. This would give you 3 blocks per row starting at the tablet screen size.
+#### On The Block-container
 
-<div class="block-container blocks p-2 mobile-up-4">
-  <div class="block">
+The second approach is to add the sizing classes to the wrapping `block-container`. This way prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. When building from the mobile-first approach, so if you want more that one `block`
+per row at your smallest screen size, you will need to start with a `mobile-up-{number-of-blocks-per-row}` unless you want a `block` to be full width of 
+your `block-container`.
+
+Adding a `{breakpoint}-up-{value}` class will create a grid of equally size blocks within the grid. When you add the class to the `block-container` rather than an individual `block` you're saying you want that many blocks per row. So, if you had something like: `block-container` `tablet-up-2` `laptop-up-4` this would result in a grid with 1 block per row at your smallest screen size, 2 blocks per row starting at the tablet resolution, and 4 blocks per row from laptop and up. Each block would have the same width as well. Check out the example below. 
+
+Scale your window to watch the grid change.
+
+<div class="block-container tablet-up-2 laptop-up-4 pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
+  <div class="block p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
     </div>
   </div>
-  <div class="block">
+  <div class="block p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
     </div>
   </div>
-  <div class="block">
+  <div class="block p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
     </div>
   </div>
-  <div class="block">
+  <div class="block p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
     </div>
   </div>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block-container blocks mobile-up-4">
+<div class="block-container blocks tablet-up-2 laptop-up-4">
   <div class="block">
     <!-- Content goes here! -->
   </div>
@@ -158,30 +257,47 @@ You can build a responsive grid with blocks. You can add the responsive classes 
 | 1240px | laptop | `laptop-up-` |
 | 1800px | desktop | `desktop-up-` |
 
+#### On The Block
+
 Adding the responsive classes on a block means, at that resolution, the block will take up as many columns in the 12 column row that are applied via the class. For example: `<div class="block tablet-up-6 laptop-up-4"></div>` This div will take up all 12 columns at the smallest screen size, 6 columns starting at the tablet screen size, and 4 columns at the laptop screen size.
 
-On the blocks: In this example, each block will take up an entire row at the smallest screen sizes. When the screen reaches the tablet resolution, each row will contain 2 blocks, and at the laptop size, each row will have 3 blocks.
+In this example, each block will take up an entire row at the smallest screen sizes. When the screen reaches the tablet resolution, each row will contain 2 blocks, and at the laptop size, each row will have 3 blocks.
 
-<div class="block-container blocks p-2">
-  <div class="block tablet-up-6 laptop-up-4">
+<div class="block-container pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
+  <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
       <h2 class="skeleton skeleton--md"></h2>
       <p class="skeleton" data-lines="4"></p>
     </div>
   </div>
-  <div class="block tablet-up-6 laptop-up-4">
+  <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
       <h2 class="skeleton skeleton--md"></h2>
       <p class="skeleton" data-lines="4"></p>
     </div>
   </div>
-  <div class="block tablet-up-6 laptop-up-4">
+  <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
       <h2 class="skeleton skeleton--md"></h2>
       <p class="skeleton" data-lines="4"></p>
     </div>
   </div>
-  <div class="block tablet-up-6 laptop-up-4">
+  <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
       <h2 class="skeleton skeleton--md"></h2>
       <p class="skeleton" data-lines="4"></p>
@@ -191,7 +307,7 @@ On the blocks: In this example, each block will take up an entire row at the sma
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block-container blocks">
+<div class="block-container">
   <div class="block tablet-up-6 laptop-up-4">
     <!-- Content goes here! -->
   </div>
@@ -208,6 +324,73 @@ On the blocks: In this example, each block will take up an entire row at the sma
 {{< /highlight >}}
 </div>
 
+#### On The Block-container
+
+You can also add these classes to the wrapping `block-container`. As mentioned above, this method works well for equally sized grids. You use the same class names as on the block, but when the class is on the `block-container` the class is decribing how many `block`s there will be per row.
+
+Scale your window to watch the grid change.
+
+<div class="block-container tablet-up-2 laptop-up-4 pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
+  <div class="block p-2">
+    <div class="card">
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
+    </div>
+  </div>
+  <div class="block p-2">
+    <div class="card">
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
+    </div>
+  </div>
+  <div class="block p-2">
+    <div class="card">
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
+    </div>
+  </div>
+  <div class="block p-2">
+    <div class="card">
+      <h2 class="">Block</h2>
+      <p>Each block takes up all columns at mobile, 6 columns at tablet, and 3 columns at laptop</p>
+    </div>
+  </div>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<div class="block-container blocks tablet-up-2 laptop-up-4">
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
+</div>
+{{< /highlight >}}
+</div>
+
 
 ## Spacing
 
@@ -216,7 +399,22 @@ On the blocks: In this example, each block will take up an entire row at the sma
 
 Each block in the example below has padding: .5rem applied.
 
-<div class="block-container blocks p-2">
+<div class="block-container blocks p-2 pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
   <div class="block block-4">
     <div class="card">
       <h2 class="skeleton skeleton--md"></h2>
@@ -276,7 +474,22 @@ The utility classes use the BEM syntax.
 | `block--fill` | `flex-grow: 1` |
 | `block--full` | `width: 100%` |
 
-<div class="block-container blocks p-2 tablet-up-2 laptop-up-3 desktop-up-4">
+<div class="block-container blocks p-2 tablet-up-2 laptop-up-3 desktop-up-4 pos-rel">
+  <!-- Grid key background -->
+  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+    <div class="block block-1 border background-lighter"></div>
+  </div>
   <div class="block">
     <div class="card">
       <h2 class="skeleton skeleton--md"></h2>
@@ -311,16 +524,26 @@ The utility classes use the BEM syntax.
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block block--shrink">
-  <!-- Content goes here! -->
-</div>
+<div class="block-container blocks p-2 tablet-up-2 laptop-up-3 desktop-up-4 pos-rel">
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
 
-<div class="block block--fill">
-  <!-- Content goes here! -->
-</div>
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
 
-<div class="block block--full">
-  <!-- Content goes here! -->
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
+
+  <div class="block">
+    <!-- Content goes here! -->
+  </div>
+
+  <div class="block block--fill">
+    <!-- Content goes here! -->
+  </div>
 </div>
 {{< /highlight >}}
 </div>

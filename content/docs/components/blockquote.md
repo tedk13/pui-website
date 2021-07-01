@@ -8,7 +8,7 @@ Our blockquotes are similar to the browser default. We added a left border, whic
 <div class="block-container">
     <blockquote class="block laptop-up-6">
         <p class="skeleton" data-lines="3"></p>
-        <footer><p class="skeleton skeleton--sm"></p></footer>
+        <footer>—Ernest Hemingway, <cite>The Sun Also Rises</cite></footer>
     </blockquote>
 </div>
 
@@ -20,6 +20,7 @@ Our blockquotes are similar to the browser default. We added a left border, whic
     </p>
     <footer>
         <!-- Quote attribution goes here! -->
+        <cite></cite>
     </footer>
 </blockquote>
 {{< /highlight >}}
