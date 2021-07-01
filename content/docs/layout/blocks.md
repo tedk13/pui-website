@@ -175,11 +175,9 @@ You can build a grid of equally sized blocks using the block layout. This can be
 
 #### On The Block-container
 
-The second approach is to add the sizing classes to the wrapping `block-container`. This way prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. When building from the mobile-first approach, so if you want more that one `block`
-per row at your smallest screen size, you will need to start with a `mobile-up-{number-of-blocks-per-row}` unless you want a `block` to be full width of 
-your `block-container`.
+The second approach is to add the sizing classes to the wrapping `block-container`. This prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. When building from the mobile-first approach, if you want more than one `block` per row at your smallest screen size, you will need to start with a `mobile-up-{number-of-blocks-per-row}` unless you want a `block` to be full width of your `block-container`.
 
-Adding a `{breakpoint}-up-{value}` class will create a grid of equally size blocks within the grid. When you add the class to the `block-container` rather than an individual `block` you're saying you want that many blocks per row. So, if you had something like: `block-container` `tablet-up-2` `laptop-up-4` this would result in a grid with 1 block per row at your smallest screen size, 2 blocks per row starting at the tablet resolution, and 4 blocks per row from laptop and up. Each block would have the same width as well. Check out the example below. 
+Adding a `{breakpoint}-up-{value}` class will create a grid of equally-sized blocks within the grid. When you add the class to the `block-container` rather than an individual `block`, you're saying you want that many blocks per row. So, if you had something like: `block-container` `tablet-up-2` `laptop-up-4`, this would result in a grid with 1 block per row at your smallest screen size, 2 blocks per row starting at the tablet resolution, and 4 blocks per row from laptop and up. Each block would have the same width as well. Check out the example below. 
 
 Scale your window to watch the grid change.
 
@@ -259,7 +257,7 @@ You can build a responsive grid with blocks. You can add the responsive classes 
 
 #### On The Block
 
-Adding the responsive classes on a block means, at that resolution, the block will take up as many columns in the 12 column row that are applied via the class. For example: `<div class="block tablet-up-6 laptop-up-4"></div>` This div will take up all 12 columns at the smallest screen size, 6 columns starting at the tablet screen size, and 4 columns at the laptop screen size.
+Adding the responsive classes on a block means that at that resolution, the block will take up as many columns in the 12 column row that are applied via the class. For example: `<div class="block tablet-up-6 laptop-up-4"></div>` This div will take up all 12 columns at the smallest screen size, 6 columns starting at the tablet screen size, and 4 columns at the laptop screen size.
 
 In this example, each block will take up an entire row at the smallest screen sizes. When the screen reaches the tablet resolution, each row will contain 2 blocks, and at the laptop size, each row will have 3 blocks.
 

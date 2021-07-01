@@ -283,9 +283,9 @@ To ensure that your users could not interact with disabled links, it's recommend
 
 You can make colored buttons using colors from the `brand-colors` and `grayscale` maps. So `button button--navy` will set the navy background color to the button.
 
-The hover on the buttons will either darken, or lighten, based on the `lightness` of the background color applied to the button. Checkout the example below and you'll see that the darker buttons, like Navy and Black, will lighten on hover. Whereas buttons like Skyblue, Light Blue, and Beige, will darken on hover.
+The hover on the buttons will either darken or lighten, based on the `lightness` of the background color applied to the button. Check out the example below, and you'll see that the darker buttons, like Navy and Black, will lighten on hover. Whereas buttons like Skyblue, Light Blue, and Beige will darken on hover.
 
-To ensure the proper color contrast is set on the buttons for accessibility, we check the lightness of the background color. Based on the value that is returned, the text will either be white, or one of the other grayscale colors.
+To ensure the proper color contrast is set on the buttons for accessibility, we check the lightness of the background color. Based on the value that is returned, the text will either be white or one of the other grayscale colors.
 
 <i class="pi-warning text-orange"></i> **NOTE:** You can still add a text color utility class like `text-salmon` to any button you'd like and it will still work.
 
@@ -367,7 +367,7 @@ To ensure the proper color contrast is set on the buttons for accessibility, we 
 
 The secondary buttons will also work with background colors applied.
 
-The hover state is based on the applied background color just like the standard background buttons. Notice, some of the buttons below have text displayed on hover.
+The hover state is based on the applied background color, just like the standard background buttons. Notice, some of the buttons below have text displayed on hover.
 
 <div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
   <div class="block">
@@ -451,7 +451,7 @@ The hover state is based on the applied background color just like the standard 
 
 Ghost buttons can be used by applying `button--ghost` to a button class. You set the color of the text and border by adding a `button--{color}` class. This will set the color and border-color using the color from the class.
 
-When you hover over one of the buttons, it becomes inverted. The background color will change too that of the color used in the color class, and the text color will change to either white, or a darker color, based on the contrast of the background color.
+When you hover over one of the buttons, it becomes inverted. The background color will change to that of the color used in the color class, and the text color will change to either white or a darker color, based on the contrast of the background color.
 
 <div class="block-container tablet-up-4 laptop-up-6 blocks p-2">
   <div class="block">
