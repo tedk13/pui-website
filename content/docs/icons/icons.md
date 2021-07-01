@@ -1721,8 +1721,7 @@ clipboard.on('success', function(e) {
 | stroke: corner | .15" |
 | stroke: join | round |
 
-| <i class="pi-warning text-orange"></i> NOTE: Rememeber to expand to outlines before committing. |
-| ----- |
+<i class="pi-warning text-orange"></i> **NOTE:** Rememeber to expand to outlines before committing.
 
 
 ## Sizing

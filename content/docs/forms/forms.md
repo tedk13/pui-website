@@ -7,7 +7,7 @@ weight: 1
 Out of the box, our form fields have a margin-top added to them. This spacing should work just fine for smaller, simple forms. For larger,
 responsive forms, we recommend that you utilize the block layout and our spacers to build the perfect form.
 
-**Note** All of the following form elements must be nested inside the `form` class to get the desired look.
+<i class="pi-warning text-orange"></i> **Note:** All of the following form elements must be nested inside the `form` class to get the desired look.
 
 <form action="" class="form">
   <label for="first-name-a" class="form__field">First Name
@@ -39,9 +39,8 @@ To get the animation, add the class `form__field--fancy` to the `form__field`.
 You will also need to change the markup slightly. Instead of a `label` the `form__field` should now be a `div`
 put the `label` under the `input` as a sibling of the `form__field` `div`. See markup below.
 
-| <i class="pi-warning text-orange"></i> NOTE: Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
-probably be best for a simple form that has text inputs. |
-| ----- |
+<i class="pi-warning text-orange"></i> **NOTE:** Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
+probably be best for a simple form that has text inputs.
 
 <form action="" class="form">
   <div class="form__field form__field--fancy">
@@ -263,7 +262,7 @@ This will replace the arrow down icon with a clock icon.
 ## Error Styles
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
-**Note** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
+<i class="pi-warning text-orange"></i> **Note:** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
 field will receive the error styling. However, if you only want to highlight on specific check or radio, simply add
 `error` to the proper input. This will give the icon as well as the corresponding label the error style.
 
@@ -481,7 +480,7 @@ consistent with the rest of the form elements. It also allows the inputs inside 
  and `flex-wrap: wrap`. If you do not want the items to wrap, but rather look like block level elements, you can simplay add
 different utility classes to the `form__option-group` wrapper. In this case, `flex--column` and `flex--nowrap`.
 
-**Note** For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your
+<i class="pi-warning text-orange"></i> **Note:** For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your
 `form__field` then adding a `legend`. See the example below.
 
 
@@ -591,7 +590,7 @@ consistent with the rest of the form elements. It also allows the inputs inside 
  and `flex-wrap: wrap`. If you do not want the items to wrap, but rather look like block level elements, you can simplay add
 different utility classes to the `form__option-group` wrapper. In this case, `flex--column` and `flex--nowrap`.
 
-**Note** For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
+<i class="pi-warning text-orange"></i> **Note:** For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
 `form__field` then adding a `legend`. See the example below.
 
 
