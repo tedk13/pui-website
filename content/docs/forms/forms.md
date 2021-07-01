@@ -212,7 +212,7 @@ the padding of the rounded input. Checkout the markup below.
 
 ## Form Light
 
-Adding a `form--light` modifier gives the form a white theme. Thhe text color and border colors are both white.
+Adding a `form--light` modifier gives the form a white theme. The text color and border colors are both white.
 
 The light modifier works with [form--bordered](/docs/forms/forms/#form-border) and [form--rounded](/docs/forms/forms/#form-rounded-border).
 
@@ -1023,13 +1023,11 @@ Here's an example of a larger responsive form using the block layout.
 
 ## Togles
 
-To create this toggle effect around 2 radio buttons you need to wrap the set of inputs in a `<div class="pui-toggle">`.
-From there, be sure to add your input, followed by it's label. These elements should be sibligns of one another and
+To create this toggle effect around two radio buttons, you need to wrap the set of inputs in a `<div class="pui-toggle">`.
+From there, be sure to add your input, followed by its label. These elements should be siblings of one another and
 children of the `pui-toggle`. Each pair of inputs and children should be siblings of one another.
 
-From a semantic perspective, we would recommend _not_ using check boxes inside the toggle. The reason being that one
-option needs to be checked for the toggle to make sense. Also, the toggle works so you that you could never select both
-options.
+From a semantic perspective, we would recommend _not_ using check boxes inside the toggle. The reason being that one option needs to be checked for the toggle to make sense. Also, the toggle works so that you could never select both options.
 
 We put the toggle inside a `fieldset` in the example below, but this is not required for the toggle to work.
 
@@ -1121,7 +1119,7 @@ If the toggle needs to be disabled, simply add the attribute `disabled` to a `fi
 ### Toggle Option Small
  
 For a smaller toggle component, use the class `toggle-small`. This is a great option for a checkbox. The idea for this toggle is to 
-use only one input and label. Think of it as a light switch. One item, one or off. 
+use only one input and label. Think of it as a light switch. One item, on or off. 
 
 <form class="pui-form">
   <div class="block-container">
