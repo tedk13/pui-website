@@ -28,31 +28,29 @@ The suffix represents the direction of the media query. `-up` generates a `min-w
 | `hide-print`          | `display: none;`  | `@media print`                                       |
 | `show-mobile-up`      | `display: block;` | `@media (min-width: 0px)`                            |
 | `show-mobile-only`    | `display: block;` | `@media (min-width: 0px) and (max-width: 767px)`     |
-| `show-mobile-down`    | `display: block;` | `@media (max-width: 767px)`                          |
 | `hide-mobile-up`      | `display: none;`  | `@media (min-width: 0px)`                            |
 | `hide-mobile-only`    | `display: none;`  | `@media (min-width: 0px) and (max-width: 767px)`     |
 | `hide-mobile-down`    | `display: none;`  | `@media (max-width: 767px)`                          |
 | `show-tablet-up`      | `display: block;` | `@media (min-width: 768px)`                          |
 | `show-tablet-only`    | `display: block;` | `@media (min-width: 768px) and (max-width: 990px)`   |
-| `show-tablet-down`    | `display: block;` | `@media (max-width: 990px)`                          |
+| `show-tablet-down`    | `display: block;` | `@media (max-width: 767px)`                          |
 | `hide-tablet-up`      | `display: none;`  | `@media (min-width: 768px)`                          |
 | `hide-tablet-only`    | `display: none;`  | `@media (min-width: 768px) and (max-width: 990px)`   |
-| `hide-tablet-down`    | `display: none;`  | `@media (max-width: 990px)`                          |
+| `hide-tablet-down`    | `display: none;`  | `@media (max-width: 767px)`                          |
 | `show-lg-tablet-up`   | `display: block;` | `@media (min-width: 991px)`                          |
 | `show-lg-tablet-only` | `display: block;` | `@media (min-width: 991px) and (max-width: 1239px)`  |
-| `show-lg-tablet-down` | `display: block;` | `@media (max-width: 1239px)`                         |
+| `show-lg-tablet-down` | `display: block;` | `@media (max-width: 990px) `                         |
 | `hide-lg-tablet-up`   | `display: none;`  | `@media (min-width: 991px)`                          |
 | `hide-lg-tablet-only` | `display: none;`  | `@media (min-width: 991px) and (max-width: 1239px)`  |
-| `hide-lg-tablet-down` | `display: none;`  | `@media (max-width: 1239px)`                         |
+| `hide-lg-tablet-down` | `display: none;`  | `@media (max-width: 990px) `                         |
 | `show-laptop-up`      | `display: block;` | `@media (min-width: 1240px)`                         |
 | `show-laptop-only`    | `display: block;` | `@media (min-width: 1240px) and (max-width: 1799px)` |
-| `show-laptop-down`    | `display: block;` | `@media (max-width: 1799px)`                         |
+| `show-laptop-down`    | `display: block;` | `@media (max-width: 1239px)`                         |
 | `hide-laptop-up`      | `display: none;`  | `@media (min-width: 1240px)`                         |
 | `hide-laptop-only`    | `display: none;`  | `@media (min-width: 1240px) and (max-width: 1799px)` |
-| `hide-laptop-down`    | `display: none;`  | `@media (max-width: 1799px)`                         |
+| `hide-laptop-down`    | `display: none;`  | `@media (max-width: 1239px)`                         |
 | `show-desktop-up`     | `display: block;` | `@media (min-width: 1800px)`                         |
-| `show-desktop-only`   | `display: block;` | `@media (min-width: 1800px) and (max-width: 1799px)` |
 | `hide-desktop-up`     | `display: none;`  | `@media (min-width: 1800px)`                         |
-| `hide-desktop-only`   | `display: none;`  | `@media (min-width: 1800px) and (max-width: 1799px)` |
+| `hide-desktop-down`   | `display: none;`  | `@media (max-width: 1799px)`                         |
 
 </div>
