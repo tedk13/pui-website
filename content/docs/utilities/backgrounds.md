@@ -75,13 +75,8 @@ If you want to remove the background color and border color on an element, add t
 
 ## Images
 
-<div class="block-container blocks mb-4">
-  <div class="block">
-    <div class="pill text--size-xs text-dark">
-      <i class="pi-bolt mr-1 text-negative"></i>
-      Requires <span class="text--bold ml-1">JavaScript</span>
-    </div> 
-  </div>
+<div class="mb-4">
+{{% requires-js %}}
 </div>
 
 You can use platform UI to add background images using data attributes and some javascript.
@@ -232,13 +227,8 @@ See the example below to see it all come together. You may notice a `ratio-` cla
 
 ## Gradient
 
-<div class="block-container blocks mb-4">
-  <div class="block">
-    <div class="pill text--size-xs text-dark">
-      <i class="pi-bolt mr-1 text-negative"></i>
-      Requires <span class="text--bold ml-1">JavaScript</span>
-    </div> 
-  </div>
+<div class="mb-4">
+{{% requires-js %}}
 </div>
 
 You can create your own custom linear gradient. Start by adding the linear-gradient class. From there, enter the values you like for your direction and color using the appropriate data attributes. See the example and table below.

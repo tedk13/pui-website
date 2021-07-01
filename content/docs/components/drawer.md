@@ -2,13 +2,8 @@
 title: Drawer
 date: 2018-07-20T12:59:15-04:00
 ---
-<div class="block-container blocks mb-4">
-  <div class="block">
-    <div class="pill text--size-xs text-dark">
-      <i class="pi-bolt mr-1 text-negative"></i>
-      Requires <span class="text--bold ml-1">JavaScript</span>
-    </div> 
-  </div>
+<div class="mb-4">
+{{% requires-js %}}
 </div>
 
 Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport. 
