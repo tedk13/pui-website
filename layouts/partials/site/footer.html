@@ -1,10 +1,36 @@
-<footer class="background-light-purple inverted text--size-sm p-4 pos-rel">
-    <div class="flex--center-content">
-        <span class="mx-2">v1.1</span>
-        <a href="https://rimdev.io" class="mx-2 text-white" title="RIMdev Blog" aria-label="RIMdev Blog">
-            <i class='pi-rimdev-circle pi-xl' aria-hidden="true"></i>
-        </a>
-        <span class="ml-2">&copy;{{ now.Format "2006"}} Ritter Insurance Marketing</span>
+<footer class="background-light-purple inverted p-4 pos-rel">
+    <div class="block-container blocks p-2">
+        <div class="block block-4">
+            <ul class="list">
+                <li>
+                    <a href="/" class="site-logo">
+                        <img src="/images/platform-ui.svg" class="h-25" alt=" Platform UI">
+                    </a>
+                    <span class="text--size-xl">Platform UI</span>
+                    <p>Built by the <a class="text-beige"  href="{{ .Site.Params.rim_url }}"
+                            target="_blank">{{ .Site.Params.rim }}</a>
+                        development team, aka <a
+                            class="text-beige" href="{{ .Site.Params.rimdev_url }}">{{ .Site.Params.rimdev }}</a>, to
+                            power our platform of staff and agent tools. </p>
+                </li>
+                <li>
+                   <p>Platform UI is available on <a class="text-beige" href="https://github.com/ritterim/platform-ui">github</a> and <a
+                           class="text-beige"
+                           href="https://www.npmjs.com/package/@ritterim/platform-ui">npm</a> and uses SkellyCSS, also on <a class="text-beige"
+                            href="https://github.com/ritterim/skellyCSS">github</a> and
+                        <a
+                            class="text-beige"
+                            href="https://www.npmjs.com/package/@ritterim/skellycss">npm</a></p>
+                </li>
+                <li>
+                    <p>Current version {{ .Site.Params.pui_version }} (npm {{ .Site.Params.npm_version }})</p>
+                </li>
+                <li>
+                    <p>&copy;{{ now.Format "2006"}} {{ .Site.Params.rim }}</p>
+                </li>
+            </ul>
+
+        </div>
+        <div class="block block-8"></div>
     </div>
 </footer>
-{{ partial "site/scripts.html" . }}
