@@ -28,3 +28,50 @@ Flexbox utilities to use when `display: flex` is being used.
 | `flex--wrap`                | `flex-wrap: wrap;`                                             |
 | `flex--nowrap`              | `flex-wrap: nowrap;`                                           |
 | `flex--center-content`      | `display: flex; align-items: center; justify-content: center;` |
+
+
+## Flex Grail
+
+<div class="flex flex--column">
+  <section class="p-3 background-navy flex--center-content">
+    <h1 class="text-white">Header</h1>
+  </section>
+  <main class="block-container flex--grow">
+    <aside class="block lg-tablet-up-2 background-med-blue flex--center-content">
+      <h1 class="text-white">Aside</h1>
+    </aside>
+    <section class="block lg-tablet-up-8 flex--center-content py-5">
+      <h1 class="text-base">Main Content</h1>
+    </section>
+    <aside class="block lg-tablet-up-2 background-med-blue flex--center-content">
+      <h1 class="text-white">Aside</h1>
+    </aside>
+  </main>
+  <footer class="p-3 background-light flex--center-content">
+    <h1 class="text-white">Footer</h1>
+  </footer>
+</div>
+
+<div class="mt-3 mb-4">
+{{< highlight html >}}
+<body class="flex flex--column">
+  <header class="p-3 background-navy flex--center-content">
+    <h1 class="text-white">Header</h1>
+  </header>
+  <main class="block-container flex--grow">
+    <aside class="block lg-tablet-up-2 background-med-blue flex--center-content">
+      <h1 class="text-white">Aside</h1>
+    </aside>
+    <section class="block lg-tablet-up-8 flex--center-content py-5">
+      <h1 class="text-base">Main Content</h1>
+    </section>
+    <aside class="block lg-tablet-up-2 background-med-blue flex--center-content">
+      <h1 class="text-white">Aside</h1>
+    </aside>
+  </main>
+  <footer class="p-3 background-light flex--center-content">
+    <h1 class="text-white">Footer</h1>
+  </footer>
+</body>
+{{< /highlight >}}
+</div>

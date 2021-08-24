@@ -1,8 +1,11 @@
 // PUI brand colors
 $brand-colors: (
-  "purple": #31225c,
-  "light-purple": #604d9e,
-  "salmon": #e58967,
+  "purple": hsla(256, 46%, 25%, 1),
+  "light-purple": hsla(254, 34%, 46%, 1),
+  "salmon": hsla(16, 71%, 65%, 1),
+  "lavender": hsla(240, 67%, 94%, 1),
+  "lavender-blush": hsla(340, 100%, 97%, 1),
+  "thistle": hsla(300, 24%, 80%, 1)
 );
 
 :root {
