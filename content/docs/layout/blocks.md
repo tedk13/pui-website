@@ -37,19 +37,19 @@ The example below shows how each block lays out along the 12 column grid.
 
 <div class="block-container pos-rel">
   <!-- Grid key background -->
-  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
+  <div class="block-container border border--color-lighter pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
   </div>
   <div class="block block-3 my-2">
     <div class="card background-light-mid">
@@ -114,19 +114,19 @@ You can build a grid of equally sized blocks using the block layout. This can be
 
 <div class="block-container pos-rel">
   <!-- Grid key background -->
-  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
+  <div class="block-container border border--color-lighter pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
   </div>
   <div class="block block-3 p-2">
     <div class="card">
@@ -183,19 +183,19 @@ Scale your window to watch the grid change.
 
 <div class="block-container tablet-up-2 laptop-up-4 pos-rel">
   <!-- Grid key background -->
-  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
+  <div class="block-container border border--color-lighter pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
   </div>
   <div class="block p-2">
     <div class="card">
@@ -263,19 +263,19 @@ In this example, each block will take up an entire row at the smallest screen si
 
 <div class="block-container pos-rel">
   <!-- Grid key background -->
-  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
+  <div class="block-container border border--color-lighter pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
   </div>
   <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
@@ -330,19 +330,19 @@ Scale your window to watch the grid change.
 
 <div class="block-container tablet-up-2 laptop-up-4 pos-rel">
   <!-- Grid key background -->
-  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
+  <div class="block-container border border--color-lighter pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
   </div>
   <div class="block p-2">
     <div class="card">
@@ -399,19 +399,19 @@ Each block in the example below has padding: .5rem applied.
 
 <div class="block-container blocks p-2 pos-rel">
   <!-- Grid key background -->
-  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
+  <div class="block-container border border--color-lighter pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
   </div>
   <div class="block block-4">
     <div class="card">
@@ -474,19 +474,19 @@ The utility classes use the BEM syntax.
 
 <div class="block-container blocks p-2 tablet-up-2 laptop-up-3 desktop-up-4 pos-rel">
   <!-- Grid key background -->
-  <div class="block-container pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
-    <div class="block block-1 border sg-column"></div>
+  <div class="block-container border border--color-lighter pos-abs pin-top pin-right pin-bottom pin-left" style="z-index: -1">
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
+    <div class="block block-1 sg-column"></div>
   </div>
   <div class="block">
     <div class="card">
