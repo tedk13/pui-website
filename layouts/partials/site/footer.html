@@ -1,36 +1,53 @@
-<footer class="background-light-purple inverted p-4 pos-rel">
-    <div class="block-container blocks p-2">
-        <div class="block block-4">
-            <ul class="list">
-                <li>
-                    <a href="/" class="site-logo">
-                        <img src="/images/platform-ui.svg" class="h-25" alt=" Platform UI">
-                    </a>
-                    <span class="text--size-xl">Platform UI</span>
-                    <p>Built by the <a class="text-beige"  href="{{ .Site.Params.rim_url }}"
-                            target="_blank">{{ .Site.Params.rim }}</a>
-                        development team, aka <a
-                            class="text-beige" href="{{ .Site.Params.rimdev_url }}">{{ .Site.Params.rimdev }}</a>, to
-                            power our platform of staff and agent tools. </p>
-                </li>
-                <li>
-                   <p>Platform UI is available on <a class="text-beige" href="https://github.com/ritterim/platform-ui">github</a> and <a
-                           class="text-beige"
-                           href="https://www.npmjs.com/package/@ritterim/platform-ui">npm</a> and uses SkellyCSS, also on <a class="text-beige"
-                            href="https://github.com/ritterim/skellyCSS">github</a> and
-                        <a
-                            class="text-beige"
-                            href="https://www.npmjs.com/package/@ritterim/skellycss">npm</a></p>
-                </li>
-                <li>
-                    <p>Current version {{ .Site.Params.pui_version }} (npm {{ .Site.Params.npm_version }})</p>
-                </li>
-                <li>
-                    <p>&copy;{{ now.Format "2006"}} {{ .Site.Params.rim }}</p>
-                </li>
-            </ul>
-
+<footer class="background-light-purple inverted py-3 px-4 pos-rel">
+    <div class="block-container blocks py-2 px-3">
+        <div class="block lg-tablet-up-4">
+            <div>
+                <a href="/" class="site-logo">
+                    <img src="/images/platform-ui.svg" class="h-25" alt=" Platform UI">
+                </a>
+                <span class="text--size-xl">Platform UI</span>
+                <p>Built by the <a class="text-beige" href="{{ .Site.Params.rim_url }}" target="_blank">{{
+                        .Site.Params.rim }}</a>
+                    development team, aka <a class="text-beige" href="{{ .Site.Params.rimdev_url }}">{{
+                        .Site.Params.rimdev }}</a>, to
+                    power our platform of staff and agent tools. </p>
+            </div>
+            <p>Platform UI is available on <a class="text-beige"
+                    href="https://github.com/ritterim/platform-ui">github</a> and <a class="text-beige"
+                    href="https://www.npmjs.com/package/@ritterim/platform-ui">npm</a> and uses SkellyCSS, also
+                on <a class="text-beige" href="https://github.com/ritterim/skellyCSS">github</a> and
+                <a class="text-beige" href="https://www.npmjs.com/package/@ritterim/skellycss">npm</a>
+            </p>
+            <p>Current version {{ .Site.Params.pui_version }} (npm {{ .Site.Params.npm_version }})</p>
+            <p class="mb-0">&copy;{{ now.Format "2006"}} {{ .Site.Params.rim }}</p>
         </div>
-        <div class="block block-8"></div>
+        <div class="block lg-tablet-up-8">
+            <div class="block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 w-100 blocks p-2">
+                <div class="block">
+                    {{ $list := (.Site.Menus.main) }}
+                    {{ $len := (len $list) }}
+                    <ul class="list">
+                        {{ range $index, $element := $list }}
+                        <li class="{{ if eq (add $index 1) $len }}mb-0{{ end }}">
+                            <a href="{{ .URL }}" class="text-beige">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="block">
+                    <ul class="list">
+                        <li>
+                            <a href="/docs/getting-started/get-started/" class="text-beige">Get Started</a>
+                        </li>
+                        <li>
+                            <a href="/docs/getting-started/accessibility/" class="text-beige">Accessibility</a>
+                        </li>
+                        <li class="mb-0">
+                            <a href="/docs/getting-started/installation/" class="text-beige">Installation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
