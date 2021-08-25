@@ -24,6 +24,7 @@
         <div class="block lg-tablet-up-8">
             <div class="block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 w-100 blocks p-2">
                 <div class="block">
+                    <h2 class="text-white text--size-md">Getting Started</h2>
                     {{ $list := (.Site.Menus.main) }}
                     {{ $len := (len $list) }}
                     <ul class="list">
@@ -32,10 +33,6 @@
                             <a href="{{ .URL }}" class="text-beige">{{ .Name }}</a>
                         </li>
                         {{ end }}
-                    </ul>
-                </div>
-                <div class="block">
-                    <ul class="list">
                         <li>
                             <a href="/docs/getting-started/get-started/" class="text-beige">Get Started</a>
                         </li>
@@ -44,6 +41,37 @@
                         </li>
                         <li class="mb-0">
                             <a href="/docs/getting-started/installation/" class="text-beige">Installation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h2 class="text-white text--size-md">More from RIMdev</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="https://www.npmjs.com/search?q=ritterim" class="text-beige">npm packages</a>
+                        </li>
+                        <li>
+                            <a href="https://www.nuget.org/packages?q=rimdev" class="text-beige">nuget packages</a>
+                        </li>
+                        <li>
+                            <a href="rimdev.io" class="text-beige">Tech blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h2 class="text-white text--size-md">More from Ritter</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="https://ritterim.com/" class="text-beige">Ritter Insurance Marketing</a>
+                        </li>
+                        <li>
+                            <a href="https://www.ritterim.com/blog/" class="text-beige">ASG</a>
+                        </li>
+                        <li>
+                            <a href="https://podcasts.apple.com/us/podcast/agent-survival-guide-podcast/id1310637866" class="text-beige">Podcasts</a>
+                        </li>
+                        <li>
+                            <a href="https://medicareful.com/" class="text-beige">Medicareful</a>
                         </li>
                     </ul>
                 </div>
