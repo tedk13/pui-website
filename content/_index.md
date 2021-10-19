@@ -16,7 +16,7 @@ Platform UI is built to give frontend developers full control over their UI's. I
 {{< block-container class="blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center" >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 Responsive
 {{< /heading >}}
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
@@ -25,7 +25,7 @@ Platform UI is powered by a responsive grid system. Your design will look great 
 {{< /block >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 Customizable
 {{< /heading >}}
 {{< figure src="/images/icons/customizable.svg" class="px-4" >}}
@@ -34,7 +34,7 @@ Helps to build a custom design by adding or removing elements, and controlling s
 {{< /block >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 Free
 {{< /heading >}}
 {{< figure src="/images/icons/github.svg" class="px-4" >}}
@@ -43,7 +43,7 @@ Created as an open source project, Platform UI is available to the general publi
 {{< /block >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 Accessible
 {{< /heading >}}
 {{< figure src="/images/icons/accessible.svg" class="px-4" >}}
@@ -60,7 +60,7 @@ Quick Start
 {{< /heading >}}
 {{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 tablet-up-4 laptop-up-5" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 Install with Package Manager
 {{< /heading >}}
 This release contains source files as well as the compiled CSS and JavaScript files.
@@ -73,7 +73,7 @@ npm install @ritterim/platform-ui
 {{< /block-container >}}
 {{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 tablet-up-4 laptop-up-5" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 CDN Links
 {{< /heading >}}
 The compiled files of all Platform UI versions are also hosted on the UNPKG content delivery network via unpkg.com
@@ -124,7 +124,7 @@ Platform UI is built to give frontend developers full control over their UI's. I
 {{< figure src="/images/icons/template.svg" >}}
 {{< /block >}}
 {{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 HTML Templates
 {{< /heading >}}
 Start your project with basic HTML template and adapt it to your needs.
@@ -137,7 +137,7 @@ Start your project with basic HTML template and adapt it to your needs.
 {{< figure src="/images/icons/fonts.svg" >}}
 {{< /block >}}
 {{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 Fonts
 {{< /heading >}}
 Import your fonts to the template.
@@ -150,7 +150,7 @@ Import your fonts to the template.
 {{< figure src="/images/icons/layout.svg" >}}
 {{< /block >}}
 {{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-lg" >}}
+{{< heading heading="h3" class="text--size-lg text-purple" >}}
 Layout
 {{< /heading >}}
 Customize it with the grid system.
