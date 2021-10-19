@@ -5,7 +5,7 @@ date: 2018-07-20T12:59:15-04:00
 
 {{< block-container class="flex--justify-center py-4 cards" >}}
 {{< block class="block-11 tablet-up-8 desktop-up-6 text--center" >}}
-{{< heading heading="h2" class="text--center" >}}
+{{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Your Project Starts Here
 {{< /heading >}}
 Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
@@ -55,7 +55,7 @@ HTML elements with accessible color combinations and screen reader utility class
 {{< /block-container >}}
 <section class="block-container flex--justify-center background-lighter py-4 px-0">
 {{< block class="block-11 tablet-up-8" >}}
-{{< heading heading="h2" class="text--center" >}}
+{{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Quick Start
 {{< /heading >}}
 {{< block-container class="flex--justify-center blocks p-2" >}}
@@ -92,7 +92,7 @@ https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/js/platform-ui.min.js
 </section>
 <section class="block-container flex--justify-center py-4 px-0">
 {{< block class="block-11 tablet-up-8 desktop-up-6" >}}
-{{< heading heading="h2" class="text--center" >}}
+{{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Setup
 {{< /heading >}}
 Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
