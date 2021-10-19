@@ -3,7 +3,7 @@ title: Platform UI
 date: 2018-07-20T12:59:15-04:00
 ---
 
-{{< block-container class="flex--justify-center py-4 cards" >}}
+{{< block-container class="flex--justify-center cards" >}}
 {{< block class="block-11 tablet-up-8 desktop-up-6 text--center" >}}
 {{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Your Project Starts Here
