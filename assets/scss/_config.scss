@@ -52,8 +52,8 @@ $brand-colors: (
   h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 4.5rem !important;
-    @media screen and (max-width: 767px){
-      font-size: 3 rem !important;
+    @media screen and (max-width: 767px) {
+      font-size: 3rem !important;
     }
   }
 }
