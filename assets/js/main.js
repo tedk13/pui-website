@@ -213,7 +213,7 @@ const copyButton = () => {
     'button',
     'button--primary',
     'background-dark',
-    'background-orange--hover',
+    'background-salmon--hover',
     'text-white',
     'button--copy',
     'text--size-sm',
