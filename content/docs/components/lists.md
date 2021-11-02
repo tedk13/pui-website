@@ -179,20 +179,3 @@ Using our utilities, icons, and modifiers, you can create some pretty fancy list
 </ul>
 {{< /highlight >}}
 </div>
-
-
-## Post Lists
-
-<div class="block-4 mb-3">
-  <div class="pill text--size-xs background-negative inverted no-border">
-    <i class="pi-flag mr-1"></i>
-    Deprecated v1.1.15
-  </div> 
-</div>
-This list style is deprecated as of v1.1.15. To see how to recreate this look using utility classes, see our example above.
-
-A `post-list` is a pretty basic list. The margin and padding is removed from the list itself. The `post-item`s which should be added to the `li`s in the list, have a `padding-bottom: 1rem` and `margin-bottom: 1rem`.
-
-Adding the class `post-list--inline` gives the list an inline look using `display: flex`.
-
-You can add some arrow icons to be in front of each `li` by adding the class `post-list--arrow`.
