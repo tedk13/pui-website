@@ -4,11 +4,10 @@
   "description": "Platform UI Styleguide and Docs",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && npm run build:copy-platform-ui && npm run build:parcel && hugo server",
-    "build": "npm install && npm run build:copy-platform-ui && npm run build:parcel && hugo",
+    "start": "npm install && npm run build:parcel && hugo server",
+    "build": "npm install && npm run build:parcel && hugo",
     "watch": "parcel watch ./assets/index.js --out-dir assets/output",
     "build:parcel": "parcel build ./assets/index.js --out-dir assets/output",
-    "build:copy-platform-ui": "shx mkdir -p assets/js && shx mkdir -p assets/css && shx mkdir -p static/css && shx cp node_modules/@ritterim/platform-ui/dist/platform-icons.eot static/css/platform-icons.eot && shx cp node_modules/@ritterim/platform-ui/dist/platform-icons.svg static/css/platform-icons.svg && shx cp node_modules/@ritterim/platform-ui/dist/platform-icons.ttf static/css/platform-icons.ttf && shx cp node_modules/@ritterim/platform-ui/dist/platform-icons.woff static/css/platform-icons.woff && shx cp node_modules/@ritterim/platform-ui/dist/platform-icons.woff2 static/css/platform-icons.woff2 && shx cp node_modules/@ritterim/platform-ui/dist/platform-ui.min.css assets/css/platform-ui.min.css && shx cp node_modules/@ritterim/platform-ui/dist/js/platform-ui.min.js assets/js/platform-ui.min.js"
   },
   "keywords": [],
   "author": "RIMdev",
