@@ -7,7 +7,7 @@
     "start": "npm install && npm run build:parcel && hugo server",
     "build": "npm install && npm run build:parcel && hugo",
     "watch": "parcel watch ./assets/index.js --out-dir assets/output",
-    "build:parcel": "parcel build ./assets/index.js --out-dir assets/output",
+    "build:parcel": "parcel build ./assets/index.js --out-dir assets/output"
   },
   "keywords": [],
   "author": "RIMdev",
