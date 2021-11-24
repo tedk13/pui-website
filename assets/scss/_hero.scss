@@ -22,8 +22,6 @@
     transform: translateX(-50%);
   }
   .cta {
-    top: 0;
-    left: 0;
     @media (min-width:768px){
       > div{
         background:transparentize(#32225d, 0.3);
