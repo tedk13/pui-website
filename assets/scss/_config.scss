@@ -47,17 +47,6 @@ $brand-colors: (
   }
 }
 
-.hero {
-  height: 520px;
-  h1 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 4.5rem !important;
-    @media screen and (max-width: 767px) {
-      font-size: 3rem !important;
-    }
-  }
-}
-
 
 #frame {
   flex-flow: column;

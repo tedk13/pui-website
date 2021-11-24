@@ -1,0 +1,117 @@
+.hero {
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem !important;
+    margin-top:0;
+    @media screen and (min-width: 1024px) {
+      font-size: 4.5rem !important;
+    }
+  }
+}
+
+.svg-container {
+  position: relative;
+  height: 520px;
+  width: 100%;
+  overflow: hidden;
+  #rocket-animation {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cta {
+    @media (min-width:768px){
+      > div{
+        background:transparentize(#32225d, 0.3);
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .svg-container {
+    height: auto;
+    width: auto;
+    #rocket-animation {
+      left: 0;
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @media (min-width: 768px) {
+    #rocket {
+      transform: translate(-900px, 600px) scale(0.5) rotate(-45deg);
+      animation: rocket 2s cubic-bezier(0.72, 0.13, 0.13, 1.04) forwards;
+      transform-origin: center;
+    }
+
+    #rocket > #rocket-inner {
+      animation: rocket-body 2s ease-in-out 5;
+      transform-origin: center;
+    }
+
+    #outer-flame,
+    #inner-flame {
+      transform: translate(10px, -10px);
+      animation: flame 0.5s ease-in-out 20;
+      transform-origin: bottom left;
+    }
+
+    #inner-flame {
+      animation-delay: 0.2s;
+    }
+
+    #stars {
+      transform: translate(150px, -150px);
+      animation: moving-stars 10s ease-in-out forwards;
+      animation-delay: 0.5s;
+    }
+  }
+
+  @keyframes rocket-body {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.98);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes flame {
+    0% {
+      transform: translate(10px, -10px) scale(1);
+    }
+    50% {
+      transform: translate(10px, -10px) scale(0.99);
+    }
+    100% {
+      transform: translate(10px, -10px) scale(1);
+    }
+  }
+
+  @keyframes rocket {
+    80% {
+      transform: translate(0) scale(1);
+    }
+    100% {
+      transform: translate(0) scale(1);
+    }
+  }
+
+  @keyframes moving-stars {
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-100px, 100px);
+      opacity: 0.5;
+    }
+  }
+}
