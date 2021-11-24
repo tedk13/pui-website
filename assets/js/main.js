@@ -279,3 +279,9 @@ if (codeExamples) {
     body.classList.add('overflow-hidden');
   }
 }
+
+const mobileNavButton = document.querySelector('.site-menu-mobile-action');
+mobileNavButton.addEventListener('click', () => {
+  console.log('click');
+  mobileNavButton.classList.toggle('active');
+})
