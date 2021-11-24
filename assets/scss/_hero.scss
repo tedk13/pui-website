@@ -43,15 +43,15 @@
   }
 }
 
-#rocket {
-  display: none;
-}
+// #rocket {
+//   display: none;
+// }
 
-@media (min-width: 768px) {
-  #rocket {
-    display: block;
-  }
-}
+// @media (min-width: 768px) {
+//   #rocket {
+//     display: block;
+//   }
+// }
 
 @media (prefers-reduced-motion: no-preference) {
   @media (min-width: 768px) {
