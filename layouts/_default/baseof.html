@@ -10,29 +10,8 @@
     {{ partial "site/header" . }}
 
     <div id="app" class="header-fixed flex--grow{{ if .IsHome }} home{{ end }}">
-      
       {{ if .IsHome }}
-      <div
-        class="hero background-image block-container flex--justify-center p-4 mb-4 w-100"
-        data-background-image="/images/hero/background.svg"
-        data-background-position="center bottom"
-        data-background-size="cover"
-        data-background-repeat="no-repeat">
-          <div class="block hide-lg-tablet-down tablet-up-4 p-4">
-            <div class="h-100 w-100 flex flex--justify-center">
-              <img class="h-100" src="/images/hero/platformUI-rocket.svg" alt="Platform UI Rocket">
-            </div>
-          </div>
-          <div class="block tablet-up-5 py-4">
-            <h1 class="text-white text--size-xxl text--center">Platform UI</h1>
-            <p class="text-white text--center mb-4">Fast, simple, and powerful css framework that's built with the user experience in mind.</p>
-            <div class="button-group flex flex--justify-center">
-              <a href="/docs/getting-started/get-started" class="button button--salmon button--lg text-white">Get Started</a>
-              <a href="#" class="button background-transparent text-white background-salmon--hover">New in v1.1</a>
-            </div>
-          </div>
-
-      </div>
+        {{ partial "site/hero" }}
       {{ end }}
       {{ block "main" . }}
         {{ .Content }}
