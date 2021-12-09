@@ -13,8 +13,14 @@
       {{ if .IsHome }}
         {{ partial "site/hero" }}
       {{ end }}
+      {{ if .IsHome }}
+      <main class="text--size-lg">
+      {{ end }}
       {{ block "main" . }}
         {{ .Content }}
+      {{ end }}
+      {{if .IsHome}}
+      </main>
       {{ end }}
     </div>
 

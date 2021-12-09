@@ -117,8 +117,8 @@ Platform UI is built to give frontend developers full control over their UI's. I
 </html>
 {{< /highlight >}}
 {{< /block >}}
-{{< block class="block-11 lg-tablet-up-8 laptop-up-5" >}}
-{{< card class="mb-3 pb-0 h-auto" >}}
+{{< block class="block-11 lg-tablet-up-8 laptop-up-5 flex flex--column flex--justify-between" >}}
+{{< card class="pb-0 h-auto" >}}
 {{< block-container class="flex--justify-center flex--align-center" >}}
 {{< block class="block-4 tablet-up-3 laptop-up-3" >}}
 {{< figure src="/images/icons/template.svg" >}}
@@ -131,7 +131,7 @@ Start your project with basic HTML template and adapt it to your needs.
 {{< /block >}}
 {{< /block-container >}}
 {{< /card >}}
-{{< card class="mb-3 pb-0 h-auto" >}}
+{{< card class="pb-0 h-auto" >}}
 {{< block-container class="flex--justify-center flex--align-center" >}}
 {{< block class="block-4 tablet-up-3 laptop-up-3" >}}
 {{< figure src="/images/icons/fonts.svg" >}}
@@ -144,7 +144,7 @@ Import your fonts to the template.
 {{< /block >}}
 {{< /block-container >}}
 {{< /card >}}
-{{< card class="mb-3 pb-0 h-auto" >}}
+{{< card class="pb-0 h-auto" >}}
 {{< block-container class="flex--justify-center flex--align-center" >}}
 {{< block class="block-4 tablet-up-3 laptop-up-3" >}}
 {{< figure src="/images/icons/layout.svg" >}}
