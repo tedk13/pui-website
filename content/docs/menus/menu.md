@@ -12,7 +12,7 @@ Our site-menu was built to be used in the header as a main site navigation. It c
 You can customize a site-menu in a few ways:
  - Add a [background-color](/docs/menus/menu/#background-color)
  - Add [borders](/docs/menus/menu/#bordered) separating menu items
- - Add an [underline on hover](/docs/menus/menu/#hoverunderline) to menu items
+ - Add an [underline on hover](/docs/menus/menu/#hover-underline) to menu items
  - Use a [dropdown](/docs/menus/menu/#dropdown) in your menu
 
 You can also make it [responsive!](/docs/menus/menu/#responsive)
@@ -559,7 +559,7 @@ If you have a logo that links to your home page, wrap that in an `a` tag with th
 Notice that this header has a navy background. You can add a background color to the site-menu and it will handle all of the text colors
 and hovers. The dropdown menu will also work with this color. But this is separate from the rest of the header. So in this case we add 
 `background-navy` to the `header` as well. We also added some padding too. These changes can all be handled by using more of our
-[utility classes](/section-utilities.html).
+[utility classes](/docs/utilities/backgrounds/).
 
 Another thing to notice is the use of `dropdown--right` on the dropdown in the menu. Since it's on the far right of the header, we don't 
 want it breaking and "hanging off" the menu. Using the `dropdown--right` modifier positions the `dropdown__content` to the right of its parent. 
@@ -629,7 +629,7 @@ When you need a horizontal list of icons, look no further than "Icon Menu". Use 
 to get the list you want. Be sure to use the specific `icon-menu` classes. With this strcuture you have
 the freedom to use any icon you want and make that icon change to whatever color you want on hover.
 Simpy change the `<icon>` class to the desired font-awesome icon you want. Then, add the `text-{color}--hover`
-class to the `icon-menu__action`. To see a list of available hover colors [click here](/section-typography.html#kssref-typography-utilities-color).
+class to the `icon-menu__action`. To see a list of available hover colors [click here](/docs/typography/typography/#color).
 
 In the example below, we're using `<a>`s on the `icon-menu__action` to build the menus. You could use a `<button>` to improve accessibility
 depending on exactly what you need. If you're going to use a button, be sure to add the class `button--plain`. This will remove the browser defaults and allow the icon to display on it's own. If you use a less semantic element like `<div>`, we would recommend adding `role="button"`.
