@@ -711,7 +711,7 @@ You can add as many icons as you'd like.
 
 ## Fixed Header
 
-To get a fixed header you can set the desired height in the config file. The `site-header` needs the modifier, `site-header--fixed`. This is what gives the header the `position: fixed` style.
+To get a fixed header, you can set the desired height in the config file. The `site-header` needs the modifier, `site-header--fixed`. This is what gives the header the `position: fixed` style.
 In order to ensure that you have proper space between your header and main content, add the class `header-fixed` to the direct sibling of your `site-header`.
 We use this in this styleguide.
 
