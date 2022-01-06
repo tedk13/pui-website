@@ -481,7 +481,7 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 </div>
 
 To make the site-menu work on smaller (mobile) devices, you need to make a few additions. First, be sure to wrap the menu using
-`site-menu-wrapper`. This is essentially a relative positioned container that the menu can be attached to. From here all you need is 
+`site-menu-wrapper`. This is essentially a relative positioned container that the menu can be attached to. From here, all you need is 
 to add the button to open the menu. Use the class `site-menu-mobile-action` to toggle the menu. **Note:** It's best practice to use 
 a `<button>` in this case. See the example below. 
 
