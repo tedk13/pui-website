@@ -180,7 +180,7 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
  
 <div class="message message--warning mb-3" data-header="">
   <p>By default, the dropdowns will open positioned to the left of their parent, but you can change the alignment.</p>
-  <p>Dropdowns can be changed to open centered, or open from the right. This can be changed by adding the modifier class
+  <p>Dropdowns can be changed to open centered or open from the right. This can be changed by adding the modifier class
      of <code>dropdown--centered</code> or <code>dropdown--right</code> to the <code>dropdown</code> class.
   </p>
 </div>
