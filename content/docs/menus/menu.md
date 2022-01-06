@@ -632,7 +632,7 @@ Simpy change the `<icon>` class to the desired font-awesome icon you want. Then,
 class to the `icon-menu__action`. To see a list of available hover colors [click here](/docs/typography/typography/#color).
 
 In the example below, we're using `<a>`s on the `icon-menu__action` to build the menus. You could use a `<button>` to improve accessibility
-depending on exactly what you need. If you're going to use a button, be sure to add the class `button--plain`. This will remove the browser defaults and allow the icon to display on it's own. If you use a less semantic element like `<div>`, we would recommend adding `role="button"`.
+depending on exactly what you need. If you're going to use a button, be sure to add the class `button--plain`. This will remove the browser defaults and allow the icon to display on its own. If you use a less semantic element like `<div>`, we would recommend adding `role="button"`.
 
 Adding `icon-menu icon-menu--vertical` creates a vertical icon menu.
 
