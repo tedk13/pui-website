@@ -4,8 +4,6 @@ layout: example
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
 ---
 
-<link rel="stylesheet" href="https://unpkg.com/@ritterim/skellycss/dist/skelly.css">
-
 <style>
 :root{
   --color-yellow: #ffeea5;
@@ -405,5 +403,3 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
     </div>
   </div>
 </footer>
-
-<script src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js"></script>
