@@ -4,6 +4,8 @@ layout: example
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/@ritterim/skellycss/dist/skelly.css">
+
 <style>
 :root{
   --color-yellow: #ffeea5;
@@ -61,67 +63,66 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
      </div>
 </div>
 
-<div class="block-container mx-3">
-  <h1 style="color:var(--color-dark-red);">Our Specialities</h1>
+<div class="block-container mx-5">
+  <h1 style="color:var(--color-dark-red);">Our Speciality Pizzas</h1>
 </div>
 
-<div class="block-container mx-3 pb-4">
+<div class="block-container cards mx-5 pb-4">
   <div class="block tablet-up-6 laptop-up-3 p-2">
-    <div class="card">
-      <img class="card__image" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
+    <div class="card hover-shadow hover-scale">
+      <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Pepperoni Pizza</h2>
-        <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+        <h2>Pepperoni</h2>
+        <p class="skeleton" data-lines="5"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
   </div>
   <div class="block tablet-up-6 laptop-up-3 p-2">
-    <div class="card">
-      <img class="card__image" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
+    <div class="card hover-shadow hover-scale">
+      <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Sausage & Pepperoni Pizza</h2>
-        <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+        <h2>Ham & Pineapple</h2>
+        <p class="skeleton" data-lines="5"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
   </div>
   <div class="block tablet-up-6 laptop-up-3 p-2">
-    <div class="card">
-      <img class="card__image" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
+    <div class="card hover-shadow hover-scale">
+      <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Bacon & Jalapeno Pizza</h2>
-        <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+        <h2>Bacon & Jalapeno</h2>
+        <p class="skeleton" data-lines="5"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
   </div>
   <div class="block tablet-up-6 laptop-up-3 p-2">
-    <div class="card">
-      <img class="card__image" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
+    <div class="card hover-shadow hover-scale">
+      <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Three Cheese Pizza</h2>
-        <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+        <h2>Three Cheese</h2>
+        <p class="skeleton" data-lines="5"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
   </div>
 </div>
 
-<div class="px-3 py-4" style="background:var(--color-yellow)">
-  <div class="block-container mx-3">
-    <div class="block block-12 laptop-up-6 text-black">
+<div class="px-3 py-4  text--center" style="background:var(--color-yellow)">
+  <div class="block-container flex--justify-center mx-5">
+    <div class="block block-8 text-black">
       <h1 style="color:var(--color-dark-red)">Build your own Pizza!</h1>
-      <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
-      <button class="button button--post button--lg modal__open text-white hover-scale" data-modal="default-modal" style="background:var(--color-dark-red)">Build Now</button>
+      <button class="button button--lg modal__open text-white hover-scale" data-modal="default-modal" style="background:var(--color-dark-red)">Build Now</button>
     </div>
   </div>
 </div>
 
-<div class="block-container mx-3">
+<div class="block-container mx-5 pt-5">
   <h1 style="color:var(--color-dark-red);">Full Menu</h1>
 </div>
-<div class="block-container mx-3 pb-4">
+<div class="block-container mx-5 pb-4">
   <div class="accordion block-12">
     <a href="#" class="accordion__header px-2 py-2 flex--justify-between flex--align-center">
       <h2 class="m-0 p-0" style="color:var(--color-red);">Appetizers</h2>
@@ -133,7 +134,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
           <div class="card">
             <div class="card__content">
               <h3>Breadsticks</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -142,7 +143,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
           <div class="card">
             <div class="card__content">
               <h3>Mozzarella Sticks</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -151,7 +152,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
           <div class="card">
             <div class="card__content">
               <h3>1/2 Dozen Wings</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -160,7 +161,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
           <div class="card">
             <div class="card__content">
               <h3>Dozen Wings</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -170,7 +171,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
   </div>
   <div class="accordion block-12">
     <a href="#" class="accordion__header px-2 py-2 flex--justify-between flex--align-center">
-      <h2 class="m-0 p-0" style="color:var(--color-red);">Pies</h2>
+      <h2 class="m-0 p-0" style="color:var(--color-red);">Entrees</h2>
       <i class="pi-angle-down accordion__icon" style="color:var(--color-red)"></i>
     </a>
     <div class="accordion__content">
@@ -178,8 +179,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Breadsticks</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Spaghetti</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -187,8 +188,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Mozzarella Sticks</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Spaghetti & Meatballs</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -196,8 +197,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>1/2 Dozen Wings</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Ravioli</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -205,8 +206,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Dozen Wings</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Chicken Parmesan</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -214,9 +215,9 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
       </div>
     </div>
   </div>
-  <div class="accordion block-12">
+  <div class="accordion block-12 mb-5">
     <a href="#" class="accordion__header px-2 py-2 flex--justify-between flex--align-center">
-      <h2 class="m-0 p-0" style="color:var(--color-red);">Desserts</h2>
+      <h2 class="m-0 p-0" style="color:var(--color-red);">Subs</h2>
       <i class="pi-angle-down accordion__icon" style="color:var(--color-red)"></i>
     </a>
     <div class="accordion__content">
@@ -224,8 +225,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Breadsticks</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Italian</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -233,8 +234,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Mozzarella Sticks</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Cheeseburger</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -242,8 +243,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>1/2 Dozen Wings</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Turkey</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -251,8 +252,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Dozen Wings</h3>
-              <p>Pizza ipsum dolor amet pepperoni NY style meatball sausage garlic sauce broccoli. Meatball meatball melted cheese garlic NY style Chicago style chicken wing white pizza spinach. Pizza meat lovers white garlic banana peppers.</p>
+              <h3>Tuna Salad</h3>
+              <p class="skeleton" data-lines="5"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -384,6 +385,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
           <p>$7.50</p>
         </li>
       </ul>
+      <button class="button button--lg text-white hover-scale" style="background:var(--color-dark-red)">Checkout Now</button>
     </div>
   </div>
 </div>
@@ -399,11 +401,9 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
   <div class="block-container">
     <div class="block block-12 flex flex--column flex--justify-center flex--align-center">
       <img class="p-2" style="max-width:200px" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
-      <address>
-        123 Fake St. <br />
-        City, St 12345
-      </address>
-      <a class="text-white" href="tel:+15555555555">(555)-555-5555</a>
+      &copy; Pizza Town
     </div>
   </div>
 </footer>
+
+<script src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js"></script>
