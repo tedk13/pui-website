@@ -53,27 +53,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
   }
 
-  // accordion
-  let accordionHeader = document.querySelectorAll('.accordion__header');
-
-  if (accordionHeader) {
-    accordionHeader.forEach(function (el) {
-      el.addEventListener('click', function (e) {
-        let accordion = el.parentElement;
-        e.preventDefault();
-        accordion.classList.toggle('active');
-      });
-
-      el.addEventListener('keydown', function (e) {
-        let accordion = el.parentElement;
-        if (e.keyCode === 13) {
-          e.preventDefault();
-          accordion.classList.toggle('active');
-        }
-      });
-    });
-  }
-
   // loader
   let loaderButton = document.querySelector('.loader-submit');
   let loaderModalButton = document.querySelector('.loader-modal');
