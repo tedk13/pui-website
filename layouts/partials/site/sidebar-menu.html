@@ -1,14 +1,14 @@
 {{ $page := .currentPage}}
 {{ range .menu }}
-{{ if in .URL $page.Section }}
+{{ if in .RelPermalink $page.Section }}
 <ul class="sidebar-menu list{{ if ne .FirstSection .Page }} accordion__content py-2 {{ end }}{{ if .IsAncestor $page }} active{{ end }}">
     {{ if .Sections }}
         {{- partial "site/sidebar-menu-item" (dict "menu" .Sections "currentPage" $page)}}
     {{ end }}
-    {{ $sectionPages := where .Pages "File.Dir" "in" .Dir }}
+    {{ $sectionPages := where .Pages "File.Dir" "in" .File.Dir }}
     {{ range $sectionPages }}
         <li class="mb-0 flex">
-            <a href="{{ .URL }}" class="text-base pr-3 py-2 pl-4 w-100 text-light--hover{{ if eq . $page }} active{{ end }}">{{ .Name }}</a>
+            <a href="{{ .RelPermalink }}" class="text-base pr-3 py-2 pl-4 w-100 text-light--hover{{ if eq . $page }} active{{ end }}">{{ .Name }}</a>
         </li>
     {{ end }}
 </ul>
