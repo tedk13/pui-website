@@ -484,7 +484,7 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>
@@ -512,7 +512,7 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>
@@ -898,7 +898,7 @@ Here's an example of a larger responsive form using the block layout.
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>
@@ -1014,7 +1014,7 @@ Here's an example of a larger responsive form using the block layout.
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>

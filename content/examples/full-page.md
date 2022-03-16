@@ -389,7 +389,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
 </div>
 
 <div class="pos-fix pin-right pin-bottom p-4">
-<button class="button button--post button--lg drawer__open text-white hover-scale" style="background:var(--color-dark-red)" data-drawer="right">
+<button class="button button--lg drawer__open text-white hover-scale" style="background:var(--color-dark-red)" data-drawer="right">
   <i class='pi-tag mr-2'></i>
   View Cart
 </button>

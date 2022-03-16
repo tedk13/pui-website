@@ -30,7 +30,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 ## Standard
 
 <div class="block mb-3">
-    <button class="button button--post button--lg modal__open" data-modal="default-modal">Standard Modal</button>
+    <button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
 </div>
 
 <div id="default-modal" class="modal modal--closed" tabindex="-1">
@@ -51,7 +51,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Modal Trigger -->
-<button class="button button--post button--lg modal__open" data-modal="default-modal">Standard Modal</button>
+<button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
 
 <!-- Standard Modal -->
 <div id="default-modal" class="modal modal--closed">
@@ -75,7 +75,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 ## Small
 
 <div class="block mb-3">
-    <button class="button button--post button--lg modal__open" data-modal="small-modal">Small Modal</button>
+    <button class="button button--lg modal__open" data-modal="small-modal">Small Modal</button>
 </div>
 <div id="small-modal" class="modal modal--small modal--closed" tabindex="-1">
   <div class="modal__inner">
@@ -92,7 +92,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Modal Trigger -->
-<button class="button button--post button--lg modal__open" data-modal="small-modal">Small Modal</button>
+<button class="button button--lg modal__open" data-modal="small-modal">Small Modal</button>
 
 <!-- Small Modal -->
  <div id="small-modal" class="modal modal--small modal--closed">
@@ -116,7 +116,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 ## Centered
 
 <div class="block mb-3">
-  <button class="button button--post button--lg modal__open" data-modal="centered-modal">Centered Modal</button>
+  <button class="button button--lg modal__open" data-modal="centered-modal">Centered Modal</button>
 </div>
 <div id="centered-modal" class="modal modal--centered modal--closed" tabindex="-1">
   <div class="modal__inner">
@@ -133,7 +133,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Modal Trigger -->
-<button class="button button--post button--lg modal__open" data-modal="centered-modal">Centered Modal</button>
+<button class="button button--lg modal__open" data-modal="centered-modal">Centered Modal</button>
 
 <!-- Centered Modal -->
 <div id="centered-modal" class="modal modal--centered modal--closed">
@@ -157,7 +157,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 ## Large
 
 <div class="block mb-3">
-    <button class="button button--post button--lg modal__open" data-modal="large-modal">Large Modal</button>
+    <button class="button button--lg modal__open" data-modal="large-modal">Large Modal</button>
 </div>
 <div id="large-modal" class="modal modal--large modal--closed" tabindex="-1">
   <div class="modal__inner">
@@ -176,7 +176,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Modal Trigger -->
-<button class="button button--post button--lg modal__open" data-modal="large-modal">Large Modal</button>
+<button class="button button--lg modal__open" data-modal="large-modal">Large Modal</button>
 
 <!-- Large Modal -->
 <div id="large-modal" class="modal modal--large modal--closed">
@@ -200,7 +200,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 ## Full Screen
 
 <div class="block">
-  <button class="button button--post button--lg modal__open" data-modal="full-modal">Full Screen Modal</button>
+  <button class="button button--lg modal__open" data-modal="full-modal">Full Screen Modal</button>
 </div>
 
 <div id="full-modal" class="modal modal--full modal--closed" tabindex="-1">
@@ -222,7 +222,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Modal Trigger -->
-<button class="button button--post button--lg modal__open" data-modal="full-modal">Full Screen Modal</button>
+<button class="button button--lg modal__open" data-modal="full-modal">Full Screen Modal</button>
 
 <!-- Full Screen Modal -->
 <div id="full-modal" class="modal modal--full modal--closed">
@@ -250,7 +250,7 @@ a modal title as well as a close button. In the case of most dialogs, the option
 header can seem unecessarry. See the code example below.
 
 <div class="block mb-3">
-    <button class="button button--post button--lg modal__open" data-modal="dialog-modal">Dialog Modal</button>
+    <button class="button button--lg modal__open" data-modal="dialog-modal">Dialog Modal</button>
 </div>
 
  <div id="dialog-modal" class="modal modal--small modal--centered modal--closed" tabindex="-1">
@@ -259,7 +259,7 @@ header can seem unecessarry. See the code example below.
        <p class="skeleton" data-lines="2"></p>
        <div class="block-container blocks p-3"> 
          <div class="block flex flex--justify-center">
-           <button class="button button--post mx-2 modal__close" data-modal="dialog-modal">
+           <button class="button mx-2 modal__close" data-modal="dialog-modal">
              Yes
            </button>
            <button class="button mx-2 modal__close" data-modal="dialog-modal">
@@ -274,14 +274,14 @@ header can seem unecessarry. See the code example below.
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Modal Trigger -->
-<button class="button button--post button--lg modal__open" data-modal="dialog-modal">Modal</button>
+<button class="button button--lg modal__open" data-modal="dialog-modal">Modal</button>
 
 <!-- Dialog Modal -->
 <div id="dialog-modal" class="modal modal--small modal--centered modal--closed">
   <div class="modal__inner">
     <div class="modal__content">
       <!-- Modal content goes here! -->
-      <button class="button button--post modal__close" data-modal="dialog-modal">
+      <button class="button modal__close" data-modal="dialog-modal">
         Yes
       </button>
       <button class="button modal__close" data-modal="dialog-modal">
@@ -298,7 +298,7 @@ header can seem unecessarry. See the code example below.
 
 If you would like to add a message to a modal, you can add it after `modal__content`. If the message is a sibling of `modal__content`, the message will be the full width of the modal as seen in the example. You can simply use use the message inside `modal__content` if you would like the message to have the same padding as the rest of of the modal content. If you want the message to be aligned to the bottom of the modal you'll need to remove the margin of the message with a spacer modifier class (`my-0`, `m-0`). See the example below.
 
-<button class="button button--post button--lg modal__open" data-modal="message-modal">Message Modal</button>
+<button class="button button--lg modal__open" data-modal="message-modal">Message Modal</button>
 
 <div id="message-modal" class="modal modal--centered modal--closed" tabindex="-1">
   <div class="modal__inner">
@@ -320,7 +320,7 @@ If you would like to add a message to a modal, you can add it after `modal__cont
 
 <!-- Modal Trigger -->
 
-<button class="button button--post button--lg modal__open" data-modal="message-modal">Message Modal</button>
+<button class="button button--lg modal__open" data-modal="message-modal">Message Modal</button>
 
 <!-- Message Modal -->
 <div id="message-modal" class="modal modal--centered modal--closed">
