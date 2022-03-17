@@ -23,14 +23,14 @@
                 </button>
             </div>
             <nav role="sidebar">
-                <div class="form form--rounded mb-3 px-2">
+                <!-- <div class="form form--rounded mb-3 px-2">
                     <label for="search" class="form__field pos-rel">
                         <span class="sr-only">Type to Search</span>
                         <input id="search" class="pl-4" type="text" placeholder="Type to Search">
                         <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1"
                             aria-hidden="true"></i>
                     </label>
-                </div>
+                </div> -->
                 {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
             </nav>
           </div>
@@ -41,13 +41,6 @@
     <!-- Nav Drawer (Tablet and up) -->
     <div id="frame-nav" class="hide-lg-tablet-down tablet-up-3 lg-tablet-up-2">
       <nav id="sidebar-left" role="sidebar">
-        <div class="form form--rounded px-2 my-3">
-          <label for="search" class="form__field pos-rel">
-            <span class="sr-only">Type to Search</span>
-            <input id="search" class="pl-4" type="text" placeholder="Type to Search">
-            <i class="pi-search pos-abs pin-left pin-center-top ml-2 pl-1" aria-hidden="true"></i>
-          </label>
-        </div>
         {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
       </nav>
     </div>
