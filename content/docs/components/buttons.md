@@ -72,24 +72,6 @@ You can use `has-text` in combination with `data-button-text="Some Text"` and yo
 </div>
 
 
-## Post
-
-Used exclsively in Post, or blog, content imported into the platform.
-
-- `.button` `.button--post`
-- `.button` `.button--post` `.button--lg`
-
-<button class="button button--post mb-2">Post Button</button>
-<button class="button button--post button--lg">Large Post Button</button>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<button class="button button--post mb-2">Post Button</button>
-<button class="button button--post button--lg">Large Post Button</button>
-{{< /highlight >}}
-</div>
-
-
 ## Group
 
 Evenly space any group of buttons.
@@ -130,7 +112,7 @@ Buttons with a loading icon. Example for form submissions.
     <i class="pi-download" aria-hidden="hidden"></i>
     <span class="sr-only">Loading...</span>
   </button>
-  <button class="button button--post loading mb-2" aria-label="Loading...">
+  <button class="button loading mb-2" aria-label="Loading...">
     Submit
     <span class="sr-only">Loading...</span>
   </button>
@@ -151,7 +133,7 @@ Buttons with a loading icon. Example for form submissions.
     <i class="pi-download" aria-hidden="hidden"></i>
     <span class="sr-only">Loading...</span>
   </button>
-  <button class="button button--post loading mb-2" aria-label="Loading...">
+  <button class="button loading mb-2" aria-label="Loading...">
     Submit
     <span class="sr-only">Loading...</span>
   </button>
@@ -239,7 +221,7 @@ To ensure that your users could not interact with disabled links, it's recommend
     Lock
     <i class="pi-lock" aria-hidden="hidden"></i>
   </button>
-  <button class="button button--post" disabled>
+  <button class="button" disabled>
     Submit
   </button>
 </div>
@@ -263,7 +245,7 @@ To ensure that your users could not interact with disabled links, it's recommend
     Lock
     <i class="pi-lock"></i>
   </button>
-  <button class="button button--post" disabled>
+  <button class="button" disabled>
     Submit
   </button>
 </div>

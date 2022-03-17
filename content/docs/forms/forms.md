@@ -263,55 +263,6 @@ The light modifier works with [form--bordered](/docs/forms/forms/#form-border) a
 </div>
 
 
-## Time Icon
-
-The select wrapper displays an arrow down icon. We can change that by adding the class `time`
-to the class `form__select-wrapper`. So the classes would be `form__select-wrapper time`.
-This will replace the arrow down icon with a clock icon.
-
-<form action="" class="form block-container">
-  <div class="block block-4">
-    <label for="task-1-time-e" class="form__field">
-      <span class="sr-only">Time Icon Example</span>
-      <div class="form__select-wrapper time" id="task-1-time-e">
-        <select class="px-2" name="Select a time" id="task-1-time-select-e">
-          <option value="8:00 AM">8:00 AM</option>
-          <option value="8:30 AM">8:30 AM</option>
-          <option value="9:00 AM">9:00 AM</option>
-          <option value="9:30 AM">9:30 AM</option>
-          <option value="10:00 AM">10:00 AM</option>
-          <option value="10:30 AM">10:30 AM</option>
-        </select>
-        <i class="pi-clock"></i>
-      </div>
-    </label>
-  </div>
-</form>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<form action="" class="form block-container">
-  <div class="block block-4">
-    <label for="task-1-time-e" class="form__field">
-      <span class="sr-only">Time Icon Example</span>
-      <div class="form__select-wrapper time" id="task-1-time-e">
-        <select class="px-2" name="Select a time" id="task-1-time-select-e">
-          <option value="8:00 AM">8:00 AM</option>
-          <option value="8:30 AM">8:30 AM</option>
-          <option value="9:00 AM">9:00 AM</option>
-          <option value="9:30 AM">9:30 AM</option>
-          <option value="10:00 AM">10:00 AM</option>
-          <option value="10:30 AM">10:30 AM</option>
-        </select>
-        <i class="pi-clock"></i>
-      </div>
-    </label>
-  </div>
-</form>
-{{< /highlight >}}
-</div>
-
-
 ## Error Styles
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
@@ -484,7 +435,7 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>
@@ -512,7 +463,7 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>
@@ -898,7 +849,7 @@ Here's an example of a larger responsive form using the block layout.
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>
@@ -1014,7 +965,7 @@ Here's an example of a larger responsive form using the block layout.
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--post button--lg">Submit</button>
+      <button class="button button--lg">Submit</button>
     </div>
   </div>
 </form>

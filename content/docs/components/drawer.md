@@ -16,7 +16,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 | `.drawer-left`        | Drawer opens from left side of the viewport     |
 
 <div class="block-container mt-3">
-  <button class="button button--post button--lg drawer__open" data-drawer="default">
+  <button class="button button--lg drawer__open" data-drawer="default">
     Toggle default drawer
   </button>
 </div>
@@ -41,7 +41,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 <div class="mt-3">
 {{< highlight html >}}
 <!-- Drawer Trigger -->
-<button class="button button--post button--lg drawer__open" data-drawer="default">
+<button class="button button--lg drawer__open" data-drawer="default">
   Toggle default drawer
 </button>
 
@@ -73,7 +73,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 If you want a smaller drawer you can add the modifier class `.drawer--single-row`. This modifier class has a min-height and is best used in cases where less content will be needed.
 
 <div class="block-container">
-  <button class="button button--post button--lg drawer__open" data-drawer="single-row">
+  <button class="button button--lg drawer__open" data-drawer="single-row">
     Toggle single row drawer
   </button>
 </div>
@@ -94,7 +94,7 @@ If you want a smaller drawer you can add the modifier class `.drawer--single-row
 <div class="mt-3">
 {{< highlight html>}}
 <!-- Drawer trigger -->
-<button class="button button--post button--lg drawer__open" data-drawer="single-row">
+<button class="button button--lg drawer__open" data-drawer="single-row">
   Toggle single row drawer
 </button>
 
@@ -122,7 +122,7 @@ If you want a smaller drawer you can add the modifier class `.drawer--single-row
 
 The default drawer opens from the bottom of the viewport, however you can also specify this by adding the `.drawer-bottom` class to the `.drawer` element.
 <div class="block-container">
-  <button class="button button--post button--lg drawer__open" data-drawer="bottom">
+  <button class="button button--lg drawer__open" data-drawer="bottom">
     Toggle bottom drawer
   </button>
 </div>
@@ -147,7 +147,7 @@ The default drawer opens from the bottom of the viewport, however you can also s
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Right drawer trigger -->
-<button class="button button--post button--lg drawer__open" data-drawer="bottom">
+<button class="button button--lg drawer__open" data-drawer="bottom">
   Toggle bottom drawer
 </button>
 
@@ -175,7 +175,7 @@ Drawers can also open from the sides. Side drawers account for the fixed header.
 To open a drawer from the right side of the viewport, apply the `.drawer-right` class to the `.drawer` element.
 
 <div class="block-container">
-  <button class="button button--post button--lg drawer__open" data-drawer="right">
+  <button class="button button--lg drawer__open" data-drawer="right">
     Toggle right drawer
   </button>
 </div>
@@ -200,7 +200,7 @@ To open a drawer from the right side of the viewport, apply the `.drawer-right` 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Right drawer trigger -->
-<button class="button button--post button--lg drawer__open" data-drawer="right">
+<button class="button button--lg drawer__open" data-drawer="right">
   Toggle right drawer
 </button>
 
@@ -224,7 +224,7 @@ To open a drawer from the right side of the viewport, apply the `.drawer-right` 
 
 To open a drawer from the left side of the viewport, apply the `.drawer-left` class to the `.drawer` element.
 
-<button class="button button--post button--lg drawer__open" data-drawer="left">
+<button class="button button--lg drawer__open" data-drawer="left">
   Toggle left drawer
 </button>
 
@@ -248,7 +248,7 @@ To open a drawer from the left side of the viewport, apply the `.drawer-left` cl
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Left drawer trigger -->
-<button class="button button--post button--lg drawer__open" data-drawer="left">
+<button class="button  button--lg drawer__open" data-drawer="left">
   Toggle left drawer
 </button>
 
@@ -271,7 +271,7 @@ To open a drawer from the left side of the viewport, apply the `.drawer-left` cl
 
 This Drawer slides in from the top.
 
-<button class="button button--post button--lg drawer__open" data-drawer="top">Toggle top drawer</button>
+<button class="button button--lg drawer__open" data-drawer="top">Toggle top drawer</button>
 
 <div id="top" class="drawer drawer-top slide-top-enter-active drawer--closed p-4">
   <div class="drawer__inner">
@@ -293,7 +293,7 @@ This Drawer slides in from the top.
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <!-- Top drawer trigger -->
-<button class="button button--post button--lg drawer__open" data-drawer="top">Toggle top drawer</button>
+<button class="button button--lg drawer__open" data-drawer="top">Toggle top drawer</button>
 
 <!-- Top Drawer -->
 <div id="top" class="drawer drawer-top slide-top-enter-active drawer--closed p-4">
