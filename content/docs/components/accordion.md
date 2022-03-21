@@ -13,9 +13,7 @@ Platform UI accordions were designed to be stacked.
 
 <div class="accordion">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <p>This is an accordion header. </p>
-    </div>
+    <span class="skeleton__line mb-0 mr-2" style="background-color: #CACACA;"></span>
     <i class="pi-angle-down accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
@@ -24,9 +22,7 @@ Platform UI accordions were designed to be stacked.
 </div>
 <div class="accordion">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <p>This is an accordion header. </p>
-    </div>
+    <span class="skeleton__line mb-0 mr-2" style="background-color: #CACACA;"></span>
     <i class="pi-angle-down accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
@@ -54,9 +50,7 @@ Adding `.active` changes the default header bar background and hover highlight.
 
 <div class="accordion active">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <p>This is an accordion header.</p>
-    </div>
+    <span class="skeleton__line mb-0 mr-2" style="background-color: #CACACA;"></span>
     <i class="pi-angle-down accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
@@ -84,9 +78,7 @@ Accordions can be nested inside one of another.
 
 <div class="accordion">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <div class="flex flex--align-center">
-      <p>This is an accordion header.</p>
-    </div>
+    <span class="skeleton__line mb-0 mr-2" style="background-color: #CACACA;"></span>
     <i class="pi-angle-down accordion__icon text-med-blue"></i>
   </a>
   <div class="accordion__content">
