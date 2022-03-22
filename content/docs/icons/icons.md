@@ -1713,14 +1713,6 @@ clipboard.on('success', function(e) {
 
 ## Setup
 
-| source| default|
-| ------- | ----- |
-| artboard | 4" x 4" |
-| stroke: main | 24pt |
-| stroke: auxiliary\* | 18pt |
-| stroke: corner | .15" |
-| stroke: join | round |
-
 <table class="table mb-4">
   <thead>
     <tr>
@@ -1764,4 +1756,35 @@ clipboard.on('success', function(e) {
 | `pi-lg`  | `font-size: 1.5rem` |
 | `pi-xl`  | `font-size: 2rem  ` |
 | `pi-xxl` | `font-size: 3rem  ` |
+
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class">pi-xs</td>
+      <td data-label="Size">font-size: .5rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-sm</td>
+      <td data-label="Size">font-size: .75rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-lg</td>
+      <td data-label="Size">font-size: 1.5rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-xl</td>
+      <td data-label="Size">font-size: 2rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-xxl</td>
+      <td data-label="Size">font-size: 3rem</td>
+    </tr>
+  </tbody>
+</table>
 
