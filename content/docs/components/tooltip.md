@@ -9,12 +9,32 @@ Add your tooltip text to a `data-tooltip` attribute on any item you want a toolt
 
 To specify the placement of your tooltip, add a `tooltip-{direction}` class. Directions include:
 
-| Modifier Class    | Direction |
-| ----------------- | --------- |
-| `.tooltip-top`    | Top       | 
-| `.tooltip-right`  | Right     |
-| `.tooltip-bottom` | Bottom    |
-| `.tooltip-left`   | Left      |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Modifier Class</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Modifier Class"><code>.tooltip-top</code></td>
+      <td data-label="Description">Top</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.tooltip-right</code></td>
+      <td data-label="Description">Right</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.tooltip-bottom</code></td>
+      <td data-label="Description">Bottom</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.tooltip-left</code></td>
+      <td data-label="Description">Left</td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="block-container pb-3 flex flex--justify-between">
   <div class="tooltip-right" data-tooltip="This is a right facing tooltip.">right</div>
