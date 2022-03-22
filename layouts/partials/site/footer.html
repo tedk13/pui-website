@@ -16,7 +16,7 @@
                 on <a class="text-beige" href="https://github.com/ritterim/skellyCSS" target="_blank">github</a> and
                 <a class="text-beige" href="https://www.npmjs.com/package/@ritterim/skellycss" target="_blank">npm</a>
             </p>
-            <p>Current version {{ .Site.Params.pui_version }} (npm {{ .Site.Params.npm_version }})</p>
+            <p>Current version {{ os.ReadFile ".pui-version" }} (npm {{ os.ReadFile ".npm-version" }})</p>
             <p class="mb-0">&copy;{{ now.Format "2006"}} {{ .Site.Params.rim }}</p>
         </div>
         <div class="block lg-tablet-up-8">
