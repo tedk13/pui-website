@@ -5,12 +5,32 @@ date: 2018-07-20T12:59:15-04:00
 
 Messages can be used to display important information that will stand out on the screen.
 
-| Modifier Class      | Description            |
-| ------------------- | ---------------------- |
-| `.message--success` | Green success message  |
-| `.message--error`   | Red error message      |
-| `.message--warning` | Yellow warning message |
-| `.message--info`    | Blue info message      |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Modifier Class</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Modifier Class"><code>.message--success</code></td>
+      <td data-label="Description">Green success message</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.message--error</code></td>
+      <td data-label="Description">Red error message</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.message--warning</code></td>
+      <td data-label="Description">Yellow warning message</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.message--info</code></td>
+      <td data-label="Description">Blue info message</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Success
