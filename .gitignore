@@ -12,3 +12,5 @@ static/css/
 # JetBrains Rider
 .idea/
 
+# Hugo Things
+.hugo_build.lock
