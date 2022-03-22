@@ -1721,6 +1721,37 @@ clipboard.on('success', function(e) {
 | stroke: corner | .15" |
 | stroke: join | round |
 
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>source</th>
+      <th>default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="source">artboard</td>
+      <td data-label="default">4" x 4"</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: main</td>
+      <td data-label="default">24pt</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: auxiliary&#42;</td>
+      <td data-label="default">18pt</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: corner</td>
+      <td data-label="default">.15"</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: join</td>
+      <td data-label="default">round</td>
+    </tr>
+  </tbody>
+</table>
+
 <i class="pi-warning text-orange"></i> **NOTE:** Rememeber to expand to outlines before committing.
 
 
