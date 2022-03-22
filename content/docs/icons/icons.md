@@ -1749,14 +1749,6 @@ clipboard.on('success', function(e) {
 
 ## Sizing
 
-| Class    | Size                |
-| -------- | ------------------- |
-| `pi-xs`  | `font-size: .5rem ` |
-| `pi-sm`  | `font-size: .75rem` |
-| `pi-lg`  | `font-size: 1.5rem` |
-| `pi-xl`  | `font-size: 2rem  ` |
-| `pi-xxl` | `font-size: 3rem  ` |
-
 <table class="table mb-4">
   <thead>
     <tr>
