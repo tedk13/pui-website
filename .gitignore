@@ -12,3 +12,5 @@ static/css/
 # JetBrains Rider
 .idea/
 
+.npm-version
+.pui-version
