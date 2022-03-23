@@ -5,24 +5,64 @@ date: 2018-07-20T12:59:15-04:00
 
 You can add or hide specific overflow on an element with the following classes.
 
-<div class="mb-3">
-
-| Classes               | CSS Attribute          |
-| --------------------- | ---------------------- |
-| `overflow-visible`    | `overflow: visible;`   |
-| `overflow-hidden`     | `overflow: hidden;`    |
-| `overflow-scroll`     | `overflow: scroll;`    |
-| `overflow-auto`       | `overflow: auto;`      |
-| `overflow-y--visible` | `overflow-y: visible;` |
-| `overflow-y--hidden`  | `overflow-y: hidden;`  |
-| `overflow-y--scroll`  | `overflow-y: scroll;`  |
-| `overflow-y--auto`    | `overflow-y: auto;`    |
-| `overflow-x--visible` | `overflow-x: visible;` |
-| `overflow-x--hidden`  | `overflow-x: hidden;`  |
-| `overflow-x--scroll`  | `overflow-x: scroll;`  |
-| `overflow-x--auto`    | `overflow-x: auto;`    |
-
-</div>
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Classes</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Classes"><code>overflow-visible</code></td>
+      <td data-label="CSS Attribute"><code>overflow: visible;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-hidden</code></td>
+      <td data-label="CSS Attribute"><code>overflow: hidden;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-scroll</code></td>
+      <td data-label="CSS Attribute"><code>overflow: scroll;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-auto</code></td>
+      <td data-label="CSS Attribute"><code>overflow: auto;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-y--visible</code></td>
+      <td data-label="CSS Attribute"><code>overflow-y: visible;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-y--hidden</code></td>
+      <td data-label="CSS Attribute"><code>overflow-y: hidden;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-y--scroll</code></td>
+      <td data-label="CSS Attribute"><code>overflow-y: scroll;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-y--auto</code></td>
+      <td data-label="CSS Attribute"><code>overflow-y: auto;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-x--visible</code></td>
+      <td data-label="CSS Attribute"><code>overflow-x: visible;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-x--hidden</code></td>
+      <td data-label="CSS Attribute"><code>overflow-x: hidden;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-x--scroll</code></td>
+      <td data-label="CSS Attribute"><code>overflow-x: scroll;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>overflow-x--auto</code></td>
+      <td data-label="CSS Attribute"><code>overflow-x: auto;</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <p class="mb-2">
     <i class="pi-rocket mr-1 text-negative"></i>
