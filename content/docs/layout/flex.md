@@ -6,10 +6,24 @@ Building layouts with flexbox is super simple with Platform UI using our flex ut
 ## Display
 Set an element's display property to flex or inline-flex.
 
-| Class Name                  | CSS Attribute                                                  |
-| --------------------------- | -------------------------------------------------------------- |
-| `flex`                      | `display: flex;`                                               |
-| `flex-inline`               | `display: inline-flex`                                         |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>flex</code></td>
+      <td data-label="CSS Attribute"><code>display: flex;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex-inline</code></td>
+      <td data-label="CSS Attribute"><code>display: inline-flex</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Align
 Sets the flex container to align all contained elements to either the start, center, end, or baseline points of the container.
@@ -58,12 +72,33 @@ Sets the flex container to align all contained elements to either the start, cen
   </div>
 </div>
 
-| Class Name             | CSS Attribute              |
-| ---------------------- | -------------------------- |
-| `flex--align-center`   | `align-items: center;`     |
-| `flex--align-start`    | `align-items: flex-start;` |
-| `flex--align-end`      | `align-items: flex-end;`   |
-| `flex--align-baseline` | `align-items: baseline;`   |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-center</code></td>
+      <td data-label="CSS Attribute"><code>align-items: center;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-start</code></td>
+      <td data-label="CSS Attribute"><code>align-items: flex-start;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-end</code></td>
+      <td data-label="CSS Attribute"><code>align-items: flex-end;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-baseline</code></td>
+      <td data-label="CSS Attribute"><code>align-items: baseline;</code></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Align-self
 Sets individual elements to align to either the start, center, end, or baseline points of a flex container.
 
@@ -111,12 +146,33 @@ Sets individual elements to align to either the start, center, end, or baseline 
   </div>
 </div>
 
-| Class Name                  | CSS Attribute             |
-| --------------------------- | ------------------------- |
-| `flex--align-self-center`   | `align-self: center;`     |
-| `flex--align-self-start`    | `align-self: flex-start;` |
-| `flex--align-self-end`      | `align-self: flex-end;`   |
-| `flex--align-self-baseline` | `align-self: baseline;`   |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-self-center</code></td>
+      <td data-label="CSS Attribute"><code>align-self: center;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-self-start</code></td>
+      <td data-label="CSS Attribute"><code>align-self: flex-start;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-self-end</code></td>
+      <td data-label="CSS Attribute"><code>align-self: flex-end;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--align-self-baseline</code></td>
+      <td data-label="CSS Attribute"><code>align-self: baseline;</code></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Justify
 Sets individual elements to align to either the start, center, end, or baseline points of a flex container.
 
@@ -169,13 +225,36 @@ Sets individual elements to align to either the start, center, end, or baseline 
   </div>
 </div>
 
-| Class Name              | CSS Attribute                     |
-| ----------------------- | --------------------------------- |
-| `flex--justify-start`   | `justify-content: flex-start;`    |
-| `flex--justify-center`  | `justify-content: center;`        |
-| `flex--justify-end`     | `justify-content: flex-end;`      |
-| `flex--justify-between` | `justify-content: space-between;` |
-| `flex--justify-around`  | `justify-content: space-around;`  |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>flex--justify-start</code></td>
+      <td data-label="CSS Attribute"><code>justify-content: flex-start;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--justify-center</code></td>
+      <td data-label="CSS Attribute"><code>justify-content: center;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--justify-end</code></td>
+      <td data-label="CSS Attribute"><code>justify-content: flex-end;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--justify-between</code></td>
+      <td data-label="CSS Attribute"><code>justify-content: space-between;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--justify-around</code></td>
+      <td data-label="CSS Attribute"><code>justify-content: space-around;</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Direction
 Utility classes to handle the direction of elements within a flex container.
@@ -225,11 +304,28 @@ Utility classes to handle the direction of elements within a flex container.
   </div>
 </div>
 
-| Class Name             | CSS Attribute                     |
-| ---------------------- | --------------------------------- |
-| `flex--row-reverse`    | `flex-direction: row-reverse;`    |
-| `flex--column`         | `flex-direction: column;`         |
-| `flex--column-reverse` | `flex-direction: column-reverse;` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>flex--row-reverse</code></td>
+      <td data-label="CSS Attribute"><code>flex-direction: row-reverse;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--column</code></td>
+      <td data-label="CSS Attribute"><code>flex-direction: column;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--column-reverse</code></td>
+      <td data-label="CSS Attribute"><code>flex-direction: column-reverse;</code></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Content
@@ -297,9 +393,29 @@ Utility classes to handle wrapping, spacing, and centering of content within a f
   </div>
 </div>
 
-| Class Name             | CSS Attribute                                                  |
-| ---------------------- | -------------------------------------------------------------- |
-| `flex--grow`           | `flex-grow: 1;`                                                |
-| `flex--wrap`           | `flex-wrap: wrap;`                                             |
-| `flex--nowrap`         | `flex-wrap: nowrap;`                                           |
-| `flex--center-content` | `display: flex; align-items: center; justify-content: center;` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>flex--grow</code></td>
+      <td data-label="CSS Attribute"><code>flex-grow: 1;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--wrap</code></td>
+      <td data-label="CSS Attribute"><code>flex-wrap: wrap;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--nowrap</code></td>
+      <td data-label="CSS Attribute"><code>flex-wrap: nowrap;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>flex--center-content</code></td>
+      <td data-label="CSS Attribute"><code>display: flex; align-items: center; justify-content: center;</code></td>
+    </tr>
+  </tbody>
+</table>
