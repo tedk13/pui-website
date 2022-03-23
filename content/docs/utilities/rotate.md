@@ -5,11 +5,28 @@ date: 2018-07-20T12:59:15-04:00
 
 Utility classes to rotate an element.
 
-| Class Name   | Transform        |
-| ------------ | ---------------- |
-| `rotate-45`  | `rotate(45deg)`  |
-| `rotate-90`  | `rotate(90deg)`  |
-| `rotate-180` | `rotate(180deg)` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>Transform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>rotate-45</code></td>
+      <td data-label="Transform"><code>rotate(45deg)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>rotate-90</code></td>
+      <td data-label="Transform"><code>rotate(90deg)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>rotate-180</code></td>
+      <td data-label="Transform"><code>rotate(180deg)</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="my-6">
     <div class="button-group">
