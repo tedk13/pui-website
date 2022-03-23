@@ -136,27 +136,27 @@ Sets individual elements to align to either the start, center, end, or baseline 
   <div class="actions block h-10">
     <ul class="list">
       <li>
-        <button class="button button--purple " data-class="flex--justify-start">
+        <button class="button button--purple" data-children="3" data-class="flex--justify-start">
           <pre>.flex--justify-start</pre>
         </button>
       </li>
       <li>
-        <button class="button button--purple " data-class="flex--justify-center">
+        <button class="button button--purple" data-children="3" data-class="flex--justify-center">
           <pre>.flex--justify-center</pre>
         </button>
       </li>
       <li>
-        <button class="button button--purple " data-class="flex--justify-end">
+        <button class="button button--purple" data-children="3" data-class="flex--justify-end">
           <pre>.flex--justify-end</pre>
         </button>
       </li>
       <li>
-        <button class="button button--purple " data-children="3" data-class="flex--justify-around">
+        <button class="button button--purple" data-children="3" data-class="flex--justify-around">
           <pre>.flex--justify-around</pre>
         </button>
       </li>
       <li>
-        <button class="button button--purple " data-children="3" data-class="flex--justify-between">
+        <button class="button button--purple" data-children="3" data-class="flex--justify-between">
           <pre>.flex--justify-between</pre>
         </button>
       </li>
@@ -164,6 +164,8 @@ Sets individual elements to align to either the start, center, end, or baseline 
   </div>
   <div class="results block background-dark p-2">
     <div class="example" data-defaults="flex">
+      <div class="example-element border border--color-white background-light-purple"></div>
+      <div class="example-element border border--color-white background-light-purple"></div>
       <div class="example-element border border--color-white background-light-purple"></div>
     </div>
   </div>

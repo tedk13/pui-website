@@ -7,4 +7,9 @@
     .text-#{$name} {
         color: $color !important;
     }
+    .text-#{$name}--hover {
+        &:hover{
+            color: $color !important;
+        }
+    }
 }

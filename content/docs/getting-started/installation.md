@@ -30,7 +30,7 @@ You can also download the source files, uncompiled Sass and JS, to compile on yo
 NPM
 {{< /heading >}}
 
-Add Platform UIs source files to your build. [Autoprefixer](https://github.com/postcss/autoprefixer), [Normalize](https://github.com/necolas/normalize.css/), and version 1.23 or higher of the [Sass](https://www.npmjs.com/package/sass) compiler will be needed to successfully build Platform UI.
+Add Platform UIs source files to your build. <a href="https://github.com/postcss/autoprefixer" rel="external" target="_blank">Autoprefixer</a>, <a href="https://github.com/necolas/normalize.css/" rel="external" target="_blank">Normalize</a>, and version 1.23 or higher of the <a href="https://www.npmjs.com/package/sass" rel="external" target="_blank">Sass</a> compiler will be needed to successfully build Platform UI.
 
 <div class="mb-3">
 {{< highlight bash >}}
@@ -42,7 +42,7 @@ $ npm install @ritterim/platform-ui
 CDN
 {{< /heading >}}
 
-While we don't host a dedicated CDN version of Platform UI, if you prefer, you can always access any npm package using [UNPKG](https://unpkg.com/).
+While we don't host a dedicated CDN version of Platform UI, if you prefer, you can always access any npm package using <a href="https://unpkg.com/" rel="external" target="_blank">UNPKG</a>.
 
 {{< heading heading="h2" id="theming">}}
 Theming
