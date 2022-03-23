@@ -4,7 +4,7 @@ date: 2018-07-20T12:59:15-04:00
 weight: 4
 ---
 
-Accessibility was on our minds while building Platform UI. You can use this framework to create a number of different components and layouts for your site that is both visually appealing and functional. Most of our components are accessible right out of the box, but given the flexibility of the framework, it can be easy to ignore accessibility and build a site that may not meet the accessibility standards of [WCAG 2.0](https://www.w3.org/TR/WCAG20/).
+Accessibility was on our minds while building Platform UI. You can use this framework to create a number of different components and layouts for your site that is both visually appealing and functional. Most of our components are accessible right out of the box, but given the flexibility of the framework, it can be easy to ignore accessibility and build a site that may not meet the accessibility standards of <a href="https://www.w3.org/TR/WCAG20/" rel="external" target="_blank">WCAG 2.0</a>.
  
 Although we built Platform UI with accessibility in mind, it is important that you not rely on the framework entirely. The overall accessibility of your site will depend largely on your markup, extra styling, and or scripts added.
  
@@ -29,11 +29,11 @@ Content that should be made accessible to screen readers, but is not necessary f
 </button>
 {{< /highlight >}}
  
-On the flip side, sometimes it can be necessary to hide content from a screen reader. Take the button example above. Notice the `aria-hidden=”true”`. In this case, we’re hiding decorative content from a screen reader. You can use [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) roles and attributes to improve the experience of a screen reader.
+On the flip side, sometimes it can be necessary to hide content from a screen reader. Take the button example above. Notice the `aria-hidden=”true”`. In this case, we’re hiding decorative content from a screen reader. You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="external" target="_blank">WAI-ARIA</a> roles and attributes to improve the experience of a screen reader.
  
  
 ## Further Reading
-- [A11Y Project](https://a11yproject.com/)
-- [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-- [MDN Aria](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
-- [WebAIM Color Checker](https://webaim.org/resources/contrastchecker/)
+- <a href="https://a11yproject.com/" rel="external" target="_blank">A11Y Project</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" rel="external" target="_blank">MDN Accessibility</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" rel="external" target="_blank">MDN Aria</a>
+- <a href="https://webaim.org/resources/contrastchecker/" rel="external" target="_blank">WebAIM Color Checker</a>
