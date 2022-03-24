@@ -8,14 +8,7 @@ Platform UI provides padding and margin utilities for most scenarios based on it
 <table class="table mb-4">
   <thead>
     <tr>
-      <th>Direction</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th colspan="8">Direction</th>
     </tr>
   </thead>
   <tbody>
@@ -55,15 +48,7 @@ Platform UI provides padding and margin utilities for most scenarios based on it
 <table class="table mb-4">
   <thead>
     <tr>
-      <th>Distance</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th colspan="9">Distance</th>
     </tr>
   </thead>
   <tbody>
