@@ -11,7 +11,7 @@
     {{ end }}
   </nav>
   <div class="h-100 text-white flex flex--justify-end flex--align-center">
-    <span class="mr-2">v1.1</span>
+    <span class="mr-2">v{{ os.ReadFile ".pui-version" }}</span>
     <a href="https://rimdev.io" class="text-white" title="RIMdev Blog" aria-label="RIMdev Blog">
       <i class='pi-rimdev-circle pi-xl text-skyblue--hover' aria-hidden="true"></i>
     </a>
