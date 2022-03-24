@@ -8,12 +8,32 @@ date: 2018-07-20T12:59:15-04:00
 
 Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport. 
 
-| Modifier Class        | Description                                     |
-| --------------------- | ----------------------------------------------- |
-| `.drawer--single-row` | Small sized drawer                              |
-| `.drawer-bottom`      | Drawer opens from bottom of the viewport        |
-| `.drawer-right`       | Drawer opens from right side of the viewport    |
-| `.drawer-left`        | Drawer opens from left side of the viewport     |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Modifier Class</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Modifier Class"><code>.drawer--single-row</code></td>
+      <td data-label="Description">Small sized drawer</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.drawer-bottom</code></td>
+      <td data-label="Description">Drawer opens from bottom of the viewport</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.drawer-right</code></td>
+      <td data-label="Description">Drawer opens from right side of the viewport</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.drawer-left</code></td>
+      <td data-label="Description">Drawer opens from left side of the viewport</td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="block-container mt-3">
   <button class="button button--lg drawer__open" data-drawer="default">

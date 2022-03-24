@@ -5,11 +5,28 @@ date: 2018-07-20T12:59:15-04:00
 
 You can create easy rounded images.
 
-| Class Name            | Height and Width |
-| --------------------- | ---------------- |
-| `image--round-small`  | `100px`          |
-| `image--round-medium` | `150px`          |
-| `image--round-large`  | `200px`          |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>Height and Width</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>image--round-small</code></td>
+      <td data-label="Height and Width">100px</td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>image--round-medium</code></td>
+      <td data-label="Height and Width">150px</td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>image--round-large</code></td>
+      <td data-label="Height and Width">200px</td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="image--round-small">
   <img class="skeleton-image skeleton-image--lg">

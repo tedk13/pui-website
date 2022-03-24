@@ -1713,24 +1713,70 @@ clipboard.on('success', function(e) {
 
 ## Setup
 
-| source| default|
-| ------- | ----- |
-| artboard | 4" x 4" |
-| stroke: main | 24pt |
-| stroke: auxiliary\* | 18pt |
-| stroke: corner | .15" |
-| stroke: join | round |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>source</th>
+      <th>default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="source">artboard</td>
+      <td data-label="default">4" x 4"</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: main</td>
+      <td data-label="default">24pt</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: auxiliary&#42;</td>
+      <td data-label="default">18pt</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: corner</td>
+      <td data-label="default">.15"</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: join</td>
+      <td data-label="default">round</td>
+    </tr>
+  </tbody>
+</table>
 
 <i class="pi-warning text-orange"></i> **NOTE:** Rememeber to expand to outlines before committing.
 
 
 ## Sizing
 
-| Class    | Size                |
-| -------- | ------------------- |
-| `pi-xs`  | `font-size: .5rem ` |
-| `pi-sm`  | `font-size: .75rem` |
-| `pi-lg`  | `font-size: 1.5rem` |
-| `pi-xl`  | `font-size: 2rem  ` |
-| `pi-xxl` | `font-size: 3rem  ` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class">pi-xs</td>
+      <td data-label="Size">font-size: .5rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-sm</td>
+      <td data-label="Size">font-size: .75rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-lg</td>
+      <td data-label="Size">font-size: 1.5rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-xl</td>
+      <td data-label="Size">font-size: 2rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-xxl</td>
+      <td data-label="Size">font-size: 3rem</td>
+    </tr>
+  </tbody>
+</table>
 

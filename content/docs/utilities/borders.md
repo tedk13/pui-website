@@ -4,19 +4,56 @@ date: 2018-07-20T12:59:15-04:00
 ---
 You can add specific borders to elements by using the following classes:
 
-| Classes                 | CSS Attribute                                      |
-| ----------------------- | -------------------------------------------------- |
-| `border`                | `border: 1px solid;`                               |
-| `no-border`             | `border: none;`                                    |
-| `border-x`              | `border-left: 1px solid; border-right: 1px solid;` |
-| `border-y`              | `border-top: 1px solid; border-bottom: 1px solid;` |
-| `border-t`              | `border-top: 1px solid;`                           |
-| `border-b`              | `border-bottom: 1px solid;`                        |
-| `border-r`              | `border-right: 1px solid;`                         |
-| `border-l`              | `border-left: 1px solid;`                          |
-| `border--width-{i}`     | `border-width: {i}px;`                             |
-| `border--color-{color}` | `border-color: {color};`                           |
-
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Classes</th>
+      <th>CSS Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Classes"><code>border</code></td>
+      <td data-label="CSS Attribute"><code>border: 1px solid;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>no-border</code></td>
+      <td data-label="CSS Attribute"><code>border: none;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border-x</code></td>
+      <td data-label="CSS Attribute"><code>border-left: 1px solid; border-right: 1px solid;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border-y</code></td>
+      <td data-label="CSS Attribute"><code>border-top: 1px solid; border-bottom: 1px solid;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border-t</code></td>
+      <td data-label="CSS Attribute"><code>border-top: 1px solid;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border-b</code></td>
+      <td data-label="CSS Attribute"><code>border-bottom: 1px solid;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border-r</code></td>
+      <td data-label="CSS Attribute"><code>border-right: 1px solid;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border-l</code></td>
+      <td data-label="CSS Attribute"><code>border-left: 1px solid;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border--width-{i}</code></td>
+      <td data-label="CSS Attribute"><code>border-width: {i}px;</code></td>
+    </tr>
+    <tr>
+      <td data-label="Classes"><code>border--color-{color}</code></td>
+      <td data-label="CSS Attribute"><code>border-color: {color};</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Color
 
