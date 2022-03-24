@@ -19,38 +19,159 @@ value and the next breakpoint value. So `mobile` will be between `mobile` and `t
 The suffix represents the direction of the media query. `-up` generates a `min-width` media query. `-down` generates a
 `max-width` media query. `-only` generates a `min-width` and `max-width` media query.
 
-<div class="overflow-x--auto">
-
-| Class Name            | Display Value     | Generated Media Query                                |
-| --------------------- | ----------------- | ---------------------------------------------------- |
-| `hidden`              | `display: none;`  | No specified resolution                              |
-| `show-print`          | `display: block;` | `@media print`                                       |
-| `hide-print`          | `display: none;`  | `@media print`                                       |
-| `show-mobile-up`      | `display: block;` | `@media (min-width: 0px)`                            |
-| `show-mobile-only`    | `display: block;` | `@media (min-width: 0px) and (max-width: 767px)`     |
-| `hide-mobile-up`      | `display: none;`  | `@media (min-width: 0px)`                            |
-| `hide-mobile-only`    | `display: none;`  | `@media (min-width: 0px) and (max-width: 767px)`     |
-| `hide-mobile-down`    | `display: none;`  | `@media (max-width: 767px)`                          |
-| `show-tablet-up`      | `display: block;` | `@media (min-width: 768px)`                          |
-| `show-tablet-only`    | `display: block;` | `@media (min-width: 768px) and (max-width: 990px)`   |
-| `show-tablet-down`    | `display: block;` | `@media (max-width: 767px)`                          |
-| `hide-tablet-up`      | `display: none;`  | `@media (min-width: 768px)`                          |
-| `hide-tablet-only`    | `display: none;`  | `@media (min-width: 768px) and (max-width: 990px)`   |
-| `hide-tablet-down`    | `display: none;`  | `@media (max-width: 767px)`                          |
-| `show-lg-tablet-up`   | `display: block;` | `@media (min-width: 991px)`                          |
-| `show-lg-tablet-only` | `display: block;` | `@media (min-width: 991px) and (max-width: 1239px)`  |
-| `show-lg-tablet-down` | `display: block;` | `@media (max-width: 990px) `                         |
-| `hide-lg-tablet-up`   | `display: none;`  | `@media (min-width: 991px)`                          |
-| `hide-lg-tablet-only` | `display: none;`  | `@media (min-width: 991px) and (max-width: 1239px)`  |
-| `hide-lg-tablet-down` | `display: none;`  | `@media (max-width: 990px) `                         |
-| `show-laptop-up`      | `display: block;` | `@media (min-width: 1240px)`                         |
-| `show-laptop-only`    | `display: block;` | `@media (min-width: 1240px) and (max-width: 1799px)` |
-| `show-laptop-down`    | `display: block;` | `@media (max-width: 1239px)`                         |
-| `hide-laptop-up`      | `display: none;`  | `@media (min-width: 1240px)`                         |
-| `hide-laptop-only`    | `display: none;`  | `@media (min-width: 1240px) and (max-width: 1799px)` |
-| `hide-laptop-down`    | `display: none;`  | `@media (max-width: 1239px)`                         |
-| `show-desktop-up`     | `display: block;` | `@media (min-width: 1800px)`                         |
-| `hide-desktop-up`     | `display: none;`  | `@media (min-width: 1800px)`                         |
-| `hide-desktop-down`   | `display: none;`  | `@media (max-width: 1799px)`                         |
-
-</div>
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>Display Value</th>
+      <th>Generated Media Query</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>hidden</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query">No specified resolution</td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-print</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media print</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-print</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media print</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-mobile-up</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 0px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-mobile-only</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 0px) and (max-width: 767px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-mobile-up</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 0px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-mobile-only</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 0px) and (max-width: 767px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-mobile-down</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 767px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-tablet-up</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 768px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-tablet-only</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 768px) and (max-width: 990px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-tablet-down</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 767px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-tablet-up</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 768px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-tablet-only</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 768px) and (max-width: 990px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-tablet-down</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 767px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-lg-tablet-up</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 991px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-lg-tablet-only</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 991px) and (max-width: 1239px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-lg-tablet-down</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 990px) </code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-lg-tablet-up</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 991px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-lg-tablet-only</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 991px) and (max-width: 1239px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-lg-tablet-down</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 990px) </code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-laptop-up</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 1240px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-laptop-only</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 1240px) and (max-width: 1799px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-laptop-down</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 1239px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-laptop-up</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 1240px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-laptop-only</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 1240px) and (max-width: 1799px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-laptop-down</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 1239px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>show-desktop-up</code></td>
+      <td data-label="Display Value"><code>display: block;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 1800px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-desktop-up</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (min-width: 1800px)</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>hide-desktop-down</code></td>
+      <td data-label="Display Value"><code>display: none;</code></td>
+      <td data-label="Generated Media Query"><code>@media (max-width: 1799px)</code></td>
+    </tr>
+  </tbody>
+</table>

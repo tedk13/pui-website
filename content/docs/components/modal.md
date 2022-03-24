@@ -11,13 +11,36 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 
 `.modal__close` on the close button is also a handle for JS.
 
-| Modifier Class     | Description                                     |
-| ------------------ | ----------------------------------------------- |
-| `.modal--small`    | Small sized modal                               |
-| `.modal--medium`   | Medium sized modal, default size                |
-| `.modal--large`    | Large sized modal                               |
-| `.modal--full`     | Full sized modal, takes up 100% of the viewport |
-| `.modal--centered` | Centers the modal in the middle of the viewport |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Modifier Class</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Modifier Class"><code>.modal--small</code></td>
+      <td data-label="Description">Small sized modal</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.modal--medium</code></td>
+      <td data-label="Description">Medium sized modal, default size</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.modal--large</code></td>
+      <td data-label="Description">Large sized modal</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.modal--full</code></td>
+      <td data-label="Description">Full sized modal, takes up 100% of the viewport</td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.modal--centered</code></td>
+      <td data-label="Description">Centers the modal in the middle of the viewport</td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="message message--info mb-4">
   <p>You can add animation effects to modals by adding <a class="text-navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes to the .modal__inner element!</p>

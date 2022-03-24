@@ -5,7 +5,7 @@ date: 2018-07-20T12:59:15-04:00
 
 Each button has a default button style. Color can be added to any button using a combination of background and text utilities.
 
-Add icons to buttons using [platform icons](https://github.com/ritterim/platform-icons) icons: `<i class="pi-plus"></i>`
+Add icons to buttons using <a href="https://github.com/ritterim/platform-icons" rel="external" target="_blank">platform icons</a> icons: `<i class="pi-plus"></i>`
 
 The default platform button. Usually paired visually with an icon. Can be the default size or large.
 

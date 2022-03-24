@@ -9,23 +9,106 @@ Used to modify the appearance of the background.
 
 The background color classes are used to set, or change a `background-color` on a specific element. 
 
-| Color | Class |
-|-------|-------|
-| <p class="background-white">White</p> | `.background-white` |
-| <p class="background-lighter">Lighter</p> | `.background-lighter` |
-| <p class="background-light-mid">Light Mid</p> | `.background-light-mid` |
-| <p class="background-light">Light</p> | `.background-light` |
-| <p class="background-base text-white">Base</p> | `.background-base` |
-| <p class="background-dark text-white">Dark</p> | `.background-dark` |
-| <p class="background-black text-white">Black</p> | `.background-black` |
-| <p class="background-navy text-white">Navy</p> | `.background-navy` |
-| <p class="background-skyblue text-white">Skyblue</p> | `.background-skyblue` |
-| <p class="background-med-blue text-white">Med Blue</p> | `.background-med-blue` |
-| <p class="background-beige text-white">Beige</p> | `.background-beige` |
-| <p class="background-peach text-white">Peach</p> | `.background-peach` |
-| <p class="background-salmon text-white">Salmon</p> | `.background-salmon` |
-| <p class="background-brown text-white">Brown</p> | `.background-brown` |
-| <p class="background-orange text-white">Orange</p> | `.background-orange` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Color</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Color">
+        <p class="background-white">White</p>
+      </td>
+      <td data-label="Class"><code>.background-white</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-lighter">Lighter</p>
+      </td>
+      <td data-label="Class"><code>.background-lighter</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-light-mid">Light Mid</p>
+      </td>
+      <td data-label="Class"><code>.background-light-mid</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-light">Light</p>
+      </td>
+      <td data-label="Class"><code>.background-light</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-base text-white">Base</p>
+      </td>
+      <td data-label="Class"><code>.background-base</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-dark text-white">Dark</p>
+      </td>
+      <td data-label="Class"><code>.background-dark</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-black text-white">Black</p>
+      </td>
+      <td data-label="Class"><code>.background-black</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-navy text-white">Navy</p>
+      </td>
+      <td data-label="Class"><code>.background-navy</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-skyblue text-white">Skyblue</p>
+      </td>
+      <td data-label="Class"><code>.background-skyblue</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-med-blue text-white">Med Blue</p>
+      </td>
+      <td data-label="Class"><code>.background-med-blue</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-beige text-white">Beige</p>
+      </td>
+      <td data-label="Class"><code>.background-beige</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-peach text-white">Peach</p>
+      </td>
+      <td data-label="Class"><code>.background-peach</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-salmon text-white">Salmon</p>
+      </td>
+      <td data-label="Class"><code>.background-salmon</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-brown text-white">Brown</p>
+      </td>
+      <td data-label="Class"><code>.background-brown</code></td>
+    </tr>
+    <tr>
+      <td data-label="Color">
+        <p class="background-orange text-white">Orange</p>
+      </td>
+      <td data-label="Class"><code>.background-orange</code></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Inverted
@@ -83,18 +166,39 @@ You can use platform UI to add background images using data attributes and some 
 
 For starters, you'll need to add the class `background-image` onto the element where you want to use add an image. From there, use data attributes to change the look of the background image.
 
-See the example below to see it all come together. You may notice a `ratio-` class on the image container. We talk more about that [here](https://style.rimdev.io/section-utilities.html#utilities-backgroundratio).
+See the example below to see it all come together. You may notice a `ratio-` class on the image container. We talk more about that <a href="https://style.rimdev.io/section-utilities.html#utilities-backgroundratio" rel="external" target="_blank">here</a>.
 
-<div class="overflow-x--auto">
-
-| Class | Data-Attribute | Scenarios |
-|---|---|---|
-| `.background-image` | `data-background-image` | image path; `no-repeat`, position `center`, and size `cover` all default |
-|  | `data-background-position` | overrides default |
-|  | `data-background-size` | overrides default |
-|  | `data-background-repeat` | overrides default |
-
-</div>
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Data-Attribute</th>
+      <th>Scenarios</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class"><code>.background-image</code></td>
+      <td data-label="Data-Attribute"><code>data-background-image</code></td>
+      <td data-label="Scenarios">image path; <code>no-repeat</code>, position <code>center</code>, and size <code>cover</code> all default</td>
+    </tr>
+    <tr>
+      <td data-label="Class"></td>
+      <td data-label="Data-Attribute"><code>data-background-position</code></td>
+      <td data-label="Scenarios">overrides default</td>
+    </tr>
+    <tr>
+      <td data-label="Class"></td>
+      <td data-label="Data-Attribute"><code>data-background-size</code></td>
+      <td data-label="Scenarios">overrides default</td>
+    </tr>
+    <tr>
+      <td data-label="Class"></td>
+      <td data-label="Data-Attribute"><code>data-background-repeat</code></td>
+      <td data-label="Scenarios">overrides default</td>
+    </tr>
+  </tbody>
+</table>
 
 <div
   class="block-container background-image p-4 mb-4"
@@ -242,7 +346,37 @@ You can create your own custom linear gradient. Start by adding the linear-gradi
 |  | `data-gradient-stop` | `linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))` |
 |  | `data-gradient-fallback` | Add a fallback `background-color` |
 
-</div>
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Data-Attribute</th>
+      <th>Scenarios</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class"><code>.linear-gradient</code></td>
+      <td data-label="Data-Attribute"><code>data-gradient-direction</code></td>
+      <td data-label="Scenarios"><code>background-image: linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class"></td>
+      <td data-label="Data-Attribute"><code>data-gradient-start</code></td>
+      <td data-label="Scenarios"><code>	linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class"></td>
+      <td data-label="Data-Attribute"><code>data-gradient-stop</code></td>
+      <td data-label="Scenarios"><code>linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class"></td>
+      <td data-label="Data-Attribute"><code>data-gradient-fallback</code></td>
+      <td data-label="Scenarios">Add a fallback <code>background-color</code></td>
+    </tr>
+  </tbody>
+</table>
 
 Keep in mind you can use platform UI [color variables](/section-color.html) as well. Something like `data-gradient-start="var(--navy)"` will work just fine.
 You can also change the distance of your colors by adding a perceentage in the data attribute value for `data-gradient-start`. Something like `data-gradient-start="var(--navy) 20%"` would render just fine. See the first example.
@@ -353,12 +487,33 @@ You can get really fancy with your backgrounds by adding a gradient over a backg
 ## Ratio
 
 Set the size of an element equal to a common ratio with the ratio-{val} class.
-| Ratio | Class |
-|--|--|
-| 1:1 | `.ratio-1_1` |
-| 2:1 | `.ratio-2_1` |
-| 4:3 | `.ratio-4_3` |
-| 16:9 | `.ratio-16_9` |
+
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Ratio</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Ratio">1:1</td>
+      <td data-label="Class"><code>.ratio-1_1</code></td>
+    </tr>
+    <tr>
+      <td data-label="Ratio">2:1</td>
+      <td data-label="Class"><code>.ratio-2_1</code></td>
+    </tr>
+    <tr>
+      <td data-label="Ratio">4:3</td>
+      <td data-label="Class"><code>.ratio-4_3</code></td>
+    </tr>
+    <tr>
+      <td data-label="Ratio">16:9</td>
+      <td data-label="Class"><code>.ratio-16_9</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
   <div class="block">

@@ -1,41 +1,19 @@
-<header id="main-header" class="site-menu-wrapper site-header site-header--fixed background-purple p-3 flex--align-center flex--justify-start">
-  <a href="/" class="site-logo mr-3">
+<header id="main-header" class="site-header site-header--fixed background-purple block-container px-4">
+  <a href="/" class="site-logo h-100 flex flex--align-center flex--justify-center">
     <img src="/images/platform-ui.svg" alt="Platform UI" />
   </a>
-  <button title="Toggle Navigation" aria-label="Toggle Navigation" class="site-menu-mobile-action button--plain text-white pos-abs pin-right pin-center-top mr-3">
-    <span aria-hidden="true" class="mobile-action__line"></span>
-  </button>
-  <nav class="site-menu hover-underline hover-underline--white text-white">
+  <nav class="site-menu hover-underline hover-underline--white h-100 flex flex--grow flex--align-center text-white px-2">
     {{ $currentPage := . }}
     {{ $currentSection := $currentPage.Section }}
     {{ range .Site.Menus.main }}
       {{ $active := eq $currentSection .Identifier }}
-      {{ if .HasChildren }}
-      <div class="no-border dropdown p-3">
-        <a href="{{ .URL }}" class="site-menu__item dropdown__trigger flex flex--justify-between w-100{{ if $active }} active{{ end }}">
-          {{ .Name }} <i class="pi-angle-right ml-2 site-menu__link-icon"></i>
-        </a>
-        <div class="dropdown__content background-purple">
-          <ul class="pui-list">
-            {{ range .Children }}
-            <li class="m-0">
-              <a href="{{ .URL }}" class="w-100 px-3 py-2 flex">{{ .Name }}</a>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      {{ else }}
-        <a href="{{ .URL }}" class="site-menu__item{{ if $active }} active{{end}}">{{ .Name }}</a>
-      {{ end }}
+        <a class="p-2 text-white site-menu__item{{ if $active }} active{{end}}" href="{{ .URL }}" >{{ .Name }}</a>
     {{ end }}
   </nav>
-  <div class="block-container flex--grow">
-    <div class="block block-10 tablet-up-11 lg-tablet-up-12 text-white flex flex--justify-end flex--align-center">
-      <span class="mr-3">v{{ os.ReadFile ".pui-version" }}</span>
-      <a href="https://rimdev.io" class="mr-3 text-white" title="RIMdev Blog" aria-label="RIMdev Blog">
-        <i class='pi-rimdev-circle pi-xl text-skyblue--hover' aria-hidden="true"></i>
-      </a>
-    </div>
+  <div class="h-100 text-white flex flex--justify-end flex--align-center">
+    <span class="mr-2">v{{ os.ReadFile ".pui-version" }}</span>
+    <a href="https://rimdev.io" class="text-white" title="RIMdev Blog" aria-label="RIMdev Blog">
+      <i class='pi-rimdev-circle pi-xl text-skyblue--hover' aria-hidden="true"></i>
+    </a>
   </div>
 </header>

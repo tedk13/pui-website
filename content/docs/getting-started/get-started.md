@@ -4,13 +4,13 @@ date: 2018-07-20T12:59:15-04:00
 weight: 1
 ---
 ## Prologue
-As part of [Ritter Insurance Marketing](https://ritterim.com)'s software development team, RIMdev, our frontend folks started Platform UI as a CSS framework for faster, more efficient development. Our suite of agent and staff tools have benefitted greatly, along with our team.
+As part of the <a href="https://ritterim.com/" rel="external" target="_blank">Ritter Insurance Marketing</a> software development team, RIMdev, our frontend folks started Platform UI as a CSS framework for faster, more efficient development. Our suite of agent and staff tools have benefitted greatly, along with our team.
 
 Platform UI has evolved in scope to include a base icon font family, Platform Icons, UI kits based in Adode XD, and, our philosophies and practices SPAs, static sites, and application development. 
 
 We hope you find it as useful and easy to use as we do.
 
-If you're not downloading or building, then CDN access via [UNPKG](https://unpkg.com/) is fast and easy to start working with Platform UI in your project!
+If you're not downloading or building, then CDN access via <a href="https://www.unpkg.com/" rel="external" target="_blank">UNPKG</a> is fast and easy to start working with Platform UI in your project!
 
 ## CSS
 
@@ -102,11 +102,11 @@ There are a few third party choices we've incorporated into Platform UI, these a
 
 ### Animate.css
 
-We started to build our own animations, but why bother when [Animate.css](https://daneden.github.io/animate.css/) is around? It fits all of our needs and plays nicely with VueJS. 
+We started to build our own animations, but why bother when <a href="https://daneden.github.io/animate.css/" rel="external" target="_blank">Animate.css</a> is around? It fits all of our needs and plays nicely with VueJS. 
 
 **If you're using Platform UI in your own build process, you'll need to include Animate.css.**
 
-For a list of supported More from the Animate.css [docs](https://github.com/daneden/animate.css#animatecss------).
+For a list of supported More from the Animate.css <a href="https://github.com/daneden/animate.css#animatecss------" rel="external" target="_blank">docs</a>.
 
 Simple usage:
 
@@ -130,19 +130,19 @@ Combining Animate.css with Vue transitions:
 
 ### Highlight.js
 
-Platform UI handles inline code, `<code></code>`, highlights, however we leverage [Highlight.js](https://highlightjs.org/) during the build to add a more complete syntax highlighting solutions. 	 
+Platform UI handles inline code, `<code></code>`, highlights, however we leverage <a href="https://highlightjs.org/" rel="external" target="_blank">Highlight.js</a> during the build to add a more complete syntax highlighting solutions. 	 
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
 ### Normalize.css
 
-The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include [Normalize.css](https://necolas.github.io/normalize.css/) as part of Patform UIs build process.
+The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include <a href="https://necolas.github.io/normalize.css/" rel="external" target="_blank">Normalize.css</a> as part of Platform UIs build process.
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
 ### Postcss
 
-In the same spirit as Normalize.css, we also leverage [Postcss](https://github.com/postcss/postcss) and [Autoprefixer](https://github.com/postcss/autoprefixer) to reduce browser inconsistencies. 
+In the same spirit as Normalize.css, we also leverage <a href="https://github.com/postcss/postcss" rel="external">Postcss</a> and <a href="https://github.com/postcss/autoprefixer" rel="external" target="_blank">Autoprefixer</a> to reduce browser inconsistencies. 
 
 **If you're using Platform UI in you're own build process, you'll need to include Postcss. Likewise, if you prefer greater browser support, you will have to build Platform UI from source.**
 

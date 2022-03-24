@@ -105,6 +105,42 @@ If you would prefer to retain the desktop view even on mobile, you can do so by 
 
 For tables with many columns, we recommend wrapping a `unresponsive` table within an `.overflow-x--auto` utility class to add horizontal scrolling.
 
+<div class="overflow-x--auto">
+  <table class="table--no-hover">
+    <thead>
+      <tr>
+        <th>Menu Item</th>
+        <th>Size</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Menu Item">
+          Pork Buns
+        </td>
+        <td data-label="Size">
+          Large
+        </td>
+        <td data-label="Price">
+          $8.99
+        </td>
+      </tr>
+      <tr>
+        <td data-label="Menu Item">
+          Pork Buns
+        </td>
+        <td data-label="Size">
+          Small
+        </td>
+        <td data-label="Price">
+          $5.99
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <div class="mt-3 mb-4">
 {{< highlight html >}}
 <div class="overflow-x--auto">
