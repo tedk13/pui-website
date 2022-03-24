@@ -34,7 +34,7 @@ deploy:
     name: Azure App Service Zip (Development)
     artifact: Styleguide
     slot: staging
-    app_name: rim-style-east-dev
+    app_name: rim-platform-ui-east-dev
     on:
       branch: master
       configuration: publish
