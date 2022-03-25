@@ -7,11 +7,28 @@ The standard loading wheel that is used throughout platform-ui.
 
 Use these classes to change the size of a loader.
 
-| Class Name   | Height and Width |
-| ------------ | ---------------- |
-| `loader`     | `1.4rem`         |
-| `loader--sm` | `.9rem`          |
-| `loader--lg` | `2rem`           |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>Height and Width</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>loader</code></td>
+      <td data-label="Height and Width"><code>1.4rem</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>loader--sm</code></td>
+      <td data-label="Height and Width"><code>.9rem</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>loader--lg</code></td>
+      <td data-label="Height and Width"><code>2rem</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="mb-6 mt-5">
   <div class="loader"></div>

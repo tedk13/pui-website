@@ -1,0 +1,40 @@
+environment:
+  matrix:
+    - nodejs_version: STABLE
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - choco install hugo-extended
+
+before_build:
+  # Output useful info for debugging.
+  - node --version
+  - npm --version
+  - hugo version
+
+build_script:
+  - ./build.cmd
+
+after_build:
+  - ps: ./after_build.ps1
+
+cache:
+  - '%TEMP%\hugo_cache'
+  - node_modules -> package.json, package-lock.json
+
+test: off
+
+artifacts:
+  - path: ./styleguide.zip
+    name: Styleguide
+    type: Zip
+
+deploy:
+  - provider: Environment
+    name: Azure App Service Zip (Development)
+    artifact: Styleguide
+    slot: staging
+    app_name: rim-platform-ui-east-dev
+    on:
+      branch: master
+      configuration: publish

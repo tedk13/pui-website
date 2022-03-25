@@ -5,12 +5,32 @@ date: 2018-07-20T12:59:15-04:00
 
 Use these classes to change the height of an svg used for an icon.
 
-| Class Name      | Height   |
-| --------------- | -------- |
-| `icon--svg`     | `2rem`   |
-| `icon--svg-sm`  | `1rem`   |
-| `icon--svg-lg`  | `3rem`   |
-| `icon--svg-xlg` | `6.5rem` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class Name</th>
+      <th>Height</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class Name"><code>icon--svg</code></td>
+      <td data-label="Height"><code>2rem</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>icon--svg-sm</code></td>
+      <td data-label="Height"><code>1rem</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>icon--svg-lg</code></td>
+      <td data-label="Height"><code>3rem</code></td>
+    </tr>
+    <tr>
+      <td data-label="Class Name"><code>icon--svg-xlg</code></td>
+      <td data-label="Height"><code>6.5rem</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="mb-6 mt-5">
     <div>

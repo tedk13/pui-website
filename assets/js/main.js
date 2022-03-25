@@ -1,48 +1,55 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-  const toc = document.querySelector('#on-this-page');
+  const tocs = document.querySelectorAll('.on-this-page');
   const main = document.querySelector('main');
+  
+  if (tocs) {
+    tocs.forEach(toc => {
+      const headings = main.querySelectorAll('h2,h3');
+      
+      let tocList = document.createElement('ul');
+      tocList.classList.add('list');
 
-  if (toc) {
-    const headings = main.querySelectorAll('h2,h3');
-    let tocList = document.createElement('ul');
-    tocList.classList.add('list');
+      headings.forEach(heading => {
+        if (heading.innerText !== 'On This Page') {
+          if (heading.classList.contains('page-anchor-target')) heading.innerHTML = `<a href="#${heading.id}">${heading.innerText}</a>`;
 
-    headings.forEach((heading) => {
-      let li = document.createElement('li');
-      if (heading.localName === 'h3') {
-        li.className = 'pl-3';
-      }
-      let a = document.createElement('a');
-      if (heading.id) {
-        heading.classList.add('page-anchor-target');
-        a.setAttribute('href', '#' + heading.id);
-        a.className = 'text-base text-light--hover toc-link';
-        a.textContent = heading.innerText;
-        li.append(a);
-        tocList.append(li);
-      }
-    });
-
-    if (tocList.childNodes.length == 0) {
-      document.querySelector('#content-nav').remove();
-    }
-
-    toc.append(tocList);
-
-    const tocLink = document.querySelectorAll('.toc-link');
-
-    if (tocLink) {
-      tocLink.forEach((link) => {
-        link.addEventListener('click', () => {
-          tocLink.forEach((elm) => {
-            elm.classList.remove('text--bold');
-          });
-          link.classList.add('text--bold');
-        });
+          let li = document.createElement('li');
+          if (heading.localName === 'h3') li.classList.add('pl-3');
+  
+          let a = document.createElement('a');
+          if (heading.id) {
+            heading.classList.add('page-anchor-target');
+            a.setAttribute('href', `#${heading.id}`);
+            a.classList = ['text-light-purple', 'text-purple--hover', 'toc-link'].join(' ');
+            a.textContent = heading.innerText;
+          }
+          li.appendChild(a);
+          tocList.appendChild(li);
+        }
       });
-    }
+
+      if (tocList.childNodes.length == 0) {
+        const contentNavs = document.querySelectorAll('.content-nav');
+        contentNavs.forEach(nav => nav.remove());
+      };
+      
+      toc.appendChild(tocList);
+    })
   }
 
+  const tocLink = document.querySelectorAll('.toc-link');
+
+  if (tocLink) {
+    tocLink.forEach((link) => {
+      link.addEventListener('click', () => {
+        tocLink.forEach((elm) => {
+          elm.classList.remove('text--bold');
+        });
+        link.classList.add('text--bold');
+      });
+    });
+  }
+  
   const table = main.querySelectorAll('table');
 
   if (table) {
@@ -259,5 +266,5 @@ if (codeExamples) {
   }
 }
 
-const mobileNavButton = document.querySelector('.site-menu-mobile-action');
-mobileNavButton.addEventListener('click', () => mobileNavButton.classList.toggle('active'));
+// const mobileNavButton = document.querySelector('.site-menu-mobile-action');
+// mobileNavButton.addEventListener('click', () => mobileNavButton.classList.toggle('active'));

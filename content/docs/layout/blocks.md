@@ -92,20 +92,64 @@ The example below shows how each block lays out along the 12 column grid.
 {{< /highlight >}}
 </div>
 
-| Modifier Class | Example |
-|--|--|--| 
-| `.block-1` | <div class="block-container"><div class="block block-1"><div class="card background-lighter"></div></div></div> | 
-| `.block-2` | <div class="block-container"><div class="block block-2"><div class="card background-lighter"></div></div></div> | 
-| `.block-3` | <div class="block-container"><div class="block block-3"><div class="card background-lighter"></div></div></div> | 
-| `.block-4` | <div class="block-container"><div class="block block-4"><div class="card background-lighter"></div></div></div> | 
-| `.block-5` | <div class="block-container"><div class="block block-5"><div class="card background-lighter"></div></div></div> | 
-| `.block-6` | <div class="block-container"><div class="block block-6"><div class="card background-lighter"></div></div></div> | 
-| `.block-7` | <div class="block-container"><div class="block block-7"><div class="card background-lighter"></div></div></div> | 
-| `.block-8` | <div class="block-container"><div class="block block-8"><div class="card background-lighter"></div></div></div> | 
-| `.block-9` | <div class="block-container"><div class="block block-9"><div class="card background-lighter"></div></div></div> | 
-| `.block-10` | <div class="block-container"><div class="block block-10"><div class="card background-lighter"></div></div></div> | 
-| `.block-11` | <div class="block-container"><div class="block block-11"><div class="card background-lighter"></div></div></div> | 
-| `.block-12` | <div class="block-container"><div class="block block-12"><div class="card background-lighter"></div></div></div> | 
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Modifier Class</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-1</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-1"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-2</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-2"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-3</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-3"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-4</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-4"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-5</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-5"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-6</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-6"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-7</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-7"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-8</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-8"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-9</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-9"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-10</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-10"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-11</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-11"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>.block-12</code></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-12"><div class="card background-lighter"></div></div></div></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Building Grids
@@ -247,13 +291,42 @@ Scale your window to watch the grid change.
 
 You can build a responsive grid with blocks. You can add the responsive classes to the individual blocks, or add them to the container. Adding layout classes to the container works best when you need a grid of equally sized blocks.
 
-| Breakpoints | Label | Prefix |
-| ------------ | ------------ | ------------ | 
-| 0px | mobile | `mobile-up-` |
-| 768px | tablet | `tablet-up-` |
-| 991px | lg-tablet | `lg-tablet-up-` |
-| 1240px | laptop | `laptop-up-` |
-| 1800px | desktop | `desktop-up-` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Breakpoints</th>
+      <th>Label</th>
+      <th>Prefix</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Breakpoints">0px</td>
+      <td data-label="Label">mobile</td>
+      <td data-label="Prefix"><code>mobile-up-</code></td>
+    </tr>
+    <tr>
+      <td data-label="Breakpoints">768px</td>
+      <td data-label="Label">tablet</td>
+      <td data-label="Prefix"><code>tablet-up-</code></td>
+    </tr>
+    <tr>
+      <td data-label="Breakpoints">991px</td>
+      <td data-label="Label">lg-tablet</td>
+      <td data-label="Prefix"><code>lg-tablet-up-</code></td>
+    </tr>
+    <tr>
+      <td data-label="Breakpoints">1240px</td>
+      <td data-label="Label">laptop</td>
+      <td data-label="Prefix"><code>laptop-up-</code></td>
+    </tr>
+    <tr>
+      <td data-label="Breakpoints">1800px</td>
+      <td data-label="Label">desktop</td>
+      <td data-label="Prefix"><code>desktop-up-</code></td>
+    </tr>
+  </tbody>
+</table>
 
 #### On The Block
 
@@ -466,11 +539,28 @@ Breakpoint classes can be added to each of these utilities as well. So, for exam
 
 The utility classes use the BEM syntax.
 
-| Modifier Class | Flexbox Property |
-|--------|-------|
-| `block--shrink` | `width: auto` |
-| `block--fill` | `flex-grow: 1` |
-| `block--full` | `width: 100%` |
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Modifier Class</th>
+      <th>Flexbox Property</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Modifier Class"><code>block--shrink</code></td>
+      <td data-label="Flexbox Property"><code>width: auto</code></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>block--fill</code></td>
+      <td data-label="Flexbox Property"><code>flex-grow: 1</code></td>
+    </tr>
+    <tr>
+      <td data-label="Modifier Class"><code>block--full</code></td>
+      <td data-label="Flexbox Property"><code>width: 100%</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="block-container blocks p-2 tablet-up-2 laptop-up-3 desktop-up-4 pos-rel">
   <!-- Grid key background -->
