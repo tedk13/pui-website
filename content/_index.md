@@ -8,7 +8,7 @@ date: 2018-07-20T12:59:15-04:00
 {{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Your Project Starts Here
 {{< /heading >}}
-Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
+Platform UI is built to give frontend developers full control over their UIs. It's a powerful and simple system focused on rapid development.
 {{< /block >}}
 {{< /block-container >}}
 {{< block-container class="flex--justify-center pb-4" >}}
@@ -20,7 +20,7 @@ Platform UI is built to give frontend developers full control over their UI's. I
 Responsive
 {{< /heading >}}
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Platform UI is powered by a responsive grid system. Your design will look great on all screens and resolutions.
+Take advantage of Platform UI's responsive grid system. Your designs adapt to all screen sizes and resolutions.
 {{< /card >}}
 {{< /block >}}
 {{< block >}}
@@ -29,7 +29,7 @@ Platform UI is powered by a responsive grid system. Your design will look great 
 Customizable
 {{< /heading >}}
 {{< figure src="/images/icons/customizable.svg" class="px-4" >}}
-Helps to build a custom design by adding or removing elements, and controlling sizes, colors, and fonts.
+Build custom designs by adding or removing elements, and controlling sizes, colors, and fonts.
 {{< /card >}}
 {{< /block >}}
 {{< block >}}
@@ -38,7 +38,7 @@ Helps to build a custom design by adding or removing elements, and controlling s
 Free
 {{< /heading >}}
 {{< figure src="/images/icons/github.svg" class="px-4" >}}
-Created as an open source project, Platform UI is available to the general public for use and/or modification from its original design, free of charge.
+Work with a community-supported open source project that's available to everyone free of charge.
 {{< /card >}}
 {{< /block >}}
 {{< block >}}
@@ -47,7 +47,7 @@ Created as an open source project, Platform UI is available to the general publi
 Accessible
 {{< /heading >}}
 {{< figure src="/images/icons/accessible.svg" class="px-4" >}}
-HTML elements with accessible color combinations and screen reader utility classes allow you to build accessible web interfaces.
+Create accessible UIs using HTML elements with pre-defined colors and screen reader utility classes.
 {{< /card >}}
 {{< /block >}}
 {{< /block-container >}}
