@@ -17,6 +17,8 @@ build_script:
 
 after_build:
   - ps: ./after_build.ps1
+  - ls -l
+  - find . -name '*.zip'
 
 notifications:
   - provider: GitHubPullRequest
