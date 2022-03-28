@@ -7,3 +7,6 @@ $gitHashPath = "./styleguide/_health/index.html"
 
 New-Item $gitHashPath -Force
 Set-Content $gitHashPath "Healthy"
+
+Write-Host "Creating artifact"
+Compress-Archive -Path "./artifcats/*" -DestinationPath "styleguide.zip"
