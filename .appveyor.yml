@@ -18,6 +18,25 @@ build_script:
 after_build:
   - ps: ./after_build.ps1
 
+notifications:
+  - provider: GitHubPullRequest
+    auth_token:
+      secure: OoKsybfXrt38Y370sMRNScOqC2f9teNIbwTTol8zANmQpl91yBQNn4HC5woQZz9A
+    on_build_success: false
+    on_build_failure: true
+    on_build_status_changed: true
+    template: "{{#passed}}:white_check_mark:{{/passed}}{{#failed}}:x:{{/failed}} [Build {{&projectName}} {{buildVersion}} {{status}}]({{buildUrl}}) (commit {{commitUrl}} by @{{&commitAuthorUsername}})
+    {{#failed}}
+      <hr />
+      {{#jobs}}
+      <details>
+      {{#compilationMessages}}
+        {{category}}: {{message}}
+      {{/compilationMessages}}
+      </details>
+      {{/jobs}}
+    {{/failed}}"
+
 cache:
   - '%TEMP%\hugo_cache'
   - node_modules -> package.json, package-lock.json
