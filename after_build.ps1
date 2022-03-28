@@ -9,4 +9,4 @@ New-Item $gitHashPath -Force
 Set-Content $gitHashPath "Healthy"
 
 Write-Host "Creating artifact"
-Compress-Archive -Path "./artifacts/*" -DestinationPath "styleguide.zip"
+Compress-Archive -Path "./styleguide/*" -DestinationPath "styleguide.zip"

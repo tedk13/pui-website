@@ -46,7 +46,7 @@ cache:
 test: off
 
 artifacts:
-  - path: ./artifacts/styleguide.zip
+  - path: ./styleguide/styleguide.zip
     name: Styleguide
     type: Zip
 
