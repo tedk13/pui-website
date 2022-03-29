@@ -18,7 +18,6 @@ build_script:
 after_build:
   - ps: ./after_build.ps1
   - ls -l
-  - find ./styleguide/ -name '*.zip'
 
 notifications:
   - provider: GitHubPullRequest
@@ -46,7 +45,7 @@ cache:
 test: off
 
 artifacts:
-  - path: ./styleguide/styleguide.zip
+  - path: styleguide.zip
     name: Styleguide
     type: Zip
 
