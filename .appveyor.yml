@@ -13,7 +13,7 @@ before_build:
   - hugo version
 
 build_script:
-  - ./build_appveyor.ps1
+  - ps: ./build_appveyor.ps1
 
 after_build:
   - ps: ./after_build.ps1
