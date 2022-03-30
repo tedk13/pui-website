@@ -6,7 +6,7 @@
   {{ end }}
 
   <body class="flex flex--column">
-
+    {{ partial "site/gtm-body" . }}
     {{ partial "site/header" . }}
 
     <div id="app" class="header-fixed flex--grow{{ if .IsHome }} home{{ end }}">

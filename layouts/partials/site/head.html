@@ -6,17 +6,12 @@
     {{ with .Description }}
     <meta name="description" content="{{ . }}">{{ end }}
     {{ hugo.Generator }}
-    <!-- iOS smart app banner -->
-    <meta name="apple-itunes-app" content="app-id=1310637866">
-    {{ if (eq .RelPermalink "/carriers/") }}
-    <meta http-equiv="refresh" content="0;/products/by-carrier/">
-    {{ end }}
 
     <link rel="icon" type="image/svg+xml" href="/images/favicon/platform-ui.svg">
   
     {{ partial "head/preconnects.html" . }}
     {{ partial "head/styles.html" . }}
-    {{ partial "head/gtm.html" . }}
+    {{ partial "head/gtm-head.html" . }}
     {{ partial "head/twitter.html" . }}
     {{ partial "head/og.html" . }}
     {{ partial "head/schemadotorg.html" . }}

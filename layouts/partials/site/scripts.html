@@ -1,8 +1,8 @@
+<script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js"></script>
 {{ if (fileExists "./assets/output/index.js") }}
   {{ $js := resources.Get "output/index.js" }}
   {{ with $js }}
     {{ $secureJS := . | resources.Fingerprint }}
-    <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js"></script>
     <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end }}
 {{ end }}
