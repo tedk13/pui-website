@@ -1,12 +1,14 @@
 ---
 title: Errors
 date: 2018-07-20T12:59:15-04:00
+weight: 3
 ---
-Throughout the Platform, we leverage a concept of `positive`, `negative`, and `neutral` for success, errors, and no change, or neutral states.
+
+We leverage a concept of `positive`, `negative`, and `neutral` for success, errors, and no change or neutral states.
 These classes affect Pills and Text only.
 
 
-## Errors Text
+## Text
 
 <p class="text-positive">Positive</p>
 <p class="text-negative">Negative</p>
@@ -21,7 +23,7 @@ These classes affect Pills and Text only.
 </div>
 
 
-## Error Pills
+## Pills
 
 <div class="pill pill--circle-empty positive"></div>
 <div class="pill pill--circle-empty negative"></div>
