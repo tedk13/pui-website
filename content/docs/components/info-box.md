@@ -1,6 +1,7 @@
 ---
 title: Info Box
 date: 2018-07-20T12:59:15-04:00
+skellyCSS: true
 ---
 
 Click the button to toggle the info box. 

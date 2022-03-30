@@ -1,6 +1,7 @@
 ---
 title: Cards
 date: 2018-07-20T12:59:15-04:00
+skellyCSS: true
 ---
 Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
 some padding.

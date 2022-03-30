@@ -1,6 +1,7 @@
 ---
 title: Blocks
 date: 2018-07-20T12:59:15-04:00
+skellyCSS: true
 ---
 
 Blocks are Platform UI's core structural component. Here are some of the features and concepts behind our grid. The block layout is 

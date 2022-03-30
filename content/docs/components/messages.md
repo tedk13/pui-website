@@ -1,6 +1,7 @@
 ---
 title: Messages
 date: 2018-07-20T12:59:15-04:00
+skellyCSS: true
 ---
 
 Messages can be used to display important information that will stand out on the screen.

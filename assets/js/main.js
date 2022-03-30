@@ -50,16 +50,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
   }
   
-  const table = main.querySelectorAll('table');
-
-  if (table) {
-    table.forEach((table) => {
-      if (!table.classList.contains('table')) {
-        table.className = 'table mb-4 unresponsive';
-      }
-    });
-  }
-
   // loader
   let loaderButton = document.querySelector('.loader-submit');
   let loaderModalButton = document.querySelector('.loader-modal');
@@ -265,6 +255,3 @@ if (codeExamples) {
     body.classList.add('overflow-hidden');
   }
 }
-
-// const mobileNavButton = document.querySelector('.site-menu-mobile-action');
-// mobileNavButton.addEventListener('click', () => mobileNavButton.classList.toggle('active'));
