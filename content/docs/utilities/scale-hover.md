@@ -1,6 +1,7 @@
 ---
 title: Scale Hover
 date: 2018-07-20T12:59:15-04:00
+skellyCSS: true
 ---
 
 The class `hover-scale` will scale the element, on hover, to 1.05 the original size.

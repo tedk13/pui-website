@@ -2,6 +2,7 @@
 title: Full Page Layout
 layout: example
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
+skellyCSS: true
 ---
 
 <style>

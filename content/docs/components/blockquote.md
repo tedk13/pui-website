@@ -1,6 +1,7 @@
 ---
 title: Blockquote
 date: 2018-07-20T12:59:15-04:00
+skellyCSS: true
 ---
 
 Our blockquotes are similar to the browser default. We added a left border, which is a light gray by default. To attribute someone in the blockquote, you can do so by adding a `<footer>` followed by their name. If you're referencing a specific creative work, be sure to include that inside a `<cite>`.
