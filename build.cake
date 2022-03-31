@@ -24,19 +24,9 @@ Task("Restore-npm-Packages")
         });
     });
 
-Task("Lint")
-    .Does(() => {
-        NpmRunScript(new NpmRunScriptSettings
-        {
-            ScriptName = "lint",
-            WorkingDirectory = ""
-        });
-    });
-
 Task("Build")
     .IsDependentOn("Clean")
     .IsDependentOn("Restore-npm-Packages")
-    .IsDependentOn("Lint")
     .Does(() =>
     {
         NpmRunScript(new NpmRunScriptSettings
@@ -46,19 +36,8 @@ Task("Build")
         });
     });
 
-Task("Run-Tests")
-    .IsDependentOn("Build")
-    .Does(() =>
-    {
-        NpmRunScript(new NpmRunScriptSettings
-        {
-            ScriptName = "test",
-            WorkingDirectory = ""
-        });
-    });
-
 Task("Package")
-    .IsDependentOn("Run-Tests")
+    .IsDependentOn("Build")
     .Does(() =>
     {
         System.IO.File.AppendAllText(
