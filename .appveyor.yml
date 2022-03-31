@@ -13,10 +13,9 @@ before_build:
   - hugo version
 
 build_script:
-  - ps: ./build_appveyor.ps1
+  - ps: ./build.ps1
 
 after_build:
-  - ps: ./after_build.ps1
   - ls -l
 
 notifications:
@@ -45,7 +44,7 @@ cache:
 test: off
 
 artifacts:
-  - path: styleguide/
+  - path: Styleguide.zip
     name: Styleguide
     type: Zip
 
