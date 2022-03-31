@@ -8,6 +8,10 @@ assets/js/platform-ui.min.js
 assets/css/platform-ui.min.css
 assets/output/
 static/css/
+artifacts/
+build/
+./Styleguide.zip
+.hugo_build.lock
 
 # JetBrains Rider
 .idea/
