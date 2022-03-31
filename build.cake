@@ -6,8 +6,7 @@ var target = Argument("target", "Default");
 
 var configuration = "Release";
 
-var artifactsDir = Directory("./assets/output");
-var publicDir = Directory("./public");
+var artifactsDir = Directory("./public");
 
 Task("Clean")
     .Does(() =>
@@ -59,10 +58,6 @@ Task("Package")
 
         Zip(
             artifactsDir,
-            "./Styleguide.zip"
-        );
-        Zip(
-            publicDir,
             "./Styleguide.zip"
         );
     });
