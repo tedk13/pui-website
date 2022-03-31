@@ -33,11 +33,15 @@ menu:
   main:
   - identifier: docs
     name: Docs
-    url: /docs/getting-started/get-started/
+    url: /docs/getting-started/
     weight: 1
+  - identifier: icons
+    name: Icons
+    url: /icons/
+    weight: 2
   - identifier: examples
-    name: Examples
-    url: /examples/
+    name: Gallery
+    url: /gallery/
 
 params:
   gtmID: 

@@ -5,7 +5,7 @@
     {{ partial "site/head" . }}
   {{ end }}
 
-  <body class="flex flex--column">
+  <body class="flex flex--column {{ .Type }}">
     {{ partial "site/gtm-body" . }}
     {{ partial "site/header" . }}
 
