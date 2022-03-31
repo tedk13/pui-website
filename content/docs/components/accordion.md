@@ -38,6 +38,6 @@ Platform UI accordions were designed to be stacked.
 
 {{< callout tipHeader="Accordion Tip">}} 
 
-<p>Accordions can be nested. You can see this in action on the <a href="/examples">examples</a> page.</p>
+<p>Accordions can be nested. You can see this in action on the <a href="/gallery/">examples</a> page.</p>
 
 {{< /callout >}}
