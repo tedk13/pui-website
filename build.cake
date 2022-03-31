@@ -6,7 +6,7 @@ var target = Argument("target", "Default");
 
 var configuration = "Release";
 
-var artifactsDir = Directory("./artifacts");
+var artifactsDir = Directory("./assets/output");
 
 Task("Clean")
     .Does(() =>
@@ -41,11 +41,11 @@ Task("Package")
     .Does(() =>
     {
         System.IO.File.AppendAllText(
-            artifactsDir + File("./styleguide/_git_hash/index.html"),
+            artifactsDir + File("./_git_hash/index.html"),
             BuildSystem.AppVeyor.Environment.Repository.Commit.Id);
         
         System.IO.File.AppendAllText(
-            artifactsDir + File("./styleguide/_health/index.html"),
+            artifactsDir + File("./_health/index.html"),
             "Healthy");
 
         Zip(
