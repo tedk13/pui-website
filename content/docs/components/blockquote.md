@@ -28,6 +28,6 @@ Our blockquotes are similar to the browser default. We added a left border, whic
 
 {{< callout tipHeader="Blockquote Tip">}} 
 
-<p>Hey! You can change the default left border by using border color utilities!</p>
+<p>Hey! You can change the default left border by using <a href="/docs/utilities/borders/">border color utilities</a>!</p>
 
 {{< /callout >}}
