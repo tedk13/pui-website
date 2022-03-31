@@ -1,6 +1,5 @@
 ---
 title: Platform UI
-date: 2018-07-20T12:59:15-04:00
 ---
 
 {{< block-container class="flex--justify-center cards" >}}

@@ -1,6 +1,5 @@
 ---
 title: Spacers
-date: 2018-07-20T12:59:15-04:00
 ---
 
 Platform UI provides padding and margin utilities for most scenarios based on it's spacer map;

@@ -1,6 +1,5 @@
 ---
 title: Backgrounds
-date: 2018-07-20T12:59:15-04:00
 ---
 Used to modify the appearance of the background.
 

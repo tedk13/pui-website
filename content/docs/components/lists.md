@@ -1,6 +1,5 @@
 ---
 title: Lists
-date: 2018-07-20T12:59:15-04:00
 ---
 The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The list items in those lists have `margin-bottom: .5rem`.
 

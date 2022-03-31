@@ -1,6 +1,5 @@
 ---
 title: Truncate With Ellipsis
-date: 2018-07-20T12:59:15-04:00
 ---
 A utility that does what it's name says. It truncates text within an element with ellipsis.
 

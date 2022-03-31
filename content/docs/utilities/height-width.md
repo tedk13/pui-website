@@ -1,6 +1,5 @@
 ---
 title: Height and Width
-date: 2018-07-20T12:59:15-04:00
 ---
 
 These classes give you a width and height percentage equal to the number in the class.
