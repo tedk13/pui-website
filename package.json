@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm install && npm run build:parcel && hugo server",
-    "build": "npm run puiver && npm run npmver && npm install && npm run build:parcel && hugo",
+    "build": "npm run puiver && npm run npmver && npm install && npm run build:parcel && hugo --verbose",
     "watch": "parcel watch ./assets/index.js --out-dir assets/output",
     "build:parcel": "parcel build ./assets/index.js --out-dir assets/output",
     "puiver": "npm view @ritterim/platform-ui version > .pui-version",
