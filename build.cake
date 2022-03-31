@@ -40,9 +40,17 @@ Task("Package")
     .IsDependentOn("Build")
     .Does(() =>
     {
+        var gitHashDirectory = artifactsDir.Path.Combine("_git_hash");
+        Information($"gitHashDirectory={gitHashDirectory}");
+        EnsureDirectoryExists(gitHashDirectory);
+
         System.IO.File.AppendAllText(
             artifactsDir + File("./_git_hash/index.html"),
             BuildSystem.AppVeyor.Environment.Repository.Commit.Id);
+
+        var healthDirectory = artifactsDir.Path.Combine("_health");
+        Information($"healthDirectory={healthDirectory}");
+        EnsureDirectoryExists(healthDirectory);
         
         System.IO.File.AppendAllText(
             artifactsDir + File("./_health/index.html"),

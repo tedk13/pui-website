@@ -12,6 +12,7 @@ catch {
   Write-Output "Error while downloading shared build script, attempting to use previously downloaded scripts..."
 }
 
-.\build\bootstrap-cake.ps1 -Verbose --verbosity=Normal
+#.\build\bootstrap-cake.ps1 -Verbose --verbosity=Normal
+.\build\bootstrap-cake.ps1 -Verbose --verbosity=Diagnostic
 
 Exit $LastExitCode
