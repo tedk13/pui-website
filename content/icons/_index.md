@@ -1,6 +1,8 @@
 ---
+layout: landing 
 title: Icons
 date: 2018-07-20T12:59:15-04:00
+weight: 6
 ---
 All platform icons have a prefix of `pi` and are house in the `<i>` element tag. **Click the button below the icon to copy to clipboard.**
 `<i class="pi-arrow-right"></i>` produces: <i class="pi-arrow-right"></i>
