@@ -49,6 +49,17 @@ window.addEventListener('DOMContentLoaded', (event) => {
       });
     });
   }
+
+  // tables
+  // TO BE REMOVED DURING FINAL TABLE PURGE... JAIME!!!
+  const table = main.querySelectorAll('table');
+  if (table) {
+    table.forEach((table) => {
+      if (!table.classList.contains('table')) {
+        table.className = 'table mb-4 unresponsive';
+      }
+    });
+  }
   
   // loader
   let loaderButton = document.querySelector('.loader-submit');

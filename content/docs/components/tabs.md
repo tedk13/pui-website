@@ -1,6 +1,5 @@
 ---
 title: Tabs
-date: 2018-07-20T12:59:15-04:00
 skellyCSS: true
 ---
 The content for a tabbed section needs to live inside the `.tabs` class. The tabs are radio inputs.

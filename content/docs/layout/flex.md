@@ -1,6 +1,5 @@
 ---
 title: Flex
-date: 2018-07-20T12:59:15-04:00
 ---
 Building layouts with flexbox is super simple with Platform UI using our flex utility classes.
 ## Display

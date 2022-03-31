@@ -1,6 +1,5 @@
 ---
 title: Display
-date: 2018-07-20T12:59:15-04:00
 ---
 
 Our display utilities allow you to show or hide code at specific resolutions.

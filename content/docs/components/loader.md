@@ -1,6 +1,5 @@
 ---
 title: Loader
-date: 2022-03-29T12:59:15-04:00
 ---
 
 Our loader is simple and easy to use. The default loader is 1.4rem, but a modifier can be added to adjust the size.

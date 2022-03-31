@@ -1,6 +1,5 @@
 ---
 title: Menu
-date: 2018-07-20T12:59:15-04:00
 ---
 
 Below you will find documentation and examples for our [site-menu](/docs/menus/menu/#site-menu) and [icon-menu](/docs/menus/menu/#icon-menu). The site-menu works well as the main navigation for your site. 
