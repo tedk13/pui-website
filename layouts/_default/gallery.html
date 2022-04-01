@@ -23,7 +23,7 @@
                             </button>
                         </div>
                         <nav role="sidebar">
-                            {{- partial "site/gallery-sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
+                            {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
                         </nav>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
         <!-- Nav Drawer (Tablet and up) -->
         <div id="frame-nav" class="hide-lg-tablet-down tablet-up-3 lg-tablet-up-2">
             <nav id="sidebar-left" role="sidebar">
-                {{- partial "site/gallery-sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
+                {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
             </nav>
         </div>
         {{ end }}
