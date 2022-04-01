@@ -1,6 +1,5 @@
 ---
 title: Utilities
-layout: gallery
 ---
 
 ## Background

@@ -1,6 +1,5 @@
 ---
 title: Concepts
-layout: gallery
 ---
 
 ## Active

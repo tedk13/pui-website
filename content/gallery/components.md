@@ -1,6 +1,5 @@
 ---
 title: Components
-layout: gallery
 ---
 
 ## Accordion

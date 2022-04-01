@@ -1,6 +1,5 @@
 ---
 title: Layout
-layout: gallery
 ---
 
 ## Blocks 
