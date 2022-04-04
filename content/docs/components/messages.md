@@ -5,114 +5,52 @@ skellyCSS: true
 
 Messages can be used to display important information that will stand out on the screen.
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>Modifier Class</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Modifier Class"><code>.message--success</code></td>
-      <td data-label="Description">Green success message</td>
-    </tr>
-    <tr>
-      <td data-label="Modifier Class"><code>.message--error</code></td>
-      <td data-label="Description">Red error message</td>
-    </tr>
-    <tr>
-      <td data-label="Modifier Class"><code>.message--warning</code></td>
-      <td data-label="Description">Yellow warning message</td>
-    </tr>
-    <tr>
-      <td data-label="Modifier Class"><code>.message--info</code></td>
-      <td data-label="Description">Blue info message</td>
-    </tr>
-  </tbody>
-</table>
-
-
-## Success
-
-<div class="message message--success">
-  <p class="skeleton" data-lines="2"></p>
-</div>
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="message message--success">
-  <!-- Success message goes here! -->
-</div>
-{{< /highlight >}}
-</div>
-
-
-## Error
-
-<div class="message message--error">
-  <p class="skeleton" data-lines="2"></p>
-</div>
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="message message--error">
-  <!-- Error message goes here! -->
-</div>
-{{< /highlight >}}
-</div>
-
-
-## Warning
-
-<div class="message message--warning">
-  <p class="skeleton" data-lines="2"></p>
-</div>
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="message message--warning">
-  <!-- Warning message goes here! -->
-</div>
-{{< /highlight >}}
-</div>
-
-
-## Info
-
+{{< code-demo >}}
+<!-- DEMO CODE HERE -->
 <div class="message message--info">
   <p class="skeleton" data-lines="2"></p>
 </div>
-<div class="mt-3 mb-4">
+{{< /code-demo >}}
+
+{{< code-markup >}}
 {{< highlight html >}}
-<div class="message message--info">
-  <!-- Info message goes here! -->
-</div>
+<div class="message">
+  <!-- Content goes here! -->
+<div>
+<!-- CODE SAMPLE HERE -->
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
 
+<section class="p-0 mb-4">
+  <h3>Modifiers</h3>
+  <table borders="1" class="table modifiers table--no-hover">
+    <thead>
+      <tr>
+        <th>Modifier Class</th>
+        <th>Color</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Modifier Class"><code>.message--info</code></td>
+        <td data-label="Color">Blue</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.message--success</code></td>
+        <td data-label="Color">Green</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.message--warning</code></td>
+        <td data-label="Color">Yellow</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.message--error</code></td>
+        <td data-label="Color">Red</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 
-## Alternate Headings
-
-Messages can have custom headings. Adding `data-header="{Your Heading}"` to the message will display the custom heading. 
-
-<div class="message message--success" data-header="Alternate heading based on data-header">
-  <p class="skeleton" data-lines="2"></p>
-</div>
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="message message--success" data-header="Alternate heading based on data-header">
-  <!-- Message content goes here! -->
-</div>
-{{< /highlight >}}
-</div>
-
-Adding `data-header=""` to the message will display a message with no heading.
-
-<div class="message message--success" data-header="">
-  <p class="skeleton" data-lines="2"></p>
-</div>
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="message message--success" data-header="">
-  <!-- Message content goes here! -->
-</div>
-{{< /highlight >}}
-</div>
+{{< callout tipHeader="Message Tip" >}}
+  <p>You can add a custom heading to a message by adding <code>data-header="{Your Heading}"</code> to the message. You can even get rid of the heading by setting <code>data-header=""</code>!</p>
+{{< /callout >}}
