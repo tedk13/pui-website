@@ -51,7 +51,11 @@
       {{ if not .IsHome }}
       <aside class="content-nav hide-lg-tablet-down tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4">
         <nav role="sidebar" id="sidebar-right">
+          {{ if in .Permalink "gallery" }}
+          <h2 class="text--size-lg">Examples</h2>
+          {{ else }}
           <h2 class="text--size-lg">On This Page</h2>
+          {{ end }}
           <div id="on-this-page" class="on-this-page"></div>
         </nav>
       </aside>
