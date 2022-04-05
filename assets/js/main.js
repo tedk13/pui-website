@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   if (table) {
     table.forEach((table) => {
       if (!table.classList.contains('table')) {
-        table.className = 'table mb-4 unresponsive';
+        table.className = 'table modifiers table--no-hover unresponsive';
       }
     });
   }
