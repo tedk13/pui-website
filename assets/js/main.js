@@ -11,8 +11,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
       headings.forEach(heading => {
         if (heading.innerText !== 'On This Page') {
-          if (heading.classList.contains('page-anchor-target')) heading.innerHTML = `<a href="#${heading.id}">${heading.innerText}</a>`;
-
           let li = document.createElement('li');
           if (heading.localName === 'h3') li.classList.add('pl-3');
   
