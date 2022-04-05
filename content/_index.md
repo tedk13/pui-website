@@ -7,7 +7,7 @@ title: Platform UI
 {{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Your Project Starts Here
 {{< /heading >}}
-Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
+Platform UI is built to give frontend developers full control over their UIs. It's a powerful and simple system focused on rapid development.
 {{< /block >}}
 {{< /block-container >}}
 {{< block-container class="flex--justify-center pb-4" >}}
@@ -19,7 +19,7 @@ Platform UI is built to give frontend developers full control over their UI's. I
 Responsive
 {{< /heading >}}
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Platform UI is powered by a responsive grid system. Your design will look great on all screens and resolutions.
+Take advantage of Platform UI's responsive grid system. Your designs adapt to all screen sizes and resolutions.
 {{< /card >}}
 {{< /block >}}
 {{< block >}}
@@ -28,7 +28,7 @@ Platform UI is powered by a responsive grid system. Your design will look great 
 Customizable
 {{< /heading >}}
 {{< figure src="/images/icons/customizable.svg" class="px-4" >}}
-Helps to build a custom design by adding or removing elements, and controlling sizes, colors, and fonts.
+Build custom designs by adding or removing elements, and controlling sizes, colors, and fonts.
 {{< /card >}}
 {{< /block >}}
 {{< block >}}
@@ -37,7 +37,7 @@ Helps to build a custom design by adding or removing elements, and controlling s
 Free
 {{< /heading >}}
 {{< figure src="/images/icons/github.svg" class="px-4" >}}
-Created as an open source project, Platform UI is available to the general public for use and/or modification from its original design, free of charge.
+Work with a community-supported open source project that's available to everyone free of charge.
 {{< /card >}}
 {{< /block >}}
 {{< block >}}
@@ -46,7 +46,7 @@ Created as an open source project, Platform UI is available to the general publi
 Accessible
 {{< /heading >}}
 {{< figure src="/images/icons/accessible.svg" class="px-4" >}}
-HTML elements with accessible color combinations and screen reader utility classes allow you to build accessible web interfaces.
+Create accessible UIs using HTML elements with pre-defined colors and screen reader utility classes.
 {{< /card >}}
 {{< /block >}}
 {{< /block-container >}}
@@ -73,7 +73,7 @@ npm install @ritterim/platform-ui
 {{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 tablet-up-4 laptop-up-5" >}}
 {{< heading heading="h3" class="text--size-lg text-purple" >}}
-CDN Links
+Add Using CDN
 {{< /heading >}}
 The compiled files of all Platform UI versions are also hosted on the UNPKG content delivery network via unpkg.com
 See All Files and Versions
@@ -94,7 +94,7 @@ https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/js/platform-ui.min.js
 {{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Setup
 {{< /heading >}}
-Platform UI is built to give frontend developers full control over their UI's. It is a powerful and simple system focused on rapid development.
+Platform UI is built to give frontend developers full control over their UIs. It's a powerful and simple system focused on rapid development.
 {{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 lg-tablet-up-8 laptop-up-7" >}}
 {{< highlight html >}}
@@ -126,7 +126,7 @@ Platform UI is built to give frontend developers full control over their UI's. I
 {{< heading heading="h3" class="text--size-lg text-purple" >}}
 HTML Templates
 {{< /heading >}}
-Start your project with basic HTML template and adapt it to your needs.
+Start your project with a basic HTML template and adapt it to your needs.
 {{< /block >}}
 {{< /block-container >}}
 {{< /card >}}
@@ -152,7 +152,7 @@ Import your fonts to the template.
 {{< heading heading="h3" class="text--size-lg text-purple" >}}
 Layout
 {{< /heading >}}
-Customize it with the grid system.
+Customize your template with the grid system.
 {{< /block >}}
 {{< /block-container >}}
 {{< /card >}}
