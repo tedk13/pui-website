@@ -17,7 +17,6 @@ Messages can be used to display important information that will stand out on the
 <div class="message">
   <!-- Content goes here! -->
 <div>
-<!-- CODE SAMPLE HERE -->
 {{< /highlight >}}
 {{< /code-markup >}}
 
