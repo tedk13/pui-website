@@ -1,5 +1,5 @@
 ---
-title: This is my first blog | Our Blog
+title: Blog Post
 layout: example
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
 ---

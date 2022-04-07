@@ -1,5 +1,5 @@
 ---
-title: Our Blog
+title: Blog
 layout: example
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
 ---
