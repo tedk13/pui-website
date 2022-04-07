@@ -11,6 +11,7 @@ height of `4rem`.
 
 Work in progress. At a mobile resolution (below 768px) an active tab will collapse when clicked. 
 
+{{< code-demo >}}
 <div class="tabs">
   <!-- Tab 1 -->
   <input type="radio" id="tab-input-a" name="tabs" checked>
@@ -44,8 +45,9 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <p class="skeleton" data-lines="3"></p>
   </div>
 </div>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="tabs">
   <!-- Tab 1 -->
@@ -76,138 +78,26 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
   </div>
 </div>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
 
+<section class="p-0 mb-4">
+  <h3>Modifiers</h3>
+  <table borders="1" class="table modifiers table--no-hover">
+    <thead>
+      <tr>
+        <th>Modifier Class</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Modifier Class"><code>.tabs--flat</code></td>
+        <td data-label="Description">Removes the hover effect on the table and rows</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 
-## Tabs Flat
-
-If you want the borders removed from the tabs, add the class `tab--flat` to the `tab`.
-
-<div class="tabs tabs--flat">
-  <input type="radio" id="tab-input-2a" name="tabs-2" checked>
-  <label for="tab-input-2a" class="tab">
-    <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
-  </label>
-  <div class="tab-panel">
-    <p class="skeleton" data-lines="6"></p>
-  </div>
-  <input type="radio" id="tab-input-2b" name="tabs-2">
-  <label for="tab-input-2b" class="tab">
-    <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
-  </label>
-  <div class="tab-panel">
-    <div class="flex">
-      <img class="skeleton-image skeleton-image--lg mb-3">
-      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3">
-    </div>
-  </div>
-  <input type="radio" id="tab-input-2c" name="tabs-2">
-  <label for="tab-input-2c" class="tab">
-    <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
-  </label>
-  <div class="tab-panel">
-    <img class="skeleton-image skeleton-image--lg mb-3">
-    <h2 class="skeleton skeleton--md"></h2>
-    <p class="skeleton" data-lines="3"></p>
-  </div>
-</div>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="tabs tabs--flat">
-  <!-- Tab 1 -->
-  <input type="radio" id="tab-input-a" name="tabs" checked>
-  <label for="tab-input-a" class="tab">
-    <!-- Tab label goes here! -->
-  </label>
-  <div class="tab-panel">
-    <!-- Tab content goes here! -->
-  </div>
-
-  <!-- Tab 2 -->
-  <input type="radio" id="tab-input-b" name="tabs">
-  <label for="tab-input-b" class="tab">
-    <!-- Tab label goes here! -->
-  </label>
-  <div class="tab-panel">
-    <!-- Tab content goes here! -->
-  </div>
-
-  <!-- Tab 3 -->
-  <input type="radio" id="tab-input-c" name="tabs">
-  <label for="tab-input-c" class="tab">
-    <!-- Tab label goes here! -->
-  </label>
-  <div class="tab-panel">
-    <!-- Tab content goes here! -->
-  </div>
-</div>
-{{< /highlight >}}
-</div>
-
-
-## Tabs Flat Unresponsive
-
-To keep the flat look at every screen size add the class `unresponsive` to tabs tabs--flat.
-
-<div class="tabs tabs--flat unresponsive">
-  <input type="radio" id="tab-input-ar" name="tabs-r" checked>
-  <label for="tab-input-ar" class="tab">
-    <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
-  </label>
-  <div class="tab-panel">
-    <p class="skeleton" data-lines="6"></p>
-  </div>
-  <input type="radio" id="tab-input-br" name="tabs-r">
-  <label for="tab-input-br" class="tab">
-    <i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2
-  </label>
-  <div class="tab-panel">
-    <div class="flex">
-      <img class="skeleton-image skeleton-image--lg mb-3">
-      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3">
-    </div>
-  </div>
-  <input type="radio" id="tab-input-cr" name="tabs-r">
-  <label for="tab-input-cr" class="tab">
-    <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
-  </label>
-  <div class="tab-panel">
-    <img class="skeleton-image skeleton-image--lg mb-3">
-    <h2 class="skeleton skeleton--md"></h2>
-    <p class="skeleton" data-lines="3"></p>
-  </div>
-</div>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="tabs tabs--flat unresponsive">
-  <!-- Tab 1 -->
-  <input type="radio" id="tab-input-a" name="tabs" checked>
-  <label for="tab-input-a" class="tab">
-    <!-- Tab label goes here! -->
-  </label>
-  <div class="tab-panel">
-    <!-- Tab content goes here! -->
-  </div>
-
-  <!-- Tab 2 -->
-  <input type="radio" id="tab-input-b" name="tabs">
-  <label for="tab-input-b" class="tab">
-    <!-- Tab label goes here! -->
-  </label>
-  <div class="tab-panel">
-    <!-- Tab content goes here! -->
-  </div>
-
-  <!-- Tab 3 -->
-  <input type="radio" id="tab-input-c" name="tabs">
-  <label for="tab-input-c" class="tab">
-    <!-- Tab label goes here! -->
-  </label>
-  <div class="tab-panel">
-    <!-- Tab content goes here! -->
-  </div>
-</div>
-{{< /highlight >}}
-</div>
+{{< callout tipHeader="Tabs Tip" >}}
+  <p>You can add the class <code>.unresponsive</code> if you want to keep the look of the tabs the same at every screen size!</p>
+{{< /callout >}}

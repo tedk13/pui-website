@@ -1,5 +1,6 @@
 ---
 title: Figure Hover
+skellyCSS: true
 ---
 
 To hide and show the figcaption on hover, you can add the class `figure-hover` to a `figure`. Notice the figcaption transitions

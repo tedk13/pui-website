@@ -9,6 +9,7 @@ Pills have no hover state.
 A pill can also have a label of it's own.
 A slight variation of a pill is a straight circle with a very small amount of content.
 
+{{< code-demo >}}
 <div class="pill">
   Active
 </div>
@@ -21,8 +22,9 @@ A slight variation of a pill is a straight circle with a very small amount of co
 <div class="pill text-white background-salmon">
   Active
 </div>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="pill">
   Active
@@ -37,11 +39,11 @@ A slight variation of a pill is a straight circle with a very small amount of co
   Active
 </div>
 {{< /highlight >}}
-</div>
-
+{{< /code-markup >}}
 
 ## Split
 
+{{< code-demo >}}
 <div class="pill pill--split">
   <div class="pill__label">Left:</div>
   <div class="pill__content">Right</div>
@@ -55,8 +57,9 @@ A slight variation of a pill is a straight circle with a very small amount of co
   <div class="pill__content background-olive">Middle</div>
   <div class="pill__content background-skyblue">Right</div>
 </div>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="pill pill--split">
   <div class="pill__label">Left:</div>
@@ -72,76 +75,76 @@ A slight variation of a pill is a straight circle with a very small amount of co
   <div class="pill__content background-skyblue">Right</div>
 </div>
 {{< /highlight >}}
-</div>
-
+{{< /code-markup >}}
 
 ## Close
 
+{{< code-demo >}}
 <div class="pill">
  <div class="pill__close"><i class="pi-times-solid text-salmon"></i></div>
   Active
 </div>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="pill">
  <div class="pill__close"><i class="pi-times-solid text-salmon"></i></div>
   Active
 </div>
 {{< /highlight >}}
-</div>
-
+{{< /code-markup >}}
 
 ## Circle
 
-Pills can be circular. Sizes above `dot`, can have content. They come in 5 sizes, `dot`, `empty`, `pill--circle` (_default_), `pill--circle-medium`, `pill--circle-large`
+Pills can be circular.
 
-<div class="pill pill--circle-empty-dot negative"></div>
-<div class="pill pill--circle-empty-dot positive"></div>
-<div class="pill pill--circle-empty negative"></div>
-<div class="pill pill--circle-empty positive"></div>
+{{< code-demo >}}
 <div class="pill pill--circle">
   33
 </div>
 <div class="pill pill--circle text-white background-salmon">
   33
 </div>
-<div class="pill pill--circle-medium">
-  33
-</div>
-<div class="pill pill--circle-medium text-white background-salmon">
-  33
-</div>
-<div class="pill pill--circle-large">
-  33
-</div>
-<div class="pill pill--circle-large text-white background-salmon">
-  33
-</div>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
-<div class="pill pill--circle-empty-dot negative"></div>
-<div class="pill pill--circle-empty-dot positive"></div>
-<div class="pill pill--circle-empty negative"></div>
-<div class="pill pill--circle-empty positive"></div>
 <div class="pill pill--circle">
   33
 </div>
 <div class="pill pill--circle text-white background-salmon">
-  33
-</div>
-<div class="pill pill--circle-medium">
-  33
-</div>
-<div class="pill pill--circle-medium text-white background-salmon">
-  33
-</div>
-<div class="pill pill--circle-large">
-  33
-</div>
-<div class="pill pill--circle-large text-white background-salmon">
   33
 </div>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
+
+<section class="p-0 mb-4">
+  <h3>Modifiers</h3>
+  <table borders="1" class="table modifiers table--no-hover">
+    <thead>
+      <tr>
+        <th>Modifier Class</th>
+        <th>Allows Content</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Modifier Class"><code>.pill--circle-empty-dot</code></td>
+        <td data-label="Allows Content">No</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.pill--circle-empty</code></td>
+        <td data-label="Allows Content">No</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.pill--circle-medium</code></td>
+        <td data-label="Allows Content">Yes</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.pill--circle-large</code></td>
+        <td data-label="Allows Content">Yes</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
