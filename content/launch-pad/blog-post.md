@@ -13,7 +13,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
 <header class="site-menu-wrapper p-2 background-dark">
     <div class="block-container flex--justify-center w-100">
         <div class="block block-10 lg-tablet-up-8 flex flex--justify-between">
-            <a href="/gallery/blog/" class="site-logo text--size-xxl text-white">
+            <a href="/launch-pad/blog-example" class="site-logo text--size-xxl text-white">
                 PUI Blog!
             </a>
             <button class="site-menu-mobile-action text-white">
@@ -21,9 +21,9 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                 <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
             </button>
             <nav class="site-menu text-white">
-                <a href="/gallery/blog/" class="site-menu__item">About</a>
-                <a href="blog-post" class="site-menu__item">Posts</a>
-                <a href="/gallery/blog/" class="site-menu__item">Resume</a>
+                <a href="/launch-pad/blog-example" class="site-menu__item">About</a>
+                <a href="/launch-pad/blog-post" class="site-menu__item">Posts</a>
+                <a href="/launch-pad/blog-example" class="site-menu__item">Resume</a>
             </nav>
         </div>
     </div>
@@ -91,7 +91,7 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: January 12, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="blog-post">Read More</a>
+                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: January 18, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="blog-post">Read More</a>
+                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: January 23, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="blog-post">Read More</a>
+                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
