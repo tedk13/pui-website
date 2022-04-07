@@ -26,10 +26,10 @@ Our loader is simple and easy to use. The default loader is 1.4rem, but a modifi
     <tbody>
       <tr>
         <td data-label="Modifier Class"><code>.loader--sm</code></td>
-        <td data-label="Size"><code>.loader--lg</code></td>
+        <td data-label="Size">.9rem</td>
       </tr>
       <tr>
-        <td data-label="Modifier Class">.9rem</td>
+        <td data-label="Modifier Class"><code>.loader--lg</code></td>
         <td data-label="Size">2rem</td>
       </tr>
     </tbody>

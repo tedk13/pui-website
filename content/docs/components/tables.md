@@ -1,8 +1,10 @@
 ---
 title: Tables
 ---
-This is a standard table.
 
+Platform UI tables are built to be responsive at all screen sizes! Just include a `data-label` on the `<td>` that matches the header for that column.
+
+{{< code-demo >}}
 <table class="table">
   <thead>
     <tr>
@@ -36,8 +38,9 @@ This is a standard table.
     </tr>
   </tbody>
 </table>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <table class="table">
   <thead>
@@ -73,84 +76,26 @@ This is a standard table.
   </tbody>
 </table>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
 
-## Responsive
-
-Tables are responsive by default, so they will display differently below the mobile breakpoint.
-
-Mobile column labels are achieved using the `:before` pseudo element. Adding your column name expressed in `<th>` to the `data-label` attribute for each `<td>` in that column adds the column name to the left of your data.
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<table class="table">
-  <thead>
-    <tr>
-      <th>Menu Item</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Menu Items">
-        Pork Buns
-      </td>
-    </tr>
-  <tbody>
-</table>
-{{< /highlight >}}
-</div>
-
-## Unresponsive
-If you would prefer to retain the desktop view even on mobile, you can do so by adding the `unresponsive` class to the table element. 
-
-For tables with many columns, we recommend wrapping a `unresponsive` table within an `.overflow-x--auto` utility class to add horizontal scrolling.
-
-<div class="overflow-x--auto">
-  <table class="table--no-hover">
+<section class="p-0 mb-4">
+  <h3>Modifiers</h3>
+  <table borders="1" class="table modifiers table--no-hover">
     <thead>
       <tr>
-        <th>Menu Item</th>
-        <th>Size</th>
-        <th>Price</th>
+        <th>Modifier Class</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td data-label="Menu Item">
-          Pork Buns
-        </td>
-        <td data-label="Size">
-          Large
-        </td>
-        <td data-label="Price">
-          $8.99
-        </td>
-      </tr>
-      <tr>
-        <td data-label="Menu Item">
-          Pork Buns
-        </td>
-        <td data-label="Size">
-          Small
-        </td>
-        <td data-label="Price">
-          $5.99
-        </td>
+        <td data-label="Modifier Class"><code>.table--no-hover</code></td>
+        <td data-label="Description">Removes the hover effect on the table and rows</td>
       </tr>
     </tbody>
   </table>
-</div>
+</section>
 
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="overflow-x--auto">
-  <table class="table unresponsive">
-    <!-- Table conten goes here! -->
-  </table>
-</div>
-{{< /highlight >}}
-</div>
-
-
-<div class="message message--info mb-3">
-  <p>You can also turn off the table row hover styles by adding <code>.table--no-hover</code> to the table component.</p>
-</div>
+{{< callout tipHeader="Table Tip" >}}
+  <p>If you don't want your table to be responsive, you can add <code>.unresponsive</code> to the table. If you add the utility class <code>.overflow-x--auto</code> the table will scroll horizontally too!</p>
+{{< /callout >}}

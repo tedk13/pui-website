@@ -5,49 +5,42 @@ skellyCSS: true
 
 You can create easy rounded images.
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>Class Name</th>
-      <th>Height and Width</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Class Name"><code>image--round-small</code></td>
-      <td data-label="Height and Width">100px</td>
-    </tr>
-    <tr>
-      <td data-label="Class Name"><code>image--round-medium</code></td>
-      <td data-label="Height and Width">150px</td>
-    </tr>
-    <tr>
-      <td data-label="Class Name"><code>image--round-large</code></td>
-      <td data-label="Height and Width">200px</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="image--round-small">
-  <img class="skeleton-image skeleton-image--lg">
-</div>
+{{< code-demo >}}
 <div class="image--round-medium">
   <img class="skeleton-image skeleton-image--lg">
 </div>
-<div class="image--round-large">
-  <img class="skeleton-image skeleton-image--lg">
-</div>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
-<div class="image--round-small">
-  <img src="..." alt="pretty">
-</div>
 <div class="image--round-medium">
-  <img src="..." alt="pretty">
-</div>
-<div class="image--round-large">
   <img src="..." alt="pretty">
 </div>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
+
+<section class="p-0 mb-4">
+  <h3>Modifiers</h3>
+  <table borders="1" class="table modifiers table--no-hover">
+    <thead>
+      <tr>
+        <th>Modifier Class</th>
+        <th>Size</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Modifier Class"><code>.image--round-small</code></td>
+        <td data-label="Size">100px</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.image--round-medium</code></td>
+        <td data-label="Size">150px</td>
+      </tr>
+      <tr>
+        <td data-label="Modifier Class"><code>.image--round-large</code></td>
+        <td data-label="Size">200px</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

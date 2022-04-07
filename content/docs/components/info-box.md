@@ -3,6 +3,10 @@ title: Info Box
 skellyCSS: true
 ---
 
+<div class="mb-4">
+{{% requires-js %}}
+</div>
+
 Click the button to toggle the info box. 
 
 <i class="pi-warning text-orange"></i> **Note:** Depending on the rest of your markup, you might need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly.
