@@ -65,7 +65,7 @@ This is the basic template to get started for any HTML project.
 {{< /highlight >}}
 </div>
  
-Looking for a little more to get going? Check out our [gallery examples](/gallery/)!
+Looking for a little more to get going? Check out our [gallery examples](/launch-pad/)!
 
 
 <div class="mb-4">
