@@ -91,7 +91,7 @@ Looking for a little more to get going? Check out our [gallery examples](/launch
       <h1>Side Menu</h1>
     </aside>
     <section class="block lg-tablet-up-8 p-3">
-      <h1 class="text-base">Main Content</h1>
+      <h1 class="text--base">Main Content</h1>
     </section>
     <aside class="block lg-tablet-up-2">
       <h1>Aside</h1>

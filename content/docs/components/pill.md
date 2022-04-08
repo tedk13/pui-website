@@ -13,13 +13,13 @@ A slight variation of a pill is a straight circle with a very small amount of co
 <div class="pill">
   Active
 </div>
-<div class="pill text-white background--navy">
+<div class="pill text--white background--navy">
   Active
 </div>
-<div class="pill text-white background--skyblue">
+<div class="pill text--white background--skyblue">
   Active
 </div>
-<div class="pill text-white background--salmon">
+<div class="pill text--white background--salmon">
   Active
 </div>
 {{< /code-demo >}}
@@ -29,13 +29,13 @@ A slight variation of a pill is a straight circle with a very small amount of co
 <div class="pill">
   Active
 </div>
-<div class="pill text-white background--navy">
+<div class="pill text--white background--navy">
   Active
 </div>
-<div class="pill text-white background--skyblue">
+<div class="pill text--white background--skyblue">
   Active
 </div>
-<div class="pill text-white background--salmon">
+<div class="pill text--white background--salmon">
   Active
 </div>
 {{< /highlight >}}
@@ -48,11 +48,11 @@ A slight variation of a pill is a straight circle with a very small amount of co
   <div class="pill__label">Left:</div>
   <div class="pill__content">Right</div>
 </div>
-<div class="pill pill--split text-white background--peach">
-  <div class="pill__label text-brown">Left:</div>
+<div class="pill pill--split text--white background--peach">
+  <div class="pill__label text--brown">Left:</div>
   <div class="pill__content">Right</div>
 </div>
-<div class="pill pill--split text-white background--navy">
+<div class="pill pill--split text--white background--navy">
   <div class="pill__content background--salmon">Left</div>
   <div class="pill__content background--olive">Middle</div>
   <div class="pill__content background--skyblue">Right</div>
@@ -65,11 +65,11 @@ A slight variation of a pill is a straight circle with a very small amount of co
   <div class="pill__label">Left:</div>
   <div class="pill__content">Right</div>
 </div>
-<div class="pill pill--split text-white background--peach">
-  <div class="pill__label text-brown">Left:</div>
+<div class="pill pill--split text--white background--peach">
+  <div class="pill__label text--brown">Left:</div>
   <div class="pill__content">Right</div>
 </div>
-<div class="pill pill--split text-white background--navy">
+<div class="pill pill--split text--white background--navy">
   <div class="pill__content background--salmon">Left</div>
   <div class="pill__content background--olive">Middle</div>
   <div class="pill__content background--skyblue">Right</div>
@@ -81,7 +81,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 
 {{< code-demo >}}
 <div class="pill">
- <div class="pill__close"><i class="pi-times-solid text-salmon"></i></div>
+ <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
   Active
 </div>
 {{< /code-demo >}}
@@ -89,7 +89,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="pill">
- <div class="pill__close"><i class="pi-times-solid text-salmon"></i></div>
+ <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
   Active
 </div>
 {{< /highlight >}}
@@ -103,7 +103,7 @@ Pills can be circular.
 <div class="pill pill--circle">
   33
 </div>
-<div class="pill pill--circle text-white background--salmon">
+<div class="pill pill--circle text--white background--salmon">
   33
 </div>
 {{< /code-demo >}}
@@ -113,7 +113,7 @@ Pills can be circular.
 <div class="pill pill--circle">
   33
 </div>
-<div class="pill pill--circle text-white background--salmon">
+<div class="pill pill--circle text--white background--salmon">
   33
 </div>
 {{< /highlight >}}
