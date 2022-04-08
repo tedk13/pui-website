@@ -52,7 +52,7 @@ Create accessible UIs using HTML elements with pre-defined colors and screen rea
 {{< /block-container >}}
 {{< /block >}}
 {{< /block-container >}}
-<section class="block-container flex--justify-center background-lighter py-4 px-0">
+<section class="block-container flex--justify-center background--lighter py-4">
 {{< block class="block-11 tablet-up-8" >}}
 {{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Quick Start
@@ -89,7 +89,7 @@ https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/js/platform-ui.min.js
 {{< /block-container >}}
 {{< /block >}}
 </section>
-<section class="block-container flex--justify-center py-4 px-0">
+<section class="block-container flex--justify-center py-4">
 {{< block class="block-11 tablet-up-8 desktop-up-6" >}}
 {{< heading heading="h2" class="text--center text-purple text--bold" >}}
 Setup

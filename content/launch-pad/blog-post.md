@@ -10,7 +10,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
     }
 </style>
 
-<header class="site-menu-wrapper p-2 background-dark">
+<header class="site-menu-wrapper p-2 background--dark">
     <div class="block-container flex--justify-center w-100">
         <div class="block block-10 lg-tablet-up-8 flex flex--justify-between">
             <a href="/launch-pad/blog-example" class="site-logo text--size-xxl text-white">
@@ -31,7 +31,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
 
 <main class="block-container flex--justify-center mb-6">
     <section 
-        class="block linear-gradient background-image pos-rel mb-6"
+        class="block linear-gradient background-image pos-rel p-3 mb-6"
         data-background-image="https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098__340.jpg"
         data-background-position="center center"
         data-background-size="cover"
@@ -51,7 +51,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
             </div>
         </div>
     </section>
-    <section class="block block-10 lg-tablet-up-8 p-0 mb-6">
+    <section class="block block-10 lg-tablet-up-8 mb-6">
 For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.
 
 It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.
@@ -72,7 +72,7 @@ There can be no thought of finishing for ‘aiming for the stars.’ Both figura
 
 We are all connected; To each other, biologically. To the earth, chemically. To the rest of the universe atomically.
     </section>
-    <section class="block block-10 lg-tablet-up-8 p-0">
+    <section class="block block-10 lg-tablet-up-8">
         <h2>Read More</h2>
         <div class="block-container blocks lg-tablet-up-2 p-3 mb-3 cards w-100">
             <div class="block">
@@ -142,7 +142,7 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
     </section>
 </main>
 
-<footer class="background-dark p-4">
+<footer class="background--dark p-4">
     <div class="text--center text-white">
         <p class="m-0">Copyright Platform UI 2022</p>
     </div>

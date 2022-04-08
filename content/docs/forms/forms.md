@@ -215,7 +215,7 @@ Adding a `form--light` modifier gives the form a white theme. The text color and
 
 The light modifier works with [form--bordered](/docs/forms/forms/#form-border) and [form--rounded](/docs/forms/forms/#form-rounded-border).
 
-<div class="background-navy p-3">
+<div class="background--navy p-3">
   <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
     <div class="block form__field">
       <label for="first-name">First Name</label>
@@ -238,7 +238,7 @@ The light modifier works with [form--bordered](/docs/forms/forms/#form-border) a
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="background-navy p-3">
+<div class="background--navy p-3">
   <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
     <div class="block form__field">
       <label for="first-name">First Name</label>
@@ -417,13 +417,13 @@ If you would like the icon to be on the right side of the input, add the class `
   <div class="block">
     <label for="dob-g" class="form__field has-icon--right">Birthday
       <input id="dob-g" type="date">
-      <i class="pi-calendar background-white"></i>
+      <i class="pi-calendar background--white"></i>
     </label>
   </div>
   <div class="block">
     <label for="date-g" class="form__field has-icon">Date
       <input id="date-g" type="date">
-      <i class="pi-calendar text-med-blue background-white"></i>
+      <i class="pi-calendar text-med-blue background--white"></i>
     </label>
   </div>
   <div class="block">
@@ -445,13 +445,13 @@ If you would like the icon to be on the right side of the input, add the class `
   <div class="block">
     <label for="dob-g" class="form__field has-icon--right">Birthday
       <input id="dob-g" type="date">
-      <i class="pi-calendar background-white"></i>
+      <i class="pi-calendar background--white"></i>
     </label>
   </div>
   <div class="block">
     <label for="date-g" class="form__field has-icon">Date
       <input id="date-g" type="date">
-      <i class="pi-calendar text-med-blue background-white"></i>
+      <i class="pi-calendar text-med-blue background--white"></i>
     </label>
   </div>
   <div class="block">
@@ -838,7 +838,7 @@ Here's an example of a larger responsive form using the block layout.
   <div class="block">
     <label for="date-h" class="form__field has-icon">Date
       <input id="date-h" type="date">
-      <i class="pi-calendar text-skyblue background-white"></i>
+      <i class="pi-calendar text-skyblue background--white"></i>
     </label>
   </div>
   <div class="block">
@@ -954,7 +954,7 @@ Here's an example of a larger responsive form using the block layout.
   <div class="block">
     <label for="date-h" class="form__field has-icon">Date
       <input id="date-h" type="date">
-      <i class="pi-calendar text-skyblue background-white"></i>
+      <i class="pi-calendar text-skyblue background--white"></i>
     </label>
   </div>
   <div class="block">

@@ -10,7 +10,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
     }
 </style>
 
-<header class="site-menu-wrapper p-2 background-dark">
+<header class="site-menu-wrapper p-2 background--dark">
     <div class="block-container flex--justify-center w-100">
         <div class="block block-10 lg-tablet-up-8 flex flex--justify-between">
             <a href="/launch-pad/blog-example" class="site-logo text--size-xxl text-white">
@@ -31,7 +31,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
 
 <main class="block-container flex--justify-center mb-6">
     <section 
-        class="block linear-gradient background-image pos-rel mb-6"
+        class="block linear-gradient background-image pos-rel mb-6 p-3"
         data-background-image="https://cdn.pixabay.com/photo/2017/09/12/11/56/universe-2742113_1280.jpg"
         data-background-position="center center"
         data-background-size="cover"
@@ -51,7 +51,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
             </div>
         </div>
     </section>
-    <section class="block block-10 lg-tablet-up-8 p-0">
+    <section class="block block-10 lg-tablet-up-8">
         <h2>Latest Posts</h2>
         <div class="block-container blocks tablet-up-2 lg-tablet-up-3 laptop-up-4 p-3 mb-3 cards w-100">
             <div class="block">
@@ -184,7 +184,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
     </section>
 </main>
 
-<footer class="background-dark p-4">
+<footer class="background--dark p-4">
     <div class="text--center text-white">
         <p class="m-0">Copyright Platform UI 2022</p>
     </div>

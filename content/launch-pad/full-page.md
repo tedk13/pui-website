@@ -47,7 +47,7 @@ skellyCSS: true
   data-background-position="center center"
   data-background-size="cover"
   data-background-repeat="no-repeat">
-    <div class="background-black-a80 text--size-xl text--center p-6">
+    <div class="background--black-a80 text--size-xl text--center p-6">
       <img style="width: 80%; max-width:500px" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
       <h1 class="text-white">Welcome to Pizza Town!</h1>
       <button class="button button--lg text-white my-4 hover-scale" style="background:var(--color-red);">

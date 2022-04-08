@@ -99,28 +99,28 @@ Utility classes to modify text case type.
   <tbody>
     <tr>
       <td data-label="Color">
-        <p class="text-white background-black">White</p>
+        <p class="text-white background--black">White</p>
       </td>
       <td data-label="Modifier Class"><code>.text-white</code></td>
       <td data-label="Hover Class"><code>.text-white--hover</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-lighter background-dark">Lighter</p>
+        <p class="text-lighter background--dark">Lighter</p>
       </td>
       <td data-label="Modifier Class"><code>.text-lighter</code></td>
       <td data-label="Hover Class"><code>.text-lighter--hover</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-light-mid background-dark">Light Mid</p>
+        <p class="text-light-mid background--dark">Light Mid</p>
       </td>
       <td data-label="Modifier Class"><code>.text-light-mid</code></td>
       <td data-label="Hover Class"><code>.text-light-mid--hover</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-light background-dark">Light</p>
+        <p class="text-light background--dark">Light</p>
       </td>
       <td data-label="Modifier Class"><code>.text-light</code></td>
       <td data-label="Hover Class"><code>.text-light--hover</code></td>
@@ -345,28 +345,28 @@ You can add a text-shadow to an element using colors from our [greyscale](/secti
       <td data-label="Greyscale">White</td>
       <td data-label="Modifier Class"><code>.text--shadow-white</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text--shadow-white">Hello World!</p>
+        <p class="p-2 background--base text--shadow-white">Hello World!</p>
       </td>
     </tr>
     <tr>
       <td data-label="Greyscale">Lighter</td>
       <td data-label="Modifier Class"><code>.text--shadow-lighter</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text--shadow-lighter">Hello World!</p>
+        <p class="p-2 background--base text--shadow-lighter">Hello World!</p>
       </td>
     </tr>
     <tr>
       <td data-label="Greyscale">Light Mid</td>
       <td data-label="Modifier Class"><code>.text--shadow-light-mid</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text--shadow-light-mid">Hello World!</p>
+        <p class="p-2 background--base text--shadow-light-mid">Hello World!</p>
       </td>
     </tr>
     <tr>
       <td data-label="Greyscale">Light</td>
       <td data-label="Modifier Class"><code>.text--shadow-light</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text-light-mid text--shadow-light">Hello World!</p>
+        <p class="p-2 background--base text-light-mid text--shadow-light">Hello World!</p>
       </td>
     </tr>
     <tr>

@@ -64,9 +64,9 @@ Sets the flex container to align all contained elements to either the start, cen
       </li>
     </ul>
   </div>
-  <div class="results block background-dark p-2">
+  <div class="results block background--dark p-2">
     <div class="example" data-defaults="flex vh-25">
-      <div class="example-element border border--color-white background-light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
     </div>
   </div>
 </div>
@@ -138,9 +138,9 @@ Sets individual elements to align to either the start, center, end, or baseline 
       </li>
     </ul>
   </div>
-  <div class="results block background-dark p-2">
+  <div class="results block background--dark p-2">
     <div class="example" data-defaults="flex vh-25">
-      <div class="example-element border border--color-white background-light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
     </div>
   </div>
 </div>
@@ -217,11 +217,11 @@ Sets individual elements to align to either the start, center, end, or baseline 
       </li>
     </ul>
   </div>
-  <div class="results block background-dark p-2">
+  <div class="results block background--dark p-2">
     <div class="example" data-defaults="flex">
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
     </div>
   </div>
 </div>
@@ -296,11 +296,11 @@ Utility classes to handle the direction of elements within a flex container.
       </li>
     </ul>
   </div>
-  <div class="results block background-dark p-2">
+  <div class="results block background--dark p-2">
     <div class="example" data-defaults="flex vh-25">
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
     </div>
   </div>
 </div>
@@ -368,28 +368,28 @@ Utility classes to handle wrapping, spacing, and centering of content within a f
       </li>
     </ul>
   </div>
-  <div class="results block background-dark p-2">
+  <div class="results block background--dark p-2">
     <div class="example" data-defaults="flex h-100">
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
-      <div class="example-element border border--color-white background-light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
+      <div class="example-element border border--color-white background--light-purple"></div>
     </div>
   </div>
 </div>

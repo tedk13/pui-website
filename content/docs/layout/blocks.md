@@ -52,22 +52,22 @@ The example below shows how each block lays out along the 12 column grid.
     <div class="block block-1 sg-column"></div>
   </div>
   <div class="block block-3 my-2">
-    <div class="card background-light-mid">
+    <div class="card background--light-mid">
       <strong>Block-3</strong>
     </div>
   </div>
   <div class="block block-9 my-2">
-    <div class="card background-light-mid">
+    <div class="card background--light-mid">
       <strong>Block-9</strong>
     </div>
   </div>
   <div class="block block-6 my-2">
-    <div class="card background-light-mid">
+    <div class="card background--light-mid">
       <strong>Block-6</strong>
     </div>
   </div>
   <div class="block block-6 my-2">
-    <div class="card background-light-mid">
+    <div class="card background--light-mid">
       <strong>Block-6</strong>
     </div>
   </div>
@@ -102,51 +102,51 @@ The example below shows how each block lays out along the 12 column grid.
   <tbody>
     <tr>
       <td data-label="Modifier Class"><code>.block-1</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-1"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-1"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-2</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-2"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-2"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-3</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-3"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-3"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-4</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-4"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-4"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-5</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-5"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-5"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-6</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-6"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-6"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-7</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-7"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-7"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-8</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-8"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-8"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-9</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-9"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-9"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-10</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-10"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-10"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-11</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-11"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-11"><div class="card background--lighter"></div></div></div></td>
     </tr>
     <tr>
       <td data-label="Modifier Class"><code>.block-12</code></td>
-      <td data-label="Example"><div class="block-container w-100"><div class="block block-12"><div class="card background-lighter"></div></div></div></td>
+      <td data-label="Example"><div class="block-container w-100"><div class="block block-12"><div class="card background--lighter"></div></div></div></td>
     </tr>
   </tbody>
 </table>

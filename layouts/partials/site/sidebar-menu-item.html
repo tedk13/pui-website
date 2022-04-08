@@ -7,7 +7,7 @@
         <i class="pi-angle-down accordion__icon mr-2 text-light"></i>
         {{ .Name }}
     </a>
-    <ul class="list{{ if ne .FirstSection .Page }} accordion__content py-2 background-lighter{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
+    <ul class="list{{ if ne .FirstSection .Page }} accordion__content py-2 background--lighter{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
         {{ if .Sections }}
             {{- partial "site/sidebar-menu" (dict "menu" .Sections "currentPage" $page)}}
         {{ end }}

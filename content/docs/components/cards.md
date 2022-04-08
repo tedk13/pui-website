@@ -2,7 +2,7 @@
 title: Cards
 skellyCSS: true
 ---
-<section class="p-0 mb-4">
+<section class="mb-4">
 Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
 some padding.
 
@@ -41,7 +41,7 @@ some padding.
 </section>
 
 
-<section class="p-0">
+<section>
 
 ## Image Card
 

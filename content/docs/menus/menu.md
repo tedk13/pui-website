@@ -52,14 +52,14 @@ its parent background-colors. You can read more about this below in the document
   <p>If you want your site-menu to have a background-color without the inherit hover effects, just wrap the <code>site-menu</code> in an element with a <code>background-{color}</code> class. The site-menu and dropdowns will inherit background colors from their parents.</p>
 </div>
 
-<nav class="site-menu background-navy">
+<nav class="site-menu background--navy">
   <a href="#" class="site-menu__item">Item 1</a>
   <a href="#" class="site-menu__item">Item 2</a>
   <a href="#" class="site-menu__item">Item 3</a>
   <a href="#" class="site-menu__item">Item 4</a>
   <a href="#" class="site-menu__item">Item 5</a>
 </nav>
-<nav class="mt-4 site-menu background-lighter">
+<nav class="mt-4 site-menu background--lighter">
   <a href="#" class="site-menu__item">Item 1</a>
   <a href="#" class="site-menu__item">Item 2</a>
   <a href="#" class="site-menu__item">Item 3</a>
@@ -69,14 +69,14 @@ its parent background-colors. You can read more about this below in the document
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<nav class="site-menu background-navy">
+<nav class="site-menu background--navy">
   <a href="#" class="site-menu__item">Item 1</a>
   <a href="#" class="site-menu__item">Item 2</a>
   <a href="#" class="site-menu__item">Item 3</a>
   <a href="#" class="site-menu__item">Item 4</a>
   <a href="#" class="site-menu__item">Item 5</a>
 </nav>
-<nav class="mt-4 site-menu background-lighter">
+<nav class="mt-4 site-menu background--lighter">
   <a href="#" class="site-menu__item">Item 1</a>
   <a href="#" class="site-menu__item">Item 2</a>
   <a href="#" class="site-menu__item">Item 3</a>
@@ -258,7 +258,7 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="background-white">
+<div class="background--white">
   <nav class="site-menu">
     <div class="dropdown">
       <div class="site-menu__item dropdown__trigger">
@@ -332,7 +332,7 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 
 
 <p class="mt-4">The dropdowns with a background utility applied. <i class="pi-arrow-down"></i></p>
-<nav class="site-menu background-navy">
+<nav class="site-menu background--navy">
   <div class="dropdown">
     <div class="site-menu__item dropdown__trigger">
       Item 1
@@ -402,7 +402,7 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<nav class="site-menu background-navy">
+<nav class="site-menu background--navy">
   <div class="dropdown">
     <div class="site-menu__item dropdown__trigger">
       Item 1
@@ -491,9 +491,9 @@ probably want to add `text-white` to the button.
 Add the button before the `site-menu` as a sibling. Both the `site-menu-mobile-action` and `site-menu` need to be children of the 
 `site-menu-wrapper` for things to work properly. 
 
-**Note:** `background-white` was added to the `site-menu-wrapper` in order to improve the visibility of the example.
+**Note:** `background--white` was added to the `site-menu-wrapper` in order to improve the visibility of the example.
 
-<div class="site-menu-wrapper background-white">
+<div class="site-menu-wrapper background--white">
   <button class="site-menu-mobile-action">
     <span class="sr-only">Toggle Navigation</span>
     <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
@@ -519,7 +519,7 @@ Add the button before the `site-menu` as a sibling. Both the `site-menu-mobile-a
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="site-menu-wrapper background-white">
+<div class="site-menu-wrapper background--white">
   <button class="site-menu-mobile-action">
     <span class="sr-only">Toggle Navigation</span>
     <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
@@ -557,13 +557,13 @@ If you have a logo that links to your home page, wrap that in an `a` tag with th
 
 Notice that this header has a navy background. You can add a background color to the site-menu and it will handle all of the text colors
 and hovers. The dropdown menu will also work with this color. But this is separate from the rest of the header. So in this case we add 
-`background-navy` to the `header` as well. We also added some padding too. These changes can all be handled by using more of our
+`background--navy` to the `header` as well. We also added some padding too. These changes can all be handled by using more of our
 [utility classes](/docs/utilities/backgrounds/).
 
 Another thing to notice is the use of `dropdown--right` on the dropdown in the menu. Since it's on the far right of the header, we don't 
 want it breaking and "hanging off" the menu. Using the `dropdown--right` modifier positions the `dropdown__content` to the right of its parent. 
 
-<header class="site-menu-wrapper background-navy p-2">
+<header class="site-menu-wrapper background--navy p-2">
   <a href="/" class="site-logo">
       <img src="https://via.placeholder.com/150x50.png?text=Site+Logo" alt="Site Logo" />
   </a>
@@ -571,7 +571,7 @@ want it breaking and "hanging off" the menu. Using the `dropdown--right` modifie
     <span class="sr-only">Toggle Navigation</span>
     <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
   </button>
-  <nav class="site-menu background-navy">
+  <nav class="site-menu background--navy">
     <a href="#" class="site-menu__item">Item 1</a>
     <a href="#" class="site-menu__item">Item 2</a>
     <a href="#" class="site-menu__item">Item 3</a>
@@ -592,7 +592,7 @@ want it breaking and "hanging off" the menu. Using the `dropdown--right` modifie
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<header class="site-menu-wrapper background-navy p-2">
+<header class="site-menu-wrapper background--navy p-2">
   <a href="/" class="site-logo">
       <img src="https://via.placeholder.com/150x50.png?text=Site+Logo" alt="Site Logo" />
   </a>
@@ -600,7 +600,7 @@ want it breaking and "hanging off" the menu. Using the `dropdown--right` modifie
     <span class="sr-only">Toggle Navigation</span>
     <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
   </button>
-  <nav class="site-menu background-navy">
+  <nav class="site-menu background--navy">
     <a href="#" class="site-menu__item">Item 1</a>
     <a href="#" class="site-menu__item">Item 2</a>
     <a href="#" class="site-menu__item">Item 3</a>
