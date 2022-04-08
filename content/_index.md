@@ -4,10 +4,12 @@ title: Platform UI
 
 {{< block-container class="flex--justify-center cards" >}}
 {{< block class="block-11 tablet-up-8 desktop-up-6 text--center" >}}
-{{< heading heading="h2" class="text--center text-purple text--bold" >}}
+{{< heading heading="h2" class="text--center text--purple text--bold text--size-xl" >}}
 Your Project Starts Here
 {{< /heading >}}
+<p class="text--size-md">
 Platform UI is built to give frontend developers full control over their UIs. It's a powerful and simple system focused on rapid development.
+</p>
 {{< /block >}}
 {{< /block-container >}}
 {{< block-container class="flex--justify-center pb-4" >}}
@@ -15,7 +17,7 @@ Platform UI is built to give frontend developers full control over their UIs. It
 {{< block-container class="blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center" >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-lg text--purple" >}}
 Responsive
 {{< /heading >}}
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
@@ -24,7 +26,7 @@ Take advantage of Platform UI's responsive grid system. Your designs adapt to al
 {{< /block >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-lg text--purple" >}}
 Customizable
 {{< /heading >}}
 {{< figure src="/images/icons/customizable.svg" class="px-4" >}}
@@ -33,7 +35,7 @@ Build custom designs by adding or removing elements, and controlling sizes, colo
 {{< /block >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-lg text--purple" >}}
 Free
 {{< /heading >}}
 {{< figure src="/images/icons/github.svg" class="px-4" >}}
@@ -42,7 +44,7 @@ Work with a community-supported open source project that's available to everyone
 {{< /block >}}
 {{< block >}}
 {{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-lg text--purple" >}}
 Accessible
 {{< /heading >}}
 {{< figure src="/images/icons/accessible.svg" class="px-4" >}}
@@ -54,12 +56,12 @@ Create accessible UIs using HTML elements with pre-defined colors and screen rea
 {{< /block-container >}}
 <section class="block-container flex--justify-center background--lighter py-4">
 {{< block class="block-11 tablet-up-8" >}}
-{{< heading heading="h2" class="text--center text-purple text--bold" >}}
+{{< heading heading="h2" class="text--center text--purple text--bold text--size-xl" >}}
 Quick Start
 {{< /heading >}}
 {{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 tablet-up-4 laptop-up-5" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-md text--purple" >}}
 Install with Package Manager
 {{< /heading >}}
 This release contains source files as well as the compiled CSS and JavaScript files.
@@ -72,7 +74,7 @@ npm install @ritterim/platform-ui
 {{< /block-container >}}
 {{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 tablet-up-4 laptop-up-5" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-md text--purple" >}}
 Add Using CDN
 {{< /heading >}}
 The compiled files of all Platform UI versions are also hosted on the UNPKG content delivery network via unpkg.com
@@ -91,10 +93,12 @@ https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/js/platform-ui.min.js
 </section>
 <section class="block-container flex--justify-center py-4">
 {{< block class="block-11 tablet-up-8 desktop-up-6" >}}
-{{< heading heading="h2" class="text--center text-purple text--bold" >}}
+{{< heading heading="h2" class="text--center text--purple text--bold text--size-xl" >}}
 Setup
 {{< /heading >}}
+<p class="text--size-md">
 Platform UI is built to give frontend developers full control over their UIs. It's a powerful and simple system focused on rapid development.
+</p>
 {{< block-container class="flex--justify-center blocks p-2" >}}
 {{< block class="block-11 lg-tablet-up-8 laptop-up-7" >}}
 {{< highlight html >}}
@@ -123,7 +127,7 @@ Platform UI is built to give frontend developers full control over their UIs. It
 {{< figure src="/images/icons/template.svg" >}}
 {{< /block >}}
 {{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-md text--purple" >}}
 HTML Templates
 {{< /heading >}}
 Start your project with a basic HTML template and adapt it to your needs.
@@ -136,7 +140,7 @@ Start your project with a basic HTML template and adapt it to your needs.
 {{< figure src="/images/icons/fonts.svg" >}}
 {{< /block >}}
 {{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-md text--purple" >}}
 Fonts
 {{< /heading >}}
 Import your fonts to the template.
@@ -149,7 +153,7 @@ Import your fonts to the template.
 {{< figure src="/images/icons/layout.svg" >}}
 {{< /block >}}
 {{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-lg text-purple" >}}
+{{< heading heading="h3" class="text--size-md text--purple" >}}
 Layout
 {{< /heading >}}
 Customize your template with the grid system.

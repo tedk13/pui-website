@@ -8,7 +8,7 @@ All platform icons have a prefix of `pi` and are house in the `<i>` element tag.
 
 <ul class="list block-container tablet-up-5 blocks p-2 mb-3">
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-xxl text-base p-3">
+    <span class="flex text-size--xxl text-base p-3">
       <i class=" pi-eye-line"></i>
     </span>
     <span class="flex--center-content">pi-eye-line</span>

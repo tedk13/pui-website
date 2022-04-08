@@ -95,5 +95,5 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 If the `header-fixed` class is added to the main wrapper, the side drawers (`.drawer-left` and `.drawer-right`) will open below the header.
 
 <div class="message message--info mb-4">
-  <p>You can add animation effects to drawers by using <a class="text-navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes!</p>
+  <p>You can add animation effects to drawers by using <a class="text--navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes!</p>
 </div>

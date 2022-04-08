@@ -46,7 +46,7 @@ Utility classes to rotate an element.
 </div>
 
 <p class="mb-2">
-    <i class="pi-rocket mr-1 text-negative"></i>
+    <i class="pi-rocket mr-1 text--negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Click the button below to cycle through the different rotate utility classes.
 </p>

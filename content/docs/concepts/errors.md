@@ -9,15 +9,15 @@ These classes affect Pills and Text only.
 
 ## Text
 
-<p class="text-positive">Positive</p>
-<p class="text-negative">Negative</p>
-<p class="text-neutral">Neutral</p>
+<p class="text--positive">Positive</p>
+<p class="text--negative">Negative</p>
+<p class="text--neutral">Neutral</p>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<p class="text-positive">Positive</p>
-<p class="text-negative">Negative</p>
-<p class="text-neutral">Neutral</p>
+<p class="text--positive">Positive</p>
+<p class="text--negative">Negative</p>
+<p class="text--neutral">Neutral</p>
 {{< /highlight >}}
 </div>
 

@@ -4,10 +4,10 @@
         background-color: $color !important;
     }
     // text color brand $brand-colors
-    .text-#{$name} {
+    .text--#{$name} {
         color: $color !important;
     }
-    .text-#{$name}--hover {
+    .text-hover--#{$name} {
         &:hover{
             color: $color !important;
         }

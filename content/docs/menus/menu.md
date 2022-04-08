@@ -53,11 +53,11 @@ its parent background-colors. You can read more about this below in the document
 </div>
 
 <nav class="site-menu background--navy">
-  <a href="#" class="site-menu__item">Item 1</a>
-  <a href="#" class="site-menu__item">Item 2</a>
-  <a href="#" class="site-menu__item">Item 3</a>
-  <a href="#" class="site-menu__item">Item 4</a>
-  <a href="#" class="site-menu__item">Item 5</a>
+  <a href="#" class="site-menu__item text-hover--white">Item 1</a>
+  <a href="#" class="site-menu__item text-hover--white">Item 2</a>
+  <a href="#" class="site-menu__item text-hover--white">Item 3</a>
+  <a href="#" class="site-menu__item text-hover--white">Item 4</a>
+  <a href="#" class="site-menu__item text-hover--white">Item 5</a>
 </nav>
 <nav class="mt-4 site-menu background--lighter">
   <a href="#" class="site-menu__item">Item 1</a>
@@ -184,9 +184,9 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
   </p>
 </div>
 
-**Note:** `background-white` was added to the `div` wrapping the site-menu in order to improve the visibility of the example.
+**Note:** `background--white` was added to the `div` wrapping the site-menu in order to improve the visibility of the example.
 
-<div class="background-white">
+<div class="background--white">
   <nav class="site-menu">
     <div class="dropdown">
       <div class="site-menu__item dropdown__trigger">
@@ -486,7 +486,7 @@ a `<button>` in this case. See the example below.
 
 The button simply toggles the menu, so you'll want to add an icon inside. You can use our `pi-menu` here to take advantage of the standard "hamburger menu." 
 Since this button is outside of the `site-menu`, be sure to add the approriate color to it. For example, if you have a navy background you would 
-probably want to add `text-white` to the button.
+probably want to add `text--white` to the button.
 
 Add the button before the `site-menu` as a sibling. Both the `site-menu-mobile-action` and `site-menu` need to be children of the 
 `site-menu-wrapper` for things to work properly. 
@@ -567,7 +567,7 @@ want it breaking and "hanging off" the menu. Using the `dropdown--right` modifie
   <a href="/" class="site-logo">
       <img src="https://via.placeholder.com/150x50.png?text=Site+Logo" alt="Site Logo" />
   </a>
-  <button class="site-menu-mobile-action text-white">
+  <button class="site-menu-mobile-action text--white">
     <span class="sr-only">Toggle Navigation</span>
     <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
   </button>
@@ -596,7 +596,7 @@ want it breaking and "hanging off" the menu. Using the `dropdown--right` modifie
   <a href="/" class="site-logo">
       <img src="https://via.placeholder.com/150x50.png?text=Site+Logo" alt="Site Logo" />
   </a>
-  <button class="site-menu-mobile-action text-white">
+  <button class="site-menu-mobile-action text--white">
     <span class="sr-only">Toggle Navigation</span>
     <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
   </button>
@@ -627,7 +627,7 @@ want it breaking and "hanging off" the menu. Using the `dropdown--right` modifie
 When you need a horizontal list of icons, look no further than "Icon Menu". Use the mark up below
 to get the list you want. Be sure to use the specific `icon-menu` classes. With this strcuture you have
 the freedom to use any icon you want and make that icon change to whatever color you want on hover.
-Simpy change the `<icon>` class to the desired font-awesome icon you want. Then, add the `text-{color}--hover`
+Simpy change the `<icon>` class to the desired font-awesome icon you want. Then, add the `text-hover--{color}`
 class to the `icon-menu__action`. To see a list of available hover colors [click here](/docs/typography/typography/#color).
 
 In the example below, we're using `<a>`s on the `icon-menu__action` to build the menus. You could use a `<button>` to improve accessibility
@@ -635,36 +635,36 @@ depending on exactly what you need. If you're going to use a button, be sure to 
 
 Adding `icon-menu icon-menu--vertical` creates a vertical icon menu.
 
-| <i class="fpi-warning text-orange"></i> Be sure to always wrap the font icon in another element. We don't want to have the click event be on the icon itself.|
+| <i class="fpi-warning text--orange"></i> Be sure to always wrap the font icon in another element. We don't want to have the click event be on the icon itself.|
 | ---
 
 You can add as many icons as you'd like.
 
 <div class="icon-menu">
   <div class="icon-menu__item">
-    <button class="icon-menu__action text-negative--hover button--plain">
+    <button class="icon-menu__action text-hover--negative button--plain">
       <i class="pi-trash" aria-hidden="hidden"></i>
     </button>
   </div>
   <div class="icon-menu__item">
-    <a href="#" class="icon-menu__action text-positive--hover">
+    <a href="#" class="icon-menu__action text-hover-positive">
       <i class="pi-edit" aria-hidden="hidden"></i>
     </a>
   </div>
   <div class="icon-menu__item">
-    <a href="#" class="icon-menu__action text-red--hover">
+    <a href="#" class="icon-menu__action text-hover--red">
       <i class="pi-clock" aria-hidden="hidden"></i>
     </a>
   </div>
 </div>
 <div class="icon-menu icon-menu--vertical">
   <div class="icon-menu__item">
-    <a href="#" class="icon-menu__action text-negative--hover">
+    <a href="#" class="icon-menu__action text-hover--negative">
       <i class="pi-trash" aria-hidden="hidden"></i>
     </a>
   </div>
   <div class="icon-menu__item">
-    <a href="#" class="icon-menu__action text-positive--hover">
+    <a href="#" class="icon-menu__action text--positive">
       <i class="pi-edit" aria-hidden="hidden"></i>
     </a>
   </div>
@@ -675,17 +675,17 @@ You can add as many icons as you'd like.
 <!-- Horizontal Icon Menu -->
 <div class="icon-menu">
   <div class="icon-menu__item">
-    <button class="icon-menu__action text-negative--hover button--plain">
+    <button class="icon-menu__action text-hover--negative button--plain">
       <i class="pi-trash" aria-hidden="hidden"></i>
     </button>
   </div>
   <div class="icon-menu__item">
-    <a href="#" class="icon-menu__action text-positive--hover">
+    <a href="#" class="icon-menu__action text-hover--positive">
       <i class="pi-edit" aria-hidden="hidden"></i>
     </a>
   </div>
   <div class="icon-menu__item">
-    <a href="#" class="icon-menu__action text-red--hover">
+    <a href="#" class="icon-menu__action text-hover--red">
       <i class="pi-clock" aria-hidden="hidden"></i>
     </a>
   </div>
@@ -694,12 +694,12 @@ You can add as many icons as you'd like.
  <!-- Vertical Icon Menu -->
 <div class="icon-menu icon-menu--vertical">
   <div class="icon-menu__item">
-    <button class="icon-menu__action text-negative--hover button--plain">
+    <button class="icon-menu__action text-hover--negative button--plain">
       <i class="pi-trash" aria-hidden="hidden"></i>
     </button>
   </div>
   <div class="icon-menu__item">
-    <a href="#" class="icon-menu__action text-positive--hover">
+    <a href="#" class="icon-menu__action text-hover--positive">
       <i class="pi-edit" aria-hidden="hidden"></i>
     </a>
   </div>
