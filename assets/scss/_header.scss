@@ -28,13 +28,13 @@
         }
       }
       &:before {
-        background-color: var(--pui-white);
+        background-color: var(--white);
         content: "";
         height: 2px;
         left: 0;
         position: absolute;
         right: 0;
-        transition: width ease var(--pui-transitions);
+        transition: width ease var(--transitions);
         width: 0;
         bottom: -1px;
       }
