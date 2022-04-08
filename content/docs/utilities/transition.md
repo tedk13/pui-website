@@ -5,14 +5,14 @@ title: Transition
 Using the `transition` class adds `transition: .2s;` to an element. You could use this to make specific hover effects by toggling a class.
 
 <div class="block-container my-3">
-  <div class="card block laptop-up-4 transition background-lightblue--hover">
+  <div class="card block laptop-up-4 transition background-hover--lightblue">
     <p class="skeleton" data-lines="4"></p>
   </div>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="card transition background-lightblue--hover">
+<div class="card transition background-hover--lightblue">
   <!-- Content goes here! -->
 </div>
 {{< /highlight >}}
