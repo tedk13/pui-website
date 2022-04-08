@@ -12,7 +12,7 @@ summary: Full page layout example using flex and flex utilities.
     <aside class="block lg-tablet-up-2 background--med-blue flex--center-content">
       <h1 class="">Aside</h1>
     </aside>
-    <section class="block lg-tablet-up-8 flex--center-content py-5">
+    <section class="block lg-tablet-up-8 flex--center-content py-5 px-3">
       <h1 class="text-base">Main Content</h1>
     </section>
     <aside class="block lg-tablet-up-2 background--med-blue flex--center-content">
