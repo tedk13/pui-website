@@ -21,43 +21,43 @@ There are time you just want a small reflection of a greater state; good, bad, i
 
 ## Pills
 
-<div  class="pill pill--circle-empty positive"></div>
-<div  class="pill pill--circle-empty negative"></div>
-<div  class="pill pill--circle-empty neutral"></div>
-<div  class="pill pill--circle-empty-dot positive"></div>
-<div  class="pill pill--circle-empty-dot negative"></div>
-<div  class="pill pill--circle-empty-dot neutral"></div>
+<div class="pill pill--circle-empty positive"></div>
+<div class="pill pill--circle-empty negative"></div>
+<div class="pill pill--circle-empty neutral"></div>
+<div class="pill pill--circle-empty-dot positive"></div>
+<div class="pill pill--circle-empty-dot negative"></div>
+<div class="pill pill--circle-empty-dot neutral"></div>
 
-<div  class="pill positive">
+<div class="pill positive">
 Positive
 </div>
 
-<div  class="pill negative">
+<div class="pill negative">
 Negative
 </div>
 
-<div  class="pill neutral">
+<div class="pill neutral">
 Neutral
 </div>
 
 {{< highlight html >}}
 
-<div  class="pill pill--circle-empty positive"></div>
-<div  class="pill pill--circle-empty negative"></div>
-<div  class="pill pill--circle-empty neutral"></div>
-<div  class="pill pill--circle-empty-dot positive"></div>
-<div  class="pill pill--circle-empty-dot negative"></div>
-<div  class="pill pill--circle-empty-dot neutral"></div>
+<div class="pill pill--circle-empty positive"></div>
+<div class="pill pill--circle-empty negative"></div>
+<div class="pill pill--circle-empty neutral"></div>
+<div class="pill pill--circle-empty-dot positive"></div>
+<div class="pill pill--circle-empty-dot negative"></div>
+<div class="pill pill--circle-empty-dot neutral"></div>
 
-<div  class="pill positive">
+<div class="pill positive">
 Positive
 </div>
 
-<div  class="pill negative">
+<div class="pill negative">
 Negative
 </div>
 
-<div  class="pill neutral">
+<div class="pill neutral">
 Neutral
 </div>
 
