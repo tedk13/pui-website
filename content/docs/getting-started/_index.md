@@ -33,6 +33,18 @@ The easiest, and fastest, way to implement Platform UI is by using a CDN. Here a
 {{< /highlight >}}
 </div>
 
+### SKYPACK
+
+<div class="mb-4">
+{{< highlight html >}}
+<!-- In the <head> of your site. -->
+<link rel="dns-prefetch" href="https://cdn.skypack.dev" crossorigin>
+<link rel="stylesheet" href="https://cdn.skypack.dev/@ritterim/platform-ui/dist/platform-ui.min.css" crossorigin>
+<!-- Directly before the closing </body> tag of your site. -->
+<script src="https://https:/cdn.skypack.dev/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
+{{< /highlight >}}
+</div>
+
 <div class="mb-6">
 {{< callout tipHeader="Pro Tip">}}
 <p>Leaving out a version will always fetch the latest. Adding @1.3.7 after platform-ui will get that specific version. </p>
