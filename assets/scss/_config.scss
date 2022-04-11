@@ -136,7 +136,14 @@ $brand-colors: (
 }
 
 main {
-  a:not(.accordion > a, .button, .skeleton > a, .message > a){
+  a:not(
+    .accordion > a, 
+    .button, 
+    .skeleton > a, 
+    .message > a, 
+    .site-menu > a,
+    .icon-menu__item > a
+  ){
     color:var(--light-purple);
     border-bottom:1px solid var(--light-purple);
     &:hover{

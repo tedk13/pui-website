@@ -196,10 +196,9 @@ const copyButton = () => {
   const btn = document.createElement('button');
   const classes = [
     'button',
-    'button--primary',
-    'background--dark',
+    'background--transparent',
     'background-hover--salmon',
-    'text-white',
+    'text--white',
     'button--copy',
     'text--size-sm',
     'flex',
