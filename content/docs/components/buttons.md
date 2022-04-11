@@ -16,34 +16,44 @@ The default platform button. Usually paired visually with an icon. Can be the de
 {{< /highlight >}} 
 {{< /code-markup >}}
 
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Secondary Modifier Class</th>
-        <th>Data Attribute</th>
-        <th>Behavior</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>button--ghost</td>
-        <td></td>
-        <td></td>
-        <td>It's a ghost button.</td>
-      </tr>
-      <tr>
-        <td>button--ghost</td>
-        <td></td>
-        <td></td>
-        <td>It's a ghost button.</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
+{{< modifiers >}}
+<tr>
+  <td data-label="Base" class="border-t border--color-white border--width-5 text--bold">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier" class="border-t border--color-white border--width-5 text--bold">
+    <code>button--lg</code>
+  </td>
+  <td data-label="Secondary Modifier" class="border-t border--color-white border--width-5 text--bold">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute" class="border-t border--color-white border--width-5 text--bold">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior" class="border-t border--color-white border--width-5 text--bold">
+    A larger button than the standard
+  </td>
+</tr>
+<tr>
+  <td data-label="Base" class="border-t border--color-white border--width-5 text--bold">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier" class="border-t border--color-white border--width-5 text--bold">
+    <code>button--secondary</code>
+  </td>
+  <td data-label="Secondary Modifier" class="border-t border--color-white border--width-5 text--bold">
+    <code>has-text</code>
+  </td>
+  <td data-label="Data Attribute" class="border-t border--color-white border--width-5 text--bold">
+    <code>data-button-text</code>
+  </td>
+  <td data-label="Behavior" class="border-t border--color-white border--width-5 text--bold">
+    A round button intended to be paired with an icon
+    <br>
+    Adding <code>has-text</code> and <code>data-button-text</code> will show the button text on hover
+  </td>
+</tr>
+{{< /modifiers >}}
 
 ## Secondary
 
