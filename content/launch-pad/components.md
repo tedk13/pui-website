@@ -10,13 +10,13 @@ You can nest one accordion inside another.
 
 {{< code-demo >}}
 <div class="accordion">
-  <div href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center background-white">
+  <div href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center background--white">
     <div class="flex flex--align-center">
       <p>This is an accordion header.</p>
     </div>
     <i class="pi-angle-down pui-accordion__icon text-med-blue"></i>
   </div>
-  <div class="accordion__content background-lighter">
+  <div class="accordion__content background--lighter">
     <div class="px-3 py-3">
       <p>This is the accordion content.</p>
     </div>
@@ -27,7 +27,7 @@ You can nest one accordion inside another.
         </div>
         <i class="pi-angle-down pui-accordion__icon text-med-blue"></i>
       </a>
-      <div class="accordion__content background-lighter">
+      <div class="accordion__content background--lighter">
         <div class="px-3 py-3">
           <p>This is the nested accordion content.</p>
         </div>
@@ -40,13 +40,13 @@ You can nest one accordion inside another.
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="accordion">
-  <div href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center background-white">
+  <div href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center background--white">
     <div class="flex flex--align-center">
       <p>This is an accordion header.</p>
     </div>
     <i class="pi-angle-down pui-accordion__icon text-med-blue"></i>
   </div>
-  <div class="accordion__content background-lighter">
+  <div class="accordion__content background--lighter">
     <div class="px-3 py-3">
       <p>This is the accordion content.</p>
     </div>
@@ -57,7 +57,7 @@ You can nest one accordion inside another.
         </div>
         <i class="pi-angle-down pui-accordion__icon text-med-blue"></i>
       </a>
-      <div class="accordion__content background-lighter">
+      <div class="accordion__content background--lighter">
         <div class="px-3 py-3">
           <p>This is the nested accordion content.</p>
         </div>

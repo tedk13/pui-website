@@ -65,14 +65,14 @@ You can add or hide specific overflow on an element with the following classes.
 </table>
 
 <p class="mb-2">
-    <i class="pi-rocket mr-1 text-negative"></i>
+    <i class="pi-rocket mr-1 text--negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Click the button below to toggle the <code class="mx-1">.overflow-y--auto</code> class!
 </p>
 
 <div class="block-container">
     <div class="block laptop-up-6 overflow-y--hidden">
-        <button class="button button-primary background-salmon text-white button--lg overflow-button">Toggle Overflow</button>
+        <button class="button button-primary background--salmon text--white button--lg overflow-button">Toggle Overflow</button>
         <div class="mt-2 mb-7 p-3 border border--color-med-blue overflow-paragraph" style="height: 7rem;">
             <h2 class="skeleton skeleton--md"></h2>
             <p class="skeleton" data-lines="5"></p>

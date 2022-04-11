@@ -19,12 +19,12 @@ This can be done by adding the class `truncate-with-ellipsis`
 
 
 <p class="mb-4">
-    <i class="pi-rocket mr-1 text-negative"></i>
+    <i class="pi-rocket mr-1 text--negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Click the button below to toggle the <code class="mx-1">truncate-with-ellipsis</code> class!
 </p>
 
-<button class="button button--primary background-salmon text-white has-text button--lg ellipsis-button">Toggle Ellipsis</button>
+<button class="button button--primary background--salmon text--white has-text button--lg ellipsis-button">Toggle Ellipsis</button>
 
 <div class="block-container">
     <div class="block block-6 tablet-up-3">

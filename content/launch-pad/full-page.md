@@ -17,11 +17,11 @@ skellyCSS: true
   <a href="#" class="site-logo">
     <img style="max-height:100%;" class="p-2" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
   </a>
-  <button class="site-menu-mobile-action px-4 text-white">
+  <button class="site-menu-mobile-action px-4 text--white">
     <span class="sr-only">Toggle Navigation</span>
     <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
   </button>
-  <nav class="site-menu text-white">
+  <nav class="site-menu text--white">
     <div class="dropdown">
       <a href="#" class="site-menu__item dropdown__trigger h-100">
         Item 1 
@@ -47,17 +47,17 @@ skellyCSS: true
   data-background-position="center center"
   data-background-size="cover"
   data-background-repeat="no-repeat">
-    <div class="background-black-a80 text--size-xl text--center p-6">
+    <div class="background--black-a80 text--size-xl text--center p-6">
       <img style="width: 80%; max-width:500px" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
-      <h1 class="text-white">Welcome to Pizza Town!</h1>
-      <button class="button button--lg text-white my-4 hover-scale" style="background:var(--color-red);">
+      <h1 class="text--white">Welcome to Pizza Town!</h1>
+      <button class="button button--lg text--white my-4 hover-scale" style="background:var(--color-red);">
         <span class="flex flex--align-center">
         <i class='pi-touch mr-2'></i>
         Order Online
         </span>
       </button>
       <p>
-        <i class="pi-angle-down text-white"></i>
+        <i class="pi-angle-down text--white"></i>
       </p>
      </div>
 </div>
@@ -113,7 +113,7 @@ skellyCSS: true
   <div class="block-container flex--justify-center mx-5">
     <div class="block block-8 text-black">
       <h1 style="color:var(--color-dark-red)">Build your own Pizza!</h1>
-      <button class="button button--lg modal__open text-white hover-scale" data-modal="default-modal" style="background:var(--color-dark-red)">Build Now</button>
+      <button class="button button--lg modal__open text--white hover-scale" data-modal="default-modal" style="background:var(--color-dark-red)">Build Now</button>
     </div>
   </div>
 </div>
@@ -265,7 +265,7 @@ skellyCSS: true
 <div id="default-modal" class="modal modal--closed">
   <div class="modal__inner">
     <div class="modal__header" style="background: var(--color-red)">
-      <h2 class="text-white">Build your own Pizza</h2>
+      <h2 class="text--white">Build your own Pizza</h2>
       <button class="button modal__close" data-modal="default-modal">
         Close 
         <i class="pi-times"></i>
@@ -369,34 +369,34 @@ skellyCSS: true
       </div>
       <ul class="list my-4">
         <li class="flex">
-          <i class="pi-check text-salmon mr-3"></i> 
+          <i class="pi-check text--salmon mr-3"></i> 
           <p class="border-b border--color-lighter pb-2 mb-0 flex--grow">Pepperoni Pizza</p>
           <p>$15.00</p>
         </li>
         <li class="flex">
-          <i class="pi-check text-salmon mr-3"></i> 
+          <i class="pi-check text--salmon mr-3"></i> 
           <p class="border-b border--color-lighter pb-2 mb-0 flex--grow">Breadsticks</p>
           <p>$5.00</p>
         </li>
         <li class="flex">
-          <i class="pi-check text-salmon mr-3"></i> 
+          <i class="pi-check text--salmon mr-3"></i> 
           <p class="border-b border--color-lighter pb-2 mb-0 flex--grow">1/2 Dozen Wings</p>
           <p>$7.50</p>
         </li>
       </ul>
-      <button class="button button--lg text-white hover-scale" style="background:var(--color-dark-red)">Checkout Now</button>
+      <button class="button button--lg text--white hover-scale" style="background:var(--color-dark-red)">Checkout Now</button>
     </div>
   </div>
 </div>
 
 <div class="pos-fix pin-right pin-bottom p-4">
-<button class="button button--lg drawer__open text-white hover-scale" style="background:var(--color-dark-red)" data-drawer="right">
+<button class="button button--lg drawer__open text--white hover-scale" style="background:var(--color-dark-red)" data-drawer="right">
   <i class='pi-tag mr-2'></i>
   View Cart
 </button>
 </div>
 
-<footer class="px-3 py-4 text-white" style="background:var(--color-red)">
+<footer class="px-3 py-4 text--white" style="background:var(--color-red)">
   <div class="block-container">
     <div class="block block-12 flex flex--column flex--justify-center flex--align-center">
       <img class="p-2" style="max-width:200px" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">

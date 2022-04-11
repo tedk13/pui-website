@@ -78,7 +78,7 @@ Utility classes to modify text case type.
     </tr>
     <tr>
       <td data-label="Type">Sentence Case</td>
-      <td data-label="Modifier Class"><code>.text--sentancecase</code></td>
+      <td data-label="Modifier Class"><code>.text--sentencecase</code></td>
       <td data-label="Result"><p class="text--capitalize">This IS senTENCe cASe</p></td>
     </tr>
   </tbody>
@@ -86,7 +86,7 @@ Utility classes to modify text case type.
 
 ### Color
 
-`text-{ color }`, `text-{ color }--hover` combines our [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
+`text--{ color }`, `text-hover--{ color }` combines our [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
 
 <table class="table mb-4">
   <thead>
@@ -99,108 +99,108 @@ Utility classes to modify text case type.
   <tbody>
     <tr>
       <td data-label="Color">
-        <p class="text-white background-black">White</p>
+        <p class="text--white background--black">White</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-white</code></td>
-      <td data-label="Hover Class"><code>.text-white--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--white</code></td>
+      <td data-label="Hover Class"><code>.text-hover--white</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-lighter background-dark">Lighter</p>
+        <p class="text--lighter background--dark">Lighter</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-lighter</code></td>
-      <td data-label="Hover Class"><code>.text-lighter--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--lighter</code></td>
+      <td data-label="Hover Class"><code>.text-hover--lighter</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-light-mid background-dark">Light Mid</p>
+        <p class="text--light-mid background--dark">Light Mid</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-light-mid</code></td>
-      <td data-label="Hover Class"><code>.text-light-mid--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--light-mid</code></td>
+      <td data-label="Hover Class"><code>.text-hover--light-mid</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-light background-dark">Light</p>
+        <p class="text--light background--dark">Light</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-light</code></td>
-      <td data-label="Hover Class"><code>.text-light--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--light</code></td>
+      <td data-label="Hover Class"><code>.text-hover--light</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-base">Base</p>
+        <p class="text--base">Base</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-base</code></td>
-      <td data-label="Hover Class"><code>.text-base--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--base</code></td>
+      <td data-label="Hover Class"><code>.text-hover--base</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-dark">Dark</p>
+        <p class="text--dark">Dark</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-dark</code></td>
-      <td data-label="Hover Class"><code>.text-dark--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--dark</code></td>
+      <td data-label="Hover Class"><code>.text-hover--dark</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-black">Black</p>
+        <p class="text--black">Black</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-black</code></td>
-      <td data-label="Hover Class"><code>.text-black--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--black</code></td>
+      <td data-label="Hover Class"><code>.text-hover--black</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-navy">Navy</p>
+        <p class="text--navy">Navy</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-navy</code></td>
-      <td data-label="Hover Class"><code>.text-navy--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--navy</code></td>
+      <td data-label="Hover Class"><code>.text-hover--navy</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-skyblue">Skyblue</p>
+        <p class="text--skyblue">Skyblue</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-skyblue</code></td>
-      <td data-label="Hover Class"><code>.text-skyblue--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--skyblue</code></td>
+      <td data-label="Hover Class"><code>.text-hover--skyblue</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-med-blue">Med Blue</p>
+        <p class="text--med-blue">Med Blue</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-med-blue</code></td>
-      <td data-label="Hover Class"><code>.text-med-blue--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--med-blue</code></td>
+      <td data-label="Hover Class"><code>.text-hover--med-blue</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-beige">Beige</p>
+        <p class="text--beige">Beige</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-beige</code></td>
-      <td data-label="Hover Class"><code>.text-beige--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--beige</code></td>
+      <td data-label="Hover Class"><code>.text-hover--beige</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-peach">Peach</p>
+        <p class="text--peach">Peach</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-peach</code></td>
-      <td data-label="Hover Class"><code>.text-peach--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--peach</code></td>
+      <td data-label="Hover Class"><code>.text-hover--peach</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-salmon">Salmon</p>
+        <p class="text--salmon">Salmon</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-salmon</code></td>
-      <td data-label="Hover Class"><code>.text-salmon--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--salmon</code></td>
+      <td data-label="Hover Class"><code>.text-hover--salmon</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-brown">Brown</p>
+        <p class="text--brown">Brown</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-brown</code></td>
-      <td data-label="Hover Class"><code>.text-brown--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--brown</code></td>
+      <td data-label="Hover Class"><code>.text-hover--brown</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="text-orange">Orange</p>
+        <p class="text--orange">Orange</p>
       </td>
-      <td data-label="Modifier Class"><code>.text-orange</code></td>
-      <td data-label="Hover Class"><code>.text-orange--hover</code></td>
+      <td data-label="Modifier Class"><code>.text--orange</code></td>
+      <td data-label="Hover Class"><code>.text-hover--orange</code></td>
     </tr>
   </tbody>
 </table>
@@ -277,52 +277,59 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
   </thead>
   <tbody>
     <tr>
-      <td data-label="Size"><code>50%</code></td>
-      <td data-label="Modifier Class"><code>text--size-xxs</code></td>
+      <td data-label="Size"><code>2xs</code></td>
+      <td data-label="Modifier Class"><code>text--size-2xs</code></td>
       <td data-label="Result">
-        <p class="text--size-xxs">Hello World!</p>
+        <p class="text--size-2xs">Hello World!</p>
       </td>
     </tr>
     <tr>
-      <td data-label="Size"><code>70%</code></td>
+      <td data-label="Size"><code>xs</code></td>
       <td data-label="Modifier Class"><code>text--size-xs</code></td>
       <td data-label="Result">
         <p class="text--size-xs">Hello World!</p>
       </td>
     </tr>
     <tr>
-      <td data-label="Size"><code>85%</code></td>
+      <td data-label="Size"><code>sm</code></td>
       <td data-label="Modifier Class"><code>text--size-sm</code></td>
       <td data-label="Result">
         <p class="text--size-sm">Hello World!</p>
       </td>
     </tr>
     <tr>
-      <td data-label="Size"><code>115%</code></td>
+      <td data-label="Size"><code>md</code></td>
       <td data-label="Modifier Class"><code>text--size-md</code></td>
       <td data-label="Result">
         <p class="text--size-md">Hello World!</p>
       </td>
     </tr>
     <tr>
-      <td data-label="Size"><code>125%</code></td>
+      <td data-label="Size"><code>lg</code></td>
       <td data-label="Modifier Class"><code>text--size-lg</code></td>
       <td data-label="Result">
         <p class="text--size-lg">Hello World!</p>
       </td>
     </tr>
     <tr>
-      <td data-label="Size"><code>150%</code></td>
+      <td data-label="Size"><code>xl</code></td>
       <td data-label="Modifier Class"><code>text--size-xl</code></td>
       <td data-label="Result">
         <p class="text--size-xl">Hello World!</p>
       </td>
     </tr>
     <tr>
-      <td data-label="Size"><code>200%</code></td>
-      <td data-label="Modifier Class"><code>text--size-xxl</code></td>
+      <td data-label="Size"><code>2xl</code></td>
+      <td data-label="Modifier Class"><code>text--size-2xl</code></td>
       <td data-label="Result">
-        <p class="text--size-xxl">Hello World!</p>
+        <p class="text--size-2xl">Hello World!</p>
+      </td>
+    </tr>
+    <tr>
+      <td data-label="Size"><code>3xl</code></td>
+      <td data-label="Modifier Class"><code>text--size-3xl</code></td>
+      <td data-label="Result">
+        <p class="text--size-3xl">Hello World!</p>
       </td>
     </tr>
   </tbody>
@@ -345,28 +352,28 @@ You can add a text-shadow to an element using colors from our [greyscale](/secti
       <td data-label="Greyscale">White</td>
       <td data-label="Modifier Class"><code>.text--shadow-white</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text--shadow-white">Hello World!</p>
+        <p class="p-2 background--base text--shadow-white">Hello World!</p>
       </td>
     </tr>
     <tr>
       <td data-label="Greyscale">Lighter</td>
       <td data-label="Modifier Class"><code>.text--shadow-lighter</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text--shadow-lighter">Hello World!</p>
+        <p class="p-2 background--base text--shadow-lighter">Hello World!</p>
       </td>
     </tr>
     <tr>
       <td data-label="Greyscale">Light Mid</td>
       <td data-label="Modifier Class"><code>.text--shadow-light-mid</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text--shadow-light-mid">Hello World!</p>
+        <p class="p-2 background--base text--shadow-light-mid">Hello World!</p>
       </td>
     </tr>
     <tr>
       <td data-label="Greyscale">Light</td>
       <td data-label="Modifier Class"><code>.text--shadow-light</code></td>
       <td data-label="Result">
-        <p class="p-2 background-base text-light-mid text--shadow-light">Hello World!</p>
+        <p class="p-2 background--base text-light-mid text--shadow-light">Hello World!</p>
       </td>
     </tr>
     <tr>

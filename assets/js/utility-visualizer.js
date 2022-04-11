@@ -54,7 +54,7 @@ if (visualizers) {
 const exampleEl = (childClasses) => {
   const el = document.createElement('div');
   const classes =
-    'example-element border border--color-white background-light-purple';
+    'example-element border border--color-white background--light-purple';
   el.classList = [classes, childClasses].join(' ');
 
   return el;

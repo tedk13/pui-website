@@ -5,21 +5,21 @@ title: Transition
 Using the `transition` class adds `transition: .2s;` to an element. You could use this to make specific hover effects by toggling a class.
 
 <div class="block-container my-3">
-  <div class="card block laptop-up-4 transition background-lightblue--hover">
+  <div class="card block laptop-up-4 transition background-hover--lightblue">
     <p class="skeleton" data-lines="4"></p>
   </div>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="card transition background-lightblue--hover">
+<div class="card transition background-hover--lightblue">
   <!-- Content goes here! -->
 </div>
 {{< /highlight >}}
 </div>
 
 <p class="mt-6 mb-2">
-    <i class="pi-rocket mr-1 text-negative"></i>
+    <i class="pi-rocket mr-1 text--negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Using the <code class="mx-1">.transition</code> class, smoothly toggle the border color of a card via click.
 </p>
@@ -40,7 +40,7 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
 
 
 <p class="mt-6 mb-2">
-    <i class="pi-rocket mr-1 text-negative"></i>
+    <i class="pi-rocket mr-1 text--negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Using the <code class="mx-1">.transition</code> class, smoothly increase the padding of an element via click.
 </p>
@@ -53,14 +53,14 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
 </div>
 
 <p class="mt-6 mb-2">
-    <i class="pi-rocket mr-1 text-negative"></i>
+    <i class="pi-rocket mr-1 text--negative"></i>
     <strong class="mr-1">Try it!</strong> 
     Using the <code class="mx-1">.transition</code> class, smoothy transition the background color of an element on hover.
 </p>
 
 <div class="block-container mt-3 mb-4">
   <div class="block laptop-up-4 border transition-div-color transition">
-      <h4 class="pl-4 pt-4 text-salmon">Hover over this div!</h4>
+      <h4 class="pl-4 pt-4 text--salmon">Hover over this div!</h4>
       <p class="skeleton p-4" data-lines="7"></p>
   </div>
 </div>

@@ -6,7 +6,7 @@ weight: 1
 Out of the box, our form fields have a margin-top added to them. This spacing should work just fine for smaller, simple forms. For larger,
 responsive forms, we recommend that you utilize the block layout and our spacers to build the perfect form.
 
-<i class="pi-warning text-orange"></i> **Note:** All of the following form elements must be nested inside the `form` class to get the desired look.
+<i class="pi-warning text--orange"></i> **Note:** All of the following form elements must be nested inside the `form` class to get the desired look.
 
 <form action="" class="form">
   <label for="first-name-a" class="form__field">First Name
@@ -38,7 +38,7 @@ To get the animation, add the class `form__field--fancy` to the `form__field`.
 You will also need to change the markup slightly. Instead of a `label` the `form__field` should now be a `div`
 put the `label` under the `input` as a sibling of the `form__field` `div`. See markup below.
 
-<i class="pi-warning text-orange"></i> **NOTE:** Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
+<i class="pi-warning text--orange"></i> **NOTE:** Firefox does not have a way to hide the date and time placeholder for those inputs. This style of form would
 probably be best for a simple form that has text inputs.
 
 <form action="" class="form">
@@ -215,7 +215,7 @@ Adding a `form--light` modifier gives the form a white theme. The text color and
 
 The light modifier works with [form--bordered](/docs/forms/forms/#form-border) and [form--rounded](/docs/forms/forms/#form-rounded-border).
 
-<div class="background-navy p-3">
+<div class="background--navy p-3">
   <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
     <div class="block form__field">
       <label for="first-name">First Name</label>
@@ -238,7 +238,7 @@ The light modifier works with [form--bordered](/docs/forms/forms/#form-border) a
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="background-navy p-3">
+<div class="background--navy p-3">
   <form action="" class="form form--light block-container tablet-up-3 laptop-up-4 blocks mb-3 p-2">
     <div class="block form__field">
       <label for="first-name">First Name</label>
@@ -266,7 +266,7 @@ The light modifier works with [form--bordered](/docs/forms/forms/#form-border) a
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
 
-<i class="pi-warning text-orange"></i> **Note:** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
+<i class="pi-warning text--orange"></i> **Note:** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
 field will receive the error styling. However, if you only want to highlight on specific check or radio, simply add
 `error` to the proper input. This will give the icon as well as the corresponding label the error style.
 
@@ -417,13 +417,13 @@ If you would like the icon to be on the right side of the input, add the class `
   <div class="block">
     <label for="dob-g" class="form__field has-icon--right">Birthday
       <input id="dob-g" type="date">
-      <i class="pi-calendar background-white"></i>
+      <i class="pi-calendar background--white"></i>
     </label>
   </div>
   <div class="block">
     <label for="date-g" class="form__field has-icon">Date
       <input id="date-g" type="date">
-      <i class="pi-calendar text-med-blue background-white"></i>
+      <i class="pi-calendar text--med-blue background--white"></i>
     </label>
   </div>
   <div class="block">
@@ -445,13 +445,13 @@ If you would like the icon to be on the right side of the input, add the class `
   <div class="block">
     <label for="dob-g" class="form__field has-icon--right">Birthday
       <input id="dob-g" type="date">
-      <i class="pi-calendar background-white"></i>
+      <i class="pi-calendar background--white"></i>
     </label>
   </div>
   <div class="block">
     <label for="date-g" class="form__field has-icon">Date
       <input id="date-g" type="date">
-      <i class="pi-calendar text-med-blue background-white"></i>
+      <i class="pi-calendar text--med-blue background--white"></i>
     </label>
   </div>
   <div class="block">
@@ -484,7 +484,7 @@ consistent with the rest of the form elements. It also allows the inputs inside 
  and `flex-wrap: wrap`. If you do not want the items to wrap, but rather look like block level elements, you can simplay add
 different utility classes to the `form__option-group` wrapper. In this case, `flex--column` and `flex--nowrap`.
 
-<i class="pi-warning text-orange"></i> **Note:** For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your
+<i class="pi-warning text--orange"></i> **Note:** For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your
 `form__field` then adding a `legend`. See the example below.
 
 
@@ -594,7 +594,7 @@ consistent with the rest of the form elements. It also allows the inputs inside 
  and `flex-wrap: wrap`. If you do not want the items to wrap, but rather look like block level elements, you can simplay add
 different utility classes to the `form__option-group` wrapper. In this case, `flex--column` and `flex--nowrap`.
 
-<i class="pi-warning text-orange"></i> **Note:** For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
+<i class="pi-warning text--orange"></i> **Note:** For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
 `form__field` then adding a `legend`. See the example below.
 
 
@@ -838,7 +838,7 @@ Here's an example of a larger responsive form using the block layout.
   <div class="block">
     <label for="date-h" class="form__field has-icon">Date
       <input id="date-h" type="date">
-      <i class="pi-calendar text-skyblue background-white"></i>
+      <i class="pi-calendar text--skyblue background--white"></i>
     </label>
   </div>
   <div class="block">
@@ -954,7 +954,7 @@ Here's an example of a larger responsive form using the block layout.
   <div class="block">
     <label for="date-h" class="form__field has-icon">Date
       <input id="date-h" type="date">
-      <i class="pi-calendar text-skyblue background-white"></i>
+      <i class="pi-calendar text--skyblue background--white"></i>
     </label>
   </div>
   <div class="block">

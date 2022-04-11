@@ -16,7 +16,7 @@ Add your tooltip text to a `data-tooltip` attribute on any item you want a toolt
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="p-0 mb-4">
+<section class="mb-4">
   <h3>Modifiers</h3>
   <table borders="1" class="table modifiers table--no-hover">
     <thead>
