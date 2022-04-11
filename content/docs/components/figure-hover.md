@@ -9,7 +9,7 @@ on hover.
 {{< code-demo >}}
 <div class="block-container">
     <figure class="figure-hover block laptop-up-6">
-        <img class="skeleton-image skeleton-image--lg skeleton-image--landscape">
+        <img class="skeleton-image skeleton-image--full skeleton-image--landscape">
         <figcaption>Figcaption goes here.</figcaption>
     </figure>
 </div>

@@ -563,3 +563,115 @@ Set the size of an element equal to a common ratio with the ratio-{val} class.
 </div>
 {{< /highlight >}}
 </div>
+
+<section class="p-0 my-4">
+  <h3 class="mb-3">Visualizer</h3>
+  <div class="linear-gradient inverted px-4 py-3 block-container" 
+      data-callout-header="tables tip" 
+      data-callout-radius="0 3rem 0 3rem"
+      data-gradient-direction="30deg"
+      data-gradient-start="midnightblue 20%, purple 40%"
+      data-gradient-stop="indigo"
+      data-gradient-fallback="indigo">
+    <i class="pi-rocket mr-1"></i>
+    <strong class="mr-1">Try this!</strong> 
+    Change the background color!
+  </div>
+  <div class="visualizer block-container p-3 py-4 border border--color-lighter border--width-5 tablet-up-2 mb-4">
+    <div class="actions block">
+      <ul class="list">
+        <li>
+          <button class="button" data-example-elements="background--white">
+            <pre>.background--white</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--lighter">
+            <pre>.background--lighter</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--light-mid">
+            <pre>.background--light-mid</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--light">
+            <pre>.background--light</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--base text--white">
+            <pre>.background--base</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--dark text--white">
+            <pre>.background--dark</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--black text--white">
+            <pre>.background--black</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--navy text--white">
+            <pre>.background--navy</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--skyblue">
+            <pre>.background--skyblue</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--lightblue">
+            <pre>.background--lightblue</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--med-blue">
+            <pre>.background--med-blue</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--beige">
+            <pre>.background--beige</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--peach">
+            <pre>.background--peach</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--salmon">
+            <pre>.background--salmon</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--brown text--white">
+            <pre>.background--brown</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--orange">
+            <pre>.background--orange</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button button--salmon text--white" data-reset="true">
+            Reset
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
+      <div class="block block-9 h-100 card transition">
+        <span class="text--size-md">Example Card</span>
+        <p class="skeleton" data-lines="3"></p>
+      </div>
+    </div>
+  </div>
+<section>

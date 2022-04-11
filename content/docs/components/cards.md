@@ -53,7 +53,7 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
   <div class="block laptop-up-3">
         <div class="card">
             <div class="card__image">
-                <img class="skeleton-image w-100 skeleton-image--landscape" />
+                <img class="skeleton-image skeleton-image--full skeleton-image--landscape" />
             </div>
             <div class="card__content">
                 <h3 class="skeleton skeleton--md"></h3>
