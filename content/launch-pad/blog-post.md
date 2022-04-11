@@ -2,27 +2,35 @@
 title: Blog Post
 layout: example
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
+skellyCSS: true
 ---
 <style>
+    body {
+        --purple: hsla(256, 46%, 25%, 1);
+    }
     footer {
         position: sticky;
         top: 100vh;
     }
 
     .background--purple {
-        background-color: hsla(256, 46%, 25%, 1);
+        background-color: var(--purple);
     }
-    .background-hover--white:hover {
-        background-color: hsl(0, 0%, 100%);
+    .background-hover--purple:hover {
+        background-color: var(--purple)!important;
         transition: .2s;
     }
 
     .border--color-purple {
-        border-color:hsla(256, 46%, 25%, 1);
+        border-color: var(--purple)!important;
+    }
+
+    .text--purple {
+        color: var(--purple)!important;
     }
 
     .text-hover--purple:hover {
-        color: hsla(256, 46%, 25%, 1)!important;
+        color: var(--purple)!important;
     }
 </style>
 
@@ -58,9 +66,9 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         data-gradient-fallback="var(--dark)">
         <div class="block-container w-100 flex--justify-center">
             <div class="block-10 lg-tablet-up-8">
-                <div class="py-6 pl-3 block-container">
+                <div class="py-6 block-container">
                     <div class="block lg-tablet-up-6">
-                        <h1 class="text--white">My Firrst Blog</h1>
+                        <h1 class="text--white">My First Blog</h1>
                         <p class="text--white mb-0">Welcome to my new blog. I hope you like it.</p>
                     </div>            
                 </div>
@@ -68,32 +76,21 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         </div>
     </section>
     <section class="block block-10 lg-tablet-up-8 mb-6">
-For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.
-
-It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.
-
-Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10.
-
-We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.
-
-There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
-
-> As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore . . . and this is exploration at its greatest.
-
-Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman’s earth, if free men make it, will be truly round: a globe in practice, not in theory.
-
-To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?
-
-There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
-
-We are all connected; To each other, biologically. To the earth, chemically. To the rest of the universe atomically.
+        <p class="skeleton" data-lines="3"></p>
+        <p class="skeleton" data-lines="2"></p>
+        <blockquote>
+            <p class="skeleton" data-lines="2"></p>
+        </blockquote>
+        <p class="skeleton" data-lines="2"></p>
+        <p class="skeleton" data-lines="3"></p>
+        <p class="skeleton" data-lines="2"></p>
     </section>
     <section class="block block-10 lg-tablet-up-8">
         <h2>Read More</h2>
         <div class="mb-3">
-            <button class="button background--purple background-hover--white text--white text-hover--purple border--color-purple mr-2">Space</button>
-            <button class="button background--purple background-hover--white text--white text-hover--purple border--color-purple mx-2">Time</button>
-            <button class="button background--purple background-hover--white text--white text-hover--purple border--color-purple ml-2">Relativity</button>
+            <button class="button background--white background-hover--purple text--purple text-hover--white border--color-purple mr-2">Space</button>
+            <button class="button background--white background-hover--purple text--purple text-hover--white border--color-purple mx-2">Time</button>
+            <button class="button background--white background-hover--purple text--purple text-hover--white border--color-purple ml-2">Relativity</button>
         </div>
         <div class="block-container blocks lg-tablet-up-2 p-3 mb-3 cards w-100">
             <div class="block">
@@ -111,8 +108,8 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
                             <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: January 12, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: January 12, 2022</p>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -132,8 +129,8 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
                             <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: January 18, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: January 18, 2022</p>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -153,8 +150,8 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
                             <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: January 23, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: January 23, 2022</p>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
