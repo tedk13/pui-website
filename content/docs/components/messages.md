@@ -20,7 +20,7 @@ Messages can be used to display important information that will stand out on the
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="p-0 mb-4">
+<section class="mb-4">
   <h3>Modifiers</h3>
   <table borders="1" class="table modifiers table--no-hover">
     <thead>

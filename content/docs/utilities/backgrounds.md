@@ -6,7 +6,7 @@ Used to modify the appearance of the background.
 
 ## Colors
 
-The background color classes are used to set, or change a `background-color` on a specific element. 
+The background color classes are used to set, or change a `background--color` on a specific element. 
 
 <table class="table mb-4">
   <thead>
@@ -18,93 +18,93 @@ The background color classes are used to set, or change a `background-color` on 
   <tbody>
     <tr>
       <td data-label="Color">
-        <p class="background-white">White</p>
+        <p class="background--white">White</p>
       </td>
-      <td data-label="Class"><code>.background-white</code></td>
+      <td data-label="Class"><code>.background--white</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-lighter">Lighter</p>
+        <p class="background--lighter">Lighter</p>
       </td>
-      <td data-label="Class"><code>.background-lighter</code></td>
+      <td data-label="Class"><code>.background--lighter</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-light-mid">Light Mid</p>
+        <p class="background--light-mid">Light Mid</p>
       </td>
-      <td data-label="Class"><code>.background-light-mid</code></td>
+      <td data-label="Class"><code>.background--light-mid</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-light">Light</p>
+        <p class="background--light">Light</p>
       </td>
-      <td data-label="Class"><code>.background-light</code></td>
+      <td data-label="Class"><code>.background--light</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-base text-white">Base</p>
+        <p class="background--base text--white">Base</p>
       </td>
-      <td data-label="Class"><code>.background-base</code></td>
+      <td data-label="Class"><code>.background--base</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-dark text-white">Dark</p>
+        <p class="background--dark text--white">Dark</p>
       </td>
-      <td data-label="Class"><code>.background-dark</code></td>
+      <td data-label="Class"><code>.background--dark</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-black text-white">Black</p>
+        <p class="background--black text--white">Black</p>
       </td>
-      <td data-label="Class"><code>.background-black</code></td>
+      <td data-label="Class"><code>.background--black</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-navy text-white">Navy</p>
+        <p class="background--navy text--white">Navy</p>
       </td>
-      <td data-label="Class"><code>.background-navy</code></td>
+      <td data-label="Class"><code>.background--navy</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-skyblue text-white">Skyblue</p>
+        <p class="background--skyblue text--white">Skyblue</p>
       </td>
-      <td data-label="Class"><code>.background-skyblue</code></td>
+      <td data-label="Class"><code>.background--skyblue</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-med-blue text-white">Med Blue</p>
+        <p class="background--med-blue text--white">Med Blue</p>
       </td>
-      <td data-label="Class"><code>.background-med-blue</code></td>
+      <td data-label="Class"><code>.background--med-blue</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-beige text-white">Beige</p>
+        <p class="background--beige text--white">Beige</p>
       </td>
-      <td data-label="Class"><code>.background-beige</code></td>
+      <td data-label="Class"><code>.background--beige</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-peach text-white">Peach</p>
+        <p class="background--peach text--white">Peach</p>
       </td>
-      <td data-label="Class"><code>.background-peach</code></td>
+      <td data-label="Class"><code>.background--peach</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-salmon text-white">Salmon</p>
+        <p class="background--salmon text--white">Salmon</p>
       </td>
-      <td data-label="Class"><code>.background-salmon</code></td>
+      <td data-label="Class"><code>.background--salmon</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-brown text-white">Brown</p>
+        <p class="background--brown text--white">Brown</p>
       </td>
-      <td data-label="Class"><code>.background-brown</code></td>
+      <td data-label="Class"><code>.background--brown</code></td>
     </tr>
     <tr>
       <td data-label="Color">
-        <p class="background-orange text-white">Orange</p>
+        <p class="background--orange text--white">Orange</p>
       </td>
-      <td data-label="Class"><code>.background-orange</code></td>
+      <td data-label="Class"><code>.background--orange</code></td>
     </tr>
   </tbody>
 </table>
@@ -115,13 +115,13 @@ The background color classes are used to set, or change a `background-color` on 
 The `inverted` class changes the color of an element to white. It has a transition, so after the class is added, the color
 will transition to white.
 
-<div class="card background-black">
+<div class="card background--black">
   <h1 class="inverted">Hello world</h1>
 </div>
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="card background-black">
+<div class="card background--black">
   <h1 class="inverted">Hello world</h1>
 </div>
 {{< /highlight >}}
@@ -132,7 +132,7 @@ will transition to white.
 
 If you want to remove the background color and border color on an element, add the class `transparent`.
 
-<div class="block-container card background-lighter">
+<div class="block-container card background--lighter">
   <div class="block-6">
     <button class="button">Button</button>
   </div>
@@ -143,7 +143,7 @@ If you want to remove the background color and border color on an element, add t
 
 <div class="mt-3 mb-4">
 {{< highlight html >}}
-<div class="block-container card background-lighter">
+<div class="block-container card background--lighter">
   <div class="block-6">
     <button class="button">Button</button>
   </div>
@@ -205,9 +205,9 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   data-background-position="center center"
   data-background-size="cover"
   data-background-repeat="no-repeat">
-    <div class="block lg-tablet-up-6 background-black-a90 rounded-2 p-4">
-      <h1 class="mb-3 mt-0 text-white">Hero Heading</h1>
-      <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit elit, efficitur a purus eget, porttitor aliquam turpis.</p>
+    <div class="block lg-tablet-up-6 background--black-a90 rounded-2 p-4">
+      <h1 class="mb-3 mt-0 text--white">Hero Heading</h1>
+      <p class="text--white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit elit, efficitur a purus eget, porttitor aliquam turpis.</p>
      </div>
 </div>
 
@@ -219,9 +219,9 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   data-background-position="center center"
   data-background-size="cover"
   data-background-repeat="no-repeat">
-    <div class="block lg-tablet-up-6 background-black-a90 rounded-2 p-4">
-      <h1 class="mb-3 mt-0 text-white">Hero Heading</h1>
-      <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit elit, efficitur a purus eget, porttitor aliquam turpis.</p>
+    <div class="block lg-tablet-up-6 background--black-a90 rounded-2 p-4">
+      <h1 class="mb-3 mt-0 text--white">Hero Heading</h1>
+      <p class="text--white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit elit, efficitur a purus eget, porttitor aliquam turpis.</p>
      </div>
 </div>
 {{< /highlight >}}
@@ -234,23 +234,23 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   data-background-size="cover"
   data-background-repeat="no-repeat">
     <div class="block lg-tablet-up-5 py-4">
-      <h1 class="mb-3 mt-0 text-white">Signup Today!</h1>
-      <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
+      <h1 class="mb-3 mt-0 text--white">Signup Today!</h1>
+      <p class="text--white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
     </div>
-    <div class="block lg-tablet-up-4 background-white-a70 border-t border--color-orange border--width-5 p-4">
-      <p class="text-black">Signup for a newsletter! We promise we won't spam you.</p>
+    <div class="block lg-tablet-up-4 background--white-a70 border-t border--color-orange border--width-5 p-4">
+      <p class="text--black">Signup for a newsletter! We promise we won't spam you.</p>
       <form action="" class="form form--rounded">
          <div class="block form__field mb-3">
          <label class="sr-only" for="first-name">First Name</label>
-         <input id="first-name" class="background-white-a70" type="text" placeholder="First Name" />
+         <input id="first-name" class="background--white-a70" type="text" placeholder="First Name" />
        </div>
        <div class="block form__field mb-3">
          <label class="sr-only" for="last-name">Last Name</label>
-         <input id="last-name" class="background-white-a70" type="text" placeholder="Last Name" />
+         <input id="last-name" class="background--white-a70" type="text" placeholder="Last Name" />
        </div>
        <div class="block form__field mb-3">
          <label class="sr-only" for="email">Email Address</label>
-         <input id="email" class="background-white-a70" type="email" placeholder="name@example.com" />
+         <input id="email" class="background--white-a70" type="email" placeholder="name@example.com" />
        </div>
        <div class="block flex flex--justify-center">
          <button class="button button--lg button--orange">Submit</button>
@@ -268,23 +268,23 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   data-background-size="cover"
   data-background-repeat="no-repeat">
     <div class="block lg-tablet-up-5 py-4">
-      <h1 class="mb-3 mt-0 text-white">Signup Today!</h1>
-      <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
+      <h1 class="mb-3 mt-0 text--white">Signup Today!</h1>
+      <p class="text--white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
     </div>
-    <div class="block lg-tablet-up-4 background-white-a70 border-t border--color-orange border--width-5 p-4">
-      <p class="text-black">Signup for a newsletter! We promise we won't spam you.</p>
+    <div class="block lg-tablet-up-4 background--white-a70 border-t border--color-orange border--width-5 p-4">
+      <p class="text--black">Signup for a newsletter! We promise we won't spam you.</p>
       <form action="" class="form form--rounded">
          <div class="block form__field mb-3">
          <label class="sr-only" for="first-name">First Name</label>
-         <input id="first-name" class="background-white-a70" type="text" placeholder="First Name" />
+         <input id="first-name" class="background--white-a70" type="text" placeholder="First Name" />
        </div>
        <div class="block form__field mb-3">
          <label class="sr-only" for="last-name">Last Name</label>
-         <input id="last-name" class="background-white-a70" type="text" placeholder="Last Name" />
+         <input id="last-name" class="background--white-a70" type="text" placeholder="Last Name" />
        </div>
        <div class="block form__field mb-3">
          <label class="sr-only" for="email">Email Address</label>
-         <input id="email" class="background-white-a70" type="email" placeholder="name@example.com" />
+         <input id="email" class="background--white-a70" type="email" placeholder="name@example.com" />
        </div>
        <div class="block flex flex--justify-center">
          <button class="button button--lg button--orange">Submit</button>
@@ -301,11 +301,11 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   data-background-position="center center"
   data-background-size="cover"
   data-background-repeat="no-repeat">
-    <div class="background-black-a80 text--size-xl text--center p-6">
+    <div class="background--black-a80 text--size-xl text--center p-6">
       <i class="pi-bolt text--size-lg text-white"></i>
-      <h1 class="text-white mt-4 mb-6 pb-6 text--size-xxxl text-white">Power Your World.</h1>
+      <h1 class="text--white mt-4 mb-6 pb-6 text--size-xxxl text--white">Power Your World.</h1>
       <p class="text-white text--size-sm mb-0">Learn More</p>
-      <i class="pi-angle-down text-white"></i>
+      <i class="pi-angle-down text--white"></i>
      </div>
 </div>
 
@@ -317,11 +317,11 @@ See the example below to see it all come together. You may notice a `ratio-` cla
   data-background-position="center center"
   data-background-size="cover"
   data-background-repeat="no-repeat">
-    <div class="background-black-a80 text--size-xl text--center p-6">
-      <i class="pi-bolt text--size-lg text-white"></i>
-      <h1 class="text-white mt-4 mb-6 pb-6 text--size-xxxl text-white">Power Your World.</h1>
-      <p class="text-white text--size-sm mb-0">Learn More</p>
-      <i class="pi-angle-down text-white"></i>
+    <div class="background--black-a80 text--size-xl text--center p-6">
+      <i class="pi-bolt text--size-lg text--white"></i>
+      <h1 class="text--white mt-4 mb-6 pb-6 text--size-xxxl text--white">Power Your World.</h1>
+      <p class="text--white text--size-sm mb-0">Learn More</p>
+      <i class="pi-angle-down text--white"></i>
      </div>
 </div>
 {{< /highlight >}}
@@ -516,22 +516,22 @@ Set the size of an element equal to a common ratio with the ratio-{val} class.
 
 <div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
   <div class="block">
-    <div class="background-navy ratio-1_1 flex--center-content">
-<strong class="text-white text--size-lg">1:1</strong>
+    <div class="background--navy ratio-1_1 flex--center-content">
+<strong class="text--white text--size-lg">1:1</strong>
     </div>
   </div>
   <div class="block">
-    <div class="background-skyblue ratio-2_1 flex--center-content">
+    <div class="background--skyblue ratio-2_1 flex--center-content">
 <strong class="text--size-lg">2:1</strong>
     </div>
   </div>
   <div class="block">
-    <div class="background-med-blue ratio-4_3 flex--center-content">
-<strong class="text-white text--size-lg">4:3</strong>
+    <div class="background--med-blue ratio-4_3 flex--center-content">
+<strong class="text--white text--size-lg">4:3</strong>
     </div>
   </div>
   <div class="block">
-    <div class="background-lightblue ratio-16_9 flex--center-content">
+    <div class="background--lightblue ratio-16_9 flex--center-content">
 <strong class="text--size-lg">16:9</strong>
     </div>
   </div>
@@ -541,22 +541,22 @@ Set the size of an element equal to a common ratio with the ratio-{val} class.
 {{< highlight html >}}
 <div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
   <div class="block">
-    <div class="background-navy ratio-1_1 flex--center-content">
-      <strong class="text-white text--size-lg">1:1</strong>
+    <div class="background--navy ratio-1_1 flex--center-content">
+      <strong class="text--white text--size-lg">1:1</strong>
     </div>
   </div>
   <div class="block">
-    <div class="background-skyblue ratio-2_1 flex--center-content">
+    <div class="background--skyblue ratio-2_1 flex--center-content">
       <strong class="text--size-lg">2:1</strong>
     </div>
   </div>
   <div class="block">
-    <div class="background-med-blue ratio-4_3 flex--center-content">
-      <strong class="text-white text--size-lg">4:3</strong>
+    <div class="background--med-blue ratio-4_3 flex--center-content">
+      <strong class="text--white text--size-lg">4:3</strong>
     </div>
   </div>
   <div class="block">
-    <div class="background-lightblue ratio-16_9 flex--center-content">
+    <div class="background--lightblue ratio-16_9 flex--center-content">
       <strong class="text--size-lg">16:9</strong>
     </div>
   </div>

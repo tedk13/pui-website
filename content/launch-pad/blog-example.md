@@ -10,17 +10,17 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
     }
 </style>
 
-<header class="site-menu-wrapper p-2 background-dark">
+<header class="site-menu-wrapper p-2 background--dark">
     <div class="block-container flex--justify-center w-100">
         <div class="block block-10 lg-tablet-up-8 flex flex--justify-between">
-            <a href="/launch-pad/blog-example" class="site-logo text--size-xxl text-white">
+            <a href="/launch-pad/blog-example" class="site-logo text--size-lg text--white">
                 PUI Blog!
             </a>
-            <button class="site-menu-mobile-action text-white">
+            <button class="site-menu-mobile-action text--white">
                 <span class="sr-only">Toggle Navigation</span>
                 <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
             </button>
-            <nav class="site-menu text-white">
+            <nav class="site-menu text--white">
                 <a href="/launch-pad/blog-example" class="site-menu__item">About</a>
                 <a href="/launch-pad/blog-post" class="site-menu__item">Posts</a>
                 <a href="/launch-pad/blog-example" class="site-menu__item">Resume</a>
@@ -31,7 +31,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
 
 <main class="block-container flex--justify-center mb-6">
     <section 
-        class="block linear-gradient background-image pos-rel mb-6"
+        class="block linear-gradient background-image pos-rel mb-6 p-3"
         data-background-image="https://cdn.pixabay.com/photo/2017/09/12/11/56/universe-2742113_1280.jpg"
         data-background-position="center center"
         data-background-size="cover"
@@ -44,14 +44,14 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
             <div class="block-10 lg-tablet-up-8">
                 <div class="py-6 pl-3 block-container">
                     <div class="block lg-tablet-up-6">
-                        <h1 class="text-white">This blog is out of this world!</h1>
-                        <p class="text-white mb-0">On this site you will read blogs. These blogs will have words. The grammar may be poor.</p>
+                        <h1 class="text--white">This blog is out of this world!</h1>
+                        <p class="text--white mb-0">On this site you will read blogs. These blogs will have words. The grammar may be poor.</p>
                     </div>            
                 </div>
             </div>
         </div>
     </section>
-    <section class="block block-10 lg-tablet-up-8 p-0">
+    <section class="block block-10 lg-tablet-up-8">
         <h2>Latest Posts</h2>
         <div class="block-container blocks tablet-up-2 lg-tablet-up-3 laptop-up-4 p-3 mb-3 cards w-100">
             <div class="block">
@@ -70,7 +70,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: January 3, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
+                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: January 12, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
+                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: January 18, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
+                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: January 23, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
+                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: February 8, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
+                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                         </div>
                         <div>
                             <p class="mb-0 text--size-sm">Published: March 10, 2022</p>
-                            <a class="text-underline--hover text-navy--hover" href="/launch-pad/blog-post">Read More</a>
+                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -184,8 +184,8 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
     </section>
 </main>
 
-<footer class="background-dark p-4">
-    <div class="text--center text-white">
+<footer class="background--dark p-4">
+    <div class="text--center text--white">
         <p class="m-0">Copyright Platform UI 2022</p>
     </div>
 </footer>

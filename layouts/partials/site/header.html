@@ -1,18 +1,18 @@
-<header id="main-header" class="site-header site-header--fixed background-purple block-container px-4">
+<header id="main-header" class="site-header site-header--fixed background--purple block-container px-4">
   <a href="/" class="site-logo h-100 flex flex--align-center flex--justify-center">
     <img src="/images/platform-ui.svg" alt="Platform UI" />
   </a>
-  <nav class="site-menu hover-underline hover-underline--white h-100 flex flex--grow flex--align-center text-white px-2">
+  <nav class="site-menu hover-underline hover-underline--white h-100 flex flex--grow flex--align-center text--white px-2">
     {{ $currentPage := . }}
     {{ $currentSection := $currentPage.Section }}
     {{ range .Site.Menus.main }}
       {{ $active := eq $currentSection .Identifier }}
-        <a class="p-2 text-white site-menu__item{{ if $active }} active{{end}}" href="{{ .URL }}" >{{ .Name }}</a>
+        <a class="p-2 text--white site-menu__item{{ if $active }} active{{end}}" href="{{ .URL }}" >{{ .Name }}</a>
     {{ end }}
   </nav>
-  <div class="h-100 text-white flex flex--justify-end flex--align-center">
+  <div class="h-100 text--white flex flex--justify-end flex--align-center">
     <span class="hide show:tablet mr-2">v{{ os.ReadFile ".pui-version" }}</span>
-    <a href="{{ .Site.Params.rimdev_url }}" target="_blank" class="text-white" title="RIMdev Blog" aria-description="Visit the RIMdev technical blog">
+    <a href="{{ .Site.Params.rimdev_url }}" target="_blank" class="text--white" title="RIMdev Blog" aria-description="Visit the RIMdev technical blog">
       <i class='pi-rimdev-circle pi-xl text-skyblue--hover' aria-hidden="true"></i>
     </a>
   </div>

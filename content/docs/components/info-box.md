@@ -9,7 +9,7 @@ skellyCSS: true
 
 Click the button to toggle the info box. 
 
-<i class="pi-warning text-orange"></i> **Note:** Depending on the rest of your markup, you might need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly.
+<i class="pi-warning text--orange"></i> **Note:** Depending on the rest of your markup, you might need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly.
 
 `flex-inline` was added to the example below.
 
@@ -49,7 +49,7 @@ Click the button to toggle the info box.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="p-0 mb-4">
+<section class="mb-4">
   <h3>Modifiers</h3>
   <table borders="1" class="table modifiers table--no-hover">
     <thead>

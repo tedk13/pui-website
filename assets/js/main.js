@@ -173,11 +173,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 
     transitionDivColor.addEventListener('mouseenter', () => {
-      transitionDivColor.classList.add('background-med-blue');
+      transitionDivColor.classList.add('background--med-blue');
     });
 
     transitionDivColor.addEventListener('mouseleave', () => {
-      transitionDivColor.classList.remove('background-med-blue');
+      transitionDivColor.classList.remove('background--med-blue');
     });
 
     transitionDivPadding.addEventListener('click', () => {
@@ -197,8 +197,8 @@ const copyButton = () => {
   const classes = [
     'button',
     'button--primary',
-    'background-dark',
-    'background-salmon--hover',
+    'background--dark',
+    'background-hover--salmon',
     'text-white',
     'button--copy',
     'text--size-sm',

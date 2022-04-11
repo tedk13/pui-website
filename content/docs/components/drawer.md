@@ -57,7 +57,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="p-o mb-4">
+<section class="mb-4">
   <h3>Modifiers</h3>
   <table borders="1" class="table modifiers table--no-hover">
     <thead>
@@ -95,5 +95,5 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 If the `header-fixed` class is added to the main wrapper, the side drawers (`.drawer-left` and `.drawer-right`) will open below the header.
 
 <div class="message message--info mb-4">
-  <p>You can add animation effects to drawers by using <a class="text-navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes!</p>
+  <p>You can add animation effects to drawers by using <a class="text--navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes!</p>
 </div>

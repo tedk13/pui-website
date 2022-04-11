@@ -2,7 +2,7 @@
 title: Cards
 skellyCSS: true
 ---
-<section class="p-0 mb-4">
+<section class="mb-4">
 Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
 some padding.
 
@@ -36,12 +36,12 @@ some padding.
 {{< /code-markup >}}
 
 {{< callout tipHeader="Card Tip">}} 
-  <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text-navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to give the card size.</p>
+  <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text--navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to give the card size.</p>
 {{< /callout >}}
 </section>
 
 
-<section class="p-0">
+<section>
 
 ## Image Card
 
