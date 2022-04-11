@@ -10,11 +10,10 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 
 {{< code-demo >}}
 <div class="block-container mt-3">
-  <button class="button button--lg drawer__open" data-drawer="default">
+  <button class="button drawer__open" data-drawer="default">
     Toggle default drawer
   </button>
 </div>
-
 <div id="default" class="drawer drawer--closed">
   <div class="drawer__inner">
    <div class="drawer__content">
@@ -35,10 +34,9 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 
 {{< code-markup >}}
 {{< highlight html >}}
-<button class="button button--lg drawer__open" data-drawer="default">
+<button class="button drawer__open" data-drawer="default">
   Toggle default drawer
 </button>
-
 <!-- Default Drawer -->
 <div class="drawer drawer--closed">
   <div class="drawer__inner">

@@ -62,13 +62,13 @@ Sets the flex container to align all contained elements to either the start, cen
         </button>
       </li>
       <li>
-        <button class="button button--salmon text-white" data-reset="true">
+        <button class="button button--salmon text--white" data-reset="true">
           Reset
         </button>
       </li>
     </ul>
   </div>
-  <div class="results rounded-2 block background-dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}]}'>
+  <div class="results rounded-2 block background--dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}]}'>
   </div>
 </div>
 
@@ -111,13 +111,13 @@ Sets individual elements to align to either the start, center, end, or baseline 
         </button>
       </li>
       <li>
-        <button class="button button--salmon text-white" data-reset="true">
+        <button class="button button--salmon text--white" data-reset="true">
           Reset
         </button>
       </li>
     </ul>
   </div>
-  <div class="results rounded-2 block background-dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}]}'>
+  <div class="results rounded-2 block background--dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}]}'>
   </div>
 </div>
 
@@ -165,13 +165,13 @@ Sets individual elements to align to either the start, center, end, or baseline 
         </button>
       </li>
       <li>
-        <button class="button button--salmon text-white" data-reset="true">
+        <button class="button button--salmon text--white" data-reset="true">
           Reset
         </button>
       </li>
     </ul>
   </div>
-  <div class="results rounded-2 block background-dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}]}'>
+  <div class="results rounded-2 block background--dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}]}'>
   </div>
 </div>
 
@@ -208,13 +208,13 @@ Utility classes to handle the direction of elements within a flex container.
         </button>
       </li>
       <li>
-        <button class="button button--salmon text-white" data-reset="true">
+        <button class="button button--salmon text--white" data-reset="true">
           Reset
         </button>
       </li>
     </ul>
   </div>
-  <div class="results rounded-2 block background-dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}]}'>
+  <div class="results rounded-2 block background--dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]},{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}]}'>
   </div>
 </div>
 
@@ -254,13 +254,13 @@ Utility classes to handle wrapping, spacing, and centering of content within a f
             </button>
           </li>
           <li>
-            <button class="button button--salmon text-white" data-reset="true">
+            <button class="button button--salmon text--white" data-reset="true">
               Reset
             </button>
           </li>
         </ul>
       </div>
-      <div class="results rounded-2 block background-dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}]}'>
+      <div class="results rounded-2 block background--dark p-3" data-setup='{"classes":["flex vh-25"],"children":[{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}]}'>
       </div>
     </div>
   </div>
@@ -279,13 +279,13 @@ Utility classes to handle wrapping, spacing, and centering of content within a f
             </button>
           </li>
           <li>
-            <button class="button button--salmon text-white" data-reset="true">
+            <button class="button button--salmon text--white" data-reset="true">
               Reset
             </button>
           </li>
         </ul>
       </div>
-      <div class="results rounded-2 block background-dark p-3" data-setup='{"classes":["flex", "vh-25"],"children":[{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}]}'>
+      <div class="results rounded-2 block background--dark p-3" data-setup='{"classes":["flex", "vh-25"],"children":[{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}]}'>
       </div>
     </div>
   </div>
@@ -304,13 +304,13 @@ Utility classes to handle wrapping, spacing, and centering of content within a f
             </button>
           </li>
           <li>
-            <button class="button button--salmon text-white" data-reset="true">
+            <button class="button button--salmon text--white" data-reset="true">
               Reset
             </button>
           </li>
         </ul>
       </div>
-      <div class="results rounded-2 block background-dark p-3" data-setup='{"classes":["flex", "vh-25"],"children":[{"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background-light-purple", "border", "border--color-white"]}]}'>
+      <div class="results rounded-2 block background--dark p-3" data-setup='{"classes":["flex", "vh-25"],"children":[{"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}, {"el":"div","classes":["abstract-element", "background--light-purple", "border", "border--color-white"]}]}'>
       </div>
     </div>
   </div>

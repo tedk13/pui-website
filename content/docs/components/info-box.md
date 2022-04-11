@@ -36,7 +36,6 @@ Click the button to toggle the info box.
    <button class="button toggle-hidden">
      Open Info Box
    </button>
-
    <!-- Info Box Content -->
    <div class="info-box__content hidden">
      <button class="button info-box__close">

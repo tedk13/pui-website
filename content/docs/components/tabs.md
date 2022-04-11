@@ -58,7 +58,6 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
   <div class="tab-panel">
     <!-- Tab content goes here! -->
   </div>
-
   <!-- Tab 2 -->
   <input type="radio" id="tab-input-b" name="tabs">
   <label for="tab-input-b" class="tab">
@@ -67,7 +66,6 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
   <div class="tab-panel">
     <!-- Tab content goes here! -->
   </div>
-
   <!-- Tab 3 -->
   <input type="radio" id="tab-input-c" name="tabs">
   <label for="tab-input-c" class="tab">

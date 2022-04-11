@@ -15,7 +15,7 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 
 {{< code-demo >}}
 <div class="block mb-3">
-    <button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
+    <button class="button modal__open" data-modal="default-modal">Standard Modal</button>
 </div>
 
 <div id="default-modal" class="modal modal--closed" tabindex="-1">
@@ -37,7 +37,6 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 {{< code-markup >}}
 {{< highlight html >}}
 <button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
-
 <!-- Standard Modal -->
 <div id="default-modal" class="modal modal--closed">
   <div class="modal__inner">

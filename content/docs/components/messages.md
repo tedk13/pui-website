@@ -91,13 +91,13 @@ Messages can be used to display important information that will stand out on the
           </button>
         </li>
         <li>
-          <button class="button button--salmon text-white" data-reset="true">
+          <button class="button button--salmon text--white" data-reset="true">
             Reset
           </button>
         </li>
       </ul>
     </div>
-    <div class="results rounded-2 block background-dark p-3">
+    <div class="results rounded-2 block background--dark p-3">
       <div class="message message--info">
         This is a message!
       </div>
