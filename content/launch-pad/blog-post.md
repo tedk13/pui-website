@@ -8,6 +8,22 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
         position: sticky;
         top: 100vh;
     }
+
+    .background--purple {
+        background-color: hsla(256, 46%, 25%, 1);
+    }
+    .background-hover--white:hover {
+        background-color: hsl(0, 0%, 100%);
+        transition: .2s;
+    }
+
+    .border--color-purple {
+        border-color:hsla(256, 46%, 25%, 1);
+    }
+
+    .text-hover--purple:hover {
+        color: hsla(256, 46%, 25%, 1)!important;
+    }
 </style>
 
 <header class="site-menu-wrapper p-2 background--dark">
@@ -62,7 +78,7 @@ We choose to go to the moon in this decade and do the other things, not because 
 
 There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
 
-As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore . . . and this is exploration at its greatest.
+> As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore . . . and this is exploration at its greatest.
 
 Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman’s earth, if free men make it, will be truly round: a globe in practice, not in theory.
 
@@ -74,6 +90,11 @@ We are all connected; To each other, biologically. To the earth, chemically. To 
     </section>
     <section class="block block-10 lg-tablet-up-8">
         <h2>Read More</h2>
+        <div class="mb-3">
+            <button class="button background--purple background-hover--white text--white text-hover--purple border--color-purple mr-2">Space</button>
+            <button class="button background--purple background-hover--white text--white text-hover--purple border--color-purple mx-2">Time</button>
+            <button class="button background--purple background-hover--white text--white text-hover--purple border--color-purple ml-2">Relativity</button>
+        </div>
         <div class="block-container blocks lg-tablet-up-2 p-3 mb-3 cards w-100">
             <div class="block">
                 <div class="p-0 block-container flex--align-start">
