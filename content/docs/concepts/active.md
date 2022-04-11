@@ -3,5 +3,6 @@ title: Active
 weight: 1
 ---
 
+We went back-and-forth with modifiers, but the fact remained, we just want to turn _the thing_ **on** and **off**. No matter what it is! 
 
-TODO: Explain and demonstrate concept of active state - accessible active class (accordions, buttons, modals, etc.)
+If you have a question about how to toggle an [accordion](/docs/components/accordion/), an [info box](/docs/components/info-box/), or a [modal](/docs/components/modal/), toggle the `.active` class. 

@@ -1,9 +1,10 @@
 # Merges [closed] PRs from development into master
 name: PRs to development
-on: 
+on:
+  push:
+    branches: [development]
   pull_request:
     branches: [development]
-    types: [closed]
     
 jobs:
   merge-dev-into-master:
