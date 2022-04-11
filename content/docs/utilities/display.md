@@ -41,6 +41,9 @@ New display utilities for Platform UI.
 
 
 ## Display: Responsive
+<div class="mb-4">
+  {{% new version="1.3.0" %}}
+</div>
 
 Our responsive display utilities allow you to show or hide code at specific resolutions.
 
