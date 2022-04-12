@@ -185,9 +185,6 @@ body {
           <div class="flex flex--align-center my-3">
             <span class="text--white">Sunspots: 61</span>
           </div>
-          <div class="flex flex--align-center my-3">
-            <span class="text--white">Solar activity: B3.35</span>
-          </div>
         </div>
       </div>
     </div>
