@@ -2,11 +2,29 @@
 title: Blog
 layout: example
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
+skellyCSS: true
+weight: 1
 ---
 <style>
     footer {
         position: sticky;
         top: 100vh;
+    }
+
+    .background--purple {
+        background-color: hsla(256, 46%, 25%, 1);
+    }
+    .background-hover--white:hover {
+        background-color: hsl(0, 0%, 100%);
+        transition: .2s;
+    }
+
+    .border--color-purple {
+        border-color:hsla(256, 46%, 25%, 1);
+    }
+
+    .text-hover--purple:hover {
+        color: hsla(256, 46%, 25%, 1)!important;
     }
 </style>
 
@@ -66,11 +84,11 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My First Blog</h3>
-                            <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
+                            <p class="skeleton" data-lines="3"></p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: January 3, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: January 3, 2022</p>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -87,11 +105,11 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My Second Blog</h3>
-                            <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
+                            <p class="skeleton" data-lines="3"></p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: January 12, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: January 12, 2022</p>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -108,11 +126,11 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">This Blog Thing Is Getting Easy</h3>
-                            <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
+                            <p class="skeleton" data-lines="3"></p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: January 18, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: January 18, 2022</p>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -129,11 +147,11 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">I'm Getting The Hang of This</h3>
-                            <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
+                            <p class="skeleton" data-lines="3"></p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: January 23, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: January 23, 2022</p>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -150,11 +168,11 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">This One's Not The Best</h3>
-                            <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
+                            <p class="skeleton" data-lines="3"></p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: February 8, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: February 8, 2022</p>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -171,11 +189,11 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My Last Blog</h3>
-                            <p>Donec malesuada semper risus vitae placerat. Morbi tristique, odio vel hendrerit sollicitudin, massa orci blandit felis, ac vehicula nulla mauris vitae arcu.</p>
+                            <p class="skeleton" data-lines="3"></p>
                         </div>
                         <div>
-                            <p class="mb-0 text--size-sm">Published: March 10, 2022</p>
-                            <a class="text-underline--hover text-hover--navy" href="/launch-pad/blog-post">Read More</a>
+                            <p class="mb-2 text--size-sm">Published: March 10, 2022</p>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
