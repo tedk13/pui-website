@@ -53,27 +53,27 @@ body {
           </div>
           <div class="flex flex--align-center">
             <i class="pi-plus-circle-solid rotate-45 pi-xl mr-3 text-negative"></i>
-            <span class="">All Systems Check</span>
+            <span>All Systems Check</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-check-circle-solid pi-xl mr-3 text-positive"></i>
-            <span class="">Thermal Shield</span>
+            <span>Thermal Shield</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-check-circle-solid pi-xl mr-3 text-positive"></i>
-            <span class="">Payload Systems</span>
+            <span>Payload Systems</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-plus-circle-solid rotate-45 pi-xl mr-3 text-negative"></i>
-            <span class="">Stage 2 Pressurization Systems</span>
+            <span>Stage 2 Pressurization Systems</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-warning pi-xl mr-3 text-warning"></i>
-            <span class="">Stage 1 Pressurization Systems</span>
+            <span>Stage 1 Pressurization Systems</span>
           </div>
           <div class="flex flex--align-center">
             <i class="pi-check-circle-solid pi-xl mr-3 text-positive"></i>
-            <span class="">Engine Controls</span>
+            <span>Engine Controls</span>
           </div>
         </div>
       </div>
