@@ -43,43 +43,43 @@ body {
   </h1>
   <div class="block-container cards blocks px-2 pb-3">
     <div class="block tablet-up-6 laptop-up-3 desktop-up-2">
-      <div class="card background--med-blue border--color-black border--width-3 rounded-3">
+      <div class="card rounded-3 no-border">
         <div class="card__content">
-          <div class="card__header flex--justify-center border-b border--color-white pb-1">
-            <div class="card__group text--white">
-              <i class="pi-info-solid text--white"></i>
-              <h2 class="card__title text--white">System Health</h2>
+          <div class="card__header flex--justify-center border-b border--color-black pb-1">
+            <div class="card__group">
+              <i class="pi-info-solid text--black"></i>
+              <h2 class="card__title text--black">System Health</h2>
             </div>
           </div>
           <div class="flex flex--align-center">
             <i class="pi-plus-circle-solid rotate-45 pi-xl mr-3 text-negative"></i>
-            <span class="text--white">All Systems Check</span>
+            <span class="">All Systems Check</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-check-circle-solid pi-xl mr-3 text-positive"></i>
-            <span class="text--white">Thermal Shield</span>
+            <span class="">Thermal Shield</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-check-circle-solid pi-xl mr-3 text-positive"></i>
-            <span class="text--white">Payload Systems</span>
+            <span class="">Payload Systems</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-plus-circle-solid rotate-45 pi-xl mr-3 text-negative"></i>
-            <span class="text--white">Stage 2 Pressurization Systems</span>
+            <span class="">Stage 2 Pressurization Systems</span>
           </div>
           <div class="flex flex--align-center my-3">
             <i class="pi-warning pi-xl mr-3 text-warning"></i>
-            <span class="text--white">Stage 1 Pressurization Systems</span>
+            <span class="">Stage 1 Pressurization Systems</span>
           </div>
           <div class="flex flex--align-center">
             <i class="pi-check-circle-solid pi-xl mr-3 text-positive"></i>
-            <span class="text--white">Engine Controls</span>
+            <span class="">Engine Controls</span>
           </div>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-6 desktop-up-8">
-      <div class="card background--med-blue border--color-black border--width-3 p-0 rounded-3">
+      <div class="card p-0 rounded-3 no-border">
         <div class="card__content">
           <table class="table">
             <thead>
@@ -173,71 +173,71 @@ body {
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-3 desktop-up-2">
-      <div class="card background--med-blue border--color-black border--width-3 rounded-3">
-        <img class="card__image background--lightblue no-border" src="/images/sun-flare.jpg" alt="sun"/>
+      <div class="card rounded-3 no-border">
+        <img class="card__image" src="/images/sun-flare.jpg" alt="sun"/>
         <div class="card__content">
           <div class="flex flex--align-center mb-3">
-            <span class="text--white">Temperature: 10,340 <span>&#176;</span> F</span>
+            <span>Temperature: 10,340 <span>&#176;</span> F</span>
           </div>
           <div class="flex flex--align-center my-3">
-            <span class="text--white">Distance from: 91,406,842 mi</span>
+            <span>Distance from: 91,406,842 mi</span>
           </div>
           <div class="flex flex--align-center my-3">
-            <span class="text--white">Sunspots: 61</span>
+            <span>Sunspots: 61</span>
           </div>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-4 desktop-up-2">
-      <div class="card background--med-blue border--color-black border--width-3 rounded-3">
+      <div class="card rounded-3 no-border">
         <div class="card__content text--center flex flex--column flex--justify-center h-100">
           <strong class="text--size-xl text-positive">74 <span>&#176;</span> F</strong>
-          <p class="text--white">Cabin Temperature</p>
-          <strong class="text--size-xl text--beige">14 PSI</strong>
-          <p class="text--white">Cabin Pressure</p>
+          <p>Cabin Temperature</p>
+          <strong class="text--size-xl text-negative">14 PSI</strong>
+          <p>Cabin Pressure</p>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-4 desktop-up-2">
-      <div class="card background--med-blue border--color-black border--width-3 rounded-3">
+      <div class="card rounded-3 no-border">
         <div class="card__content flex flex--column flex--justify-between h-100">
           <button class="button button--navy py-2 px-7">Button</button>
           <button class="button button--skyblue py-2 px-7">Button</button>
-          <button class="button button--navy py-2 px-7">Button</button>
-          <button class="button button--skyblue py-2 px-7">Button</button>
+          <button class="button button--peach py-2 px-7">Button</button>
+          <button class="button button--brown py-2 px-7">Button</button>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-4 desktop-up-2">
-      <div class="card background--med-blue border--color-black border--width-3 rounded-3">
+      <div class="card rounded-3 no-border">
         <div class="card__content text--center form">
           <div class="card__header">
             <div class="card__group">
-              <i class="pi-book text--white"></i>
-              <h2 class="card__title text--white">NASA Database</h2>
+              <i class="pi-book text--black"></i>
+              <h2 class="card__title text--black">NASA Database</h2>
             </div>
           </div>
           <label class="form__field has-icon--right">
-            <input type="text" value="How to fly a spaceship?" class="text--white"></input>
-            <i aria-hidden="true" class="pi-search text--white"></i>
+            <input type="text" placeholder="Type to search..."></input>
+            <i aria-hidden="true" class="pi-search text--black"></i>
           </label>
-          <div class="text--left text--white">
+          <div class="text--left text--black">
             <p class="mt-4">Search History</p>
             <ul class="list">
               <li class="list__item flex "><i aria-hidden="true" class="pi-search mr-2"></i>Where is Mars?</li>
-              <li class="list__item flex "><i aria-hidden="true" class="pi-search mr-2"></i>Top 5 Astronaut Poses</li>
+              <li class="list__item flex "><i aria-hidden="true" class="pi-search mr-2"></i>How to fly a spaceship?</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
     <div class="block desktop-up-6">
-      <div class="card background--med-blue border--color-black border--width-3 rounded-3">
+      <div class="card rounded-3 no-border">
         <div class="card__content text--center">
           <div class="card__header">
             <div class="card__group">
-              <i class="pi-rocket text--white"></i>
-              <h2 class="card__title text--white">Status Messages</h2>
+              <i class="pi-rocket text--black"></i>
+              <h2 class="card__title text--black">Status Messages</h2>
             </div>
           </div>
           <div class="message message--error text--left">
