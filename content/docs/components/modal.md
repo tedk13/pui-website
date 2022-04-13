@@ -18,7 +18,7 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
     <button class="button modal__open" data-modal="default-modal">Standard Modal</button>
 </div>
 
-<div id="default-modal" class="modal modal--closed" tabindex="-1">
+<div id="default-modal" class="modal" tabindex="-1">
   <div class="modal__inner">
     <div class="modal__header">
       <button class="button modal__close" data-modal="default-modal">Close <i class="pi-times"></i></button>
@@ -38,7 +38,7 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 {{< highlight html >}}
 <button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
 <!-- Standard Modal -->
-<div id="default-modal" class="modal modal--closed">
+<div id="default-modal" class="modal">
   <div class="modal__inner">
     <div class="modal__header">
       <button class="button modal__close" data-modal="default-modal">
@@ -55,35 +55,73 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.modal--small</code></td>
-        <td data-label="Description">Small sized modal</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.modal--large</code></td>
-        <td data-label="Description">Large sized modal</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.modal--full</code></td>
-        <td data-label="Description">Full sized modal, takes up 100% of the viewport</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.modal--centered</code></td>
-        <td data-label="Description">Centers the modal in the middle of the viewport</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>modal</code>
+  </td>
+  <td data-label="Modifier">
+    <code>modal--small</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Small sized modal
+  </td>
+</tr>
+  <td data-label="Base">
+    <code>modal</code>
+  </td>
+  <td data-label="Modifier">
+    <code>modal--large</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Large sized modal
+  </td>
+</tr>
+  <td data-label="Base">
+    <code>modal</code>
+  </td>
+  <td data-label="Modifier">
+    <code>modal--full</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Full sized modal, takes up 100% of the viewport
+  </td>
+</tr>
+  <td data-label="Base">
+    <code>modal</code>
+  </td>
+  <td data-label="Modifier">
+    <code>modal--centered</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Centers the modal in the middle of the viewport
+  </td>
+</tr>
+{{< /modifiers >}}
 
 {{< callout tipHeader="Modal Tip" >}}
   <p>If you want to make a dialog box, you can just remove the <code>.modal__header</code> from the modal!</p>

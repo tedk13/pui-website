@@ -18,39 +18,90 @@ The default platform button. Usually paired visually with an icon. Can be the de
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Base">
     <code>button</code>
   </td>
-  <td data-label="Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Modifier">
     <code>button--lg</code>
   </td>
-  <td data-label="Secondary Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Secondary Modifier">
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
-  <td data-label="Data Attribute" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Data Attribute">
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
-  <td data-label="Behavior" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Behavior">
     A larger button than the standard
   </td>
 </tr>
 <tr>
-  <td data-label="Base" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Base">
     <code>button</code>
   </td>
-  <td data-label="Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Modifier">
     <code>button--secondary</code>
   </td>
-  <td data-label="Secondary Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Secondary Modifier">
     <code>has-text</code>
   </td>
-  <td data-label="Data Attribute" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Data Attribute">
     <code>data-button-text</code>
   </td>
-  <td data-label="Behavior" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Behavior">
     A round button intended to be paired with an icon
     <br>
     Adding <code>has-text</code> and <code>data-button-text</code> will show the button text on hover
+  </td>
+</tr>
+<tr>
+  <td data-label="Base">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier">
+    <code>button--plain</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Removes the border and background so the contents resemble a link (good for icons as buttons)
+  </td>
+</tr>
+<tr>
+  <td data-label="Base">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier">
+    <code>button--{color}</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Gives the button one of the brand colors (LINK HERE)
+  </td>
+</tr>
+<tr>
+  <td data-label="Base">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier">
+    <code>button--ghost</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Sets the background to transparent
   </td>
 </tr>
 {{< /modifiers >}}
@@ -74,7 +125,6 @@ The secondary platform button. Always a round button paired with a Platform icon
 
 Evenly space any group of buttons.
 
-
 {{< code-demo >}}
 <div class="button-group">
   <button class="button">Cancel</button>
@@ -92,34 +142,6 @@ Evenly space any group of buttons.
 </div>
 {{< /highlight >}} 
 {{< /code-markup >}}
-
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Secondary Modifier Class</th>
-        <th>Data Attribute</th>
-        <th>Behavior</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>button--ghost</td>
-        <td></td>
-        <td></td>
-        <td>It's a ghost button.</td>
-      </tr>
-      <tr>
-        <td>button--ghost</td>
-        <td></td>
-        <td></td>
-        <td>It's a ghost button.</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
 
 <section class="p-0 my-4">
   <h3 class="mb-3">Visualizer</h3>

@@ -56,28 +56,40 @@ We have some general styling on basic `<ul>` and `<ol>` elements, but our list t
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.list--inline</code></td>
-        <td data-label="Description">List displays inline utilizing flex</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.list--bordered</code></td>
-        <td data-label="Description">
-          List items display with a bottom border
-          <br>
-          Note: Make sure to add <code>.list__item</code> to the <code>li</code> to achieve the border
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>list</code>
+  </td>
+  <td data-label="Modifier">
+    <code>list--inline</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    List displays inline utilizing flex
+  </td>
+</tr>
+<tr>
+  <td data-label="Base">
+    <code>list</code>
+  </td>
+  <td data-label="Modifier">
+    <code>list--bordered</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    List items display with a bottom border<br>
+    Make sure to add <code>.list__item</code> to the <code>li</code> to achieve the border
+  </td>
+</tr>
+{{< /modifiers >}}
