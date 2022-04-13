@@ -1,5 +1,6 @@
 ---
 title: SVG Height
+toc: false
 ---
 
 Use these classes to change the height of an svg used for an icon.

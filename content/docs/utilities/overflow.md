@@ -1,6 +1,7 @@
 ---
 title: Overflow
 skellyCSS: true
+toc: false
 ---
 
 You can add or hide specific overflow on an element with the following classes.

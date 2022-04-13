@@ -1,6 +1,7 @@
 ---
 title: Drawer
 skellyCSS: true
+toc: false
 ---
 <div class="mb-4">
 {{% requires-js %}}

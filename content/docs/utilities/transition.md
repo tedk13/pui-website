@@ -1,5 +1,6 @@
 ---
 title: Transition
+toc: false
 ---
 
 Using the `transition` class adds `transition: .2s;` to an element. You could use this to make specific hover effects by toggling a class.

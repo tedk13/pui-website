@@ -1,5 +1,6 @@
 ---
 title: Tables
+toc: false
 ---
 
 Platform UI tables are built to be responsive at all screen sizes! Just include a `data-label` on the `<td>` that matches the header for that column.

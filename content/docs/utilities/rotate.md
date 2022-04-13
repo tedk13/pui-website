@@ -1,5 +1,6 @@
 ---
 title: Rotate
+toc: false
 ---
 
 Utility classes to rotate an element.

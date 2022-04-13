@@ -1,6 +1,7 @@
 ---
 title: Shadow Hover
 skellyCSS: true
+toc: false
 ---
 
 The class `hover-shadow` adds a box-shadow on hover of the element you add it to. You can use this along with the `hover-scale` class as well. See the
