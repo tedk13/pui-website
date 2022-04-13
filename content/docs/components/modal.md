@@ -1,6 +1,7 @@
 ---
 title: Modal
 skellyCSS: true
+toc: false
 ---
 
 <div class="mb-4">

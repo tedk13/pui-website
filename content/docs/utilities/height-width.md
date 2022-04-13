@@ -1,5 +1,6 @@
 ---
 title: Height and Width
+toc: false
 ---
 
 These classes give you a width and height percentage equal to the number in the class.

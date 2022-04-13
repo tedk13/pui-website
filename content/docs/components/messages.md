@@ -1,6 +1,7 @@
 ---
 title: Messages
 skellyCSS: true
+toc: false
 ---
 
 Messages can be used to display important information that will stand out on the screen.
