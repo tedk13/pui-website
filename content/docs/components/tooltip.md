@@ -18,36 +18,36 @@ Add your tooltip text to a `data-tooltip` attribute on any item you want a toolt
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Base">
     <code>tooltip-{direction}</code>
   </td>
-  <td data-label="Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Modifier">
     <i class="pi-ban" aria-hidden="true">
   </td>
-  <td data-label="Secondary Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Secondary Modifier">
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
-  <td data-label="Data Attribute" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Data Attribute">
     <code>data-tooltip</code>
   </td>
-  <td data-label="Behavior" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Behavior">
     Available directions are top, bottom, left, and right to position
   </td>
 </tr>
 <tr>
-  <td data-label="Base" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Base">
     <code>tooltip-inline</code>
   </td>
-  <td data-label="Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Modifier">
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
-  <td data-label="Secondary Modifier" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Secondary Modifier">
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
-  <td data-label="Data Attribute" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Data Attribute">
     <code>data-tooltip</code>
   </td>
-  <td data-label="Behavior" class="border-t border--color-white border--width-5 text--bold">
+  <td data-label="Behavior">
     Tooltip displays inline
   </td>
 </tr>

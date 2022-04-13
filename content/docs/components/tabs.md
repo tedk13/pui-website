@@ -78,23 +78,25 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.tabs--flat</code></td>
-        <td data-label="Description">Removes the hover effect on the table and rows</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>tabs</code>
+  </td>
+  <td data-label="Modifier">
+    <code>tabs--flat</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Removes the border effect on the tabs
+  </td>
+</tr>
+{{< /modifiers >}}
 
 {{< callout tipHeader="Tabs Tip" >}}
   <p>You can add the class <code>.unresponsive</code> if you want to keep the look of the tabs the same at every screen size!</p>

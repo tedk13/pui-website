@@ -19,6 +19,43 @@ You can create easy rounded images.
 {{< /highlight >}}
 {{< /code-markup >}}
 
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>image-round</code>
+  </td>
+  <td data-label="Modifier">
+    <code>image-round--sm</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    100px size image
+  </td>
+</tr>
+<tr>
+  <td data-label="Base">
+    <code>image-round</code>
+  </td>
+  <td data-label="Modifier">
+    <code>image-round--lg</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    200px size image
+  </td>
+</tr>
+{{< /modifiers >}}
+
 <section class="mb-4">
   <h3>Modifiers</h3>
   <table borders="1" class="table modifiers table--no-hover">

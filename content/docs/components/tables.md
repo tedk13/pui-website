@@ -78,23 +78,25 @@ Platform UI tables are built to be responsive at all screen sizes! Just include 
 {{< /highlight >}}
 {{< /code-markup >}}
 
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.table--no-hover</code></td>
-        <td data-label="Description">Removes the hover effect on the table and rows</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>table</code>
+  </td>
+  <td data-label="Modifier">
+    <code>table--no-hover</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Removes the hover effect on table and rows
+  </td>
+</tr>
+{{< /modifiers >}}
 
 {{< callout tipHeader="Table Tip" >}}
   <p>If you don't want your table to be responsive, you can add <code>.unresponsive</code> to the table. If you add the utility class <code>.overflow-x--auto</code> the table will scroll horizontally too!</p>

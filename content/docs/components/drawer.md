@@ -55,6 +55,49 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 {{< /highlight >}}
 {{< /code-markup >}}
 
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>drawer</code>
+  </td>
+  <td data-label="Modifier">
+    <code>drawer-{direction}</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <code>data-drawer</code>
+  </td>
+  <td data-label="Behavior">
+    Drawer opens from the provided direction - available options are top, bottom, left, right
+    <br>
+    Side drawers (left and right) do not occupy the entire viewport
+  </td>
+</tr>
+<tr>
+  <td data-label="Base">
+    <code>drawer</code>
+  </td>
+  <td data-label="Modifier">
+    <code>drawer--single-row</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <code>data-drawer</code>
+  </td>
+  <td data-label="Behavior">
+    A small sized drawer
+  </td>
+</tr>
+<tr>
+  <td data-label="Modifier Class"><code>.drawer-bottom</code></td>
+  <td data-label="Description">Drawer opens from bottom of the viewport</td>
+</tr>
+{{< /modifiers >}}
+
 <section class="mb-4">
   <h3>Modifiers</h3>
   <table borders="1" class="table modifiers table--no-hover">
@@ -65,14 +108,6 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer--single-row</code></td>
-        <td data-label="Description">Small sized drawer</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer-bottom</code></td>
-        <td data-label="Description">Drawer opens from bottom of the viewport</td>
-      </tr>
       <tr>
         <td data-label="Modifier Class"><code>.drawer-top</code></td>
         <td data-label="Description">Drawer opens from the top of the viewport</td>
@@ -89,9 +124,6 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
   </table>
 </section>
 
-
-If the `header-fixed` class is added to the main wrapper, the side drawers (`.drawer-left` and `.drawer-right`) will open below the header.
-
-<div class="message message--info mb-4">
-  <p>You can add animation effects to drawers by using <a class="text--navy text-underline--hover"  href="https://animate.style/">animate.css</a> classes!</p>
-</div>
+{{< callout tipHeader="Drawer Tip" >}}
+  <p>If the <code>header-fixed</code> class is added to the main wrapper, the side drawers will open below the header.</p>
+{{< /callout >}}
