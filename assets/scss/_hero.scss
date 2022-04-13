@@ -83,7 +83,7 @@
 
     #stars {
       transform: translate(150px, -150px);
-      animation: moving-stars 10s ease-in-out infinite;
+      animation: moving-stars 10s ease-in-out forwards;
       animation-delay: 0.5s;
     }
   }
