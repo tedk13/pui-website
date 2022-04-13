@@ -2,163 +2,118 @@
 title: Platform UI
 ---
 
-{{< block-container class="flex--justify-center cards" >}}
-{{< block class="block-11 tablet-up-8 desktop-up-6 text--center" >}}
-{{< heading heading="h2" class="text--center text--purple text--bold text--size-xl" >}}
-Your Project Starts Here
-{{< /heading >}}
-<p class="text--size-md">
-Platform UI is built to give frontend developers full control over their UIs. It's a powerful and simple system focused on rapid development.
-</p>
-{{< /block >}}
-{{< /block-container >}}
-{{< block-container class="flex--justify-center pb-4" >}}
-{{< block class="block-7 tablet-up-8" >}}
-{{< block-container class="blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center" >}}
-{{< block >}}
-{{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text--purple" >}}
-Responsive
-{{< /heading >}}
+<div class="block-container flex--justify-center cards">
+  <div class="block block-11 tablet-up-8 desktop-up-6 text--center">
+    <h2 class="text--center text--purple text--bold text--size-xl">
+      It started with us, now we're sharing it with you!
+    </h2>
+    <p class="text--size-md">
+    Platform UI is built to give designers and developers more control over their UIs. It's a powerful and simple system with just enough utilities to make your project amazing.
+    </p>
+  </div>
+</div>
+
+<div class="block-container flex--justify-center pb-4">
+  <div class="block block-7 tablet-up-8">
+    <div class="block-container blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center" >
+      <div class="block">
+        <div class="card text--center hover-shadow no-border">
+          <h3 class="text--size-lg text--purple">Easy</h3>
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Take advantage of Platform UI's responsive grid system. Your designs adapt to all screen sizes and resolutions.
-{{< /card >}}
-{{< /block >}}
-{{< block >}}
-{{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text--purple" >}}
-Customizable
-{{< /heading >}}
-{{< figure src="/images/icons/customizable.svg" class="px-4" >}}
-Build custom designs by adding or removing elements, and controlling sizes, colors, and fonts.
-{{< /card >}}
-{{< /block >}}
-{{< block >}}
-{{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text--purple" >}}
-Free
-{{< /heading >}}
-{{< figure src="/images/icons/github.svg" class="px-4" >}}
-Work with a community-supported open source project that's available to everyone free of charge.
-{{< /card >}}
-{{< /block >}}
-{{< block >}}
-{{< card class="card text--center hover-shadow no-border" >}}
-{{< heading heading="h3" class="text--size-lg text--purple" >}}
-Accessible
-{{< /heading >}}
-{{< figure src="/images/icons/accessible.svg" class="px-4" >}}
-Create accessible UIs using HTML elements with pre-defined colors and screen reader utility classes.
-{{< /card >}}
-{{< /block >}}
-{{< /block-container >}}
-{{< /block >}}
-{{< /block-container >}}
+Quick to install, easy to learn. Using a CDN or npm install, then a template, and you're live!
+        </div>
+      </div>
+      <div class="block">
+        <div class="card text--center hover-shadow no-border">
+          <h3 class="text--size-lg text--purple">Responsive</h3>
+{{< figure src="/images/icons/responsive.svg" class="px-4" >}}
+Take advantage of Platform UI's responsive grid system. You'll have your designs on every screen in no time at all. 
+        </div>
+      </div>
+      <div class="block">
+        <div class="card text--center hover-shadow no-border">
+          <h3 class="text--size-lg text--purple">Icons</h3>
+{{< figure src="/images/icons/responsive.svg" class="px-4" >}}
+Platform Icons let you not worry about your icon choices. They work seamlessly when choosing a CDN install.
+        </div>
+      </div>
+      <div class="block">
+        <div class="card text--center hover-shadow no-border">
+          <h3 class="text--size-lg text--purple">Templates</h3>
+{{< figure src="/images/icons/responsive.svg" class="px-4" >}}
+Want that blog up now! We have starter templates to help you launch your ideas.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <section class="block-container flex--justify-center background--lighter py-4">
-{{< block class="block-11 tablet-up-8" >}}
-{{< heading heading="h2" class="text--center text--purple text--bold text--size-xl" >}}
-Quick Start
-{{< /heading >}}
-{{< block-container class="flex--justify-center blocks p-2" >}}
-{{< block class="block-11 tablet-up-4 laptop-up-5" >}}
-{{< heading heading="h3" class="text--size-md text--purple" >}}
-Install with Package Manager
-{{< /heading >}}
-This release contains source files as well as the compiled CSS and JavaScript files.
-{{< /block >}}
-{{< block class="block-11 tablet-up-8 laptop-up-7" >}}
+  <div class="block block-11 tablet-up-8">
+    <h2 class="text--center text--purple text--bold text--size-xl">Quick Start</h2>
+    <div class="block-container flex--justify-center blocks p-2">
+      <div class="block">
+        <h3 class="text--size-md text--purple">Using packages</h3>
 {{< highlight bash >}}
 npm install @ritterim/platform-ui
 {{< /highlight >}}
-{{< /block >}}
-{{< /block-container >}}
-{{< block-container class="flex--justify-center blocks p-2" >}}
-{{< block class="block-11 tablet-up-4 laptop-up-5" >}}
-{{< heading heading="h3" class="text--size-md text--purple" >}}
-Add Using CDN
-{{< /heading >}}
-The compiled files of all Platform UI versions are also hosted on the UNPKG content delivery network via unpkg.com
-See All Files and Versions
-{{< /block >}}
-{{< block class="block-11 tablet-up-8 laptop-up-7" >}}
+      </div>
+    </div>
+    <div class="block-container flex--justify-center blocks p-2">
+      <div class="block">
+        <h3 class="text--size-md text--purple">Using a CDN</h3>
 {{< highlight html >}}
 <!-- Compressed CSS -->
-https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/platform-ui.min.css
+https://unpkg.com/@ritterim/platform-ui/dist/platform-ui.min.css
 <!-- Compressed JS -->
-https://unpkg.com/@ritterim/platform-ui@0.9.38/dist/js/platform-ui.min.js
+https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js
 {{< /highlight >}}
-{{< /block >}}
-{{< /block-container >}}
-{{< /block >}}
+      </div>
+    </div>
+  </div>
 </section>
+
 <section class="block-container flex--justify-center py-4">
-{{< block class="block-11 tablet-up-8 desktop-up-6" >}}
-{{< heading heading="h2" class="text--center text--purple text--bold text--size-xl" >}}
-Setup
-{{< /heading >}}
-<p class="text--size-md">
-Platform UI is built to give frontend developers full control over their UIs. It's a powerful and simple system focused on rapid development.
-</p>
-{{< block-container class="flex--justify-center blocks p-2" >}}
-{{< block class="block-11 lg-tablet-up-8 laptop-up-7" >}}
+  <div class="block block-11 tablet-up-8 desktop-up-6">
+    <h2 class="text--center text--purple text--bold text--size-xl">Need moar?</h2>
+    <p class="text--size-md">
+Here's a quick template to get you started. It uses th CDN install, which we recommend for a quick launch!</p>
+    <div class="block-container flex--justify-center">
+      <div class="block">
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">
   <head>
     <title>Platform UI</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Import your fonts here -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto|Inconsolata&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/platform-ui.min.css" />
+    <link rel="dns-prefetch" href="https://unpkg.com/">
+    <link rel="stylesheet" href="https://unpkg.com/@ritterim/platform-ui/dist/platform-ui.min.css" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <script src="/js/platform-ui.min.js"></script>
+    <div class="block-container">
+      <aside class="block block-3 background--dark text--white p-4 vh-100 flex flex--column flex--justify-between">
+        <nav class="site-menu pt-4">
+          <ul class="list">
+            <li><a class="site-menu__item" href="#">Home</a></li>
+            <li><a class="site-menu__item" href="#">About</a></li>
+            <li><a class="site-menu__item" href="#">Donate</a></li>          
+          </ul>
+        </nav>
+        <footer class="text--light">
+          <p>&copy; My Blog</p>
+        </footer>
+      </aside>
+      <main class="block block-9 p-4 h-100">
+        <h1 class="py-4 text--orange">Headline</h1>
+      </main>
+    </div>
+    <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js" defer></script>
   </body>
 </html>
 {{< /highlight >}}
-{{< /block >}}
-{{< block class="block-11 lg-tablet-up-8 laptop-up-5 flex flex--column flex--justify-between" >}}
-{{< card class="pb-0 h-auto" >}}
-{{< block-container class="flex--justify-center flex--align-center" >}}
-{{< block class="block-4 tablet-up-3 laptop-up-3" >}}
-{{< figure src="/images/icons/template.svg" >}}
-{{< /block >}}
-{{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-md text--purple" >}}
-HTML Templates
-{{< /heading >}}
-Start your project with a basic HTML template and adapt it to your needs.
-{{< /block >}}
-{{< /block-container >}}
-{{< /card >}}
-{{< card class="pb-0 h-auto" >}}
-{{< block-container class="flex--justify-center flex--align-center" >}}
-{{< block class="block-4 tablet-up-3 laptop-up-3" >}}
-{{< figure src="/images/icons/fonts.svg" >}}
-{{< /block >}}
-{{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-md text--purple" >}}
-Fonts
-{{< /heading >}}
-Import your fonts to the template.
-{{< /block >}}
-{{< /block-container >}}
-{{< /card >}}
-{{< card class="pb-0 h-auto" >}}
-{{< block-container class="flex--justify-center flex--align-center" >}}
-{{< block class="block-4 tablet-up-3 laptop-up-3" >}}
-{{< figure src="/images/icons/layout.svg" >}}
-{{< /block >}}
-{{< block class="block-11 tablet-up-8 laptop-up-9 px-3" >}}
-{{< heading heading="h3" class="text--size-md text--purple" >}}
-Layout
-{{< /heading >}}
-Customize your template with the grid system.
-{{< /block >}}
-{{< /block-container >}}
-{{< /card >}}
-{{< /block >}}
+      </div>
+    </div>
+  </div>
 </section>
