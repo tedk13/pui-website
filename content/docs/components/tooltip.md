@@ -1,5 +1,6 @@
 ---
 title: Tooltip
+toc: false
 ---
 
 Add your tooltip text to a `data-tooltip` attribute on any item you want a tooltip.

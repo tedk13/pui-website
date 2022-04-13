@@ -1,5 +1,6 @@
 ---
 title: Cursor Pointer
+toc: false
 ---
 If you want to ensure that the mouse is a pointer on hover add the class `pointer`.
 

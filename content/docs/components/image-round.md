@@ -1,6 +1,7 @@
 ---
 title: Image Round
 skellyCSS: true
+toc: false
 ---
 
 You can create easy rounded images.
