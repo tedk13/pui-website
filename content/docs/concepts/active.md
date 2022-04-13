@@ -1,6 +1,7 @@
 ---
 title: Active
 weight: 1
+toc: false
 ---
 
 We went back-and-forth with modifiers, but the fact remained, we just want to turn _the thing_ **on** and **off**. No matter what it is! 
