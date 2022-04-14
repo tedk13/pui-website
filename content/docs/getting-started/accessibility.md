@@ -1,6 +1,6 @@
 ---
 title: Accessibility
-weight: 4
+weight: 2
 ---
 
 Here at [Ritter Insurance Marketing](https://ritterim.com), we build accessible, scalable, websites and apps. We follow <a href="https://www.w3.org/TR/WCAG21/" rel="external" target="_blank">WCAG 2.1</a> guidelines for all of our projects, with a close eye on the future of accessibility. 
