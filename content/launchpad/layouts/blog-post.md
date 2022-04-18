@@ -77,14 +77,14 @@ skellyCSS: true
     </section>
     <section class="block block-10 lg-tablet-up-8 mb-6">
         <h2 class="mb-3">Introduction</h2>
-        <p class="skeleton" data-lines="3"></p>
-        <p class="skeleton" data-lines="2"></p>
+        <p class="skeleton" data-lines="3" role="presentation"></p>
+        <p class="skeleton" data-lines="2" role="presentation"></p>
         <blockquote>
-            <p class="skeleton" data-lines="2"></p>
+            <p class="skeleton" data-lines="2" role="presentation"></p>
         </blockquote>
-        <p class="skeleton" data-lines="2"></p>
-        <p class="skeleton" data-lines="3"></p>
-        <p class="skeleton" data-lines="2"></p>
+        <p class="skeleton" data-lines="2" role="presentation"></p>
+        <p class="skeleton" data-lines="3" role="presentation"></p>
+        <p class="skeleton" data-lines="2" role="presentation"></p>
     </section>
     <section class="block block-10 lg-tablet-up-8">
         <h2>Read More</h2>

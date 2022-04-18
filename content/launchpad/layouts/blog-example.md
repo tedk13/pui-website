@@ -84,7 +84,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My First Blog</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 3, 2022</p>
@@ -105,7 +105,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My Second Blog</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 12, 2022</p>
@@ -126,7 +126,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">This Blog Thing Is Getting Easy</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 18, 2022</p>
@@ -147,7 +147,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">I'm Getting The Hang of This</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 23, 2022</p>
@@ -168,7 +168,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">This One's Not The Best</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: February 8, 2022</p>
@@ -189,7 +189,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My Last Blog</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: March 10, 2022</p>

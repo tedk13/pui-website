@@ -11,9 +11,9 @@ example below.
 <div class="block-container">
     <div class="block laptop-up-3">
         <div class="card hover-shadow">
-            <h4 class="skeleton skeleton--lg"></h4>
+            <h4 class="skeleton skeleton--lg" role="presentation"></h4>
             <div class="card__content">
-                <p class="skeleton" data-lines="3"></p>
+                <p class="skeleton" data-lines="3" role="presentation"></p>
             </div>
         </div>
     </div>
@@ -30,9 +30,9 @@ example below.
 <div class="block-container">
     <div class="block laptop-up-3">
         <div class="card hover-shadow hover-scale">
-            <h4 class="skeleton skeleton--lg"></h4>
+            <h4 class="skeleton skeleton--lg" role="presentation"></h4>
             <div class="card__content">
-                <p class="skeleton" data-lines="3"></p>
+                <p class="skeleton" data-lines="3" role="presentation"></p>
             </div>
         </div>
     </div>

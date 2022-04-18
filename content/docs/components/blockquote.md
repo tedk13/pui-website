@@ -9,7 +9,7 @@ Our blockquotes are similar to the browser default. We added a left border, whic
 
 {{< code-demo name="Blockquote" >}}
 <blockquote class="block laptop-up-6">
-    <p class="skeleton" data-lines="3"></p>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
     <footer>—Ernest Hemingway, <cite>The Sun Also Rises</cite></footer>
 </blockquote>
 {{< /code-demo >}}

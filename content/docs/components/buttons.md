@@ -193,7 +193,7 @@ The default platform button. Usually paired visually with an icon. Can be the de
 The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
 
 {{< code-demo name="Secondary" >}}
-<button class="button button--secondary"><i class="pi-download"></i></button>
+<button class="button button--secondary" aria-label="Download"><i class="pi-download"></i></button>
 {{< /code-demo >}}
 
 {{< code-markup name="Secondary" >}}

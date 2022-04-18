@@ -9,7 +9,7 @@ You can create easy rounded images.
 
 {{< code-demo name="Image Round" >}}
 <div class="image--round-medium">
-  <img class="skeleton-image skeleton-image--lg">
+  <img class="skeleton-image skeleton-image--lg" role="presentation">
 </div>
 {{< /code-demo >}}
 

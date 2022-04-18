@@ -26,7 +26,7 @@ Click the button to toggle the info box.
       Close 
       <i class="pi-times" aria-hidden="hidden"></i>
     </button>
-    <p class="skeleton" data-lines="4"></p>
+    <p class="skeleton" data-lines="4" role="presentation"></p>
   </div>
 </div>
 {{< /code-demo >}}

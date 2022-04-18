@@ -25,10 +25,10 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
           <i class="pi-times" aria-hidden="true"></i>
         </button>
       </div>
-      <h2 class="skeleton skeleton--lg"></h2>
-      <p class="skeleton" data-lines="5"></p>
-      <p class="skeleton" data-lines="3"></p>
-      <p class="skeleton" data-lines="6"></p>
+      <h2 class="skeleton skeleton--lg" role="presentation"></h2>
+      <p class="skeleton" data-lines="5" role="presentation"></p>
+      <p class="skeleton" data-lines="3" role="presentation"></p>
+      <p class="skeleton" data-lines="6" role="presentation"></p>
     </div>
   </div>
 </div>

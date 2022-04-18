@@ -27,10 +27,10 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
       Standard Modal
     </div>
     <div class="modal__content">
-      <h3 class="skeleton skeleton--md"></h3>
-      <p class="skeleton" data-lines="4"></p>
-      <p class="skeleton" data-lines="3"></p>
-      <p class="skeleton" data-lines="7"></p>
+      <h3 class="skeleton skeleton--md" role="presentation"></h3>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
+      <p class="skeleton" data-lines="3" role="presentation"></p>
+      <p class="skeleton" data-lines="7" role="presentation"></p>
     </div>
   </div>
 </div>

@@ -671,7 +671,7 @@ Set the size of an element equal to a common ratio with the ratio-{val} class.
     <div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
       <div class="block block-9 h-100 card transition">
         <span class="text--size-md">Example Card</span>
-        <p class="skeleton" data-lines="3"></p>
+        <p class="skeleton" data-lines="3" role="presentation"></p>
       </div>
     </div>
   </div>

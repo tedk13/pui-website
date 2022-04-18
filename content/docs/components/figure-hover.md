@@ -11,7 +11,7 @@ on hover.
 {{< code-demo name="Figure Hover" >}}
 <div class="block-container">
     <figure class="figure-hover block laptop-up-6">
-        <img class="skeleton-image skeleton-image--full skeleton-image--landscape">
+        <img class="skeleton-image skeleton-image--full skeleton-image--landscape" role="presentation">
         <figcaption>Figcaption goes here.</figcaption>
     </figure>
 </div>

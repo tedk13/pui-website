@@ -10,7 +10,7 @@ Messages can be used to display important information that will stand out on the
 {{< code-demo name="Messages" >}}
 <!-- DEMO CODE HERE -->
 <div class="message message--info">
-  <p class="skeleton" data-lines="2" data-color="var(--med-blue)" data-opacity="0.4"></p>
+  <p class="skeleton" data-lines="2" data-color="var(--med-blue)" data-opacity="0.4" role="presentation"></p>
 </div>
 {{< /code-demo >}}
 

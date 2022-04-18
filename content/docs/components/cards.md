@@ -16,7 +16,7 @@ some padding.
         <button class="button">Button</button>
       </div>
       <div class="card__content">
-        <p class="skeleton" data-lines="4"></p>
+        <p class="skeleton" data-lines="4" role="presentation"></p>
       </div>
     </div>
   </div>
@@ -54,11 +54,11 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
   <div class="block laptop-up-3">
         <div class="card">
             <div class="card__image">
-                <img class="skeleton-image skeleton-image--full skeleton-image--landscape" />
+                <img class="skeleton-image skeleton-image--full skeleton-image--landscape"  role="presentation" />
             </div>
             <div class="card__content">
-                <h3 class="skeleton skeleton--md"></h3>
-                <p class="skeleton" data-lines="4"></p>
+                <h3 class="skeleton skeleton--md" role="presentation"></h3>
+                <p class="skeleton" data-lines="4" role="presentation"></p>
             </div>
         </div>
     </div>

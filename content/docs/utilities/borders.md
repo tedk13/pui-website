@@ -65,7 +65,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
     <div class="card">
       <h4 class="border-b border--color-navy pb-2 mb-2">Card Header</h4>
       <div class="card__content">
-        <p class="skeleton" data-lines="7" data-animation="true"></p>
+        <p class="skeleton" data-lines="7" role="presentation"></p>
       </div>
     </div>
   </div>
@@ -94,10 +94,10 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
       <h4 class="pb-2 mb-2">Card Header</h4>
       <div class="card__content block-container blocks px-3">
         <div class="block block-6 border-r border--color-med-blue">
-          <p class="skeleton" data-lines="7" data-animation="true"></p>
+          <p class="skeleton" data-lines="7"></p>
         </div>
         <div class="block block-6">
-          <p class="skeleton" data-lines="7" data-animation="true"></p>
+          <p class="skeleton" data-lines="7" role="presentation"></p>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
     <div class="card">
       <h4 class="border-y border--color-orange py-2 mb-2">Card Header</h4>
       <div class="card__content">
-        <p class="skeleton" data-lines="7" data-animation="true"></p>
+        <p class="skeleton" data-lines="7" role="presentation"></p>
       </div>
     </div>
   </div>
@@ -225,7 +225,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
         <div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
           <div class="block block-9 h-100 background--white p-3 transition border--color-salmon border--width-5">
             <span class="text--size-md">Example Card</span>
-            <p class="skeleton" data-lines="3"></p>
+            <p class="skeleton" data-lines="3" role="presentation"></p>
           </div>
         </div>
       </div>
@@ -273,7 +273,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
         <div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
           <div class="block block-9 h-100 background--white p-3 transition border border--color-salmon">
             <span class="text--size-md">Example Card</span>
-            <p class="skeleton" data-lines="3"></p>
+            <p class="skeleton" data-lines="3" role="presentation"></p>
           </div>
         </div>
       </div>
@@ -376,7 +376,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
         <div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
           <div class="block block-9 h-100 card transition border--width-5">
             <span class="text--size-md">Example Card</span>
-            <p class="skeleton" data-lines="3"></p>
+            <p class="skeleton" data-lines="3" role="presentation"></p>
           </div>
         </div>
       </div>
