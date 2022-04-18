@@ -5,7 +5,7 @@ toc: false
 
 Platform UI tables are built to be responsive at all screen sizes! Just include a `data-label` on the `<td>` that matches the header for that column.
 
-{{< code-demo >}}
+{{< code-demo name="Table" >}}
 <table class="table">
   <thead>
     <tr>
@@ -41,7 +41,7 @@ Platform UI tables are built to be responsive at all screen sizes! Just include 
 </table>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Table" >}}
 {{< highlight html >}}
 <table class="table">
   <thead>
@@ -79,7 +79,7 @@ Platform UI tables are built to be responsive at all screen sizes! Just include 
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Table" >}}
 <tr>
   <td data-label="Base">
     <code>table</code>

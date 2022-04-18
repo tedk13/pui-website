@@ -38,7 +38,7 @@ The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The lis
 
 We have some general styling on basic `<ul>` and `<ol>` elements, but our list takes a simplified approach and strips the `list-style-type`, `margin`, and `padding` from the user agent stylesheet.
 
-{{< code-demo >}}
+{{< code-demo name="Lists" >}}
 <ul class="list">
   <li>This is a list item.</li>
   <li>This is a list item.</li>
@@ -46,7 +46,7 @@ We have some general styling on basic `<ul>` and `<ol>` elements, but our list t
 </ul>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Lists" >}}
 {{< highlight html >}}
 <ul class="list">
    <li>This is a list item.</li>
@@ -56,7 +56,7 @@ We have some general styling on basic `<ul>` and `<ol>` elements, but our list t
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Lists"  >}}
 <tr>
   <td data-label="Base">
     <code>list</code>

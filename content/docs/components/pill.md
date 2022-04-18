@@ -9,7 +9,7 @@ Pills have no hover state.
 A pill can also have a label of it's own.
 A slight variation of a pill is a straight circle with a very small amount of content.
 
-{{< code-demo >}}
+{{< code-demo name="Pill" >}}
 <div class="pill">
   Active
 </div>
@@ -24,7 +24,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Pill" >}}
 {{< highlight html >}}
 <div class="pill">
   Active
@@ -43,7 +43,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 
 ## Split
 
-{{< code-demo >}}
+{{< code-demo name="Split Pill" >}}
 <div class="pill pill--split">
   <div class="pill__label">Left:</div>
   <div class="pill__content">Right</div>
@@ -59,7 +59,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Split Pill" >}}
 {{< highlight html >}}
 <div class="pill pill--split">
   <div class="pill__label">Left:</div>
@@ -79,14 +79,14 @@ A slight variation of a pill is a straight circle with a very small amount of co
 
 ## Close
 
-{{< code-demo >}}
+{{< code-demo name="Close Pill" >}}
 <div class="pill">
  <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
   Active
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Close Pill" >}}
 {{< highlight html >}}
 <div class="pill">
  <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
@@ -99,7 +99,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 
 Pills can be circular.
 
-{{< code-demo >}}
+{{< code-demo name="Circle Pill" >}}
 <div class="pill pill--circle">
   33
 </div>
@@ -108,7 +108,7 @@ Pills can be circular.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Circle Pill" >}}
 {{< highlight html >}}
 <div class="pill pill--circle">
   33
@@ -119,7 +119,7 @@ Pills can be circular.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Circle Pill" >}}
 <tr>
   <td data-label="Base">
     <code>pill</code>

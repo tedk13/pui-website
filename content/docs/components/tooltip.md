@@ -5,11 +5,11 @@ toc: false
 
 Add your tooltip text to a `data-tooltip` attribute on any item you want a tooltip.
 
-{{< code-demo >}}
+{{< code-demo name="Tooltip" >}}
 <div data-tooltip="Here is a tooltip!">hover me!</div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Tooltip" >}}
 {{< highlight html >}}
 <div data-tooltip="Tooltip goes here!">
   <!-- Content goes here! -->
@@ -17,7 +17,7 @@ Add your tooltip text to a `data-tooltip` attribute on any item you want a toolt
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Tooltip" >}}
 <tr>
   <td data-label="Base">
     <code>tooltip-{direction}</code>

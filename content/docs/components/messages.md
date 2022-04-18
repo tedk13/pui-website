@@ -6,14 +6,14 @@ toc: false
 
 Messages can be used to display important information that will stand out on the screen.
 
-{{< code-demo >}}
+{{< code-demo name="Messages" >}}
 <!-- DEMO CODE HERE -->
 <div class="message message--info">
   <p class="skeleton" data-lines="2" data-color="var(--med-blue)" data-opacity="0.4"></p>
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Messages" >}}
 {{< highlight html >}}
 <div class="message">
   <!-- Content goes here! -->
@@ -21,7 +21,7 @@ Messages can be used to display important information that will stand out on the
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Messages" >}}
 <tr>
   <td data-label="Base">
     <code>message</code>
@@ -97,7 +97,7 @@ Messages can be used to display important information that will stand out on the
 {{< /callout >}}
 
 <section class="p-0 my-4">
-  <h3 class="mb-3">Visualizer</h3>
+  <h3 class="mb-3">Messages Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
       data-callout-header="tables tip" 
       data-callout-radius="0 3rem 0 3rem"

@@ -14,7 +14,7 @@ Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay
 
 If you need to prevent the background from scrolling, add the `.modal-open` class to your body element when a modal is open.
 
-{{< code-demo >}}
+{{< code-demo name="Modal" >}}
 <div class="block mb-3">
     <button class="button modal__open" data-modal="default-modal">Standard Modal</button>
 </div>
@@ -35,7 +35,7 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Modal" >}}
 {{< highlight html >}}
 <button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
 <!-- Standard Modal -->
@@ -56,7 +56,7 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Modal" >}}
 <tr>
   <td data-label="Base">
     <code>modal</code>

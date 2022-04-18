@@ -9,7 +9,7 @@ toc: false
 
 Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport.
 
-{{< code-demo >}}
+{{< code-demo name="Drawer" >}}
 <div class="block-container mt-3">
   <button class="button drawer__open" data-drawer="default">
     Toggle default drawer
@@ -33,7 +33,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Drawer" >}}
 {{< highlight html >}}
 <button class="button drawer__open" data-drawer="default">
   Toggle default drawer
@@ -56,7 +56,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Drawer" >}}
 <tr>
   <td data-label="Base">
     <code>drawer</code>

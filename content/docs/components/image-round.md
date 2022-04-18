@@ -6,13 +6,13 @@ toc: false
 
 You can create easy rounded images.
 
-{{< code-demo >}}
+{{< code-demo name="Image Round" >}}
 <div class="image--round-medium">
   <img class="skeleton-image skeleton-image--lg">
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Image Round" >}}
 {{< highlight html >}}
 <div class="image--round-medium">
   <img src="..." alt="pretty">
@@ -20,7 +20,7 @@ You can create easy rounded images.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Image Round" >}}
 <tr>
   <td data-label="Base">
     <code>image-round</code>

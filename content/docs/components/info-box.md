@@ -14,7 +14,7 @@ Click the button to toggle the info box.
 
 `flex-inline` was added to the example below.
 
-{{< code-demo >}}
+{{< code-demo name="Infobox" >}}
 <div class="info-box flex-inline">
   <button class="button toggle-hidden" role="button" aria-label="Toggle">
     Open Info Box
@@ -30,7 +30,7 @@ Click the button to toggle the info box.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Infobox" >}}
 {{< highlight html >}}
  <div class="info-box">
    <!-- Info Box Trigger -->
@@ -49,7 +49,7 @@ Click the button to toggle the info box.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Infobox" >}}
 <tr>
   <td data-label="Base">
     <code>info-box</code>

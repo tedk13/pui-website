@@ -4,17 +4,17 @@ title: Loader
 
 Our loader is simple and easy to use. The default loader is 1.4rem, but a modifier can be added to adjust the size.
 
-{{< code-demo >}}
+{{< code-demo name="Loader" >}}
 <div class="loader"></div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Loader" >}}
 {{< highlight html >}}
 <div class="loader"></div>
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Loader" >}}
 <tr>
   <td data-label="Base">
     <code>loader</code>
@@ -51,22 +51,8 @@ Our loader is simple and easy to use. The default loader is 1.4rem, but a modifi
 </tr>
 {{< /modifiers >}}
 
-## Button Loading
-
-A button can also include a loader by adding the `loading` class.
-
-{{< code-demo >}}
-<button class="button loading">Submit</button>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<button class="button loading">Submit</button>
-{{< /highlight >}}
-{{< /code-markup >}}
-
 <section class="p-0 my-4">
-  <h3 class="mb-3">Visualizer</h3>
+  <h3 class="mb-3">Loader Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
       data-callout-header="tables tip" 
       data-callout-radius="0 3rem 0 3rem"
@@ -108,3 +94,17 @@ A button can also include a loader by adding the `loading` class.
     </div>
   </div>
 <section>
+
+## Button Loading
+
+A button can also include a loader by adding the `loading` class.
+
+{{< code-demo name="Button Loading" >}}
+<button class="button loading">Submit</button>
+{{< /code-demo >}}
+
+{{< code-markup name="Button Loading" >}}
+{{< highlight html >}}
+<button class="button loading">Submit</button>
+{{< /highlight >}}
+{{< /code-markup >}}

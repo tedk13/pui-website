@@ -12,7 +12,7 @@ To show the content of the accordion toggle the class `active` on `accordion`. T
 
 Platform UI accordions were designed to be stacked.
 
-{{< code-demo >}}
+{{< code-demo name="Accordion" >}}
 <div class="accordion">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
     <span class="skeleton skeleton--sm mb-0 mr-2" data-color="orchid" data-opacity="0.5"></span>
@@ -24,7 +24,7 @@ Platform UI accordions were designed to be stacked.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Accordion" >}}
 {{< highlight html >}}
 <div class="accordion">
   <a href="#" class="accordion__header">

@@ -6,14 +6,14 @@ toc: false
 
 Our blockquotes are similar to the browser default. We added a left border, which is a light gray by default. To attribute someone in the blockquote, you can do so by adding a `<footer>` followed by their name. If you're referencing a specific creative work, be sure to include that inside a `<cite>`.
 
-{{< code-demo >}}
+{{< code-demo name="Blockquote" >}}
 <blockquote class="block laptop-up-6">
     <p class="skeleton" data-lines="3"></p>
     <footer>—Ernest Hemingway, <cite>The Sun Also Rises</cite></footer>
 </blockquote>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Blockquote" >}}
 {{< highlight html >}}
 <blockquote>
     <p>

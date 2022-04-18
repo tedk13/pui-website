@@ -6,17 +6,17 @@ Each button has a default button style. Color can be added to any button using a
 
 The default platform button. Usually paired visually with an icon. Can be the default size or large.
 
-{{< code-demo >}}
+{{< code-demo name="Button" >}}
 <button class="button">Basic Button</button>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Button" >}}
 {{< highlight html >}}
 <button class="button">Basic Button</button>
 {{< /highlight >}} 
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Button" >}}
 <tr>
   <td data-label="Base">
     <code>button</code>
@@ -106,45 +106,8 @@ The default platform button. Usually paired visually with an icon. Can be the de
 </tr>
 {{< /modifiers >}}
 
-## Secondary
-
-The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
-
-{{< code-demo >}}
-<button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /highlight >}} 
-{{< /code-markup >}}
-
-
-## Group
-
-Evenly space any group of buttons.
-
-{{< code-demo >}}
-<div class="button-group">
-  <button class="button">Cancel</button>
-  <button class="button">Continue</button>
-  <button class="button">Destroy Death Star</button>
-</div>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<div class="button-group">
-  <button class="button">Cancel</button>
-  <button class="button">Continue</button>
-  <button class="button">Destroy Death Star</button>
-</div>
-{{< /highlight >}} 
-{{< /code-markup >}}
-
 <section class="p-0 my-4">
-  <h3 class="mb-3">Visualizer</h3>
+  <h3 class="mb-3">Button Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
       data-callout-header="tables tip" 
       data-callout-radius="0 3rem 0 3rem"
@@ -223,3 +186,40 @@ Evenly space any group of buttons.
     </div>
   </div>
 <section>
+
+## Secondary
+
+The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
+
+{{< code-demo name="Secondary" >}}
+<button class="button button--secondary"><i class="pi-download"></i></button>
+{{< /code-demo >}}
+
+{{< code-markup name="Secondary" >}}
+{{< highlight html >}}
+<button class="button button--secondary"><i class="pi-download"></i></button>
+{{< /highlight >}} 
+{{< /code-markup >}}
+
+
+## Group
+
+Evenly space any group of buttons.
+
+{{< code-demo name="Group" >}}
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+{{< /code-demo >}}
+
+{{< code-markup name="Group" >}}
+{{< highlight html >}}
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+{{< /highlight >}} 
+{{< /code-markup >}}

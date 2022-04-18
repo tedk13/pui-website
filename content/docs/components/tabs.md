@@ -12,7 +12,7 @@ height of `4rem`.
 
 Work in progress. At a mobile resolution (below 768px) an active tab will collapse when clicked. 
 
-{{< code-demo >}}
+{{< code-demo name="Tabs" >}}
 <div class="tabs">
   <!-- Tab 1 -->
   <input type="radio" id="tab-input-a" name="tabs" checked>
@@ -48,7 +48,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Tabs" >}}
 {{< highlight html >}}
 <div class="tabs">
   <!-- Tab 1 -->
@@ -79,7 +79,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Tabs" >}}
 <tr>
   <td data-label="Base">
     <code>tabs</code>

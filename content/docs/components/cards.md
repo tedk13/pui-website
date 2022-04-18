@@ -6,7 +6,7 @@ skellyCSS: true
 Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
 some padding.
 
-{{< code-demo >}}
+{{< code-demo name="Card" >}}
 <div class="block-container">
   <div class="block laptop-up-3">
     <div class="card">
@@ -22,7 +22,7 @@ some padding.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Card" >}}
 {{< highlight html >}}
 <div class="card">
     <div class="card__header">
@@ -48,7 +48,7 @@ some padding.
 Images can be placed at the top of cards. The `<img>` element gets the class `card__image` and is expected to be the first child element of the card.
 When `rounded-` modifiers are used on the card, the image takes on the radius as well. Other modifiers can be used as needed.
 
-{{< code-demo >}}
+{{< code-demo name="Image Card" >}}
 <div class="block-container">
   <div class="block laptop-up-3">
         <div class="card">
@@ -64,7 +64,7 @@ When `rounded-` modifiers are used on the card, the image takes on the radius as
 </div>
 {{< /code-demo >}}
 
-{{< code-markup >}}
+{{< code-markup name="Image Card" >}}
 {{< highlight html >}}
 <div class="card">
     <img class="card__image" src="..." alt="..." />
