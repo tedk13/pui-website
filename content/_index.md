@@ -1,5 +1,6 @@
 ---
 title: Platform UI
+description: Platform UI is a fast, simple, and powerful CSS framework that's built with user experience in mind
 ---
 
 <div class="block-container flex--justify-center cards">
@@ -15,7 +16,7 @@ title: Platform UI
 
 <div class="block-container flex--justify-center pb-4">
   <div class="block block-7 tablet-up-8">
-    <div class="block-container blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center" >
+    <div class="block-container blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center">
       <div class="block">
         <div class="card text--center hover-shadow no-border">
           <h3 class="text--size-lg text--purple">Easy</h3>
