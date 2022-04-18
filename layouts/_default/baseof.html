@@ -11,10 +11,8 @@
 
     <div id="app" class="header-fixed flex--grow{{ if .IsHome }} home{{ end }}">
       {{ if .IsHome }}
-        {{ partial "site/hero" }}
-      {{ end }}
-      {{ if .IsHome }}
       <main>
+        {{ partial "site/hero" }}
       {{ end }}
       {{ block "main" . }}
         {{ .Content }}
