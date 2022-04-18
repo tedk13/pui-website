@@ -9,7 +9,7 @@ title: Templates
         <div class="card rounded-2">
             <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
             <div class="card__content text--purple">
-                Blog 1
+                <a href="/launchpad/layouts/blog-example">Blog Example</a>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@ title: Templates
         <div class="card rounded-2">
             <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
             <div class="card__content text--purple">
-                Blog 1
+                <a href="/launchpad/layouts/blog-post">Blog Post</a>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@ title: Templates
         <div class="card rounded-2">
             <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
             <div class="card__content text--purple">
-                Blog 1
+                <a href="/launchpad/layouts/full-page/">Retail</a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@ title: Templates
         <div class="card rounded-2">
             <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
             <div class="card__content text--purple">
-                Blog 1
+                <a href="/launchpad/layouts/dashboard/">Dashboard</a>
             </div>
         </div>
     </div>

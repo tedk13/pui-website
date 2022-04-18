@@ -142,7 +142,8 @@ main {
     .skeleton > a, 
     .message > a, 
     .site-menu > a,
-    .icon-menu__item > a
+    .icon-menu__item > a,
+    .code-demo a
   ){
     color:var(--light-purple);
     border-bottom:1px solid var(--light-purple);
@@ -151,7 +152,7 @@ main {
       border-bottom:1px solid var(--purple);
     }
   }
-  a[rel="external"]{
+  a[rel="external nooopener"]{
     &::after{
       font-family:'platform-icons';
       content: "\f17c";

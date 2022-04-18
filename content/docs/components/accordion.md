@@ -39,6 +39,6 @@ Platform UI accordions were designed to be stacked.
 
 {{< callout tipHeader="Accordion Tip">}} 
 
-<p>Accordions can also be nested! You can see this in action on the <a href="/launch-pad/components/#nested">examples</a> page.</p>
+<p>Accordions can also be nested! You can see this in action on the <a href="/launchpad/">examples</a> page.</p>
 
 {{< /callout >}}

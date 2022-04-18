@@ -37,7 +37,7 @@ skellyCSS: true
 <header class="site-menu-wrapper p-2 background--dark">
     <div class="block-container flex--justify-center w-100">
         <div class="block block-10 lg-tablet-up-8 flex flex--justify-between">
-            <a href="/launch-pad/blog-example" class="site-logo text--size-lg text--white">
+            <a href="/lauchpad/blog-example" class="site-logo text--size-lg text--white">
                 PUI Blog!
             </a>
             <button class="site-menu-mobile-action text--white">
@@ -45,9 +45,9 @@ skellyCSS: true
                 <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
             </button>
             <nav class="site-menu text--white">
-                <a href="/launch-pad/blog-example" class="site-menu__item">About</a>
-                <a href="/launch-pad/blog-post" class="site-menu__item">Posts</a>
-                <a href="/launch-pad/blog-example" class="site-menu__item">Resume</a>
+                <a href="/lauchpad/blog-example" class="site-menu__item">About</a>
+                <a href="/lauchpad/blog-post" class="site-menu__item">Posts</a>
+                <a href="/lauchpad/blog-example" class="site-menu__item">Resume</a>
             </nav>
         </div>
     </div>
@@ -110,7 +110,7 @@ skellyCSS: true
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 12, 2022</p>
-                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ skellyCSS: true
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 18, 2022</p>
-                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ skellyCSS: true
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 23, 2022</p>
-                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>

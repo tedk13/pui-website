@@ -15,7 +15,7 @@ skellyCSS: true
 
 <header class="site-menu-wrapper px-3" style="background:var(--color-dark-red); height:100px">
   <a href="#" class="site-logo">
-    <img style="max-height:100%;" class="p-2" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
+    <img style="max-height:100%;" class="p-2" src="../../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
   </a>
   <button class="site-menu-mobile-action px-4 text--white">
     <span class="sr-only">Toggle Navigation</span>
@@ -48,7 +48,7 @@ skellyCSS: true
   data-background-size="cover"
   data-background-repeat="no-repeat">
     <div class="background--black-a80 text--size-xl text--center p-6">
-      <img style="width: 80%; max-width:500px" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
+      <img style="width: 80%; max-width:500px" src="../../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
       <h1 class="text--white">Welcome to Pizza Town!</h1>
       <button class="button button--lg text--white my-4 hover-scale" style="background:var(--color-red);">
         <span class="flex flex--align-center">

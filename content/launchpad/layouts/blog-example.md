@@ -31,7 +31,7 @@ weight: 1
 <header class="site-menu-wrapper p-2 background--dark">
     <div class="block-container flex--justify-center w-100">
         <div class="block block-10 lg-tablet-up-8 flex flex--justify-between">
-            <a href="/launch-pad/blog-example" class="site-logo text--size-lg text--white">
+            <a href="/lauchpad/blog-example" class="site-logo text--size-lg text--white">
                 PUI Blog!
             </a>
             <button class="site-menu-mobile-action text--white">
@@ -39,9 +39,9 @@ weight: 1
                 <i aria-hidden="true" focusable="false" class="pi-menu pi-xl"></i>
             </button>
             <nav class="site-menu text--white">
-                <a href="/launch-pad/blog-example" class="site-menu__item">About</a>
-                <a href="/launch-pad/blog-post" class="site-menu__item">Posts</a>
-                <a href="/launch-pad/blog-example" class="site-menu__item">Resume</a>
+                <a href="/lauchpad/blog-example" class="site-menu__item">About</a>
+                <a href="/lauchpad/blog-post" class="site-menu__item">Posts</a>
+                <a href="/lauchpad/blog-example" class="site-menu__item">Resume</a>
             </nav>
         </div>
     </div>
@@ -88,7 +88,7 @@ weight: 1
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 3, 2022</p>
-                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ weight: 1
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 12, 2022</p>
-                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ weight: 1
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 18, 2022</p>
-                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ weight: 1
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: January 23, 2022</p>
-                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ weight: 1
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: February 8, 2022</p>
-                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@ weight: 1
                         </div>
                         <div>
                             <p class="mb-2 text--size-sm">Published: March 10, 2022</p>
-                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/launch-pad/blog-post">Read More</a>
+                            <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="/lauchpad/blog-post">Read More</a>
                         </div>
                     </div>
                 </div>

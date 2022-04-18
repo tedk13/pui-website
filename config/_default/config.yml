@@ -41,7 +41,7 @@ menu:
     weight: 2
   - identifier: launchpad
     name: Launchpad
-    url: /launchpad/components
+    url: /launchpad/
 
 params:
   gtmID: 

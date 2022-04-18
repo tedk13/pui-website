@@ -77,7 +77,7 @@ This is the basic template to get started for any HTML project.
 {{< /highlight >}}
 </div>
  
-Looking for a little more to get going? Check out our [gallery examples](/launch-pad/)!
+Looking for a little more to get going? Check out our [gallery examples](/launchpad/)!
 
 
 <div class="mb-4">
@@ -125,13 +125,13 @@ There are a few third party choices we've incorporated into Platform UI, these a
 
 ### Normalize.css
 
-The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include <a href="https://necolas.github.io/normalize.css/" rel="external" target="_blank">Normalize.css</a> as part of Platform UIs build process.
+The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include <a href="https://necolas.github.io/normalize.css/" rel="external noopener" target="_blank">Normalize.css</a> as part of Platform UIs build process.
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 
 ### Postcss
 
-In the same spirit as Normalize.css, we also leverage <a href="https://github.com/postcss/postcss" rel="external">Postcss</a> and <a href="https://github.com/postcss/autoprefixer" rel="external" target="_blank">Autoprefixer</a> to reduce browser inconsistencies. 
+In the same spirit as Normalize.css, we also leverage <a href="https://github.com/postcss/postcss" rel="external noopener">Postcss</a> and <a href="https://github.com/postcss/autoprefixer" rel="external noopener" target="_blank">Autoprefixer</a> to reduce browser inconsistencies. 
 
 **If you're using Platform UI in you're own build process, you'll need to include Postcss. Likewise, if you prefer greater browser support, you will have to build Platform UI from source.**
 

@@ -165,7 +165,7 @@ You can use platform UI to add background images using data attributes and some 
 
 For starters, you'll need to add the class `background-image` onto the element where you want to use add an image. From there, use data attributes to change the look of the background image.
 
-See the example below to see it all come together. You may notice a `ratio-` class on the image container. We talk more about that <a href="https://style.rimdev.io/section-utilities.html#utilities-backgroundratio" rel="external" target="_blank">here</a>.
+See the example below to see it all come together. You may notice a `ratio-` class on the image container. We talk more about that <a href="https://style.rimdev.io/section-utilities.html#utilities-backgroundratio" rel="external noopener" target="_blank">here</a>.
 
 <table class="table mb-4">
   <thead>
