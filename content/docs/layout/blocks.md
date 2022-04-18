@@ -581,8 +581,8 @@ The utility classes use the BEM syntax.
   </div>
   <div class="block">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block">

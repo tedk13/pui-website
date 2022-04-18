@@ -332,11 +332,9 @@ use only one input and label. Think of it as a light switch. One item, on or off
 <form class="form">
   <div class="block-container">
     <fieldset class="form__field block-4">
-      <legend>Active</legend>
-      <div class="toggle-small">
-        <input id="active" type="checkbox" name="active">
-        <label for="active">
-        </label>
+      <legend id="active-switch">Active</legend>
+      <div class="switch">
+        <input id="active" type="checkbox" name="active" aria-labelledby="active-switch">
       </div>
     </div>
   </fieldset>
@@ -347,7 +345,7 @@ use only one input and label. Think of it as a light switch. One item, on or off
   <form class="form">
     <div class="block-container">
       <fieldset class="form__field block-4">
-        <legend>Active</legend>
+        <legend></legend>
         <div class="toggle-small">
           <input id="active" type="checkbox" name="active">
           <label for="active">
