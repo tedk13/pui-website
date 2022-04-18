@@ -1,5 +1,6 @@
 ---
 title: Buttons
+description: Documentation for Platform UI's button, secondary button, and button group components.
 ---
 
 Each button has a default button style. Color can be added to any button using a combination of background and text utilities.

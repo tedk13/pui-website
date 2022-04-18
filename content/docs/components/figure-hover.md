@@ -1,5 +1,6 @@
 ---
 title: Figure Hover
+description: Documentation for Platform UI's figure hover component.
 skellyCSS: true
 toc: false
 ---

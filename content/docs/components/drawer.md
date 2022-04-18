@@ -1,5 +1,6 @@
 ---
 title: Drawer
+description: Documentation for Platform UI's drawer component.
 skellyCSS: true
 toc: false
 ---

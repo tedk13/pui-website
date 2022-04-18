@@ -1,5 +1,6 @@
 ---
 title: Display
+description: Platform UI utilities for displaying elements.
 ---
 
 New display utilities for Platform UI.

@@ -1,5 +1,6 @@
 ---
 title: Cards
+description: Documentation for Platform UI's card and image card components.
 skellyCSS: true
 ---
 <section class="mb-4">

@@ -1,5 +1,6 @@
 ---
 title: Messages
+description: Documentation for Platform UI's message component, including informational, warning, error, and success states.
 skellyCSS: true
 toc: false
 ---

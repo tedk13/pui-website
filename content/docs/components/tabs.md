@@ -1,5 +1,6 @@
 ---
 title: Tabs
+description: Documentation for Platform UI's tabs component.
 skellyCSS: true
 toc: false
 ---

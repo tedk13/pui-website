@@ -1,5 +1,6 @@
 ---
 title: Accessibility
+description: Information on building accessibly with Platform UI.
 weight: 4
 ---
 

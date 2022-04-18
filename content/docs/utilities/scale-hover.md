@@ -1,5 +1,6 @@
 ---
 title: Scale Hover
+description: Platform UI utility for scaling elements on hover.
 skellyCSS: true
 toc: false
 ---

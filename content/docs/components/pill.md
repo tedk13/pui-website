@@ -1,5 +1,6 @@
 ---
 title: Pill
+description: Documentation for Platform UI's pills, split pills, circle pills, and close pills components.
 ---
 
 Pills represent rounded labels throughout the platform.

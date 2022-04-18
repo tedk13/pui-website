@@ -1,5 +1,6 @@
 ---
 title: Info Box
+description: Documentation for Platform UI's infobox component.
 skellyCSS: true
 toc: false
 ---

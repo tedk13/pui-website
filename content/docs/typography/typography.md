@@ -1,5 +1,6 @@
 ---
 title: Typography
+description: Documentation for Platform UI's typographical utilities.
 ---
 The typography settings created for headings and paragraphs by platform-ui, as well as the different typography utilities.
 

@@ -1,5 +1,6 @@
 ---
 title: Accordion
+description: Documentation for Platform UI's accordion component.
 skellyCSS: true
 toc: false
 ---
@@ -14,7 +15,7 @@ Platform UI accordions were designed to be stacked.
 
 {{< code-demo name="Accordion" >}}
 <div class="accordion">
-  <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
+  <a href="#" aria-label="Demo Accordion" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
     <span class="skeleton skeleton--sm mb-0 mr-2" data-color="orchid" data-opacity="0.5"></span>
     <i class="pi-angle-down accordion__icon text--med-blue"></i>
   </a>

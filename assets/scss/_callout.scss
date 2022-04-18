@@ -9,12 +9,6 @@
       font-weight: bold;
       text-transform: uppercase;
     }
-    &-border- {
-      &-0-3 {
-        border-radius: 0 3rem 0 1rem;
-        padding-left: 1.5rem; // half the selected radius
-      }
-    }
     a {
       color: hotpink !important;
       border-color: hotpink !important;

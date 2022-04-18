@@ -1,5 +1,6 @@
 ---
 title: Rotate
+description: Platform UI utilities for rotating elements.
 toc: false
 ---
 

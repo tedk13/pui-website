@@ -1,5 +1,6 @@
 ---
 title: Forms
+description: Documentation for Platform UI's form components and elements.
 weight: 1
 ---
 

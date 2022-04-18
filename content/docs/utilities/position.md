@@ -1,5 +1,6 @@
 ---
 title: Position
+description: Platform UI utilities for positioning elements.
 toc: false
 ---
 

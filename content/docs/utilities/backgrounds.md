@@ -1,5 +1,6 @@
 ---
 title: Backgrounds
+description: Platform UI utilities for background color, images, and gradients.
 ---
 Used to modify the appearance of the background.
 

@@ -1,5 +1,6 @@
 ---
 title: Transition
+description: Platform UI utility for setting a transition on elements.
 toc: false
 ---
 

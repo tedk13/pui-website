@@ -1,5 +1,6 @@
 ---
 title: Image Round
+description: Documentation for Platform UI's image round component.
 skellyCSS: true
 toc: false
 ---

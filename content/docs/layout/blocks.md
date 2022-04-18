@@ -1,5 +1,6 @@
 ---
 title: Blocks
+description: Documentation for Platform UI's blocks layout components and utilities.
 skellyCSS: true
 ---
 

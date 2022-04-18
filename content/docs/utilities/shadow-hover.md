@@ -1,5 +1,6 @@
 ---
 title: Shadow Hover
+description: Platform UI utility for adding shadow to elements on hover.
 skellyCSS: true
 toc: false
 ---

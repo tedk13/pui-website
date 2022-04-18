@@ -1,5 +1,6 @@
 ---
 title: Modal
+description: Documentation for Platform UI's modal component.
 skellyCSS: true
 toc: false
 ---

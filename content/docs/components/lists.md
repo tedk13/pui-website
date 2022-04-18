@@ -1,5 +1,6 @@
 ---
 title: Lists
+description: Documentation for Platform UI's list components.
 ---
 The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The list items in those lists have `margin-bottom: .5rem`.
 

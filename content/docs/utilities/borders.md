@@ -1,5 +1,6 @@
 ---
 title: Borders
+description: Platform UI utilities for border color, direction, and widths.
 skellyCSS: true
 ---
 You can add specific borders to elements by using the following classes:

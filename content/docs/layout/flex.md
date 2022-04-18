@@ -1,5 +1,6 @@
 ---
 title: Flex
+description: Documentation for Platform UI's flexbox components and utilities.
 ---
 Building layouts with flexbox is super simple with Platform UI using our flex utility classes.
 ## Display

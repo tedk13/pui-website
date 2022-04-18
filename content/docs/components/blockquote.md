@@ -1,5 +1,6 @@
 ---
 title: Blockquote
+description: Documentation for Platform UI's blockquote component.
 skellyCSS: true
 toc: false
 ---

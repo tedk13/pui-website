@@ -1,5 +1,6 @@
 ---
 title: Loader
+description: Documentation for Platform UI's loader and button loader components.
 ---
 
 Our loader is simple and easy to use. The default loader is 1.4rem, but a modifier can be added to adjust the size.

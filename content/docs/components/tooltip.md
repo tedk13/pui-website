@@ -1,5 +1,6 @@
 ---
 title: Tooltip
+description: Documentation for Platform UI's tooltip component.
 toc: false
 ---
 
