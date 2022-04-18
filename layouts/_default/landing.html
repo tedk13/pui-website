@@ -21,7 +21,7 @@
                     <i class="pi-times" aria-hidden="true"></i>
                 </button>
             </div>
-            <nav role="sidebar">
+            <nav role="complementary">
                 {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
             </nav>
           </div>
@@ -33,7 +33,7 @@
       <article id="content" class="w-100 lg-tablet-up-9 laptop-up-10 px-4 pb-4">
         <h1 class="text--purple my-5">{{ .Title }}</h1>
         <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4">
-          <nav role="sidebar" id="sidebar-right">
+          <nav id="sidebar-right">
             <h2 class="text--size-md">On This Page</h2>
             <div id="on-this-page" class="on-this-page"></div>
           </nav>
@@ -41,7 +41,7 @@
         {{ .Content }}
       </article>
       <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4">
-        <nav role="sidebar" id="sidebar-right">
+        <nav id="sidebar-right">
           <h2 class="text--size-md">On This Page</h2>
           <div id="on-this-page" class="on-this-page"></div>
         </nav>

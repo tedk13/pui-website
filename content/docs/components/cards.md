@@ -9,7 +9,7 @@ some padding.
 
 {{< code-demo name="Card" >}}
 <div class="block-container">
-  <div class="block laptop-up-3">
+  <div class="block laptop-up-5">
     <div class="card">
       <div class="card__header">
         Card Header

@@ -142,6 +142,8 @@ main {
     .skeleton > a, 
     .message > a, 
     .site-menu > a,
+    .site-menu a.dropdown__content-item,
+    .site-menu a.dropdown__trigger,
     .icon-menu__item > a,
     .code-demo a
   ){

@@ -22,7 +22,7 @@
                     <i class="pi-times" aria-hidden="true"></i>
                 </button>
             </div>
-            <nav role="sidebar">
+            <nav role="complementary">
                 {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
             </nav>
           </div>
@@ -32,7 +32,7 @@
   
     <!-- Nav Drawer (Tablet and up) -->
     <div id="frame-nav" class="hide show:lg-tablet tablet-up-3 lg-tablet-up-2">
-      <nav id="sidebar-left" role="sidebar">
+      <nav id="sidebar-left" role="complementary">
         {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
       </nav>
     </div>
@@ -42,7 +42,7 @@
         <h1 class="text--purple my-5">{{ .Title }}</h1>
         {{if ne .Params.toc false}}
         <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4">
-          <nav role="sidebar" id="sidebar-right">
+          <nav id="sidebar-right">
             <h2 class="text--size-md">On This Page</h2>
             {{ .TableOfContents }}
           </nav>
@@ -53,7 +53,7 @@
       {{ if not .IsHome }}
       {{if ne .Params.toc false}}
         <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4">
-          <nav role="sidebar" id="sidebar-right">
+          <nav id="sidebar-right">
             <h2 class="text--size-md">{{ if in .Permalink "lauchpad" }}Examples{{ else }}On This Page{{ end }}</h2>
             {{ .TableOfContents }}
           </nav>
