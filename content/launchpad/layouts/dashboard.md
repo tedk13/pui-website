@@ -7,7 +7,7 @@ chartist: true
 ---
 <style>
 body {
-  background-color: rgba(51,51,51,.5);
+  background-color: var(--light);
 }
 </style>
 
