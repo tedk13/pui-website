@@ -338,7 +338,6 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
     </label>
   </div>
 </form>
-
 {{< /code-demo >}}
 
 
@@ -357,7 +356,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
   </div>
 </form>
 {{< /highlight >}}
-{{< code-markup >}}
+{{< /code-markup >}}
 
 ## Toggle
 
@@ -402,8 +401,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
     </fieldset>
   </form>
 {{< /highlight >}}
-
-{{< code-markup >}}
+{{< /code-markup >}}
 
 ### Switch
  
@@ -414,9 +412,11 @@ A variation of the toggle, for a smaller widget, use the class `switch`. This is
 <form class="form">
   <div class="block-container">
     <fieldset class="form__field block-4">
-      <legend id="active-switch">Active</legend>
+      <legend>Active</legend>
       <div class="switch">
-        <input id="active" type="checkbox" name="active" aria-labelledby="active-switch">
+        <input id="active" type="checkbox" name="active">
+        <label for="active">
+        </label>
       </div>
     </div>
   </fieldset>

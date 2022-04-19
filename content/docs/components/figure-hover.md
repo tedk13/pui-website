@@ -4,7 +4,7 @@ description: Documentation for Platform UI's figure components.
 skellyCSS: true
 toc: true
 ---
-{{% anchor %}}
+{{% anchor name="figure hover" %}}
 
 A way to stylishly add captions to images/figures on **hover**. 
 

@@ -138,7 +138,7 @@ absolute element to.
         </li>
       </ul>
     </div>
-    <div class="results rounded-2 block background--dark p-3" data-default-class="pos-rel vh-25 w-100">
+    <div class="results rounded-2 block background--dark p-3 vh-25" data-default-class="pos-rel h-100 w-100">
       <div class="abstract-element background--light-purple border border--color-white pos-abs"></div>
     </div>
   </div>
