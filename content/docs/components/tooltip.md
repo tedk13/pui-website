@@ -1,7 +1,10 @@
 ---
-title: Tooltip
-toc: false
+title: Tooltips
+description: Documentation for Platform UI's tooltip component.
+toc: true
 ---
+
+{{% anchor name="tooltip" %}}
 
 Add your tooltip text to a `data-tooltip` attribute on any item you want a tooltip.
 

@@ -1,25 +1,25 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-  const tocs = document.querySelectorAll('.on-this-page');
-  const main = document.querySelector('main');
+  // const tocs = document.querySelectorAll('.on-this-page');
+  // const main = document.querySelector('main');
   
   // adds page-anchor-target to content headings in article
-  const headings = main.querySelectorAll('h2,h3');
-  headings.forEach(heading => {
-    if (heading.id) {
-      heading.classList.add('page-anchor-target');
-    }
-  });
+  // const headings = main.querySelectorAll('h2,h3');
+  // headings.forEach(heading => {
+  //   if (heading.id) {
+  //     heading.classList.add('page-anchor-target');
+  //   }
+  // });
 
   // tables
   // TO BE REMOVED DURING FINAL TABLE PURGE... JAIME!!!
-  const table = main.querySelectorAll('table');
-  if (table) {
-    table.forEach((table) => {
-      if (!table.classList.contains('table')) {
-        table.className = 'table modifiers table--no-hover unresponsive';
-      }
-    });
-  }
+  // const table = main.querySelectorAll('table');
+  // if (table) {
+  //   table.forEach((table) => {
+  //     if (!table.classList.contains('table')) {
+  //       table.className = 'table modifiers table--no-hover unresponsive';
+  //     }
+  //   });
+  // }
   
   // loader
   let loaderButton = document.querySelector('.loader-submit');
@@ -158,7 +158,7 @@ const copyButton = () => {
   const btn = document.createElement('button');
   const classes = [
     'button',
-    'background--transparent',
+    'background--dark',
     'background-hover--salmon',
     'text--white',
     'button--copy',
@@ -176,6 +176,7 @@ const codeText = (code) => {
   const textArea = document.createElement('textarea');
   textArea.classList.add('code-text');
   textArea.setAttribute('aria-hidden', true);
+  textArea.setAttribute('tabindex', -1);
   textArea.innerHTML = code;
   return textArea;
 };

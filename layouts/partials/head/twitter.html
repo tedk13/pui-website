@@ -1,6 +1,7 @@
 <!-- Social: Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="" />
+<meta name="twitter:site" content="{{ .Permalink }}" />
 <meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:image" content="" />
-<meta name="twitter:description" content="{{ .Summary | truncate 160 }} /">
+<meta name="twitter:image" content="/images/social-image.png" />
+<meta property="twitter:image:alt" content="Platform UI Rocket" />
+<meta name="twitter:description" content="{{ .Description | truncate 160 }}" />

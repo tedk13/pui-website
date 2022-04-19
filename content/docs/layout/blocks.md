@@ -1,5 +1,6 @@
 ---
 title: Blocks
+description: Documentation for Platform UI's blocks layout components and utilities.
 skellyCSS: true
 ---
 
@@ -352,26 +353,26 @@ In this example, each block will take up an entire row at the smallest screen si
   </div>
   <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block tablet-up-6 laptop-up-4 p-2">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
 </div>
@@ -488,38 +489,38 @@ Each block in the example below has padding: .5rem applied.
   </div>
   <div class="block block-4">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block block-8">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block block-6">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block block-6">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block block-9">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block block-3">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
 </div>
@@ -580,32 +581,32 @@ The utility classes use the BEM syntax.
   </div>
   <div class="block">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
   <div class="block block--fill">
     <div class="card">
-      <h2 class="skeleton skeleton--md"></h2>
-      <p class="skeleton" data-lines="4"></p>
+      <h2 class="skeleton skeleton--md" role="presentation"></h2>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
 </div>

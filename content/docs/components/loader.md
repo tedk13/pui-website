@@ -1,8 +1,11 @@
 ---
-title: Loader
+title: Loaders
+description: Documentation for Platform UI's loader and button loader components.
 ---
 
-Our loader is simple and easy to use. The default loader is 1.4rem, but a modifier can be added to adjust the size.
+{{% anchor name="Default" %}}
+
+It's a `1.4rem` loader. 
 
 {{< code-demo >}}
 <div class="loader"></div>
@@ -29,7 +32,7 @@ Our loader is simple and easy to use. The default loader is 1.4rem, but a modifi
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    A small loader of .9rem
+    Small <code>.9rem</code>
   </td>
 </tr>
 <tr>
@@ -46,14 +49,14 @@ Our loader is simple and easy to use. The default loader is 1.4rem, but a modifi
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    A large loader of 2rem
+    Large <code>2rem</code>
   </td>
 </tr>
 {{< /modifiers >}}
 
-## Button Loading
+{{% anchor name="Buttons" %}}
 
-A button can also include a loader by adding the `loading` class.
+A button can also include a loader by adding/toggling the `loading` class.
 
 {{< code-demo >}}
 <button class="button loading">Submit</button>
@@ -66,7 +69,7 @@ A button can also include a loader by adding the `loading` class.
 {{< /code-markup >}}
 
 <section class="p-0 my-4">
-  <h3 class="mb-3">Visualizer</h3>
+  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
       data-callout-header="tables tip" 
       data-callout-radius="0 3rem 0 3rem"
@@ -108,3 +111,17 @@ A button can also include a loader by adding the `loading` class.
     </div>
   </div>
 <section>
+
+## Button Loading
+
+A button can also include a loader by adding the `loading` class.
+
+{{< code-demo >}}
+<button class="button loading">Submit</button>
+{{< /code-demo >}}
+
+{{< code-markup >}}
+{{< highlight html >}}
+<button class="button loading">Submit</button>
+{{< /highlight >}}
+{{< /code-markup >}}
