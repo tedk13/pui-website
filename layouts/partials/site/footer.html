@@ -26,18 +26,12 @@
                     {{ $len := (len $list) }}
                     <ul class="list">
                         {{ range $index, $element := $list }}
-                        <li class="{{ if eq (add $index 1) $len }}mb-0{{ end }}">
+                        <li>
                             <a href="{{ .URL }}" class="text--beige">{{ .Name }}</a>
                         </li>
                         {{ end }}
                         <li>
-                            <a href="/docs/getting-started/" class="text--beige">Get Started</a>
-                        </li>
-                        <li>
                             <a href="/docs/getting-started/accessibility/" class="text--beige">Accessibility</a>
-                        </li>
-                        <li class="mb-0">
-                            <a href="/docs/getting-started/installation/" class="text--beige">Installation</a>
                         </li>
                     </ul>
                 </div>
