@@ -1,5 +1,6 @@
 ---
 title: Buttons
+description: Documentation for Platform UI's button, secondary button, and button group components.
 toc: true
 ---
 {{% anchor name="button" %}}
@@ -225,3 +226,40 @@ Evenly space any group of buttons, default or secondary.
     </div>
   </div>
 <section>
+
+## Secondary
+
+The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
+
+{{< code-demo >}}
+<button class="button button--secondary" aria-label="Download"><i class="pi-download"></i></button>
+{{< /code-demo >}}
+
+{{< code-markup >}}
+{{< highlight html >}}
+<button class="button button--secondary"><i class="pi-download"></i></button>
+{{< /highlight >}} 
+{{< /code-markup >}}
+
+
+## Group
+
+Evenly space any group of buttons.
+
+{{< code-demo >}}
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+{{< /code-demo >}}
+
+{{< code-markup >}}
+{{< highlight html >}}
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+{{< /highlight >}} 
+{{< /code-markup >}}

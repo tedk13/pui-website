@@ -158,7 +158,7 @@ const copyButton = () => {
   const btn = document.createElement('button');
   const classes = [
     'button',
-    'background--transparent',
+    'background--dark',
     'background-hover--salmon',
     'text--white',
     'button--copy',
@@ -176,6 +176,7 @@ const codeText = (code) => {
   const textArea = document.createElement('textarea');
   textArea.classList.add('code-text');
   textArea.setAttribute('aria-hidden', true);
+  textArea.setAttribute('tabindex', -1);
   textArea.innerHTML = code;
   return textArea;
 };

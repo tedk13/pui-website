@@ -112,6 +112,7 @@ code {
     z-index: 1;
     code {
       padding: 0;
+      background: transparent !important;
     }
   }
 }
@@ -148,15 +149,18 @@ code {
   to {transform: translate(150%, 25%) rotate(1000deg)}
 }
 
-main {
+main, footer {
   a:not(
     .accordion > a, 
     .button, 
     .skeleton > a, 
     .message > a, 
     .site-menu > a,
+    .site-menu a.dropdown__content-item,
+    .site-menu a.dropdown__trigger,
     .icon-menu__item > a,
     a.card
+    .code-demo a
   ){
     color: var(--light-purple);
     border-bottom: 1px solid;
@@ -167,7 +171,7 @@ main {
       border-color: 1px solid var(--purple);
     }
   }
-  a[rel="external"]{
+  a[rel="external noopener"]{
     &::after{
       font-family:'platform-icons';
       content: "\f17c";

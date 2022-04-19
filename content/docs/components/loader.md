@@ -1,5 +1,6 @@
 ---
 title: Loaders
+description: Documentation for Platform UI's loader and button loader components.
 ---
 
 {{% anchor name="Default" %}}
@@ -110,3 +111,17 @@ A button can also include a loader by adding/toggling the `loading` class.
     </div>
   </div>
 <section>
+
+## Button Loading
+
+A button can also include a loader by adding the `loading` class.
+
+{{< code-demo >}}
+<button class="button loading">Submit</button>
+{{< /code-demo >}}
+
+{{< code-markup >}}
+{{< highlight html >}}
+<button class="button loading">Submit</button>
+{{< /highlight >}}
+{{< /code-markup >}}

@@ -1,5 +1,6 @@
 ---
 title: Lists
+description: Documentation for Platform UI's list components.
 toc: true
 ---
 
@@ -60,7 +61,7 @@ Adding `list` strips `list-style-type`, `margin`, and `padding` from the user ag
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers  >}}
 <tr>
   <td data-label="Base">
     <code>list</code>

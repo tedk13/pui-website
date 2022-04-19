@@ -1,5 +1,6 @@
 ---
 title: Truncate With Ellipsis
+description: Platform UI utility to truncate text using an ellipsis.
 toc: false
 ---
 A utility that does what it's name says. It truncates text within an element with ellipsis.

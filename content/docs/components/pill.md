@@ -1,5 +1,6 @@
 ---
 title: Pills
+description: Documentation for Platform UI's pills, split pills, circle pills, and close pills components.
 ---
 {{% anchor name="pill" %}}
 

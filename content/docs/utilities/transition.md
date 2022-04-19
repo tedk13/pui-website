@@ -1,5 +1,6 @@
 ---
 title: Transition
+description: Platform UI utility for setting a transition on elements.
 toc: false
 ---
 
@@ -7,7 +8,7 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
 
 <div class="block-container my-3">
   <div class="card block laptop-up-4 transition background-hover--lightblue">
-    <p class="skeleton" data-lines="4"></p>
+    <p class="skeleton" data-lines="4" role="presentation"></p>
   </div>
 </div>
 
@@ -49,7 +50,7 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
 <div class="block-container mt-3 mb-4">
   <div class="block laptop-up-4 border transition-div-padding transition">
       <h4 class="pl-4 pt-4">Click anywhere inside this div!</h4>
-      <p class="skeleton p-4" data-lines="7"></p>
+      <p class="skeleton p-4" data-lines="7" role="presentation"></p>
   </div>
 </div>
 
@@ -62,6 +63,6 @@ Using the `transition` class adds `transition: .2s;` to an element. You could us
 <div class="block-container mt-3 mb-4">
   <div class="block laptop-up-4 border transition-div-color transition">
       <h4 class="pl-4 pt-4 text--salmon">Hover over this div!</h4>
-      <p class="skeleton p-4" data-lines="7"></p>
+      <p class="skeleton p-4" data-lines="7" role="presentation"></p>
   </div>
 </div>

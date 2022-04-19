@@ -1,6 +1,7 @@
 ---
 layout: landing 
 title: Icons
+description: Documentation on Platform Icons.
 weight: 6
 ---
 All platform icons have a prefix of `pi` and are house in the `<i>` element tag. **Click the button below the icon to copy to clipboard.**

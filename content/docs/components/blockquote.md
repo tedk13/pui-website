@@ -1,5 +1,6 @@
 ---
 title: Blockquotes
+description: Documentation for Platform UI's blockquote components.
 skellyCSS: true
 ---
 
@@ -11,7 +12,7 @@ To attribute someone in the blockquote, add using `<footer>`. If you're referenc
 
 {{< code-demo >}}
 <blockquote class="block laptop-up-6">
-    <p class="skeleton" data-lines="3"></p>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
     <footer>—Ernest Hemingway, <cite>The Sun Also Rises</cite></footer>
 </blockquote>
 {{< /code-demo >}}

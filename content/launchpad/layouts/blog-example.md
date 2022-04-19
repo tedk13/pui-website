@@ -73,7 +73,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My First Blog</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="#">Read More</a>
@@ -87,7 +87,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My Second Blog</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="#">Read More</a>
@@ -101,7 +101,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">This One's Not The Best</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="#">Read More</a>
@@ -115,7 +115,7 @@ weight: 1
                     <div class="card__content p-3 flex flex--column flex--justify-between h-100">
                         <div>
                             <h3 class="mb-3">My Last Blog</h3>
-                            <p class="skeleton" data-lines="3"></p>
+                            <p class="skeleton" data-lines="3" role="presentation"></p>
                         </div>
                         <div>
                             <a class="button background--purple background-hover--white text--white text-hover--purple border--color-purple hover-scale" href="#">Read More</a>

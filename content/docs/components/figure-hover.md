@@ -1,5 +1,6 @@
 ---
 title: Figures
+description: Documentation for Platform UI's figure components.
 skellyCSS: true
 toc: true
 ---
@@ -10,7 +11,7 @@ A way to stylishly add captions to images/figures on **hover**.
 {{< code-demo >}}
 <div class="block-container">
     <figure class="figure-hover block laptop-up-6">
-        <img class="skeleton-image skeleton-image--full skeleton-image--landscape">
+        <img class="skeleton-image skeleton-image--full skeleton-image--landscape" role="presentation">
         <figcaption>Figcaption goes here.</figcaption>
     </figure>
 </div>

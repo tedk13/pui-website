@@ -1,5 +1,6 @@
 ---
 title: Info Boxes
+description: Documentation for Platform UI's infobox component.
 skellyCSS: true
 toc: false
 ---
@@ -24,7 +25,7 @@ You may need to specify a width or add the class `flex-inline` to `info-box` to 
       Close 
       <i class="pi-times" aria-hidden="hidden"></i>
     </button>
-    <p class="skeleton" data-lines="4"></p>
+    <p class="skeleton" data-lines="4" role="presentation"></p>
   </div>
 </div>
 {{< /code-demo >}}

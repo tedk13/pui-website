@@ -1,5 +1,6 @@
 ---
 title: Spacers
+description: Platform UI utilities for adding padding and margin to elements.
 ---
 
 Platform UI provides padding and margin utilities for most scenarios based on it's spacer map;

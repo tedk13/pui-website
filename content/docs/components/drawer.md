@@ -1,5 +1,6 @@
 ---
 title: Drawers
+description: Documentation for Platform UI's drawer components.
 skellyCSS: true
 toc: false
 ---
@@ -25,7 +26,7 @@ A drawer is content meant to be toggle from any direction to slide into view. Th
           <i class="pi-times" aria-hidden="true"></i>
         </button>
       </div>
-      <p class="skeleton" data-lines="5"></p>
+      <p class="skeleton" data-lines="5" role="presentation"></p>
     </div>
   </div>
 </div>

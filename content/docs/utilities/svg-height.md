@@ -1,5 +1,6 @@
 ---
 title: SVG Height
+description: Platform UI utility for adjusting the height of SVG icons.
 toc: false
 ---
 

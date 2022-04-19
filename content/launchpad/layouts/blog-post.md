@@ -69,14 +69,14 @@ skellyCSS: true
     </section>
     <section class="block block-10 lg-tablet-up-8 mb-6">
         <h2 class="mb-3">Introduction</h2>
-        <p class="skeleton" data-lines="3"></p>
-        <p class="skeleton" data-lines="2"></p>
+        <p class="skeleton" data-lines="3" role="presentation"></p>
+        <p class="skeleton" data-lines="2" role="presentation"></p>
         <blockquote class="border--color-purple my-4">
-            <p class="skeleton" data-color="var(--purple)" data-opacity=".3" data-lines="2"></p>
+            <p class="skeleton" data-color="var(--purple)" data-opacity=".3" data-lines="2" role="presentation"></p>
         </blockquote>
-        <p class="skeleton" data-lines="2"></p>
-        <p class="skeleton" data-lines="3"></p>
-        <p class="skeleton" data-lines="2"></p>
+        <p class="skeleton" data-lines="2" role="presentation"></p>
+        <p class="skeleton" data-lines="3" role="presentation"></p>
+        <p class="skeleton" data-lines="2" role="presentation"></p>
     </section>
     <section class="block block-10 lg-tablet-up-8">
         <h2 class="mb-3">Read More</h2>
@@ -90,8 +90,8 @@ skellyCSS: true
                 <div class="card rounded-2 hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2016/07/02/12/21/eclipse-1492818__340.jpg" alt="">
                     <div class="card__content p-3">
-                        <h3 class="skeleton mb-3"></h3>
-                        <p class="skeleton" data-lines="2"></p> 
+                        <h3 class="skeleton mb-3" role="presentation"></h3>
+                        <p class="skeleton" data-lines="2" role="presentation"></p> 
                         <a class="button p-2 hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
                     </div>
                 </div>
@@ -100,8 +100,8 @@ skellyCSS: true
                 <div class="card rounded-2 hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2014/12/27/16/38/planet-581239__340.jpg" alt="">
                     <div class="card__content p-3">
-                        <h3 class="skeleton mb-3"></h3>
-                        <p class="skeleton" data-lines="4"></p> 
+                        <h3 class="skeleton mb-3" role="presentation"></h3>
+                        <p class="skeleton" data-lines="4" role="presentation"></p> 
                         <a class="button p-2 hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
                     </div>
                 </div>
@@ -110,8 +110,8 @@ skellyCSS: true
                 <div class="card rounded-2 hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2017/02/08/12/46/moon-2048727__340.jpg" alt="">
                     <div class="card__content p-3">
-                        <h3 class="skeleton mb-3"></h3>
-                        <p class="skeleton" data-lines="3"></p> 
+                        <h3 class="skeleton mb-3" role="presentation"></h3>
+                        <p class="skeleton" data-lines="3" role="presentation"></p> 
                         <a class="button p-2 hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
                     </div>
                 </div>

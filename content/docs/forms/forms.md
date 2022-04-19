@@ -1,5 +1,7 @@
 ---
 title: Forms
+description: Documentation for Platform UI's form components and elements.
+weight: 1
 toc: true
 ---
 {{% anchor name="form" %}}
@@ -336,7 +338,6 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
     </label>
   </div>
 </form>
-
 {{< /code-demo >}}
 
 
@@ -355,7 +356,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
   </div>
 </form>
 {{< /highlight >}}
-{{< code-markup >}}
+{{< /code-markup >}}
 
 ## Toggle
 
@@ -400,8 +401,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
     </fieldset>
   </form>
 {{< /highlight >}}
-
-{{< code-markup >}}
+{{< /code-markup >}}
 
 ### Switch
  
@@ -413,7 +413,7 @@ A variation of the toggle, for a smaller widget, use the class `switch`. This is
   <div class="block-container">
     <fieldset class="form__field block-4">
       <legend>Active</legend>
-      <div class="toggle-small">
+      <div class="switch">
         <input id="active" type="checkbox" name="active">
         <label for="active">
         </label>
@@ -428,7 +428,7 @@ A variation of the toggle, for a smaller widget, use the class `switch`. This is
   <form class="form">
     <div class="block-container">
       <fieldset class="form__field block-4">
-        <legend>Active</legend>
+        <legend></legend>
         <div class="toggle-small">
           <input id="active" type="checkbox" name="active">
           <label for="active">

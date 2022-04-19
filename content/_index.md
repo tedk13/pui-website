@@ -1,5 +1,6 @@
 ---
 title: Platform UI
+description: Platform UI is a fast, simple, and powerful CSS framework that's built with user experience in mind
 ---
 
 <div class="block-container flex--justify-center cards">
@@ -15,33 +16,49 @@ title: Platform UI
 
 <div class="block-container flex--justify-center pb-4">
   <div class="block block-7 tablet-up-8">
-    <div class="block-container blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center" >
+    <div class="block-container blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center">
       <div class="block">
         <div class="card text--center hover-shadow no-border">
           <h3 class="text--size-lg text--purple">Easy</h3>
-{{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Quick to install, easy to learn. Using a CDN or npm install, then a template, and you're live!
+          <figure>
+            <img src="/images/icons/responsive.svg" alt="Platform UI setup is easy!" class="px-4">
+            <figcaption>
+              Quick to install, easy to learn. Using a CDN or npm install, then a template, and you're live!
+            </figcaption>
+          </figure>
         </div>
       </div>
       <div class="block">
         <div class="card text--center hover-shadow no-border">
           <h3 class="text--size-lg text--purple">Responsive</h3>
-{{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Take advantage of Platform UI's responsive grid system. You'll have your designs on every screen in no time at all. 
+          <figure>
+            <img src="/images/icons/responsive.svg" alt="Create responsive designs!" class="px-4">
+            <figcaption>
+              Take advantage of Platform UI's responsive grid system. You'll have your designs on every screen in no time at all. 
+            </figcaption>
+          </figure>
         </div>
       </div>
       <div class="block">
         <div class="card text--center hover-shadow no-border">
           <h3 class="text--size-lg text--purple">Icons</h3>
-{{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Platform Icons let you not worry about your icon choices. They work seamlessly when choosing a CDN install.
+          <figure>
+            <img src="/images/icons/responsive.svg" alt="Utilizes Platform Icons!" class="px-4">
+            <figcaption>
+              Platform Icons let you not worry about your icon choices. They work seamlessly when choosing a CDN install.
+            </figcaption>
+          </figure>
         </div>
       </div>
       <div class="block">
         <div class="card text--center hover-shadow no-border">
           <h3 class="text--size-lg text--purple">Templates</h3>
-{{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Want that blog up now! We have starter templates to help you launch your ideas.
+          <figure>
+            <img src="/images/icons/responsive.svg" alt="Quickly get started with templates!" class="px-4">
+            <figcaption>
+              Want that blog up now! We have starter templates to help you launch your ideas.
+            </figcaption>
+          </figure>
         </div>
       </div>
     </div>

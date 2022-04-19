@@ -1,5 +1,6 @@
 ---
 title: Cards
+description: Documentation for Platform UI's card and image card components.
 skellyCSS: true
 ---
 {{% anchor name="card" %}}
@@ -9,14 +10,14 @@ some padding.
 
 {{< code-demo >}}
 <div class="block-container">
-  <div class="block laptop-up-3">
+  <div class="block laptop-up-5">
     <div class="card">
       <div class="card__header">
         Card Header
         <button class="button">Button</button>
       </div>
       <div class="card__content">
-        <p class="skeleton" data-lines="4"></p>
+        <p class="skeleton" data-lines="4" role="presentation"></p>
       </div>
     </div>
   </div>
@@ -54,11 +55,11 @@ Adding an image element above `card__content` with a `card__image` class transfo
   <div class="block laptop-up-3">
         <div class="card rounded-2">
             <div class="card__image">
-                <img class="skeleton-image skeleton-image--full skeleton-image--landscape" />
+                <img class="skeleton-image skeleton-image--full skeleton-image--landscape"  role="presentation" />
             </div>
             <div class="card__content">
-                <h3 class="skeleton skeleton--md"></h3>
-                <p class="skeleton" data-lines="4"></p>
+                <h3 class="skeleton skeleton--md" role="presentation"></h3>
+                <p class="skeleton" data-lines="4" role="presentation"></p>
             </div>
         </div>
     </div>

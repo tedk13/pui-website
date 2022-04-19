@@ -1,5 +1,6 @@
 ---
 title: Tabs
+description: Documentation for Platform UI's tabs component.
 skellyCSS: true
 ---
 
@@ -20,7 +21,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
   </label>
   <div class="tab-panel">
-    <p class="skeleton" data-lines="4"></p>
+    <p class="skeleton" data-lines="4" role="presentation"></p>
   </div>
 
   <!-- Tab 2 -->
@@ -30,8 +31,8 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
   </label>
   <div class="tab-panel">
     <div class="flex">
-      <img class="skeleton-image skeleton-image--lg mb-3">
-      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3">
+      <img class="skeleton-image skeleton-image--lg mb-3" role="presentation">
+      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3" role="presentation">
     </div>
   </div>
 
@@ -41,9 +42,9 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3
   </label>
   <div class="tab-panel">
-    <img class="skeleton-image skeleton-image--lg mb-3">
-    <h2 class="skeleton skeleton--md"></h2>
-    <p class="skeleton" data-lines="3"></p>
+    <img class="skeleton-image skeleton-image--lg mb-3" role="presentation">
+    <h2 class="skeleton skeleton--md" role="presentation"></h2>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
   </div>
 </div>
 {{< /code-demo >}}
@@ -79,7 +80,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Tabs" >}}
 <tr>
   <td data-label="Base">
     <code>tabs</code>

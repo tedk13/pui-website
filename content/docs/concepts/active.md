@@ -1,5 +1,6 @@
 ---
 title: Active
+description: Documentation for Platform UI's active state concept.
 weight: 1
 toc: false
 ---

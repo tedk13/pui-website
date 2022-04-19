@@ -1,5 +1,6 @@
 ---
 title: Icon Menu
+description: Documentation for Platform UI's icon menu.
 weight:
 toc: false
 ---

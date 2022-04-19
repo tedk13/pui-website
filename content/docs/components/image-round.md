@@ -1,5 +1,6 @@
 ---
 title: Images
+description: Documentation for Platform UI's image components.
 skellyCSS: true
 toc: false
 ---
@@ -9,7 +10,7 @@ An easy way to create round images.
 
 {{< code-demo >}}
 <div class="image--round-medium">
-  <img class="skeleton-image skeleton-image--lg">
+  <img class="skeleton-image skeleton-image--lg" role="presentation">
 </div>
 {{< /code-demo >}}
 

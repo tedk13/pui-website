@@ -1,5 +1,6 @@
 ---
 title: Accordions
+description: Documentation for Platform UI's accordion components.
 skellyCSS: true
 toc: true
 ---
@@ -12,12 +13,12 @@ Use whenever you want to toggle additional, related, information in a sibling `<
 
 {{< code-demo >}}
 <div class="accordion">
-  <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <span class="skeleton skeleton--sm mb-0 mr-2" data-color="var(--light)"></span>
+  <a href="#" aria-label="Demo Accordion" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
+    <span class="skeleton skeleton--sm mb-0 mr-2" data-color="var(--light)" role="presentation"></span>
     <i class="pi-angle-down accordion__icon text--med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
-    <p class="skeleton" data-lines="6"></p>
+    <p class="skeleton" data-lines="6" role="presentation"></p>
   </div>
 </div>
 {{< /code-demo >}}

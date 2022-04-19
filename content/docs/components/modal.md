@@ -1,5 +1,6 @@
 ---
 title: Modals
+description: Documentation for Platform UI's modal components.
 skellyCSS: true
 toc: false
 ---
@@ -26,8 +27,8 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
       Standard Modal
     </div>
     <div class="modal__content">
-      <h3 class="skeleton skeleton--md"></h3>
-      <p class="skeleton" data-lines="4"></p>
+      <h3 class="skeleton skeleton--md" role="presentation"></h3>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
     </div>
   </div>
 </div>

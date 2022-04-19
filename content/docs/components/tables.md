@@ -1,5 +1,6 @@
 ---
 title: Tables
+description: Documentation for Platform UI's table component.
 toc: false
 ---
 {{% anchor name="table" %}}
@@ -84,7 +85,7 @@ Our default table is simple and un-cluttered without vertical borders.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers name="Table" >}}
 <tr>
   <td data-label="Base">
     <code>table</code>

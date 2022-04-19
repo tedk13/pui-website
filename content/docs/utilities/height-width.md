@@ -1,5 +1,6 @@
 ---
 title: Height and Width
+description: Platform UI utilities for setting height and width on elements.
 toc: false
 ---
 
