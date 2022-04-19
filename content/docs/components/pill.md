@@ -58,7 +58,7 @@ Pills have no hover state.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Split Pill" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="pill pill--split">
   <div class="pill__label">Left:</div>

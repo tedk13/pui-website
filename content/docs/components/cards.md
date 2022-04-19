@@ -8,7 +8,7 @@ skellyCSS: true
 Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
 some padding.
 
-{{< code-demo name="Card" >}}
+{{< code-demo >}}
 <div class="block-container">
   <div class="block laptop-up-5">
     <div class="card">
@@ -24,7 +24,7 @@ some padding.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Card" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="card">
     <div class="card__header">
@@ -50,7 +50,7 @@ Adding an image element above `card__content` with a `card__image` class transfo
 {{< /callout >}}
 
 
-{{< code-demo name="Image Card" >}}
+{{< code-demo >}}
 <div class="block-container">
   <div class="block laptop-up-3">
         <div class="card rounded-2">
@@ -66,7 +66,7 @@ Adding an image element above `card__content` with a `card__image` class transfo
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Image Card" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="card">
     <img class="card__image" src="..." alt="..." />

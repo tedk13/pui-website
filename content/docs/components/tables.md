@@ -11,7 +11,7 @@ Our default table is simple and un-cluttered without vertical borders.
  
  Make them responsive by adding `data-label` on [every] `<td>` to match the column header label.
 
-{{< code-demo name="Table" >}}
+{{< code-demo >}}
 <table class="table">
   <thead>
     <tr>
@@ -47,7 +47,7 @@ Our default table is simple and un-cluttered without vertical borders.
 </table>
 {{< /code-demo >}}
 
-{{< code-markup name="Table" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <table class="table">
   <thead>
