@@ -15,7 +15,7 @@ skellyCSS: true
 
 <header class="site-menu-wrapper px-3" style="background:var(--color-dark-red); height:100px">
   <a href="#" class="site-logo">
-    <img style="max-height:100%;" class="p-2" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
+    <img style="max-height:100%;" class="p-2" src="../../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
   </a>
   <button class="site-menu-mobile-action px-4 text--white">
     <span class="sr-only">Toggle Navigation</span>
@@ -48,7 +48,7 @@ skellyCSS: true
   data-background-size="cover"
   data-background-repeat="no-repeat">
     <div class="background--black-a80 text--size-xl text--center p-6">
-      <img style="width: 80%; max-width:500px" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
+      <img style="width: 80%; max-width:500px" src="../../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
       <h1 class="text--white">Welcome to Pizza Town!</h1>
       <button class="button button--lg text--white my-4 hover-scale" style="background:var(--color-red);">
         <span class="flex flex--align-center">
@@ -72,7 +72,7 @@ skellyCSS: true
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
         <h2>Pepperoni</h2>
-        <p class="skeleton" data-lines="5"></p>
+        <p class="skeleton" data-lines="5" role="presentation"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
@@ -82,7 +82,7 @@ skellyCSS: true
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
         <h2>Ham & Pineapple</h2>
-        <p class="skeleton" data-lines="5"></p>
+        <p class="skeleton" data-lines="5" role="presentation"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
@@ -92,7 +92,7 @@ skellyCSS: true
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
         <h2>Bacon & Jalapeno</h2>
-        <p class="skeleton" data-lines="5"></p>
+        <p class="skeleton" data-lines="5" role="presentation"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
@@ -102,7 +102,7 @@ skellyCSS: true
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
         <h2>Three Cheese</h2>
-        <p class="skeleton" data-lines="5"></p>
+        <p class="skeleton" data-lines="5" role="presentation"></p>
         <button class="button">Add to Cart</button>
       </div> 
     </div>
@@ -133,7 +133,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Breadsticks</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -142,7 +142,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Mozzarella Sticks</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -151,7 +151,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>1/2 Dozen Wings</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -160,7 +160,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Dozen Wings</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -179,7 +179,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Spaghetti</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -188,7 +188,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Spaghetti & Meatballs</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -197,7 +197,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Ravioli</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -206,7 +206,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Chicken Parmesan</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -225,7 +225,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Italian</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -234,7 +234,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Cheeseburger</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -243,7 +243,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Turkey</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>
@@ -252,7 +252,7 @@ skellyCSS: true
           <div class="card">
             <div class="card__content">
               <h3>Tuna Salad</h3>
-              <p class="skeleton" data-lines="5"></p>
+              <p class="skeleton" data-lines="5" role="presentation"></p>
               <button class="button">Add to Cart</button>
             </div> 
           </div>

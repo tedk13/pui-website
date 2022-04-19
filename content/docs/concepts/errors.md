@@ -1,5 +1,6 @@
 ---
 title: Errors
+description: Documentation for Platform UI's error state concepts.
 weight: 3
 ---
 

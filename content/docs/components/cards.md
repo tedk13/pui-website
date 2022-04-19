@@ -1,21 +1,23 @@
 ---
 title: Cards
+description: Documentation for Platform UI's card and image card components.
 skellyCSS: true
 ---
-<section class="mb-4">
+{{% anchor name="card" %}}
+
 Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
 some padding.
 
 {{< code-demo >}}
 <div class="block-container">
-  <div class="block laptop-up-3">
+  <div class="block laptop-up-5">
     <div class="card">
       <div class="card__header">
         Card Header
         <button class="button">Button</button>
       </div>
       <div class="card__content">
-        <p class="skeleton" data-lines="4"></p>
+        <p class="skeleton" data-lines="4" role="presentation"></p>
       </div>
     </div>
   </div>
@@ -38,26 +40,26 @@ some padding.
 {{< callout tipHeader="Card Tip">}} 
   <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text--navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to give the card size.</p>
 {{< /callout >}}
-</section>
 
+{{% anchor name="image card" %}}
 
-<section>
+Adding an image element above `card__content` with a `card__image` class transforms a simpla card into an image card. You can add a straight image, or padding and a background color to use an SVG symbol or large icon.
 
-## Image Card
+{{< callout tipHeader="Card Tip">}} 
+  <p><code>rounded-{number}</code> modifiers work great with cards to give that custom look (this callout uses the rounded modifier on individual corners).</p>
+{{< /callout >}}
 
-Images can be placed at the top of cards. The `<img>` element gets the class `card__image` and is expected to be the first child element of the card.
-When `rounded-` modifiers are used on the card, the image takes on the radius as well. Other modifiers can be used as needed.
 
 {{< code-demo >}}
 <div class="block-container">
   <div class="block laptop-up-3">
-        <div class="card">
+        <div class="card rounded-2">
             <div class="card__image">
-                <img class="skeleton-image skeleton-image--full skeleton-image--landscape" />
+                <img class="skeleton-image skeleton-image--full skeleton-image--landscape"  role="presentation" />
             </div>
             <div class="card__content">
-                <h3 class="skeleton skeleton--md"></h3>
-                <p class="skeleton" data-lines="4"></p>
+                <h3 class="skeleton skeleton--md" role="presentation"></h3>
+                <p class="skeleton" data-lines="4" role="presentation"></p>
             </div>
         </div>
     </div>

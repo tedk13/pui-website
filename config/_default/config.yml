@@ -33,7 +33,7 @@ menu:
   main:
   - identifier: docs
     name: Docs
-    url: /docs/getting-started/
+    url: /docs/getting-started/get-started
     weight: 1
   - identifier: icons
     name: Icons
@@ -41,7 +41,7 @@ menu:
     weight: 2
   - identifier: launchpad
     name: Launchpad
-    url: /launchpad/components
+    url: /launchpad/
 
 params:
   gtmID: 
@@ -49,3 +49,4 @@ params:
   rim_url: https://ritterim.com
   rimdev: RIMdev  
   rimdev_url: https://rimdev.io 
+  pui_url: http://pui.rimdev.io

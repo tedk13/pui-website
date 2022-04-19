@@ -1,14 +1,13 @@
 ---
-title: Pill
+title: Pills
+description: Documentation for Platform UI's pills, split pills, circle pills, and close pills components.
 ---
+{{% anchor name="pill" %}}
 
-Pills represent rounded labels throughout the platform.
+A rounded, pill like, badge. 
 A pill can support color by adding a text or background modifier.
 Pills have no hover state.
 
-A pill can also have a label of it's own.
-A slight variation of a pill is a straight circle with a very small amount of content.
-
 {{< code-demo >}}
 <div class="pill">
   Active
@@ -41,7 +40,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 {{< /highlight >}}
 {{< /code-markup >}}
 
-## Split
+{{% anchor name="split" %}}
 
 {{< code-demo >}}
 <div class="pill pill--split">
@@ -77,25 +76,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 {{< /highlight >}}
 {{< /code-markup >}}
 
-## Close
-
-{{< code-demo >}}
-<div class="pill">
- <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
-  Active
-</div>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<div class="pill">
- <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
-  Active
-</div>
-{{< /highlight >}}
-{{< /code-markup >}}
-
-## Circle
+{{% anchor name="circle" %}}
 
 Pills can be circular.
 

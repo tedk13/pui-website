@@ -1,5 +1,6 @@
 ---
 title: Position
+description: Platform UI utilities for positioning elements.
 toc: false
 ---
 
@@ -70,7 +71,7 @@ absolute element to.
 </table>
 
 <section>
-  <h3 class="mb-3">Visualizer</h3>
+  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
       data-callout-header="tables tip" 
       data-callout-radius="0 3rem 0 3rem"
@@ -137,7 +138,7 @@ absolute element to.
         </li>
       </ul>
     </div>
-    <div class="results rounded-2 block background--dark p-3" data-default-class="pos-rel vh-25 w-100">
+    <div class="results rounded-2 block background--dark p-3 vh-25" data-default-class="pos-rel h-100 w-100">
       <div class="abstract-element background--light-purple border border--color-white pos-abs"></div>
     </div>
   </div>

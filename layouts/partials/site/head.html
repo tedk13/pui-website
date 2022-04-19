@@ -8,7 +8,9 @@
     {{ hugo.Generator }}
 
     <link rel="icon" type="image/svg+xml" href="/images/favicon/platform-ui.svg">
-  
+    <link rel="canonical" href="{{ .Site.Params.Pui_url }}" />
+    <meta name="theme-color" content="#32225d">
+
     {{ partial "head/preconnects.html" . }}
     {{ partial "head/styles.html" . }}
     {{ partial "head/gtm-head.html" . }}

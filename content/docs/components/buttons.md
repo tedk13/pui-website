@@ -1,18 +1,20 @@
 ---
 title: Buttons
+description: Documentation for Platform UI's button, secondary button, and button group components.
+toc: true
 ---
+{{% anchor name="button" %}}
 
-Each button has a default button style. Color can be added to any button using a combination of background and text utilities.
+The default button style is outlined, white, with a salmon hover background color. See the [modifiers](#modifiers) table for 
 
-The default platform button. Usually paired visually with an icon. Can be the default size or large.
 
 {{< code-demo >}}
-<button class="button">Basic Button</button>
+<button class="button">Button</button>
 {{< /code-demo >}}
 
 {{< code-markup >}}
 {{< highlight html >}}
-<button class="button">Basic Button</button>
+<button class="button">Button</button>
 {{< /highlight >}} 
 {{< /code-markup >}}
 
@@ -31,26 +33,7 @@ The default platform button. Usually paired visually with an icon. Can be the de
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    A larger button than the standard
-  </td>
-</tr>
-<tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
-  <td data-label="Modifier">
-    <code>button--secondary</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <code>has-text</code>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-button-text</code>
-  </td>
-  <td data-label="Behavior">
-    A round button intended to be paired with an icon
-    <br>
-    Adding <code>has-text</code> and <code>data-button-text</code> will show the button text on hover
+    A larger button.
   </td>
 </tr>
 <tr>
@@ -67,7 +50,8 @@ The default platform button. Usually paired visually with an icon. Can be the de
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    Removes the border and background so the contents resemble a link (good for icons as buttons)
+    Removes the border and background. 
+    Good for icons alone.
   </td>
 </tr>
 <tr>
@@ -84,7 +68,7 @@ The default platform button. Usually paired visually with an icon. Can be the de
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    Gives the button one of the brand colors (LINK HERE)
+    Loops through Platform UI colors for background and hover coloring.
   </td>
 </tr>
 <tr>
@@ -101,14 +85,14 @@ The default platform button. Usually paired visually with an icon. Can be the de
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    Sets the background to transparent
+    Ghost buttons! 👻
   </td>
 </tr>
 {{< /modifiers >}}
 
-## Secondary
+{{% anchor name="secondary" %}}
 
-The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
+The secondary button was build primarily for usage with icons alone with a fancier hover. It can also be used with text.
 
 {{< code-demo >}}
 <button class="button button--secondary"><i class="pi-download"></i></button>
@@ -120,10 +104,29 @@ The secondary platform button. Always a round button paired with a Platform icon
 {{< /highlight >}} 
 {{< /code-markup >}}
 
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier">
+    <code>button--secondary</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <code>has-text</code>
+  </td>
+  <td data-label="Data Attribute">
+    <code>data-button-text</code>
+  </td>
+  <td data-label="Behavior">
+    <code>has-text</code> with <code>data-button-text</code> adds custom text on hover.
+  </td>
+</tr>
+{{< /modifiers >}}
 
-## Group
+{{% anchor name="group" %}}
 
-Evenly space any group of buttons.
+Evenly space any group of buttons, default or secondary.
 
 {{< code-demo >}}
 <div class="button-group">
@@ -144,7 +147,7 @@ Evenly space any group of buttons.
 {{< /code-markup >}}
 
 <section class="p-0 my-4">
-  <h3 class="mb-3">Visualizer</h3>
+  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
       data-callout-header="tables tip" 
       data-callout-radius="0 3rem 0 3rem"
@@ -223,3 +226,40 @@ Evenly space any group of buttons.
     </div>
   </div>
 <section>
+
+## Secondary
+
+The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
+
+{{< code-demo >}}
+<button class="button button--secondary" aria-label="Download"><i class="pi-download"></i></button>
+{{< /code-demo >}}
+
+{{< code-markup >}}
+{{< highlight html >}}
+<button class="button button--secondary"><i class="pi-download"></i></button>
+{{< /highlight >}} 
+{{< /code-markup >}}
+
+
+## Group
+
+Evenly space any group of buttons.
+
+{{< code-demo >}}
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+{{< /code-demo >}}
+
+{{< code-markup >}}
+{{< highlight html >}}
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+{{< /highlight >}} 
+{{< /code-markup >}}

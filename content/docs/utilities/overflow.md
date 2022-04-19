@@ -1,5 +1,6 @@
 ---
 title: Overflow
+description: Platform UI utilities for handling overflow.
 skellyCSS: true
 toc: false
 ---
@@ -75,10 +76,10 @@ You can add or hide specific overflow on an element with the following classes.
     <div class="block laptop-up-6 overflow-y--hidden">
         <button class="button button-primary background--salmon text--white button--lg overflow-button">Toggle Overflow</button>
         <div class="mt-2 mb-7 p-3 border border--color-med-blue overflow-paragraph" style="height: 7rem;">
-            <h2 class="skeleton skeleton--md"></h2>
-            <p class="skeleton" data-lines="5"></p>
-            <p class="skeleton" data-lines="3"></p>
-            <p class="skeleton" data-lines="6"></p>
+            <h2 class="skeleton skeleton--md" role="presentation"></h2>
+            <p class="skeleton" data-lines="5" role="presentation"></p>
+            <p class="skeleton" data-lines="3" role="presentation"></p>
+            <p class="skeleton" data-lines="6" role="presentation"></p>
         </div>
     </div>
 </div>

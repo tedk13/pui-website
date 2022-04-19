@@ -1,39 +1,112 @@
 ---
 title: Forms
+description: Documentation for Platform UI's form components and elements.
 weight: 1
+toc: true
 ---
+{{% anchor name="form" %}}
 
 Out of the box, our form fields have a margin-top added to them. This spacing should work just fine for smaller, simple forms. For larger,
 responsive forms, we recommend that you utilize the block layout and our spacers to build the perfect form.
 
-<i class="pi-warning text--orange"></i> **Note:** All of the following form elements must be nested inside the `form` class to get the desired look.
+{{% anchor name="form level modifiers" %}}
 
--- login form visualizer heere -- 
+All of the following form elements must be nested inside the `form` class to get the desired look.
 
-## Modifiers
-- form--fancy (update to use on form class level)
-- form--bordered
-- from--rounded
-- form--light
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>form</code>
+  </td>
+  <td data-label="Modifier">
+    <code>form--fancy</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Adds placeholder/label animation
+  </td>
+</tr><tr>
+  <td data-label="Base">
+    <code>form</code>
+  </td>
+  <td data-label="Modifier">
+    <code>form--bordered</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Add input borders.
+  </td>
+</tr><tr>
+  <td data-label="Base">
+    <code>form</code>
+  </td>
+  <td data-label="Modifier">
+    <code>form--rounded</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Adds circular borders to inputs.
+  </td>
+</tr><tr>
+  <td data-label="Base">
+    <code>form</code>
+  </td>
+  <td data-label="Modifier">
+    <code>form--light</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    what the hell does this do?
+  </td>
+</tr>
+{{< /modifiers >}}
 
 
-## field level modifiers
+{{% anchor name="field level modifiers" %}} 
 
 ### Error Styles
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
 
-<i class="pi-warning text--orange"></i> **Note:** If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
+If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that
 field will receive the error styling. However, if you only want to highlight on specific check or radio, simply add
 `error` to the proper input. This will give the icon as well as the corresponding label the error style.
 
--- visualizer with input and checkbox or radio ---
+{{< code-demo >}}
+<form class="form my-4">
+  <div class="form__field error">
+    <input type="text">
+  </div>
+</form>
+{{< /code-demo >}}
+
 
 ### Has Icon
 
 If you would like the icon to be on the right side of the input, add the class `has-icon--right` to the `form__field` class.
 
-<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
+{{< code-demo >}}
+<form class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2 my-2">
   <div class="block">
     <label for="dob-g" class="form__field has-icon--right">Birthday
       <input id="dob-g" type="date">
@@ -54,12 +127,13 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--lg">Submit</button>
+      <button class="button button--md p-2">Submit</button>
     </div>
   </div>
 </form>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
   <div class="block">
@@ -87,17 +161,15 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
 </form>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
 
-## Selection
-
+{{% anchor name="selection" %}}
 
 ### Checkbox
 
-<i class="pi-warning text--orange"></i> **Note:** For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your
-`form__field` then adding a `legend`. See the example below.
+For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your `form__field` then adding a `legend`. See the example below.
 
-
+{{< code-demo >}}
 <form class="form block-container">
   <div class="block block-5">
     <fieldset class="form__field">
@@ -121,8 +193,9 @@ If you would like the icon to be on the right side of the input, add the class `
     </fieldset>
   </div>
 </form>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <form class="form block-container">
   <div class="block block-5">
@@ -148,14 +221,15 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
 </form>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
 
 
 ### Radio
 
-<i class="pi-warning text--orange"></i> **Note:** For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
-`form__field` then adding a `legend`. See the example below.
+For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
+`form__field` then adding a `legend`. 
 
+{{< code-demo >}}
 <form action="" class="form block-container">
   <div class="block block-4">
     <fieldset class="form__field">
@@ -198,7 +272,10 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
 </form>
 
-<div class="mt-3 mb-4">
+{{< /code-demo >}}
+
+
+{{< code-markup >}}
 {{< highlight html >}}
 <form action="" class="form block-container">
   <div class="block block-4">
@@ -242,11 +319,13 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
 </form>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
 
 
 ### Select
 
+
+{{< code-demo >}}
 <form action="" class="form block-container">
   <div class="block block-4">
     <label for="Option" class="form__field">Option
@@ -259,8 +338,10 @@ If you would like the icon to be on the right side of the input, add the class `
     </label>
   </div>
 </form>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+
+{{< code-markup >}}
 {{< highlight html >}}
 <form action="" class="form block-container">
   <div class="block block-4">
@@ -275,14 +356,12 @@ If you would like the icon to be on the right side of the input, add the class `
   </div>
 </form>
 {{< /highlight >}}
-</div>
-
-
+{{< /code-markup >}}
 
 ## Toggle
 
 
-
+{{< code-demo >}}
 <form class="form">
   <div class="block-container">
     <fieldset class="form__field block-4">
@@ -300,8 +379,9 @@ If you would like the icon to be on the right side of the input, add the class `
     </div>
   </fieldset>
 </form>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
   <form class="form">
     <div class="block-container">
@@ -321,18 +401,19 @@ If you would like the icon to be on the right side of the input, add the class `
     </fieldset>
   </form>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}
 
 ### Switch
  
-For a smaller toggle component, use the class `toggle-small`. This is a great option for a checkbox. The idea for this toggle is to 
-use only one input and label. Think of it as a light switch. One item, on or off. 
+A variation of the toggle, for a smaller widget, use the class `switch`. This is a great option for a checkbox. 
 
+
+{{< code-demo >}}
 <form class="form">
   <div class="block-container">
     <fieldset class="form__field block-4">
       <legend>Active</legend>
-      <div class="toggle-small">
+      <div class="switch">
         <input id="active" type="checkbox" name="active">
         <label for="active">
         </label>
@@ -340,13 +421,14 @@ use only one input and label. Think of it as a light switch. One item, on or off
     </div>
   </fieldset>
 </form>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
   <form class="form">
     <div class="block-container">
       <fieldset class="form__field block-4">
-        <legend>Active</legend>
+        <legend></legend>
         <div class="toggle-small">
           <input id="active" type="checkbox" name="active">
           <label for="active">
@@ -356,4 +438,4 @@ use only one input and label. Think of it as a light switch. One item, on or off
     </fieldset>
   </form>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}}

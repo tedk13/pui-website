@@ -1,5 +1,6 @@
 ---
 title: Cursor Pointer
+description: Platform UI utilities for cursor styles.
 toc: false
 ---
 If you want to ensure that the mouse is a pointer on hover add the class `pointer`.
