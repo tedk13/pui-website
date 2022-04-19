@@ -1,10 +1,10 @@
 ---
 title: Accessibility
 description: Information on building accessibly with Platform UI.
-weight: 4
+weight: 2
 ---
 
-Here at [Ritter Insurance Marketing](https://ritterim.com), we build accessible, scalable, websites and apps. We follow <a href="https://www.w3.org/TR/WCAG21/" rel="external noopener" target="_blank">WCAG 2.1</a> guidelines for all of our projects, with a close eye on the future of accessibility. 
+Here at [Ritter Insurance Marketing](https://ritterim.com), we build accessible, scalable, websites and apps. We follow <a href="https://www.w3.org/TR/WCAG21/" rel="external noopener" rel="external noopener">WCAG 2.1</a> guidelines for all of our projects, with a close eye on the future of accessibility. 
 
 Leveraging WAI-ARIA roles, labeling, and descriptions, along with keyboard functionality and contrast where possible. Many of these decisions fall on the person or team implementing Platform UI into their project. 
 
@@ -20,7 +20,7 @@ In the snippet below we have a button with an icon only - concise and, depending
 </button>
 {{< /highlight >}}
 
-You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="external noopener" target="_blank">WAI-ARIA</a> roles and attributes along with the `.sr-only` class to improve the experience for visually or cognitavely impared users.
+You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="external noopener" rel="external noopener">WAI-ARIA</a> roles and attributes along with the `.sr-only` class to improve the experience for visually or cognitavely impared users.
 
 {{< highlight html >}}
 <button class=”button”>
@@ -30,7 +30,7 @@ You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="ext
 {{< /highlight >}} 
 
 ## For more on accessibility
-- <a href="https://a11yproject.com/" rel="external noopener" target="_blank">A11Y Project</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" rel="external noopener" target="_blank">MDN Accessibility</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" rel="external noopener" target="_blank">MDN Aria</a>
-- <a href="https://webaim.org/resources/contrastchecker/" rel="external noopener" target="_blank">WebAIM Color Checker</a>
+- <a href="https://a11yproject.com/" rel="external noopener" rel="external noopener">A11Y Project</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" rel="external noopener" rel="external noopener">MDN Accessibility</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" rel="external noopener" rel="external noopener">MDN Aria</a>
+- <a href="https://webaim.org/resources/contrastchecker/" rel="external noopener" rel="external noopener">WebAIM Color Checker</a>

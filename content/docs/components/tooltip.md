@@ -1,16 +1,18 @@
 ---
-title: Tooltip
+title: Tooltips
 description: Documentation for Platform UI's tooltip component.
-toc: false
+toc: true
 ---
+
+{{% anchor name="tooltip" %}}
 
 Add your tooltip text to a `data-tooltip` attribute on any item you want a tooltip.
 
-{{< code-demo name="Tooltip" >}}
+{{< code-demo >}}
 <div data-tooltip="Here is a tooltip!">hover me!</div>
 {{< /code-demo >}}
 
-{{< code-markup name="Tooltip" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <div data-tooltip="Tooltip goes here!">
   <!-- Content goes here! -->
@@ -18,7 +20,7 @@ Add your tooltip text to a `data-tooltip` attribute on any item you want a toolt
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Tooltip" >}}
+{{< modifiers >}}
 <tr>
   <td data-label="Base">
     <code>tooltip-{direction}</code>

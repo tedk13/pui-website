@@ -1,21 +1,21 @@
 ---
-title: Modal
-description: Documentation for Platform UI's modal component.
+title: Modals
+description: Documentation for Platform UI's modal components.
 skellyCSS: true
 toc: false
 ---
 
-<div class="mb-4">
 {{% requires-js %}}
-</div>
+
+{{% anchor name="Default" %}}
 
 Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay the modal.
 
-`.modal__close` on the close button is also a handle for JS.
+`.modal__close` on the close button is a handle for JS.
 
 If you need to prevent the background from scrolling, add the `.modal-open` class to your body element when a modal is open.
 
-{{< code-demo name="Modal" >}}
+{{< code-demo >}}
 <div class="block mb-3">
     <button class="button modal__open" data-modal="default-modal">Standard Modal</button>
 </div>
@@ -29,14 +29,12 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
     <div class="modal__content">
       <h3 class="skeleton skeleton--md" role="presentation"></h3>
       <p class="skeleton" data-lines="4" role="presentation"></p>
-      <p class="skeleton" data-lines="3" role="presentation"></p>
-      <p class="skeleton" data-lines="7" role="presentation"></p>
     </div>
   </div>
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Modal" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
 <!-- Standard Modal -->
@@ -57,7 +55,7 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Modal" >}}
+{{< modifiers >}}
 <tr>
   <td data-label="Base">
     <code>modal</code>

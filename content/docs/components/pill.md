@@ -1,16 +1,14 @@
 ---
-title: Pill
+title: Pills
 description: Documentation for Platform UI's pills, split pills, circle pills, and close pills components.
 ---
+{{% anchor name="pill" %}}
 
-Pills represent rounded labels throughout the platform.
+A rounded, pill like, badge. 
 A pill can support color by adding a text or background modifier.
 Pills have no hover state.
 
-A pill can also have a label of it's own.
-A slight variation of a pill is a straight circle with a very small amount of content.
-
-{{< code-demo name="Pill" >}}
+{{< code-demo >}}
 <div class="pill">
   Active
 </div>
@@ -25,7 +23,7 @@ A slight variation of a pill is a straight circle with a very small amount of co
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Pill" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="pill">
   Active
@@ -42,9 +40,9 @@ A slight variation of a pill is a straight circle with a very small amount of co
 {{< /highlight >}}
 {{< /code-markup >}}
 
-## Split
+{{% anchor name="split" %}}
 
-{{< code-demo name="Split Pill" >}}
+{{< code-demo >}}
 <div class="pill pill--split">
   <div class="pill__label">Left:</div>
   <div class="pill__content">Right</div>
@@ -78,29 +76,11 @@ A slight variation of a pill is a straight circle with a very small amount of co
 {{< /highlight >}}
 {{< /code-markup >}}
 
-## Close
-
-{{< code-demo name="Close Pill" >}}
-<div class="pill">
- <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
-  Active
-</div>
-{{< /code-demo >}}
-
-{{< code-markup name="Close Pill" >}}
-{{< highlight html >}}
-<div class="pill">
- <div class="pill__close"><i class="pi-times-solid text--salmon"></i></div>
-  Active
-</div>
-{{< /highlight >}}
-{{< /code-markup >}}
-
-## Circle
+{{% anchor name="circle" %}}
 
 Pills can be circular.
 
-{{< code-demo name="Circle Pill" >}}
+{{< code-demo >}}
 <div class="pill pill--circle">
   33
 </div>
@@ -109,7 +89,7 @@ Pills can be circular.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Circle Pill" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="pill pill--circle">
   33
@@ -120,7 +100,7 @@ Pills can be circular.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Circle Pill" >}}
+{{< modifiers >}}
 <tr>
   <td data-label="Base">
     <code>pill</code>

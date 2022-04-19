@@ -1,14 +1,14 @@
 ---
-title: Figure Hover
-description: Documentation for Platform UI's figure hover component.
+title: Figures
+description: Documentation for Platform UI's figure components.
 skellyCSS: true
-toc: false
+toc: true
 ---
+{{% anchor %}}
 
-To hide and show the figcaption on hover, you can add the class `figure-hover` to a `figure`. Notice the figcaption transitions
-on hover.
+A way to stylishly add captions to images/figures on **hover**. 
 
-{{< code-demo name="Figure Hover" >}}
+{{< code-demo >}}
 <div class="block-container">
     <figure class="figure-hover block laptop-up-6">
         <img class="skeleton-image skeleton-image--full skeleton-image--landscape" role="presentation">
@@ -17,7 +17,7 @@ on hover.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Figure Hover" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <figure class="figure-hover">
     <img src="..." alt="Figcaption goes here.">

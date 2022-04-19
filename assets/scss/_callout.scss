@@ -1,6 +1,5 @@
 .callout {
     color: inherit;
-    padding: 1rem .75rem 2rem;
     width: 100%;  
     &:before {
       content: attr(data-callout-header);

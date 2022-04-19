@@ -1,20 +1,23 @@
 ---
-title: Blockquote
-description: Documentation for Platform UI's blockquote component.
+title: Blockquotes
+description: Documentation for Platform UI's blockquote components.
 skellyCSS: true
-toc: false
 ---
 
-Our blockquotes are similar to the browser default. We added a left border, which is a light gray by default. To attribute someone in the blockquote, you can do so by adding a `<footer>` followed by their name. If you're referencing a specific creative work, be sure to include that inside a `<cite>`.
+{{% anchor name="blockquote" %}}
 
-{{< code-demo name="Blockquote" >}}
+Similar to the browser default, we added a left border which can be colored using <a href="/docs/utilities/borders/">border color utilities</a>.
+
+To attribute someone in the blockquote, add using `<footer>`. If you're referencing a specific creative work, wrap it in a `<cite>` tag.
+
+{{< code-demo >}}
 <blockquote class="block laptop-up-6">
     <p class="skeleton" data-lines="3" role="presentation"></p>
     <footer>—Ernest Hemingway, <cite>The Sun Also Rises</cite></footer>
 </blockquote>
 {{< /code-demo >}}
 
-{{< code-markup name="Blockquote" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <blockquote>
     <p>
@@ -22,14 +25,11 @@ Our blockquotes are similar to the browser default. We added a left border, whic
     </p>
     <footer>
         <!-- Quote attribution goes here! -->
-        <cite></cite>
+        <cite>
+        <!-- Cite a specific work -->
+        </cite>
     </footer>
 </blockquote>
 {{< /highlight >}} 
 {{< /code-markup >}}
 
-{{< callout tipHeader="Blockquote Tip">}} 
-
-<p>Hey! You can change the default left border by using <a href="/docs/utilities/borders/">border color utilities</a>!</p>
-
-{{< /callout >}}

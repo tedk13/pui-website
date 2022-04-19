@@ -2,18 +2,18 @@
 title: Tabs
 description: Documentation for Platform UI's tabs component.
 skellyCSS: true
-toc: false
 ---
-The content for a tabbed section needs to live inside the `.tabs` class. The tabs are radio inputs.
-Be sure to add a specific `id` to the input and add a `for` to the label with a value that matches the
-corresponding input. The label needs the class of `tab`.
-The content for the tabs needs the class of `tab-panel` and it needs to be directly after the `tab` label.
-The tabs themselves or the `.tab` have a specific width of `16rem` as well as a specific
-height of `4rem`.
+
+{{% anchor name="Tab" %}}
+
+Our tabs are based on radio inputs, content for a tabbed section needs to live inside the `.tabs` container. The input `id` and corresponding label `for` need to match.
+The tab's content, `.tab-panel`, must be the consecutive sibling of the `.tab` label.
+
+Tabs have a specific width and height of `16rem` and `4rem` repectively.
 
 Work in progress. At a mobile resolution (below 768px) an active tab will collapse when clicked. 
 
-{{< code-demo name="Tabs" >}}
+{{< code-demo >}}
 <div class="tabs">
   <!-- Tab 1 -->
   <input type="radio" id="tab-input-a" name="tabs" checked>
@@ -21,7 +21,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1
   </label>
   <div class="tab-panel">
-    <p class="skeleton" data-lines="6" role="presentation"></p>
+    <p class="skeleton" data-lines="4" role="presentation"></p>
   </div>
 
   <!-- Tab 2 -->
@@ -49,7 +49,7 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Tabs" >}}
+{{< code-markup >}}
 {{< highlight html >}}
 <div class="tabs">
   <!-- Tab 1 -->
@@ -95,11 +95,24 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    Removes the border effect on the tabs
+    Removes tab borders.
+  </td>
+</tr>
+<tr>
+  <td data-label="Base">
+    <code>tabs</code>
+  </td>
+  <td data-label="Modifier">
+    <code>unresponsive</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Data Attribute">
+    <i class="pi-ban" aria-hidden="true"></i>
+  </td>
+  <td data-label="Behavior">
+    Removes responsive.
   </td>
 </tr>
 {{< /modifiers >}}
-
-{{< callout tipHeader="Tabs Tip" >}}
-  <p>You can add the class <code>.unresponsive</code> if you want to keep the look of the tabs the same at every screen size!</p>
-{{< /callout >}}

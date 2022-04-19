@@ -11,15 +11,15 @@
 }
 
 .sidebar-menu {
-  .pui-accordion {
+  .accordion {
     &.active {
       box-shadow: none;
-      .pui-accordion__header {
+      .accordion__header {
         background-color: transparent;
       }
 
-      > .pui-accordion__header {
-        .pui-accordion__icon {
+      > .accordion__header {
+        .accordion__icon {
           transform: rotate(90deg);
         }
       }

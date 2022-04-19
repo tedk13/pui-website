@@ -1,21 +1,20 @@
 ---
-title: Info Box
+title: Info Boxes
 description: Documentation for Platform UI's infobox component.
 skellyCSS: true
 toc: false
 ---
-
-<div class="mb-4">
 {{% requires-js %}}
-</div>
+
+{{% anchor name="Info Box" %}}
 
 Click the button to toggle the info box. 
 
-<i class="pi-warning text--orange"></i> **Note:** Depending on the rest of your markup, you might need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly.
+{{< callout tipHeader="info box tip">}}
+You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example below.
+{{< /callout >}}
 
-`flex-inline` was added to the example below.
-
-{{< code-demo name="Infobox" >}}
+{{< code-demo >}}
 <div class="info-box flex-inline">
   <button class="button toggle-hidden" role="button" aria-label="Toggle">
     Open Info Box
@@ -31,7 +30,7 @@ Click the button to toggle the info box.
 </div>
 {{< /code-demo >}}
 
-{{< code-markup name="Infobox" >}}
+{{< code-markup >}}
 {{< highlight html >}}
  <div class="info-box">
    <!-- Info Box Trigger -->
@@ -50,7 +49,7 @@ Click the button to toggle the info box.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Infobox" >}}
+{{< modifiers >}}
 <tr>
   <td data-label="Base">
     <code>info-box</code>

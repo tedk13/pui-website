@@ -3,8 +3,13 @@ title: Tables
 description: Documentation for Platform UI's table component.
 toc: false
 ---
+{{% anchor name="table" %}}
 
-Platform UI tables are built to be responsive at all screen sizes! Just include a `data-label` on the `<td>` that matches the header for that column.
+Our default table is simple and un-cluttered without vertical borders. 
+
+ Platform UI tables are built to be responsive at all screen sizes! 
+ 
+ Make them responsive by adding `data-label` on [every] `<td>` to match the column header label.
 
 {{< code-demo name="Table" >}}
 <table class="table">
