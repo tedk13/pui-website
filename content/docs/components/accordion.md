@@ -1,25 +1,23 @@
 ---
-title: Accordion
+title: Accordions
 skellyCSS: true
-toc: false
+toc: true
 ---
-<div class="mb-4">
+
 {{% requires-js %}} {{% requires-icons %}}
-</div>
 
-Leverage spacing utility classes for padding and margin for the content within the accordion.
-To show the content of the accordion toggle the class `active` on `accordion`. These accordions are also keyboard accessible.
+{{% anchor name="accordion" %}}
 
-Platform UI accordions were designed to be stacked.
+Use whenever you want to toggle additional, related, information in a sibling `<div>`. Built to be used **stacked** or **nested**. 
 
 {{< code-demo >}}
 <div class="accordion">
   <a href="#" class="accordion__header px-3 py-3 flex--justify-between flex--align-center">
-    <span class="skeleton skeleton--sm mb-0 mr-2" data-color="orchid" data-opacity="0.5"></span>
+    <span class="skeleton skeleton--sm mb-0 mr-2" data-color="var(--light)"></span>
     <i class="pi-angle-down accordion__icon text--med-blue"></i>
   </a>
   <div class="accordion__content px-3 py-3">
-    <p class="skeleton" data-lines="6" data-color="orchid" data-opacity="0.5"></p>
+    <p class="skeleton" data-lines="6"></p>
   </div>
 </div>
 {{< /code-demo >}}
@@ -36,9 +34,3 @@ Platform UI accordions were designed to be stacked.
 </div>
 {{< /highlight >}} 
 {{< /code-markup >}}
-
-{{< callout tipHeader="Accordion Tip">}} 
-
-<p>Accordions can also be nested! You can see this in action on the <a href="/launch-pad/components/#nested">examples</a> page.</p>
-
-{{< /callout >}}

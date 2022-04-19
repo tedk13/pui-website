@@ -1,10 +1,11 @@
 ---
-title: Image Round
+title: Images
 skellyCSS: true
 toc: false
 ---
+{{% anchor name="Round" %}}
 
-You can create easy rounded images.
+An easy way to create round images.
 
 {{< code-demo >}}
 <div class="image--round-medium">
@@ -56,29 +57,3 @@ You can create easy rounded images.
   </td>
 </tr>
 {{< /modifiers >}}
-
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Size</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.image--round-small</code></td>
-        <td data-label="Size">100px</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.image--round-medium</code></td>
-        <td data-label="Size">150px</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.image--round-large</code></td>
-        <td data-label="Size">200px</td>
-      </tr>
-    </tbody>
-  </table>
-</section>

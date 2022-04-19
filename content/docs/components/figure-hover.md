@@ -1,11 +1,11 @@
 ---
-title: Figure Hover
+title: Figures
 skellyCSS: true
-toc: false
+toc: true
 ---
+{{% anchor name="figure hover" %}}
 
-To hide and show the figcaption on hover, you can add the class `figure-hover` to a `figure`. Notice the figcaption transitions
-on hover.
+A way to stylishly add captions to images/figures on **hover**. 
 
 {{< code-demo >}}
 <div class="block-container">

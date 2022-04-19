@@ -1,16 +1,16 @@
 ---
-title: Modal
+title: Modals
 skellyCSS: true
 toc: false
 ---
 
-<div class="mb-4">
 {{% requires-js %}}
-</div>
+
+{{% anchor name="Default" %}}
 
 Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay the modal.
 
-`.modal__close` on the close button is also a handle for JS.
+`.modal__close` on the close button is a handle for JS.
 
 If you need to prevent the background from scrolling, add the `.modal-open` class to your body element when a modal is open.
 
@@ -28,8 +28,6 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
     <div class="modal__content">
       <h3 class="skeleton skeleton--md"></h3>
       <p class="skeleton" data-lines="4"></p>
-      <p class="skeleton" data-lines="3"></p>
-      <p class="skeleton" data-lines="7"></p>
     </div>
   </div>
 </div>

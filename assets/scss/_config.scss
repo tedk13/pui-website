@@ -28,7 +28,20 @@ $brand-colors: (
   }
 }
 
-.pui-card {
+code {
+  background-color: lavender;
+  border-radius: .2rem;
+  color: rebeccapurple;
+  padding: 0 .25rem;
+  font-size: inherit;
+}
+
+// Don't know how to handle this, cuz we should?
+// code {
+//   white-space: nowrap;
+// }
+
+.card {
   @media only screen and (min-width: 1800px) {
     min-height: auto;
   }
@@ -142,13 +155,16 @@ main {
     .skeleton > a, 
     .message > a, 
     .site-menu > a,
-    .icon-menu__item > a
+    .icon-menu__item > a,
+    a.card
   ){
-    color:var(--light-purple);
-    border-bottom:1px solid var(--light-purple);
+    color: var(--light-purple);
+    border-bottom: 1px solid;
+    border-color: var(--light-purple);
+    transition: .2s;
     &:hover{
-      color:var(--purple);
-      border-bottom:1px solid var(--purple);
+      color: var(--purple);
+      border-color: 1px solid var(--purple);
     }
   }
   a[rel="external"]{
@@ -160,24 +176,13 @@ main {
       text-decoration: none;
     }
   }
-  .page-anchor-target{
-    color:var(--purple);
-    a{
-      $self: &;
-      border-bottom:none !important;
-      transition: none !important;
-      &:hover{
-        border-bottom:1px solid var(--purple) !important;
-      }
-      &:hover::before{
-        font-family:'platform-icons';
-        font-size:1.25rem;
-        position: absolute;
-        content:"\f17d";
-        color:var(--light-purple);
-        margin-left:-1.55rem;
-        margin-top: 0.35rem;
-      }
+
+  // page anchors
+  h2:hover > a {
+    &:after {
+      color: var(--light-purple);
+      content: "#";
+      margin-left: .25rem;
     }
   }
 }

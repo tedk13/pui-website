@@ -53,12 +53,12 @@ title: Templates
 
 <div class="block-container blocks p-2 cards tablet-up-4 mb-4">
     <div class="block">
-        <div class="card rounded-2">
+        <a href="blog" class="card rounded-2">
             <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
             <div class="card__content text--purple">
                 Blog 1
             </div>
-        </div>
+        </a>
     </div>
     <div class="block">
         <div class="card rounded-2">
