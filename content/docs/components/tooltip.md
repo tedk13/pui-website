@@ -1,7 +1,9 @@
 ---
-title: Tooltip
-toc: false
+title: Tooltips
+toc: true
 ---
+
+{{% anchor name="tooltip" %}}
 
 Add your tooltip text to a `data-tooltip` attribute on any item you want a tooltip.
 

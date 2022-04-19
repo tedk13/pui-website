@@ -6,21 +6,19 @@
                     <img src="/images/platform-ui.svg" class="h-25" alt=" Platform UI">
                 </a>
                 <span class="text--size-lg">Platform UI</span>
-                <p>Built by the <a class="text--beige" href="{{ .Site.Params.rim_url }}" target="_blank">{{ .Site.Params.rim }}</a>
-                    development team, aka <a class="text--beige" href="{{ .Site.Params.rimdev_url }}" target="_blank">{{ .Site.Params.rimdev }}</a>, to
+                <p>Built by the <a class="text--beige" href="{{ .Site.Params.rim_url }}" rel="external">{{ .Site.Params.rim }}</a>
+                    development team, aka <a class="text--beige" href="{{ .Site.Params.rimdev_url }}" rel="external">{{ .Site.Params.rimdev }}</a>, to
                     power our platform of staff and agent tools. </p>
             </div>
-            <p>Platform UI is available on <a class="text--beige"
-                    href="https://github.com/ritterim/platform-ui" target="_blank">github</a> and <a class="text--beige"
-                    href="https://www.npmjs.com/package/@ritterim/platform-ui" target="_blank">npm</a> and uses SkellyCSS, also
-                on <a class="text--beige" href="https://github.com/ritterim/skellyCSS" target="_blank">github</a> and
-                <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/skellycss" target="_blank">npm</a>
+            <p>Platform UI is available on <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/platform-ui" rel="external">npm</a> and uses SkellyCSS, also
+                on <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/skellycss" rel="external">npm</a> and
+                <a class="text--beige" href="https://github.com/ritterim/skellyCSS" rel="external">github</a>
             </p>
             <p>Current version {{ os.ReadFile ".pui-version" }}</p>
             <p class="mb-0">&copy;{{ now.Format "2006"}} {{ .Site.Params.rim }}</p>
         </div>
         <div class="block lg-tablet-up-8">
-            <div class="block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 w-100 blocks p-2">
+            <div class="block-container tablet-up-2 lg-tablet-up-3 w-100 blocks p-2">
                 <div class="block">
                     <h2 class="text--white text--size-md mb-2">Getting Started</h2>
                     {{ $list := (.Site.Menus.main) }}
@@ -31,28 +29,19 @@
                             <a href="{{ .URL }}" class="text--beige">{{ .Name }}</a>
                         </li>
                         {{ end }}
-                        <li>
-                            <a href="/docs/getting-started/get-started/" class="text--beige">Get Started</a>
-                        </li>
-                        <li>
-                            <a href="/docs/getting-started/accessibility/" class="text--beige">Accessibility</a>
-                        </li>
-                        <li class="mb-0">
-                            <a href="/docs/getting-started/installation/" class="text--beige">Installation</a>
-                        </li>
                     </ul>
                 </div>
                 <div class="block">
                     <h2 class="text--white text--size-md mb-2">More from RIMdev</h2>
                     <ul class="list">
                         <li>
-                            <a href="https://www.npmjs.com/search?q=ritterim" target="_blank" class="text--beige">npm packages</a>
+                            <a href="https://www.npmjs.com/search?q=ritterim" rel="external" class="text--beige">npm packages</a>
                         </li>
                         <li>
-                            <a href="https://www.nuget.org/packages?q=rimdev" target="_blank" class="text--beige">nuget packages</a>
+                            <a href="https://www.nuget.org/packages?q=rimdev" rel="external" class="text--beige">nuget packages</a>
                         </li>
                         <li>
-                            <a href="rimdev.io" target="_blank" class="text--beige">Tech blog</a>
+                            <a href="{{ .Site.Params.rimdev_url }}" rel="external" class="text--beige">Tech blog</a>
                         </li>
                     </ul>
                 </div>
@@ -60,16 +49,16 @@
                     <h2 class="text--white text--size-md mb-2">More from Ritter</h2>
                     <ul class="list">
                         <li>
-                            <a href="https://ritterim.com/" target="_blank" class="text--beige">Ritter Insurance Marketing</a>
+                            <a href="https://ritterim.com/" rel="external" class="text--beige">Ritter Insurance Marketing</a>
                         </li>
                         <li>
-                            <a href="https://www.ritterim.com/blog/" target="_blank" class="text--beige">ASG</a>
+                            <a href="https://www.ritterim.com/blog/" rel="external" class="text--beige">ASG</a>
                         </li>
                         <li>
-                            <a href="https://podcasts.apple.com/us/podcast/agent-survival-guide-podcast/id1310637866" target="_blank" class="text--beige">Podcasts</a>
+                            <a href="https://podcasts.apple.com/us/podcast/agent-survival-guide-podcast/id1310637866" rel="external" class="text--beige">Podcasts</a>
                         </li>
                         <li>
-                            <a href="https://medicareful.com/" target="_blank" class="text--beige">Medicareful</a>
+                            <a href="https://medicareful.com/" rel="external" class="text--beige">Medicareful</a>
                         </li>
                     </ul>
                 </div>

@@ -1,7 +1,11 @@
 ---
 title: Lists
+toc: true
 ---
-The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The list items in those lists have `margin-bottom: .5rem`.
+
+{{% anchor name="Default" %}}
+
+Our default un-ordered list has `margin: 0` and `padding-left: 1rem` applied. List items have `margin-bottom: .5rem`.
 
 <ul>
   <li>Dogs</li>
@@ -34,9 +38,9 @@ The `ul` within platform-ui have `margin: 0` and a `padding-left: 1rem`. The lis
 </div>
 
 
-## List
+{{% anchor name="list" %}}
 
-We have some general styling on basic `<ul>` and `<ol>` elements, but our list takes a simplified approach and strips the `list-style-type`, `margin`, and `padding` from the user agent stylesheet.
+Adding `list` strips `list-style-type`, `margin`, and `padding` from the user agent stylesheet.
 
 {{< code-demo >}}
 <ul class="list">
@@ -71,7 +75,7 @@ We have some general styling on basic `<ul>` and `<ol>` elements, but our list t
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    List displays inline utilizing flex
+    An inline flex list.
   </td>
 </tr>
 <tr>
@@ -88,8 +92,7 @@ We have some general styling on basic `<ul>` and `<ol>` elements, but our list t
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    List items display with a bottom border<br>
-    Make sure to add <code>.list__item</code> to the <code>li</code> to achieve the border
+    Adds a bottom border when adding <code>.list__item</code> to each child <code>li</code>.
   </td>
 </tr>
 {{< /modifiers >}}

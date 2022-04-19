@@ -1,18 +1,19 @@
 ---
-title: Drawer
+title: Drawers
 skellyCSS: true
 toc: false
 ---
-<div class="mb-4">
-{{% requires-js %}}
-</div>
 
-Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport.
+{{% requires-js %}}
+
+{{% anchor name="drawer" %}}
+
+A drawer is content meant to be toggle from any direction to slide into view. The default orientation is bottom.
 
 {{< code-demo >}}
 <div class="block-container mt-3">
   <button class="button drawer__open" data-drawer="default">
-    Toggle default drawer
+    Toggle drawer
   </button>
 </div>
 <div id="default" class="drawer drawer--closed">
@@ -24,10 +25,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
           <i class="pi-times" aria-hidden="true"></i>
         </button>
       </div>
-      <h2 class="skeleton skeleton--lg"></h2>
       <p class="skeleton" data-lines="5"></p>
-      <p class="skeleton" data-lines="3"></p>
-      <p class="skeleton" data-lines="6"></p>
     </div>
   </div>
 </div>
@@ -62,7 +60,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
     <code>drawer</code>
   </td>
   <td data-label="Modifier">
-    <code>drawer-{direction}</code>
+    <code>drawer-{t,l,r}</code>
   </td>
   <td data-label="Secondary Modifier">
     <i class="pi-ban" aria-hidden="true"></i>
@@ -71,9 +69,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
     <code>data-drawer</code>
   </td>
   <td data-label="Behavior">
-    Drawer opens from the provided direction - available options are top, bottom, left, right
-    <br>
-    Side drawers (left and right) do not occupy the entire viewport
+    Top, left, right orientation. Bottom is default.
   </td>
 </tr>
 <tr>
@@ -90,40 +86,10 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
     <code>data-drawer</code>
   </td>
   <td data-label="Behavior">
-    A small sized drawer
+    A small drawer.
   </td>
 </tr>
-<tr>
-  <td data-label="Modifier Class"><code>.drawer-bottom</code></td>
-  <td data-label="Description">Drawer opens from bottom of the viewport</td>
-</tr>
 {{< /modifiers >}}
-
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer-top</code></td>
-        <td data-label="Description">Drawer opens from the top of the viewport</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer-right</code></td>
-        <td data-label="Description">Drawer opens from right side of the viewport</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer-left</code></td>
-        <td data-label="Description">Drawer opens from left side of the viewport</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
 
 {{< callout tipHeader="Drawer Tip" >}}
   <p>If the <code>header-fixed</code> class is added to the main wrapper, the side drawers will open below the header.</p>

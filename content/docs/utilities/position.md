@@ -70,7 +70,7 @@ absolute element to.
 </table>
 
 <section>
-  <h3 class="mb-3">Visualizer</h3>
+  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
       data-callout-header="tables tip" 
       data-callout-radius="0 3rem 0 3rem"
