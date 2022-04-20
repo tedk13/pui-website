@@ -65,7 +65,7 @@ It's a `1.4rem` loader.
       data-gradient-fallback="indigo">
     <i class="pi-rocket mr-1"></i>
     <strong class="mr-1">Try this!</strong> 
-    Check out different colors of buttons!
+    Check out different sizes of loader!
   </div>
   <div class="visualizer block-container p-3 py-4 border border--color-lighter border--width-5 tablet-up-2 mb-4">
     <div class="actions block">

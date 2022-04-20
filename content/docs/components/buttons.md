@@ -5,7 +5,7 @@ toc: true
 ---
 {{% anchor name="button" %}}
 
-The default button style is outlined, white, with a salmon hover background color. See the [modifiers](#modifiers) table for 
+The default button style is white with a dark outline and has a salmon background color on hover. See the [modifiers](#modifiers) table for more options!
 
 
 {{< code-demo >}}
@@ -90,6 +90,85 @@ The default button style is outlined, white, with a salmon hover background colo
 </tr>
 {{< /modifiers >}}
 
+<section class="p-0 mb-4">
+  <h3 class="text--light text--size-md mb-3">Modifiers on <code>button</code></h3>
+  <div class="card p-0 no-border rounded-2">
+    <table class="table modifiers table--no-hover">
+      <thead>
+        <tr>
+          <th>Modifier &dagger;</th>
+          <th>Secondary Modifier</th>
+          <th>Data Attribute</th>
+          <th style="width: 40%">Behavior</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--lg</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            A larger button.
+          </td>
+        </tr>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--plain</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            Removes the border and background. 
+            Good for icons alone.
+          </td>
+        </tr>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--{color}</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            Loops through Platform UI colors for background and hover coloring.
+          </td>
+        </tr>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--ghost</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            Ghost buttons! 👻
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>&dagger;</strong>
+    The <strong class="text--purple">base</strong> class is always required.
+  </p>
+</section>
+
 <section class="p-0 my-4">
   <h3 class="text--light text--size-md mb-3">Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
@@ -170,7 +249,6 @@ The default button style is outlined, white, with a salmon hover background colo
     </div>
   </div>
 <section>
-
 
 {{% anchor name="secondary" %}}
 

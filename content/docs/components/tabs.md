@@ -6,12 +6,12 @@ skellyCSS: true
 
 {{% anchor name="Tab" %}}
 
-Our tabs are based on radio inputs, content for a tabbed section needs to live inside the `.tabs` container. The input `id` and corresponding label `for` need to match.
-The tab's content, `.tab-panel`, must be the consecutive sibling of the `.tab` label.
+Our tabs are based on radio inputs, content for a tabbed section needs to live inside the `tabs` container and the input `id` and corresponding label `for` need to match.
+The tab's content, `tab-panel`, must be the consecutive sibling of the `tab` label.
 
-Tabs have a specific width and height of `16rem` and `4rem` repectively.
+Tabs have a specific width of `16rem` and height of `4rem`.
 
-Work in progress. At a mobile resolution (below 768px) an active tab will collapse when clicked. 
+At a mobile resolution (below 768px) an active tab will collapse when clicked. 
 
 {{< code-demo >}}
 <div class="tabs">

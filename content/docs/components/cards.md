@@ -5,8 +5,7 @@ skellyCSS: true
 ---
 {{% anchor name="card" %}}
 
-Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and
-some padding.
+Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and some padding.
 
 {{< code-demo >}}
 <div class="block-container">
@@ -38,12 +37,12 @@ some padding.
 {{< /code-markup >}}
 
 {{< callout tipHeader="Card Tip">}} 
-  <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text--navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to give the card size.</p>
+  <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text--navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to adjust the card's size.</p>
 {{< /callout >}}
 
 {{% anchor name="image card" %}}
 
-Adding an image element above `card__content` with a `card__image` class transforms a simpla card into an image card. You can add a straight image, or padding and a background color to use an SVG symbol or large icon.
+Adding an image element above `card__content` with a `card__image` class transforms a simple card into an image card. You can add a just an image, or padding and a background color to use an SVG symbol or large icon.
 
 {{< code-demo >}}
 <div class="block-container">
