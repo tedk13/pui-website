@@ -34,7 +34,7 @@ You can also make it [responsive!](/docs/menus/menu/#responsive)
 {{< /highlight >}}
 </div>
 
-## Dropdown
+{{% anchor name="dropdown" %}}
 
 <div class="mb-4">
 {{% requires-js %}}
@@ -350,7 +350,7 @@ Like we mentioned above, by default, the dropdowns will open positioned to the l
 </div>
 
 
-## Responsive
+{{% anchor name="responsive" %}}
 
 <div class="mb-4">
 {{% requires-js %}}
@@ -422,8 +422,7 @@ Add the button before the `site-menu` as a sibling. Both the `site-menu-mobile-a
 {{< /highlight >}}
 </div>
 
-
-## Site Menu Header Example 
+{{% anchor name="site menu header example" %}}
 
 Below is an example of a site header that uses a `site-menu` as the main navigation. The navigation is responsive. 
 You can see if you scale your screen down. 
@@ -498,7 +497,7 @@ want it breaking and "hanging off" the menu. Using the `dropdown--right` modifie
 {{< /highlight >}}
 </div>
 
-## Fixed 
+{{% anchor name="fixed" %}} 
 
 To get a fixed header, you can set the desired height in the config file. The `site-header` needs the modifier, `site-header--fixed`. This is what gives the header the `position: fixed` style.
 In order to ensure that you have proper space between your header and main content, add the class `header-fixed` to the direct sibling of your `site-header`.

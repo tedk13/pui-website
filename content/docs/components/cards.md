@@ -45,11 +45,6 @@ some padding.
 
 Adding an image element above `card__content` with a `card__image` class transforms a simpla card into an image card. You can add a straight image, or padding and a background color to use an SVG symbol or large icon.
 
-{{< callout tipHeader="Card Tip">}} 
-  <p><code>rounded-{number}</code> modifiers work great with cards to give that custom look (this callout uses the rounded modifier on individual corners).</p>
-{{< /callout >}}
-
-
 {{< code-demo >}}
 <div class="block-container">
   <div class="block laptop-up-3">
@@ -77,3 +72,7 @@ Adding an image element above `card__content` with a `card__image` class transfo
 {{< /highlight >}} 
 {{< /code-markup >}}
 </section>
+
+{{< callout tipHeader="Card Tip">}} 
+  <p><code>rounded-{number}</code> modifiers work great with cards to give that custom look (this callout uses the rounded modifier on individual corners).</p>
+{{< /callout >}}

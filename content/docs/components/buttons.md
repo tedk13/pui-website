@@ -90,62 +90,6 @@ The default button style is outlined, white, with a salmon hover background colo
 </tr>
 {{< /modifiers >}}
 
-{{% anchor name="secondary" %}}
-
-The secondary button was build primarily for usage with icons alone with a fancier hover. It can also be used with text.
-
-{{< code-demo >}}
-<button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /highlight >}} 
-{{< /code-markup >}}
-
-{{< modifiers >}}
-<tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
-  <td data-label="Modifier">
-    <code>button--secondary</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <code>has-text</code>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-button-text</code>
-  </td>
-  <td data-label="Behavior">
-    <code>has-text</code> with <code>data-button-text</code> adds custom text on hover.
-  </td>
-</tr>
-{{< /modifiers >}}
-
-{{% anchor name="group" %}}
-
-Evenly space any group of buttons, default or secondary.
-
-{{< code-demo >}}
-<div class="button-group">
-  <button class="button">Cancel</button>
-  <button class="button">Continue</button>
-  <button class="button">Destroy Death Star</button>
-</div>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<div class="button-group">
-  <button class="button">Cancel</button>
-  <button class="button">Continue</button>
-  <button class="button">Destroy Death Star</button>
-</div>
-{{< /highlight >}} 
-{{< /code-markup >}}
-
 <section class="p-0 my-4">
   <h3 class="text--light text--size-md mb-3">Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
@@ -227,12 +171,13 @@ Evenly space any group of buttons, default or secondary.
   </div>
 <section>
 
-## Secondary
 
-The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
+{{% anchor name="secondary" %}}
+
+The secondary button was build primarily for usage with icons alone with a fancier hover. It can also be used with text.
 
 {{< code-demo >}}
-<button class="button button--secondary" aria-label="Download"><i class="pi-download"></i></button>
+<button class="button button--secondary"><i class="pi-download"></i></button>
 {{< /code-demo >}}
 
 {{< code-markup >}}
@@ -241,10 +186,29 @@ The secondary platform button. Always a round button paired with a Platform icon
 {{< /highlight >}} 
 {{< /code-markup >}}
 
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier">
+    <code>button--secondary</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <code>has-text</code>
+  </td>
+  <td data-label="Data Attribute">
+    <code>data-button-text</code>
+  </td>
+  <td data-label="Behavior">
+    <code>has-text</code> with <code>data-button-text</code> adds custom text on hover.
+  </td>
+</tr>
+{{< /modifiers >}}
 
-## Group
+{{% anchor name="group" %}}
 
-Evenly space any group of buttons.
+Evenly space any group of buttons, default or secondary.
 
 {{< code-demo >}}
 <div class="button-group">

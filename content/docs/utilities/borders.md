@@ -56,7 +56,7 @@ You can add specific borders to elements by using the following classes:
   </tbody>
 </table>
 
-## Color
+{{% anchor name="color" %}}
 
 The `border--color-{color}` class uses the [brand colors](/section-color.html#kssref-color-brandcolors) map.
 
@@ -87,7 +87,8 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 </div>
 
 
-## Right Border
+{{% anchor name="right border" %}}
+
 <div class="block-container">
   <div class="block laptop-up-3">
     <div class="card">
@@ -125,7 +126,7 @@ The `border--color-{color}` class uses the [brand colors](/section-color.html#ks
 </div>
 
 
-## Vertical Border
+{{% anchor name="vertical border" %}}
 <div class="block-container">
   <div class="block laptop-up-3">
     <div class="card">

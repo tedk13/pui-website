@@ -81,10 +81,7 @@ All of the following form elements must be nested inside the `form` class to get
 </tr>
 {{< /modifiers >}}
 
-
-{{% anchor name="field level modifiers" %}} 
-
-### Error Styles
+{{% anchor name="error styles" %}}
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
 
@@ -101,7 +98,7 @@ field will receive the error styling. However, if you only want to highlight on 
 {{< /code-demo >}}
 
 
-### Has Icon
+{{% anchor name="has icon" %}}
 
 If you would like the icon to be on the right side of the input, add the class `has-icon--right` to the `form__field` class.
 
@@ -163,9 +160,7 @@ If you would like the icon to be on the right side of the input, add the class `
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{% anchor name="selection" %}}
-
-### Checkbox
+{{% anchor name="checkbox" %}}
 
 For better semantics, it would be best to wrap the check boxes in a `fieldset` using this element as your `form__field` then adding a `legend`. See the example below.
 
@@ -224,7 +219,7 @@ For better semantics, it would be best to wrap the check boxes in a `fieldset` u
 {{< /code-markup >}}
 
 
-### Radio
+{{% anchor name="radio" %}}
 
 For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your
 `form__field` then adding a `legend`. 
@@ -322,7 +317,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
 {{< /code-markup >}}
 
 
-### Select
+{{% anchor name="select" %}}
 
 
 {{< code-demo >}}
@@ -358,8 +353,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
 {{< /highlight >}}
 {{< /code-markup >}}
 
-## Toggle
-
+{{% anchor name="toggle" %}}
 
 {{< code-demo >}}
 <form class="form">
@@ -403,7 +397,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
 {{< /highlight >}}
 {{< /code-markup >}}
 
-### Switch
+{{% anchor name="switch" level="3" %}}
  
 A variation of the toggle, for a smaller widget, use the class `switch`. This is a great option for a checkbox. 
 

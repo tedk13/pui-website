@@ -54,20 +54,6 @@ It's a `1.4rem` loader.
 </tr>
 {{< /modifiers >}}
 
-{{% anchor name="Buttons" %}}
-
-A button can also include a loader by adding/toggling the `loading` class.
-
-{{< code-demo >}}
-<button class="button loading">Submit</button>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<button class="button loading">Submit</button>
-{{< /highlight >}}
-{{< /code-markup >}}
-
 <section class="p-0 my-4">
   <h3 class="text--light text--size-md mb-3">Visualizer</h3>
   <div class="linear-gradient inverted px-4 py-3 block-container" 
@@ -112,9 +98,9 @@ A button can also include a loader by adding/toggling the `loading` class.
   </div>
 <section>
 
-## Button Loading
+{{% anchor name="Buttons" %}}
 
-A button can also include a loader by adding the `loading` class.
+A button can also include a loader by adding/toggling the `loading` class.
 
 {{< code-demo >}}
 <button class="button loading">Submit</button>

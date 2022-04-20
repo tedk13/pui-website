@@ -10,10 +10,6 @@ toc: false
 
 Click the button to toggle the info box. 
 
-{{< callout tipHeader="info box tip">}}
-You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example below.
-{{< /callout >}}
-
 {{< code-demo >}}
 <div class="info-box flex-inline">
   <button class="button toggle-hidden" role="button" aria-label="Toggle">
@@ -68,3 +64,7 @@ You may need to specify a width or add the class `flex-inline` to `info-box` to 
   </td>
 </tr>
 {{< /modifiers >}}
+
+{{< callout tipHeader="info box tip">}}
+You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example below.
+{{< /callout >}}

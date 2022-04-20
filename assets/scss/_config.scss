@@ -182,11 +182,22 @@ main, footer {
   }
 
   // page anchors
-  h2:hover > a {
-    &:after {
-      color: var(--light-purple);
-      content: "#";
-      margin-left: .25rem;
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+      > a{
+        border-bottom: none !important;
+      }
+      &:hover > a {
+        &:after {
+          color: var(--light-purple);
+          content: "#";
+          margin-left: .25rem;
+        }
+      }
     }
-  }
 }
