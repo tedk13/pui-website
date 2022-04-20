@@ -3,7 +3,8 @@ title: Flex
 description: Documentation for Platform UI's flexbox components and utilities.
 ---
 Building layouts with flexbox is super simple with Platform UI using our flex utility classes.
-## Display
+
+{{% anchor name="display" %}}
 Set an element's display property to flex or inline-flex.
 
 <table class="table mb-4">
@@ -25,7 +26,7 @@ Set an element's display property to flex or inline-flex.
   </tbody>
 </table>
 
-## Align
+{{% anchor name="align" %}}
 Sets the flex container to align all contained elements to either the start, center, end, or baseline points of the container.
 
 <div class="linear-gradient inverted px-4 py-3 mt-4 block-container" 
@@ -73,7 +74,7 @@ Sets the flex container to align all contained elements to either the start, cen
   </div>
 </div>
 
-## Align-self
+{{% anchor name="align-self" %}}
 Sets individual elements to align to either the start, center, end, or baseline points of a flex container.
 
 <div class="linear-gradient inverted px-4 py-3 mt-4 block-container" 
@@ -122,7 +123,7 @@ Sets individual elements to align to either the start, center, end, or baseline 
   </div>
 </div>
 
-## Justify
+{{% anchor name="justify" %}}
 Sets individual elements to align to either the start, center, end, or baseline points of a flex container.
 
 <div class="linear-gradient inverted px-4 py-3 mt-4 block-container" 
@@ -176,7 +177,7 @@ Sets individual elements to align to either the start, center, end, or baseline 
   </div>
 </div>
 
-## Direction
+{{% anchor name="direction" %}}
 Utility classes to handle the direction of elements within a flex container.
 
 <div class="linear-gradient inverted px-4 py-3 mt-4 block-container" 
@@ -219,7 +220,7 @@ Utility classes to handle the direction of elements within a flex container.
   </div>
 </div>
 
-## Content
+{{% anchor name="content" %}}
 Utility classes to handle wrapping, spacing, and centering of content within a flex container.
 
 <div class="linear-gradient inverted px-4 py-3 mt-4 block-container" 

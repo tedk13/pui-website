@@ -29,7 +29,8 @@ You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="ext
 </button>
 {{< /highlight >}} 
 
-## For more on accessibility
+{{% anchor name="for more on accessibility" %}}
+
 - <a href="https://a11yproject.com/" rel="external noopener" rel="external noopener">A11Y Project</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" rel="external noopener" rel="external noopener">MDN Accessibility</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" rel="external noopener" rel="external noopener">MDN Aria</a>

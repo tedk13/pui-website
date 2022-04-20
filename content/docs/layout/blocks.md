@@ -11,7 +11,7 @@ Each `block` has a width of 100% applied for all resolutions. We kept mobile-fir
 to change the size of your block or blocks at larger resolutions. More about all of this below.
 
 
-## Block Containers
+{{% anchor name="block containers" %}}
 
 - All block grids start with a wrapper of `block-container` that is set to `display: flex `.
 - `block-container`s have `flex-wrap: wrap` applied as well.
@@ -26,7 +26,7 @@ to change the size of your block or blocks at larger resolutions. More about all
 </div>
 
 
-## Block Sizes
+{{% anchor name="block sizes" %}}
 
 - Each `.block` has a width of 100%. From there, you can add modifiers to each block to take up the desired amount of columns in the 12 column grid.
 You can use responsive modifiers on each block as well. These modiifiers change the width (or amount of columns taken) of individual blocks from each breakpoint and up. The breakpoint modifiers use min-width media queries.
@@ -153,7 +153,7 @@ The example below shows how each block lays out along the 12 column grid.
 </table>
 
 
-### Building Grids
+{{% anchor name="building grids" level="3" %}}
 
 You can build a grid of equally sized blocks using the block layout. This can be done in a couple ways. The first way is by adding the classes to each individual block. Something like `block` `block-3` on each block will result in a grid of 4 blocks per row.
 
@@ -218,7 +218,7 @@ You can build a grid of equally sized blocks using the block layout. This can be
 {{< /highlight >}}
 </div>
 
-#### On The Block-container
+{{% anchor name="on the block-container" level="4" %}}
 
 The second approach is to add the sizing classes to the wrapping `block-container`. This prevents you from needing to add the classes to each block. These classes look like `{breakpoint}-up-{number-of-blocks-per-row}`. When building from the mobile-first approach, if you want more than one `block` per row at your smallest screen size, you will need to start with a `mobile-up-{number-of-blocks-per-row}` unless you want a `block` to be full width of your `block-container`.
 
@@ -288,7 +288,7 @@ Scale your window to watch the grid change.
 </div>
 
 
-### Responsive Grid
+{{% anchor name="responsive grid" level="3" %}}
 
 You can build a responsive grid with blocks. You can add the responsive classes to the individual blocks, or add them to the container. Adding layout classes to the container works best when you need a grid of equally sized blocks.
 
@@ -329,7 +329,7 @@ You can build a responsive grid with blocks. You can add the responsive classes 
   </tbody>
 </table>
 
-#### On The Block
+{{% anchor name="on the block" level="4" %}}
 
 Adding the responsive classes on a block means that at that resolution, the block will take up as many columns in the 12 column row that are applied via the class. For example: `<div class="block tablet-up-6 laptop-up-4"></div>` This div will take up all 12 columns at the smallest screen size, 6 columns starting at the tablet screen size, and 4 columns at the laptop screen size.
 
@@ -396,7 +396,7 @@ In this example, each block will take up an entire row at the smallest screen si
 {{< /highlight >}}
 </div>
 
-#### On The Block-container
+{{% anchor name="on the block-container" level="4" %}}
 
 You can also add these classes to the wrapping `block-container`. As mentioned above, this method works well for equally sized grids. You use the same class names as on the block, but when the class is on the `block-container` the class is decribing how many `block`s there will be per row.
 
@@ -464,7 +464,7 @@ Scale your window to watch the grid change.
 </div>
 
 
-## Spacing
+{{% anchor name="spacing" %}}
 
 - Spacing is based on Platform UI spacing with the following changes in behavior; Attaching padding to the horizontal axis, px-2, with a modifier of blocks will add that spacing to the block-container.
 - Without the blocks modifier, placing block-container px-2 will not apply the horizontal axis padding to the block children within the container but rather apply padding: 0 .5rem to the block-container.
@@ -534,7 +534,7 @@ Each block in the example below has padding: .5rem applied.
 </div>
 
 
-## Block Utilities
+{{% anchor name="block utilities" %}}
 
 Breakpoint classes can be added to each of these utilities as well. So, for example, you could have a `block-8` from mobile up. Then, at a laptop size you wanted the block to shrink to the size of it's content, you could add the class `laptop-up--shrink`. This would give the styles `width: auto` within that set media query. So you're block would have the classes, `block` `block-8` `laptop-up--shrink`.
 

@@ -5,7 +5,7 @@ description: Platform UI utilities for background color, images, and gradients.
 Used to modify the appearance of the background.
 
 
-## Colors
+{{% anchor name="color" %}}
 
 The background color classes are used to set, or change a `background--color` on a specific element. 
 
@@ -110,8 +110,120 @@ The background color classes are used to set, or change a `background--color` on
   </tbody>
 </table>
 
+<section class="p-0 my-4">
+  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
+  <div class="linear-gradient inverted px-4 py-3 block-container" 
+      data-callout-header="tables tip" 
+      data-callout-radius="0 3rem 0 3rem"
+      data-gradient-direction="30deg"
+      data-gradient-start="midnightblue 20%, purple 40%"
+      data-gradient-stop="indigo"
+      data-gradient-fallback="indigo">
+    <i class="pi-rocket mr-1"></i>
+    <strong class="mr-1">Try this!</strong> 
+    Change the background color!
+  </div>
+  <div class="visualizer block-container p-3 py-4 border border--color-lighter border--width-5 tablet-up-2 mb-4">
+    <div class="actions block">
+      <ul class="list">
+        <li>
+          <button class="button" data-example-elements="background--white">
+            <pre>.background--white</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--lighter">
+            <pre>.background--lighter</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--light-mid">
+            <pre>.background--light-mid</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--light">
+            <pre>.background--light</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--base text--white">
+            <pre>.background--base</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--dark text--white">
+            <pre>.background--dark</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--black text--white">
+            <pre>.background--black</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--navy text--white">
+            <pre>.background--navy</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--skyblue">
+            <pre>.background--skyblue</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--lightblue">
+            <pre>.background--lightblue</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--med-blue">
+            <pre>.background--med-blue</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--beige">
+            <pre>.background--beige</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--peach">
+            <pre>.background--peach</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--salmon">
+            <pre>.background--salmon</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--brown text--white">
+            <pre>.background--brown</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button" data-example-elements="background--orange">
+            <pre>.background--orange</pre>
+          </button>
+        </li>
+        <li>
+          <button class="button button--salmon text--white" data-reset="true">
+            Reset
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
+      <div class="block block-9 h-100 card transition">
+        <span class="text--size-md">Example Card</span>
+        <p class="skeleton" data-lines="3" role="presentation"></p>
+      </div>
+    </div>
+  </div>
+<section>
 
-## Inverted
+
+{{% anchor name="inverted" %}}
 
 The `inverted` class changes the color of an element to white. It has a transition, so after the class is added, the color
 will transition to white.
@@ -129,7 +241,7 @@ will transition to white.
 </div>
 
 
-## Transparent
+{{% anchor name="transparent" %}}
 
 If you want to remove the background color and border color on an element, add the class `transparent`.
 
@@ -156,7 +268,7 @@ If you want to remove the background color and border color on an element, add t
 </div>
 
 
-## Images
+{{% anchor name="images" %}}
 
 <div class="mb-4">
 {{% requires-js %}}
@@ -329,22 +441,13 @@ See the example below to see it all come together. You may notice a `ratio-` cla
 </div>
 
 
-## Gradient
+{{% anchor name="gradient" %}}
 
 <div class="mb-4">
 {{% requires-js %}}
 </div>
 
 You can create your own custom linear gradient. Start by adding the linear-gradient class. From there, enter the values you like for your direction and color using the appropriate data attributes. See the example and table below.
-
-<div class="overflow-x--auto">
-
-| Class | Data-Attribute | Scenarios |
-|---|---|---|
-| `.linear-gradient` | `data-gradient-direction` | `background-image: linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))` |
-|  | `data-gradient-start` | `	linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))` |
-|  | `data-gradient-stop` | `linear-gradient(0deg, rgb(2, 0, 36), rgb(0, 212, 255))` |
-|  | `data-gradient-fallback` | Add a fallback `background-color` |
 
 <table class="table mb-4">
   <thead>
@@ -453,7 +556,7 @@ You can also change the distance of your colors by adding a perceentage in the d
 </div>
 
 
-## Image and Gradient
+{{% anchor name="image and gradient" %}}
 
 You can get really fancy with your backgrounds by adding a gradient over a background image. To do this, you will need both classes `linear-gradient` `background-image`. From there, add the appropriate data attributes to get your desired image and gradient.
 
@@ -484,7 +587,7 @@ You can get really fancy with your backgrounds by adding a gradient over a backg
 </div>
 
 
-## Ratio
+{{% anchor name="ratio" %}}
 
 Set the size of an element equal to a common ratio with the ratio-{val} class.
 
@@ -564,115 +667,3 @@ Set the size of an element equal to a common ratio with the ratio-{val} class.
 </div>
 {{< /highlight >}}
 </div>
-
-<section class="p-0 my-4">
-  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
-  <div class="linear-gradient inverted px-4 py-3 block-container" 
-      data-callout-header="tables tip" 
-      data-callout-radius="0 3rem 0 3rem"
-      data-gradient-direction="30deg"
-      data-gradient-start="midnightblue 20%, purple 40%"
-      data-gradient-stop="indigo"
-      data-gradient-fallback="indigo">
-    <i class="pi-rocket mr-1"></i>
-    <strong class="mr-1">Try this!</strong> 
-    Change the background color!
-  </div>
-  <div class="visualizer block-container p-3 py-4 border border--color-lighter border--width-5 tablet-up-2 mb-4">
-    <div class="actions block">
-      <ul class="list">
-        <li>
-          <button class="button" data-example-elements="background--white">
-            <pre>.background--white</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--lighter">
-            <pre>.background--lighter</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--light-mid">
-            <pre>.background--light-mid</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--light">
-            <pre>.background--light</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--base text--white">
-            <pre>.background--base</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--dark text--white">
-            <pre>.background--dark</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--black text--white">
-            <pre>.background--black</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--navy text--white">
-            <pre>.background--navy</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--skyblue">
-            <pre>.background--skyblue</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--lightblue">
-            <pre>.background--lightblue</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--med-blue">
-            <pre>.background--med-blue</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--beige">
-            <pre>.background--beige</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--peach">
-            <pre>.background--peach</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--salmon">
-            <pre>.background--salmon</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--brown text--white">
-            <pre>.background--brown</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="background--orange">
-            <pre>.background--orange</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button button--salmon text--white" data-reset="true">
-            Reset
-          </button>
-        </li>
-      </ul>
-    </div>
-    <div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
-      <div class="block block-9 h-100 card transition">
-        <span class="text--size-md">Example Card</span>
-        <p class="skeleton" data-lines="3" role="presentation"></p>
-      </div>
-    </div>
-  </div>
-<section>
