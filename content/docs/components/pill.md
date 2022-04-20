@@ -4,8 +4,8 @@ description: Documentation for Platform UI's pills, split pills, circle pills, a
 ---
 {{% anchor name="pill" %}}
 
-A rounded, pill like, badge. 
-A pill can support color by adding a text or background modifier.
+A rounded, pill-shaped badge. A pill can support color by adding a text or background modifier.
+
 Pills have no hover state.
 
 {{< code-demo >}}

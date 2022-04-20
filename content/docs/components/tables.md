@@ -5,11 +5,9 @@ toc: false
 ---
 {{% anchor name="table" %}}
 
-Our default table is simple and un-cluttered without vertical borders. 
+Our default table is simple and uncluttered without vertical borders. 
 
- Platform UI tables are built to be responsive at all screen sizes! 
- 
- Make them responsive by adding `data-label` on [every] `<td>` to match the column header label.
+Platform UI tables are built to be responsive at all screen sizes! Make them responsive by adding a `data-label` on every `<td>` to match the column header label.
 
 {{< code-demo >}}
 <table class="table">

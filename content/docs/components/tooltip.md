@@ -6,7 +6,7 @@ toc: true
 
 {{% anchor name="tooltip" %}}
 
-Add your tooltip text to a `data-tooltip` attribute on any item you want a tooltip.
+Add your text to a `data-tooltip` attribute on any item you want to provide with a tooltip.
 
 {{< code-demo >}}
 <div data-tooltip="Here is a tooltip!">hover me!</div>

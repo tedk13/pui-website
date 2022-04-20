@@ -8,7 +8,7 @@ skellyCSS: true
 
 Similar to the browser default, we added a left border which can be colored using <a href="/docs/utilities/borders/">border color utilities</a>.
 
-To attribute someone in the blockquote, add using `<footer>`. If you're referencing a specific creative work, wrap it in a `<cite>` tag.
+To attribute someone in the blockquote, add a `<footer>`. If you're referencing a specific creative work, wrap it in a `<cite>` tag.
 
 {{< code-demo >}}
 <blockquote class="block laptop-up-6">

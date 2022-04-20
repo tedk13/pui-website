@@ -9,11 +9,11 @@ toc: false
 
 {{% anchor name="Default" %}}
 
-Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay the modal.
+A modal will display over the screen when toggled with the `active` class.
 
-`.modal__close` on the close button is a handle for JS.
+A modal can easily be opened by setting `data-modal` with the matching `id` of the desired modal on a button with the `modal__open` class. Similarly, a button with the same setup and the `modal__close` class will close the modal.
 
-If you need to prevent the background from scrolling, add the `.modal-open` class to your body element when a modal is open.
+If you need to prevent the background from scrolling, toggle the `modal-open` class on the body element while the modal is open.
 
 {{< code-demo >}}
 <div class="block mb-3">
