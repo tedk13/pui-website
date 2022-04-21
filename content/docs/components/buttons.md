@@ -1,7 +1,6 @@
 ---
 title: Buttons
 description: Documentation for Platform UI's button, secondary button, and button group components.
-toc: true
 ---
 {{% anchor name="button" %}}
 

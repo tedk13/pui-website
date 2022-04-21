@@ -2,7 +2,6 @@
 title: Images
 description: Documentation for Platform UI's image components.
 skellyCSS: true
-toc: false
 ---
 {{% anchor name="Round" %}}
 

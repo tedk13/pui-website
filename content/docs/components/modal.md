@@ -2,7 +2,6 @@
 title: Modals
 description: Documentation for Platform UI's modal components.
 skellyCSS: true
-toc: false
 ---
 
 {{% requires-js %}}

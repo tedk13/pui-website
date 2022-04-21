@@ -1,7 +1,6 @@
 ---
 title: Lists
 description: Documentation for Platform UI's list components.
-toc: true
 ---
 
 {{% anchor name="Default" %}}

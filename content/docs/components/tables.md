@@ -1,7 +1,6 @@
 ---
 title: Tables
 description: Documentation for Platform UI's table component.
-toc: false
 ---
 {{% anchor name="table" %}}
 

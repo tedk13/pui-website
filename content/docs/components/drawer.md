@@ -2,7 +2,6 @@
 title: Drawers
 description: Documentation for Platform UI's drawer components.
 skellyCSS: true
-toc: false
 ---
 
 {{% requires-js %}}

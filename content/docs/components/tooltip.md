@@ -1,7 +1,6 @@
 ---
 title: Tooltips
 description: Documentation for Platform UI's tooltip component.
-toc: true
 ---
 
 {{% anchor name="tooltip" %}}
