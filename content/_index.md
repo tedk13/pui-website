@@ -23,7 +23,7 @@ description: Platform UI is a fast, simple, and powerful CSS framework that's bu
           <figure>
             <img src="/images/icons/responsive.svg" alt="Platform UI setup is easy!" class="px-4">
             <figcaption>
-              Quick to install, easy to learn. Using a CDN or npm install, then a template, and you're live!
+              Quick to install, easy to learn. Use a CDN or npm install, add a template, and you're live!
             </figcaption>
           </figure>
         </div>
@@ -56,7 +56,7 @@ description: Platform UI is a fast, simple, and powerful CSS framework that's bu
           <figure>
             <img src="/images/icons/responsive.svg" alt="Quickly get started with templates!" class="px-4">
             <figcaption>
-              Want that blog up now! We have starter templates to help you launch your ideas.
+              Want that blog up now? We have starter templates to help you launch your ideas.
             </figcaption>
           </figure>
         </div>
@@ -94,7 +94,7 @@ https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js
   <div class="block block-11 tablet-up-8 desktop-up-6">
     <h2 class="text--center text--purple text--bold text--size-xl">Need moar?</h2>
     <p class="text--size-md">
-Here's a quick template to get you started. It uses th CDN install, which we recommend for a quick launch!</p>
+Here's a quick template to get you started. It uses the CDN install, which we recommend for a quick launch!</p>
     <div class="block-container flex--justify-center">
       <div class="block">
 {{< highlight html >}}

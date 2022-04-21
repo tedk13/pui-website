@@ -5,7 +5,7 @@ description: Documentation for Platform UI's typographical utilities.
 The typography settings created for headings and paragraphs by platform-ui, as well as the different typography utilities.
 
 
-## Headings
+{{% anchor name="headings" %}}
 
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -26,7 +26,7 @@ The typography settings created for headings and paragraphs by platform-ui, as w
 </div>
 
 
-## Paragraphs
+{{% anchor name="paragraphs" %}}
 
 <div class="card block-container mb-3 flex--align-center">
   <div class="block block-6">
@@ -44,12 +44,12 @@ The typography settings created for headings and paragraphs by platform-ui, as w
 </div>
 
 
-## Typography Utilities
+{{% anchor name="typography utilities" %}}
 
 Below are some of our typography utilities.
 
 
-### Case
+{{% anchor name="case" level="3" %}}
 
 Utility classes to modify text case type.
 
@@ -85,7 +85,7 @@ Utility classes to modify text case type.
   </tbody>
 </table>
 
-### Color
+{{% anchor name="color" level="3" %}}
 
 `text--{ color }`, `text-hover--{ color }` combines our [greyscale](/section-color.html#kssref-color-greyscale), [brand colors](/section-color.html#kssref-color-brandcolors), and [secondary colors](/section-color.html#kssref-color-secondarycolors) maps.
 
@@ -206,7 +206,7 @@ Utility classes to modify text case type.
   </tbody>
 </table>
 
-### General Utilities
+{{% anchor name="general utilities" level="3" %}}
 
 General utilities add class-based css transforms like `uppercase` and `bold`. See the chart below for the full list.
 
@@ -264,7 +264,7 @@ General utilities add class-based css transforms like `uppercase` and `bold`. Se
   </tbody>
 </table>
 
-### Sizing
+{{% anchor name="sizing" level="3" %}}
 
 `text--size-{ size }` leverages percentages for smaller or larger text. The defaut `font-size` is `1rem`.
 

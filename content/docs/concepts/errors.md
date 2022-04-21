@@ -6,9 +6,9 @@ weight: 3
 
 There are time you just want a small reflection of a greater state; good, bad, indifferent. More on the SPA/SWA side of development, we found use for small indications of that greater state and made it easier to leverage in Platform UI. 
 
-`positive`, `negative`, and `neutral` became a simple language to convery these. They currently affect [pills](/docs/components/pills/), [text](link here), and [backgrounds](link here), and may make their way further into our framework in the future. 
+`positive`, `negative`, and `neutral` became a simple language to convey these states. They currently affect [pills](/docs/components/pills/), [text](link here), and [backgrounds](link here), and may make their way further into our framework in the future.
 
-## Text
+{{% anchor name="text" %}}
 
 <p class="text--positive">Positive</p>
 <p class="text--negative">Negative</p>
@@ -20,7 +20,7 @@ There are time you just want a small reflection of a greater state; good, bad, i
 <p class="text--neutral">Neutral</p>
 {{< /highlight >}}
 
-## Pills
+{{% anchor name="pills" %}}
 
 <div class="pill pill--circle-empty positive"></div>
 <div class="pill pill--circle-empty negative"></div>

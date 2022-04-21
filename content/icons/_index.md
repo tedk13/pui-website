@@ -1713,7 +1713,7 @@ clipboard.on('success', function(e) {
 </script>
 
 
-## Setup
+{{% anchor name="setup" %}}
 
 <table class="table mb-4">
   <thead>
@@ -1749,7 +1749,7 @@ clipboard.on('success', function(e) {
 <i class="pi-warning text--orange"></i> **NOTE:** Rememeber to expand to outlines before committing.
 
 
-## Sizing
+{{% anchor name="sizing" %}}
 
 <table class="table mb-4">
   <thead>

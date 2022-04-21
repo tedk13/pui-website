@@ -9,7 +9,9 @@ toc: false
 
 {{% anchor name="drawer" %}}
 
-A drawer is content meant to be toggle from any direction to slide into view. The default orientation is bottom.
+A drawer is content meant to be toggled with the `active` class and then slide into view from any direction. The default orientation is bottom.
+
+A drawer can easily be opened by setting `data-drawer` with the matching `id` of the desired drawer on a button with the `drawer__open` class. Similarly, a button with the same setup and the `drawer__close` class will close the drawer.
 
 {{< code-demo >}}
 <div class="block-container mt-3">
@@ -17,7 +19,7 @@ A drawer is content meant to be toggle from any direction to slide into view. Th
     Toggle drawer
   </button>
 </div>
-<div id="default" class="drawer drawer--closed">
+<div id="default" class="drawer">
   <div class="drawer__inner">
    <div class="drawer__content">
       <div class="flex flex--justify-end mb-3">
@@ -38,7 +40,7 @@ A drawer is content meant to be toggle from any direction to slide into view. Th
   Toggle default drawer
 </button>
 <!-- Default Drawer -->
-<div class="drawer drawer--closed">
+<div id="default" class="drawer">
   <div class="drawer__inner">
     <div class="drawer__header">
       <button class="button drawer__close" data-drawer="default">

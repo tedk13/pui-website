@@ -5,7 +5,7 @@ toc: true
 ---
 {{% anchor name="button" %}}
 
-The default button style is outlined, white, with a salmon hover background color. See the [modifiers](#modifiers) table for 
+The default button style is white with a dark outline and has a salmon background color on hover. See the [modifiers](#modifiers) table for more options!
 
 
 {{< code-demo >}}
@@ -90,61 +90,84 @@ The default button style is outlined, white, with a salmon hover background colo
 </tr>
 {{< /modifiers >}}
 
-{{% anchor name="secondary" %}}
-
-The secondary button was build primarily for usage with icons alone with a fancier hover. It can also be used with text.
-
-{{< code-demo >}}
-<button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /highlight >}} 
-{{< /code-markup >}}
-
-{{< modifiers >}}
-<tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
-  <td data-label="Modifier">
-    <code>button--secondary</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <code>has-text</code>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-button-text</code>
-  </td>
-  <td data-label="Behavior">
-    <code>has-text</code> with <code>data-button-text</code> adds custom text on hover.
-  </td>
-</tr>
-{{< /modifiers >}}
-
-{{% anchor name="group" %}}
-
-Evenly space any group of buttons, default or secondary.
-
-{{< code-demo >}}
-<div class="button-group">
-  <button class="button">Cancel</button>
-  <button class="button">Continue</button>
-  <button class="button">Destroy Death Star</button>
-</div>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<div class="button-group">
-  <button class="button">Cancel</button>
-  <button class="button">Continue</button>
-  <button class="button">Destroy Death Star</button>
-</div>
-{{< /highlight >}} 
-{{< /code-markup >}}
+<section class="p-0 mb-4">
+  <h3 class="text--light text--size-md mb-3">Modifiers on <code>button</code></h3>
+  <div class="card p-0 no-border rounded-2">
+    <table class="table modifiers table--no-hover">
+      <thead>
+        <tr>
+          <th>Modifier &dagger;</th>
+          <th>Secondary Modifier</th>
+          <th>Data Attribute</th>
+          <th style="width: 40%">Behavior</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--lg</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            A larger button.
+          </td>
+        </tr>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--plain</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            Removes the border and background. 
+            Good for icons alone.
+          </td>
+        </tr>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--{color}</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            Loops through Platform UI colors for background and hover coloring.
+          </td>
+        </tr>
+        <tr>
+          <td data-label="Modifier">
+            <code>button--ghost</code>
+          </td>
+          <td data-label="Secondary Modifier">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Data Attribute">
+            <i class="pi-ban" aria-hidden="true"></i>
+          </td>
+          <td data-label="Behavior">
+            Ghost buttons! 👻
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>&dagger;</strong>
+    The <strong class="text--purple">base</strong> class is always required.
+  </p>
+</section>
 
 <section class="p-0 my-4">
   <h3 class="text--light text--size-md mb-3">Visualizer</h3>
@@ -227,12 +250,12 @@ Evenly space any group of buttons, default or secondary.
   </div>
 <section>
 
-## Secondary
+{{% anchor name="secondary" %}}
 
-The secondary platform button. Always a round button paired with a Platform icon. Can be the default size or large.
+The secondary button was build primarily for usage with icons alone with a fancier hover. It can also be used with text.
 
 {{< code-demo >}}
-<button class="button button--secondary" aria-label="Download"><i class="pi-download"></i></button>
+<button class="button button--secondary"><i class="pi-download"></i></button>
 {{< /code-demo >}}
 
 {{< code-markup >}}
@@ -241,10 +264,29 @@ The secondary platform button. Always a round button paired with a Platform icon
 {{< /highlight >}} 
 {{< /code-markup >}}
 
+{{< modifiers >}}
+<tr>
+  <td data-label="Base">
+    <code>button</code>
+  </td>
+  <td data-label="Modifier">
+    <code>button--secondary</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    <code>has-text</code>
+  </td>
+  <td data-label="Data Attribute">
+    <code>data-button-text</code>
+  </td>
+  <td data-label="Behavior">
+    <code>has-text</code> with <code>data-button-text</code> adds custom text on hover.
+  </td>
+</tr>
+{{< /modifiers >}}
 
-## Group
+{{% anchor name="group" %}}
 
-Evenly space any group of buttons.
+Evenly space any group of buttons, default or secondary.
 
 {{< code-demo >}}
 <div class="button-group">

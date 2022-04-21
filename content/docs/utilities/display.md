@@ -41,7 +41,7 @@ New display utilities for Platform UI.
 </table>
 
 
-## Display: Responsive
+{{% anchor name="display responsive" %}}
 <div class="mb-4">
   {{% new version="1.3.0" %}}
 </div>

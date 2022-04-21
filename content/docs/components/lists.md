@@ -6,7 +6,7 @@ toc: true
 
 {{% anchor name="Default" %}}
 
-Our default un-ordered list has `margin: 0` and `padding-left: 1rem` applied. List items have `margin-bottom: .5rem`.
+Our default unordered list has `margin: 0` and `padding-left: 1rem` applied. List items have `margin-bottom: .5rem`.
 
 <ul>
   <li>Dogs</li>
@@ -93,7 +93,7 @@ Adding `list` strips `list-style-type`, `margin`, and `padding` from the user ag
     <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
-    Adds a bottom border when adding <code>.list__item</code> to each child <code>li</code>.
+    Adds a bottom border when adding <code>list__item</code> to each child <code>li</code>.
   </td>
 </tr>
 {{< /modifiers >}}
