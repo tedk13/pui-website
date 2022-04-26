@@ -46,17 +46,8 @@ Click the button to toggle the info box.
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base">
-    <code>info-box</code>
-  </td>
   <td data-label="Modifier">
     <code>info-box--left</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     The info box opens from the left

@@ -102,85 +102,40 @@ Pills can be circular.
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
   <td data-label="Modifier">
     <code>pill--circle-empty-dot</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Dot pill intended to remain empty
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
   <td data-label="Modifier">
     <code>pill--circle-empty</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Small, circular pill intended to remain empty
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
   <td data-label="Modifier">
     <code>pill--circle</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Circular pill intended to contain content
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
   <td data-label="Modifier">
     <code>pill--circle-medium</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Medium circular pill intended to contain content
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
   <td data-label="Modifier">
     <code>pill--circle-large</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Large circular pill intended to contain content

@@ -19,11 +19,8 @@ Add your text to a `data-tooltip` attribute on any item you want to provide with
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers type="data">}}
 <tr>
-  <td data-label="Base">
-    <code>tooltip-{direction}</code>
-  </td>
   <td data-label="Modifier">
     <i class="pi-ban" aria-hidden="true">
   </td>
@@ -38,9 +35,6 @@ Add your text to a `data-tooltip` attribute on any item you want to provide with
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>tooltip-inline</code>
-  </td>
   <td data-label="Modifier">
     <i class="pi-ban" aria-hidden="true"></i>
   </td>

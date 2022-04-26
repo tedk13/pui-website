@@ -4,8 +4,9 @@ $brand-colors: (
   "light-purple": hsla(254, 34%, 46%, 1),
   "salmon": hsla(16, 71%, 65%, 1),
   "lavender": hsla(240, 67%, 94%, 1),
-  "lavender-blush": hsla(340, 100%, 97%, 1),
-  "thistle": hsla(300, 24%, 80%, 1)
+  // grid block columns
+  "lavender-blush": hsla(340, 100%, 97%, .6),
+  "thistle": hsla(300, 24%, 80%, .5)
 );
 
 :root {
@@ -34,12 +35,8 @@ code {
   color: rebeccapurple;
   padding: 0 .25rem;
   font-size: inherit;
+  white-space: nowrap;
 }
-
-// Don't know how to handle this, cuz we should?
-// code {
-//   white-space: nowrap;
-// }
 
 .card {
   @media only screen and (min-width: 1800px) {
@@ -189,7 +186,6 @@ main, footer {
     h4,
     h5,
     h6 {
-      margin-top: 2rem;
       > a {
         border-bottom: none !important;
       }

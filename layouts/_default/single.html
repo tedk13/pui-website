@@ -49,12 +49,10 @@
         {{ .Content }}
       </article>
       {{ if not .IsHome }}
-      {{if ne .Params.toc false}}
-        <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
-          <h2 class="text--size-md">{{ if in .Permalink "lauchpad" }}Examples{{ else }}On This Page{{ end }}</h2>
-          {{ .TableOfContents }}
-        </aside>
-        {{ end }}
+      <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
+        <h2 class="text--size-md">{{ if in .Permalink "lauchpad" }}Examples{{ else }}On This Page{{ end }}</h2>
+        {{ .TableOfContents }}
+      </aside>
       {{ end }}
     </main>
   </div>

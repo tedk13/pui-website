@@ -82,19 +82,10 @@ Platform UI tables are built to be responsive at all screen sizes! Make them res
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Table" >}}
+{{< modifiers >}}
 <tr>
-  <td data-label="Base">
-    <code>table</code>
-  </td>
   <td data-label="Modifier">
     <code>table--no-hover</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Removes the hover effect on table and rows

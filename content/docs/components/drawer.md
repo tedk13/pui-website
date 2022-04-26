@@ -56,11 +56,8 @@ A drawer can easily be opened by setting `data-drawer` with the matching `id` of
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers type="data" >}}}
 <tr>
-  <td data-label="Base">
-    <code>drawer</code>
-  </td>
   <td data-label="Modifier">
     <code>drawer-{t,l,r}</code>
   </td>
@@ -75,9 +72,6 @@ A drawer can easily be opened by setting `data-drawer` with the matching `id` of
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>drawer</code>
-  </td>
   <td data-label="Modifier">
     <code>drawer--single-row</code>
   </td>

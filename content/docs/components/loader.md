@@ -19,34 +19,16 @@ It's a `1.4rem` loader.
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base">
-    <code>loader</code>
-  </td>
   <td data-label="Modifier">
     <code>loader--sm</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Small <code>.9rem</code>
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>loader</code>
-  </td>
   <td data-label="Modifier">
     <code>loader--lg</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Large <code>2rem</code>

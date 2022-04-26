@@ -5,7 +5,7 @@ skellyCSS: true
 ---
 {{% anchor name="card" %}}
 
-Cards can be great for seperating blocks of content. A `card` comes standard with a white background, light grey border, and some padding.
+Cards can be great for separating blocks of content. A `card` comes standard with a white background, light grey border, and some padding.
 
 {{< code-demo >}}
 <div class="block-container">

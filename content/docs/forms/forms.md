@@ -14,65 +14,29 @@ All of the following form elements must be nested inside the `form` class to get
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base">
-    <code>form</code>
-  </td>
   <td data-label="Modifier">
     <code>form--fancy</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Adds placeholder/label animation
   </td>
 </tr><tr>
-  <td data-label="Base">
-    <code>form</code>
-  </td>
   <td data-label="Modifier">
     <code>form--bordered</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Add input borders.
   </td>
 </tr><tr>
-  <td data-label="Base">
-    <code>form</code>
-  </td>
   <td data-label="Modifier">
     <code>form--rounded</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Adds circular borders to inputs.
   </td>
 </tr><tr>
-  <td data-label="Base">
-    <code>form</code>
-  </td>
   <td data-label="Modifier">
     <code>form--light</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     what the hell does this do?
