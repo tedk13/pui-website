@@ -1,7 +1,6 @@
 ---
 title: Buttons
 description: Documentation for Platform UI's button, secondary button, and button group components.
-toc: true
 ---
 {{% anchor name="button" %}}
 
@@ -20,34 +19,16 @@ The default button style is white with a dark outline and has a salmon backgroun
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
   <td data-label="Modifier">
     <code>button--lg</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     A larger button.
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
   <td data-label="Modifier">
     <code>button--plain</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Removes the border and background. 
@@ -55,34 +36,16 @@ The default button style is white with a dark outline and has a salmon backgroun
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
   <td data-label="Modifier">
     <code>button--{color}</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Loops through Platform UI colors for background and hover coloring.
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
   <td data-label="Modifier">
     <code>button--ghost</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Ghost buttons! 👻
@@ -90,94 +53,12 @@ The default button style is white with a dark outline and has a salmon backgroun
 </tr>
 {{< /modifiers >}}
 
-<section class="p-0 mb-4">
-  <h3 class="text--light text--size-md mb-3">Modifiers on <code>button</code></h3>
-  <div class="card p-0 no-border rounded-2">
-    <table class="table modifiers table--no-hover">
-      <thead>
-        <tr>
-          <th>Modifier &dagger;</th>
-          <th>Secondary Modifier</th>
-          <th>Data Attribute</th>
-          <th style="width: 40%">Behavior</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td data-label="Modifier">
-            <code>button--lg</code>
-          </td>
-          <td data-label="Secondary Modifier">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Data Attribute">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Behavior">
-            A larger button.
-          </td>
-        </tr>
-        <tr>
-          <td data-label="Modifier">
-            <code>button--plain</code>
-          </td>
-          <td data-label="Secondary Modifier">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Data Attribute">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Behavior">
-            Removes the border and background. 
-            Good for icons alone.
-          </td>
-        </tr>
-        <tr>
-          <td data-label="Modifier">
-            <code>button--{color}</code>
-          </td>
-          <td data-label="Secondary Modifier">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Data Attribute">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Behavior">
-            Loops through Platform UI colors for background and hover coloring.
-          </td>
-        </tr>
-        <tr>
-          <td data-label="Modifier">
-            <code>button--ghost</code>
-          </td>
-          <td data-label="Secondary Modifier">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Data Attribute">
-            <i class="pi-ban" aria-hidden="true"></i>
-          </td>
-          <td data-label="Behavior">
-            Ghost buttons! 👻
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <p>
-    <strong>&dagger;</strong>
-    The <strong class="text--purple">base</strong> class is always required.
-  </p>
-</section>
-
 <section class="p-0 my-4">
   <h3 class="text--light text--size-md mb-3">Visualizer</h3>
-  <div class="linear-gradient inverted px-4 py-3 block-container" 
-      data-callout-header="tables tip" 
-      data-callout-radius="0 3rem 0 3rem"
-      data-gradient-direction="30deg"
-      data-gradient-start="midnightblue 20%, purple 40%"
-      data-gradient-stop="indigo"
-      data-gradient-fallback="indigo">
+  <div class="linear-gradient text--purple px-4 py-3 block-container rounded-tl--2 rounded-tr--2" 
+      data-gradient-direction="0deg"
+      data-gradient-start="lavender"
+      data-gradient-stop="lavender">
     <i class="pi-rocket mr-1"></i>
     <strong class="mr-1">Try this!</strong> 
     Check out different colors of buttons!
@@ -264,11 +145,8 @@ The secondary button was build primarily for usage with icons alone with a fanci
 {{< /highlight >}} 
 {{< /code-markup >}}
 
-{{< modifiers >}}
+{{< modifiers type="data" >}}
 <tr>
-  <td data-label="Base">
-    <code>button</code>
-  </td>
   <td data-label="Modifier">
     <code>button--secondary</code>
   </td>

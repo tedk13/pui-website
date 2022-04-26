@@ -2,7 +2,6 @@
 title: Accordions
 description: Documentation for Platform UI's accordion components.
 skellyCSS: true
-toc: true
 ---
 
 {{% requires-js %}} {{% requires-icons %}}

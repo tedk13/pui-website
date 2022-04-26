@@ -2,7 +2,6 @@
 title: Modals
 description: Documentation for Platform UI's modal components.
 skellyCSS: true
-toc: false
 ---
 
 {{% requires-js %}}
@@ -57,65 +56,29 @@ If you need to prevent the background from scrolling, toggle the `modal-open` cl
 
 {{< modifiers >}}
 <tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
   <td data-label="Modifier">
     <code>modal--small</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Small sized modal
   </td>
 </tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
   <td data-label="Modifier">
     <code>modal--large</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Large sized modal
   </td>
 </tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
   <td data-label="Modifier">
     <code>modal--full</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Full sized modal, takes up 100% of the viewport
   </td>
 </tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
   <td data-label="Modifier">
     <code>modal--centered</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Centers the modal in the middle of the viewport

@@ -1,7 +1,6 @@
 ---
 title: Lists
 description: Documentation for Platform UI's list components.
-toc: true
 ---
 
 {{% anchor name="Default" %}}
@@ -63,34 +62,16 @@ Adding `list` strips `list-style-type`, `margin`, and `padding` from the user ag
 
 {{< modifiers  >}}
 <tr>
-  <td data-label="Base">
-    <code>list</code>
-  </td>
   <td data-label="Modifier">
     <code>list--inline</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     An inline flex list.
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>list</code>
-  </td>
   <td data-label="Modifier">
     <code>list--bordered</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Adds a bottom border when adding <code>list__item</code> to each child <code>li</code>.
