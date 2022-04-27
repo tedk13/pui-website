@@ -50,6 +50,6 @@ Add your text to a `data-tooltip` attribute on any item you want to provide with
 </tr>
 {{< /modifiers >}}
 
-{{< callout tipHeader="Tooltip... Tip?" >}}
+{{< callout header="Tooltip... Tip?" >}}
   <p>If you want to use a tooltip with an icon, make sure to add the data attribute to the <code>div</code> wrapper instead! This will ensure the text does not render a different font.</p>
 {{< /callout >}}

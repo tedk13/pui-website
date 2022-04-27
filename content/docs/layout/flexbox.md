@@ -1,31 +1,19 @@
 ---
-title: Flex
+title: Flexbox
 description: Documentation for Platform UI's flexbox components and utilities.
 ---
-Building layouts with flexbox is super simple with Platform UI using our flex utility classes.
-
 {{% anchor name="display" %}}
-Set an element's display property to flex or inline-flex.
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>Class Name</th>
-      <th>CSS Attribute</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Class Name"><code>flex</code></td>
-      <td data-label="CSS Attribute"><code>display: flex;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class Name"><code>flex-inline</code></td>
-      <td data-label="CSS Attribute"><code>display: inline-flex</code></td>
-    </tr>
-  </tbody>
-</table>
+Our flex utilities are easy to use, and fairly comprehensive. The only property you need in place to start unlocking the power of flexbox is `display: flex`, or `display: inline-flex` if you have a use case. 
 
+{{< classes >}}
+{{< classes-row class="flex" attr="display: flex" >}}
+{{< classes-row class="flex-inline" attr="display: flex-inline" >}}
+{{< /classes >}}
+
+{{< callout header="the exception">}}
+`flex--center-content`, under [Content](#content) is the only flex utility that **DOES NOT** require the initial `flex` class. `display: flex` is already set.
+{{< /callout >}}
 {{% anchor name="align" %}}
 Sets the flex container to align all contained elements to either the start, center, end, or baseline points of the container.
 

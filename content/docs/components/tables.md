@@ -93,6 +93,6 @@ Platform UI tables are built to be responsive at all screen sizes! Make them res
 </tr>
 {{< /modifiers >}}
 
-{{< callout tipHeader="Table Tip" >}}
+{{< callout header="Table Tip" >}}
   <p>If you don't want your table to be responsive, you can add <code>.unresponsive</code> to the table. If you add the utility class <code>.overflow-x--auto</code> the table will scroll horizontally too!</p>
 {{< /callout >}}

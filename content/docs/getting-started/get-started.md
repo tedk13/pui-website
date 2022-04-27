@@ -45,7 +45,7 @@ The quickest and easiest way to implement Platform UI is by using a CDN. Here ar
 </div>
 
 <div class="mb-6">
-{{< callout tipHeader="Pro Tip">}}
+{{< callout header="Pro Tip">}}
 <p>Leaving out a version will always fetch the latest. Adding <code>@1.3.7</code> after <code>platform-ui</code> will get that specific version. </p>
 {{< /callout >}}
 </div>

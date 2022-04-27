@@ -86,6 +86,6 @@ If you need to prevent the background from scrolling, toggle the `modal-open` cl
 </tr>
 {{< /modifiers >}}
 
-{{< callout tipHeader="Modal Tip" >}}
+{{< callout header="Modal Tip" >}}
   <p>If you want to make a dialog box, you can just remove the <code>.modal__header</code> from the modal!</p>
 {{< /callout >}}
