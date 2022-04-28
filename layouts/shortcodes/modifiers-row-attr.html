@@ -1,0 +1,14 @@
+<tr>
+  <td data-label="Modifier">
+    <code>{{ .Get "modifier" }}</code>
+  </td>
+  <td data-label="Secondary Modifier">
+    {{ with .Get "secondary" }}<code>{{ . }}</code>{{ end }}
+  </td>
+  <td data-label="Data Attribute">
+    {{ with .Get "attr" }}<code>{{ . }}</code>{{ end }}
+  </td>
+  <td data-label="Behavior">
+    {{ .Get "behavior" }}
+  </td>
+</tr>
