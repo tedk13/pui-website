@@ -7,7 +7,7 @@ skellyCSS: true
 
 
 <header class="site-menu-wrapper px-3 background--black" style="height:100px">
-  <a href="#" class="site-logo text--white text--size-lg flex h-100 flex flex--align-center">
+  <a href="#" class="site-logo text--white text--size-lg text--bold flex h-100 flex flex--align-center">
     Planet Pizza
   </a>
   <button class="site-menu-mobile-action px-4 text--white">
