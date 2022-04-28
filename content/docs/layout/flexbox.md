@@ -6,7 +6,7 @@ description: Documentation for Platform UI's flexbox components and utilities.
 
 Our flex utilities are easy to use, and fairly comprehensive. The only property you need in place to start unlocking the power of flexbox is `display: flex`, or `display: inline-flex` if you have a use case. 
 
-{{< classes >}}
+{{< classes attr="true">}}
 {{< classes-row class="flex" attr="display: flex" >}}
 {{< classes-row class="flex-inline" attr="display: flex-inline" >}}
 {{< /classes >}}

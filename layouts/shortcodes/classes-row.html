@@ -1,4 +1,5 @@
 <tr>
   <td data-label="Class"><code>{{ .Get "class"}}</code></td>
-  <td data-label="Attribute"><code>{{ .Get "attr"}}</code></td>
+  {{ with .Get "attr" }}<td data-label="Attribute"><code>{{ . }}</code></td>{{ end }}
+  {{ with .Get "result" }}<td data-label="Result">{{ . }}</td>{{ end }}
 </tr>

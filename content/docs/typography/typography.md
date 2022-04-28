@@ -1,20 +1,20 @@
 ---
 title: Typography
-description: Documentation for Platform UI's typographical utilities.
+skellycss: true
 ---
-The typography settings created for headings and paragraphs by platform-ui, as well as the different typography utilities.
 
+{{% anchor name="heading" %}}
 
-{{% anchor name="headings" %}}
-
+{{< code-demo >}}
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
+{{< /code-demo >}}
 
-<div class="mt-3 mb-4">
+{{< code-markup >}}
 {{< highlight html >}}
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -23,35 +23,41 @@ The typography settings created for headings and paragraphs by platform-ui, as w
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}} 
 
 
-{{% anchor name="paragraphs" %}}
+{{% anchor name="paragraph" %}}
 
-<div class="card block-container mb-3 flex--align-center">
-  <div class="block block-6">
-    <p>Paragraph</p>
-  </div>
-  <div class="block block-6">
-    <p><strong>Note:</strong> Our paragraphs have a default margin-bottom of 1rem</p>
-  </div>
-</div>
+Why include a paragraph tag? Mostly to note that our paragraphs have a bottom margin of `1rem`.
 
-<div class="mt-3 mb-4">
+{{< code-demo >}}
+<p class="skeleton" data-lines="3"></p>
+{{< /code-demo >}}
+
+{{< code-markup >}}
 {{< highlight html >}}
-<p>Paragraph</p>
+<p></p>
 {{< /highlight >}}
-</div>
+{{< /code-markup >}} 
 
-
-{{% anchor name="typography utilities" %}}
-
-Below are some of our typography utilities.
-
+{{% anchor name="utilities" %}}
 
 {{% anchor name="case" level="3" %}}
 
-Utility classes to modify text case type.
+{{< classes result="true">}}
+{{< classes-row 
+  class="text--uppercase" 
+  result="Uppercase text." 
+>}}
+{{< classes-row 
+  class="text--lowercase" 
+  result="Lowercase text." 
+>}}
+{{< classes-row 
+  class="text--capitalize" 
+  result="Capitalize each first letter." 
+>}}
+{{< /classes >}}
 
 <table class="table mb-4">
   <thead>
