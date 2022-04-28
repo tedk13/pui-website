@@ -82,34 +82,16 @@ At a mobile resolution (below 768px) an active tab will collapse when clicked.
 
 {{< modifiers name="Tabs" >}}
 <tr>
-  <td data-label="Base">
-    <code>tabs</code>
-  </td>
   <td data-label="Modifier">
     <code>tabs--flat</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Removes tab borders.
   </td>
 </tr>
 <tr>
-  <td data-label="Base">
-    <code>tabs</code>
-  </td>
   <td data-label="Modifier">
     <code>unresponsive</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
   </td>
   <td data-label="Behavior">
     Removes responsive.

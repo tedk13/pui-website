@@ -2,7 +2,6 @@
 title: Active
 description: Documentation for Platform UI's active state concept.
 weight: 1
-toc: false
 ---
 
 We went back-and-forth with modifier classes, but the fact remained, we just want to turn _the thing_ **on** and **off**. No matter what it is! That's where the idea of `active` originated.

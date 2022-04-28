@@ -2,7 +2,6 @@
 title: Figures
 description: Documentation for Platform UI's figure components.
 skellyCSS: true
-toc: true
 ---
 {{% anchor name="figure hover" %}}
 
