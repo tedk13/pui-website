@@ -49,22 +49,22 @@ Based on a 12 column grid, `block` is a core structural component when building 
 Modifiers on each block, from 1-12, affect their native 100% width. The `block-{number}` will always reflect the mobile value, or, smallest breakpoint.
 
 {{< block-grid level="4" padding="blocks p-2" >}}
-  <div class="block block-3 my-3">
+  <div class="block block-3">
     <div class="card">
       <code>block-3</code>
     </div>
   </div>
-  <div class="block block-9 my-3">
+  <div class="block block-9">
     <div class="card">
       <code>block-9</code>
     </div>
   </div>
-  <div class="block block-6 my-3">
+  <div class="block block-6">
     <div class="card">
       <code>block-6</code>
     </div>
   </div>
-  <div class="block block-6 my-3">
+  <div class="block block-6">
     <div class="card">
       <code>block-6</code>
     </div>
@@ -74,18 +74,10 @@ Modifiers on each block, from 1-12, affect their native 100% width. The `block-{
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="block-container blocks p-2">
-  <div class="block block-3">
-    <!-- Content goes here! -->
-  </div>
-  <div class="block block-9">
-    <!-- Content goes here! -->    
-  </div>
-  <div class="block block-6">
-    <!-- Content goes here! -->
-  </div>
-  <div class="block block-6">
-    <!-- Content goes here! -->
-  </div>
+  <div class="block block-3"></div>
+  <div class="block block-9"></div>
+  <div class="block block-6"></div>
+  <div class="block block-6"></div>
 </div>
 {{< /highlight >}}
 {{< /code-markup >}}
@@ -194,25 +186,11 @@ Breakpoint classes can be added to each of these utilities as well. So, for exam
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="block-container blocks p-3 tablet-up-2 laptop-up-3 desktop-up-4">
-  <div class="block">
-    <!-- Content goes here! -->
-  </div>
-
-  <div class="block">
-    <!-- Content goes here! -->
-  </div>
-
-  <div class="block">
-    <!-- Content goes here! -->
-  </div>
-
-  <div class="block">
-    <!-- Content goes here! -->
-  </div>
-
-  <div class="block block--fill">
-    <!-- Content goes here! -->
-  </div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block block--fill"></div>
 </div>
 {{< /highlight >}}
 {{< /code-markup >}}
@@ -261,15 +239,9 @@ This method will override any block size set within the targeted scope of the mo
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="block-container tablet-up-2">
-  <div class="block">
-  <!-- Content goes here! -->
-  </div>
-  <div class="block">
-  <!-- Content goes here! -->
-  </div>
-  <div class="block">
-  <!-- Content goes here! -->
-  </div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
 </div>
 {{< /highlight >}}
 {{< /code-markup >}}
@@ -310,18 +282,10 @@ In the grid demo example, each block will take up an entire row at the smallest 
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="block-container">
-  <div class="block tablet-up-6 laptop-up-4">
-    <!-- Content goes here! -->
-  </div>
-  <div class="block tablet-up-6 laptop-up-4">
-    <!-- Content goes here! -->
-  </div>
-  <div class="block tablet-up-6 laptop-up-4">
-    <!-- Content goes here! -->
-  </div>
-  <div class="block tablet-up-6 laptop-up-4">
-    <!-- Content goes here! -->
-  </div>
+  <div class="block tablet-up-6 laptop-up-4"></div>
+  <div class="block tablet-up-6 laptop-up-4"></div>
+  <div class="block tablet-up-6 laptop-up-4"></div>
+  <div class="block tablet-up-6 laptop-up-4"></div>
 </div>
 {{< /highlight >}}
 {{< /code-markup >}}

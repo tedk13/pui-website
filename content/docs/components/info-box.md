@@ -55,6 +55,6 @@ Click the button to toggle the info box.
 </tr>
 {{< /modifiers >}}
 
-{{< callout tipHeader="info box tip">}}
+{{< callout header="info box tip">}}
 You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example below.
 {{< /callout >}}

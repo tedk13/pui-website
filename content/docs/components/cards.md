@@ -36,7 +36,7 @@ Cards can be great for separating blocks of content. A `card` comes standard wit
 {{< /highlight >}} 
 {{< /code-markup >}}
 
-{{< callout tipHeader="Card Tip">}} 
+{{< callout header="Card Tip">}} 
   <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text--navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to adjust the card's size.</p>
 {{< /callout >}}
 
@@ -72,6 +72,6 @@ Adding an image element above `card__content` with a `card__image` class transfo
 {{< /code-markup >}}
 </section>
 
-{{< callout tipHeader="Card Tip">}} 
+{{< callout header="Card Tip">}} 
   <p><code>rounded-{number}</code> modifiers work great with cards to give that custom look (this callout uses the rounded modifier on individual corners).</p>
 {{< /callout >}}

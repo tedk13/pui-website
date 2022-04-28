@@ -87,6 +87,6 @@ A drawer can easily be opened by setting `data-drawer` with the matching `id` of
 </tr>
 {{< /modifiers >}}
 
-{{< callout tipHeader="Drawer Tip" >}}
+{{< callout header="Drawer Tip" >}}
   <p>If the <code>header-fixed</code> class is added to the main wrapper, the side drawers will open below the header.</p>
 {{< /callout >}}
