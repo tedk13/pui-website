@@ -5,7 +5,7 @@
       <thead>
         <tr>
           <th>Class</th>
-          <th>Attribute</th>
+          <th>{{ with .Get "attr" }}Attribute{{ end }}{{ with .Get "result" }}Result{{ end }}</th>
         </tr>
       </thead>
       <tbody>
