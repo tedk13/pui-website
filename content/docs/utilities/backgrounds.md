@@ -412,7 +412,7 @@ You can also change the distance of your colors by adding a perceentage in the d
     class="linear-gradient ratio-16_9 block laptop-up-6"
     data-gradient-direction="90deg"
     data-gradient-start="var(--navy)"
-    data-gradient-stop="var(--blue)"
+    data-gradient-stop="var(--skyblue)"
     data-gradient-fallback="var(--navy)">
   </div>
 </div>
@@ -423,7 +423,7 @@ You can also change the distance of your colors by adding a perceentage in the d
   class="linear-gradient ratio-16_9"
   data-gradient-direction="90deg"
   data-gradient-start="var(--navy)"
-  data-gradient-stop="var(--blue)"
+  data-gradient-stop="var(--skyblue)"
   data-gradient-fallback="var(--navy)">
 </div>
 {{< /highlight >}}
@@ -433,7 +433,7 @@ You can also change the distance of your colors by adding a perceentage in the d
   <div
        class="linear-gradient ratio-16_9 block laptop-up-6"
        data-gradient-direction="to left top"
-       data-gradient-start="var(--violet)"
+       data-gradient-start="#ae9beb"
        data-gradient-stop="var(--purple)"
        data-gradient-fallback="var(--purple)">
   </div>
@@ -444,7 +444,7 @@ You can also change the distance of your colors by adding a perceentage in the d
 <div
   class="linear-gradient ratio-16_9"
   data-gradient-direction="to left top"
-  data-gradient-start="var(--violet)"
+  data-gradient-start="#ae9beb"
   data-gradient-stop="var(--purple)"
   data-gradient-fallback="var(--purple)">
 </div>
