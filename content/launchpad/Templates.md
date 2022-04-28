@@ -2,7 +2,7 @@
 title: Templates
 ---
 
-## Blog
+{{% anchor name="Blog" %}}
 
 <div class="block-container blocks p-2 cards tablet-up-4 mb-4">
     <div class="block">
@@ -23,7 +23,7 @@ title: Templates
     </div>
 </div>
 
-## Retail
+{{% anchor name="Retail" %}}
 
 <div class="block-container blocks p-2 cards tablet-up-4 mb-4">
     <div class="block">
@@ -36,7 +36,7 @@ title: Templates
     </div>
 </div>
 
-## Dashboard
+{{% anchor name="Dashboard" %}}
 
 <div class="block-container blocks p-2 cards tablet-up-4 mb-4">
     <div class="block">
@@ -49,31 +49,23 @@ title: Templates
     </div>
 </div>
 
-## Heros
+{{% anchor name="Heros" %}}
 
 <div class="block-container blocks p-2 cards tablet-up-4 mb-4">
     <div class="block">
-        <a href="blog" class="card rounded-2 flex flex--column">
+        <a href="/launchpad/hero/heros/" class="card rounded-2 flex flex--column">
             <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
             <div class="card__content text--purple">
-                Blog 1
+                Heros
             </div>
         </a>
     </div>
     <div class="block">
-        <div class="card rounded-2">
+        <a href="/launchpad/hero/heros-background-color/" class="card rounded-2 flex flex--column">
             <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
             <div class="card__content text--purple">
-                Blog 1
+                Heros and Backgrounds
             </div>
-        </div>
-    </div>
-    <div class="block">
-        <div class="card rounded-2">
-            <img class="card__image" src="/images/templates/temp-template-image.png" alt="" />
-            <div class="card__content text--purple">
-                Blog 1
-            </div>
-        </div>
+        </a>
     </div>
 </div>
