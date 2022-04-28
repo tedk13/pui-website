@@ -5,17 +5,10 @@ summary: Full page layout example using navigation, hero, cards, buttons, accord
 skellyCSS: true
 ---
 
-<style>
-:root{
-  --color-yellow: #ffeea5;
-  --color-red: #d05151;
-  --color-dark-red: #a54141;
-}
-</style>
 
-<header class="site-menu-wrapper px-3" style="background:var(--color-dark-red); height:100px">
-  <a href="#" class="site-logo">
-    <img style="max-height:100%;" class="p-2" src="../../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
+<header class="site-menu-wrapper px-3 background--black" style="height:100px">
+  <a href="#" class="site-logo text--white text--size-lg flex h-100 flex flex--align-center">
+    Planet Pizza
   </a>
   <button class="site-menu-mobile-action px-4 text--white">
     <span class="sr-only">Toggle Navigation</span>
@@ -42,28 +35,27 @@ skellyCSS: true
 </header>
 
 <div
-  class="background-image mb-4"
-  data-background-image="https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-  data-background-position="center center"
-  data-background-size="cover"
-  data-background-repeat="no-repeat">
-    <div class="background--black-a80 text--size-xl text--center p-6">
-      <img style="width: 80%; max-width:500px" src="../../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
-      <h1 class="text--white">Welcome to Pizza Town!</h1>
-      <button class="button button--lg text--white my-4 hover-scale" style="background:var(--color-red);">
+  class="background-image" 
+  data-gradient-direction="to top"
+  data-gradient-stop="transparent" 
+  data-background-image="https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+    <div class="background--black-a80 text--center py-4">
+      <h1 class="text--size-3xl text--white text--bold">Planet Pizza</h1>
+      <span class="text--white flex flex--justify-center text--size-lg">Otherworldly pizza!</span>
+      <button class="button button--salmon text--white button--lg my-4 hover-scale">
         <span class="flex flex--align-center">
         <i class='pi-touch mr-2'></i>
         Order Online
         </span>
       </button>
-      <p>
-        <i class="pi-angle-down text--white"></i>
+      <p class="m-0">
+        <i class="pi-angle-down text--white text--size-xl" aria-hidden="true"></i>
       </p>
      </div>
 </div>
 
-<div class="block-container mx-5">
-  <h1 style="color:var(--color-dark-red);">Our Speciality Pizzas</h1>
+<div class="block-container mx-5 mt-5 mb-3">
+  <h2 class="text--bold">Our Speciality Pizzas</h2>
 </div>
 
 <div class="block-container cards mx-5 pb-4">
@@ -71,9 +63,9 @@ skellyCSS: true
     <div class="card hover-shadow hover-scale">
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Pepperoni</h2>
+        <h3>Pepperoni</h3>
         <p class="skeleton" data-lines="5" role="presentation"></p>
-        <button class="button">Add to Cart</button>
+        <button class="button button--salmon text--white">Add to Cart</button>
       </div> 
     </div>
   </div>
@@ -81,9 +73,9 @@ skellyCSS: true
     <div class="card hover-shadow hover-scale">
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Ham & Pineapple</h2>
+        <h3>Ham & Pineapple</h3>
         <p class="skeleton" data-lines="5" role="presentation"></p>
-        <button class="button">Add to Cart</button>
+        <button class="button button--salmon text--white">Add to Cart</button>
       </div> 
     </div>
   </div>
@@ -91,9 +83,9 @@ skellyCSS: true
     <div class="card hover-shadow hover-scale">
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Bacon & Jalapeno</h2>
+        <h3>Bacon & Jalapeño</h3>
         <p class="skeleton" data-lines="5" role="presentation"></p>
-        <button class="button">Add to Cart</button>
+        <button class="button button--salmon text--white">Add to Cart</button>
       </div> 
     </div>
   </div>
@@ -101,67 +93,67 @@ skellyCSS: true
     <div class="card hover-shadow hover-scale">
       <img class="card__image" src="https://images.unsplash.com/photo-1584782930699-383ed067a486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Pepperoni Pizza" />
       <div class="card__content">
-        <h2>Three Cheese</h2>
+        <h3>Three Cheese</h3>
         <p class="skeleton" data-lines="5" role="presentation"></p>
-        <button class="button">Add to Cart</button>
+        <button class="button button--salmon text--white">Add to Cart</button>
       </div> 
     </div>
   </div>
 </div>
 
-<div class="px-3 py-4  text--center" style="background:var(--color-yellow)">
+<div class="px-3 py-6 text--center background--black-a80">
   <div class="block-container flex--justify-center mx-5">
     <div class="block block-8 text-black">
-      <h1 style="color:var(--color-dark-red)">Build your own Pizza!</h1>
-      <button class="button button--lg modal__open text--white hover-scale" data-modal="default-modal" style="background:var(--color-dark-red)">Build Now</button>
+      <h2 class="text--white text--bold">Build your own Pizza!</h2>
+      <button class="button button--salmon text--white button--lg modal__open hover-scale" data-modal="default-modal">Build Now</button>
     </div>
   </div>
 </div>
 
 <div class="block-container mx-5 pt-5">
-  <h1 style="color:var(--color-dark-red);">Full Menu</h1>
+  <h2 class="text--bold">Full Menu</h2>
 </div>
 <div class="block-container mx-5 pb-4">
   <div class="accordion block-12">
     <a href="#" class="accordion__header px-2 py-2 flex--justify-between flex--align-center">
-      <h2 class="m-0 p-0" style="color:var(--color-red);">Appetizers</h2>
-      <i class="pi-angle-down accordion__icon" style="color:var(--color-red)"></i>
+      <h3 class="m-0 p-0">Appetizers</h3>
+      <i class="pi-angle-down accordion__icon text--size-lg"></i>
     </a>
     <div class="accordion__content">
       <div class="block-container">
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Breadsticks</h3>
+              <h4>Breadsticks</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Mozzarella Sticks</h3>
+              <h4>Mozzarella Sticks</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>1/2 Dozen Wings</h3>
+              <h4>1/2 Dozen Wings</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Dozen Wings</h3>
+              <h4>Dozen Wings</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
@@ -170,44 +162,44 @@ skellyCSS: true
   </div>
   <div class="accordion block-12">
     <a href="#" class="accordion__header px-2 py-2 flex--justify-between flex--align-center">
-      <h2 class="m-0 p-0" style="color:var(--color-red);">Entrees</h2>
-      <i class="pi-angle-down accordion__icon" style="color:var(--color-red)"></i>
+      <h3 class="m-0 p-0">Entrees</h3>
+      <i class="pi-angle-down accordion__icon text--size-lg"></i>
     </a>
     <div class="accordion__content">
       <div class="block-container">
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Spaghetti</h3>
+              <h4>Spaghetti</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Spaghetti & Meatballs</h3>
+              <h4>Spaghetti & Meatballs</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Ravioli</h3>
+              <h4>Ravioli</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Chicken Parmesan</h3>
+              <h4>Chicken Parmesan</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
@@ -216,44 +208,44 @@ skellyCSS: true
   </div>
   <div class="accordion block-12 mb-5">
     <a href="#" class="accordion__header px-2 py-2 flex--justify-between flex--align-center">
-      <h2 class="m-0 p-0" style="color:var(--color-red);">Subs</h2>
-      <i class="pi-angle-down accordion__icon" style="color:var(--color-red)"></i>
+      <h3 class="m-0 p-0">Subs</h3>
+      <i class="pi-angle-down accordion__icon text--size-lg"></i>
     </a>
     <div class="accordion__content">
       <div class="block-container">
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Italian</h3>
+              <h4>Italian</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Cheeseburger</h3>
+              <h4>Cheeseburger</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Turkey</h3>
+              <h4>Turkey</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
         <div class="block tablet-up-6 laptop-up-3 p-2">
           <div class="card">
             <div class="card__content">
-              <h3>Tuna Salad</h3>
+              <h4>Tuna Salad</h4>
               <p class="skeleton" data-lines="5" role="presentation"></p>
-              <button class="button">Add to Cart</button>
+              <button class="button button--salmon text--white">Add to Cart</button>
             </div> 
           </div>
         </div>
@@ -264,9 +256,9 @@ skellyCSS: true
 
 <div id="default-modal" class="modal modal--closed">
   <div class="modal__inner">
-    <div class="modal__header" style="background: var(--color-red)">
-      <h2 class="text--white">Build your own Pizza</h2>
-      <button class="button modal__close" data-modal="default-modal">
+    <div class="modal__header background--white">
+      <h2 class="text--bold">Build your own Pizza</h2>
+      <button class="button button--salmon text--white modal__close" data-modal="default-modal">
         Close 
         <i class="pi-times"></i>
       </button>
@@ -345,13 +337,13 @@ skellyCSS: true
                   <i class='pi-circle pi-lg'></i>
                   <i class='pi-check pi-heavy'></i>
                 </div>
-                Jalapeno
+                Jalapeño
               </label>
             </div>
           </fieldset>
         </div>
         <div class="block-container">
-          <button class="button mb-2">Add to Cart</button>
+          <button class="button button--salmon text--white mb-2">Add to Cart</button>
         </div>
       </form>
     </div>
@@ -362,45 +354,44 @@ skellyCSS: true
   <div class="drawer__inner">
     <div class="drawer__content">
       <div class="flex flex--justify-end">
-      <button class="button drawer__close" data-drawer="right">
+      <button class="button button--salmon text--white drawer__close" data-drawer="right">
         Close 
         <i class="pi-times"></i>
       </button>
       </div>
       <ul class="list my-4">
         <li class="flex">
-          <i class="pi-check text--salmon mr-3"></i> 
+          <i class="pi-check mr-3 text--size-md"></i> 
           <p class="border-b border--color-lighter pb-2 mb-0 flex--grow">Pepperoni Pizza</p>
           <p>$15.00</p>
         </li>
         <li class="flex">
-          <i class="pi-check text--salmon mr-3"></i> 
+          <i class="pi-check mr-3 text--size-md"></i> 
           <p class="border-b border--color-lighter pb-2 mb-0 flex--grow">Breadsticks</p>
           <p>$5.00</p>
         </li>
         <li class="flex">
-          <i class="pi-check text--salmon mr-3"></i> 
+          <i class="pi-check mr-3 text--size-md"></i> 
           <p class="border-b border--color-lighter pb-2 mb-0 flex--grow">1/2 Dozen Wings</p>
           <p>$7.50</p>
         </li>
       </ul>
-      <button class="button button--lg text--white hover-scale" style="background:var(--color-dark-red)">Checkout Now</button>
+      <button class="button button--salmon text--white button--lg hover-scale">Checkout Now</button>
     </div>
   </div>
 </div>
 
 <div class="pos-fix pin-right pin-bottom p-4">
-<button class="button button--lg drawer__open text--white hover-scale" style="background:var(--color-dark-red)" data-drawer="right">
+<button class="button button--salmon text--white button--lg drawer__open hover-scale" data-drawer="right">
   <i class='pi-tag mr-2'></i>
   View Cart
 </button>
 </div>
 
-<footer class="px-3 py-4 text--white" style="background:var(--color-red)">
+<footer class="px-3 py-4">
   <div class="block-container">
     <div class="block block-12 flex flex--column flex--justify-center flex--align-center">
-      <img class="p-2" style="max-width:200px" src="../../images/examples/pizza-town.svg" alt="Pizza Town Logo">
-      &copy; Pizza Town
+      <p>Made with <span class="text--negative">&hearts;</span> and <a href="{{ .Site.Params.pui_url }}">Platform UI</a></p>
     </div>
   </div>
 </footer>
