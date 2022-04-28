@@ -17,6 +17,12 @@ $brand-colors: (
   --header-height: 4.5rem;
 }
 
+html{
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
 .highlight {
   pre {
     padding: 0.5rem;

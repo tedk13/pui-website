@@ -326,106 +326,6 @@ See the example below to see it all come together. You may notice a `ratio-` cla
 {{< /highlight >}}
 </div>
 
-<div
-  class="background-image block-container flex--justify-around p-4 mb-4"
-  data-background-image="https://picsum.photos/id/120/1400/600"
-  data-background-position="center bottom"
-  data-background-size="cover"
-  data-background-repeat="no-repeat">
-    <div class="block lg-tablet-up-5 py-4">
-      <h1 class="mb-3 mt-0 text--white">Signup Today!</h1>
-      <p class="text--white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
-    </div>
-    <div class="block lg-tablet-up-4 background--white-a70 border-t border--color-orange border--width-5 p-4">
-      <p class="text--black">Signup for a newsletter! We promise we won't spam you.</p>
-      <form action="" class="form form--rounded">
-         <div class="block form__field mb-3">
-         <label class="sr-only" for="first-name">First Name</label>
-         <input id="first-name" class="background--white-a70" type="text" placeholder="First Name" />
-       </div>
-       <div class="block form__field mb-3">
-         <label class="sr-only" for="last-name">Last Name</label>
-         <input id="last-name" class="background--white-a70" type="text" placeholder="Last Name" />
-       </div>
-       <div class="block form__field mb-3">
-         <label class="sr-only" for="email">Email Address</label>
-         <input id="email" class="background--white-a70" type="email" placeholder="name@example.com" />
-       </div>
-       <div class="block flex flex--justify-center">
-         <button class="button button--lg button--orange">Submit</button>
-       </div>
-     </form>
-    </div>
-</div>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div
-  class="background-image block-container flex--justify-around p-4 mb-4"
-  data-background-image="https://picsum.photos/id/120/1400/600"
-  data-background-position="center bottom"
-  data-background-size="cover"
-  data-background-repeat="no-repeat">
-    <div class="block lg-tablet-up-5 py-4">
-      <h1 class="mb-3 mt-0 text--white">Signup Today!</h1>
-      <p class="text--white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in blandit urna. Phasellus tristique tortor non quam maximus mattis. Sed ullamcorper et dui et pretium. In condimentum magna a vehicula aliquam. Suspendisse potenti. Integer posuere, lectus at viverra vestibulum, urna leo rhoncus massa, quis congue lorem metus et quam.</p>
-    </div>
-    <div class="block lg-tablet-up-4 background--white-a70 border-t border--color-orange border--width-5 p-4">
-      <p class="text--black">Signup for a newsletter! We promise we won't spam you.</p>
-      <form action="" class="form form--rounded">
-         <div class="block form__field mb-3">
-         <label class="sr-only" for="first-name">First Name</label>
-         <input id="first-name" class="background--white-a70" type="text" placeholder="First Name" />
-       </div>
-       <div class="block form__field mb-3">
-         <label class="sr-only" for="last-name">Last Name</label>
-         <input id="last-name" class="background--white-a70" type="text" placeholder="Last Name" />
-       </div>
-       <div class="block form__field mb-3">
-         <label class="sr-only" for="email">Email Address</label>
-         <input id="email" class="background--white-a70" type="email" placeholder="name@example.com" />
-       </div>
-       <div class="block flex flex--justify-center">
-         <button class="button button--lg button--orange">Submit</button>
-       </div>
-     </form>
-    </div>
-</div>
-{{< /highlight >}}
-</div>
-
-<div
-  class="background-image mb-4"
-  data-background-image="https://picsum.photos/id/214/1000/400"
-  data-background-position="center center"
-  data-background-size="cover"
-  data-background-repeat="no-repeat">
-    <div class="background--black-a80 text--size-xl text--center p-6">
-      <i class="pi-bolt text--size-lg text-white"></i>
-      <h1 class="text--white mt-4 mb-6 pb-6 text--size-xxxl text--white">Power Your World.</h1>
-      <p class="text-white text--size-sm mb-0">Learn More</p>
-      <i class="pi-angle-down text--white"></i>
-     </div>
-</div>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div
-  class="background-image mb-4"
-  data-background-image="https://picsum.photos/id/214/1000/400"
-  data-background-position="center center"
-  data-background-size="cover"
-  data-background-repeat="no-repeat">
-    <div class="background--black-a80 text--size-xl text--center p-6">
-      <i class="pi-bolt text--size-lg text--white"></i>
-      <h1 class="text--white mt-4 mb-6 pb-6 text--size-xxxl text--white">Power Your World.</h1>
-      <p class="text--white text--size-sm mb-0">Learn More</p>
-      <i class="pi-angle-down text--white"></i>
-     </div>
-</div>
-{{< /highlight >}}
-</div>
-
 
 {{% anchor name="gradient" %}}
 
@@ -498,7 +398,7 @@ You can also change the distance of your colors by adding a perceentage in the d
     class="linear-gradient ratio-16_9 block laptop-up-6"
     data-gradient-direction="90deg"
     data-gradient-start="var(--navy)"
-    data-gradient-stop="var(--blue)"
+    data-gradient-stop="var(--skyblue)"
     data-gradient-fallback="var(--navy)">
   </div>
 </div>
@@ -509,7 +409,7 @@ You can also change the distance of your colors by adding a perceentage in the d
   class="linear-gradient ratio-16_9"
   data-gradient-direction="90deg"
   data-gradient-start="var(--navy)"
-  data-gradient-stop="var(--blue)"
+  data-gradient-stop="var(--skyblue)"
   data-gradient-fallback="var(--navy)">
 </div>
 {{< /highlight >}}
@@ -519,7 +419,7 @@ You can also change the distance of your colors by adding a perceentage in the d
   <div
        class="linear-gradient ratio-16_9 block laptop-up-6"
        data-gradient-direction="to left top"
-       data-gradient-start="var(--violet)"
+       data-gradient-start="#ae9beb"
        data-gradient-stop="var(--purple)"
        data-gradient-fallback="var(--purple)">
   </div>
@@ -530,7 +430,7 @@ You can also change the distance of your colors by adding a perceentage in the d
 <div
   class="linear-gradient ratio-16_9"
   data-gradient-direction="to left top"
-  data-gradient-start="var(--violet)"
+  data-gradient-start="#ae9beb"
   data-gradient-stop="var(--purple)"
   data-gradient-fallback="var(--purple)">
 </div>
