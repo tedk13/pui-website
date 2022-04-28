@@ -70,76 +70,62 @@ absolute element to.
   </tbody>
 </table>
 
-<section>
-  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
-  <div class="linear-gradient inverted px-4 py-3 block-container" 
-      data-callout-header="tables tip" 
-      data-callout-radius="0 3rem 0 3rem"
-      data-gradient-direction="30deg"
-      data-gradient-start="midnightblue 20%, purple 40%"
-      data-gradient-stop="indigo"
-      data-gradient-fallback="indigo">
-    <i class="pi-rocket mr-1"></i>
-    <strong class="mr-1">Try it out!</strong> 
-    Pin an element to different sides of it's container!
-  </div>
-  <div class="visualizer block-container p-3 py-4 border border--color-lighter border--width-5 tablet-up-2">
-    <div class="actions block">
-      <ul class="list">
-        <li>
-          <button class="button" data-example-elements="pos-abs pin-top">
-            <pre>.pin-top</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-right">
-            <pre>.pin-right</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-bottom">
-            <pre>.pin-bottom</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-left">
-            <pre>.pin-left</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center">
-            <pre>.pin-center</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-top">
-            <pre>.pin-center-top</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-right">
-            <pre>.pin-center-right</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-bottom">
-            <pre>.pin-center-bottom</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-left">
-            <pre>.pin-center-left</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button button--salmon text--white" data-reset="true">
-            Reset
-          </button>
-        </li>
-      </ul>
-    </div>
-    <div class="results rounded-2 block background--dark p-3 vh-25" data-default-class="pos-rel h-100 w-100">
-      <div class="abstract-element background--light-purple border border--color-white pos-abs"></div>
-    </div>
-  </div>
-</section>
+{{< visualizer header="Pin an element to different sides of its container!" >}}
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="pos-abs pin-top">
+        <pre>.pin-top</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-right">
+        <pre>.pin-right</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-bottom">
+        <pre>.pin-bottom</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-left">
+        <pre>.pin-left</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-center">
+        <pre>.pin-center</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-center-top">
+        <pre>.pin-center-top</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-center-right">
+        <pre>.pin-center-right</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-center-bottom">
+        <pre>.pin-center-bottom</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-center-left">
+        <pre>.pin-center-left</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">
+        Reset
+      </button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3 vh-25" data-default-class="pos-rel h-100 w-100">
+  <div class="abstract-element background--light-purple border border--color-white pos-abs"></div>
+</div>
+{{< /visualizer >}}

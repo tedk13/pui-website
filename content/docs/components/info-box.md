@@ -7,14 +7,14 @@ skellyCSS: true
 
 {{% anchor name="Info Box" %}}
 
-Click the button to toggle the info box. 
+Click the button to toggle the info box. You can also manually toggle this by adding the `active` class to `info-box__content`.
 
 {{< code-demo >}}
 <div class="info-box flex-inline">
   <button class="button toggle-hidden" role="button" aria-label="Toggle">
     Open Info Box
   </button>
-  <div class="info-box__content hidden">
+  <div class="info-box__content">
     <button class="button info-box__close">
       <!-- close button doesn't work -->
       Close 
@@ -33,7 +33,7 @@ Click the button to toggle the info box.
      Open Info Box
    </button>
    <!-- Info Box Content -->
-   <div class="info-box__content hidden">
+   <div class="info-box__content">
      <button class="button info-box__close">
        Close 
        <i class="pi-times"></i>
