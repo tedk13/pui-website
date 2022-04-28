@@ -53,83 +53,72 @@ The default button style is white with a dark outline and has a salmon backgroun
 </tr>
 {{< /modifiers >}}
 
-<section class="p-0 my-4">
-  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
-  <div class="linear-gradient text--purple px-4 py-3 block-container rounded-tl--2 rounded-tr--2" 
-      data-gradient-direction="0deg"
-      data-gradient-start="lavender"
-      data-gradient-stop="lavender">
-    <i class="pi-rocket mr-1"></i>
-    <strong class="mr-1">Try this!</strong> 
-    Check out different colors of buttons!
-  </div>
-  <div class="visualizer block-container p-3 py-4 border border--color-lighter border--width-5 tablet-up-2 mb-4">
-    <div class="actions block">
-      <ul class="list">
-        <li>
-          <button class="button" data-example-elements="button--navy">
-            <pre>.button--navy</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--skyblue">
-            <pre>.button--skyblue</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--lightblue">
-            <pre>.button--lightblue</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--med-blue">
-            <pre>.button--med-blue</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--beige">
-            <pre>.button--beige</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--peach">
-            <pre>.button--peach</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--salmon">
-            <pre>.button--salmon</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--brown">
-            <pre>.button--brown</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--orange">
-            <pre>.button--orange</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="button--ghost text--white">
-            <pre>.button--ghost</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button button--salmon text--white" data-reset="true">
-            Reset
-          </button>
-        </li>
-      </ul>
-    </div>
-    <div class="results rounded-2 block background--dark p-3" data-default-class="flex flex--center-content">
-      <button class="button">
-        Example Button
+{{< visualizer header="Check out different colors of buttons!" >}}
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="button--navy">
+        <pre>.button--navy</pre>
       </button>
-    </div>
-  </div>
-<section>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--skyblue">
+        <pre>.button--skyblue</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--lightblue">
+        <pre>.button--lightblue</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--med-blue">
+        <pre>.button--med-blue</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--beige">
+        <pre>.button--beige</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--peach">
+        <pre>.button--peach</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--salmon">
+        <pre>.button--salmon</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--brown">
+        <pre>.button--brown</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--orange">
+        <pre>.button--orange</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--ghost text--white">
+        <pre>.button--ghost</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">
+        Reset
+      </button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3" data-default-class="flex flex--center-content">
+  <button class="button">
+    Example Button
+  </button>
+</div>
+{{< /visualizer >}}
 
 {{% anchor name="secondary" %}}
 

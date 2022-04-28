@@ -60,7 +60,7 @@ Adding `list` strips `list-style-type`, `margin`, and `padding` from the user ag
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers  >}}
+{{< modifiers >}}
 <tr>
   <td data-label="Modifier">
     <code>list--inline</code>

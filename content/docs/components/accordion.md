@@ -8,7 +8,7 @@ skellyCSS: true
 
 {{% anchor name="accordion" %}}
 
-Use whenever you want to toggle additional or related information in a sibling `<div>`. Built to be **stacked** or **nested**. 
+Use whenever you want to toggle additional or related information in a sibling `<div>`. Built to be **stacked** or **nested**. You can also manually toggle this by adding the `active` class to `accordion__content`.
 
 {{< code-demo >}}
 <div class="accordion">
