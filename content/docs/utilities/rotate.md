@@ -1,51 +1,12 @@
 ---
-title: Rotate
-description: Platform UI utilities for rotating elements.
-toc: false
+title: Rotating
 ---
 
-Utility classes to rotate an element.
+{{% anchor name="Rotate" %}}
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>Class Name</th>
-      <th>Transform</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Class Name"><code>rotate-45</code></td>
-      <td data-label="Transform"><code>rotate(45deg)</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class Name"><code>rotate-90</code></td>
-      <td data-label="Transform"><code>rotate(90deg)</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class Name"><code>rotate-180</code></td>
-      <td data-label="Transform"><code>rotate(180deg)</code></td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="my-6">
-    <div class="button-group">
-        <button class="rotate-45 button">45 degrees</button>
-        <button class="rotate-90 button">90 degrees</button>
-        <button class="rotate-180 button">180 degrees</button>
-    </div>
-</div>
-
-<div class="mt-3 mb-4">
-{{< highlight html >}}
-<div class="button-group">
-    <button class="rotate-45 button">45 degrees</button>
-    <button class="rotate-90 button">90 degrees</button>
-    <button class="rotate-180 button">180 degrees</button>
-</div>
-{{< /highlight >}}
-</div>
+{{< classes result="true" >}}
+{{< classes-row class="rotate-{ 45, 90, 180 }" result="Rotate an element 45, 90, or 180 degrees">}}
+{{< /classes >}}
 
 {{< visualizer header="Watch it rotate!" >}}
 <div class="actions block">
