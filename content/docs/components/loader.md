@@ -18,22 +18,14 @@ It's a `1.4rem` loader.
 {{< /code-markup >}}
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>loader--sm</code>
-  </td>
-  <td data-label="Behavior">
-    Small <code>.9rem</code>
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>loader--lg</code>
-  </td>
-  <td data-label="Behavior">
-    Large <code>2rem</code>
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="loader--sm"
+  behavior="Small `.9rem`" 
+>}}
+{{< modifiers-row 
+  modifier="loader--lg"
+  behavior="Large `2rem`" 
+>}}
 {{< /modifiers >}}
 
 {{< visualizer header="Check out different sizes of loader!" >}}

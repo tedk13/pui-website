@@ -13,35 +13,22 @@ responsive forms, we recommend that you utilize the block layout and our spacers
 All of the following form elements must be nested inside the `form` class to get the desired look.
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>form--fancy</code>
-  </td>
-  <td data-label="Behavior">
-    Adds placeholder/label animation
-  </td>
-</tr><tr>
-  <td data-label="Modifier">
-    <code>form--bordered</code>
-  </td>
-  <td data-label="Behavior">
-    Add input borders.
-  </td>
-</tr><tr>
-  <td data-label="Modifier">
-    <code>form--rounded</code>
-  </td>
-  <td data-label="Behavior">
-    Adds circular borders to inputs.
-  </td>
-</tr><tr>
-  <td data-label="Modifier">
-    <code>form--light</code>
-  </td>
-  <td data-label="Behavior">
-    what the hell does this do?
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="form--fancy"
+  behavior="Adds placeholder/label animation." 
+>}}
+{{< modifiers-row 
+  modifier="form--bordered"
+  behavior="Adds input borders." 
+>}}
+{{< modifiers-row 
+  modifier="form--rounded"
+  behavior="Adds circular borders to inputs." 
+>}}
+{{< modifiers-row 
+  modifier="form--light"
+  behavior="Changes form to white including labels and placeholders." 
+>}}
 {{< /modifiers >}}
 
 {{% anchor name="error styles" %}}

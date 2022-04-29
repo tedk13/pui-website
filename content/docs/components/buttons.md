@@ -18,39 +18,22 @@ The default button style is white with a dark outline and has a salmon backgroun
 {{< /code-markup >}}
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>button--lg</code>
-  </td>
-  <td data-label="Behavior">
-    A larger button.
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>button--plain</code>
-  </td>
-  <td data-label="Behavior">
-    Removes the border and background. 
-    Good for icons alone.
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>button--{color}</code>
-  </td>
-  <td data-label="Behavior">
-    Loops through Platform UI colors for background and hover coloring.
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>button--ghost</code>
-  </td>
-  <td data-label="Behavior">
-    Ghost buttons! 👻
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="button--lg"
+  behavior="A larger button." 
+>}}
+{{< modifiers-row 
+  modifier="button--plain"
+  behavior="Removes the border and background. Good for icons alone." 
+>}}
+{{< modifiers-row 
+  modifier="button--{color}"
+  behavior="Loops through Platform UI colors for background and hover coloring." 
+>}}
+{{< modifiers-row 
+  modifier="button--ghost"
+  behavior="Ghost buttons! 👻"
+>}}
 {{< /modifiers >}}
 
 {{< visualizer header="Check out different colors of buttons!" >}}
@@ -122,7 +105,7 @@ The default button style is white with a dark outline and has a salmon backgroun
 
 {{% anchor name="secondary" %}}
 
-The secondary button was build primarily for usage with icons alone with a fancier hover. It can also be used with text.
+The secondary button was built primarily for usage with icons alone with a fancier hover. It can also be used with text.
 
 {{< code-demo >}}
 <button class="button button--secondary"><i class="pi-download"></i></button>
@@ -134,21 +117,13 @@ The secondary button was build primarily for usage with icons alone with a fanci
 {{< /highlight >}} 
 {{< /code-markup >}}
 
-{{< modifiers type="data" >}}
-<tr>
-  <td data-label="Modifier">
-    <code>button--secondary</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <code>has-text</code>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-button-text</code>
-  </td>
-  <td data-label="Behavior">
-    <code>has-text</code> with <code>data-button-text</code> adds custom text on hover.
-  </td>
-</tr>
+{{< modifiers secondary="true" data="true" >}}
+{{< modifiers-row 
+  modifier="button--secondary"
+  secondary="has-text"
+  attr="data-button-text"
+  behavior="`has-text` with `data-button-text` adds custom text on hover." 
+>}}
 {{< /modifiers >}}
 
 {{% anchor name="group" %}}

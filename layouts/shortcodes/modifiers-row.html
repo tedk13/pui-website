@@ -2,13 +2,17 @@
   <td data-label="Modifier">
     <code>{{ .Get "modifier" }}</code>
   </td>
+  {{ with .Get "secondary" }}
   <td data-label="Secondary Modifier">
-    {{ with .Get "secondary" }}<code>{{ . }}</code>{{ end }}
+    <code>{{ . }}</code>
   </td>
+  {{ end }}
+  {{ with .Get "attr" }}
   <td data-label="Data Attribute">
-    {{ with .Get "attr" }}<code>{{ . }}</code>{{ end }}
+    <code>{{ . }}</code>
   </td>
+  {{ end }}
   <td data-label="Behavior">
-    {{ .Get "behavior" }}
+    {{ .Get "behavior" | markdownify }}
   </td>
 </tr>

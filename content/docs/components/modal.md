@@ -54,38 +54,29 @@ If you need to prevent the background from scrolling, toggle the `modal-open` cl
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>modal--small</code>
-  </td>
-  <td data-label="Behavior">
-    Small sized modal
-  </td>
-</tr>
-  <td data-label="Modifier">
-    <code>modal--large</code>
-  </td>
-  <td data-label="Behavior">
-    Large sized modal
-  </td>
-</tr>
-  <td data-label="Modifier">
-    <code>modal--full</code>
-  </td>
-  <td data-label="Behavior">
-    Full sized modal, takes up 100% of the viewport
-  </td>
-</tr>
-  <td data-label="Modifier">
-    <code>modal--centered</code>
-  </td>
-  <td data-label="Behavior">
-    Centers the modal in the middle of the viewport
-  </td>
-</tr>
+{{< modifiers data="true" >}}
+{{< modifiers-row 
+  modifier="modal--small"
+  data="data-modal"
+  behavior="Small sized modal." 
+>}}
+{{< modifiers-row 
+  modifier="modal--large"
+  data="data-modal"
+  behavior="Large sized modal." 
+>}}
+{{< modifiers-row 
+  modifier="modal--full"
+  data="data-modal"
+  behavior="Full sized modal, takes up 100% of the viewport." 
+>}}
+{{< modifiers-row 
+  modifier="modal--centered"
+  data="data-modal"
+  behavior="Centers the modal in the middle of the viewport." 
+>}}
 {{< /modifiers >}}
 
 {{< callout header="Modal Tip" >}}
-  <p>If you want to make a dialog box, you can just remove the <code>.modal__header</code> from the modal!</p>
+  <p>If you want to make a dialog box, you can just remove the <code>modal__header</code> from the modal!</p>
 {{< /callout >}}
