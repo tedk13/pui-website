@@ -1,0 +1,49 @@
+.astronaut {
+  animation: float-away 20s ease-in 3s 1 normal both
+}
+
+@keyframes float-away {
+  from {transform: translate(0, 0) rotate(0)}
+  to {transform: translate(150%, 25%) rotate(1000deg)}
+}
+
+.fours{
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: float-in 2s ease-out forwards;
+}
+
+.four:nth-child(1){
+  animation: floating-1 5s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+.four:nth-child(2){
+  animation: floating-2 5s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+@keyframes float-in {
+  to{
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+
+@keyframes floating-1 {
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform: translateY(40px);
+  }
+}
+@keyframes floating-2 {
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform: translateY(-40px);
+  }
+}
