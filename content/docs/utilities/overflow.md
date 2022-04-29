@@ -1,80 +1,30 @@
 ---
-title: Overflow
-description: Platform UI utilities for handling overflow.
+title: Overflows
 skellyCSS: true
-toc: false
 ---
 
-You can add or hide specific overflow on an element with the following classes.
+{{% anchor name="Overflow" %}}
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>Classes</th>
-      <th>CSS Attribute</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Classes"><code>overflow-visible</code></td>
-      <td data-label="CSS Attribute"><code>overflow: visible;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-hidden</code></td>
-      <td data-label="CSS Attribute"><code>overflow: hidden;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-scroll</code></td>
-      <td data-label="CSS Attribute"><code>overflow: scroll;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-auto</code></td>
-      <td data-label="CSS Attribute"><code>overflow: auto;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-y--visible</code></td>
-      <td data-label="CSS Attribute"><code>overflow-y: visible;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-y--hidden</code></td>
-      <td data-label="CSS Attribute"><code>overflow-y: hidden;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-y--scroll</code></td>
-      <td data-label="CSS Attribute"><code>overflow-y: scroll;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-y--auto</code></td>
-      <td data-label="CSS Attribute"><code>overflow-y: auto;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-x--visible</code></td>
-      <td data-label="CSS Attribute"><code>overflow-x: visible;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-x--hidden</code></td>
-      <td data-label="CSS Attribute"><code>overflow-x: hidden;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-x--scroll</code></td>
-      <td data-label="CSS Attribute"><code>overflow-x: scroll;</code></td>
-    </tr>
-    <tr>
-      <td data-label="Classes"><code>overflow-x--auto</code></td>
-      <td data-label="CSS Attribute"><code>overflow-x: auto;</code></td>
-    </tr>
-  </tbody>
-</table>
+Overflow can be tricky, so we gave you as much as we could.
 
-<p class="mb-2">
-    <i class="pi-rocket mr-1 text--negative"></i>
-    <strong class="mr-1">Try it!</strong> 
-    Click the button below to toggle the <code class="mx-1">.overflow-y--auto</code> class!
-</p>
+{{< classes result="true" >}}
+{{< classes-row class="overflow-visible" result="Sets overflow to visible." >}}
+{{< classes-row class="overflow-hidden" result="Sets overflow to hidden." >}}
+{{< classes-row class="overflow-scroll" result="Sets overflow to scroll." >}}
+{{< classes-row class="overflow-auto" result="Sets overflow to auto." >}}
+{{< classes-row class="overflow-y--visible" result="Sets overflow to visible." >}}
+{{< classes-row class="overflow-y--hidden" result="Sets overflow to hidden." >}}
+{{< classes-row class="overflow-y--scroll" result="Sets overflow to scroll." >}}
+{{< classes-row class="overflow-y--auto" result="Sets overflow to auto." >}}
+{{< classes-row class="overflow-x--visible" result="Sets overflow to visible." >}}
+{{< classes-row class="overflow-x--hidden" result="Sets overflow to hidden." >}}
+{{< classes-row class="overflow-x--scroll" result="Sets overflow to scroll." >}}
+{{< classes-row class="overflow-x--auto" result="Sets overflow to auto." >}}
+{{< /classes >}}
 
 <div class="block-container">
     <div class="block laptop-up-6 overflow-y--hidden">
-        <button class="button button-primary background--salmon text--white button--lg overflow-button">Toggle Overflow</button>
+        <button class="button button-primary background--salmon text--white overflow-button">Toggle Overflow</button>
         <div class="mt-2 mb-7 p-3 border border--color-med-blue overflow-paragraph" style="height: 7rem;">
             <h2 class="skeleton skeleton--md" role="presentation"></h2>
             <p class="skeleton" data-lines="5" role="presentation"></p>

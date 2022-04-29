@@ -14,18 +14,6 @@ skellycss: true
 <h6>Heading 6</h6>
 {{< /code-demo >}}
 
-{{< code-markup >}}
-{{< highlight html >}}
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-{{< /highlight >}}
-{{< /code-markup >}} 
-
-
 {{% anchor name="paragraph" %}}
 
 Why include a paragraph tag? Mostly to note that our paragraphs have a bottom margin of `1rem`.
@@ -33,12 +21,6 @@ Why include a paragraph tag? Mostly to note that our paragraphs have a bottom ma
 {{< code-demo >}}
 <p class="skeleton" data-lines="3"></p>
 {{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<p></p>
-{{< /highlight >}}
-{{< /code-markup >}} 
 
 {{% anchor name="utilities" %}}
 
@@ -99,9 +81,7 @@ Why include a paragraph tag? Mostly to note that our paragraphs have a bottom ma
 {{< /classes >}}
 
 
-{{% anchor name="general utilities" level="3" %}}
-
-General utilities add class-based css transforms like `uppercase` and `bold`. See the chart below for the full list.
+{{% anchor name="general" level="3" %}}
 
 {{< code-demo >}}
 <p class="text--bold">Hello World!</p>
