@@ -19,36 +19,10 @@ Add your text to a `data-tooltip` attribute on any item you want to provide with
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers type="data">}}
-<tr>
-  <td data-label="Modifier">
-    <i class="pi-ban" aria-hidden="true">
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-tooltip</code>
-  </td>
-  <td data-label="Behavior">
-    Available directions are top, bottom, left, and right to position
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-tooltip</code>
-  </td>
-  <td data-label="Behavior">
-    Tooltip displays inline
-  </td>
-</tr>
-{{< /modifiers >}}
+{{< classes attr="true">}}
+{{< classes-row class="tooltip-{t, b, l, r}" attr="data-tooltip" >}}
+{{< classes-row class="tooltip-inline" attr="data-tooltip" >}}
+{{< /classes >}}
 
 {{< callout header="Tooltip... Tip?" >}}
   <p>If you want to use a tooltip with an icon, make sure to add the data attribute to the <code>div</code> wrapper instead! This will ensure the text does not render a different font.</p>

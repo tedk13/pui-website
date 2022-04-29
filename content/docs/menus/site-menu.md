@@ -25,20 +25,22 @@ The `site-menu` starts as a basic horizontal menu that can be modified to fit a 
 {{< /highlight >}}
 {{< /code-markup >}} 
 
-{{< modifiers type="attr">}}
-{{< modifiers-row-attr 
-  modifier="background-color" 
-  behavior="Set menu background color and corresponding hover highlight." 
->}}
-{{< modifiers-row-attr 
-  modifier="hover-underline" 
-  secondary="hover-underline--{color}"
-  behavior="Add a horizontal border between menu items. The secondary modifier augments color." 
->}}
-{{< modifiers-row-attr 
-  modifier="site-menu--bordered" 
-  behavior="Add a horizontal border between menu items" 
->}}
+{{< modifiers secondary="true" >}}
+<tr>
+  <td data-label="Modifier"><code>background--{color}</code></td>
+  <td data-label="Secondary"><i class="pi-ban" aria-hidden="true"></i></td>
+  <td data-label="Behavior">Set menu background color and corresponding hover highlight.</td>
+</tr>
+<tr>
+  <td data-label="Modifier"><code>hover-underline</code></td>
+  <td data-label="Secondary"><code>hover-underline--{color}</code></td>
+  <td data-label="Behavior">Add an underline effect on hover. The secondary modifier augments color.</td>
+</tr>
+<tr>
+  <td data-label="Modifier"><code>site-menu--bordered</code></td>
+  <td data-label="Secondary"><i class="pi-ban" aria-hidden="true"></i></td>
+  <td data-label="Behavior">Add a horizontal border between menu items.</td>
+</tr>
 {{< /modifiers >}}
 
 {{% anchor name="logo" %}}
@@ -87,11 +89,11 @@ When using the utility `text--white` as a modifier on `site-menu`, all `site-men
 Sub-menus are accomplished via the `dropdown`.
 
 {{< modifiers >}}
-{{< modifiers-row-basic 
+{{< modifiers-row
   modifier="dropdown--centered" 
   behavior="Centers content of the dropdown sub-menu." 
 >}}
-{{< modifiers-row-basic 
+{{< modifiers-row 
     modifier="dropdown--right" 
     behavior="Justifies both the surrounding dropdown container and content to the right." 
 >}}

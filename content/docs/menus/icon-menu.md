@@ -53,8 +53,8 @@ Sometimes you need a smaller menu for a specific area or smaller viewport. Try a
 {{< /code-markup >}} 
 
 {{< modifiers >}}
-{{< modifiers-row-basic 
+{{< modifiers-row 
   modifier="icon-menu--vertical" 
-  behavior="Shift the menus orientation to vertical." 
+  behavior="Shift the menu's orientation to vertical." 
 >}}
 {{< /modifiers >}}

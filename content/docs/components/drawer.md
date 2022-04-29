@@ -56,35 +56,17 @@ A drawer can easily be opened by setting `data-drawer` with the matching `id` of
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers type="data" >}}
-<tr>
-  <td data-label="Modifier">
-    <code>drawer-{t,l,r}</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-drawer</code>
-  </td>
-  <td data-label="Behavior">
-    Top, left, right orientation. Bottom is default.
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>drawer--single-row</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-drawer</code>
-  </td>
-  <td data-label="Behavior">
-    A small drawer.
-  </td>
-</tr>
+{{< modifiers data="true" >}}
+{{< modifiers-row 
+  modifier="drawer-{t, l, r}"
+  attr="data-drawer"
+  behavior="`top`, `left`, `right` orientation. Bottom is default." 
+>}}
+{{< modifiers-row 
+  modifier="drawer--single-row"
+  attr="data-drawer"
+  behavior="A small drawer." 
+>}}
 {{< /modifiers >}}
 
 {{< callout header="Drawer Tip" >}}

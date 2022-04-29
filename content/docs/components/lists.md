@@ -61,20 +61,12 @@ Adding `list` strips `list-style-type`, `margin`, and `padding` from the user ag
 {{< /code-markup >}}
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>list--inline</code>
-  </td>
-  <td data-label="Behavior">
-    An inline flex list.
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>list--bordered</code>
-  </td>
-  <td data-label="Behavior">
-    Adds a bottom border when adding <code>list__item</code> to each child <code>li</code>.
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="list--inline"
+  behavior="An inline flex list." 
+>}}
+{{< modifiers-row 
+  modifier="list--bordered"
+  behavior="Adds a bottom border when adding `list__item` to each child `<li>`" 
+>}}
 {{< /modifiers >}}

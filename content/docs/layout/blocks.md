@@ -8,14 +8,10 @@ skellyCSS: true
 All block grids start with a wrapper of `block-container` that is `display: flex ` with `flex-wrap: wrap` applied. Container modifiers, which affect all child blocks, allow auto-placement based on responsive breakpoints.
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>blocks</code>
-  </td>
-  <td data-label="Behavior">
-    When applied, margins and padding placed on the container are applied to all child blocks instead.
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="blocks"
+  behavior="When applied, margins and padding placed on the container are applied to all child blocks instead." 
+>}}
 {{< /modifiers >}}
 
 {{< block-grid padding="blocks p-2" level="4">}}
@@ -84,6 +80,7 @@ Modifiers on each block, from 1-12, affect their native 100% width. The `block-{
 
 
 {{< modifiers >}}
+<!-- Do not use modifiers-row here to utilize the divs -->
 <tr>
   <td data-label="Modifier"><code>block-1</code></td>
   <td data-label="Behavior"><div class="block-container w-100"><div class="block block-1"><div class="card background--lighter"></div></div></div></td>
@@ -141,18 +138,18 @@ Breakpoint classes can be added to each of these utilities as well. So, for exam
 
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier"><code>block--shrink</code></td>
-  <td data-label="Behavior"><code>width: auto</code></td>
-</tr>
-<tr>
-  <td data-label="Modifier"><code>block--fill</code></td>
-  <td data-label="Behavior"><code>flex-grow: 1</code></td>
-</tr>
-<tr>
-  <td data-label="Modifier"><code>block--full</code></td>
-  <td data-label="Behavior"><code>width: 100%</code></td>
-</tr>
+{{< modifiers-row 
+  modifier="block--shrink"
+  behavior="`width: auto`" 
+>}}
+{{< modifiers-row 
+  modifier="block--fill"
+  behavior="`flex-grow: 1`" 
+>}}
+{{< modifiers-row 
+  modifier="block--full"
+  behavior="`width: 100%`" 
+>}}
 {{< /modifiers >}}
 
 {{< block-grid level="4" padding="blocks p-2 tablet-up-3" >}}
@@ -200,14 +197,10 @@ Breakpoint classes can be added to each of these utilities as well. So, for exam
 You can build responsive grids using modifiers based on [standard viewports](/docs/concepts/breakpoints/). These modifiers can be added on the block or container levels.
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>{viewport}-up-{number}</code>
-  </td>
-  <td data-label="Behavior">
-    Set <code>number</code> of columns a block, or blocks in a container, span across a <code>viewport</code>
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="{viewport}-up-{number}"
+  behavior="Set the `number` of columns a block, or blocks in a container, span across a `viewport`." 
+>}}
 {{< /modifiers >}}
 
 **Now let's explain what we mean!**
