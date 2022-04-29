@@ -92,53 +92,33 @@ Pills can be circular.
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="pill pill--circle">
-  33
+  <!-- Optional content here! -->
 </div>
 <div class="pill pill--circle text--white background--salmon">
-  33
+  <!-- Optional content here! -->
 </div>
 {{< /highlight >}}
 {{< /code-markup >}}
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>pill--circle-empty-dot</code>
-  </td>
-  <td data-label="Behavior">
-    Dot pill intended to remain empty
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>pill--circle-empty</code>
-  </td>
-  <td data-label="Behavior">
-    Small, circular pill intended to remain empty
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>pill--circle</code>
-  </td>
-  <td data-label="Behavior">
-    Circular pill intended to contain content
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>pill--circle-medium</code>
-  </td>
-  <td data-label="Behavior">
-    Medium circular pill intended to contain content
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>pill--circle-large</code>
-  </td>
-  <td data-label="Behavior">
-    Large circular pill intended to contain content
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="pill--circle-empty-dot"
+  behavior="Dot pill intended to remain empty." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle-empty"
+  behavior="Small, circular pull intended to remain empty." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle"
+  behavior="Circular pill intended to contain content." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle-medium"
+  behavior="Medium circular pill intended to contain content." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle-large"
+  behavior="Large circular pill intended to contain content." 
+>}}
 {{< /modifiers >}}

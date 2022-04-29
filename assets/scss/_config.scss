@@ -17,6 +17,12 @@ $brand-colors: (
   --header-height: 4.5rem;
 }
 
+html{
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
 .highlight {
   pre {
     padding: 0.5rem;
@@ -136,15 +142,6 @@ code {
   margin: 0;
   z-index: 0;
   opacity:0;
-}
-
-.astronaut {
-  animation: float-away 20s linear 3s 1 normal both
-}
-
-@keyframes float-away {
-  from {transform: translate(0, 0) rotate(0)}
-  to {transform: translate(150%, 25%) rotate(1000deg)}
 }
 
 main, footer {

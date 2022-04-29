@@ -87,32 +87,44 @@ skellyCSS: true
         </div>
         <div class="block-container cards blocks tablet-up-3 p-3 mb-3 w-100">
             <div class="block">
-                <div class="card rounded-2 hover-scale">
+                <div class="card rounded-2 p-0 flex flex--column hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2016/07/02/12/21/eclipse-1492818__340.jpg" alt="">
-                    <div class="card__content p-3">
-                        <h3 class="skeleton mb-3" role="presentation"></h3>
-                        <p class="skeleton" data-lines="2" role="presentation"></p> 
-                        <a class="button p-2 hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
+                    <div class="card__content p-3 flex flex--column flex--justify-between flex--grow">
+                        <div>
+                            <h3 class="skeleton mb-3" role="presentation"></h3>
+                            <p class="skeleton" data-lines="2" role="presentation"></p> 
+                        </div>
+                        <div>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="block">
-                <div class="card rounded-2 hover-scale">
+                <div class="card rounded-2 p-0 flex flex--column hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2014/12/27/16/38/planet-581239__340.jpg" alt="">
-                    <div class="card__content p-3">
-                        <h3 class="skeleton mb-3" role="presentation"></h3>
-                        <p class="skeleton" data-lines="4" role="presentation"></p> 
-                        <a class="button p-2 hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
+                    <div class="card__content p-3 flex flex--column flex--justify-between flex--grow">
+                        <div>
+                            <h3 class="skeleton mb-3" role="presentation"></h3>
+                            <p class="skeleton" data-lines="4" role="presentation"></p> 
+                        </div>
+                        <div>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="block">
-                <div class="card rounded-2 hover-scale">
+                <div class="card rounded-2 p-0 flex flex--column hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2017/02/08/12/46/moon-2048727__340.jpg" alt="">
-                    <div class="card__content p-3">
-                        <h3 class="skeleton mb-3" role="presentation"></h3>
-                        <p class="skeleton" data-lines="3" role="presentation"></p> 
-                        <a class="button p-2 hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
+                    <div class="card__content p-3 flex flex--column flex--justify-between flex--grow">
+                        <div>
+                            <h3 class="skeleton mb-3" role="presentation"></h3>
+                            <p class="skeleton" data-lines="3" role="presentation"></p> 
+                        </div>
+                        <div>
+                            <a class="button hover-scale background--purple background-hover--white text--white text-hover--purple border--color-purple" href="#">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>

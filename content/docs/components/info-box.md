@@ -45,16 +45,12 @@ Click the button to toggle the info box. You can also manually toggle this by ad
 {{< /code-markup >}}
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Modifier">
-    <code>info-box--left</code>
-  </td>
-  <td data-label="Behavior">
-    The info box opens from the left
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="info-box--left"
+  behavior="The info box opens from the left." 
+>}}
 {{< /modifiers >}}
 
 {{< callout header="info box tip">}}
-You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example below.
+You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example above.
 {{< /callout >}}

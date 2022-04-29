@@ -5,15 +5,17 @@
       <thead>
         <tr>
           <th>Modifier &dagger;</th>
-          {{ if .Get `type` }}
+          {{ if .Get `secondary` }}
           <th>Secondary Modifier</th>
+          {{ end }}
+          {{ if .Get `data` }}
           <th>Data Attribute</th>
           {{ end }}
           <th style="width: 40%">Behavior</th>
         </tr>
       </thead>
       <tbody>
-        {{ .Inner | markdownify }}
+        {{ .Inner }}
       </tbody>
     </table>
   </div>

@@ -80,21 +80,13 @@ At a mobile resolution (below 768px) an active tab will collapse when clicked.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Tabs" >}}
-<tr>
-  <td data-label="Modifier">
-    <code>tabs--flat</code>
-  </td>
-  <td data-label="Behavior">
-    Removes tab borders.
-  </td>
-</tr>
-<tr>
-  <td data-label="Modifier">
-    <code>unresponsive</code>
-  </td>
-  <td data-label="Behavior">
-    Removes responsive.
-  </td>
-</tr>
+{{< modifiers >}}
+{{< modifiers-row 
+  modifier="tabs--flat"
+  behavior="Removes tab borders." 
+>}}
+{{< modifiers-row 
+  modifier="unresponsive"
+  behavior="Removes responsive behavior." 
+>}}
 {{< /modifiers >}}
