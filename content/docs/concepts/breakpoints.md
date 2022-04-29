@@ -5,7 +5,7 @@ weight: 2
 
 We built our framework to leverage as many screen sizes as possible. Our [responsive grid](/docs/layout/blocks/#Responsive-grids) and [display utilities](/docs/utilities/display/) are based on the following viewports.
 
-Mobile should always be considered first, so additional breakpoints only need to be specified when soomething should look different in a larger viewport.
+Mobile should always be considered first, so additional breakpoints only need to be specified when something should look different in a larger viewport.
 
 <table class="table modifiers table--no-hover">
     <thead>
