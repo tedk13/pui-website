@@ -186,12 +186,13 @@ main, footer {
     h6 {
       > a {
         border-bottom: none !important;
-      }
-      &:hover > a {
-        &:after {
-          color: var(--light-purple);
-          content: "#";
-          margin-left: .25rem;
+
+        &:hover {
+          &:after {
+            color: var(--light-purple);
+            content: "#";
+            margin-left: .25rem;
+          }
         }
       }
     }
