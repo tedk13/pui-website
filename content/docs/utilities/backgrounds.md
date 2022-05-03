@@ -3,7 +3,7 @@ title: Backgrounds
 ---
 {{% anchor name="color" %}}
 
-The background color classes are used to set, or change a `background--color` on a specific element. 
+The background color classes are used to set or change a `background--color` on a specific element. 
 
 {{< classes >}}
 {{< classes-row 
@@ -133,7 +133,7 @@ Set background color and border color on an element to `transparent`.
 {{% requires-js %}}
 </div>
 
-Sometimes you just don't have access to add a background image properly when you're using a static site generator. Now you can add background images using data attributes and Javascript.
+Sometimes you just don't have access to properly add a background image when you're using a static site generator. Now you can add background images using data attributes and Javascript.
 
 {{< classes result="true" >}}
 {{< classes-row class="background-image" result="Set a background image with custom properties.">}}
@@ -184,7 +184,7 @@ Create your own custom linear gradient using a class and data attributes! Yeah, 
 {{< data-row attr="data-gradient-direction" behavior="Set the direction of your gradient." >}}
 {{< data-row attr="data-gradient-start" behavior="Set the start of your gradient." >}}
 {{< data-row attr="data-background-stop" behavior="Set the stop of your gradient." >}}
-{{< data-row attr="data-background-fallback" behavior="" >}}
+{{< data-row attr="data-background-fallback" behavior="Set the background when gradient is not supported." >}}
 {{< /data >}}
 
 {{< code-demo >}}
@@ -217,7 +217,7 @@ Create your own custom linear gradient using a class and data attributes! Yeah, 
 
 
 {{< classes result="true" >}}
-{{< classes-row class="ratio-{1_1, 2_1, 4_3, 16_9 }" result="Set the size of an element equal to a common ratio: 1:1, 2:1, 4:3, 16:9">}}
+{{< classes-row class="ratio-{ 1_1, 2_1, 4_3, 16_9 }" result="Set the size of an element equal to a common ratio: 1:1, 2:1, 4:3, 16:9">}}
 {{< /classes >}}
 
 {{< code-demo >}}

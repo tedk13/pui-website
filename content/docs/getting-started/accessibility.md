@@ -12,14 +12,14 @@ We made a point to include the now familiar <a href="https://webaim.org/techniqu
 
 There are also instances where content that is present for design or aesthetic purposes should be hidden from a screen reader to eliminate confusion. This is where ARIA labeling comes to the rescue.
 
-In the snippet below we have a button with an icon only - concise and, depending on the icon, is generally understood visually by a sighted user.  
+In the snippet below we have a button with an icon only - concise and generally understood by a sighted user.
 
 {{< highlight html >}}
 <button class=”button”>
    <i class=”pi-download”>
 </button>
 {{< /highlight >}}
-
+<br>
 You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="external" target="_blank">WAI-ARIA</a> roles and attributes along with the `sr-only` class to improve the experience for users who require assistive technology.
 
 {{< highlight html >}}

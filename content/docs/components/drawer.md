@@ -58,7 +58,7 @@ A drawer can easily be opened by setting `data-drawer` with the matching `id` of
 
 {{< modifiers data="true" >}}
 {{< modifiers-row 
-  modifier="drawer-{t, l, r}"
+  modifier="drawer-{ t, l, r }"
   attr="data-drawer"
   behavior="`top`, `left`, `right` orientation. Bottom is default." 
 >}}

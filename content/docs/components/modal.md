@@ -57,22 +57,22 @@ If you need to prevent the background from scrolling, toggle the `modal-open` cl
 {{< modifiers data="true" >}}
 {{< modifiers-row 
   modifier="modal--small"
-  data="data-modal"
+  attr="data-modal"
   behavior="Small sized modal." 
 >}}
 {{< modifiers-row 
   modifier="modal--large"
-  data="data-modal"
+  attr="data-modal"
   behavior="Large sized modal." 
 >}}
 {{< modifiers-row 
   modifier="modal--full"
-  data="data-modal"
+  attr="data-modal"
   behavior="Full sized modal, takes up 100% of the viewport." 
 >}}
 {{< modifiers-row 
   modifier="modal--centered"
-  data="data-modal"
+  attr="data-modal"
   behavior="Centers the modal in the middle of the viewport." 
 >}}
 {{< /modifiers >}}

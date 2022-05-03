@@ -34,16 +34,16 @@ Here's an example of a larger responsive form using the block layout.
         <input class="form__checkbox" id="gender-this-one-h" type="checkbox">
         <label for="gender-this-one-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-check pi-heavy"></i>
           </div>
           This One
         </label>
         <input class="form__checkbox" id="gender-that-one-h" type="checkbox">
         <label for="gender-that-one-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-check pi-heavy"></i>
           </div>
           That One
         </label>
@@ -57,16 +57,16 @@ Here's an example of a larger responsive form using the block layout.
         <input class="form__radio" id="gender-male-h" type="radio" name="gender">
         <label for="gender-male-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-circle-solid"></i>
           </div>
           Male
         </label>
         <input class="form__radio" id="gender-female-h" type="radio" name="gender">
         <label for="gender-female-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-circle-solid"></i>
           </div>
           Female
         </label>
@@ -93,11 +93,11 @@ Here's an example of a larger responsive form using the block layout.
       <div class="toggle">
         <div class="toggle__content">
           <input id="tall-h" type="radio" checked name="height">
-          <label for="tall-h"><i class='pi-check pi-heavy'></i> Tall</label>
+          <label for="tall-h"><i class="pi-check pi-heavy"></i> Tall</label>
         </div>
         <div class="toggle__content">
           <input id="short-h" type="radio" name="height">
-          <label for="short-h"><i class='pi-check pi-heavy'></i> Short</label>
+          <label for="short-h"><i class="pi-check pi-heavy"></i> Short</label>
         </div>
       </div>
     </fieldset>
@@ -150,16 +150,16 @@ Here's an example of a larger responsive form using the block layout.
         <input class="form__checkbox" id="gender-this-one-h" type="checkbox">
         <label for="gender-this-one-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-check pi-heavy"></i>
           </div>
           This One
         </label>
         <input class="form__checkbox" id="gender-that-one-h" type="checkbox">
         <label for="gender-that-one-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-check pi-heavy'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-check pi-heavy"></i>
           </div>
           That One
         </label>
@@ -173,16 +173,16 @@ Here's an example of a larger responsive form using the block layout.
         <input class="form__radio" id="gender-male-h" type="radio" name="gender">
         <label for="gender-male-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-circle-solid"></i>
           </div>
           Male
         </label>
         <input class="form__radio" id="gender-female-h" type="radio" name="gender">
         <label for="gender-female-h">
           <div class="input-icons">
-            <i class='pi-circle pi-lg'></i>
-            <i class='pi-circle-solid'></i>
+            <i class="pi-circle pi-lg"></i>
+            <i class="pi-circle-solid"></i>
           </div>
           Female
         </label>
@@ -209,11 +209,11 @@ Here's an example of a larger responsive form using the block layout.
       <div class="toggle">
         <div class="toggle__content">
           <input id="tall-h" type="radio" checked name="height">
-          <label for="tall-h"><i class='pi-check pi-heavy'></i> Tall</label>
+          <label for="tall-h"><i class="pi-check pi-heavy"></i> Tall</label>
         </div>
         <div class="toggle__content">
           <input id="short-h" type="radio" name="height">
-          <label for="short-h"><i class='pi-check pi-heavy'></i> Short</label>
+          <label for="short-h"><i class="pi-check pi-heavy"></i> Short</label>
         </div>
       </div>
     </fieldset>

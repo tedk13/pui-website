@@ -1,5 +1,5 @@
 ---
-title: Hover effects
+title: Hover Effects
 skellyCSS: true
 ---
 

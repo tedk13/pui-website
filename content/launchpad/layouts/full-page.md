@@ -44,7 +44,7 @@ skellyCSS: true
       <span class="text--white flex flex--justify-center text--size-lg">Otherworldly pizza!</span>
       <button class="button button--salmon text--white button--lg my-4 hover-scale">
         <span class="flex flex--align-center">
-        <i class='pi-touch mr-2'></i>
+        <i class="pi-touch mr-2"></i>
         Order Online
         </span>
       </button>
@@ -271,11 +271,11 @@ skellyCSS: true
             <div class="pui-toggle">
               <input id="Tall-2" type="radio" checked name="height">
               <label for="Tall-2">
-                <i class='pi-check pi-heavy'></i> Personal
+                <i class="pi-check pi-heavy"></i> Personal
               </label>
               <input id="Short-2" type="radio" name="height">
               <label for="Short-2">
-                <i class='pi-check pi-heavy'></i> Regular
+                <i class="pi-check pi-heavy"></i> Regular
               </label>
             </div>
           </fieldset>
@@ -287,16 +287,16 @@ skellyCSS: true
               <input id="choose-small" type="radio" name="choose-one">
               <label for="choose-small">
                 <div class="input-icons">
-                  <i class='pi-circle pi-lg'></i>
-                  <i class='pi-circle-solid'></i>
+                  <i class="pi-circle pi-lg"></i>
+                  <i class="pi-circle-solid"></i>
                 </div>
                 Pan
               </label>
               <input id="choose-bigger" type="radio" name="choose-one">
               <label for="choose-bigger">
                 <div class="input-icons">
-                  <i class='pi-circle pi-lg'></i>
-                  <i class='pi-circle-solid'></i>
+                  <i class="pi-circle pi-lg"></i>
+                  <i class="pi-circle-solid"></i>
                 </div>
                 Garlic Pan
               </label>
@@ -310,32 +310,32 @@ skellyCSS: true
               <input id="choose-this-one" type="checkbox">
               <label for="choose-this-one">
                 <div class="input-icons">
-                  <i class='pi-circle pi-lg'></i>
-                  <i class='pi-check pi-heavy'></i>
+                  <i class="pi-circle pi-lg"></i>
+                  <i class="pi-check pi-heavy"></i>
                 </div>
                 Pepperoni
               </label>
               <input id="choose-that-one" type="checkbox">
               <label for="choose-that-one">
                 <div class="input-icons">
-                  <i class='pi-circle pi-lg'></i>
-                  <i class='pi-check pi-heavy'></i>
+                  <i class="pi-circle pi-lg"></i>
+                  <i class="pi-check pi-heavy"></i>
                 </div>
                 Sausage
               </label>
               <input id="choose-that-one-2" type="checkbox">
               <label for="choose-that-one-2">
                 <div class="input-icons">
-                  <i class='pi-circle pi-lg'></i>
-                  <i class='pi-check pi-heavy'></i>
+                  <i class="pi-circle pi-lg"></i>
+                  <i class="pi-check pi-heavy"></i>
                 </div>
                 Bacon
               </label>
               <input id="choose-that-one-3" type="checkbox">
               <label for="choose-that-one-3">
                 <div class="input-icons">
-                  <i class='pi-circle pi-lg'></i>
-                  <i class='pi-check pi-heavy'></i>
+                  <i class="pi-circle pi-lg"></i>
+                  <i class="pi-check pi-heavy"></i>
                 </div>
                 Jalapeño
               </label>
@@ -383,7 +383,7 @@ skellyCSS: true
 
 <div class="pos-fix pin-right pin-bottom p-4">
 <button class="button button--salmon text--white button--lg drawer__open hover-scale" data-drawer="right">
-  <i class='pi-tag mr-2'></i>
+  <i class="pi-tag mr-2"></i>
   View Cart
 </button>
 </div>

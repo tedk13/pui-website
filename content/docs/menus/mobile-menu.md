@@ -6,14 +6,13 @@ weight: 2
 {{% anchor name="Mobile menu" %}}
 
 <div class="mb-4">
-{{% requires-js %}} {{% requires-icons %}} 
+{{% requires-js %}}
 </div>
 
-It's our version of the standard hamburger menu and requires our Javascript, icons (for the hamburger), and a bit more markdown. Here's the basic structure. View this site in a mobile viewport to see it in action.
+Our version of the standard hamburger menu requires our Javascript and a bit more markdown. Here's the basic structure; check out this site in a mobile viewport to see it in action.
 
 {{< code-markup >}}
 {{< highlight html >}}
-
 <div class="site-menu-wrapper">
   <button class="site-menu-mobile-action">
     <span class="sr-only">Toggle Navigation</span>

@@ -17,8 +17,8 @@ Using our padding and margin utilities is simple. It's _what_ you're setting, th
 {{% anchor name="x y axis" level="3" %}}
 
 {{< classes result="true" >}}
-{{< classes-row class="{padding, p or margin, m }x-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem` on the x axis (left and right)." >}}
-{{< classes-row class="{padding, p or margin, m }y-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem` on the y axis (top and bottom)." >}}
+{{< classes-row class="{padding, p or margin, m }x-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem` on the x-axis (left and right)." >}}
+{{< classes-row class="{padding, p or margin, m }y-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem` on the y-axis (top and bottom)." >}}
 {{< /classes >}}
 
 {{% anchor name="top bottom left right" level="3" %}}
