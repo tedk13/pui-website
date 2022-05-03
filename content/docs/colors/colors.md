@@ -4,9 +4,6 @@ description: A list of colors that ship with Platform UI.
 skellyCSS: true
 ---
 
-All of these colors have a corresponding custom property that is added to the `:root`. Each of these custom properties has an alpha pertcentage set with a `-a10` suffix. 
-These percentages range from 100% to 10% in increments of 10. For example, `--navy-a50` uses the rgba value of `(0,63,112,.5)`.
-
 {{% anchor name="Brand Colors" %}}
 
 <section class="mb-4">
@@ -65,3 +62,46 @@ These percentages range from 100% to 10% in increments of 10. For example, `--na
         </div>
     </div>    
 </section>
+
+{{% anchor name="Alpha" %}}
+
+Each of the colors listed above has a corresponding alpha value ranging from 10% to 90%. Below is the example for `navy`.
+
+<section class="mb-4">
+    <div class="block-container blocks p-2 tablet-up-2 lg-tablet-up-3 laptop-up-4">
+        <div class="block">
+            {{% color color="#003f70" color_name="navy" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.1)" color_name="navy-a10" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.2)" color_name="navy-a20" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.3)" color_name="navy-a30" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.4)" color_name="navy-a40" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.5)" color_name="navy-a50" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.6)" color_name="navy-a60" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.7)" color_name="navy-a70" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.8)" color_name="navy-a80" %}}
+        </div>
+        <div class="block">
+            {{% color color="rgba(0,63,112,.9)" color_name="navy-a90" %}}
+        </div>
+    </div>    
+</section>
+
+{{% anchor name="Custom Properties" %}}
+
+All of these colors have a corresponding custom property that we export to the `:root` as `--{color name}`. The alpha colors are `--{color name}-{1-9}`.
