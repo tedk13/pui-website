@@ -20,7 +20,7 @@ Add your text to a `data-tooltip` attribute on any item you want to provide with
 {{< /code-markup >}}
 
 {{< classes attr="true">}}
-{{< classes-row class="tooltip-{t, b, l, r}" attr="data-tooltip" >}}
+{{< classes-row class="tooltip-{ t, b, l, r }" attr="data-tooltip" >}}
 {{< classes-row class="tooltip-inline" attr="data-tooltip" >}}
 {{< /classes >}}
 

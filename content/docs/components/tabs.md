@@ -6,7 +6,7 @@ skellyCSS: true
 
 {{% anchor name="Tab" %}}
 
-Our tabs are based on radio inputs, content for a tabbed section needs to live inside the `tabs` container and the input `id` and corresponding label `for` need to match.
+Our tabs are based on radio inputs. Content for a tabbed section needs to live inside the `tabs` container and the input `id` and corresponding label `for` need to match.
 The tab's content, `tab-panel`, must be the consecutive sibling of the `tab` label.
 
 Tabs have a specific width of `16rem` and height of `4rem`.

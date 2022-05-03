@@ -4,16 +4,17 @@ description: Documentation for Platform UI's flexbox components and utilities.
 ---
 {{% anchor name="display" %}}
 
-Our flex utilities are easy to use, and fairly comprehensive. The only property you need in place to start unlocking the power of flexbox is `display: flex`, or `display: inline-flex` if you have a use case. 
+Our flex utilities are easy to use and fairly comprehensive. The only property you need in place to start unlocking the power of flexbox is `display: flex`, or `display: inline-flex` if you have a need for it. 
 
 {{< classes attr="true">}}
 {{< classes-row class="flex" attr="display: flex" >}}
 {{< classes-row class="flex-inline" attr="display: flex-inline" >}}
 {{< /classes >}}
 
-{{< callout header="the exception">}}
-`flex--center-content`, under [Content](#content) is the only flex utility that **DOES NOT** require the initial `flex` class. `display: flex` is already set.
+{{< callout header="the exception" >}}
+`flex--center-content` under [Content](#content) is the only flex utility that **DOES NOT** require the initial `flex` class - `display: flex` is already set.
 {{< /callout >}}
+
 {{% anchor name="align" %}}
 Sets the flex container to align all contained elements to either the start, center, end, or baseline points of the container.
 
@@ -89,7 +90,7 @@ Sets individual elements to align to either the start, center, end, or baseline 
 {{</ visualizer >}}
 
 {{% anchor name="justify" %}}
-Sets individual elements to align to either the start, center, end, or baseline points of a flex container.
+Sets individual elements to justify to either the start, center or end of a flex container or to add space around or between within a flex container.
 
 {{< visualizer header="Click the buttons below to toggle the flex justify utility classes!" >}}
 <div class="actions block">

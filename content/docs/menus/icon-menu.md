@@ -4,11 +4,7 @@ weight: 3
 ---
 {{% anchor name="Icon menu" %}}
 
-<div class="mb-4">
-{{% requires-icons %}} 
-</div>
-
-Sometimes you need a smaller menu for a specific area or smaller viewport. Try an icon menu!
+Sometimes you need a smaller menu for a specific area or a smaller viewport. Try an icon menu!
 
 {{< code-demo >}}
 <div class="icon-menu">

@@ -27,13 +27,13 @@ The `site-menu` starts as a basic horizontal menu that can be modified to fit a 
 
 {{< modifiers secondary="true" >}}
 <tr>
-  <td data-label="Modifier"><code>background--{color}</code></td>
+  <td data-label="Modifier"><code>background--{ color }</code></td>
   <td data-label="Secondary"><i class="pi-ban" aria-hidden="true"></i></td>
   <td data-label="Behavior">Set menu background color and corresponding hover highlight.</td>
 </tr>
 <tr>
   <td data-label="Modifier"><code>hover-underline</code></td>
-  <td data-label="Secondary"><code>hover-underline--{color}</code></td>
+  <td data-label="Secondary"><code>hover-underline--{ color }</code></td>
   <td data-label="Behavior">Add an underline effect on hover. The secondary modifier augments color.</td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ The `site-menu` starts as a basic horizontal menu that can be modified to fit a 
 
 {{% anchor name="logo" %}}
 
-Our site menu was built to be used in the header as a main site navigation. If you have a logo to add, apply the `site-logo` class.
+Our site menu was built to be used in the header as a main site navigation. If you'd like to add a logo, apply the `site-logo` class.
 
 {{< code-demo >}}
 <div class="site-header background--purple flex flex--align-center">
@@ -136,3 +136,18 @@ Sub-menus are accomplished via the `dropdown`.
 {{% anchor name="fixed" %}} 
 
 To set a fixed-position header menu (like the one this site uses), wrap `site-menu` in an element with the `site-header` class and add the modifier `site-header--fixed`. 
+
+{{< code-markup >}}
+{{< highlight html >}}
+<header class="site-header site-header--fixed">
+  <a class="site-logo">
+    <img src="..." alt="Platform UI">
+  </a>
+  <nav class="site-menu">
+    <a href="" class="site-menu__item">Docs</a>
+    <a href="" class="site-menu__item">Icons</a>
+    <a href="" class="site-menu__item">Launchpad</a>
+  </nav>
+</header>
+{{< /highlight >}}
+{{< /code-markup >}}

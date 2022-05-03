@@ -125,23 +125,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
   }
 
   // transition
-  let transitionCard = document.querySelector('.transition-card');
-  let transitionDivColor = document.querySelector('.transition-div-color');
   let transitionDivPadding = document.querySelector('.transition-div-padding');
 
-  if (transitionCard) {
-    transitionCard.addEventListener('click', () => {
-      transitionCard.classList.toggle('border--color-orange');
-    });
-
-    transitionDivColor.addEventListener('mouseenter', () => {
-      transitionDivColor.classList.add('background--med-blue');
-    });
-
-    transitionDivColor.addEventListener('mouseleave', () => {
-      transitionDivColor.classList.remove('background--med-blue');
-    });
-
+  if (transitionDivPadding) {
     transitionDivPadding.addEventListener('click', () => {
       transitionDivPadding.classList.toggle('p-4');
     });

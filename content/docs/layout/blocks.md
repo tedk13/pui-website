@@ -5,7 +5,7 @@ skellyCSS: true
 
 {{% anchor name="block container" %}}
 
-All block grids start with a wrapper of `block-container` that is `display: flex ` with `flex-wrap: wrap` applied. Container modifiers, which affect all child blocks, allow auto-placement based on responsive breakpoints.
+All block grids start with a wrapper of `block-container` that is `display: flex` with `flex-wrap: wrap` applied. Container modifiers, which affect all child blocks, allow auto-placement based on responsive breakpoints.
 
 {{< modifiers >}}
 {{< modifiers-row 
@@ -38,11 +38,11 @@ All block grids start with a wrapper of `block-container` that is `display: flex
 
 {{% anchor name="block" %}}
 
-Based on a 12 column grid, `block` is a core structural component when building your layout. Blocks are fully responsive, each `block` has a width of 100% applied for all resolutions and can be modified both on the container and block levels.
+Based on a 12 column grid, `block` is a core structural component when building your layout. Blocks are fully responsive - each `block` has a width of 100% applied for all resolutions and can be modified both on the container and block levels.
 
 {{% anchor level="3" name="size" %}}
 
-Modifiers on each block, from 1-12, affect their native 100% width. The `block-{number}` will always reflect the mobile value, or, smallest breakpoint.
+Modifiers on each block, from 1-12, affect their native 100% width. The `block-{number}` will always reflect the smallest breakpoint which is mobile.
 
 {{< block-grid level="4" padding="blocks p-2" >}}
   <div class="block block-3">
@@ -134,7 +134,7 @@ Modifiers on each block, from 1-12, affect their native 100% width. The `block-{
 
 {{% anchor name="utilities" level="3" %}}
 
-Breakpoint classes can be added to each of these utilities as well. So, for example, you could have a `block-8` from mobile up. Then, at a laptop size you wanted the block to shrink to the size of it's content, you could add the class `laptop-up--shrink`. This would give the styles `width: auto` within that set media query. So you're block would have the classes, `block` `block-8` `laptop-up--shrink`.
+Breakpoint classes can be added to each of these utilities as well. For example, you could have a `block-8` from mobile up. Then, if you wanted the block to shrink to the size of its content at a laptop size, you could add the class `laptop-up--shrink`. This would give the styles `width: auto` within that set media query. Your block would have the classes, `block` `block-8` `laptop-up--shrink`.
 
 
 {{< modifiers >}}
