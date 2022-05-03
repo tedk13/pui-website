@@ -1,11 +1,31 @@
 ---
 layout: landing 
-title: Icons
-description: Documentation on Platform Icons.
+title: Platform Icons
 weight: 6
 ---
-All platform icons have a prefix of `pi` and are house in the `<i>` element tag. **Click the button below the icon to copy to clipboard.**
-`<i class="pi-arrow-right"></i>` produces: <i class="pi-arrow-right"></i>
+
+{{% anchor name="Usage" %}}
+
+{{< classes >}}
+{{< classes-row class="pi-{ icon name }" result="You get an icon ">}}
+{{< /classes >}}
+
+You can add this class to any empty div. We hijack the deprecated `<i>` which has become the standard in recent years. 
+{{< code-demo >}}
+<i class="pi-trophy"></i>
+{{< /code-demo >}}
+
+{{< code-markup >}}
+{{< highlight html >}}
+<i class="pi-trophy"></i>
+{{< /highlight >}}
+{{< /code-markup >}}
+
+{{< callout header="aria-hidden" >}}
+Remeber to add the proper aria-label when the icon is a decoration only `aria-hidden="true"`. 
+{{< /callout >}}
+
+{{% anchor name="Icons" %}}
 
 <ul class="list block-container tablet-up-5 blocks p-2 mb-3">
   <li class="block flex--center-content flex--column">
@@ -13,7 +33,7 @@ All platform icons have a prefix of `pi` and are house in the `<i>` element tag.
       <i class=" pi-eye-line"></i>
     </span>
     <span class="flex--center-content">pi-eye-line</span>
-    <div class="button mt-2 tooltip-bottom" data-copy-button="" data-clipboard-text="<i class='pi-eye-line'></i>">
+    <div class="button mt-2 tooltip-bottom" data-copy-button="" data-clipboard-text='<i class="pi-eye-line"></i>'>
       Copy <i class="pi-clipboard"></i>
     </div>
   </li>
@@ -1712,73 +1732,28 @@ clipboard.on('success', function(e) {
 });
 </script>
 
+{{% anchor name="Sizing" %}}
 
-{{% anchor name="setup" %}}
+{{< classes result="true" >}}
+{{< classes-row class="pi-{ xs, sm, lg, xl, xxl }" result="Alter the size of your icon from `.5rem` to `3rem`.">}}
+{{< /classes >}}
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>source</th>
-      <th>default</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="source">artboard</td>
-      <td data-label="default">4" x 4"</td>
-    </tr>
-    <tr>
-      <td data-label="source">stroke: main</td>
-      <td data-label="default">24pt</td>
-    </tr>
-    <tr>
-      <td data-label="source">stroke: auxiliary&#42;</td>
-      <td data-label="default">18pt</td>
-    </tr>
-    <tr>
-      <td data-label="source">stroke: corner</td>
-      <td data-label="default">.15"</td>
-    </tr>
-    <tr>
-      <td data-label="source">stroke: join</td>
-      <td data-label="default">round</td>
-    </tr>
-  </tbody>
-</table>
+{{< code-demo >}}
+<i class="pi-rocket pi-xs"></i>
+<i class="pi-rocket pi-sm"></i>
+<i class="pi-rocket"></i>
+<i class="pi-rocket pi-lg"></i>
+<i class="pi-rocket pi-xl"></i>
+<i class="pi-rocket pi-xxl"></i>
+{{< /code-demo >}}
 
-<i class="pi-warning text--orange"></i> **NOTE:** Rememeber to expand to outlines before committing.
-
-
-{{% anchor name="sizing" %}}
-
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Size</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Class">pi-xs</td>
-      <td data-label="Size">font-size: .5rem</td>
-    </tr>
-    <tr>
-      <td data-label="Class">pi-sm</td>
-      <td data-label="Size">font-size: .75rem</td>
-    </tr>
-    <tr>
-      <td data-label="Class">pi-lg</td>
-      <td data-label="Size">font-size: 1.5rem</td>
-    </tr>
-    <tr>
-      <td data-label="Class">pi-xl</td>
-      <td data-label="Size">font-size: 2rem</td>
-    </tr>
-    <tr>
-      <td data-label="Class">pi-xxl</td>
-      <td data-label="Size">font-size: 3rem</td>
-    </tr>
-  </tbody>
-</table>
-
+{{< code-markup >}}
+{{< highlight html >}}
+<i class="pi-rocket pi-xs"></i>
+<i class="pi-rocket pi-sm"></i>
+<i class="pi-rocket"></i>
+<i class="pi-rocket pi-lg"></i>
+<i class="pi-rocket pi-xl"></i>
+<i class="pi-rocket pi-xxl"></i>   
+{{< /highlight >}}
+{{< /code-markup >}}

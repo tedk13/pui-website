@@ -35,7 +35,7 @@
         <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4">
           <nav id="sidebar-right">
             <h2 class="text--size-md">On This Page</h2>
-            <div id="on-this-page" class="on-this-page"></div>
+            {{ .TableOfContents }}
           </nav>
         </aside>
         {{ .Content }}
@@ -43,7 +43,7 @@
       <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4">
         <nav id="sidebar-right">
           <h2 class="text--size-md">On This Page</h2>
-          <div id="on-this-page" class="on-this-page"></div>
+          {{ .TableOfContents }}
         </nav>
       </aside>
     </main>
