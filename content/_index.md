@@ -18,7 +18,7 @@ description: Platform UI is a fast, simple, and powerful CSS framework that's bu
   <div class="block block-7 tablet-up-8">
     <div class="block-container blocks cards tablet-up-2 lg-tablet-up-3 laptop-up-4 px-2 my-2 flex--justify-center">
       <div class="block">
-        <div class="card text--center hover-shadow no-border">
+        <div class="card text--center hover-shadow hover-scale no-border">
           <h3 class="text--size-lg text--purple">Easy</h3>
           <figure>
             <img src="/images/icons/easy.svg" alt="Platform UI setup is easy!" class="feature-image px-4">
@@ -29,7 +29,7 @@ description: Platform UI is a fast, simple, and powerful CSS framework that's bu
         </div>
       </div>
       <div class="block">
-        <div class="card text--center hover-shadow no-border">
+        <div class="card text--center hover-shadow hover-scale no-border">
           <h3 class="text--size-lg text--purple">Responsive</h3>
           <figure>
             <img src="/images/icons/responsive.svg" alt="Create responsive designs!" class="feature-image px-4">
@@ -40,7 +40,7 @@ description: Platform UI is a fast, simple, and powerful CSS framework that's bu
         </div>
       </div>
       <div class="block">
-        <div class="card text--center hover-shadow no-border">
+        <div class="card text--center hover-shadow hover-scale no-border">
           <h3 class="text--size-lg text--purple">Icons</h3>
           <figure>
             <img src="/images/icons/icons.svg" alt="Utilizes Platform Icons!" class="feature-image px-4">
@@ -51,7 +51,7 @@ description: Platform UI is a fast, simple, and powerful CSS framework that's bu
         </div>
       </div>
       <div class="block">
-        <div class="card text--center hover-shadow no-border">
+        <div class="card text--center hover-shadow hover-scale no-border">
           <h3 class="text--size-lg text--purple">Templates</h3>
           <figure>
             <img src="/images/icons/customizable.svg" alt="Quickly get started with templates!" class="feature-image px-4">
