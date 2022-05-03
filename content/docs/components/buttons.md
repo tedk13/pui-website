@@ -27,7 +27,7 @@ The default button style is white with a dark outline and has a salmon backgroun
   behavior="Removes the border and background. Good for icons alone." 
 >}}
 {{< modifiers-row 
-  modifier="button--{color}"
+  modifier="button--{ color }"
   behavior="Loops through Platform UI colors for background and hover coloring." 
 >}}
 {{< modifiers-row 

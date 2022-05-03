@@ -4,7 +4,7 @@ title: Positioning
 
 {{% anchor name="Position" %}}
 
-To postion an element absolutely, set `pos-rel` on the parent element, and `pos-abs` to the absolutely positioned child. All of our position utilities are meant to be used (mostly) with pinning.
+To postion an element absolutely, set `pos-rel` on the parent element and `pos-abs` to child that you'd like to position absolute. Our position utilities are meant to be used (mostly) with pinning.
 
 {{< classes result="true" >}}
 {{< classes-row class="pos-rel" result="Position relative to the elements normal position.">}}
@@ -45,26 +45,6 @@ To postion an element absolutely, set `pos-rel` on the parent element, and `pos-
     <li>
       <button class="button" data-example-elements="pin-center">
         <pre>.pin-center</pre>
-      </button>
-    </li>
-    <li>
-      <button class="button" data-example-elements="pin-center-top">
-        <pre>.pin-center-top</pre>
-      </button>
-    </li>
-    <li>
-      <button class="button" data-example-elements="pin-center-right">
-        <pre>.pin-center-right</pre>
-      </button>
-    </li>
-    <li>
-      <button class="button" data-example-elements="pin-center-bottom">
-        <pre>.pin-center-bottom</pre>
-      </button>
-    </li>
-    <li>
-      <button class="button" data-example-elements="pin-center-left">
-        <pre>.pin-center-left</pre>
       </button>
     </li>
     <li>

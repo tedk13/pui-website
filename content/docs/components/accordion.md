@@ -4,7 +4,7 @@ description: Documentation for Platform UI's accordion components.
 skellyCSS: true
 ---
 
-{{% requires-js %}} {{% requires-icons %}}
+{{% requires-js %}}
 
 {{% anchor name="accordion" %}}
 

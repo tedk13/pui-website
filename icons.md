@@ -1,35 +1,14 @@
 ---
-layout: landing 
-title: Platform Icons
-weight: 6
+layout: single
+title: Icons
+permalink: /icons
 ---
-
-{{% anchor name="Usage" %}}
-
-{{< classes >}}
-{{< classes-row class="pi-{ icon name }" result="You get an icon ">}}
-{{< /classes >}}
-
-You can add this class to any empty div. We hijack the deprecated `<i>` which has become the standard in recent years. 
-{{< code-demo >}}
-<i class="pi-trophy"></i>
-{{< /code-demo >}}
-
-{{< code-markup >}}
-{{< highlight html >}}
-<i class="pi-trophy"></i>
-{{< /highlight >}}
-{{< /code-markup >}}
-
-{{< callout header="aria-hidden" >}}
-Remeber to add the proper aria-label when the icon is a decoration only `aria-hidden="true"`. 
-{{< /callout >}}
-
-{{% anchor name="Icons" %}}
+All platform icons have a prefix of `pi` and are house in the `<i>` element tag. **Click the button below the icon to copy to clipboard.**
+`<i class="pi-arrow-right"></i>` produces: <i class="pi-arrow-right"></i>
 
 <ul class="list block-container tablet-up-5 blocks p-2 mb-3">
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text-size--xxl text-base p-3">
       <i class="pi-eye-line"></i>
     </span>
     <span class="flex--center-content">pi-eye-line</span>
@@ -38,7 +17,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-eye"></i>
     </span>
     <span class="flex--center-content">pi-eye</span>
@@ -47,7 +26,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-help-solid"></i>
     </span>
     <span class="flex--center-content">pi-help-solid</span>
@@ -56,7 +35,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-help"></i>
     </span>
     <span class="flex--center-content">pi-help</span>
@@ -65,7 +44,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-info-solid"></i>
     </span>
     <span class="flex--center-content">pi-info-solid</span>
@@ -74,7 +53,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-info"></i>
     </span>
     <span class="flex--center-content">pi-info</span>
@@ -83,7 +62,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-learn"></i>
     </span>
     <span class="flex--center-content">pi-learn</span>
@@ -92,7 +71,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-universal-access"></i>
     </span>
     <span class="flex--center-content">pi-universal-access</span>
@@ -101,7 +80,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-warning-circle"></i>
     </span>
     <span class="flex--center-content">pi-warning-circle</span>
@@ -110,7 +89,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-warning"></i>
     </span>
     <span class="flex--center-content">pi-warning</span>
@@ -119,7 +98,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-angle-down-double"></i>
     </span>
     <span class="flex--center-content">pi-angle-down-double</span>
@@ -128,7 +107,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-angle-down"></i>
     </span>
     <span class="flex--center-content">pi-angle-down</span>
@@ -137,7 +116,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-angle-left"></i>
     </span>
     <span class="flex--center-content">pi-angle-left</span>
@@ -146,7 +125,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-angle-right"></i>
     </span>
     <span class="flex--center-content">pi-angle-right</span>
@@ -155,7 +134,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-angle-up"></i>
     </span>
     <span class="flex--center-content">pi-angle-up</span>
@@ -164,7 +143,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-down"></i>
     </span>
     <span class="flex--center-content">pi-arrow-down</span>
@@ -173,7 +152,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-left"></i>
     </span>
     <span class="flex--center-content">pi-arrow-left</span>
@@ -182,7 +161,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-right"></i>
     </span>
     <span class="flex--center-content">pi-arrow-right</span>
@@ -191,7 +170,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-solid-down"></i>
     </span>
     <span class="flex--center-content">pi-arrow-solid-down</span>
@@ -200,7 +179,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-solid-left"></i>
     </span>
     <span class="flex--center-content">pi-arrow-solid-left</span>
@@ -209,7 +188,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-solid-right"></i>
     </span>
     <span class="flex--center-content">pi-arrow-solid-right</span>
@@ -218,7 +197,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-solid-up"></i>
     </span>
     <span class="flex--center-content">pi-arrow-solid-up</span>
@@ -227,7 +206,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-arrow-up"></i>
     </span>
     <span class="flex--center-content">pi-arrow-up</span>
@@ -236,7 +215,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-download-cloud"></i>
     </span>
     <span class="flex--center-content">pi-download-cloud</span>
@@ -245,7 +224,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-download"></i>
     </span>
     <span class="flex--center-content">pi-download</span>
@@ -254,7 +233,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-login"></i>
     </span>
     <span class="flex--center-content">pi-login</span>
@@ -263,7 +242,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-logout"></i>
     </span>
     <span class="flex--center-content">pi-logout</span>
@@ -272,7 +251,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-merge"></i>
     </span>
     <span class="flex--center-content">pi-merge</span>
@@ -281,7 +260,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-redo-clock"></i>
     </span>
     <span class="flex--center-content">pi-redo-clock</span>
@@ -290,7 +269,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-redo"></i>
     </span>
     <span class="flex--center-content">pi-redo</span>
@@ -299,7 +278,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-save"></i>
     </span>
     <span class="flex--center-content">pi-save</span>
@@ -308,7 +287,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-sync-clock"></i>
     </span>
     <span class="flex--center-content">pi-sync-clock</span>
@@ -317,7 +296,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-sync"></i>
     </span>
     <span class="flex--center-content">pi-sync</span>
@@ -326,7 +305,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-upload-cloud"></i>
     </span>
     <span class="flex--center-content">pi-upload-cloud</span>
@@ -335,7 +314,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-upload"></i>
     </span>
     <span class="flex--center-content">pi-upload</span>
@@ -344,7 +323,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-asg"></i>
     </span>
     <span class="flex--center-content">pi-asg</span>
@@ -353,7 +332,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-facebook-alt"></i>
     </span>
     <span class="flex--center-content">pi-facebook-alt</span>
@@ -362,7 +341,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-facebook"></i>
     </span>
     <span class="flex--center-content">pi-facebook</span>
@@ -371,7 +350,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-instagram"></i>
     </span>
     <span class="flex--center-content">pi-instagram</span>
@@ -380,7 +359,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-linkedin"></i>
     </span>
     <span class="flex--center-content">pi-linkedin</span>
@@ -389,7 +368,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-medicareful"></i>
     </span>
     <span class="flex--center-content">pi-medicareful</span>
@@ -398,7 +377,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-pinterest"></i>
     </span>
     <span class="flex--center-content">pi-pinterest</span>
@@ -407,7 +386,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-rimdev-circle"></i>
     </span>
     <span class="flex--center-content">pi-rimdev-circle</span>
@@ -416,7 +395,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-rimdev"></i>
     </span>
     <span class="flex--center-content">pi-rimdev</span>
@@ -425,7 +404,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-ritter-circle"></i>
     </span>
     <span class="flex--center-content">pi-ritter-circle</span>
@@ -434,7 +413,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-ritter"></i>
     </span>
     <span class="flex--center-content">pi-ritter</span>
@@ -443,7 +422,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-twitter"></i>
     </span>
     <span class="flex--center-content">pi-twitter</span>
@@ -452,7 +431,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-youtube"></i>
     </span>
     <span class="flex--center-content">pi-youtube</span>
@@ -461,7 +440,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-bank"></i>
     </span>
     <span class="flex--center-content">pi-bank</span>
@@ -470,7 +449,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-building"></i>
     </span>
     <span class="flex--center-content">pi-building</span>
@@ -479,7 +458,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-city"></i>
     </span>
     <span class="flex--center-content">pi-city</span>
@@ -488,7 +467,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-hospital"></i>
     </span>
     <span class="flex--center-content">pi-hospital</span>
@@ -497,7 +476,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-house"></i>
     </span>
     <span class="flex--center-content">pi-house</span>
@@ -506,7 +485,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-chart-bar"></i>
     </span>
     <span class="flex--center-content">pi-chart-bar</span>
@@ -515,7 +494,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-chart-line-down"></i>
     </span>
     <span class="flex--center-content">pi-chart-line-down</span>
@@ -524,7 +503,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-chart-line-up"></i>
     </span>
     <span class="flex--center-content">pi-chart-line-up</span>
@@ -533,7 +512,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-chart-pie"></i>
     </span>
     <span class="flex--center-content">pi-chart-pie</span>
@@ -542,7 +521,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-ban"></i>
     </span>
     <span class="flex--center-content">pi-ban</span>
@@ -551,7 +530,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-bell-multi"></i>
     </span>
     <span class="flex--center-content">pi-bell-multi</span>
@@ -560,7 +539,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-bell"></i>
     </span>
     <span class="flex--center-content">pi-bell</span>
@@ -569,7 +548,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-check-circle-solid"></i>
     </span>
     <span class="flex--center-content">pi-check-circle-solid</span>
@@ -578,7 +557,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-check-circle"></i>
     </span>
     <span class="flex--center-content">pi-check-circle</span>
@@ -587,7 +566,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-check"></i>
     </span>
     <span class="flex--center-content">pi-check</span>
@@ -596,7 +575,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-circle-solid"></i>
     </span>
     <span class="flex--center-content">pi-circle-solid</span>
@@ -605,7 +584,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-circle"></i>
     </span>
     <span class="flex--center-content">pi-circle</span>
@@ -614,7 +593,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-clipboard-file"></i>
     </span>
     <span class="flex--center-content">pi-clipboard-file</span>
@@ -623,7 +602,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-clipboard"></i>
     </span>
     <span class="flex--center-content">pi-clipboard</span>
@@ -632,7 +611,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-decision"></i>
     </span>
     <span class="flex--center-content">pi-decision</span>
@@ -641,7 +620,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-edit"></i>
     </span>
     <span class="flex--center-content">pi-edit</span>
@@ -650,7 +629,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-envelope-solid"></i>
     </span>
     <span class="flex--center-content">pi-envelope-solid</span>
@@ -659,7 +638,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-envelope"></i>
     </span>
     <span class="flex--center-content">pi-envelope</span>
@@ -668,7 +647,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-filter"></i>
     </span>
     <span class="flex--center-content">pi-filter</span>
@@ -677,7 +656,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-folder-open"></i>
     </span>
     <span class="flex--center-content">pi-folder-open</span>
@@ -686,7 +665,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-folder"></i>
     </span>
     <span class="flex--center-content">pi-folder</span>
@@ -695,7 +674,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-list-check"></i>
     </span>
     <span class="flex--center-content">pi-list-check</span>
@@ -704,7 +683,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-list"></i>
     </span>
     <span class="flex--center-content">pi-list</span>
@@ -713,7 +692,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-lock-open"></i>
     </span>
     <span class="flex--center-content">pi-lock-open</span>
@@ -722,7 +701,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-lock"></i>
     </span>
     <span class="flex--center-content">pi-lock</span>
@@ -731,7 +710,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-menu"></i>
     </span>
     <span class="flex--center-content">pi-menu</span>
@@ -740,7 +719,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-minus"></i>
     </span>
     <span class="flex--center-content">pi-minus</span>
@@ -749,7 +728,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-mouse-pointer"></i>
     </span>
     <span class="flex--center-content">pi-mouse-pointer</span>
@@ -758,7 +737,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-note-solid"></i>
     </span>
     <span class="flex--center-content">pi-note-solid</span>
@@ -767,7 +746,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-note"></i>
     </span>
     <span class="flex--center-content">pi-note</span>
@@ -776,7 +755,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-paper-plane-solid"></i>
     </span>
     <span class="flex--center-content">pi-paper-plane-solid</span>
@@ -785,7 +764,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-paper-plane"></i>
     </span>
     <span class="flex--center-content">pi-paper-plane</span>
@@ -794,7 +773,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-pencil"></i>
     </span>
     <span class="flex--center-content">pi-pencil</span>
@@ -803,7 +782,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-plus-circle-solid"></i>
     </span>
     <span class="flex--center-content">pi-plus-circle-solid</span>
@@ -812,7 +791,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-plus-circle"></i>
     </span>
     <span class="flex--center-content">pi-plus-circle</span>
@@ -821,7 +800,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-plus"></i>
     </span>
     <span class="flex--center-content">pi-plus</span>
@@ -830,7 +809,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-power-off"></i>
     </span>
     <span class="flex--center-content">pi-power-off</span>
@@ -839,7 +818,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-power-on"></i>
     </span>
     <span class="flex--center-content">pi-power-on</span>
@@ -848,7 +827,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-radio-button"></i>
     </span>
     <span class="flex--center-content">pi-radio-button</span>
@@ -857,7 +836,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-search"></i>
     </span>
     <span class="flex--center-content">pi-search</span>
@@ -866,7 +845,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-share"></i>
     </span>
     <span class="flex--center-content">pi-share</span>
@@ -875,7 +854,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-signal-slash"></i>
     </span>
     <span class="flex--center-content">pi-signal-slash</span>
@@ -884,7 +863,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-speech-bubble-multi"></i>
     </span>
     <span class="flex--center-content">pi-speech-bubble-multi</span>
@@ -893,7 +872,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-speech-bubble"></i>
     </span>
     <span class="flex--center-content">pi-speech-bubble</span>
@@ -902,7 +881,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-suitcase-solid"></i>
     </span>
     <span class="flex--center-content">pi-suitcase-solid</span>
@@ -911,7 +890,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-suitecase"></i>
     </span>
     <span class="flex--center-content">pi-suitecase</span>
@@ -920,7 +899,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-text"></i>
     </span>
     <span class="flex--center-content">pi-text</span>
@@ -929,7 +908,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-times-solid"></i>
     </span>
     <span class="flex--center-content">pi-times-solid</span>
@@ -938,7 +917,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-times"></i>
     </span>
     <span class="flex--center-content">pi-times</span>
@@ -947,7 +926,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-touch"></i>
     </span>
     <span class="flex--center-content">pi-touch</span>
@@ -956,7 +935,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-trash-solid"></i>
     </span>
     <span class="flex--center-content">pi-trash-solid</span>
@@ -965,7 +944,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-trash"></i>
     </span>
     <span class="flex--center-content">pi-trash</span>
@@ -974,7 +953,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-variable"></i>
     </span>
     <span class="flex--center-content">pi-variable</span>
@@ -983,7 +962,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-vertical-ellipsis"></i>
     </span>
     <span class="flex--center-content">pi-vertical-ellipsis</span>
@@ -992,7 +971,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-window-new"></i>
     </span>
     <span class="flex--center-content">pi-window-new</span>
@@ -1001,7 +980,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-attachment"></i>
     </span>
     <span class="flex--center-content">pi-attachment</span>
@@ -1010,7 +989,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-copy"></i>
     </span>
     <span class="flex--center-content">pi-copy</span>
@@ -1019,7 +998,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-add"></i>
     </span>
     <span class="flex--center-content">pi-file-add</span>
@@ -1028,7 +1007,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-award"></i>
     </span>
     <span class="flex--center-content">pi-file-award</span>
@@ -1037,7 +1016,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-cabinet"></i>
     </span>
     <span class="flex--center-content">pi-file-cabinet</span>
@@ -1046,7 +1025,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-form"></i>
     </span>
     <span class="flex--center-content">pi-file-form</span>
@@ -1055,7 +1034,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-pdf"></i>
     </span>
     <span class="flex--center-content">pi-file-pdf</span>
@@ -1064,7 +1043,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-sign"></i>
     </span>
     <span class="flex--center-content">pi-file-sign</span>
@@ -1073,7 +1052,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-text-solid"></i>
     </span>
     <span class="flex--center-content">pi-file-text-solid</span>
@@ -1082,7 +1061,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-file-text"></i>
     </span>
     <span class="flex--center-content">pi-file-text</span>
@@ -1091,7 +1070,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-image"></i>
     </span>
     <span class="flex--center-content">pi-image</span>
@@ -1100,7 +1079,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-link-external-small"></i>
     </span>
     <span class="flex--center-content">pi-link-external-small</span>
@@ -1109,7 +1088,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-link-external"></i>
     </span>
     <span class="flex--center-content">pi-link-external</span>
@@ -1118,7 +1097,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-link"></i>
     </span>
     <span class="flex--center-content">pi-link</span>
@@ -1127,7 +1106,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-map-marker"></i>
     </span>
     <span class="flex--center-content">pi-map-marker</span>
@@ -1136,7 +1115,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-map"></i>
     </span>
     <span class="flex--center-content">pi-map</span>
@@ -1145,7 +1124,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-pill-bottle-alt"></i>
     </span>
     <span class="flex--center-content">pi-pill-bottle-alt</span>
@@ -1154,7 +1133,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-pill-bottle-solid"></i>
     </span>
     <span class="flex--center-content">pi-pill-bottle-solid</span>
@@ -1163,7 +1142,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-pill-bottle"></i>
     </span>
     <span class="flex--center-content">pi-pill-bottle</span>
@@ -1172,7 +1151,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-pills"></i>
     </span>
     <span class="flex--center-content">pi-pills</span>
@@ -1181,7 +1160,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-rx"></i>
     </span>
     <span class="flex--center-content">pi-rx</span>
@@ -1190,7 +1169,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-stethoscope"></i>
     </span>
     <span class="flex--center-content">pi-stethoscope</span>
@@ -1199,7 +1178,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-commissions"></i>
     </span>
     <span class="flex--center-content">pi-commissions</span>
@@ -1208,7 +1187,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-credit-card-back"></i>
     </span>
     <span class="flex--center-content">pi-credit-card-back</span>
@@ -1217,7 +1196,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-dollar"></i>
     </span>
     <span class="flex--center-content">pi-dollar</span>
@@ -1226,7 +1205,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-asterisk"></i>
     </span>
     <span class="flex--center-content">pi-asterisk</span>
@@ -1235,7 +1214,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-award"></i>
     </span>
     <span class="flex--center-content">pi-award</span>
@@ -1244,7 +1223,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-binoculars"></i>
     </span>
     <span class="flex--center-content">pi-binoculars</span>
@@ -1253,7 +1232,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-bolt"></i>
     </span>
     <span class="flex--center-content">pi-bolt</span>
@@ -1262,7 +1241,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-bomb"></i>
     </span>
     <span class="flex--center-content">pi-bomb</span>
@@ -1271,7 +1250,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-book"></i>
     </span>
     <span class="flex--center-content">pi-book</span>
@@ -1280,7 +1259,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-books"></i>
     </span>
     <span class="flex--center-content">pi-books</span>
@@ -1289,7 +1268,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-bullhorn"></i>
     </span>
     <span class="flex--center-content">pi-bullhorn</span>
@@ -1298,7 +1277,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-calculator"></i>
     </span>
     <span class="flex--center-content">pi-calculator</span>
@@ -1307,7 +1286,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-calendar"></i>
     </span>
     <span class="flex--center-content">pi-calendar</span>
@@ -1316,7 +1295,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-clock"></i>
     </span>
     <span class="flex--center-content">pi-clock</span>
@@ -1325,7 +1304,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-cogs"></i>
     </span>
     <span class="flex--center-content">pi-cogs</span>
@@ -1334,7 +1313,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-dashboard"></i>
     </span>
     <span class="flex--center-content">pi-dashboard</span>
@@ -1343,7 +1322,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-flag"></i>
     </span>
     <span class="flex--center-content">pi-flag</span>
@@ -1352,7 +1331,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-gavel"></i>
     </span>
     <span class="flex--center-content">pi-gavel</span>
@@ -1361,7 +1340,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-gear"></i>
     </span>
     <span class="flex--center-content">pi-gear</span>
@@ -1370,7 +1349,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-globe"></i>
     </span>
     <span class="flex--center-content">pi-globe</span>
@@ -1379,7 +1358,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-handshake"></i>
     </span>
     <span class="flex--center-content">pi-handshake</span>
@@ -1388,7 +1367,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-headset"></i>
     </span>
     <span class="flex--center-content">pi-headset</span>
@@ -1397,7 +1376,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-key"></i>
     </span>
     <span class="flex--center-content">pi-key</span>
@@ -1406,7 +1385,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-keyboard-key"></i>
     </span>
     <span class="flex--center-content">pi-keyboard-key</span>
@@ -1415,7 +1394,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-keyboard"></i>
     </span>
     <span class="flex--center-content">pi-keyboard</span>
@@ -1424,7 +1403,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-light-bulb-off"></i>
     </span>
     <span class="flex--center-content">pi-light-bulb-off</span>
@@ -1433,7 +1412,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-light-bulb-on"></i>
     </span>
     <span class="flex--center-content">pi-light-bulb-on</span>
@@ -1442,7 +1421,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-magic-wand"></i>
     </span>
     <span class="flex--center-content">pi-magic-wand</span>
@@ -1451,7 +1430,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-magnet"></i>
     </span>
     <span class="flex--center-content">pi-magnet</span>
@@ -1460,7 +1439,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-paper-clip"></i>
     </span>
     <span class="flex--center-content">pi-paper-clip</span>
@@ -1469,7 +1448,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-phone-mobile"></i>
     </span>
     <span class="flex--center-content">pi-phone-mobile</span>
@@ -1478,7 +1457,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-phone"></i>
     </span>
     <span class="flex--center-content">pi-phone</span>
@@ -1487,7 +1466,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-plug"></i>
     </span>
     <span class="flex--center-content">pi-plug</span>
@@ -1496,7 +1475,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-podcast"></i>
     </span>
     <span class="flex--center-content">pi-podcast</span>
@@ -1505,7 +1484,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-puzzle-piece"></i>
     </span>
     <span class="flex--center-content">pi-puzzle-piece</span>
@@ -1514,7 +1493,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-quill"></i>
     </span>
     <span class="flex--center-content">pi-quill</span>
@@ -1523,7 +1502,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-rocket"></i>
     </span>
     <span class="flex--center-content">pi-rocket</span>
@@ -1532,7 +1511,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-shield"></i>
     </span>
     <span class="flex--center-content">pi-shield</span>
@@ -1541,7 +1520,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-star-half"></i>
     </span>
     <span class="flex--center-content">pi-star-half</span>
@@ -1550,7 +1529,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-star"></i>
     </span>
     <span class="flex--center-content">pi-star</span>
@@ -1559,7 +1538,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-tag"></i>
     </span>
     <span class="flex--center-content">pi-tag</span>
@@ -1568,7 +1547,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-ticket"></i>
     </span>
     <span class="flex--center-content">pi-ticket</span>
@@ -1577,7 +1556,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-trophy"></i>
     </span>
     <span class="flex--center-content">pi-trophy</span>
@@ -1586,7 +1565,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-badge-alt"></i>
     </span>
     <span class="flex--center-content">pi-badge-alt</span>
@@ -1595,7 +1574,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-badge"></i>
     </span>
     <span class="flex--center-content">pi-badge</span>
@@ -1604,7 +1583,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-doctor"></i>
     </span>
     <span class="flex--center-content">pi-doctor</span>
@@ -1613,7 +1592,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-user-building"></i>
     </span>
     <span class="flex--center-content">pi-user-building</span>
@@ -1622,7 +1601,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-user-circle"></i>
     </span>
     <span class="flex--center-content">pi-user-circle</span>
@@ -1631,7 +1610,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-user-solid"></i>
     </span>
     <span class="flex--center-content">pi-user-solid</span>
@@ -1640,7 +1619,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-user-tie"></i>
     </span>
     <span class="flex--center-content">pi-user-tie</span>
@@ -1649,7 +1628,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-user"></i>
     </span>
     <span class="flex--center-content">pi-user</span>
@@ -1658,7 +1637,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-users"></i>
     </span>
     <span class="flex--center-content">pi-users</span>
@@ -1667,7 +1646,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-collapse"></i>
     </span>
     <span class="flex--center-content">pi-collapse</span>
@@ -1676,7 +1655,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-full-screen"></i>
     </span>
     <span class="flex--center-content">pi-full-screen</span>
@@ -1685,7 +1664,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-pause"></i>
     </span>
     <span class="flex--center-content">pi-pause</span>
@@ -1694,7 +1673,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-play-circle"></i>
     </span>
     <span class="flex--center-content">pi-play-circle</span>
@@ -1703,7 +1682,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-play-monitor"></i>
     </span>
     <span class="flex--center-content">pi-play-monitor</span>
@@ -1712,7 +1691,7 @@ Remeber to add the proper aria-label when the icon is a decoration only `aria-hi
     </div>
   </li>
   <li class="block flex--center-content flex--column">
-    <span class="flex text--size-2xl text--base p-3">
+    <span class="flex text--size-xxl text-base p-3">
       <i class="pi-play"></i>
     </span>
     <span class="flex--center-content">pi-play</span>
@@ -1732,28 +1711,73 @@ clipboard.on('success', function(e) {
 });
 </script>
 
-{{% anchor name="Sizing" %}}
 
-{{< classes result="true" >}}
-{{< classes-row class="pi-{ xs, sm, lg, xl, xxl }" result="Alter the size of your icon from `.5rem` to `3rem`.">}}
-{{< /classes >}}
+## Setup
 
-{{< code-demo >}}
-<i class="pi-rocket pi-xs"></i>
-<i class="pi-rocket pi-sm"></i>
-<i class="pi-rocket"></i>
-<i class="pi-rocket pi-lg"></i>
-<i class="pi-rocket pi-xl"></i>
-<i class="pi-rocket pi-xxl"></i>
-{{< /code-demo >}}
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>source</th>
+      <th>default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="source">artboard</td>
+      <td data-label="default">4" x 4"</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: main</td>
+      <td data-label="default">24pt</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: auxiliary&#42;</td>
+      <td data-label="default">18pt</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: corner</td>
+      <td data-label="default">.15"</td>
+    </tr>
+    <tr>
+      <td data-label="source">stroke: join</td>
+      <td data-label="default">round</td>
+    </tr>
+  </tbody>
+</table>
 
-{{< code-markup >}}
-{{< highlight html >}}
-<i class="pi-rocket pi-xs"></i>
-<i class="pi-rocket pi-sm"></i>
-<i class="pi-rocket"></i>
-<i class="pi-rocket pi-lg"></i>
-<i class="pi-rocket pi-xl"></i>
-<i class="pi-rocket pi-xxl"></i>   
-{{< /highlight >}}
-{{< /code-markup >}}
+<i class="pi-warning text-orange"></i> **NOTE:** Rememeber to expand to outlines before committing.
+
+
+## Sizing
+
+<table class="table mb-4">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Class">pi-xs</td>
+      <td data-label="Size">font-size: .5rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-sm</td>
+      <td data-label="Size">font-size: .75rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-lg</td>
+      <td data-label="Size">font-size: 1.5rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-xl</td>
+      <td data-label="Size">font-size: 2rem</td>
+    </tr>
+    <tr>
+      <td data-label="Class">pi-xxl</td>
+      <td data-label="Size">font-size: 3rem</td>
+    </tr>
+  </tbody>
+</table>
+
