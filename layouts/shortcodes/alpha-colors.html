@@ -2,7 +2,7 @@
   {{ range .Page.Params.colors }}
   {{ $color := . }}
   <div class="block mr-2">
-    <h3 class="text--capitalize text--base text--size-md mt-3">{{ $color }}</h3>
+    <h3 class="text--capitalize text--light-purple text--size-md mt-3">{{ $color }}</h3>
     {{ range $sequence :=  (seq 9) }}
     <div 
       class="card no-border m-1 rounded-1 background--{{ $color }}-a{{ $sequence }}0 pointer"
