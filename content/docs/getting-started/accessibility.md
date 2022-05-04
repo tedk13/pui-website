@@ -1,7 +1,6 @@
 ---
 title: Accessibility
-description: Information on building accessibly with Platform UI.
-weight: 2
+weight: 5
 ---
 
 Here at [Ritter Insurance Marketing](https://ritterim.com), we build websites and apps that are accessible and scalable. We follow <a href="https://www.w3.org/TR/WCAG21/" rel="external" target="_blank">WCAG 2.1</a> guidelines for all of our projects, with a close eye on the future of accessibility. 
@@ -29,7 +28,7 @@ You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="ext
 </button>
 {{< /highlight >}} 
 
-{{% anchor name="for more on accessibility" %}}
+{{% anchor name="Resources" %}}
 
 - <a href="https://a11yproject.com/" rel="external noopener" rel="external noopener">A11Y Project</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" rel="external noopener" rel="external noopener">MDN Accessibility</a>
