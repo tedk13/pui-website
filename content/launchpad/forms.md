@@ -79,10 +79,6 @@ Here's an example of a larger responsive form using the block layout.
         <select name="Option Select" id="option-h">
           <option value="Option1">Option 1</option>
           <option value="Option2">Option 2</option>
-          <option value="Option3">Option 3</option>
-          <option value="Option4">Option 4</option>
-          <option value="Option5">Option 5</option>
-          <option value="Option6">Option 6</option>
         </select>
       </div>
     </label>
@@ -115,7 +111,7 @@ Here's an example of a larger responsive form using the block layout.
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--lg">Submit</button>
+      <button class="button p-2 text--bold">Submit</button>
     </div>
   </div>
 </form>
@@ -195,10 +191,6 @@ Here's an example of a larger responsive form using the block layout.
         <select name="Option Select" id="option-h">
           <option value="Option1">Option 1</option>
           <option value="Option2">Option 2</option>
-          <option value="Option3">Option 3</option>
-          <option value="Option4">Option 4</option>
-          <option value="Option5">Option 5</option>
-          <option value="Option6">Option 6</option>
         </select>
       </div>
     </label>
@@ -231,7 +223,7 @@ Here's an example of a larger responsive form using the block layout.
   </div>
   <div class="block">
     <div class="form__field form__button-group">
-      <button class="button button--lg">Submit</button>
+      <button class="button p-2 text--bold">Submit</button>
     </div>
   </div>
 </form>

@@ -1,10 +1,26 @@
 ---
 title: Colors
-description: A list of colors that ship with Platform UI.
-skellyCSS: true
+colors:
+- navy
+- skyblue
+- lightblue
+- med-blue
+- beige
+- peach
+- salmon
+- brown
+- orange
+- black
+- dark
+- base
+- light
+- lighter
+- white
 ---
 
-{{% anchor name="Brand Colors" %}}
+{{% anchor name="Base" %}}
+
+Platform UIs base color pallet.
 
 <section class="mb-4">
     <div class="block-container blocks p-2 tablet-up-2 lg-tablet-up-3 laptop-up-4">
@@ -38,7 +54,7 @@ skellyCSS: true
     </div>    
 </section>
 
-{{% anchor name="Greyscale Colors" %}}
+{{% anchor name="Greyscale" %}}
 
 <section class="mb-4">
     <div class="block-container blocks p-2 tablet-up-2 lg-tablet-up-3 laptop-up-4">
@@ -49,59 +65,41 @@ skellyCSS: true
             {{% color color="#efefef" color_name="lighter" %}}
         </div>
         <div class="block">
-            {{% color color="#999" color_name="light" %}}
+            {{% color color="#999999" color_name="light" %}}
         </div>
         <div class="block">
-            {{% color color="#666" color_name="base" %}}
+            {{% color color="#666666" color_name="base" %}}
         </div>
         <div class="block">
-            {{% color color="#333" color_name="dark" %}}
+            {{% color color="#333333" color_name="dark" %}}
         </div>
         <div class="block">
-            {{% color color="#222" color_name="black" %}}
+            {{% color color="#222222" color_name="black" %}}
         </div>
     </div>    
 </section>
 
 {{% anchor name="Alpha" %}}
 
-Each of the colors listed above has a corresponding alpha value ranging from 10% to 90%. Below is the example for `navy`.
+Every color in Platform UI has a corresponding alpha value (opacity) ranging from 10% to 90%. 
 
-<section class="mb-4">
-    <div class="block-container blocks p-2 tablet-up-2 lg-tablet-up-3 laptop-up-4">
-        <div class="block">
-            {{% color color="#003f70" color_name="navy" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.1)" color_name="navy-a10" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.2)" color_name="navy-a20" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.3)" color_name="navy-a30" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.4)" color_name="navy-a40" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.5)" color_name="navy-a50" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.6)" color_name="navy-a60" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.7)" color_name="navy-a70" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.8)" color_name="navy-a80" %}}
-        </div>
-        <div class="block">
-            {{% color color="rgba(0,63,112,.9)" color_name="navy-a90" %}}
-        </div>
-    </div>    
-</section>
+Hover over each color to see it's exported css custom property.
+
+{{< alpha-colors >}}
 
 {{% anchor name="Custom Properties" %}}
 
-All of these colors have a corresponding custom property that we export to the `:root` as `--{color name}`. The alpha colors are `--{color name}-{1-9}`.
+We export all of our colors to `:root` as `--{ color name }` to be leveraged in any additional style sheets using `var()`. Alpha colors are `--{ color name }-a{ 10-90 }`.
+
+{{< code-markup >}}
+{{< highlight scss >}}
+// Represented in :root 
+:root {
+  --navy-a30;  
+}
+// Represented in your style sheet 
+div {
+  background-color: var(--navy-a30);  
+}
+{{< /highlight >}}
+{{< /code-markup >}}
