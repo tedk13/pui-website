@@ -8,4 +8,4 @@ This is the website for [Platform UI](https://github.com/ritterim/platform-ui). 
 * `$ npm run build`
 * `$ npm start`.
 
-To [complain](https://github.com/ritterim/styleguide/issues).
+To [complain](https://github.com/ritterim/pui-website/issues).
