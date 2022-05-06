@@ -9,7 +9,6 @@ on:
 jobs:
   merge-dev-into-master:
     if: github.event.pull_request.merged == true
-    timeout-minutes: 2
     runs-on: ubuntu-latest
     
     steps:
