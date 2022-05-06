@@ -2,9 +2,11 @@
 name: PRs to development
 on:
   push:
-    branches: [development]
+    branches: 
+      - development
   pull_request:
-    branches: [development]
+    branches: 
+      - development
     
 jobs:
   merge-dev-into-master:
@@ -12,11 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
-    - name: Set Git config
-      run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "Github Actions"
-    - name: Merge dev into master
-      run: |
-          git push 
+    - uses: actions/checkout@master
+    - name: Merge dev -> master
+      uses: devmasx/merge-branch@master
+      with:
+        type: now
+        target_branch: master
+        github_token: ${{ github.token }}
+
