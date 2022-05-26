@@ -13,24 +13,26 @@ body {
 
 
 <div class="px-4 py-3">
-  <h1 class="text--center text--black my-3">
+  <h1 class="text--center text--white my-3">
     Dashboard
   </h1>
   <div class="block-container cards blocks px-2 pb-3">
     <div class="block tablet-up-6 laptop-up-3 desktop-up-2">
-      <div class="card rounded-3 no-border">
+      <div class="card rounded-2">
         <div class="card__content">
-          <p class="skeleton" data-lines="17" data-animation="true"></p>
+          <h2>Headline</h2>  
+          <p class="skeleton mt-3" data-lines="3" data-animation="true"></p>
+          <p class="skeleton" data-lines="5" data-animation="true"></p>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-6 desktop-up-8">
-      <div class="card rounded-3 no-border">
+      <div class="card rounded-2">
         <div class="card__content h-100">
-          <div class="card__header flex--justify-center mt-3">
+          <div class="card__header mb-0">
             <div class="card__group">
-              <i class="pi-info-solid text--black"></i>
-              <h2 class="card__title text--black">Card Title</h2>
+              <i class="pi-chart-line-up"></i>
+              <h2 class="card__title text--light">Your Daily Graph</h2>
             </div>
           </div>
           <div class="ct-chart h-75 mt-4"></div>
@@ -38,53 +40,75 @@ body {
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-3 desktop-up-2">
-      <div class="card rounded-3 no-border">
-        <div class="cart__content h-100">
+      <div class="card rounded-2">
+        <div class="card__content h-100">
+          <div  class="card__header">
+            <div class="card__group">
+              <i class="pi-chart-line-up"></i>
+              <h2 class="card__title text--light">Your Daily Graph</h2>
+            </div>
+          </div>
           <div class="horizontal-bar-chart h-100"></div>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-4 desktop-up-2">
-      <div class="card rounded-3 no-border">
+      <div class="card rounded-2">
         <div class="card__content h-100">
+          <div class="card__header mb-0">
+            <div class="card__group">
+              <i class="pi-chart-pie"></i>
+              <h2 class="card__title text--light">This chart</h2>
+            </div>
+          </div>
           <div class="pie-chart h-100"></div>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-4 desktop-up-2">
-      <div class="card rounded-3 no-border">
+      <div class="card rounded-2">
         <div class="card__content">
-          <div class="card__header flex--justify-center">
+          <div class="card__header">
             <div class="card__group">
-              <i class="pi-help-solid text--black"></i>
-              <h2 class="card__title text--black">Card Title</h2>
+              <i class="pi-file-cabinet"></i>
+              <h2 class="card__title text--light">Daily post</h2>
             </div>
           </div>
-          <p class="skeleton" data-lines="8" data-animation="true"></p>
+          <img class="skeleton-image skeleton-image--md mb-2">
+          <p class="skeleton" data-lines="3" data-animation="true"></p>
+          <p class="skeleton" data-lines="2" data-animation="true"></p>
         </div>
       </div>
     </div>
     <div class="block tablet-up-6 laptop-up-4 desktop-up-2">
-      <div class="card rounded-3 no-border">
+      <div class="card rounded-2">
         <div class="card__content h-100">
+          <div class="card__header mb-0">
+            <div class="card__group">
+              <i class="pi-chart-pie"></i>
+              <h2 class="card__title text--light">that chart</h2>
+            </div>
+          </div>
           <div class="donut-chart h-100"></div>
         </div>
       </div>
     </div>
     <div class="block desktop-up-6">
-      <div class="card rounded-3 no-border">
-        <div class="card__content text--center">
+      <div class="card rounded-2 text--light">
+        <div class="card__content">
           <div class="card__header">
             <div class="card__group">
-              <i class="pi-rocket text--black"></i>
-              <h2 class="card__title text--black">Status Messages</h2>
+              <i class="pi-rocket"></i>
+              <h2 class="card__title text--light">Status Messages</h2>
             </div>
           </div>
-          <div class="message message--error text--left">
-            <p>Error message here</p>
+          <strong class="">System A</strong>
+          <div class="message message--error">
+            <p class="skeleton" data-opacity="0.2" data-color="tomato"></p>
           </div>
-          <div class="message message--success text--left">
-            <p>Success message here</p>
+          <strong class="">System B</strong>
+          <div class="message message--success">
+            <p class="skeleton" data-lines="2" data-opacity="0.2" data-color="green"></p>
           </div>
         </div>
       </div>
@@ -116,10 +140,10 @@ body {
   });
 
   new Chartist.Bar('.horizontal-bar-chart', {
-    labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    labels: ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'],
     series: [
-      [5, 4, 3, 7, 5, 10, 3],
-      [3, 2, 9, 5, 4, 6, 4]
+      [5, 4, 3, 5, 5, 2, 3],
+      [3, 2, 1, 5, 4, 6, 4]
     ]
   }, {
     seriesBarDistance: 10,
