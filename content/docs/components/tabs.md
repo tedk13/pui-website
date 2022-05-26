@@ -6,12 +6,12 @@ skellyCSS: true
 
 {{% anchor name="Tab" %}}
 
-Our tabs are based on radio inputs, content for a tabbed section needs to live inside the `.tabs` container. The input `id` and corresponding label `for` need to match.
-The tab's content, `.tab-panel`, must be the consecutive sibling of the `.tab` label.
+Our tabs are based on radio inputs. Content for a tabbed section needs to live inside the `tabs` container and the input `id` and corresponding label `for` need to match.
+The tab's content, `tab-panel`, must be the consecutive sibling of the `tab` label.
 
-Tabs have a specific width and height of `16rem` and `4rem` repectively.
+Tabs have a specific width of `16rem` and height of `4rem`.
 
-Work in progress. At a mobile resolution (below 768px) an active tab will collapse when clicked. 
+At a mobile resolution (below 768px) an active tab will collapse when clicked. 
 
 {{< code-demo >}}
 <div class="tabs">
@@ -80,39 +80,13 @@ Work in progress. At a mobile resolution (below 768px) an active tab will collap
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Tabs" >}}
-<tr>
-  <td data-label="Base">
-    <code>tabs</code>
-  </td>
-  <td data-label="Modifier">
-    <code>tabs--flat</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Removes tab borders.
-  </td>
-</tr>
-<tr>
-  <td data-label="Base">
-    <code>tabs</code>
-  </td>
-  <td data-label="Modifier">
-    <code>unresponsive</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Removes responsive.
-  </td>
-</tr>
+{{< modifiers >}}
+{{< modifiers-row 
+  modifier="tabs--flat"
+  behavior="Removes tab borders." 
+>}}
+{{< modifiers-row 
+  modifier="unresponsive"
+  behavior="Removes responsive behavior." 
+>}}
 {{< /modifiers >}}

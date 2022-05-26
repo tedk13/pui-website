@@ -1,10 +1,10 @@
 {
   "responseOverrides": {
     "403": {
-      "rewrite": "/404.html"
+      "rewrite": "/404/index.html"
     },
     "404": {
-      "rewrite": "/404.html"
+      "rewrite": "/404/index.html"
     }
   },
   "mimeTypes": {

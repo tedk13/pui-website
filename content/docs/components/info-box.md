@@ -2,24 +2,19 @@
 title: Info Boxes
 description: Documentation for Platform UI's infobox component.
 skellyCSS: true
-toc: false
 ---
 {{% requires-js %}}
 
 {{% anchor name="Info Box" %}}
 
-Click the button to toggle the info box. 
-
-{{< callout tipHeader="info box tip">}}
-You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example below.
-{{< /callout >}}
+Click the button to toggle the info box. You can also manually toggle this by adding the `active` class to `info-box__content`.
 
 {{< code-demo >}}
 <div class="info-box flex-inline">
   <button class="button toggle-hidden" role="button" aria-label="Toggle">
     Open Info Box
   </button>
-  <div class="info-box__content hidden">
+  <div class="info-box__content">
     <button class="button info-box__close">
       <!-- close button doesn't work -->
       Close 
@@ -38,7 +33,7 @@ You may need to specify a width or add the class `flex-inline` to `info-box` to 
      Open Info Box
    </button>
    <!-- Info Box Content -->
-   <div class="info-box__content hidden">
+   <div class="info-box__content">
      <button class="button info-box__close">
        Close 
        <i class="pi-times"></i>
@@ -50,21 +45,12 @@ You may need to specify a width or add the class `flex-inline` to `info-box` to 
 {{< /code-markup >}}
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Base">
-    <code>info-box</code>
-  </td>
-  <td data-label="Modifier">
-    <code>info-box--left</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    The info box opens from the left
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="info-box--left"
+  behavior="The info box opens from the left." 
+>}}
 {{< /modifiers >}}
+
+{{< callout header="info box tip">}}
+You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example above.
+{{< /callout >}}

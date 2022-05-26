@@ -68,9 +68,9 @@ weight: 1
         <h2>Latest</h2>
         <div class="block-container blocks tablet-up-2 lg-tablet-up-3 laptop-up-4 p-3 mb-3 cards w-100">
             <div class="block">
-                <div class="card rounded-2 p-0 flex flex--column">
+                <div class="card rounded-2 p-0 flex flex--column hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098__340.jpg">
-                    <div class="card__content p-3 flex flex--column flex--justify-between h-100">
+                    <div class="card__content p-3 flex flex--column flex--justify-between flex--grow">
                         <div>
                             <h3 class="mb-3">My First Blog</h3>
                             <p class="skeleton" data-lines="3" role="presentation"></p>
@@ -82,9 +82,9 @@ weight: 1
                 </div>
             </div>
             <div class="block">
-                <div class="card rounded-2 p-0 flex flex--column">
+                <div class="card rounded-2 p-0 flex flex--column hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2016/07/02/12/21/eclipse-1492818__340.jpg">
-                    <div class="card__content p-3 flex flex--column flex--justify-between h-100">
+                    <div class="card__content p-3 flex flex--column flex--justify-between flex--grow">
                         <div>
                             <h3 class="mb-3">My Second Blog</h3>
                             <p class="skeleton" data-lines="3" role="presentation"></p>
@@ -96,9 +96,9 @@ weight: 1
                 </div>
             </div>
             <div class="block">
-                <div class="card rounded-2 p-0 flex flex--column">
+                <div class="card rounded-2 p-0 flex flex--column hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029__340.jpg">
-                    <div class="card__content p-3 flex flex--column flex--justify-between h-100">
+                    <div class="card__content p-3 flex flex--column flex--justify-between flex--grow">
                         <div>
                             <h3 class="mb-3">This One's Not The Best</h3>
                             <p class="skeleton" data-lines="3" role="presentation"></p>
@@ -110,9 +110,9 @@ weight: 1
                 </div>
             </div>
             <div class="block">
-                <div class="card rounded-2 p-0 flex flex--column">
+                <div class="card rounded-2 p-0 flex flex--column hover-scale">
                     <img class="card__image" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg">
-                    <div class="card__content p-3 flex flex--column flex--justify-between h-100">
+                    <div class="card__content p-3 flex flex--column flex--justify-between flex--grow">
                         <div>
                             <h3 class="mb-3">My Last Blog</h3>
                             <p class="skeleton" data-lines="3" role="presentation"></p>

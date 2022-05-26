@@ -2,14 +2,13 @@
 title: Accordions
 description: Documentation for Platform UI's accordion components.
 skellyCSS: true
-toc: true
 ---
 
-{{% requires-js %}} {{% requires-icons %}}
+{{% requires-js %}}
 
 {{% anchor name="accordion" %}}
 
-Use whenever you want to toggle additional, related, information in a sibling `<div>`. Built to be used **stacked** or **nested**. 
+Use whenever you want to toggle additional or related information in a sibling `<div>`. Built to be **stacked** or **nested**. You can also manually toggle this by adding the `active` class to `accordion__content`.
 
 {{< code-demo >}}
 <div class="accordion">

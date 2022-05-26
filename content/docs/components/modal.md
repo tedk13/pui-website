@@ -2,18 +2,17 @@
 title: Modals
 description: Documentation for Platform UI's modal components.
 skellyCSS: true
-toc: false
 ---
 
 {{% requires-js %}}
 
 {{% anchor name="Default" %}}
 
-Modal default state is closed. Toggling `.modal--closed` on `.modal` will diplay the modal.
+A modal will display over the screen when toggled with the `active` class.
 
-`.modal__close` on the close button is a handle for JS.
+A modal can easily be opened by setting `data-modal` with the matching `id` of the desired modal on a button with the `modal__open` class. Similarly, a button with the same setup and the `modal__close` class will close the modal.
 
-If you need to prevent the background from scrolling, add the `.modal-open` class to your body element when a modal is open.
+If you need to prevent the background from scrolling, toggle the `modal-open` class on the body element while the modal is open.
 
 {{< code-demo >}}
 <div class="block mb-3">
@@ -55,74 +54,29 @@ If you need to prevent the background from scrolling, add the `.modal-open` clas
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
-<tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
-  <td data-label="Modifier">
-    <code>modal--small</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Small sized modal
-  </td>
-</tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
-  <td data-label="Modifier">
-    <code>modal--large</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Large sized modal
-  </td>
-</tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
-  <td data-label="Modifier">
-    <code>modal--full</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Full sized modal, takes up 100% of the viewport
-  </td>
-</tr>
-  <td data-label="Base">
-    <code>modal</code>
-  </td>
-  <td data-label="Modifier">
-    <code>modal--centered</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Centers the modal in the middle of the viewport
-  </td>
-</tr>
+{{< modifiers data="true" >}}
+{{< modifiers-row 
+  modifier="modal--small"
+  attr="data-modal"
+  behavior="Small sized modal." 
+>}}
+{{< modifiers-row 
+  modifier="modal--large"
+  attr="data-modal"
+  behavior="Large sized modal." 
+>}}
+{{< modifiers-row 
+  modifier="modal--full"
+  attr="data-modal"
+  behavior="Full sized modal, takes up 100% of the viewport." 
+>}}
+{{< modifiers-row 
+  modifier="modal--centered"
+  attr="data-modal"
+  behavior="Centers the modal in the middle of the viewport." 
+>}}
 {{< /modifiers >}}
 
-{{< callout tipHeader="Modal Tip" >}}
-  <p>If you want to make a dialog box, you can just remove the <code>.modal__header</code> from the modal!</p>
+{{< callout header="Modal Tip" >}}
+  <p>If you want to make a dialog box, you can just remove the <code>modal__header</code> from the modal!</p>
 {{< /callout >}}

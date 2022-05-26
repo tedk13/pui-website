@@ -1,15 +1,12 @@
 ---
 title: Tables
 description: Documentation for Platform UI's table component.
-toc: false
 ---
 {{% anchor name="table" %}}
 
-Our default table is simple and un-cluttered without vertical borders. 
+Our default table is simple and uncluttered without vertical borders. 
 
- Platform UI tables are built to be responsive at all screen sizes! 
- 
- Make them responsive by adding `data-label` on [every] `<td>` to match the column header label.
+Platform UI tables are built to be responsive at all screen sizes! Make them responsive by adding a `data-label` on every `<td>` to match the column header label.
 
 {{< code-demo >}}
 <table class="table">
@@ -85,26 +82,17 @@ Our default table is simple and un-cluttered without vertical borders.
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers name="Table" >}}
-<tr>
-  <td data-label="Base">
-    <code>table</code>
-  </td>
-  <td data-label="Modifier">
-    <code>table--no-hover</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Removes the hover effect on table and rows
-  </td>
-</tr>
+{{< modifiers >}}
+{{< modifiers-row 
+  modifier="table--no-hover"
+  behavior="Removes the hover effect on tables and rows." 
+>}}
+{{< modifiers-row 
+  modifier="unresponsive"
+  behavior="Removes responsive behavior." 
+>}}
 {{< /modifiers >}}
 
-{{< callout tipHeader="Table Tip" >}}
-  <p>If you don't want your table to be responsive, you can add <code>.unresponsive</code> to the table. If you add the utility class <code>.overflow-x--auto</code> the table will scroll horizontally too!</p>
+{{< callout header="Table Tip" >}}
+  <p>Add the utility class <code>overflow-x--auto</code> to make the table scroll horizontally too! This is a good idea when making the table <code>unresponsive</code>.</p>
 {{< /callout >}}

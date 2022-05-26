@@ -1,145 +1,60 @@
 ---
-title: Position
-description: Platform UI utilities for positioning elements.
-toc: false
+title: Positioning
 ---
 
-If you need to postion something absolute you can use the following classes.
+{{% anchor name="Position" %}}
 
-Remember that when positioning an element absolute, the element will position
-according to the closest parent element that has `position: relative`. For this
-you can use the class `pos-rel` on the parent element you want to position the
-absolute element to.
+To postion an element absolutely, set `pos-rel` on the parent element and `pos-abs` to child that you'd like to position absolute. Our position utilities are meant to be used (mostly) with pinning.
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>CSS Attribute</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Class"><code>pos-rel</code></td>
-      <td data-label="CSS Attribute"><code>position: relative</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pos-abs</code></td>
-      <td data-label="CSS Attribute"><code>position: absolute</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pos-fix</code></td>
-      <td data-label="CSS Attribute"><code>position: fixed</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pos-stick</code></td>
-      <td data-label="CSS Attribute"><code>position: sticky</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-top</code></td>
-      <td data-label="CSS Attribute"><code>top: 0</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-right</code></td>
-      <td data-label="CSS Attribute"><code>right: 0</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-bottom</code></td>
-      <td data-label="CSS Attribute"><code>bottom: 0</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-left</code></td>
-      <td data-label="CSS Attribute"><code>left: 0</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-center-top</code></td>
-      <td data-label="CSS Attribute"><code>top: 50%; transform: translateY(-50%)</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-center-right</code></td>
-      <td data-label="CSS Attribute"><code>right: 50%; transform: translateX(-50%)</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-center-bottom</code></td>
-      <td data-label="CSS Attribute"><code>bottom: 50%; transform: translateY(-50%)</code></td>
-    </tr>
-    <tr>
-      <td data-label="Class"><code>pin-center-left</code></td>
-      <td data-label="CSS Attribute"><code>left: 50%; transform: translateX(-50%)</code></td>
-    </tr>
-  </tbody>
-</table>
+{{< classes result="true" >}}
+{{< classes-row class="pos-rel" result="Position relative to the elements normal position.">}}
+{{< classes-row class="pos-abs" result="Position an element absolutely.">}}
+{{< classes-row class="pos-fix" result="Set the fixed position of an element.">}}
+{{< classes-row class="pos-stick" result="Make it sticky. For use with table headers.">}}
+{{< /classes >}}
 
-<section>
-  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
-  <div class="linear-gradient inverted px-4 py-3 block-container" 
-      data-callout-header="tables tip" 
-      data-callout-radius="0 3rem 0 3rem"
-      data-gradient-direction="30deg"
-      data-gradient-start="midnightblue 20%, purple 40%"
-      data-gradient-stop="indigo"
-      data-gradient-fallback="indigo">
-    <i class="pi-rocket mr-1"></i>
-    <strong class="mr-1">Try it out!</strong> 
-    Pin an element to different sides of it's container!
-  </div>
-  <div class="visualizer block-container p-3 py-4 border border--color-lighter border--width-5 tablet-up-2">
-    <div class="actions block">
-      <ul class="list">
-        <li>
-          <button class="button" data-example-elements="pos-abs pin-top">
-            <pre>.pin-top</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-right">
-            <pre>.pin-right</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-bottom">
-            <pre>.pin-bottom</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-left">
-            <pre>.pin-left</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center">
-            <pre>.pin-center</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-top">
-            <pre>.pin-center-top</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-right">
-            <pre>.pin-center-right</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-bottom">
-            <pre>.pin-center-bottom</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button" data-example-elements="pin-center-left">
-            <pre>.pin-center-left</pre>
-          </button>
-        </li>
-        <li>
-          <button class="button button--salmon text--white" data-reset="true">
-            Reset
-          </button>
-        </li>
-      </ul>
-    </div>
-    <div class="results rounded-2 block background--dark p-3 vh-25" data-default-class="pos-rel h-100 w-100">
-      <div class="abstract-element background--light-purple border border--color-white pos-abs"></div>
-    </div>
-  </div>
-</section>
+{{% anchor name="Pin" %}}
+
+{{< classes result="true" >}}
+{{< classes-row class="pin-{ top, bottom, left, right }" result="In combination with position utilities, pin an element top, bottom, left, right.">}}
+{{< /classes >}}
+
+{{< visualizer header="Pin an element to different sides of its container!" >}}
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="pos-abs pin-top">
+        <pre>.pin-top</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-right">
+        <pre>.pin-right</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-bottom">
+        <pre>.pin-bottom</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-left">
+        <pre>.pin-left</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-center">
+        <pre>.pin-center</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">
+        Reset
+      </button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3 vh-25" data-default-class="pos-rel h-100 w-100">
+  <div class="abstract-element background--light-purple border border--color-white pos-abs"></div>
+</div>
+{{< /visualizer >}}

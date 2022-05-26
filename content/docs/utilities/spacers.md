@@ -1,111 +1,44 @@
 ---
 title: Spacers
-description: Platform UI utilities for adding padding and margin to elements.
 ---
+{{% anchor name="Padding and margin" %}}
+{{% anchor name="How does it work" level="3" %}}
 
-Platform UI provides padding and margin utilities for most scenarios based on it's spacer map;
+Using our padding and margin utilities is simple. It's _what_ you're setting, the _direction_, and the number based on our spacing map.
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th colspan="8">Direction</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Direction">location</td>
-      <td>surrounding</td>
-      <td>top</td>
-      <td>bottom</td>
-      <td>left</td>
-      <td>right</td>
-      <td>x-axis</td>
-      <td>y-axis</td>
-    </tr>
-    <tr>
-      <td data-label="Direction">padding prefix</td>
-      <td><code>p-</code></td>
-      <td><code>pt-</code></td>
-      <td><code>pb-</code></td>
-      <td><code>pl-</code></td>
-      <td><code>pr-</code></td>
-      <td><code>px-</code></td>
-      <td><code>py-</code></td>
-    </tr>
-    <tr>
-      <td data-label="Direction">margin prefix</td>
-      <td><code>m-</code></td>
-      <td><code>mt-</code></td>
-      <td><code>mb-</code></td>
-      <td><code>ml-</code></td>
-      <td><code>mr-</code></td>
-      <td><code>mx-</code></td>
-      <td><code>my-</code></td>
-    </tr>
-  </tbody>
-</table>
+`{padding, p or margin, m }{ direction if not surrounding: t, b, l, r, x, y }-{ number }`
 
-<table class="table mb-4">
-  <thead>
-    <tr>
-      <th colspan="9">Distance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Distance">number value</td>
-      <td>0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>5</td>
-      <td>6</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td data-label="Distance">rem value</td>
-      <td><code>0rem</code></td>
-      <td><code>.25rem</code></td>
-      <td><code>.5rem</code></td>
-      <td><code>1rem</code></td>
-      <td><code>2rem</code></td>
-      <td><code>3rem</code></td>
-      <td><code>4.5rem</code></td>
-      <td><code>6.5rem</code></td>
-    </tr>
-  </tbody>
-</table>
+{{% anchor name="basic" level="3" %}}
 
-Usage: `{padding, p or margin, m }{ direction if not surrounding: t, b, l, r, x, y }-{ number }`
+{{< classes result="true" >}}
+{{< classes-row class="{padding, p or margin, m }-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem`." >}}
+{{< /classes >}}
 
-Example:
+{{% anchor name="x y axis" level="3" %}}
+
+{{< classes result="true" >}}
+{{< classes-row class="{padding, p or margin, m }x-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem` on the x-axis (left and right)." >}}
+{{< classes-row class="{padding, p or margin, m }y-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem` on the y-axis (top and bottom)." >}}
+{{< /classes >}}
+
+{{% anchor name="top bottom left right" level="3" %}}
+
+{{< classes result="true" >}}
+{{< classes-row class="{padding, p or margin, m }{ t, b, l, r}-{ 0-7 }" result="Set `padding` or `margin` from `0`-`6.5rem` for top, bottom, left, and right." >}}
+{{< /classes >}}
+
+{{< code-markup >}}
 {{< highlight html >}}
-<!-- padding-left: .5rem -->
-<div class="pl-2">
-  <!-- Content goes here! -->
-</div>
-
-<!-- margin: 0 1rem; -->
-<div class="mx-3">
-  <!-- Content goes here! -->
-</div>
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 2),
+  5: ($spacer * 3),
+  6: ($spacer * 4.5),
+  7: ($spacer * 6.5)
+);
 {{< /highlight >}}
-
-
-## Responsive
-
-Currently we only have responsive spacers for mobile. We are also only using them for `margin-bottom` and `padding-bottom`.
-
-Example:
-{{< highlight html >}}
-<!-- margin-bottom: 1rem -->
-<div class="mobile-mb-3">
-  <!-- Content goes here! -->
-</div>
-
-<!-- padding-bottom: 1rem -->
-<div class="mobile-pb-3">
-  <!-- Content goes here! -->
-</div>
-{{< /highlight >}}
+{{< /code-markup >}} 

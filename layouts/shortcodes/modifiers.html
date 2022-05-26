@@ -4,15 +4,18 @@
     <table class="table modifiers table--no-hover">
       <thead>
         <tr>
-          <th>Base &dagger;</th>
-          <th>Modifier</th>
+          <th>Modifier &dagger;</th>
+          {{ if .Get `secondary` }}
           <th>Secondary Modifier</th>
+          {{ end }}
+          {{ if .Get `data` }}
           <th>Data Attribute</th>
+          {{ end }}
           <th style="width: 40%">Behavior</th>
         </tr>
       </thead>
       <tbody>
-        {{ .Inner | markdownify}}
+        {{ .Inner }}
       </tbody>
     </table>
   </div>

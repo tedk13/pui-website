@@ -2,7 +2,6 @@
 title: Messages
 description: Documentation for Platform UI's message component, including informational, warning, error, and success states.
 skellyCSS: true
-toc: false
 ---
 {{% anchor name="message" %}}
 Messages can be used to display important information that will stand out on the screen.
@@ -40,6 +39,6 @@ Messages can be used to display important information that will stand out on the
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< callout tipHeader="Message Tip" >}}
+{{< callout header="Message Tip" >}}
   <p>You can add a custom heading to any message using <code>data-header="{Your Heading}"</code>. You can also remove the heading by setting <code>data-header=""</code>!</p>
 {{< /callout >}}

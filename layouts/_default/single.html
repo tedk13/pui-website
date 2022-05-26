@@ -41,7 +41,7 @@
       <article id="content" class="w-100{{ if not .IsHome }} lg-tablet-up-9 px-4 pb-4{{ end }}">
         <h1 class="text--purple mt-5">{{ .Title }}</h1>
         {{if ne .Params.toc false}}
-        <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4">
+        <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4 text--capitalize">
             <h2 class="text--size-md">On This Page</h2>
             {{ .TableOfContents }}
         </aside>
@@ -49,12 +49,10 @@
         {{ .Content }}
       </article>
       {{ if not .IsHome }}
-      {{if ne .Params.toc false}}
-        <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4">
-          <h2 class="text--size-md">{{ if in .Permalink "lauchpad" }}Examples{{ else }}On This Page{{ end }}</h2>
-          {{ .TableOfContents }}
-        </aside>
-        {{ end }}
+      <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
+        <h2 class="text--size-md">{{ if in .Permalink "lauchpad" }}Examples{{ else }}On This Page{{ end }}</h2>
+        {{ .TableOfContents }}
+      </aside>
       {{ end }}
     </main>
   </div>

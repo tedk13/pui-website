@@ -4,8 +4,8 @@ description: Documentation for Platform UI's pills, split pills, circle pills, a
 ---
 {{% anchor name="pill" %}}
 
-A rounded, pill like, badge. 
-A pill can support color by adding a text or background modifier.
+A rounded, pill-shaped badge. A pill can support color by adding a text or background modifier.
+
 Pills have no hover state.
 
 {{< code-demo >}}
@@ -92,98 +92,33 @@ Pills can be circular.
 {{< code-markup >}}
 {{< highlight html >}}
 <div class="pill pill--circle">
-  33
+  <!-- Optional content here! -->
 </div>
 <div class="pill pill--circle text--white background--salmon">
-  33
+  <!-- Optional content here! -->
 </div>
 {{< /highlight >}}
 {{< /code-markup >}}
 
 {{< modifiers >}}
-<tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
-  <td data-label="Modifier">
-    <code>pill--circle-empty-dot</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Dot pill intended to remain empty
-  </td>
-</tr>
-<tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
-  <td data-label="Modifier">
-    <code>pill--circle-empty</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Small, circular pill intended to remain empty
-  </td>
-</tr>
-<tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
-  <td data-label="Modifier">
-    <code>pill--circle</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Circular pill intended to contain content
-  </td>
-</tr>
-<tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
-  <td data-label="Modifier">
-    <code>pill--circle-medium</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Medium circular pill intended to contain content
-  </td>
-</tr>
-<tr>
-  <td data-label="Base">
-    <code>pill</code>
-  </td>
-  <td data-label="Modifier">
-    <code>pill--circle-large</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Behavior">
-    Large circular pill intended to contain content
-  </td>
-</tr>
+{{< modifiers-row 
+  modifier="pill--circle-empty-dot"
+  behavior="Dot pill intended to remain empty." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle-empty"
+  behavior="Small, circular pull intended to remain empty." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle"
+  behavior="Circular pill intended to contain content." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle-medium"
+  behavior="Medium circular pill intended to contain content." 
+>}}
+{{< modifiers-row 
+  modifier="pill--circle-large"
+  behavior="Large circular pill intended to contain content." 
+>}}
 {{< /modifiers >}}

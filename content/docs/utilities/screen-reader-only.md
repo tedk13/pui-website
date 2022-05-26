@@ -1,8 +1,12 @@
 ---
-title: Screen Reader Only
-description: Platform UI utility visually hiding element, but making them available to screen readers.
-toc: false
+title: Screen Readers 
 ---
+{{% anchor name="screen reader only" %}}
 
-This class is to hide text that is important for screen readers and accessibility.
-`sr-only`
+Yes, we have a `sr-only` class. No, we're not trying to copy anyone else. We just care a lot about accessibility, and we think you should too! In case you missed it, read more about our thoughts on [accessibility](/docs/getting-started/accessibility/).
+
+{{< classes result="true" >}}
+{{< classes-row class="sr-only" result="This class is to hide text that is important for screen readers and accessibility.">}}
+{{< /classes >}}
+
+

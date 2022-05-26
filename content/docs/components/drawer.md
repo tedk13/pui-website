@@ -2,14 +2,15 @@
 title: Drawers
 description: Documentation for Platform UI's drawer components.
 skellyCSS: true
-toc: false
 ---
 
 {{% requires-js %}}
 
 {{% anchor name="drawer" %}}
 
-A drawer is content meant to be toggle from any direction to slide into view. The default orientation is bottom.
+A drawer is content meant to be toggled with the `active` class and then slide into view from any direction. The default orientation is bottom.
+
+A drawer can easily be opened by setting `data-drawer` with the matching `id` of the desired drawer on a button with the `drawer__open` class. Similarly, a button with the same setup and the `drawer__close` class will close the drawer.
 
 {{< code-demo >}}
 <div class="block-container mt-3">
@@ -17,7 +18,7 @@ A drawer is content meant to be toggle from any direction to slide into view. Th
     Toggle drawer
   </button>
 </div>
-<div id="default" class="drawer drawer--closed">
+<div id="default" class="drawer">
   <div class="drawer__inner">
    <div class="drawer__content">
       <div class="flex flex--justify-end mb-3">
@@ -38,7 +39,7 @@ A drawer is content meant to be toggle from any direction to slide into view. Th
   Toggle default drawer
 </button>
 <!-- Default Drawer -->
-<div class="drawer drawer--closed">
+<div id="default" class="drawer">
   <div class="drawer__inner">
     <div class="drawer__header">
       <button class="button drawer__close" data-drawer="default">
@@ -55,43 +56,19 @@ A drawer is content meant to be toggle from any direction to slide into view. Th
 {{< /highlight >}}
 {{< /code-markup >}}
 
-{{< modifiers >}}
-<tr>
-  <td data-label="Base">
-    <code>drawer</code>
-  </td>
-  <td data-label="Modifier">
-    <code>drawer-{t,l,r}</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-drawer</code>
-  </td>
-  <td data-label="Behavior">
-    Top, left, right orientation. Bottom is default.
-  </td>
-</tr>
-<tr>
-  <td data-label="Base">
-    <code>drawer</code>
-  </td>
-  <td data-label="Modifier">
-    <code>drawer--single-row</code>
-  </td>
-  <td data-label="Secondary Modifier">
-    <i class="pi-ban" aria-hidden="true"></i>
-  </td>
-  <td data-label="Data Attribute">
-    <code>data-drawer</code>
-  </td>
-  <td data-label="Behavior">
-    A small drawer.
-  </td>
-</tr>
+{{< modifiers data="true" >}}
+{{< modifiers-row 
+  modifier="drawer-{ t, l, r }"
+  attr="data-drawer"
+  behavior="`top`, `left`, `right` orientation. Bottom is default." 
+>}}
+{{< modifiers-row 
+  modifier="drawer--single-row"
+  attr="data-drawer"
+  behavior="A small drawer." 
+>}}
 {{< /modifiers >}}
 
-{{< callout tipHeader="Drawer Tip" >}}
+{{< callout header="Drawer Tip" >}}
   <p>If the <code>header-fixed</code> class is added to the main wrapper, the side drawers will open below the header.</p>
 {{< /callout >}}
