@@ -134,4 +134,3 @@ Here's a quick template to get you started. It uses the CDN install, which we re
     </div>
   </div>
 </section>
-&nbsp;
