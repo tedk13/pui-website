@@ -122,7 +122,7 @@ The secondary button was built primarily for usage with icons alone with a fanci
   modifier="button--secondary"
   secondary="has-text"
   attr="data-button-text"
-  behavior="`has-text` with `data-button-text` adds custom text on hover." 
+  behavior="`data-button-text` adds custom text on hover on viewports over `991px`. Adding `has-text` will show that text at all times."
 >}}
 {{< /modifiers >}}
 
