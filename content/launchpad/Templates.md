@@ -48,24 +48,3 @@ title: Templates
         </a>
     </div>
 </div>
-
-{{% anchor name="Heros" %}}
-
-<div class="block-container blocks p-2 cards tablet-up-4 mb-4">
-    <div class="block">
-        <a href="/launchpad/hero/heros/" class="card rounded-2 flex flex--column">
-            <img class="card__image" src="/images/launchpad/hero-1.png" alt="Hero examples using Platform UI" />
-            <div class="card__content text--purple">
-                Heros
-            </div>
-        </a>
-    </div>
-    <div class="block">
-        <a href="/launchpad/hero/heros-background-color/" class="card rounded-2 flex flex--column">
-            <img class="card__image" src="/images/launchpad/hero-2.png" alt="Hero and background examples using Platform UI" />
-            <div class="card__content text--purple">
-                Heros and Backgrounds
-            </div>
-        </a>
-    </div>
-</div>
