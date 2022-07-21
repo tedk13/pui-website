@@ -1,10 +1,11 @@
 ---
 title: Cards
-weight: 3
 skellyCSS: true
 ---
 
 Below are some examples of different cards you can build using Platform UI.
+
+{{% anchor name="Dark cards" %}}
 
 <div class="block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 blocks p-2 cards" style="--skelly-color: var(--light-mid);">
     <div class="block">
@@ -77,6 +78,8 @@ Below are some examples of different cards you can build using Platform UI.
         </div>
     </div>
 </section>
+
+{{% anchor name="Light cards" %}}
 
 <section class="my-4 background--lavender px-3">
     <div class="block-container tablet-up-2 blocks p-2 cards">
