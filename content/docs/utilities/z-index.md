@@ -5,6 +5,8 @@ skellyCSS: true
 
 {{% anchor name="Z-Index" %}}
 
+You can use these utility classes to control the stack. Add a specified `z-{value}` class to your element to change the order of the stack. Remember to specify at least `position: relative` on the element for `z-index` to work.
+
 {{< classes result="true" >}}
 {{< classes-row class="z-0" result="z-index: 0" >}}
 {{< classes-row class="z-10" result="z-index: 10" >}}
@@ -76,6 +78,8 @@ skellyCSS: true
 
 {{% anchor name="Javascript Option" %}}
 {{% requires-js %}}
+
+Can't find the value you need in the list above? You can add a `data-z="{value}"` to your element and let javascript handle the rest. 
 
 {{< code-demo >}}
 <div class="rounded-2 block background--dark p-3">
