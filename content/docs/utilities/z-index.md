@@ -5,7 +5,7 @@ skellyCSS: true
 
 {{% anchor name="Z-Index" %}}
 
-You can use these utility classes to control elements layered in a stack. Add a `z-{value}` class to your element to change the order of the stack. Remember to specify `position: relative` on the element for `z-index` to work.
+These utility classes control the stacking order within the DOM. Adding a `z-{value}` class to your element will change its order in the stack.
 
 {{< classes result="true" >}}
 {{< classes-row class="z-0" result="`z-index: 0`" >}}
