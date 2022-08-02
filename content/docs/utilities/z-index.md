@@ -8,20 +8,20 @@ skellyCSS: true
 You can use these utility classes to control the stack. Add a `z-{value}` class to your element to change the order of the stack. Remember to specify `position: relative` on the element for `z-index` to work.
 
 {{< classes result="true" >}}
-{{< classes-row class="z-0" result="z-index: 0" >}}
-{{< classes-row class="z-10" result="z-index: 10" >}}
-{{< classes-row class="z-20" result="z-index: 20" >}}
-{{< classes-row class="z-30" result="z-index: 30" >}}
-{{< classes-row class="z-40" result="z-index: 40" >}}
-{{< classes-row class="z-50" result="z-index: 50" >}}
-{{< classes-row class="z-60" result="z-index: 60" >}}
-{{< classes-row class="z-70" result="z-index: 70" >}}
-{{< classes-row class="z-80" result="z-index: 80" >}}
-{{< classes-row class="z-90" result="z-index: 90" >}}
-{{< classes-row class="z-100" result="z-index: 100" >}}
-{{< classes-row class="-z-10" result="z-index: -10" >}}
-{{< classes-row class="-z-20" result="z-index: -20" >}}
-{{< classes-row class="z-auto" result="z-index: auto" >}}
+{{< classes-row class="z-0" result="`z-index: 0`" >}}
+{{< classes-row class="z-10" result="`z-index: 10`" >}}
+{{< classes-row class="z-20" result="`z-index: 20`" >}}
+{{< classes-row class="z-30" result="`z-index: 30`" >}}
+{{< classes-row class="z-40" result="`z-index: 40`" >}}
+{{< classes-row class="z-50" result="`z-index: 50`" >}}
+{{< classes-row class="z-60" result="`z-index: 60`" >}}
+{{< classes-row class="z-70" result="`z-index: 70`" >}}
+{{< classes-row class="z-80" result="`z-index: 80`" >}}
+{{< classes-row class="z-90" result="`z-index: 90`" >}}
+{{< classes-row class="z-100" result="`z-index: 100`" >}}
+{{< classes-row class="-z-10" result="`z-index: -10`" >}}
+{{< classes-row class="-z-20" result="`z-index: -20`" >}}
+{{< classes-row class="z-auto" result="`z-index: auto`" >}}
 {{< /classes >}}
 
 {{< code-demo >}}
