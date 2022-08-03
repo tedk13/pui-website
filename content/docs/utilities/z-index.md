@@ -76,7 +76,7 @@ These utility classes control the stacking order within the DOM. Adding a `z-{va
 {{< /highlight >}} 
 {{< /code-markup >}}
 
-{{% anchor name="Javascript Option" %}}
+{{% anchor name="Using Data Attributes" %}}
 
 <div class="mb-4">
 {{% requires-js %}}
