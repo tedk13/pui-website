@@ -77,7 +77,10 @@ These utility classes control the stacking order within the DOM. Adding a `z-{va
 {{< /code-markup >}}
 
 {{% anchor name="Javascript Option" %}}
+
+<div class="mb-4">
 {{% requires-js %}}
+</div>
 
 Can't find the value you need in the list above? You can add a `data-z="{value}"` to your element and let javascript handle the rest. 
 
@@ -120,19 +123,19 @@ Can't find the value you need in the list above? You can add a `data-z="{value}"
 
 {{< code-markup >}}
 {{< highlight html >}}
-<div class="pos-rel z-30" data-z="31">
+<div class="pos-rel" data-z="31">
   31
 </div>
-<div class="pos-rel z-40" data-z="60">
+<div class="pos-rel" data-z="60">
   60
 </div>
-<div class="pos-rel z-50" data-z="999">
+<div class="pos-rel" data-z="999">
   999
 </div>
-<div class="pos-rel z-40" data-z="10">
+<div class="pos-rel" data-z="10">
   10
 </div>
-<div class="pos-rel z-30" data-z="1">
+<div class="pos-rel" data-z="1">
   1
 </div>
 {{< /highlight >}} 
