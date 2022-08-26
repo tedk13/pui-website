@@ -40,5 +40,5 @@ Messages can be used to display important information that will stand out on the
 {{< /code-markup >}}
 
 {{< callout header="Message Tip" >}}
-  <p>You can add a custom heading to any message using <code>data-header="{Your Heading}"</code>. You can also remove the heading by setting <code>data-header=""</code>!</p>
+  <p>You can add a custom heading to any message using <code>data-header="{Your Heading}"</code>. You can also remove the heading by setting <code>data-header="none"</code>!</p>
 {{< /callout >}}

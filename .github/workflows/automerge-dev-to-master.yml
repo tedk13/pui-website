@@ -1,9 +1,14 @@
 name: Update Master
+# test 2 : 8:07a 
 
 on:
   push:
     branches:
-      - master
+      - development
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - development
 
 jobs:
   update-cms-master:
