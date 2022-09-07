@@ -1,5 +1,4 @@
 name: Update Master
-# test 2 : 8:07a 
 
 on:
   push:
@@ -24,4 +23,3 @@ jobs:
           github_token: ${{ github.token }}
           source: 'development'
           target: 'master'
-          webhook_url: #if present add the Slack webhook
