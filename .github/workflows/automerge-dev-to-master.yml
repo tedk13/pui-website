@@ -1,6 +1,4 @@
 name: Update Master
-# test 2 : 8:07a
-# enabled mtanzi/action-automerge@v1 on ritter org
 
 on:
   push:
@@ -25,4 +23,3 @@ jobs:
           github_token: ${{ github.token }}
           source: 'development'
           target: 'master'
-          webhook_url: #if present add the Slack webhook
