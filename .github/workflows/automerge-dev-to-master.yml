@@ -1,25 +1,21 @@
 name: Update Master
 
-on:
-  push:
-    branches:
-      - development
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - development
+on: 
+  pull_request_target:
+    types:
+      - closed
+    branches: 
+      - 'development'
 
 jobs:
-  update-cms-master:
-    name: Merge development into master after a PR is merged
+  if_merged:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      - name: merge
-        uses: mtanzi/action-automerge@v1
-        id: merge
-        with:
-          github_token: ${{ github.token }}
-          source: 'development'
-          target: 'master'
+    - run: echo "✅ Checking out development."
+    - name: checkout
+      uses: actions/checkout@v3
+    - run: echo "🎯 Merging development into master."  
+    - name: merge
+      uses: everlytic/branch-merge@1.1.2
+    - run: echo "🥃 Workflow complete." 
