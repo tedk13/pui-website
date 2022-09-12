@@ -15,11 +15,6 @@ jobs:
     - run: echo "✅ Checking out development."
     - name: checkout
       uses: actions/checkout@v3
-    - name: Approve Pull Request
-      uses: juliangruber/approve-pull-request-action@v1.1.1
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        number: 1
     - run: echo "🎯 Merging development into master."  
     - name: merge
       uses: everlytic/branch-merge@1.1.2
