@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Packages
+description: Sorry, we're only on npm right now. Look for that to expand in the future!
 weight: 2
 ---
 

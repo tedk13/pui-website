@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Starter Templates
+description: Sometimes you just need that basic structure to get you going! Here are a couple of quick-start templates.
 weight: 3
 ---
 
