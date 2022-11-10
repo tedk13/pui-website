@@ -1,5 +1,6 @@
 ---
 title: Mobile
+description: Platform UI documentation for mobile menu.
 weight: 2
 ---
 

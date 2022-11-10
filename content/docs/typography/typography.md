@@ -1,5 +1,6 @@
 ---
 title: Typography
+description: Platform UI documentation for Typography.
 skellycss: true
 ---
 

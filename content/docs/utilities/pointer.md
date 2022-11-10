@@ -1,5 +1,6 @@
 ---
-title: Cursor 
+title: Cursor
+description: Platform UI documentation for cursors and pointer.
 toc: false
 ---
 {{% anchor name="Pointer" %}}
