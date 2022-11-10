@@ -1,5 +1,6 @@
 ---
 title: Z-Index
+description: Platform UI documentation for z-index utilities.
 skellyCSS: true
 ---
 

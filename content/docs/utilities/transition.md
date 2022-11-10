@@ -1,5 +1,6 @@
 ---
 title: Transitions
+description: Platform UI documentation for transition utilities.
 ---
 
 {{% anchor name="transition" %}}

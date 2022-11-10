@@ -1,5 +1,6 @@
 ---
 title: Backgrounds
+description: Platform UI documentation for backgrounds.
 ---
 {{% anchor name="color" %}}
 

@@ -1,5 +1,6 @@
 ---
 title: Rotating
+description: Platform UI documentation for rotation utilities.
 ---
 
 {{% anchor name="Rotate" %}}
