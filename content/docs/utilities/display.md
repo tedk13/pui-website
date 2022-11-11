@@ -1,5 +1,6 @@
 ---
 title: Display
+description: Platform UI documentation for Display.
 ---
 
 {{% anchor name="properties" %}}

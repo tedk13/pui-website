@@ -1,5 +1,6 @@
 ---
 title: Spacers
+description: Platform UI documentation for spacer utilities.
 ---
 {{% anchor name="Padding and margin" %}}
 {{% anchor name="How does it work" level="3" %}}

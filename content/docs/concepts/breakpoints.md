@@ -1,5 +1,6 @@
 ---
 title: Breakpoints
+description: We built our framework to leverage as many screen sizes as possible. Our responsive grid and display utilities are based on the following viewports.
 weight: 2
 ---
 

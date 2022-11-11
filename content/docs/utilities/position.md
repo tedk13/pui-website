@@ -1,5 +1,6 @@
 ---
 title: Positioning
+description: Platform UI documentation for positioning utilities.
 ---
 
 {{% anchor name="Position" %}}

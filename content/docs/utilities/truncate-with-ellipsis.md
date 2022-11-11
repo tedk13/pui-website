@@ -1,5 +1,6 @@
 ---
 title: Truncate With Ellipsis
+description: Platform UI documentation for truncate with ellipsis utilities.
 ---
 {{% anchor name="default" %}}
 

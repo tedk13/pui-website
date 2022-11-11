@@ -1,5 +1,6 @@
 ---
 title: Height and Width
+description: Platform UI documentation for height and width utilities.
 ---
 
 We handle height and width both in percentages and view-height/width. Both are broken into quarters.

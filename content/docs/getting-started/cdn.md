@@ -1,6 +1,7 @@
 ---
 layout: single
 title: CDN
+description: The quickest and easiest way to implement Platform UI is by using a CDN.
 weight: 1
 ---
 

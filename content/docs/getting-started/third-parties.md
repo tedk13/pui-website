@@ -1,5 +1,6 @@
 ---
 title: Third Parties
+description: There are third party choices we've incorporated into Platform UI which are part of the compiled version only. If you choose to build Platform UI from source, you'll need to consider the following.
 weight: 4
 ---
 

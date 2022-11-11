@@ -1,5 +1,6 @@
 ---
 title: Borders
+description: Platform UI documentation for borders.
 skellyCSS: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Max Width
+description: Platform UI documentation for max-width layout.
 skellyCSS: true
 ---
 
