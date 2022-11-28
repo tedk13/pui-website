@@ -1,0 +1,18 @@
+table.modifiers {
+    border: 4px solid lavender;
+    thead {
+        background: lavender;
+        color: rebeccapurple;
+        th {
+        border: none;
+        }
+    }
+    tbody {
+        tr {
+        td {
+            border-bottom: 4px solid;
+            border-color: lavender;
+        }
+        }
+    }
+}

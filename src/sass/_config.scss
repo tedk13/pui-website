@@ -1,0 +1,204 @@
+// PUI brand colors
+$brand-colors: (
+  "purple": hsla(256, 46%, 25%, 1),
+  "light-purple": hsla(254, 34%, 46%, 1),
+  "salmon": hsla(16, 71%, 65%, 1),
+  "lavender": hsla(240, 67%, 94%, 1),
+  // grid block columns
+  "lavender-blush": hsla(340, 100%, 97%, .6),
+  "thistle": hsla(300, 24%, 80%, .5)
+);
+
+:root {
+  @each $key, $value in $brand-colors {
+    --#{$key}: #{$value};
+  }
+
+  --header-height: 4.5rem;
+}
+
+html{
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
+.highlight {
+  pre {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    code {
+      color: unset;
+      font-size: 85%;
+      white-space: pre-wrap;
+    }
+  }
+}
+
+code {
+  background-color: lavender;
+  border-radius: .2rem;
+  color: rebeccapurple;
+  padding: 0 .25rem;
+  font-size: inherit;
+  white-space: nowrap;
+}
+
+.card {
+  @media only screen and (min-width: 1800px) {
+    min-height: auto;
+  }
+}
+
+.sidebar-menu {
+  .accordion {
+    &.active {
+      box-shadow: none;
+    }
+  }
+  a {
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+
+#frame {
+  flex-flow: column;
+  @media screen and (min-width: 991px) {
+    flex-flow: row;
+  }
+}
+
+#frame-content {
+  flex-flow: column;
+  @media screen and (min-width: 991px) {
+    flex-flow: row;
+  }
+}
+
+#frame-mobile-nav-trigger{
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+
+.mobile-menu-action{
+  z-index:50;
+}
+
+#content {
+  order: 2;
+  @media screen and (min-width:991px){
+    order:1;
+  }
+}
+
+.content-nav {
+  order: 1;
+  @media screen and (min-width:991px){
+    padding-top:1em;
+  }
+}
+
+// Copy Button CSS
+// ===============
+// Adjustments to the .highlight CSS class to hide the .code-text textarea
+.highlight {
+  position: relative;
+  pre {
+    padding:1rem;
+    padding-right:100px; 
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    code {
+      padding: 0;
+      background: transparent !important;
+    }
+  }
+}
+
+// CSS to place copy button in top-right corner of code example
+.button--copy {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  z-index: 2;
+  display:none;
+  @media (min-width:768px){
+    display:block;
+  }
+}
+
+// CSS to hide the code textarea
+.code-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  opacity:0;
+}
+
+main, footer {
+  a:not(
+    .accordion > a, 
+    .button, 
+    .skeleton > a, 
+    .message > a, 
+    .site-menu > a,
+    .site-menu a.dropdown__content-item,
+    .site-menu a.dropdown__trigger,
+    .icon-menu__item > a,
+    a.card
+    .code-demo a
+  ){
+    color: var(--light-purple);
+    border-bottom: 1px solid;
+    border-color: var(--light-purple);
+    transition: .2s;
+    &:hover{
+      color: var(--purple);
+      border-color: 1px solid var(--purple);
+    }
+  }
+  a[rel="external noopener"]{
+    &::after{
+      font-family:'platform-icons';
+      content: "\f17c";
+      font-size:0.75rem;
+      margin-left:0.25rem;
+      text-decoration: none;
+    }
+  }
+
+  // page anchors
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      > a {
+        border-bottom: none !important;
+
+        &:hover {
+          &:after {
+            color: var(--light-purple);
+            content: "#";
+            margin-left: .25rem;
+          }
+        }
+      }
+    }
+}
+
+.feature-image{
+  height:150px;
+  width:auto;
+}
