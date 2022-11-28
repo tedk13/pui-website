@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "RIMdev",
   "license": "ISC",
+  "dependencies": {
+    "astro": "^1.6.10"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   }
