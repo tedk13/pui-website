@@ -22,12 +22,13 @@ export interface Props {
 		<GtmBody />
 		<Header />
 
+		<!-- ToDo: .ishome stuff -->
 		<div id="app" class="header-fixed flex--grow {{ if .IsHome }} home{{ end }}">
 			<slot />
 		</div>
 
 		<Footer />
 	</body>
-	
+
 	<Scripts />
 </html>
