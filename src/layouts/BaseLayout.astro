@@ -21,10 +21,13 @@ export interface Props {
 	<body class="flex flex--column">
 		<GtmBody />
 		<Header />
+
 		<div id="app" class="header-fixed flex--grow {{ if .IsHome }} home{{ end }}">
 			<slot />
 		</div>
+
 		<Footer />
 	</body>
-	<!-- <Scripts /> -->
+	
+	<Scripts />
 </html>
