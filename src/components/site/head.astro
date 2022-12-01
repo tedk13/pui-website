@@ -1,23 +1,23 @@
 ---
+import GtmHead from '../head/gtm-head.astro';
+import Og from '../head/og.astro';
+import Preconnects from '../head/preconnects.astro';
+import Schemadotorg from '../head/schemadotorg.astro';
+import Styles from '../head/styles.astro';
+import Twitter from '../head/twitter.astro';
 
+const { pageTitle, description } = Astro.props;
 ---
 <head>
-    <title>{{ .Title }} | Platform UI. A CSS framework by RIMdev</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {{ with .Description }}
-    <meta name="description" content="{{ . }}">{{ end }}
-    {{ hugo.Generator }}
-
-    <link rel="icon" type="image/svg+xml" href="/images/favicon/platform-ui.svg">
-    <link rel="canonical" href="{{ .Site.Params.Pui_url }}" />
-    <meta name="theme-color" content="#32225d">
-
-    {{ partial "head/preconnects.html" . }}
-    {{ partial "head/styles.html" . }}
-    {{ partial "head/gtm-head.html" . }}
-    {{ partial "head/twitter.html" . }}
-    {{ partial "head/og.html" . }}
-    {{ partial "head/schemadotorg.html" . }}
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <GtmHead />
+    <Og pageTitle={pageTitle} description={description} />
+    <Preconnects />
+    <Schemadotorg pageTitle={pageTitle} description={description} />
+    <Styles />
+    <Twitter pageTitle={pageTitle} description={description} />
+</head>
