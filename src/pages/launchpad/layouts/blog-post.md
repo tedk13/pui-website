@@ -1,6 +1,6 @@
 ---
 title: Blog Post
-layout: example
+layout: ../../../layouts/example.astro
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
 skellyCSS: true
 ---
@@ -25,6 +25,7 @@ skellyCSS: true
         color: var(--purple)!important;
     }
 </style>
+<link rel="stylesheet" href="https://unpkg.com/@ritterim/skellycss/dist/style.css">
 
 <header class="site-menu-wrapper p-2 background--black">
     <div class="block-container flex--justify-center w-100">

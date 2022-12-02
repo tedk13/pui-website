@@ -1,6 +1,6 @@
 ---
 title: Full Page Layout
-layout: example
+layout: ../../../layouts/example.astro
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
 skellyCSS: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: Dashboard
-layout: example
+layout: ../../../layouts/example.astro
 summary: Full page example of a dashboard for a web application.
 skellyCSS: true
 chartist: true
