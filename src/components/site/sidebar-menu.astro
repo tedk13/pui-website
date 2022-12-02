@@ -1,6 +1,11 @@
 ---
+import SidebarMenuItem from "./sidebar-menu-item.astro";
+const allPages = await Astro.glob('../../pages/docs/*');
 ---
-{{ $page := .currentPage}}
+<ul class="sidebar-menu list">
+    {allPages.map((item) => <SidebarMenuItem url={item.url} title={item.frontmatter.title} />)}
+</ul>
+<!-- {{ $page := .currentPage}}
 {{ range .menu }}
 {{ if in .RelPermalink $page.Section }}
 <ul class="sidebar-menu list">
@@ -15,4 +20,4 @@
     {{ end }}
 </ul>
 {{ end }}
-{{ end }}
+{{ end }} -->

@@ -1,11 +1,17 @@
 ---
-
+const { title, url } = Astro.props;
 ---
-{{ $page := .currentPage}}
+<li class="accordion no-border mb-0 active">
+    <a href={ url } class="text--base  active accordion__header py-2 px-3 mb-0">
+        <i class="pi-angle-down accordion__icon mr-2 text--light"></i>
+        { title }
+    </a>
+</li>
+<!-- {{ $page := .currentPage}}
 {{ range .menu }}
-{{ if in .RelPermalink $page.Section }}
+{{ if in .RelPermalink $page.Section }} -->
 <!-- removing pui- prefixes seems to break the left navigation a bit -->
-<li class="{{ if ne .FirstSection .Page }}accordion no-border mb-0{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
+<!-- <li class="{{ if ne .FirstSection .Page }}accordion no-border mb-0{{ end }}{{ if .IsAncestor $page }} active{{ end }}">
     <a href="{{ .RelPermalink }}" class="text--base {{ if .IsAncestor $page }} active{{ end }} {{ if eq .FirstSection .Page }}hidden{{ else }}accordion__header py-2 px-3 mb-0{{ end }}">
         <i class="pi-angle-down accordion__icon mr-2 text--light"></i>
         {{ .Name }}
@@ -23,4 +29,4 @@
     </ul>
 </li>
 {{ end }}
-{{ end }}
+{{ end }} -->

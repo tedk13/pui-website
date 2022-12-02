@@ -30,7 +30,7 @@ const home = '/';
             </div>
             <nav role="complementary">
               <!-- todo: sidebar menu -->
-                <!-- {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}} -->
+                <SidebarMenu />
             </nav>
           </div>
         </div>
@@ -41,7 +41,7 @@ const home = '/';
     <div id="frame-nav" class="hide show:lg-tablet tablet-up-3 lg-tablet-up-2">
       <nav id="sidebar-left" role="complementary">
         <!-- ToDo: Sidebar menu -->
-        <!-- {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}} -->
+        <SidebarMenu />
       </nav>
     </div>
     <!-- End isHome -->

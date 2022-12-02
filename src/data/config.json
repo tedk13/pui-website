@@ -16,18 +16,13 @@
             {
                 "identifier": "icons",
                 "name": "Icons",
-                "url": "/icons/",
+                "url": "/icons/icons",
                 "weight": "2"
             },
             {
                 "identifier": "launchpad",
                 "name": "Launchpad",
                 "url": "/launchpad/forms/"
-            },
-            {
-                "identifier": "about",
-                "name": "About",
-                "url": "/about"
             }
         ]
     }
