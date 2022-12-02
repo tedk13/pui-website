@@ -1,9 +1,11 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
+const pathname = new URL(Astro.request.url).pathname;
+const home = '/';
 ---
 <BaseLayout pageTitle={frontmatter.title}>
-  <article id="content" class="w-100 lg-tablet-up-9 laptop-up-10 px-4 pb-4 text--center">
+  <article id="content" class={`w-100 text--center${pathname === home ? "" : " lg-tablet-up-9 laptop-up-10 px-4 pb-4"}`}>
     <h1>{ frontmatter.title }</h1>
     <slot />
   </article>

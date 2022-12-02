@@ -2,10 +2,13 @@
 import BaseLayout from './BaseLayout.astro';
 import SidebarMenu from "../components/site/sidebar-menu.astro";
 const { frontmatter } = Astro.props;
+const pathname = new URL(Astro.request.url).pathname;
+const home = '/';
 ---
 <BaseLayout pageTitle={frontmatter.title}>
   <div id="frame" class="block-container w-100">
     <!-- Mobile Nav & Trigger -->
+    <!-- ToDo: Dynamically Hide this if not homepage -->
     <div id="frame-mobile-nav" class="hide:lg-tablet px-0">
       <div class="block-container background--lighter flex--justify-end py-2 px-4">
         <button class="button--plain flex flex--align-center flex--column drawer__open" data-drawer="frame-mobile-nav-drawer">
@@ -41,13 +44,9 @@ const { frontmatter } = Astro.props;
         <!-- {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}} -->
       </nav>
     </div>
-    <!-- todo: the next 2 lines have this logic in class
-      <main id="frame-content" class="block-container flex--justify-around w-100{{ if not .IsHome }} lg-tablet-up-10{{ end }}">
-      <article id="content" class="w-100{{ if not .IsHome }} lg-tablet-up-9 px-4 pb-4{{ end }}">
-        Figure out what's going on here
-     -->
-    <main id="frame-content" class="block-container flex--justify-around w-100 lg-tablet-up-10">
-      <article id="content" class="w-100 lg-tablet-up-9 px-4 pb-4">
+    <!-- End isHome -->
+     <main id="frame-content" class={`block-container flex--justify-around w-100${pathname === home ? "" : " lg-tablet-up-10"}`}>
+      <article id="content" class={`w-100${pathname === home ? "" : " lg-tablet-up-9 px-4 pb-4"}`}>
         <h1 class="text--purple mt-5">{ frontmatter.title }</h1>
         <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4 text--capitalize">
             <h2 class="text--size-md">On This Page</h2>

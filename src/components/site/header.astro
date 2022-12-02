@@ -3,6 +3,7 @@ import {site} from '../../data/config.json';
 import PuiVersion from '../../mixins/puiversion.js';
 const nav = site.menu
 const pathname = new URL(Astro.request.url).pathname;
+const home = '/';
 ---
 <header id="main-header" class="site-header site-header--fixed background--purple block-container px-4">
   <a href="/" class="site-logo h-100 flex flex--align-center flex--justify-center">
