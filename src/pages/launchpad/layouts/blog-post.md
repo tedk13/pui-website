@@ -137,3 +137,5 @@ skellyCSS: true
         <p>Made with <span class="text--negative">&hearts;</span> and <a href="{{ .Site.Params.pui_url }}">Platform UI</a></p>
     </div>
 </footer>
+
+<script src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js"></script>

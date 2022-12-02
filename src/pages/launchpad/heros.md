@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/single.astro
 title: Heros
 skellyCSS: true
 ---

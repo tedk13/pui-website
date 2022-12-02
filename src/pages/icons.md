@@ -1,5 +1,5 @@
 ---
-layout: landing 
+layout: ../layouts/landing.astro
 title: Platform Icons
 weight: 6
 ---

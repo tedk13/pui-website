@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/single.astro
 title: Cards
 skellyCSS: true
 ---

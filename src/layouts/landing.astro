@@ -1,7 +1,9 @@
 ---
-
+import BaseLayout from './BaseLayout.astro';
+import SidebarMenu from "../components/site/sidebar-menu.astro";
+const { frontmatter } = Astro.props;
 ---
-{{ define "main" }}
+<BaseLayout pageTitle={frontmatter.title}>
 <div class="block-container">
   <div id="frame" class="block-container w-100 flex--justify-center">   
     <!-- Mobile Nav & Trigger -->
@@ -25,7 +27,7 @@
                 </button>
             </div>
             <nav role="complementary">
-                {{- partial "site/sidebar-menu" (dict "menu" .Site.Sections "currentPage" .Page) -}}
+                <!-- <SidebarMenu /> -->
             </nav>
           </div>
         </div>
@@ -34,22 +36,24 @@
   
     <main id="frame-content" class="block-container w-100 lg-tablet-up-10">
       <article id="content" class="w-100 lg-tablet-up-9 laptop-up-10 px-4 pb-4">
-        <h1 class="text--purple my-5">{{ .Title }}</h1>
+        <h1 class="text--purple my-5">{ frontmatter.title }</h1>
         <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4">
           <nav id="sidebar-right">
             <h2 class="text--size-md">On This Page</h2>
-            {{ .TableOfContents }}
+            <!-- ToDo: Table of contents -->
+            <!-- {{ .TableOfContents }} -->
           </nav>
         </aside>
-        {{ .Content }}
+        <slot />
       </article>
       <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4">
         <nav id="sidebar-right">
           <h2 class="text--size-md">On This Page</h2>
-          {{ .TableOfContents }}
+          <!-- ToDo: Table of contents -->
+          <!-- {{ .TableOfContents }} -->
         </nav>
       </aside>
     </main>
   </div>
 </div>
-{{ end }}
+</BaseLayout>

@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: example
+layout: ../../../layouts/example.astro
 summary: Full page layout example using navigation, hero, cards, buttons, accordions, modals, and drawers.
 skellyCSS: true
 weight: 1
@@ -22,6 +22,7 @@ weight: 1
         color: hsla(256, 46%, 25%, 1)!important;
     }
 </style>
+<link rel="stylesheet" href="https://unpkg.com/@ritterim/skellycss/dist/style.css">
 
 <header class="site-menu-wrapper p-2 background--black">
     <div class="block-container flex--justify-center w-100">
@@ -132,3 +133,5 @@ weight: 1
         <p>Made with <span class="text--negative">&hearts;</span> and <a href="{{ .Site.Params.pui_url }}">Platform UI</a></p>
     </div>
 </footer>
+
+<script src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js"></script>

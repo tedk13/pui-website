@@ -395,3 +395,5 @@ skellyCSS: true
     </div>
   </div>
 </footer>
+
+<script src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js"></script>

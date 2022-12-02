@@ -11,6 +11,8 @@ body {
 }
 </style>
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+<script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js" is:inline></script>
 
 <div class="px-4 py-3">
   <h1 class="text--center text--white my-3">
@@ -177,3 +179,5 @@ body {
   });
   
 </script>
+
+<script src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js"></script>
