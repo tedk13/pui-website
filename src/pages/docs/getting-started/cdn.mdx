@@ -4,14 +4,14 @@ title: 'CDN'
 weight: 1
 ---
 import Anchor from '../../../components/anchor.astro'
-import Code from '../../../components/code-markup.astro'
+import Codemarkup from '../../../components/code-markup.astro'
 import Callout from '../../../components/callout.astro'
 
 The quickest and easiest way to implement Platform UI is by using a CDN. Here are a few examples.
 
 <Anchor name="UNPKG"/>
 
-<Code>
+<Codemarkup>
 ```html
 <!-- In the <head> of your site. -->
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
@@ -19,7 +19,7 @@ The quickest and easiest way to implement Platform UI is by using a CDN. Here ar
 <!-- Directly before the closing </body> tag of your site. -->
 <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
 ```
-</Code>
+</Codemarkup>
 
 <Callout header="Pro Tip">
 Leaving out a version will always fetch the latest. Adding `@1.3.7`, or whatever version you're looking for, after `platform-ui` will get that specific version. 
@@ -27,7 +27,7 @@ Leaving out a version will always fetch the latest. Adding `@1.3.7`, or whatever
 
 <Anchor name="JSDELIVR" />
 
-<Code>
+<Codemarkup>
 ```html
 <!-- In the <head> of your site. -->
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin>
@@ -35,11 +35,11 @@ Leaving out a version will always fetch the latest. Adding `@1.3.7`, or whatever
 <!-- Directly before the closing </body> tag of your site. -->
 <script src="cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
 ```
-</Code>
+</Codemarkup>
 
 <Anchor name="Skypack" />
 
-<Code>
+<Codemarkup>
 ```html
 <!-- In the <head> of your site. -->
 <link rel="dns-prefetch" href="https://cdn.skypack.dev" crossorigin>
@@ -47,4 +47,4 @@ Leaving out a version will always fetch the latest. Adding `@1.3.7`, or whatever
 <!-- Directly before the closing </body> tag of your site. -->
 <script src="https://https:/cdn.skypack.dev/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
 ```
-</Code>
+</Codemarkup>
