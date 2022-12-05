@@ -1,0 +1,7 @@
+---
+const { name, level } = Astro.props;
+---
+
+<h2 id={ name } class="text--capitalize mt-4 page-anchor-target">
+    <a href={ `#${name}` }>{name}</a>
+</h2>
