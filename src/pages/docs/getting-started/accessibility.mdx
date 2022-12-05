@@ -3,6 +3,8 @@ layout: ../../../layouts/single.astro
 title: Accessibility
 weight: 5
 ---
+import Anchor from '../../../components/anchor.astro'
+import Codemarkup from '../../../components/code-markup.astro'
 
 Here at [Ritter Insurance Marketing](https://ritterim.com), we build websites and apps that are accessible and scalable. We follow <a href="https://www.w3.org/TR/WCAG21/" rel="external" target="_blank">WCAG 2.1</a> guidelines for all of our projects, with a close eye on the future of accessibility. 
 
@@ -14,22 +16,27 @@ There are also instances where content that is present for design or aesthetic p
 
 In the snippet below we have a button with an icon only - concise and generally understood by a sighted user.
 
-{{< highlight html >}}
+<div class="highlight">
+```html
 <button class=”button”>
    <i class=”pi-download”>
 </button>
-{{< /highlight >}}
-<br>
+```
+</div>
+
+<br />
 You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="external" target="_blank">WAI-ARIA</a> roles and attributes along with the `sr-only` class to improve the experience for users who require assistive technology.
 
-{{< highlight html >}}
+<div class="highlight">
+```html
 <button class=”button”>
    <i class=”pi-download” aria-hidden=”true”>
    <span class=”sr-only”>Download a copy of your form</span>
 </button>
-{{< /highlight >}} 
+```
+</div>
 
-{{% anchor name="Resources" %}}
+<Anchor name="Resources"/>
 
 - <a href="https://a11yproject.com/" rel="external noopener" rel="external noopener">A11Y Project</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" rel="external noopener" rel="external noopener">MDN Accessibility</a>

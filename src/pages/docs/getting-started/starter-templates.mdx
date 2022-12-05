@@ -3,13 +3,15 @@ layout: ../../../layouts/single.astro
 title: Starter Templates
 weight: 3
 ---
+import Anchor from '../../../components/anchor.astro'
+import Codemarkup from '../../../components/code-markup.astro'
 
 Sometimes you just need that basic structure to get you going! Here are a couple of quick-start templates.
 
-{{% anchor name="basic" %}}
+<Anchor name="basic"/>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -27,15 +29,15 @@ Sometimes you just need that basic structure to get you going! Here are a couple
     <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
   </body>
 </html>
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
  
 Looking for a little more to get going? Check out our [Launchpad](/launchpad/templates/)!
 
-{{% anchor name="Holy grail" %}}
+<Anchor name="Holy grail"/>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <!doctype html>
 <html lang="en">
 
@@ -70,6 +72,6 @@ Looking for a little more to get going? Check out our [Launchpad](/launchpad/tem
 <script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js"></script>
 
 </html>
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
  

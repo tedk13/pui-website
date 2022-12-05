@@ -3,13 +3,15 @@ layout: ../../../layouts/single.astro
 title: Packages
 weight: 2
 ---
+import Anchor from '../../../components/anchor.astro'
+import Codemarkup from '../../../components/code-markup.astro'
 
 Sorry, we're only on npm right now. Look for that to expand in the future!
 
-{{% anchor name="npm" %}}
+<Anchor name="npm" />
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 npm install @ritterim/platform-ui
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
