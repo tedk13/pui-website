@@ -20,6 +20,8 @@ colors:
 ---
 
 {{% anchor name="Base" %}}
+## [Base](#Base){#Base .text--capitalize .mt-4 .page-anchor-target}
+[Read more](http://www.stackoverflow.com "read more"){#link-sf .btn-read-more}
 
 Platform UIs base color pallet.
 
