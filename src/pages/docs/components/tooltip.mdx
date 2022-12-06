@@ -3,22 +3,26 @@ layout: ../../../layouts/single.astro
 title: Tooltips
 description: Documentation for Platform UI's tooltip component.
 ---
+import Anchor from '../../../components/anchor.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
 
-{{% anchor name="tooltip" %}}
+<Anchor name="tooltip" />
 
 Add your text to a `data-tooltip` attribute on any item you want to provide with a tooltip.
 
-{{< code-demo >}}
+<Codedemo>
 <div data-tooltip="Here is a tooltip!">hover me!</div>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <div data-tooltip="Tooltip goes here!">
   <!-- Content goes here! -->
 </div>
-{{< /highlight >}}
-{{< /code-markup >}}
+</Codemarkup>
 
 {{< classes attr="true">}}
 {{< classes-row class="tooltip-{ t, b, l, r }" attr="data-tooltip" >}}
