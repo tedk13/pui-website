@@ -3,41 +3,48 @@ layout: ../../../layouts/single.astro
 title: Buttons
 description: Documentation for Platform UI's button, secondary button, and button group components.
 ---
-{{% anchor name="button" %}}
+import Anchor from '../../../components/anchor.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+<Anchor name="button" />
 
 The default button style is white with a dark outline and has a salmon background color on hover. See the [modifiers](#modifiers) table for more options!
 
 
-{{< code-demo >}}
+<Codedemo>
 <button class="button">Button</button>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <button class="button">Button</button>
-{{< /highlight >}} 
-{{< /code-markup >}}
+```
+</Codemarkup>
 
-{{< modifiers >}}
-{{< modifiers-row 
-  modifier="button--lg"
-  behavior="A larger button." 
->}}
-{{< modifiers-row 
-  modifier="button--plain"
-  behavior="Removes the border and background. Good for icons alone." 
->}}
-{{< modifiers-row 
-  modifier="button--{ color }"
-  behavior="Loops through Platform UI colors for background and hover coloring." 
->}}
-{{< modifiers-row 
-  modifier="button--ghost"
-  behavior="Ghost buttons! 👻"
->}}
-{{< /modifiers >}}
+<Modifiers>
+  <Modifiersrow 
+    modifier="button--lg"
+    behavior="A larger button." 
+  />
+  <Modifiersrow 
+    modifier="button--plain"
+    behavior="Removes the border and background. Good for icons alone." 
+  />
+  <Modifiersrow 
+    modifier="button--{ color }"
+    behavior="Loops through Platform UI colors for background and hover coloring." 
+  />
+  <Modifiersrow 
+    modifier="button--ghost"
+    behavior="Ghost buttons! 👻"
+  />
+</Modifiers>
 
-{{< visualizer header="Check out different colors of buttons!" >}}
+<Visualizer header="Check out different colors of buttons!">
 <div class="actions block">
   <ul class="list">
     <li>
@@ -102,49 +109,49 @@ The default button style is white with a dark outline and has a salmon backgroun
     Example Button
   </button>
 </div>
-{{< /visualizer >}}
+</Visualizer >
 
-{{% anchor name="secondary" %}}
+<Anchor name="secondary" />
 
 The secondary button was built primarily for usage with icons alone with a fancier hover. It can also be used with text.
 
-{{< code-demo >}}
+<Codedemo>
 <button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <button class="button button--secondary"><i class="pi-download"></i></button>
-{{< /highlight >}} 
-{{< /code-markup >}}
+```
+</Codemarkup>
 
-{{< modifiers secondary="true" data="true" >}}
-{{< modifiers-row 
+<Modifiers secondary="true" data="true">
+<Modifiersrow 
   modifier="button--secondary"
   secondary="has-text"
   attr="data-button-text"
   behavior="`data-button-text` adds custom text on hover on viewports over `991px`. Adding `has-text` will show that text at all times."
->}}
-{{< /modifiers >}}
+/>
+</Modifiers>
 
-{{% anchor name="group" %}}
+<Anchor name="group" />
 
 Evenly space any group of buttons, default or secondary.
 
-{{< code-demo >}}
+<Codedemo>
 <div class="button-group">
   <button class="button">Cancel</button>
   <button class="button">Continue</button>
   <button class="button">Destroy Death Star</button>
 </div>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <div class="button-group">
   <button class="button">Cancel</button>
   <button class="button">Continue</button>
   <button class="button">Destroy Death Star</button>
 </div>
-{{< /highlight >}} 
-{{< /code-markup >}}
+```
+</Codemarkup>

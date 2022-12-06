@@ -1,0 +1,24 @@
+---
+import Markdown from '@astrojs/markdown-component';
+const { modifier, secondary, attr, behavior } = Astro.props;
+---
+<tr>
+  <td data-label="Modifier">
+    <code>{modifier}</code>
+  </td>
+  {secondary ? (
+    <td data-label="Secondary Modifier">
+      <code>{secondary}</code>
+    </td>
+  ) : null}
+  {attr ? (
+    <td data-label="Data Attribute">
+      <code>{attr}</code>
+    </td>
+  ) : null}  
+  <td data-label="Behavior">
+    <Markdown>
+      {behavior}
+    </Markdown>
+  </td>
+</tr>
