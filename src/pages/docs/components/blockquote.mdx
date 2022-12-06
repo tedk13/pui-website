@@ -4,22 +4,25 @@ title: Blockquotes
 description: Documentation for Platform UI's blockquote components.
 skellyCSS: true
 ---
+import Anchor from '../../../components/anchor.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
 
-{{% anchor name="blockquote" %}}
+<Anchor name="blockquote" />
 
 Similar to the browser default, we added a left border which can be colored using <a href="/docs/utilities/borders/">border color utilities</a>.
 
 To attribute someone in the blockquote, add a `<footer>`. If you're referencing a specific creative work, wrap it in a `<cite>` tag.
 
-{{< code-demo >}}
+<Codedemo>
 <blockquote class="block laptop-up-6">
     <p class="skeleton" data-lines="3" role="presentation"></p>
     <footer>—Ernest Hemingway, <cite>The Sun Also Rises</cite></footer>
 </blockquote>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <blockquote>
     <p>
         <!-- Quote goes here! -->
@@ -31,6 +34,5 @@ To attribute someone in the blockquote, add a `<footer>`. If you're referencing 
         </cite>
     </footer>
 </blockquote>
-{{< /highlight >}} 
-{{< /code-markup >}}
-
+```
+</Codemarkup>
