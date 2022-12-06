@@ -3,13 +3,20 @@ layout: ../../../layouts/single.astro
 title: Tables
 description: Documentation for Platform UI's table component.
 ---
-{{% anchor name="table" %}}
+import Anchor from '../../../components/anchor.astro'
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+
+<Anchor name="table" />
 
 Our default table is simple and uncluttered without vertical borders. 
 
 Platform UI tables are built to be responsive at all screen sizes! Make them responsive by adding a `data-label` on every `<td>` to match the column header label.
 
-{{< code-demo >}}
+<Codedemo>
 <table class="table">
   <thead>
     <tr>
@@ -43,10 +50,10 @@ Platform UI tables are built to be responsive at all screen sizes! Make them res
     </tr>
   </tbody>
 </table>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <table class="table">
   <thead>
     <tr>
@@ -80,20 +87,20 @@ Platform UI tables are built to be responsive at all screen sizes! Make them res
     </tr>
   </tbody>
 </table>
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
 
-{{< modifiers >}}
-{{< modifiers-row 
+<Modifiers>
+<Modifiersrow 
   modifier="table--no-hover"
   behavior="Removes the hover effect on tables and rows." 
->}}
-{{< modifiers-row 
+/>
+<Modifiersrow 
   modifier="unresponsive"
   behavior="Removes responsive behavior." 
->}}
-{{< /modifiers >}}
+/>
+</Modifiers>
 
-{{< callout header="Table Tip" >}}
+<Callout header="Table Tip" >
   <p>Add the utility class <code>overflow-x--auto</code> to make the table scroll horizontally too! This is a good idea when making the table <code>unresponsive</code>.</p>
-{{< /callout >}}
+</Callout>
