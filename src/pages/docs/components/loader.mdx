@@ -3,33 +3,40 @@ layout: ../../../layouts/single.astro
 title: Loaders
 description: Documentation for Platform UI's loader and button loader components.
 ---
+import Anchor from '../../../components/anchor.astro'
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Visualizer from '../../../components/visualizer.astro'
 
-{{% anchor name="Default" %}}
+<Anchor name="Default"/>
 
 It's a `1.4rem` loader. 
 
-{{< code-demo >}}
+<Codedemo>
 <div class="loader"></div>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <div class="loader"></div>
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
 
-{{< modifiers >}}
-{{< modifiers-row 
+<Modifiers>
+<Modifiersrow
   modifier="loader--sm"
   behavior="Small `.9rem`" 
->}}
-{{< modifiers-row 
+/>
+<Modifiersrow
   modifier="loader--lg"
   behavior="Large `2rem`" 
->}}
-{{< /modifiers >}}
+/>
+</Modifiers>
 
-{{< visualizer header="Check out different sizes of loader!" >}}
+<Visualizer header="Check out different sizes of loader!">
 <div class="actions block">
   <ul class="list">
     <li>
@@ -48,27 +55,25 @@ It's a `1.4rem` loader.
       </button>
     </li>
     <li>
-      <button class="button button--salmon text--white" data-reset="true">
-        Reset
-      </button>
+      <button class="button button--salmon text--white" data-reset="true">Reset</button>
     </li>
   </ul>
 </div>
 <div class="results rounded-2 block background--dark p-3" data-default-class="flex flex--center-content background--white py-5 rounded-1">
   <div class="loader"></div>
 </div>
-{{< /visualizer >}}
+</Visualizer>
 
-{{% anchor name="Buttons" %}}
+<Anchor name="Buttons"/>
 
 A button can also include a loader by adding/toggling the `loading` class.
 
-{{< code-demo >}}
+<Codedemo>
 <button class="button loading">Submit</button>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <button class="button loading">Submit</button>
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
