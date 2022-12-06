@@ -4,10 +4,17 @@ title: Modals
 description: Documentation for Platform UI's modal components.
 skellyCSS: true
 ---
+import Anchor from '../../../components/anchor.astro'
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Requierjs from '../../../components/requires-js.astro'
 
-{{% requires-js %}}
+<Requierjs/>
 
-{{% anchor name="Default" %}}
+<Anchor name="Default"/>
 
 A modal will display over the screen when toggled with the `active` class.
 
@@ -15,7 +22,7 @@ A modal can easily be opened by setting `data-modal` with the matching `id` of t
 
 If you need to prevent the background from scrolling, toggle the `modal-open` class on the body element while the modal is open.
 
-{{< code-demo >}}
+<Codedemo>
 <div class="block mb-3">
     <button class="button modal__open" data-modal="default-modal">Standard Modal</button>
 </div>
@@ -32,10 +39,10 @@ If you need to prevent the background from scrolling, toggle the `modal-open` cl
     </div>
   </div>
 </div>
-{{< /code-demo >}}
+</Codedemo>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
 <!-- Standard Modal -->
 <div id="default-modal" class="modal">
@@ -52,32 +59,32 @@ If you need to prevent the background from scrolling, toggle the `modal-open` cl
     </div>
   </div>
 </div>
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
 
-{{< modifiers data="true" >}}
-{{< modifiers-row 
+<Modifiers data="true">
+<Modifiersrow 
   modifier="modal--small"
   attr="data-modal"
   behavior="Small sized modal." 
->}}
-{{< modifiers-row 
+/>
+<Modifiersrow 
   modifier="modal--large"
   attr="data-modal"
   behavior="Large sized modal." 
->}}
-{{< modifiers-row 
+/>
+<Modifiersrow 
   modifier="modal--full"
   attr="data-modal"
   behavior="Full sized modal, takes up 100% of the viewport." 
->}}
-{{< modifiers-row 
+/>
+<Modifiersrow 
   modifier="modal--centered"
   attr="data-modal"
   behavior="Centers the modal in the middle of the viewport." 
->}}
-{{< /modifiers >}}
+/>
+</Modifiers>
 
-{{< callout header="Modal Tip" >}}
+<Callout header="Modal Tip" >
   <p>If you want to make a dialog box, you can just remove the <code>modal__header</code> from the modal!</p>
-{{< /callout >}}
+</Callout>
