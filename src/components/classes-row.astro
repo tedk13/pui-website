@@ -12,10 +12,6 @@ const { classname, attr, result } = Astro.props;
     </td>
   ) : null}
   {result ? (
-    <td data-label="Result">
-      <Markdown>
-        {result}
-      </Markdown>
-    </td>
+    <td data-label="Result"><Markdown>{result}</Markdown></td>
   ) : null}
 </tr>
