@@ -1,0 +1,21 @@
+---
+layout: ../../../layouts/single.astro
+title: Transitions
+---
+import Anchor from '../../../components/anchor.astro'
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+<Anchor name="transition"/>
+
+<Classes result="true">
+<Classesrow classname="transition" result="Adds `0.2s;` transition to an element."/>
+</Classes>
+
+<Visualizer header="Check out how smooth the transition on the padding is!">
+<div class="block-12 border transition-div-padding transition">
+    <h4 class="pl-4 pt-4">Click anywhere inside this div!</h4>
+    <p class="skeleton p-4" data-lines="7" role="presentation"></p>
+</div>
+</Visualizer >

@@ -20,10 +20,17 @@
 .visualizer {
 
   .button {
+    --button-color: var(--base);
+
+    &:hover {
+      --button-color: var(--white);
+    }
 
     code {
       background-color: unset;
-      color: var(--base);
+      color: var(--button-color);
+      padding: 0;
+      pointer-events: none;
     }
   }
 }

@@ -1,0 +1,32 @@
+---
+layout: ../../../layouts/single.astro
+title: Truncate With Ellipsis
+---
+import Anchor from '../../../components/anchor.astro'
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+<Anchor name="default"/>
+
+<Classes result="true">
+<Classesrow classname="truncate-with-ellipsis" result="Truncate long lines with an ellipsis!"/>
+</Classes>
+
+<Visualizer header="Truncate long lines with an ellipsis!">
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="truncate-with-ellipsis">`.truncate-with-ellipsis`</button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">Reset</button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
+  <div class="block block-9 h-100 card transition">
+    <span class="text--size-md">The quick brown fox jumped over the lazy dog.</span>
+  </div>
+</div>
+</Visualizer>

@@ -1,0 +1,53 @@
+---
+layout: ../../../layouts/single.astro
+title: Positioning
+---
+import Anchor from '../../../components/anchor.astro'
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+<Anchor name="Position"/>
+
+To postion an element absolutely, set `pos-rel` on the parent element and `pos-abs` to child that you'd like to position absolute. Our position utilities are meant to be used (mostly) with pinning.
+
+<Classes result="true">
+<Classesrow classname="pos-rel" result="Position relative to the elements normal position."/>
+<Classesrow classname="pos-abs" result="Position an element absolutely."/>
+<Classesrow classname="pos-fix" result="Set the fixed position of an element."/>
+<Classesrow classname="pos-stick" result="Make it sticky. For use with table headers."/>
+</Classes>
+
+<Anchor name="Pin"/>
+
+<Classes result="true">
+<Classesrow classname="pin-{ top, bottom, left, right }" result="In combination with position utilities, pin an element top, bottom, left, right."/>
+</Classes>
+
+<Visualizer header="Pin an element to different sides of its container!" >
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="pos-abs pin-top">`.pin-top`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-right">`.pin-right`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-bottom">`.pin-bottom`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-left">`.pin-left`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="pin-center">`.pin-center`</button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">Reset</button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3 vh-25" data-default-class="pos-rel h-100 w-100">
+  <div class="abstract-element background--light-purple border border--color-white pos-abs"></div>
+</div>
+</Visualizer>
