@@ -1,0 +1,109 @@
+---
+layout: ../../../layouts/single.astro
+title: Typography
+skellycss: true
+---
+import Anchor from '../../../components/anchor.astro'
+import Callout from '../../../components/callout.astro'
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Modifiers from '../../../components/modifiers.astro'
+
+<Anchor name="heading" />
+
+<Codedemo>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+</Codedemo>
+
+<Anchor name="paragraph" />
+
+Why include a paragraph tag? Mostly to note that our paragraphs have a bottom margin of `1rem`.
+
+<Codedemo>
+<p class="skeleton" data-lines="3"></p>
+</Codedemo>
+
+<Anchor name="utilities" />
+
+<Anchor name="case" level="3" />
+
+<Classes result="true">
+<Classesrow 
+  classname="text--uppercase" 
+  result="Uppercase text." 
+/>
+<Classesrow 
+  classname="text--lowercase" 
+  result="Lowercase text." 
+/>
+<Classesrow 
+  classname="text--capitalize" 
+  result="Capitalize each first letter." 
+/>
+</Classes>
+
+<Anchor name="color" level="3" />
+
+<Classes result="true">
+<Classesrow 
+  classname="text--{ color }" 
+  result="Set text color using our [colors](link)." 
+/>
+<Classesrow 
+  classname="text-hover--{ color }" 
+  result="Set text hover color using our [colors](link)." 
+/>
+</Classes>
+
+<Anchor name="sizing" level="3" />
+
+`text--size-{ size }` augments our defaut `font-size` of `1rem`.
+
+<Codedemo>
+<p class="text--size-2xs">Hello World!</p>
+<p class="text--size-xs">Hello World!</p>
+<p class="text--size-sm">Hello World!</p>
+<p class="text--size-md">Hello World!</p>
+<p class="text--size-lg">Hello World!</p>
+<p class="text--size-xl">Hello World!</p>
+<p class="text--size-2xl">Hello World!</p>
+<p class="text--size-3xl">Hello World!</p>
+</Codedemo>
+
+<Classes result="true">
+<Classesrow classname="text--size-2xs" result="2xs smaller text." />
+<Classesrow classname="text--size-xs" result="xs text." />
+<Classesrow classname="text--size-sm" result="sm text." />
+<Classesrow classname="text--size-md" result="medium text." />
+<Classesrow classname="text--size-lg" result="large text." />
+<Classesrow classname="text--size-xl" result="xl text." />
+<Classesrow classname="text--size-2xl" result="2xl larger text." />
+<Classesrow classname="text--size-3xl" result="3xl larger text." />
+</Classes>
+
+
+<Anchor name="general" level="3" />
+
+<Codedemo>
+<p class="text--bold">Hello World!</p>
+<p class="text--underline">Hello World!</p>
+<p class="text--center">Hello World!</p>
+<p class="text--right">Hello World!</p>
+<p class="text--nowrap">The quick brown fox jumped over the lazy dog.</p>
+</Codedemo>
+   
+<Classes result="true">
+<Classesrow classname="text--bold" result="Bold text." />
+<Classesrow classname="text--underline" result="Underlined text." />
+<Classesrow classname="text--center" result="Centered text." />
+<Classesrow classname="text--right" result="Right-aligned text." />
+<Classesrow classname="text--nowrap" result="Set no-wrap on a line of text." />
+</Classes>
