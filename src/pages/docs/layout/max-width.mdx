@@ -3,8 +3,10 @@ layout: ../../../layouts/single.astro
 title: Max Width
 skellyCSS: true
 ---
+import Anchor from '../../../components/anchor.astro'
+import Codemarkup from '../../../components/code-markup.astro'
 
-{{% anchor name="Max Container" level="2" %}}
+<Anchor name="Max Container" level="2"/>
 
 The `max-container` adds a max-width to your content. The size is set to `1440px` and is added to the `:root` with the `--max-container` custom property.
 You can change this size in your project by setting `--max-container` to a different value.
@@ -55,8 +57,8 @@ You can change this size in your project by setting `--max-container` to a diffe
   </div>
 </section>
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <div class="max-container">
   <div class="block-container">
     <div class="block tablet-up-6 laptop-up-4"></div>
@@ -65,5 +67,5 @@ You can change this size in your project by setting `--max-container` to a diffe
     <div class="block tablet-up-6 laptop-up-4"></div>
   </div>
 </div>
-{{< /highlight >}}
-{{< /code-markup >}}
+```
+</Codemarkup>
