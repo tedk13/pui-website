@@ -3,17 +3,21 @@ layout: ../../../layouts/single.astro
 title: Mobile
 weight: 2
 ---
+import Anchor from '../../../components/anchor.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Requiresjs from '../../../components/requires-js.astro'
 
-{{% anchor name="Mobile menu" %}}
+<Anchor name="Mobile menu"/>
 
 <div class="mb-4">
-{{% requires-js %}}
+<Requiresjs/>
 </div>
 
 Our version of the standard hamburger menu requires our Javascript and a bit more markdown. Here's the basic structure; check out this site in a mobile viewport to see it in action.
 
-{{< code-markup >}}
-{{< highlight html >}}
+<Codemarkup>
+```html
 <div class="site-menu-wrapper">
   <button class="site-menu-mobile-action">
     <span class="sr-only">Toggle Navigation</span>
@@ -32,6 +36,6 @@ Our version of the standard hamburger menu requires our Javascript and a bit mor
     </div>
   </nav>
 </div>
-{{< /highlight >}}
-{{< /code-markup >}} 
+```
+</Codemarkup>
 
