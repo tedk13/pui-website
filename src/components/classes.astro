@@ -1,0 +1,19 @@
+---
+const { attr, result } = Astro.props;
+---
+<section class="p-0 mb-4">
+  <h3 class="text--light text--size-md mb-3">Class</h3>
+  <div class="card p-0 no-border rounded-2">
+    <table class="table modifiers table--no-hover">
+      <thead>
+        <tr>
+          <th>Class</th>
+          <th>{attr ? 'Attribute' : null}{result ? 'Result' : null}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <slot />
+      </tbody>
+    </table>
+  </div>
+</section>
