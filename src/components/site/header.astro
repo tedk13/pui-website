@@ -2,7 +2,8 @@
 import {site} from '../../data/config.json';
 import PuiVersion from '../../mixins/puiversion.js';
 const nav = site.menu
-const pathname = new URL(Astro.request.url).pathname;
+const pathname = new URL(Astro.request.url).pathname.split('/');
+const firstPath = pathname[1];
 const home = '/';
 ---
 <header id="main-header" class="site-header site-header--fixed background--purple block-container px-4">
@@ -11,7 +12,7 @@ const home = '/';
   </a>
   <nav class="site-menu hover-underline hover-underline--white h-100 flex flex--grow flex--align-center text--white px-2" aria-label="Main navigation">
     {nav.map((navItem) => 
-      <a class={`p-2 site-menu__item${pathname === navItem.url ? " active" : ""}`} href={navItem.url} >{navItem.name}</a>
+      <a class={`p-2 site-menu__item${firstPath === navItem.name.toLowerCase() ? " active" : ""}`} href={navItem.url} >{navItem.name}</a>
     )}
   </nav>
   <div class="h-100 text--white flex flex--justify-end flex--align-center">
