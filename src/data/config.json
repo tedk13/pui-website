@@ -10,7 +10,7 @@
             {
                 "identifier": "docs",
                 "name": "Docs",
-                "url": "/docs/getting-started/cdn/",
+                "url": "/docs/getting-started/cdn",
                 "weight": "1"
             },
             {
@@ -22,7 +22,7 @@
             {
                 "identifier": "launchpad",
                 "name": "Launchpad",
-                "url": "/launchpad/forms/"
+                "url": "/launchpad/forms"
             }
         ]
     }
