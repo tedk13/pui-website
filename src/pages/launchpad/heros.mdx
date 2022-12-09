@@ -3,10 +3,12 @@ layout: ../../layouts/single.astro
 title: Heros
 skellyCSS: true
 ---
+import Anchor from '../../components/anchor.astro'
+import Codemarkup from '../../components/code-markup.astro'
 
 Platform UI offers so many hero options with our utilities! Here are just a few.
 
-{{% anchor name="Background Images" %}}
+<Anchor name="Background Images" />
 
 <div
   class="background-image mb-4"
@@ -22,8 +24,8 @@ Platform UI offers so many hero options with our utilities! Here are just a few.
      </div>
 </div>
 
-<div class="mt-3 mb-4">
-{{< highlight html >}}
+<Codemarkup>
+```html
 <div
   class="background-image mb-4"
   data-background-image=""
@@ -37,8 +39,8 @@ Platform UI offers so many hero options with our utilities! Here are just a few.
       <i class="pi-angle-down text--white"></i>
      </div>
 </div>
-{{< /highlight >}}
-</div>
+```
+</Codemarkup>
 
 <div
     class="background-image block-container flex--justify-around p-4 mb-4"
@@ -56,8 +58,8 @@ Platform UI offers so many hero options with our utilities! Here are just a few.
     </div>
 </div>
 
-<div class="mt-3 mb-4">
-{{< highlight html >}}
+<Codemarkup>
+```html
 <div
   class="background-image block-container flex--justify-around p-4 mb-4"
   data-background-image=""
@@ -73,5 +75,5 @@ Platform UI offers so many hero options with our utilities! Here are just a few.
       <p></p>
     </div>
 </div>
-{{< /highlight >}}
-</div>
+```
+</Codemarkup>
