@@ -3,16 +3,17 @@ layout: ../../layouts/single.astro
 title: Cards
 skellyCSS: true
 ---
+import Anchor from '../../components/anchor.astro'
 
 Below are some examples of different cards you can build using Platform UI.
 
-{{% anchor name="Dark cards" %}}
+<Anchor name="Dark cards" />
 
 <div class="block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 blocks p-2 cards" style="--skelly-color: var(--light-mid);">
     <div class="block">
         <div class="card p-0 rounded-3">
             <div class="flex flex--column h-100">
-                <img class="flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="">
+                <img class="flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt=""/>
                 <div class="background--black p-3">
                     <h2 class="text--size-md text--light-mid flex flex--column">
                         <span class="text--size-sm text--light">New Feature</span>
@@ -27,7 +28,7 @@ Below are some examples of different cards you can build using Platform UI.
     <div class="block">
         <div class="card p-0 rounded-3">
             <div class="flex flex--column h-100">
-                <img class="flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt="">
+                <img class="flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt=""/>
                 <div class="background--black p-3">
                     <h2 class="text--size-md text--light-mid flex flex--column">
                         <span class="text--size-sm text--light">New Feature</span>
@@ -80,7 +81,7 @@ Below are some examples of different cards you can build using Platform UI.
     </div>
 </section>
 
-{{% anchor name="Light cards" %}}
+<Anchor name="Light cards" />
 
 <section class="my-4 background--lavender px-3">
     <div class="block-container tablet-up-2 blocks p-2 cards">
@@ -89,7 +90,7 @@ Below are some examples of different cards you can build using Platform UI.
                 <div class="pos-rel pt-4">
                     <div class="background--white rounded-tl--3 rounded-tr--3">
                         <div class="pill--circle-large background--purple border border--color-white border--width-2 pos-abs pin-top pin-left mt-2 ml-2 p-2 flex--ccenter-content">
-                            <img src="/images/platform-ui.svg" class="h-100" alt=" Platform UI">
+                            <img src="/images/platform-ui.svg" class="h-100" alt=" Platform UI"/>
                         </div>
                         <div class="pt-3 px-2 pb-2">
                             <h2 class="text--size-md mt-2 text--black">
@@ -135,7 +136,7 @@ Below are some examples of different cards you can build using Platform UI.
         <div class="block">
             <div class="card">
                 <div class="flex flex--column h-100">
-                    <img class="card__image flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="">
+                    <img class="card__image flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt=""/>
                     <div>
                         <h2 class="text--size-md flex flex--column">
                             <span class="text--size-sm">New Feature</span>
@@ -150,7 +151,7 @@ Below are some examples of different cards you can build using Platform UI.
         <div class="block">
             <div class="card">
                 <div class="flex flex--column h-100">
-                    <img class="card__image flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt="">
+                    <img class="card__image flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt=""/>
                     <div>
                         <h2 class="text--size-md flex flex--column">
                             <span class="text--size-sm">New Feature</span>
@@ -170,7 +171,7 @@ Below are some examples of different cards you can build using Platform UI.
         <div class="block">
             <div class="card rounded-3 p-2">
                 <div class="flex flex--column h-100">
-                    <img class="rounded-2 flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="">
+                    <img class="rounded-2 flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt=""/>
                     <div class="py-3">
                         <h2 class="text--size-md flex flex--column">
                             <span class="text--size-sm">New Feature</span>
@@ -185,7 +186,7 @@ Below are some examples of different cards you can build using Platform UI.
         <div class="block">
             <div class="card rounded-3 p-2">
                 <div class="flex flex--column h-100">
-                    <img class="rounded-2 flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt="">
+                    <img class="rounded-2 flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt=""/>
                     <div class="py-3">
                         <h2 class="text--size-md flex flex--column">
                             <span class="text--size-sm">New Feature</span>
@@ -205,7 +206,7 @@ Below are some examples of different cards you can build using Platform UI.
         <div class="block">
             <div class="card rounded-3 p-0">
                 <div class="flex flex--column h-100">
-                    <img class="flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="">
+                    <img class="flex--grow" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt=""/>
                     <div class="flex flex--align-start p-3">
                         <div class="pill--circle-large background--base"></div>
                         <div class="flex--grow ml-2">
@@ -218,7 +219,7 @@ Below are some examples of different cards you can build using Platform UI.
         <div class="block">
             <div class="card rounded-3 p-0">
                 <div class="flex flex--column h-100">
-                    <img class="flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt="">
+                    <img class="flex--grow" src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg" alt=""/>
                     <div class="flex flex--align-start p-3">
                         <div class="pill--circle-large background--base"></div>
                         <div class="flex--grow ml-2">
