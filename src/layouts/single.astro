@@ -1,9 +1,15 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import SidebarMenu from "../components/site/sidebar-menu.astro";
-const { frontmatter } = Astro.props;
-const pathname = new URL(Astro.request.url).pathname;
+const { frontmatter, headings } = Astro.props;
+const originalPath = new URL(Astro.request.url).pathname;
+const pathname = originalPath.split('/').slice(1);
+const parentFolder = pathname[1];
 const home = '/';
+const allPages = await Astro.glob('../pages/*');
+const allMd = await Astro.glob('../pages/docs/**/*.md');
+const allMdx = await Astro.glob('../pages/docs/**/*.mdx');
+const allFiles = allMd.concat(allMdx);
 ---
 <BaseLayout pageTitle={frontmatter.title}>
   <div id="frame" class="block-container w-100">
@@ -30,7 +36,7 @@ const home = '/';
             </div>
             <nav role="complementary">
               <!-- todo: sidebar menu -->
-                <SidebarMenu />
+              <SidebarMenu files={allFiles}/>
             </nav>
           </div>
         </div>
@@ -41,25 +47,42 @@ const home = '/';
     <div id="frame-nav" class="hide show:lg-tablet tablet-up-3 lg-tablet-up-2">
       <nav id="sidebar-left" role="complementary">
         <!-- ToDo: Sidebar menu -->
-        <SidebarMenu />
+        <SidebarMenu files={allFiles}/>
       </nav>
     </div>
     <!-- End isHome -->
-     <main id="frame-content" class={`block-container flex--justify-around w-100${pathname === home ? "" : " lg-tablet-up-10"}`}>
-      <article id="content" class={`w-100${pathname === home ? "" : " lg-tablet-up-9 px-4 pb-4"}`}>
+     <main id="frame-content" class={`block-container flex--justify-around w-100${originalPath === home ? "" : " lg-tablet-up-10"}`}>
+      <article id="content" class={`w-100${originalPath === home ? "" : " lg-tablet-up-9 px-4 pb-4"}`}>
         <h1 class="text--purple mt-5">{ frontmatter.title }</h1>
-        <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4 text--capitalize">
-            <h2 class="text--size-md">On This Page</h2>
-            <!-- ToDo: Tabe of contents -->
-            <!-- {{ .TableOfContents }} -->
+        <aside class="content-nav on-this-page hide:lg-tablet background--lighter p-3 mb-4 text--capitalize">
+          <h2 class="text--size-md">On This Page</h2>
+          <ul class="list">
+            {
+              headings
+              .filter(heading => (heading.depth <= 3 && heading.depth >= 2))
+              .map((heading) => (
+                <li>
+                  <a href={`#${heading.slug}`}>{heading.text}</a>
+                </li>
+              ))
+            }
+          </ul>
         </aside>
         <slot />
       </article>
-      <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
-        <!-- ToDo: figure whatever this is out -->
-        <!-- <h2 class="text--size-md">{{ if in .Permalink "lauchpad" }}Examples{{ else }}On This Page{{ end }}</h2> -->
-        <!-- ToDo: Tabe of contents -->
-        <!-- {{ .TableOfContents }} -->
+      <aside class="content-nav on-this-page hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
+        <h2 class="text--size-md">On This Page</h2>
+        <ul class="list">
+          {
+            headings
+            .filter(heading => heading.depth <= 3 && heading.depth >= 2)
+            .map((heading) => (
+              <li class={`${heading.depth === 3 ? "pl-3" : ""}`}>
+                <a href={`#${heading.slug}`}>{heading.text}</a>
+              </li>
+            ))
+          }
+        </ul>
       </aside>
     </main>
   </div>
