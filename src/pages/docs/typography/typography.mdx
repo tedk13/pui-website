@@ -3,7 +3,6 @@ layout: ../../../layouts/single.astro
 title: Typography
 skellycss: true
 ---
-import Anchor from '../../../components/anchor.astro'
 import Callout from '../../../components/callout.astro'
 import Classesrow from '../../../components/classes-row.astro'
 import Classes from '../../../components/classes.astro'
@@ -12,7 +11,7 @@ import Codemarkup from '../../../components/code-markup.astro'
 import Modifiersrow from '../../../components/modifiers-row.astro'
 import Modifiers from '../../../components/modifiers.astro'
 
-<Anchor name="heading" />
+## [heading](#heading)
 
 <Codedemo>
 <h1>Heading 1</h1>
@@ -23,7 +22,7 @@ import Modifiers from '../../../components/modifiers.astro'
 <h6>Heading 6</h6>
 </Codedemo>
 
-<Anchor name="paragraph" />
+## [paragraph](#paragraph)
 
 Why include a paragraph tag? Mostly to note that our paragraphs have a bottom margin of `1rem`.
 
@@ -31,9 +30,9 @@ Why include a paragraph tag? Mostly to note that our paragraphs have a bottom ma
 <p class="skeleton" data-lines="3"></p>
 </Codedemo>
 
-<Anchor name="utilities" />
+## [utilities](#utilities)
 
-<Anchor name="case" level="3" />
+### [case](#case)
 
 <Classes result="true">
 <Classesrow 
@@ -50,7 +49,7 @@ Why include a paragraph tag? Mostly to note that our paragraphs have a bottom ma
 />
 </Classes>
 
-<Anchor name="color" level="3" />
+### [color](#color)
 
 <Classes result="true">
 <Classesrow 
@@ -63,7 +62,7 @@ Why include a paragraph tag? Mostly to note that our paragraphs have a bottom ma
 />
 </Classes>
 
-<Anchor name="sizing" level="3" />
+### [sizing](#sizing)
 
 `text--size-{ size }` augments our defaut `font-size` of `1rem`.
 
@@ -90,7 +89,7 @@ Why include a paragraph tag? Mostly to note that our paragraphs have a bottom ma
 </Classes>
 
 
-<Anchor name="general" level="3" />
+### [general](#general)
 
 <Codedemo>
 <p class="text--bold">Hello World!</p>

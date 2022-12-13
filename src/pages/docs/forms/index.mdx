@@ -4,18 +4,17 @@ title: Forms
 description: Documentation for Platform UI's form components and elements.
 weight: 1
 ---
-import Anchor from '../../../components/anchor.astro'
 import Codedemo from '../../../components/code-demo.astro'
 import Codemarkup from '../../../components/code-markup.astro'
 import Modifiers from '../../../components/modifiers.astro'
 import Modifiersrow from '../../../components/modifiers-row.astro'
 
-<Anchor name="form"/>
+## [Form](#form)
 
 Out of the box, our form fields have a `margin-top` added to them. This spacing should work just fine for smaller, simple forms. For larger,
 responsive forms, we recommend that you utilize the block layout and our spacers to build the perfect form.
 
-<Anchor name="form level modifiers"/>
+## [Form Level Modifiers](#form-level-modifiers)
 
 <Modifiers>
 <Modifiersrow 
@@ -38,7 +37,7 @@ responsive forms, we recommend that you utilize the block layout and our spacers
 
 All of the following form elements must be nested inside the `form` class to get the desired look.
 
-<Anchor name="error styles"/>
+## [Error Styles](#error-styles)
 
 If there is an error on a specific input after submission, add the `error` class to the specific `form__field`. 
 
@@ -62,7 +61,7 @@ If there is an error on a specific input after submission, add the `error` class
 
 If you add the `error` class to a `form__field` that contains check boxes or radios, each input in that field will receive the error styling. However, if you only want to highlight on specific check or radio, simply add `error` to the proper input. This will give the icon as well as the corresponding label the error style.
 
-<Anchor name="has icon"/>
+## [Has Icon](#has-icon)
 
 `has-icon` provides space for an icon on the left of an input. If you would like the icon to be on the right side of the input, add the class `has-icon--right` to the `form__field` class instead.
 
@@ -89,7 +88,7 @@ If you add the `error` class to a `form__field` that contains check boxes or rad
 ```
 </Codemarkup>
 
-<Anchor name="checkbox"/>
+## [Checkbox](#checkbox)
 
 For better semantics, it would be best to wrap the checkboxes in a `fieldset` using this element as your `form__field` then adding a `legend`. See the example below.
 
@@ -136,7 +135,7 @@ For better semantics, it would be best to wrap the checkboxes in a `fieldset` us
 </Codemarkup>
 
 
-<Anchor name="radio"/>
+## [Radio](#radio)
 
 For better semantics, it would be best to wrap the radios in a `fieldset` using this element as your `form__field` then adding a `legend`. 
 
@@ -208,7 +207,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
 </Codemarkup>
 
 
-<Anchor name="select"/>
+## [Select](#select)
 
 
 <Codedemo>
@@ -237,7 +236,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
 ```
 </Codemarkup>
 
-<Anchor name="toggle"/>
+## [Toggle](#toggle)
 
 <Codedemo>
 <form class="form">
@@ -281,7 +280,7 @@ For better semantics, it would be best to wrap the radios in a `fieldset` using 
 ```
 </Codemarkup>
 
-<Anchor name="switch" level="3"/>
+### [Switch](#switch)
  
 For a smaller widget variation of the toggle use the class `switch`. This is a great option for a checkbox. 
 

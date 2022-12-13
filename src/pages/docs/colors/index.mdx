@@ -1,5 +1,5 @@
 ---
-layout: '../../../../layouts/single.astro'
+layout: ../../../layouts/single.astro
 title: 'Colors'
 colors: [
 "navy",
@@ -20,11 +20,10 @@ colors: [
 ]
 ---
 import Alphacolors from '../../../components/alpha-colors.astro'
-import Anchor from '../../../components/anchor.astro'
 import Color from '../../../components/color.astro'
 import Codemarkup from '../../../components/code-markup.astro'
 
-<Anchor name="Base" />
+## [Base](#base)
 
 Platform UIs base color pallet.
 
@@ -60,7 +59,7 @@ Platform UIs base color pallet.
     </div>    
 </section>
 
-<Anchor name="Greyscale" />
+## [Greyscale](#greyscale)
 
 <section class="mb-4">
     <div class="block-container blocks p-2 tablet-up-2 lg-tablet-up-3 laptop-up-4">
@@ -85,7 +84,7 @@ Platform UIs base color pallet.
     </div>    
 </section>
 
-<Anchor name="Alpha" />
+## [Alpha](#alpha)
 
 Every color in Platform UI has a corresponding alpha value (opacity) ranging from 10% to 90%. 
 
@@ -93,7 +92,7 @@ Hover over each color to see it's exported css custom property.
 
 <Alphacolors />
 
-<Anchor name="Custom Properties" />
+## [Custom Properties](#custom-properties)
 
 We export all of our colors to `:root` as `--{ color name }` to be leveraged in any additional style sheets using `var()`. Alpha colors are `--{ color name }-a{ 10-90 }`.
 

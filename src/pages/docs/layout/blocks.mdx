@@ -3,14 +3,13 @@ layout: ../../../layouts/single.astro
 title: Blocks
 skellyCSS: true
 ---
-import Anchor from '../../../components/anchor.astro'
 import Blockgrid from '../../../components/block-grid.astro'
 import Codedemo from '../../../components/code-demo.astro'
 import Codemarkup from '../../../components/code-markup.astro'
 import Modifiers from '../../../components/modifiers.astro'
 import Modifiersrow from '../../../components/modifiers-row.astro'
 
-<Anchor name="block container" />
+## [Block container](#block-container)
 
 All block grids start with a wrapper of `block-container` that is `display: flex` with `flex-wrap: wrap` applied. Container modifiers, which affect all child blocks, allow auto-placement based on responsive breakpoints.
 
@@ -43,11 +42,11 @@ All block grids start with a wrapper of `block-container` that is `display: flex
 ```
 </Codemarkup>
 
-<Anchor name="block" />
+## [Block](#block)
 
 Based on a 12 column grid, `block` is a core structural component when building your layout. Blocks are fully responsive - each `block` has a width of 100% applied for all resolutions and can be modified both on the container and block levels.
 
-<Anchor level="3" name="size" />
+### [Size](#size)
 
 Modifiers on each block, from 1-12, affect their native 100% width. The `block-{number}` will always reflect the smallest breakpoint which is mobile.
 
@@ -139,7 +138,7 @@ Modifiers on each block, from 1-12, affect their native 100% width. The `block-{
 </Modifiers>
 
 
-<Anchor name="utilities" level="3" />
+### [Utilities](#utilities)
 
 Breakpoint classes can be added to each of these utilities as well. For example, you could have a `block-8` from mobile up. Then, if you wanted the block to shrink to the size of its content at a laptop size, you could add the class `laptop-up--shrink`. This would give the styles `width: auto` within that set media query. Your block would have the classes, `block` `block-8` `laptop-up--shrink`.
 
@@ -199,7 +198,7 @@ Breakpoint classes can be added to each of these utilities as well. For example,
 ```
 </Codemarkup>
 
-<Anchor name="Responsive grids" />
+## [Responsive grids](#responsive-grids)
 
 You can build responsive grids using modifiers based on [standard viewports](/docs/concepts/breakpoints/). These modifiers can be added on the block or container levels.
 
@@ -212,7 +211,7 @@ You can build responsive grids using modifiers based on [standard viewports](/do
 
 **Now let's explain what we mean!**
 
-<Anchor name="on the container" level="3" />
+### [On the container](#on-the-container)
 
 Adding `{breakpoint}-up-{number-of-blocks-per-row}` to display `{number-of-blocks-per-row}` at the breakpoint specified.
 
@@ -246,7 +245,7 @@ This method will override any block size set within the targeted scope of the mo
 ```
 </Codemarkup>
 
-<Anchor name="on the block" level="3" />
+### [On the block](#on-the-block)
 
 Adding `{breakpoint}-up-{number-of-columns-to-span}` will do just that. A block set to `block-6` will span 6 columns, or half the grid. 
 

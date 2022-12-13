@@ -3,7 +3,6 @@ layout: ../../../layouts/single.astro
 title: Site
 weight: 1
 ---
-import Anchor from '../../../components/anchor.astro'
 import Callout from '../../../components/callout.astro'
 import Codedemo from '../../../components/code-demo.astro'
 import Codemarkup from '../../../components/code-markup.astro'
@@ -11,7 +10,7 @@ import Modifiersrow from '../../../components/modifiers-row.astro'
 import Modifiers from '../../../components/modifiers.astro'
 import Requiresjs from '../../../components/requires-js.astro'
 
-<Anchor name="Site menu" />
+## [Site menu](#site-menu)
 
 The `site-menu` starts as a basic horizontal menu that can be modified to fit a wide array of scenarios. 
 
@@ -51,7 +50,7 @@ The `site-menu` starts as a basic horizontal menu that can be modified to fit a 
 </tr>
 </Modifiers>
 
-<Anchor name="logo" />
+## [logo](#logo)
 
 Our site menu was built to be used in the header as a main site navigation. If you'd like to add a logo, apply the `site-logo` class.
 
@@ -88,7 +87,7 @@ When using the utility `text--white` as a modifier on `site-menu`, all `site-men
 </Callout>
 
 
-<Anchor name="dropdowns" />
+## [dropdowns](#dropdowns)
 
 <div class="mb-4">
 <Requiresjs/>
@@ -135,7 +134,7 @@ Sub-menus are accomplished via the `dropdown`.
 ```
 </Codemarkup>
 
-<Anchor name="fixed" />
+## [fixed](#fixed)
 
 To set a fixed-position header menu (like the one this site uses), wrap `site-menu` in an element with the `site-header` class and add the modifier `site-header--fixed`. 
 
