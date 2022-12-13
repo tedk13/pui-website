@@ -11,7 +11,7 @@ const allMd = await Astro.glob('../pages/docs/**/*.md');
 const allMdx = await Astro.glob('../pages/docs/**/*.mdx');
 const allFiles = allMd.concat(allMdx);
 ---
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout pageTitle={frontmatter.title} skelly={frontmatter.skellyCSS}>
   <div id="frame" class="block-container w-100">
     <!-- Mobile Nav & Trigger -->
     <!-- ToDo: Dynamically Hide this if not homepage -->

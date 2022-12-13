@@ -6,7 +6,7 @@ import Schemadotorg from '../head/schemadotorg.astro';
 import Styles from '../head/styles.astro';
 import Twitter from '../head/twitter.astro';
 
-const { pageTitle, description } = Astro.props;
+const { pageTitle, description, skelly } = Astro.props;
 ---
 <head>
     <title>{pageTitle} | Platform UI. A CSS framework by RIMdev</title>
@@ -18,6 +18,6 @@ const { pageTitle, description } = Astro.props;
     <Og pageTitle={pageTitle} description={description} />
     <Preconnects />
     <Schemadotorg pageTitle={pageTitle} description={description} />
-    <Styles />
+    <Styles skelly={skelly}/>
     <Twitter pageTitle={pageTitle} description={description} />
 </head>

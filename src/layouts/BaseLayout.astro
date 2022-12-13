@@ -7,7 +7,7 @@ import Scripts from '../components/site/scripts.astro';
 
 import '../sass/main.scss';
 
-const { pageTitle, description } = Astro.props;
+const { pageTitle, description, skelly } = Astro.props;
 export interface Props {
 	title: string;
 }
@@ -18,7 +18,7 @@ const home = '/';
 
 <!DOCTYPE html>
 <html lang="en">
-	<Head pageTitle={pageTitle} description={description} />
+	<Head pageTitle={pageTitle} description={description} skelly={skelly} />
 
 	<body class="flex flex--column">
 		<GtmBody />
