@@ -5,6 +5,10 @@ const layoutMd = await Astro.glob('../../pages/launchpad/*.md');
 const layoutMdx = await Astro.glob('../../pages/launchpad/*.mdx');
 const layoutPages = layoutMd.concat(layoutMdx);
 const folders = getFoldersArray(files);
+const itemToFind = 'getting-started'
+const foundIdx = folders.findIndex(el => el == itemToFind)
+folders.splice(foundIdx, 1)
+folders.unshift(itemToFind)
 const originalPath = new URL(Astro.request.url).pathname;
 const pathname = originalPath.split('/').slice(1);
 const ogFolder = pathname[0];
@@ -14,31 +18,33 @@ const childFile = pathname[2];
 
 <ul class="sidebar-menu list">
     <!-- For /layouts pages -->
-    {ogFolder == 'launchpad' ? (
+    {ogFolder == 'launchpad' ? 
+    (
         layoutPages.map((layout) => 
         <li class="mb-0 flex">
-            <a href={layout.url} class={`text--base pr-3 py-2 pl-4 w-100 text--light--hover ${originalPath === layout.url ? "text--bold" : ""}`}>{layout.frontmatter.title}</a>
+            <a href={layout.url} class={`text--base py-2 px-3 w-100 text--light--hover ${originalPath === layout.url ? "text--bold" : ""}`}>{layout.frontmatter.title}</a>
         </li>
         )
-    ) : folders.map((folder) => 
-        <li class={`accordion no-border mb-0 ${parentFolder === folder ? "active" : ""}`}>
-            <a href="#" class={`text--base text--capitalize accordion__header py-2 px-3 mb-0 ${parentFolder === folder ? "text--bold" : ""}`}>
-                <i class="pi-angle-down accordion__icon mr-2 text--light"></i>
-                {folder}
-            </a>
-            
-            <ul class="list accordion__content py-2 background--lighter">
-                {
-                files
-                    .filter((file) => file.url.includes(folder))
-                    .map((file) => (
-                    <li class="mb-0 flex">
-                        <a href={file.url} class={`text--base pr-3 py-2 pl-4 w-100 text--light--hover ${originalPath === file.url ? "text--bold" : ""}`}>{file.frontmatter.title}</a>
-                    </li>
-                    ))
-                }
-            </ul>
-        </li>
-        )
+    ) : folders
+        .map((folder) => 
+            <li class={`accordion no-border mb-0 ${parentFolder === folder ? "active" : ""}`}>
+                <a href="#" class={`text--base text--capitalize accordion__header py-2 px-3 mb-0 ${parentFolder === folder ? "text--bold" : ""}`}>
+                    <i class="pi-angle-down accordion__icon mr-2 text--light"></i>
+                    {folder}
+                </a>
+                
+                <ul class="list accordion__content py-2 background--lighter">
+                    {
+                        files
+                        .filter((file) => file.url.includes(folder))
+                        .map((file) => (
+                            <li class="mb-0 flex">
+                                <a href={file.url} class={`text--base pr-3 py-2 pl-4 w-100 text--light--hover ${originalPath === file.url ? "text--bold" : ""}`}>{file.frontmatter.title}</a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </li>
+    )
     }
 </ul>

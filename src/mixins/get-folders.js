@@ -3,5 +3,5 @@ export default function getFoldersArray(arr) {
         const url = item.url.split('/');
         return url.at(2)
     })
-    return [... new Set(folders)]
+    return [... new Set(folders.sort())]
 }
