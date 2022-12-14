@@ -1,4 +1,5 @@
 ---
+import { SUPPORTED_MARKDOWN_FILE_EXTENSIONS } from "astro/dist/core/constants";
 import getFoldersArray from "../../mixins/get-folders";
 const { title, url, files } = Astro.props;
 const layoutMd = await Astro.glob('../../pages/launchpad/*.md');
@@ -14,6 +15,17 @@ const pathname = originalPath.split('/').slice(1);
 const ogFolder = pathname[0];
 const parentFolder = pathname[1];
 const childFile = pathname[2];
+
+// sorts nav items by weight in frontmatter
+const compare = ( a, b ) => {
+  if ( a.frontmatter.weight < b.frontmatter.weight ){
+    return -1;
+  }
+  if ( a.frontmatter.weight > b.frontmatter.weight ){
+    return 1;
+  }
+  return 0;
+}
 ---
 
 <ul class="sidebar-menu list">
@@ -37,6 +49,7 @@ const childFile = pathname[2];
                     {
                         files
                         .filter((file) => file.url.includes(folder))
+                        .sort(compare)
                         .map((file) => (
                             <li class="mb-0 flex">
                                 <a href={file.url} class={`text--base pr-3 py-2 pl-4 w-100 text--light--hover ${originalPath === file.url ? "text--bold" : ""}`}>{file.frontmatter.title}</a>
