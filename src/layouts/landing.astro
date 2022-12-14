@@ -1,7 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import SidebarMenu from "../components/site/sidebar-menu.astro";
-const { frontmatter } = Astro.props;
+const { frontmatter, headings } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
 <div class="block-container">
@@ -40,8 +40,17 @@ const { frontmatter } = Astro.props;
         <aside class="content-nav hide:lg-tablet background--lighter p-3 mb-4">
           <nav id="sidebar-right">
             <h2 class="text--size-md">On This Page</h2>
-            <!-- ToDo: Table of contents -->
-            <!-- {{ .TableOfContents }} -->
+            <ul class="list">
+              {
+                headings
+                .filter(heading => (heading.depth <= 3 && heading.depth >= 2))
+                .map((heading) => (
+                  <li>
+                    <a href={`#${heading.slug}`}>{heading.text}</a>
+                  </li>
+                ))
+              }
+            </ul>
           </nav>
         </aside>
         <slot />
@@ -49,8 +58,17 @@ const { frontmatter } = Astro.props;
       <aside class="content-nav hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4">
         <nav id="sidebar-right">
           <h2 class="text--size-md">On This Page</h2>
-          <!-- ToDo: Table of contents -->
-          <!-- {{ .TableOfContents }} -->
+          <ul class="list">
+            {
+              headings
+              .filter(heading => (heading.depth <= 3 && heading.depth >= 2))
+              .map((heading) => (
+                <li>
+                  <a href={`#${heading.slug}`}>{heading.text}</a>
+                </li>
+              ))
+            }
+          </ul>
         </nav>
       </aside>
     </main>
