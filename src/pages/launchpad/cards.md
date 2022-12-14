@@ -3,11 +3,10 @@ layout: ../../layouts/single.astro
 title: Cards
 skellyCSS: true
 ---
-import Anchor from '../../components/anchor.astro'
 
 Below are some examples of different cards you can build using Platform UI.
 
-<Anchor name="Dark cards" />
+## [Dark cards](#dark-cards)
 
 <div class="block-container tablet-up-2 lg-tablet-up-3 laptop-up-4 blocks p-2 cards" style="--skelly-color: var(--light-mid);">
     <div class="block">
@@ -81,7 +80,7 @@ Below are some examples of different cards you can build using Platform UI.
     </div>
 </section>
 
-<Anchor name="Light cards" />
+## [Light cards](#light-cards)
 
 <section class="my-4 background--lavender px-3">
     <div class="block-container tablet-up-2 blocks p-2 cards">
