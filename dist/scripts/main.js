@@ -1,14 +1,14 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   // const tocs = document.querySelectorAll('.on-this-page');
-  // const main = document.querySelector('main');
+  const main = document.querySelector('main');
   
   // adds page-anchor-target to content headings in article
-  // const headings = main.querySelectorAll('h2,h3');
-  // headings.forEach(heading => {
-  //   if (heading.id) {
-  //     heading.classList.add('page-anchor-target');
-  //   }
-  // });
+  const headings = main.querySelectorAll('h2,h3');
+  headings.forEach(heading => {
+    if (heading.id) {
+      heading.classList.add('text--capitalize', 'mt-4', 'page-anchor-target');
+    }
+  });
 
   // tables
   // TO BE REMOVED DURING FINAL TABLE PURGE... JAIME!!!

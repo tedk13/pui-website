@@ -5,7 +5,7 @@ const { frontmatter, headings } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
 <div class="block-container">
-  <div id="frame" class="block-container w-100 flex--justify-center">   
+  <div id="frame" class="block-container w-100 flex--justify-center">
     <!-- Mobile Nav & Trigger -->
     <div id="frame-mobile-nav" class="hide:lg-tablet px-0">
       <div class="block-container background--lighter flex--justify-end py-2 px-4">
@@ -22,12 +22,12 @@ const { frontmatter, headings } = Astro.props;
                   class="button button--secondary has-text drawer__close mobile-menu-action m-2 pos-fix pin-right"
                   data-drawer="frame-mobile-nav-drawer"
                 >
-                    Close
-                    <i class="pi-times" aria-hidden="true"></i>
+                  Close
+                  <i class="pi-times" aria-hidden="true"></i>
                 </button>
             </div>
             <nav role="complementary">
-                <!-- <SidebarMenu /> -->
+              <!-- <SidebarMenu /> -->
             </nav>
           </div>
         </div>

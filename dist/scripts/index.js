@@ -1,2 +1,2 @@
 import './main.js';
-import './utility-visualizer';
+import './utility-visualizer.js';
