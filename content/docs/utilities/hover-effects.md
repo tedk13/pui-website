@@ -1,5 +1,6 @@
 ---
 title: Hover Effects
+description: Platform UI documentation for hover effects utilities.
 skellyCSS: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Accessibility
+description: Here at Ritter Insurance Marketing, we build websites and apps that are accessible and scalable. We follow WCAG 2.1 guidelines for all of our projects, with a close eye on the future of accessibility.
 weight: 5
 ---
 

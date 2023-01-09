@@ -1,5 +1,6 @@
 ---
 title: Icon
+description: Platform UI documentation for icon menu.
 weight: 3
 ---
 {{% anchor name="Icon menu" %}}

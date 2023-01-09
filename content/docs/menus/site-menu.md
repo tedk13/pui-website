@@ -1,5 +1,6 @@
 ---
 title: Site
+description: Platform UI documentation for site menu.
 weight: 1
 ---
 

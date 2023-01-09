@@ -16,6 +16,7 @@ colors:
 - light
 - lighter
 - white
+description: Platform UI's base color pallette includes navy, skyblue, light blue and more!
 ---
 
 {{% anchor name="Base" %}}

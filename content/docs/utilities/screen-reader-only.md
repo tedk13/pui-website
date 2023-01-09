@@ -1,5 +1,6 @@
 ---
-title: Screen Readers 
+title: Screen Readers
+description: Platform UI documentation for hover effects utilities.
 ---
 {{% anchor name="screen reader only" %}}
 

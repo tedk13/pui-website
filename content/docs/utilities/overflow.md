@@ -1,5 +1,6 @@
 ---
 title: Overflows
+description: Platform UI documentation for overflow utilities.
 skellyCSS: true
 ---
 
