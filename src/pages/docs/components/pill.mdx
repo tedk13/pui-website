@@ -1,0 +1,119 @@
+---
+layout: ../../../layouts/single.astro
+title: Pills
+description: Documentation for Platform UI's pills, split pills, circle pills, and close pills components.
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+
+## [Pill](#pill)
+
+A rounded, pill-shaped badge. A pill can support color by adding a text or background modifier.
+
+Pills have no hover state.
+
+<Codedemo>
+<div class="pill">Active</div>
+<div class="pill text--white background--navy">Active</div>
+<div class="pill text--white background--skyblue">Active</div>
+<div class="pill text--white background--salmon">Active</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="pill">
+  Active
+</div>
+<div class="pill text--white background--navy">
+  Active
+</div>
+<div class="pill text--white background--skyblue">
+  Active
+</div>
+<div class="pill text--white background--salmon">
+  Active
+</div>
+```
+</Codemarkup>
+
+## [Split](#split)
+
+<Codedemo>
+<div class="pill pill--split">
+  <div class="pill__label">Left:</div>
+  <div class="pill__content">Right</div>
+</div>
+<div class="pill pill--split text--white background--peach">
+  <div class="pill__label text--brown">Left:</div>
+  <div class="pill__content">Right</div>
+</div>
+<div class="pill pill--split text--white background--navy">
+  <div class="pill__content background--salmon">Left</div>
+  <div class="pill__content background--olive">Middle</div>
+  <div class="pill__content background--skyblue">Right</div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="pill pill--split">
+  <div class="pill__label">Left:</div>
+  <div class="pill__content">Right</div>
+</div>
+<div class="pill pill--split text--white background--peach">
+  <div class="pill__label text--brown">Left:</div>
+  <div class="pill__content">Right</div>
+</div>
+<div class="pill pill--split text--white background--navy">
+  <div class="pill__content background--salmon">Left</div>
+  <div class="pill__content background--olive">Middle</div>
+  <div class="pill__content background--skyblue">Right</div>
+</div>
+```
+</Codemarkup>
+
+## [Circle](#circle)
+
+Pills can be circular.
+
+<Codedemo>
+<div class="pill pill--circle">33</div>
+<div class="pill pill--circle text--white background--salmon">33</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="pill pill--circle">
+  <!-- Optional content here! -->
+</div>
+<div class="pill pill--circle text--white background--salmon">
+  <!-- Optional content here! -->
+</div>
+```
+</Codemarkup>
+
+<Modifiers>
+<Modifiersrow 
+  modifier="pill--circle-empty-dot"
+  behavior="Dot pill intended to remain empty." 
+/>
+<Modifiersrow 
+  modifier="pill--circle-empty"
+  behavior="Small, circular pull intended to remain empty." 
+/>
+<Modifiersrow 
+  modifier="pill--circle"
+  behavior="Circular pill intended to contain content." 
+/>
+<Modifiersrow 
+  modifier="pill--circle-medium"
+  behavior="Medium circular pill intended to contain content." 
+/>
+<Modifiersrow 
+  modifier="pill--circle-large"
+  behavior="Large circular pill intended to contain content." 
+/>
+</Modifiers>

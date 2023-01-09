@@ -1,0 +1,154 @@
+---
+layout: ../../../layouts/single.astro
+title: Site
+weight: 1
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Requiresjs from '../../../components/requires-js.astro'
+
+## [Site menu](#site-menu)
+
+The `site-menu` starts as a basic horizontal menu that can be modified to fit a wide array of scenarios. 
+
+<Codedemo>
+<nav class="site-menu">
+  <a class="site-menu__item">Home</a>
+  <a class="site-menu__item">About</a>
+  <a class="site-menu__item">Blog</a>
+</nav>
+</Codedemo>
+
+<Codemarkup>
+```html
+<nav class="site-menu">
+  <a href="" class="site-menu__item"></a>
+  <a href="" class="site-menu__item"></a>
+  <a href="" class="site-menu__item"></a>
+</nav>
+```
+</Codemarkup> 
+
+<Modifiers secondary="true" >
+<tr>
+  <td data-label="Modifier"><code>background--\{ color \}</code></td>
+  <td data-label="Secondary"><i class="pi-ban" aria-hidden="true"></i></td>
+  <td data-label="Behavior">Set menu background color and corresponding hover highlight.</td>
+</tr>
+<tr>
+  <td data-label="Modifier"><code>hover-underline</code></td>
+  <td data-label="Secondary"><code>hover-underline--\{ color \}</code></td>
+  <td data-label="Behavior">Add an underline effect on hover. The secondary modifier augments color.</td>
+</tr>
+<tr>
+  <td data-label="Modifier"><code>site-menu--bordered</code></td>
+  <td data-label="Secondary"><i class="pi-ban" aria-hidden="true"></i></td>
+  <td data-label="Behavior">Add a horizontal border between menu items.</td>
+</tr>
+</Modifiers>
+
+## [logo](#logo)
+
+Our site menu was built to be used in the header as a main site navigation. If you'd like to add a logo, apply the `site-logo` class.
+
+<Codedemo>
+<div class="site-header background--purple flex flex--align-center">
+  <a class="site-logo p-2">
+    <img src="/images/platform-ui.svg" alt="Platform UI"/>
+  </a>
+  <nav class="site-menu hover-underline hover-underline--white h-100 flex flex--grow flex--align-center text--white px-2">
+    <a class="p-2 site-menu__item">Docs</a>
+    <a class="p-2 site-menu__item">Icons</a>
+    <a class="p-2 site-menu__item">Launchpad</a>
+  </nav>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<header class="site-header background--purple flex flex--align-center">
+  <a class="site-logo p-2">
+    <img src="/images/platform-ui.svg" alt="Platform UI"/>
+  </a>
+  <nav class="site-menu hover-underline hover-underline--white h-100 flex flex--grow flex--align-center text--white px-2">
+    <a href="" class="p-2 site-menu__item">Docs</a>
+    <a href="" class="p-2 site-menu__item">Icons</a>
+    <a href="" class="p-2 site-menu__item">Launchpad</a>
+  </nav>
+</header>
+```
+</Codemarkup>
+ 
+<Callout header="link color">
+When using the utility `text--white` as a modifier on `site-menu`, all `site-menu__item` links inherit `text--white`.   
+</Callout>
+
+
+## [dropdowns](#dropdowns)
+
+<div class="mb-4">
+<Requiresjs/>
+</div>
+
+Sub-menus are accomplished via the `dropdown`.
+
+<Modifiers>
+<Modifiersrow
+  modifier="dropdown--centered" 
+  behavior="Centers content of the dropdown sub-menu." 
+/>
+<Modifiersrow 
+  modifier="dropdown--right" 
+  behavior="Justifies both the surrounding dropdown container and content to the right." 
+/>
+</Modifiers>
+
+<Codedemo>
+<nav class="site-menu background--lightblue">
+  <a class="p-3 site-menu__item">About</a>
+  <div class="dropdown">
+      <div class="p-3 site-menu__item dropdown__trigger">Fruits<i class="ml-1 pi-angle-down"></i></div>
+      <div class="dropdown__content">
+        <a class="dropdown__content-item">Dragonfruit</a>
+        <a class="dropdown__content-item">Kiwis</a>
+      </div>
+    </div>
+</nav>
+</Codedemo>
+
+<Codemarkup>
+```html
+<nav class="site-menu background--lightblue">
+  <a href="" class="p-3 site-menu__item">About</a>
+  <div class="dropdown">
+      <div class="p-3 site-menu__item dropdown__trigger">Fruits<i class="ml-1 pi-angle-down"></i></div>
+      <div class="dropdown__content">
+        <a href="" class="dropdown__content-item">Dragonfruit</a>
+        <a href="" class="dropdown__content-item">Kiwis</a>
+      </div>
+    </div>
+</nav>
+```
+</Codemarkup>
+
+## [fixed](#fixed)
+
+To set a fixed-position header menu (like the one this site uses), wrap `site-menu` in an element with the `site-header` class and add the modifier `site-header--fixed`. 
+
+<Codemarkup>
+```html
+<header class="site-header site-header--fixed">
+  <a class="site-logo">
+    <img src="..." alt="Platform UI"/>
+  </a>
+  <nav class="site-menu">
+    <a href="" class="site-menu__item">Docs</a>
+    <a href="" class="site-menu__item">Icons</a>
+    <a href="" class="site-menu__item">Launchpad</a>
+  </nav>
+</header>
+```
+</Codemarkup>

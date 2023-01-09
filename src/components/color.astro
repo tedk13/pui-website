@@ -1,0 +1,10 @@
+---
+const {color, color_name} = Astro.props;
+---
+<div class="card p-0 rounded-2">
+    <div class=`p-4 background--${color_name}`></div>
+    <div class="p-2">
+        <strong class="text--capitalize text--light">{color_name}</strong>
+        <p class="mb-0 text--base">{color}</p>
+    </div>
+</div>

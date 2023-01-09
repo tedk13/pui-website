@@ -1,0 +1,105 @@
+---
+layout: ../../../layouts/single.astro
+title: Tables
+description: Documentation for Platform UI's table component.
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+
+## [Table](#table)
+
+Our default table is simple and uncluttered without vertical borders. 
+
+Platform UI tables are built to be responsive at all screen sizes! Make them responsive by adding a `data-label` on every `<td>` to match the column header label.
+
+<Codedemo>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Menu Item</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Menu Item">
+        Pork Buns
+      </td>
+      <td data-label="Size">
+        Large
+      </td>
+      <td data-label="Price">
+        $8.99
+      </td>
+    </tr>
+    <tr>
+      <td data-label="Menu Item">
+        Pork Buns
+      </td>
+      <td data-label="Size">
+        Small
+      </td>
+      <td data-label="Price">
+        $5.99
+      </td>
+    </tr>
+  </tbody>
+</table>
+</Codedemo>
+
+<Codemarkup>
+```html
+<table class="table">
+  <thead>
+    <tr>
+      <th>Menu Item</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Menu Item">
+        Pork Buns
+      </td>
+      <td data-label="Size">
+        Large
+      </td>
+      <td data-label="Price">
+        $8.99
+      </td>
+    </tr>
+    <tr>
+      <td data-label="Menu Item">
+        Pork Buns
+      </td>
+      <td data-label="Size">
+        Small
+      </td>
+      <td data-label="Price">
+        $5.99
+      </td>
+    </tr>
+  </tbody>
+</table>
+```
+</Codemarkup>
+
+<Modifiers>
+<Modifiersrow 
+  modifier="table--no-hover"
+  behavior="Removes the hover effect on tables and rows." 
+/>
+<Modifiersrow 
+  modifier="unresponsive"
+  behavior="Removes responsive behavior." 
+/>
+</Modifiers>
+
+<Callout header="Table Tip" >
+  <p>Add the utility class <code>overflow-x--auto</code> to make the table scroll horizontally too! This is a good idea when making the table <code>unresponsive</code>.</p>
+</Callout>

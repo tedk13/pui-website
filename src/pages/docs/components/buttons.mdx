@@ -1,0 +1,151 @@
+---
+layout: ../../../layouts/single.astro
+title: Buttons
+description: Documentation for Platform UI's button, secondary button, and button group components.
+---
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+## [Button](#button)
+
+The default button style is white with a dark outline and has a salmon background color on hover. See the [modifiers](#modifiers) table for more options!
+
+<Codedemo>
+<button class="button">Button</button>
+</Codedemo>
+
+<Codemarkup>
+```html
+<button class="button">Button</button>
+```
+</Codemarkup>
+
+<Modifiers>
+  <Modifiersrow 
+    modifier="button--lg"
+    behavior="A larger button." 
+  />
+  <Modifiersrow 
+    modifier="button--plain"
+    behavior="Removes the border and background. Good for icons alone." 
+  />
+  <Modifiersrow 
+    modifier="button--{ color }"
+    behavior="Loops through Platform UI colors for background and hover coloring." 
+  />
+  <Modifiersrow 
+    modifier="button--ghost"
+    behavior="Ghost buttons! 👻"
+  />
+</Modifiers>
+
+<Visualizer header="Check out different colors of buttons!">
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="button--navy">
+        <pre>.button--navy</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--skyblue">
+        <pre>.button--skyblue</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--lightblue">
+        <pre>.button--lightblue</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--med-blue">
+        <pre>.button--med-blue</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--beige">
+        <pre>.button--beige</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--peach">
+        <pre>.button--peach</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--salmon">
+        <pre>.button--salmon</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--brown">
+        <pre>.button--brown</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--orange">
+        <pre>.button--orange</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="button--ghost text--white">
+        <pre>.button--ghost</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">Reset</button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3" data-default-class="flex flex--center-content">
+  <button class="button">Example Button</button>
+</div>
+</Visualizer >
+
+## [Secondary](#secondary)
+
+The secondary button was built primarily for usage with icons alone with a fancier hover. It can also be used with text.
+
+<Codedemo>
+<button class="button button--secondary"><i class="pi-download"></i></button>
+</Codedemo>
+
+<Codemarkup>
+```html
+<button class="button button--secondary"><i class="pi-download"></i></button>
+```
+</Codemarkup>
+
+<Modifiers secondary="true" data="true">
+<Modifiersrow 
+  modifier="button--secondary"
+  secondary="has-text"
+  attr="data-button-text"
+  behavior="`data-button-text` adds custom text on hover on viewports over `991px`. Adding `has-text` will show that text at all times."
+/>
+</Modifiers>
+
+## [Group](#group)
+
+Evenly space any group of buttons, default or secondary.
+
+<Codedemo>
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="button-group">
+  <button class="button">Cancel</button>
+  <button class="button">Continue</button>
+  <button class="button">Destroy Death Star</button>
+</div>
+```
+</Codemarkup>

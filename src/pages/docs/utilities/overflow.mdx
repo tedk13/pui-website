@@ -1,0 +1,40 @@
+---
+layout: ../../../layouts/single.astro
+title: Overflows
+skellyCSS: true
+---
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+## [Overflow](#overflow)
+
+Overflow can be tricky so we gave you as much as we could to try and help out!
+
+<Classes result="true" >
+<Classesrow classname="overflow-visible" result="Sets overflow to visible." />
+<Classesrow classname="overflow-hidden" result="Sets overflow to hidden." />
+<Classesrow classname="overflow-scroll" result="Sets overflow to scroll." />
+<Classesrow classname="overflow-auto" result="Sets overflow to auto." />
+<Classesrow classname="overflow-y--visible" result="Sets vertical overflow to visible." />
+<Classesrow classname="overflow-y--hidden" result="Sets vertical overflow to hidden." />
+<Classesrow classname="overflow-y--scroll" result="Sets vertical overflow to scroll." />
+<Classesrow classname="overflow-y--auto" result="Sets vertical overflow to auto." />
+<Classesrow classname="overflow-x--visible" result="Sets horizontal overflow to visible." />
+<Classesrow classname="overflow-x--hidden" result="Sets horizontal overflow to hidden." />
+<Classesrow classname="overflow-x--scroll" result="Sets horizontal overflow to scroll." />
+<Classesrow classname="overflow-x--auto" result="Sets horizontal overflow to auto." />
+</Classes>
+
+
+<Visualizer header="Test an overflow here!" >
+<div class="block-12 overflow-y--hidden">
+  <button class="button button-primary background--salmon text--white overflow-button">Toggle Overflow</button>
+  <div class="mt-2 mb-7 p-3 border border--color-med-blue overflow-paragraph" style="height: 7rem;">
+    <h2 class="skeleton skeleton--md" role="presentation"></h2>
+    <p class="skeleton" data-lines="5" role="presentation"></p>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
+    <p class="skeleton" data-lines="6" role="presentation"></p>
+  </div>
+</div>
+</Visualizer>

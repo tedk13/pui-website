@@ -1,0 +1,25 @@
+---
+layout: ../../../layouts/single.astro
+title: Height and Width
+---
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+
+We handle height and width both in percentages and view-height/width. Both are broken into quarters.
+
+## [Percentage](#percentage)
+
+<Classes result="true">
+<Classesrow classname="h-{ 25, 50, 75, 100 }" result="Height is set to the corresponding percentage." />
+<Classesrow classname="h-auto" result="Height is set to auto." />
+<Classesrow classname="w-{ 25, 50, 75, 100 }" result="Width is set to the corresponding percentage." />
+<Classesrow classname="w-auto" result="Width is set to auto." />
+</Classes>
+
+## [Viewport](#viewport)
+
+<Classes result="true">
+<Classesrow classname="vh-{ 25, 50, 75, 100 }" result="Height is set to the corresponding percentage based on the viewport." />
+<Classesrow classname="vw-{ 25, 50, 75, 100 }" result="Width is set to the corresponding percentage based on the viewport." />
+</Classes>
+ 

@@ -1,0 +1,78 @@
+---
+layout: ../../../layouts/single.astro
+title: Loaders
+description: Documentation for Platform UI's loader and button loader components.
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+## [Default](#default)
+
+It's a `1.4rem` loader. 
+
+<Codedemo>
+<div class="loader"></div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="loader"></div>
+```
+</Codemarkup>
+
+<Modifiers>
+<Modifiersrow
+  modifier="loader--sm"
+  behavior="Small `.9rem`" 
+/>
+<Modifiersrow
+  modifier="loader--lg"
+  behavior="Large `2rem`" 
+/>
+</Modifiers>
+
+<Visualizer header="Check out different sizes of loader!">
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="loader">
+        <pre>.loader</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="loader loader--sm">
+        <pre>.loader--sm</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="loader loader--lg">
+        <pre>.loader--lg</pre>
+      </button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">Reset</button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3" data-default-class="flex flex--center-content background--white py-5 rounded-1">
+  <div class="loader"></div>
+</div>
+</Visualizer>
+
+## [Buttons](#buttons)
+
+A button can also include a loader by adding/toggling the `loading` class.
+
+<Codedemo>
+<button class="button loading">Submit</button>
+</Codedemo>
+
+<Codemarkup>
+```html
+<button class="button loading">Submit</button>
+```
+</Codemarkup>

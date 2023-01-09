@@ -1,0 +1,29 @@
+---
+const { secondary, data } = Astro.props
+---
+<section class="p-0 mb-4">
+  <h3 class="text--light text--size-md mb-3">Modifiers</h3>
+  <div class="card p-0 no-border rounded-2">
+    <table class="table modifiers table--no-hover">
+      <thead>
+        <tr>
+          <th>Modifier &dagger;</th>
+          {secondary ? (
+            <th>Secondary Modifier</th>
+          ) : null}
+          {data ? (
+            <th>Data Attribute</th>
+          ) : null}
+          <th style="width: 40%">Behavior</th>
+        </tr>
+      </thead>
+      <tbody>
+        <slot />
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>&dagger;</strong>
+    The <strong class="text--purple">base</strong> class is always required.
+  </p>
+</section>

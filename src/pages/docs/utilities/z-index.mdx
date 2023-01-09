@@ -1,0 +1,139 @@
+---
+layout: ../../../layouts/single.astro
+title: Z-Index
+skellyCSS: true
+---
+import Callout from '../../../components/callout.astro'
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Requiresjs from '../../../components/requires-js.astro'
+
+## [Z-Index](#z-index)
+
+These utility classes control the stacking order within the DOM. Adding a `z-{value}` class to your element will change its order in the stack.
+
+<Classes result="true" >
+<Classesrow classname="z-0" result="`z-index: 0`" />
+<Classesrow classname="z-10" result="`z-index: 10`" />
+<Classesrow classname="z-20" result="`z-index: 20`" />
+<Classesrow classname="z-30" result="`z-index: 30`" />
+<Classesrow classname="z-40" result="`z-index: 40`" />
+<Classesrow classname="z-50" result="`z-index: 50`" />
+<Classesrow classname="z-60" result="`z-index: 60`" />
+<Classesrow classname="z-70" result="`z-index: 70`" />
+<Classesrow classname="z-80" result="`z-index: 80`" />
+<Classesrow classname="z-90" result="`z-index: 90`" />
+<Classesrow classname="z-100" result="`z-index: 100`" />
+<Classesrow classname="-z-10" result="`z-index: -10`" />
+<Classesrow classname="-z-20" result="`z-index: -20`" />
+<Classesrow classname="z-auto" result="`z-index: auto`" />
+</Classes>
+
+<Codedemo>
+<div class="rounded-2 block background--dark p-3">
+  <div class="flex">
+    <div 
+      class="pos-rel z-30 background--lavender text--purple text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem;">z-30</div>
+    <div 
+      class="pos-rel z-40 background--light-purple text--white text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem">z-40</div>
+    <div 
+      class="pos-rel z-50 background--purple text--white text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem">z-50</div>
+    <div 
+      class="pos-rel z-40 background--light-purple text--white text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem">z-40</div>
+    <div 
+      class="pos-rel z-30 background--lavender text--purple text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem">z-30</div>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="pos-rel z-30">
+  z-30
+</div>
+<div class="pos-rel z-40">
+  z-40
+</div>
+<div class="pos-rel z-50">
+  z-50
+</div>
+<div class="pos-rel z-40">
+  z-40
+</div>
+<div class="pos-rel z-30">
+  z-30
+</div>
+```
+</Codemarkup>
+
+<Anchor name="Using Data Attributes" />
+
+<div class="mb-4">
+<Requiresjs/>
+</div>
+
+Can't find the value you need in the list above? You can add a `data-z="{value}"` to your element and let javascript handle the rest. 
+
+<Codedemo>
+<div class="rounded-2 block background--dark p-3">
+  <div class="flex">
+    <div 
+      class="pos-rel background--lavender text--purple text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem;"
+      data-z="31">
+      31
+    </div>
+    <div 
+      class="pos-rel background--light-purple text--white text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem"
+      data-z="60">
+      60
+    </div>
+    <div 
+      class="pos-rel background--purple text--white text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem"
+      data-z="999">
+      999
+    </div>
+    <div 
+      class="pos-rel background--light-purple text--white text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem"
+      data-z="10">
+      10
+    </div>
+    <div 
+      class="pos-rel background--lavender text--purple text--bold border border--color-white border--width-2 flex--center-content" 
+      style="border-radius: 50%; height: 5rem; width: 5rem; margin-left: -1rem"
+      data-z="1">
+      1
+    </div>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="pos-rel" data-z="31">
+  31
+</div>
+<div class="pos-rel" data-z="60">
+  60
+</div>
+<div class="pos-rel" data-z="999">
+  999
+</div>
+<div class="pos-rel" data-z="10">
+  10
+</div>
+<div class="pos-rel" data-z="1">
+  1
+</div>
+```
+</Codemarkup>

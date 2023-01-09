@@ -1,0 +1,58 @@
+---
+layout: ../../../layouts/single.astro
+title: Info Boxes
+description: Documentation for Platform UI's infobox component.
+skellyCSS: true
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Requierjs from '../../../components/requires-js.astro'
+
+<Requierjs/>
+
+## [Info Box](#info-box)
+
+Click the button to toggle the info box. You can also manually toggle this by adding the `active` class to `info-box__content`.
+
+<Codedemo>
+<div class="info-box flex-inline">
+  <button class="button toggle-hidden" role="button" aria-label="Toggle">Open Info Box</button>
+  <div class="info-box__content">
+    <button class="button info-box__close">Close <i class="pi-times"aria-hidden="hidden"></i></button>
+    <p class="skeleton" data-lines="4" role="presentation"></p>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="info-box">
+  <!-- Info Box Trigger -->
+  <button class="button toggle-hidden">
+    Open Info Box
+  </button>
+  <!-- Info Box Content -->
+  <div class="info-box__content">
+    <button class="button info-box__close">
+      Close 
+      <i class="pi-times"></i>
+    </button>
+    <!-- Info Box content goes here! -->
+  </div>
+</div>
+```
+</Codemarkup>
+
+<Modifiers>
+<Modifiersrow 
+  modifier="info-box--left"
+  behavior="The info box opens from the left." 
+/>
+</Modifiers>
+
+<Callout header="info box tip">
+You may need to specify a width or add the class `flex-inline` to `info-box` to ensure the box opens correctly based on your content. `flex-inline` was added to the example above.
+</Callout>

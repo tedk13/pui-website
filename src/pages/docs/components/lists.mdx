@@ -1,0 +1,78 @@
+---
+layout: ../../../layouts/single.astro
+title: Lists
+description: Documentation for Platform UI's list components.
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+
+## [Default](#default)
+
+Our default unordered list has `margin: 0` and `padding-left: 1rem` applied. List items have `margin-bottom: .5rem`.
+
+<ul>
+  <li>Dogs</li>
+  <li>Cats</li>
+  <li>Birds</li>
+</ul>
+<div class="my-3"></div>
+<ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+
+<Codemarkup>
+```html
+<!-- Unordered List -->
+<ul>
+  <li>Dogs</li>
+  <li>Cats</li>
+  <li>Birds</li>
+</ul>
+
+<!-- Ordered List -->
+<ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+```
+</Codemarkup>
+
+
+## [List](#list)
+
+Adding `list` strips `list-style-type`, `margin`, and `padding` from the user agent stylesheet.
+
+<Codedemo>
+<ul class="list">
+  <li>This is a list item.</li>
+  <li>This is a list item.</li>
+  <li>This is a list item.</li>
+</ul>
+</Codedemo>
+
+<Codemarkup>
+```html
+<ul class="list">
+   <li>This is a list item.</li>
+   <li>This is a list item.</li>
+   <li>This is a list item.</li>
+ </ul>
+```
+</Codemarkup>
+
+<Modifiers>
+<Modifiersrow
+  modifier="list--inline"
+  behavior="An inline flex list." 
+/>
+<Modifiersrow
+  modifier="list--bordered"
+  behavior="Adds a bottom border when adding `list__item` to each child `<li>`" 
+/>
+</Modifiers>

@@ -1,0 +1,30 @@
+{
+    "site": {
+        "gtmID": "",
+        "rim": "Ritter Insurance Marketing",
+        "rim_url": "https://ritterim.com",
+        "rimdev": "RIMdev",
+        "rimdev_url": "https://rimdev.io ",
+        "pui_url": "http://pui.rimdev.io",
+        "menu": [
+            {
+                "identifier": "docs",
+                "name": "Docs",
+                "url": "/docs/getting-started/cdn",
+                "weight": "1"
+            },
+            {
+                "identifier": "icons",
+                "name": "Icons",
+                "url": "/icons/icons",
+                "weight": "2"
+            },
+            {
+                "identifier": "launchpad",
+                "name": "Launchpad",
+                "url": "/launchpad/forms"
+            }
+        ]
+    }
+    
+}
