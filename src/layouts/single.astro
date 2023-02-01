@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Toc from './partials/content/toc.astro';
 import SidebarMenu from "./partials/site/sidebar-menu.astro";
 const { frontmatter, headings } = Astro.props;
 const originalPath = new URL(Astro.request.url).pathname;
@@ -13,8 +14,8 @@ const allFiles = allMd.concat(allMdx);
 ---
 <BaseLayout pageTitle={frontmatter.title} skelly={frontmatter.skellyCSS}>
   <div id="frame" class="block-container w-100">
-    <!-- Mobile Nav & Trigger -->
-    <!-- ToDo: Dynamically Hide this if not homepage -->
+    {/* Mobile Nav & Trigger  */}
+    {/* Dynamically Hide this if not homepage  */}
     <div id="frame-mobile-nav" class="hide:lg-tablet px-0">
       <div class="block-container background--lighter flex--justify-end py-2 px-4">
         <button class="button--plain flex flex--align-center flex--column drawer__open" data-drawer="frame-mobile-nav-drawer">
@@ -35,7 +36,7 @@ const allFiles = allMd.concat(allMdx);
                 </button>
             </div>
             <nav role="complementary">
-              <!-- todo: sidebar menu -->
+              {/* sidebar menu  */}
               <SidebarMenu files={allFiles}/>
             </nav>
           </div>
@@ -43,48 +44,22 @@ const allFiles = allMd.concat(allMdx);
       </div>
     </div>
   
-    <!-- Nav Drawer (Tablet and up) -->
+    {/* Nav Drawer (Tablet and up)  */}
     <div id="frame-nav" class="hide show:lg-tablet tablet-up-3 lg-tablet-up-2">
       <nav id="sidebar-left" role="complementary">
-        <!-- ToDo: Sidebar menu -->
+        {/* Sidebar menu  */}
         <SidebarMenu files={allFiles}/>
       </nav>
     </div>
-    <!-- End isHome -->
+    {/* End isHome  */}
      <main id="frame-content" class={`block-container flex--justify-around w-100${originalPath === home ? "" : " lg-tablet-up-10"}`}>
       <article id="content" class={`w-100${originalPath === home ? "" : " lg-tablet-up-9 px-4 pb-4"}`}>
         <h1 class="text--purple mt-5">{ frontmatter.title }</h1>
-        <aside class="content-nav on-this-page hide:lg-tablet background--lighter p-3 mb-4 text--capitalize">
-          <h2 class="text--size-md">On This Page</h2>
-          <ul class="list">
-            {
-              headings
-              .filter(heading => (heading.depth < 4 && heading.depth > 1))
-              .map((heading) => (
-                <li class={`${heading.depth === 3 ? "pl-3" : ""}`}>
-                  <a href={`#${heading.slug}`}>{heading.text}</a>
-                </li>
-              ))
-            }
-          </ul>
-        </aside>
-        <!-- Main content -->
+        <Toc headings={headings} mobile/>
+        {/* Main content  */}
         <slot />
       </article>
-      <aside class="content-nav on-this-page hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
-        <h2 class="text--size-md">On This Page</h2>
-        <ul class="list">
-          {
-            headings
-            .filter(heading => heading.depth < 4 && heading.depth > 1)
-            .map((heading) => (
-              <li class={`${heading.depth === 3 ? "pl-3" : ""}`}>
-                <a href={`#${heading.slug}`}>{heading.text}</a>
-              </li>
-            ))
-          }
-        </ul>
-      </aside>
+      <Toc headings={headings} />
     </main>
   </div>
 </BaseLayout>

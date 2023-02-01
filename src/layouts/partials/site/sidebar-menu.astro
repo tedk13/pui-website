@@ -1,9 +1,9 @@
 ---
 import { SUPPORTED_MARKDOWN_FILE_EXTENSIONS } from "astro/dist/core/constants";
-import getFoldersArray from "../../mixins/get-folders";
+import getFoldersArray from "../../../mixins/get-folders";
 const { title, url, files } = Astro.props;
-const layoutMd = await Astro.glob('../../pages/launchpad/*.md');
-const layoutMdx = await Astro.glob('../../pages/launchpad/*.mdx');
+const layoutMd = await Astro.glob('../../../pages/launchpad/*.md');
+const layoutMdx = await Astro.glob('../../../pages/launchpad/*.mdx');
 const layoutPages = layoutMd.concat(layoutMdx);
 const folders = getFoldersArray(files);
 const itemToFind = 'getting-started'
