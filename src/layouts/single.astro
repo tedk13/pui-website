@@ -59,7 +59,7 @@ const allFiles = allMd.concat(allMdx);
           <ul class="list">
             {
               headings
-              .filter(heading => (heading.depth <= 3 && heading.depth >= 2))
+              .filter(heading => (heading.depth < 3 && heading.depth > 2))
               .map((heading) => (
                 <li>
                   <a href={`#${heading.slug}`}>{heading.text}</a>
@@ -76,7 +76,7 @@ const allFiles = allMd.concat(allMdx);
         <ul class="list">
           {
             headings
-            .filter(heading => heading.depth <= 3 && heading.depth >= 2)
+            .filter(heading => heading.depth < 3 && heading.depth > 2)
             .map((heading) => (
               <li class={`${heading.depth === 3 ? "pl-3" : ""}`}>
                 <a href={`#${heading.slug}`}>{heading.text}</a>
