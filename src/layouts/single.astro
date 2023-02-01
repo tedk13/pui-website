@@ -61,7 +61,7 @@ const allFiles = allMd.concat(allMdx);
               headings
               .filter(heading => (heading.depth < 4 && heading.depth > 1))
               .map((heading) => (
-                <li>
+                <li class={`${heading.depth === 3 ? "pl-3" : ""}`}>
                   <a href={`#${heading.slug}`}>{heading.text}</a>
                 </li>
               ))
