@@ -1,6 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import SidebarMenu from "../components/site/sidebar-menu.astro";
+import SidebarMenu from "./partials/site/sidebar-menu.astro";
 const { frontmatter, headings } = Astro.props;
 const originalPath = new URL(Astro.request.url).pathname;
 const pathname = originalPath.split('/').slice(1);
