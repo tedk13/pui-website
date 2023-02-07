@@ -23,4 +23,4 @@ jobs:
         source_ref: 'development'
         target_branch: 'master'
         commit_message_template: '[Automated] Merged {source_ref} into target {target_branch}'
-    - run: echo "🥃 Workflow complete." 
+    - run: echo "🥃 Workflow complete!" 
