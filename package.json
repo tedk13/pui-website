@@ -4,16 +4,20 @@
   "description": "Platform UI Styleguide and Docs",
   "main": "index.js",
   "scripts": {
-    "start": "npm run puiver && npm install && npm run build:parcel && hugo server",
-    "build": "npm run puiver && npm install && npm run build:parcel && hugo",
-    "watch": "parcel watch ./assets/index.js --out-dir assets/output",
-    "build:parcel": "parcel build ./assets/index.js --out-dir assets/output",
-    "puiver": "npm view @ritterim/platform-ui version > .pui-version"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build"
   },
   "keywords": [],
   "author": "RIMdev",
   "license": "ISC",
+  "dependencies": {
+    "@astrojs/mdx": "^0.12.0",
+    "astro": "^2.0.5"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@astrojs/markdown-component": "^1.0.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.56.1"
   }
 }

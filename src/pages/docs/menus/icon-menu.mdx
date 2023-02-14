@@ -1,0 +1,57 @@
+---
+layout: ../../../layouts/single.astro
+title: Icon
+weight: 3
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Modifiers from '../../../components/modifiers.astro'
+
+## [Icon menu](#icon-menu)
+
+Sometimes you need a smaller menu for a specific area or a smaller viewport. Try an icon menu!
+
+<Codedemo>
+<div class="icon-menu">
+  <div class="icon-menu__item">
+    <a class="icon-menu__action"><i class="pi-edit"></i></a>
+  </div>
+  <div class="icon-menu__item">
+    <a class="icon-menu__action"><i class="pi-clock"></i></a>
+  </div>
+  <div class="icon-menu__item">
+    <a class="icon-menu__action"><i class="pi-trash"></i></a>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="icon-menu">
+  <div class="icon-menu__item">
+    <a href="" class="icon-menu__action">
+      <i class="pi-edit"></i>
+    </a>
+  </div>
+  <div class="icon-menu__item">
+    <a href="" class="icon-menu__action">
+      <i class="pi-clock"></i>
+    </a>
+  </div>
+  <div class="icon-menu__item">
+    <a href="" class="icon-menu__action">
+      <i class="pi-trash"></i>
+    </a>
+  </div>
+</div>
+```
+</Codemarkup>
+
+<Modifiers>
+<Modifiersrow 
+  modifier="icon-menu--vertical" 
+  behavior="Shift the menu's orientation to vertical." 
+/>
+</Modifiers>

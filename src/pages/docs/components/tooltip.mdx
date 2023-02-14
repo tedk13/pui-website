@@ -1,0 +1,37 @@
+---
+layout: ../../../layouts/single.astro
+title: Tooltips
+description: Documentation for Platform UI's tooltip component.
+---
+import Callout from '../../../components/callout.astro'
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+
+## [Tooltip](#tooltip)
+
+Add your text to a `data-tooltip` attribute on any item you want to provide with a tooltip.
+
+<Codedemo>
+<div data-tooltip="Here is a tooltip!">hover me!</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div data-tooltip="Tooltip goes here!">
+  <!-- Content goes here! -->
+</div>
+```
+</Codemarkup>
+
+<Classes attr="true">
+<Classesrow classname="tooltip-{ t, b, l, r }" attr="data-tooltip" />
+<Classesrow classname="tooltip-inline" attr="data-tooltip" />
+</Classes>
+
+<Callout header="Tooltip... Tip?" >
+  <p>If you want to use a tooltip with an icon, make sure to add the data attribute to the <code>div</code> wrapper instead! This will ensure the text does not render a different font.</p>
+</Callout>

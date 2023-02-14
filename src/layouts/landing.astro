@@ -1,0 +1,19 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Toc from './partials/content/toc.astro';
+const { frontmatter, headings } = Astro.props;
+---
+<BaseLayout pageTitle={frontmatter.title}>
+<div class="block-container">
+  <div id="frame" class="block-container w-100 flex--justify-center">  
+    <main id="frame-content" class="block-container w-100 lg-tablet-up-10">
+      <article id="content" class="w-100 lg-tablet-up-9 laptop-up-10 px-4 pb-4">
+        <h1 class="text--purple my-5">{ frontmatter.title }</h1>
+        <Toc headings={headings} mobile />
+        <slot />
+      </article>
+      <Toc headings={headings} />
+    </main>
+  </div>
+</div>
+</BaseLayout>

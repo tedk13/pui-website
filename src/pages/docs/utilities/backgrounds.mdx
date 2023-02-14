@@ -1,0 +1,252 @@
+---
+layout: ../../../layouts/single.astro
+title: Backgrounds
+---
+import Callout from '../../../components/callout.astro'
+import Classesrow from '../../../components/classes-row.astro'
+import Classes from '../../../components/classes.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Datarow from '../../../components/data-row.astro'
+import Data from '../../../components/data.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Requiresjs from '../../../components/requires-js.astro'
+import Visualizer from '../../../components/visualizer.astro'
+
+## [color](#color)
+
+The background color classes are used to set or change a `background--color` on a specific element. 
+
+<Classes>
+<Classesrow 
+  classname="background--{ color }"
+  result="Set background color using our [colors](link)."
+/>
+</Classes>
+
+<Visualizer header="Change the background color!" >
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="background--white">`.background--white`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--lighter">`.background--lighter`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--light-mid">`.background--light-mid`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--light">`.background--light`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--base text--white">`.background--base`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--dark text--white">`.background--dark`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--black text--white">`.background--black`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--navy text--white">`.background--navy`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--skyblue">`.background--skyblue`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--lightblue">`.background--lightblue`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--med-blue">`.background--med-blue`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--beige">`.background--beige`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--peach">`.background--peach`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--salmon">`.background--salmon`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--brown text--white">`.background--brown`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="background--orange">`.background--orange`</button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">Reset</button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
+  <div class="block block-9 h-100 card transition">
+    <span class="text--size-md">Example Card</span>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
+  </div>
+</div>
+</Visualizer>
+
+
+## [inverted](#inverted)
+
+<Classes result="true" >
+<Classesrow classname="inverted" result="Changes text color to white with a transition effect."/>
+</Classes >
+
+## [transparent](#transparent)
+
+Set background color and border color on an element to `transparent`.
+
+<Classes result="true" >
+<Classesrow classname="transparent" result="Set background color and border color on an element to transparent."/>
+</Classes >
+
+
+## [images](#images)
+### [background](#background)
+
+<div class="mb-4">
+<Requiresjs />
+</div>
+
+Sometimes you just don't have access to properly add a background image when you're using a static site generator. Now you can add background images using data attributes and Javascript.
+
+<Classes result="true" >
+<Classesrow classname="background-image" result="Set a background image with custom properties."/>
+</Classes >
+
+<Codedemo>
+<div
+  class="block-container background-image vh-25"
+  data-background-image="https://picsum.photos/id/1012/1000/400"
+  data-background-position="center center"
+  data-background-size="cover"
+  data-background-repeat="no-repeat">
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div
+  class="block-container background-image vh-25"
+  data-background-image="https://picsum.photos/id/1012/1000/400"
+  data-background-position="center center"
+  data-background-size="cover"
+  data-background-repeat="no-repeat">
+</div>
+```
+</Codemarkup>
+
+<Data>
+<Datarow attr="data-background-image" behavior="image path; no-repeat, position center, and size cover all default" />
+<Datarow attr="data-background-position" behavior="Overrides default." />
+<Datarow attr="data-background-size" behavior="Overrides default." />
+<Datarow attr="data-background-repeat" behavior="Overrides default." />
+</Data>
+
+## [gradient](#gradient)
+
+<div class="mb-4">
+<Requiresjs/>
+</div>
+
+Create your own custom linear gradient using a class and data attributes! Yeah, that's right!
+
+<Classes result="true" >
+<Classesrow classname="linear-gradient" result="Custom linear-gradient."/>
+</Classes >
+
+<Data>
+<Datarow attr="data-gradient-direction" behavior="Set the direction of your gradient." />
+<Datarow attr="data-gradient-start" behavior="Set the start of your gradient." />
+<Datarow attr="data-background-stop" behavior="Set the stop of your gradient." />
+<Datarow attr="data-background-fallback" behavior="Set the background when gradient is not supported." />
+</Data>
+
+<Codedemo>
+<div class="block-container">
+  <div
+    class="linear-gradient block vh-25"
+    data-gradient-direction="to left"
+    data-gradient-start="lavender 40%"
+    data-gradient-stop="indigo"
+    data-gradient-fallback="indigo">
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="block-container">
+  <div
+    class="linear-gradient block vh-25"
+    data-gradient-direction="to left"
+    data-gradient-start="lavender 40%"
+    data-gradient-stop="indigo"
+    data-gradient-fallback="indigo">
+  </div>
+</div>
+```
+</Codemarkup>
+
+### [ratio](#ratio)
+
+
+<Classes result="true" >
+<Classesrow classname="ratio-{ 1_1, 2_1, 4_3, 16_9 }" result="Set the size of an element equal to a common ratio: 1:1, 2:1, 4:3, 16:9"/>
+</Classes >
+
+<Codedemo>
+<div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
+  <div class="block">
+    <div class="background--navy ratio-1_1 flex--center-content">
+      <span class="text--white text--size-2xl">1:1</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="background--med-blue ratio-4_3 flex--center-content">
+      <span class="text--white text--size-2xl">4:3</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="background--lightblue ratio-16_9 flex--center-content">
+      <span class="text--size-2xl">16:9</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="background--skyblue ratio-2_1 flex--center-content">
+      <span class="text--size-2xl">2:1</span>
+    </div>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="block-container tablet-up-2 laptop-up-4 blocks my-3 px-2">
+  <div class="block">
+    <div class="background--navy ratio-1_1 flex--center-content">
+      <span class="text--white text--size-2xl">1:1</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="background--skyblue ratio-2_1 flex--center-content">
+      <span class="text--size-2xl">2:1</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="background--med-blue ratio-4_3 flex--center-content">
+      <span class="text--white text--size-2xl">4:3</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="background--lightblue ratio-16_9 flex--center-content">
+      <span class="text--size-2xl">16:9</span>
+    </div>
+  </div>
+</div>
+```
+</Codemarkup>

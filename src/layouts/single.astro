@@ -1,0 +1,65 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Toc from './partials/content/toc.astro';
+import SidebarMenu from "./partials/site/sidebar-menu.astro";
+const { frontmatter, headings } = Astro.props;
+const originalPath = new URL(Astro.request.url).pathname;
+const pathname = originalPath.split('/').slice(1);
+const parentFolder = pathname[1];
+const home = '/';
+const allPages = await Astro.glob('../pages/*');
+const allMd = await Astro.glob('../pages/docs/**/*.md');
+const allMdx = await Astro.glob('../pages/docs/**/*.mdx');
+const allFiles = allMd.concat(allMdx);
+---
+<BaseLayout pageTitle={frontmatter.title} skelly={frontmatter.skellyCSS}>
+  <div id="frame" class="block-container w-100">
+    {/* Mobile Nav & Trigger  */}
+    {/* Dynamically Hide this if not homepage  */}
+    <div id="frame-mobile-nav" class="hide:lg-tablet px-0">
+      <div class="block-container background--lighter flex--justify-end py-2 px-4">
+        <button class="button--plain flex flex--align-center flex--column drawer__open" data-drawer="frame-mobile-nav-drawer">
+          <i class="pi-menu pi-lg" aria-hidden="true"></i>
+          Docs
+        </button>
+      </div>
+      <div id="frame-mobile-nav-drawer" class="drawer drawer-left">
+        <div class="drawer__inner">
+          <div class="drawer__content p-0">
+            <div class="flex flex--justify-end mr-2">
+                <button 
+                  class="button button--secondary has-text drawer__close mobile-menu-action m-2 pos-fix pin-right"
+                  data-drawer="frame-mobile-nav-drawer"
+                >
+                    Close
+                    <i class="pi-times" aria-hidden="true"></i>
+                </button>
+            </div>
+            <nav role="complementary">
+              {/* sidebar menu  */}
+              <SidebarMenu files={allFiles}/>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    {/* Nav Drawer (Tablet and up)  */}
+    <div id="frame-nav" class="hide show:lg-tablet tablet-up-3 lg-tablet-up-2">
+      <nav id="sidebar-left" role="complementary">
+        {/* Sidebar menu  */}
+        <SidebarMenu files={allFiles}/>
+      </nav>
+    </div>
+    {/* End isHome  */}
+     <main id="frame-content" class={`block-container flex--justify-around w-100${originalPath === home ? "" : " lg-tablet-up-10"}`}>
+      <article id="content" class={`w-100${originalPath === home ? "" : " lg-tablet-up-9 px-4 pb-4"}`}>
+        <h1 class="text--purple mt-5">{ frontmatter.title }</h1>
+        <Toc headings={headings} mobile/>
+        {/* Main content  */}
+        <slot />
+      </article>
+      <Toc headings={headings} />
+    </main>
+  </div>
+</BaseLayout>

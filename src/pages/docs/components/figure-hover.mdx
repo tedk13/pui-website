@@ -1,0 +1,30 @@
+---
+layout: ../../../layouts/single.astro
+title: Figures
+description: Documentation for Platform UI's figure components.
+skellyCSS: true
+---
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+
+## [Figure Hover](#figure-hover)
+
+A way to stylishly add captions to images/figures on **hover**. 
+
+<Codedemo>
+<div class="block-container">
+    <figure class="figure-hover block laptop-up-6">
+        <img class="skeleton-image skeleton-image--full skeleton-image--landscape" role="presentation"/>
+        <figcaption>Figcaption goes here.</figcaption>
+    </figure>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<figure class="figure-hover">
+    <img src="..." alt="Figcaption goes here.">
+    <figcaption>Figcaption goes here.</figcaption>
+</figure>
+```
+</Codemarkup>

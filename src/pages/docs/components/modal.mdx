@@ -1,0 +1,89 @@
+---
+layout: ../../../layouts/single.astro
+title: Modals
+description: Documentation for Platform UI's modal components.
+skellyCSS: true
+---
+import Callout from '../../../components/callout.astro'
+import Codedemo from '../../../components/code-demo.astro'
+import Codemarkup from '../../../components/code-markup.astro'
+import Modifiers from '../../../components/modifiers.astro'
+import Modifiersrow from '../../../components/modifiers-row.astro'
+import Requierjs from '../../../components/requires-js.astro'
+
+<Requierjs/>
+
+## [Default](#default)
+
+A modal will display over the screen when toggled with the `active` class.
+
+A modal can easily be opened by setting `data-modal` with the matching `id` of the desired modal on a button with the `modal__open` class. Similarly, a button with the same setup and the `modal__close` class will close the modal.
+
+If you need to prevent the background from scrolling, toggle the `modal-open` class on the body element while the modal is open.
+
+<Codedemo>
+<div class="block mb-3">
+    <button class="button modal__open" data-modal="default-modal">Standard Modal</button>
+</div>
+
+<div id="default-modal" class="modal" tabindex="-1">
+  <div class="modal__inner">
+    <div class="modal__header">
+      <button class="button modal__close" data-modal="default-modal">Close <i class="pi-times"></i></button>
+      Standard Modal
+    </div>
+    <div class="modal__content">
+      <h3 class="skeleton skeleton--md" role="presentation"></h3>
+      <p class="skeleton" data-lines="4" role="presentation"></p>
+    </div>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<button class="button button--lg modal__open" data-modal="default-modal">Standard Modal</button>
+<!-- Standard Modal -->
+<div id="default-modal" class="modal">
+  <div class="modal__inner">
+    <div class="modal__header">
+      <button class="button modal__close" data-modal="default-modal">
+        Close 
+        <i class="pi-times"></i>
+      </button>
+      <!-- Modal Header goes here! -->
+    </div>
+    <div class="modal__content">
+      <!-- Modal content goes here! -->
+    </div>
+  </div>
+</div>
+```
+</Codemarkup>
+
+<Modifiers data="true">
+<Modifiersrow 
+  modifier="modal--small"
+  attr="data-modal"
+  behavior="Small sized modal." 
+/>
+<Modifiersrow 
+  modifier="modal--large"
+  attr="data-modal"
+  behavior="Large sized modal." 
+/>
+<Modifiersrow 
+  modifier="modal--full"
+  attr="data-modal"
+  behavior="Full sized modal, takes up 100% of the viewport." 
+/>
+<Modifiersrow 
+  modifier="modal--centered"
+  attr="data-modal"
+  behavior="Centers the modal in the middle of the viewport." 
+/>
+</Modifiers>
+
+<Callout header="Modal Tip" >
+  <p>If you want to make a dialog box, you can just remove the <code>modal__header</code> from the modal!</p>
+</Callout>
