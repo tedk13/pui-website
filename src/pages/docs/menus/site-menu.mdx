@@ -50,6 +50,23 @@ The `site-menu` starts as a basic horizontal menu that can be modified to fit a 
 </tr>
 </Modifiers>
 
+## [Header Fixed](#header-fixed)
+
+If you want to make your header fixed, add the classes `.site-header.site-header--fixed` to your header. This will give the proper styles to your header to fix it to your window. 
+
+To ensure that your page has the proper spacing and accounts for the size of the fixed header, add the class `header-fixed` to your main content or whatever the next sibling of your header is.
+
+<Codemarkup>
+```html
+<header class="site-header site-header--fixed">
+  Header
+</header>
+<main class="header-fixed">
+  Main Content
+</main>
+```
+</Codemarkup> 
+
 ## [logo](#logo)
 
 Our site menu was built to be used in the header as a main site navigation. If you'd like to add a logo, apply the `site-logo` class.
