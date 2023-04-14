@@ -166,15 +166,6 @@ main, footer {
       border-color: 1px solid var(--purple);
     }
   }
-  a[rel="external noopener"]{
-    &::after{
-      font-family:'platform-icons';
-      content: "\f17c";
-      font-size:0.75rem;
-      margin-left:0.25rem;
-      text-decoration: none;
-    }
-  }
 
   // page anchors
   
