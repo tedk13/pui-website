@@ -13,24 +13,47 @@ import Requiresjs from '../../../components/requires-js.astro'
 <Requiresjs/>
 </div>
 
-Our version of the standard hamburger menu requires our Javascript and a bit more markdown. Here's the basic structure; check out this site in a mobile viewport to see it in action.
+Our version of the standard hamburger menu requires our Javascript and a bit more markdown. Here's the basic structure; Scale the page down to see the menu below.
 
-<Codemarkup>
-```html
-<div class="site-menu-wrapper">
+<Codedemo>
+<div class="site-menu-wrapper background--white">
+  <img src="http://via.placeholder.com/150x72"/>
   <button class="site-menu-mobile-action">
     <span class="sr-only">Toggle Navigation</span>
     <i class="pi-menu pi-xl"></i>
   </button>
   <nav class="site-menu">
-    <a href="" class="site-menu__item">About</a>
-    <a href="#" class="site-menu__item">Fruits</a>
+    <a href="#" class="site-menu__item">About</a>
+    <a href="#" class="site-menu__item">Contact</a>
     <div class="dropdown">
-      <a href="#" class="site-menu__item dropdown__trigger">
-        Item 1 <i class="ml-1 pi-angle-down"></i>
-      </a>
+      <button class="site-menu__item dropdown__trigger button--plain">Fruits <i class="ml-1 pi-angle-down"></i></button>
+      <div class="dropdown__content">
+        <a href="#" class="dropdown__content-item">Dragonfruit</a>
+        <a href="#" class="dropdown__content-item">Peach</a>
+      </div>
+    </div>
+  </nav>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="site-menu-wrapper">
+  <img src="http://via.placeholder.com/150x72"/>
+  <button class="site-menu-mobile-action">
+    <span class="sr-only">Toggle Navigation</span>
+    <i class="pi-menu pi-xl"></i>
+  </button>
+  <nav class="site-menu">
+    <a href="#" class="site-menu__item">About</a>
+    <a href="#" class="site-menu__item">Contact</a>
+    <div class="dropdown">
+      <button class="site-menu__item dropdown__trigger button--plain">
+        Fruits <i class="ml-1 pi-angle-down"></i>
+      </button>
       <div class="dropdown__content">
         <a href="" class="dropdown__content-item">Dragonfruit</a>
+        <a href="" class="dropdown__content-item">Peach</a>
       </div>
     </div>
   </nav>
