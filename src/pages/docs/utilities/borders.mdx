@@ -172,3 +172,56 @@ When set, all borders default to a `1px` width which can be offset using `border
   </div>
 </div>
 </Visualizer >
+
+## [Border Radius](#border-radius)
+
+You can add a border radius utility to any element.
+
+<Classes result="true" >
+<Classesrow classname="rounded-1" result="border-radius: .25rem" />
+<Classesrow classname="rounded-2" result="border-radius: .5rem" />
+<Classesrow classname="rounded-3" result="border-radius: 1rem" />
+<Classesrow classname="rounded-4" result="border-radius: 2rem" />
+<Classesrow classname="rounded-5" result="border-radius: 3rem" />
+<Classesrow classname="rounded-6" result="border-radius: 4.5rem" />
+<Classesrow classname="rounded-7" result="border-radius: 6.5rem" />
+</Classes>
+
+<Visualizer header="Change the border-radius of the card">
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="rounded-1">`.rounded-1`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="rounded-2">`.rounded-2`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="rounded-3">`.rounded-3`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="rounded-4">`.rounded-4`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="rounded-5">`.rounded-5`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="rounded-6">`.rounded-6`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="rounded-7">`.rounded-7`</button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
+  <div class="block block-9 h-100 card transition border--width-5">
+    <span class="text--size-md">Example Card</span>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
+  </div>
+</div>
+</Visualizer >
+
+### [Specific Corners](#specific-corners)
+
+You can specify a border-radius on a certain corner of an element. Just be sure to add the corner you want. It looks like this:
+`rounded-tr--2`. This would add `border-top-right-radius: .5rem`. 
