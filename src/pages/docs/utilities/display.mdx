@@ -24,6 +24,8 @@ import Classes from '../../../components/classes.astro'
 
 Our responsive classes take a mobile-first approach by either showing or hiding elements at specified viewports. The classes are broken down by using `show` or `hide` and applying a viewport suffix such as `:tablet` or `:desktop`.
 
+For example, if you wanted to start displaying an element at the laptop screen size, you would add `hide show:laptop`. The `hide` class adds `display: none` which affects all screen sizes. Whereas the `show:laptop` class adds `display: block` at the respected media query. On the flip side, if you wanted to _hide_ an element at the laptop resolution, you owuld simply add `hide:laptop`. It might help to think of these classes from the "mobile-first" approach. 
+
 
 <Classes result="true"> 
 <Classesrow classname="show-print" result="Show on printed media." />
