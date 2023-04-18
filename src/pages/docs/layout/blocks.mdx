@@ -288,3 +288,41 @@ In the grid demo example, each block will take up an entire row at the smallest 
 </div>
 ```
 </Codemarkup>
+
+## [Spacing](#spacing)
+
+You can add spacing utilities to nested blocks by adding the classes to the block-container. You need to add `blocks {spacer-class}`. The `blocks` class is needed. Without it, you will simply be adding the spacers to the block-container rather than the nested blocks. This can be a great method for spacing multiple blocks equally. Adding `blocks {spacer-class}` will ensure that the spacing fits the container along the x-axis. Check out the example below. The block-container width increases based on the x-axis padding that is added. 
+
+<Blockgrid level="4" padding="blocks p-3 mb-3" >
+  <div class="block block-3">
+    <div class="card">
+      <code>block-3</code>
+    </div>
+  </div>
+  <div class="block block-9">
+    <div class="card">
+      <code>block-9</code>
+    </div>
+  </div>
+  <div class="block block-6">
+    <div class="card">
+      <code>block-6</code>
+    </div>
+  </div>
+  <div class="block block-6">
+    <div class="card">
+      <code>block-6</code>
+    </div>
+  </div>
+</Blockgrid>
+
+<Codemarkup>
+```html
+<div class="block-container blocks p-3 mb-3">
+  <div class="block block-3"></div>
+  <div class="block block-9"></div>
+  <div class="block block-6"></div>
+  <div class="block block-6"></div>
+</div>
+```
+</Codemarkup>

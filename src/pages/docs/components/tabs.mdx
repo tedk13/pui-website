@@ -89,3 +89,133 @@ At a mobile resolution (below 768px) an active tab will collapse when clicked.
   behavior="Removes responsive behavior." 
 />
 </Modifiers>
+
+## [Tabs Flat](#tabs-flat)
+
+Adding `tabs--flat` to your tabs to change the styles. Flat adds the border below rather than a traditional tab look.
+
+<Codedemo>
+<div class="tabs tabs--flat">
+  {/*<!-- Tab 1 -->*/}
+  <input type="radio" id="tab-input-flat-a" name="tabs-flat" checked/>
+  <label for="tab-input-flat-a" class="tab"><i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1</label>
+  <div class="tab-panel">
+    <p class="skeleton" data-lines="4" role="presentation"></p>
+  </div>
+
+  {/*<!-- Tab 2 -->*/}
+  <input type="radio" id="tab-input-flat-b" name="tabs-flat"/>
+  <label for="tab-input-flat-b" class="tab"><i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2</label>
+  <div class="tab-panel">
+    <div class="flex">
+      <img class="skeleton-image skeleton-image--lg mb-3" role="presentation"/>
+      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3" role="presentation"/>
+    </div>
+  </div>
+
+  {/*<!-- Tab 3 -->*/}
+  <input type="radio" id="tab-input-flat-c" name="tabs-flat"/>
+  <label for="tab-input-flat-c" class="tab"><i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3</label>
+  <div class="tab-panel">
+    <img class="skeleton-image skeleton-image--lg mb-3" role="presentation"/>
+    <h2 class="skeleton skeleton--md" role="presentation"></h2>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="tabs tabs--flat">
+  <!-- Tab 1 -->
+  <input type="radio" id="tab-input-flat-a" name="tabs-flat" checked/>
+  <label for="tab-input-flat-a" class="tab">
+    <!-- Tab label goes here! -->
+  </label>
+  <div class="tab-panel">
+    <!-- Tab content goes here! -->
+  </div>
+  <!-- Tab 2 -->
+  <input type="radio" id="tab-input-flat-b" name="tabs-flat"/>
+  <label for="tab-input-flat-b" class="tab">
+    <!-- Tab label goes here! -->
+  </label>
+  <div class="tab-panel">
+    <!-- Tab content goes here! -->
+  </div>
+  <!-- Tab 3 -->
+  <input type="radio" id="tab-input-flat-c" name="tabs-flat"/>
+  <label for="tab-input-flat-c" class="tab">
+    <!-- Tab label goes here! -->
+  </label>
+  <div class="tab-panel">
+    <!-- Tab content goes here! -->
+  </div>
+</div>
+```
+</Codemarkup>
+
+## [Unresponsive](#unresponsive)
+
+Adding the class `unresponsive` to your tabs will remove the mobile styles. Scale the page down to see the example.
+
+<Codedemo>
+<div class="tabs tabs--flat unresponsive">
+  {/*<!-- Tab 1 -->*/}
+  <input type="radio" id="tab-input-unresponsive-a" name="tabs-unresponsive" checked/>
+  <label for="tab-input-unresponsive-a" class="tab"><i class="pi-folder-open" focusable="false" aria-hidden="hidden"></i> Tab 1</label>
+  <div class="tab-panel">
+    <p class="skeleton" data-lines="4" role="presentation"></p>
+  </div>
+
+  {/*<!-- Tab 2 -->*/}
+  <input type="radio" id="tab-input-unresponsive-b" name="tabs-unresponsive"/>
+  <label for="tab-input-unresponsive-b" class="tab"><i class="pi-folder" focusable="false" aria-hidden="hidden"></i> Tab 2</label>
+  <div class="tab-panel">
+    <div class="flex">
+      <img class="skeleton-image skeleton-image--lg mb-3" role="presentation"/>
+      <img class="skeleton-image skeleton-image--lg skeleton-image--circle mb-3" role="presentation"/>
+    </div>
+  </div>
+
+  {/*<!-- Tab 3 -->*/}
+  <input type="radio" id="tab-input-unresponsive-c" name="tabs-unresponsive"/>
+  <label for="tab-input-unresponsive-c" class="tab"><i class="pi-users" focusable="false" aria-hidden="hidden"></i> Tab 3</label>
+  <div class="tab-panel">
+    <img class="skeleton-image skeleton-image--lg mb-3" role="presentation"/>
+    <h2 class="skeleton skeleton--md" role="presentation"></h2>
+    <p class="skeleton" data-lines="3" role="presentation"></p>
+  </div>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="tabs tabs--flat unresponsive">
+  <!-- Tab 1 -->
+  <input type="radio" id="tab-input-unresponsive-a" name="tabs-unresponsive" checked/>
+  <label for="tab-input-unresponsive-a" class="tab">
+    <!-- Tab label goes here! -->
+  </label>
+  <div class="tab-panel">
+    <!-- Tab content goes here! -->
+  </div>
+  <!-- Tab 2 -->
+  <input type="radio" id="tab-input-unresponsive-b" name="tabs-unresponsive"/>
+  <label for="tab-input-unresponsive-b" class="tab">
+    <!-- Tab label goes here! -->
+  </label>
+  <div class="tab-panel">
+    <!-- Tab content goes here! -->
+  </div>
+  <!-- Tab 3 -->
+  <input type="radio" id="tab-input-unresponsive-c" name="tabs-unresponsive"/>
+  <label for="tab-input-unresponsive-c" class="tab">
+    <!-- Tab label goes here! -->
+  </label>
+  <div class="tab-panel">
+    <!-- Tab content goes here! -->
+  </div>
+</div>
+```
+</Codemarkup>
