@@ -3,6 +3,7 @@ layout: ../../../layouts/single.astro
 title: Hover Effects
 skellyCSS: true
 ---
+import Callout from '../../../components/callout.astro'
 import Classesrow from '../../../components/classes-row.astro'
 import Classes from '../../../components/classes.astro'
 import Codedemo from '../../../components/code-demo.astro'
@@ -42,3 +43,25 @@ import Codedemo from '../../../components/code-demo.astro'
     </div>
 </div>
 </Codedemo>
+
+## [Underline](#underline)
+
+<Classes results="true">
+<Classesrow classname="text-underline--hover" result="Adds an underline on hover to the element."/>
+</Classes>
+
+<Codedemo>
+<div class="block-container">
+    <div class="block laptop-up-3">
+        <div class="card">
+            <div class="card__content text-underline--hover">
+                <p class="skeleton" data-lines="2" role="presentation"></p>
+            </div>
+        </div>
+    </div>
+</div>
+</Codedemo>
+
+<Callout header="Underline Tip" >
+  <p>The color of the underline will match the color of text hover utility class. If you have `text-hover--navy text-underline--hover` on an element, both text color and underline color will be navy.</p>
+</Callout>
