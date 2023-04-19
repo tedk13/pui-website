@@ -10,6 +10,7 @@ import Codedemo from '../../../components/code-demo.astro'
 import Codemarkup from '../../../components/code-markup.astro'
 import Modifiersrow from '../../../components/modifiers-row.astro'
 import Modifiers from '../../../components/modifiers.astro'
+import Visualizer from '../../../components/visualizer.astro'
 
 ## [heading](#heading)
 
@@ -78,31 +79,66 @@ Why include a paragraph tag? Mostly to note that our paragraphs have a bottom ma
 </Codedemo>
 
 <Classes result="true">
-<Classesrow classname="text--size-2xs" result="2xs smaller text." />
-<Classesrow classname="text--size-xs" result="xs text." />
-<Classesrow classname="text--size-sm" result="sm text." />
-<Classesrow classname="text--size-md" result="medium text." />
-<Classesrow classname="text--size-lg" result="large text." />
-<Classesrow classname="text--size-xl" result="xl text." />
-<Classesrow classname="text--size-2xl" result="2xl larger text." />
-<Classesrow classname="text--size-3xl" result="3xl larger text." />
+<Classesrow classname="text--size-2xs" result=".422rem" />
+<Classesrow classname="text--size-xs" result=".563rem" />
+<Classesrow classname="text--size-sm" result=".75rem" />
+<Classesrow classname="text--size-base" result="1rem" />
+<Classesrow classname="text--size-md" result="1.333rem" />
+<Classesrow classname="text--size-lg" result="1.777rem" />
+<Classesrow classname="text--size-xl" result="2.369rem" />
+<Classesrow classname="text--size-2xl" result="3.157rem" />
+<Classesrow classname="text--size-3xl" result="4.209rem" />
 </Classes>
 
 
 ### [general](#general)
-
-<Codedemo>
-<p class="text--bold">Hello World!</p>
-<p class="text--underline">Hello World!</p>
-<p class="text--center">Hello World!</p>
-<p class="text--right">Hello World!</p>
-<p class="text--nowrap">The quick brown fox jumped over the lazy dog.</p>
-</Codedemo>
    
 <Classes result="true">
 <Classesrow classname="text--bold" result="Bold text." />
 <Classesrow classname="text--underline" result="Underlined text." />
 <Classesrow classname="text--center" result="Centered text." />
 <Classesrow classname="text--right" result="Right-aligned text." />
+<Classesrow classname="text--left" result="Left-aligned text." />
 <Classesrow classname="text--nowrap" result="Set no-wrap on a line of text." />
+<Classesrow classname="text--italic" result="font-style: italic" />
+<Classesrow classname="text--normal" result="font-style: normal" />
 </Classes>
+
+<Visualizer header="Change the border-radius of the card">
+<div class="actions block">
+  <ul class="list">
+    <li>
+      <button class="button" data-example-elements="text--bold">`text--bold`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="text--underline">`text--underline`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="text--center">`text--center`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="text--right">`text--right`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="text--left">`text--left`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="text--nowrap">`text--nowrap`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="text--italic">`text--italic`</button>
+    </li>
+    <li>
+      <button class="button" data-example-elements="text--normal">`text--normal`</button>
+    </li>
+    <li>
+      <button class="button button--salmon text--white" data-reset="true">Reset</button>
+    </li>
+  </ul>
+</div>
+<div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content">
+  <div class="block block-9 h-100 card transition border--width-5">
+    <span class="text--size-md">Example Card</span>
+  </div>
+</div>
+</Visualizer >
