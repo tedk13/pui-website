@@ -5,12 +5,11 @@
 This is the website for [Platform UI](https://github.com/ritterim/platform-ui). It's built on [Hugo](https://gohugo.io) with [ParcelJS](https://parceljs.org/). 
 
 ## To view:
-* dev: https://pui.rimdev.io
-
+* dev: https://polite-water-090c8b210.2.azurestaticapps.net
 
 ## To run:
 * `$ npm run build`
-* `$ npm start`.
+* `$ npm start`
 
 ## To complain
 * https://github.com/ritterim/pui-website/issues
