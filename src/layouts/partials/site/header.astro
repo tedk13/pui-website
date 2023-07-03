@@ -1,6 +1,6 @@
 ---
 import {site} from '../../../data/config.json';
-import PuiVersion from '../../../mixins/puiversion.js';
+import PuiVersion from '../../../components/pui-version.astro';
 const nav = site.menu
 const pathname = new URL(Astro.request.url).pathname.split('/');
 const firstPath = pathname[1];
@@ -16,7 +16,7 @@ const home = '/';
     )}
   </nav>
   <div class="h-100 text--white flex flex--justify-end flex--align-center">
-    <span class="hide show:tablet mr-2">v{PuiVersion}</span>
+    <span class="hide show:tablet mr-2">v<PuiVersion/></span>
     <a href={site.rimdev_url} rel="external noopener" target="_blank" class="text--white" aria-label="RIMdev Blog">
       <i class="pi-rimdev-circle pi-xl text-hover--skyblue transition" aria-hidden="true"></i>
     </a>
