@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@astrojs/mdx": "^0.12.0",
+    "@ritterim/platform-ui": "^1.7.12",
     "astro": "^2.0.5"
   },
   "devDependencies": {
