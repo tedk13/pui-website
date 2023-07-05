@@ -4,42 +4,38 @@
     <title>Loaders | Platform UI. A CSS framework by RIMdev</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/svg+xml" href="/images/platform-ui.svg">
-    <meta name="generator" content="Astro v1.6.15">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon/platform-ui.svg">
+    <meta name="generator" content="Astro v2.0.5">
     <!-- Google Tag Manager --><script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer',`${ site.gtmID }`);</script>
 <!-- End Google Tag Manager -->
-
     <!-- Social: Facebook / Open Graph --><meta property="og:url" content="/docs/components/loader/">
 <meta property="og:title" content="Loaders">
 <meta property="og:image" content="/images/social-image.png">
 <meta property="og:image:alt" content="Platform UI Rocket">
 <meta property="og:description">
 <meta property="og:site_name" content="Platform UI">
-
-    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <!-- Social: Google+ / Schema.org  --><meta itemprop="name" content="Loaders">
 <meta itemprop="description">
 <meta itemprop="image" content="Platform UI">
-
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/@ritterim/platform-ui/dist/platform-ui.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/platform-ui.min.css">
     <!-- Social: Twitter --><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="/docs/components/loader/">
 <meta name="twitter:title" content="Loaders">
 <meta name="twitter:image" content="/images/social-image.png">
 <meta property="twitter:image:alt" content="Platform UI Rocket">
 <meta name="twitter:description" content="Platform UI">
-
-<link rel="stylesheet" href="/assets/icons.ae67d820.css" /></head>
+</head>
 
 	<body class="flex flex--column">
 		<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -52,7 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <a class="p-2 site-menu__item active" href="/docs/getting-started/cdn">Docs</a><a class="p-2 site-menu__item" href="/icons/icons">Icons</a><a class="p-2 site-menu__item" href="/launchpad/forms">Launchpad</a>
   </nav>
   <div class="h-100 text--white flex flex--justify-end flex--align-center">
-    <span class="hide show:tablet mr-2">v1.6.3</span>
+    <span class="hide show:tablet mr-2">v<span>1.7.12</span></span>
     <a href="https://rimdev.io " rel="external noopener" target="_blank" class="text--white" aria-label="RIMdev Blog">
       <i class="pi-rimdev-circle pi-xl text-hover--skyblue transition" aria-hidden="true"></i>
     </a>
@@ -61,8 +57,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 		<div id="app" class="header-fixed flex--grow">
 			<div id="frame" class="block-container w-100">
-    <!-- Mobile Nav & Trigger -->
-    <!-- ToDo: Dynamically Hide this if not homepage -->
+    
+    
     <div id="frame-mobile-nav" class="hide:lg-tablet px-0">
       <div class="block-container background--lighter flex--justify-end py-2 px-4">
         <button class="button--plain flex flex--align-center flex--column drawer__open" data-drawer="frame-mobile-nav-drawer">
@@ -80,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </button>
             </div>
             <nav role="complementary">
-              <!-- todo: sidebar menu -->
+              
               <ul class="sidebar-menu list">
     <!-- For /layouts pages -->
     <li class="accordion no-border mb-0 ">
@@ -241,6 +237,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </li><li class="mb-0 flex">
                                     <a href="/docs/utilities/overflow" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Overflows</a>
                                 </li><li class="mb-0 flex">
+                                    <a href="/docs/utilities/page-anchor-target" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Page Anchor Target</a>
+                                </li><li class="mb-0 flex">
                                     <a href="/docs/utilities/pointer" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Cursor</a>
                                 </li><li class="mb-0 flex">
                                     <a href="/docs/utilities/position" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Positioning</a>
@@ -266,10 +264,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
   
-    <!-- Nav Drawer (Tablet and up) -->
+    
     <div id="frame-nav" class="hide show:lg-tablet tablet-up-3 lg-tablet-up-2">
       <nav id="sidebar-left" role="complementary">
-        <!-- ToDo: Sidebar menu -->
+        
         <ul class="sidebar-menu list">
     <!-- For /layouts pages -->
     <li class="accordion no-border mb-0 ">
@@ -430,6 +428,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </li><li class="mb-0 flex">
                                     <a href="/docs/utilities/overflow" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Overflows</a>
                                 </li><li class="mb-0 flex">
+                                    <a href="/docs/utilities/page-anchor-target" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Page Anchor Target</a>
+                                </li><li class="mb-0 flex">
                                     <a href="/docs/utilities/pointer" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Cursor</a>
                                 </li><li class="mb-0 flex">
                                     <a href="/docs/utilities/position" class="text--base pr-3 py-2 pl-4 w-100 text--light--hover ">Positioning</a>
@@ -451,24 +451,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </ul>
       </nav>
     </div>
-    <!-- End isHome -->
+    
      <main id="frame-content" class="block-container flex--justify-around w-100 lg-tablet-up-10">
       <article id="content" class="w-100 lg-tablet-up-9 px-4 pb-4">
         <h1 class="text--purple mt-5">Loaders</h1>
         <aside class="content-nav on-this-page hide:lg-tablet background--lighter p-3 mb-4 text--capitalize">
-          <h2 class="text--size-md">On This Page</h2>
-          <ul class="list">
-            <li>
-                  <a href="#default">Default</a>
-                </li><li>
-                  <a href="#buttons">Buttons</a>
-                </li>
-          </ul>
-        </aside>
-        <!-- Main content -->
+    <h2 class="text--size-md">On This Page</h2>
+    <ul class="list">
+      <li class="">
+            <a href="#default">Default</a>
+          </li><li class="">
+            <a href="#buttons">Buttons</a>
+          </li>
+    </ul>
+</aside>
+        
         <h2 id="default"><a href="#default">Default</a></h2>
 <p>It’s a <code>1.4rem</code> loader.</p>
-<link rel="stylesheet" href="/assets/icons.ae67d820.css" /><section class="mb-4">
+<link rel="stylesheet" href="/_astro/icons.cf70d891.css" /><section class="mb-4">
     <h3 class="mb-3 text--light text--size-md">Demo</h3>
     <div class="loader"></div>
 </section>
@@ -501,7 +501,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
   <td data-label="Behavior">
     <p>Small <code>.9rem</code></p>
-
   </td>
 </tr><tr>
   <td data-label="Modifier">
@@ -511,7 +510,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
   <td data-label="Behavior">
     <p>Large <code>2rem</code></p>
-
   </td>
 </tr>
       </tbody>
@@ -533,7 +531,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </p>
     </div>
     <div class="visualizer block-container p-3 py-4 tablet-up-2 background--white">
-      <div class="actions block"><ul class="list"><li><button class="button" data-example-elements="loader"><pre>.loader</pre></button></li><li><button class="button" data-example-elements="loader loader--sm"><pre>.loader—sm</pre></button></li><li><button class="button" data-example-elements="loader loader--lg"><pre>.loader—lg</pre></button></li><li><button class="button button--salmon text--white" data-reset="true">Reset</button></li></ul></div><div class="results rounded-2 block background--dark p-3" data-default-class="flex flex--center-content background--white py-5 rounded-1"><div class="loader"></div></div>
+      <div class="actions block"><ul class="list"><li><button class="button" data-example-elements="loader"><code>.loader</code></button></li><li><button class="button" data-example-elements="loader loader--sm"><code>.loader--sm</code></button></li><li><button class="button" data-example-elements="loader loader--lg"><code>.loader--lg</code></button></li><li><button class="button button--salmon text--white" data-reset="true">Reset</button></li></ul></div><div class="results rounded-2 block background--dark p-3" data-default-class="flex flex--center-content background--white py-5 rounded-1"><div class="loader"></div></div>
     </div>
   </div>
 </section>
@@ -553,15 +551,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </section>
       </article>
       <aside class="content-nav on-this-page hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
-        <h2 class="text--size-md">On This Page</h2>
-        <ul class="list">
-          <li class="">
-                <a href="#default">Default</a>
-              </li><li class="">
-                <a href="#buttons">Buttons</a>
-              </li>
-        </ul>
-      </aside>
+    <h2 class="text--size-md">On This Page</h2>
+    <ul class="list">
+      <li class="">
+            <a href="#default">Default</a>
+          </li><li class="">
+            <a href="#buttons">Buttons</a>
+          </li>
+    </ul>
+</aside>
     </main>
   </div>
 		</div>
@@ -574,15 +572,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <img src="/images/platform-ui.svg" class="h-25" alt=" Platform UI">
                 </a>
                 <span class="text--size-lg">Platform UI</span>
-                <p>Built by the <a class="text--beige" href="https://ritterim.com" rel="external noopener">Ritter Insurance Marketing</a>
-                    development team, aka <a class="text--beige" href="https://rimdev.io " rel="external noopener">RIMdev</a>, to
+                <p>Built by the <a class="text--beige" href="https://ritterim.com" rel="external noopener" target="_blank">Ritter Insurance Marketing <i class="pi-link-external"></i></a>
+                    development team, aka <a class="text--beige" href="https://rimdev.io " rel="external noopener" target="_blank">RIMdev <i class="pi-link-external"></i></a> , to
                     power our platform of staff and agent tools. </p>
             </div>
-            <p>Platform UI is available on <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/platform-ui" rel="external noopener">npm</a> and uses SkellyCSS, also
-                on <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/skellycss" rel="external noopener">npm</a> and
-                <a class="text--beige" href="https://github.com/ritterim/skellyCSS" rel="external noopener">github</a>
+            <p>Platform UI is available on <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/platform-ui" rel="external noopener" target="_blank">npm <i class="pi-link-external"></i></a> and uses SkellyCSS, also
+                on <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/skellycss" rel="external noopener" target="_blank">npm <i class="pi-link-external"></i></a> and
+                <a class="text--beige" href="https://github.com/ritterim/skellyCSS" rel="external noopener" target="_blank">github <i class="pi-link-external"></i></a>
             </p>
-            <p>Current version 1.6.3</p>
+            <p>Current version <span>1.7.12</span></p>
             <p class="mb-0">&copy;2023 Ritter Insurance Marketing</p>
         </div>
         <div class="block lg-tablet-up-8">
@@ -603,13 +601,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <h2 class="text--white text--size-md mb-2">More from RIMdev</h2>
                     <ul class="list">
                         <li>
-                            <a href="https://www.npmjs.com/search?q=ritterim" rel="external noopener" class="text--beige">npm packages</a>
+                            <a href="https://www.npmjs.com/search?q=ritterim" rel="external noopener" target="_blank" class="text--beige">npm packages <i class="pi-link-external"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.nuget.org/packages?q=rimdev" rel="external noopener" class="text--beige">nuget packages</a>
+                            <a href="https://www.nuget.org/packages?q=rimdev" rel="external noopener" target="_blank" class="text--beige">nuget packages <i class="pi-link-external"></i></a>
                         </li>
                         <li>
-                            <a href="https://rimdev.io " rel="external noopener" class="text--beige">Tech blog</a>
+                            <a href="https://rimdev.io " rel="external noopener" target="_blank" class="text--beige">Tech blog <i class="pi-link-external"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -617,16 +615,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <h2 class="text--white text--size-md mb-2">More from Ritter</h2>
                     <ul class="list">
                         <li>
-                            <a href="https://ritterim.com/" rel="external noopener" class="text--beige">Ritter Insurance Marketing</a>
+                            <a href="https://ritterim.com/" rel="external noopener" target="_blank" class="text--beige">Ritter Insurance Marketing <i class="pi-link-external"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.ritterim.com/blog/" rel="external noopener" class="text--beige">ASG</a>
+                            <a href="https://www.ritterim.com/blog/" rel="external noopener" target="_blank" class="text--beige">ASG <i class="pi-link-external"></i></a>
                         </li>
                         <li>
-                            <a href="https://podcasts.apple.com/us/podcast/agent-survival-guide-podcast/id1310637866" rel="external noopener" class="text--beige">Podcasts</a>
+                            <a href="https://podcasts.apple.com/us/podcast/agent-survival-guide-podcast/id1310637866" rel="external noopener" target="_blank" class="text--beige">Podcasts <i class="pi-link-external"></i></a>
                         </li>
                         <li>
-                            <a href="https://medicareful.com/" rel="external noopener" class="text--beige">Medicareful</a>
+                            <a href="https://medicareful.com/" rel="external noopener" target="_blank" class="text--beige">Medicareful <i class="pi-link-external"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -634,7 +632,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
 </footer>
-	<script src="https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
 <script type="text/javascript" src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js" crossorigin defer></script>
 <script src="/scripts/index.js" type="module"></script>
 </body></html>
