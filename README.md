@@ -13,3 +13,9 @@ This is the website for [Platform UI](https://github.com/ritterim/platform-ui). 
 
 ## To complain
 * https://github.com/ritterim/pui-website/issues
+
+
+## To Build Icon set
+* `Update Platform UI version`
+* `npm run install`
+* `npm run build:icons`

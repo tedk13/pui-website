@@ -1,8 +1,18 @@
 ---
-import data from '../data/icons.json';
-console.log(data)
+import icons from '../data/icons.json';
+// Turns object into an array
+const arr = Object.entries(icons);
 ---
-
-<div>
-  {data}
+<ul class="list block-container tablet-up-5 blocks p-2 mb-3">
+  {arr.map((icon) => 
+    <li class="block flex--center-content flex--column">
+      <span class="flex text--size-2xl text--base p-3">
+        <i class={`pi-${icon[0]}`}></i>
+      </span>
+      <span class="flex--center-content">pi-{icon[0]}</span>
+      <div class="button mt-2 tooltip-bottom" data-copy-button="" data-clipboard-text={`<i class="pi-${icon[0]}"></i>`}>Copy <i class="pi-clipboard"></i></div>
+    </li>
+  )}
+</ul>
+  
 </div>
