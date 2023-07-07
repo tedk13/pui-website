@@ -67,6 +67,20 @@ If you add the `error` class to a `form__field` that contains check boxes or rad
 
 
 
+<Codedemo>
+<form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
+  <div class="block">
+    <label for="dob-g" class="form__field has-icon--right">Birthday<input id="dob-g" type="date"/><i class="pi-calendar background--white"></i></label>
+  </div>
+  <div class="block">
+    <label for="date-g" class="form__field has-icon">Date<input id="date-g" type="date"/><i class="pi-calendar text--med-blue background--white"></i></label>
+  </div>
+  <div class="block">
+    <label for="time-g" class="form__field has-icon--right">Your Time<input id="time-g" type="time" placeholder="10:00 AM"/><i class="pi-clock"></i></label>
+  </div>
+</form>
+</Codedemo>
+
 <Codemarkup>
 ```html
 <form action="" class="form block-container tablet-up-3 laptop-up-4 desktop-up-6 blocks mb-3 p-2">
@@ -78,11 +92,6 @@ If you add the `error` class to a `form__field` that contains check boxes or rad
   </div>
   <div class="block">
     <label for="time-g" class="form__field has-icon--right">Your Time<input id="time-g" type="time" placeholder="10:00 AM"/><i class="pi-clock"></i></label>
-  </div>
-  <div class="block">
-    <div class="form__field form__button-group">
-      <button class="button button--lg">Submit</button>
-    </div>
   </div>
 </form>
 ```

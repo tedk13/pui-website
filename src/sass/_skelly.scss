@@ -1,0 +1,8 @@
+// Skelly JS overrides 
+p .skeleton__line {
+  margin-bottom: 0;
+
+  + .skeleton__line {
+    margin-block-start: .6rem;
+  }
+}

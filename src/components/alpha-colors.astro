@@ -19,10 +19,10 @@ const colors = [
 ]
 const numbers = [1,2,3,4,5,6,7,8,9];
 ---
-<div class="block-container blocks tablet-up-9">
+<div class="block-container blocks px-1 mb-3 tablet-up-9">
   {colors.map((color) => (
-    <div class="block mr-2">
-      <h3 class="text--capitalize text--light-purple text--size-md mt-3">{color}</h3>
+    <div class="block">
+      <h3 class="text--capitalize text--light-purple text--size-md">{color}</h3>
       {numbers.map((number) => (
         <div 
           class={`card no-border m-1 rounded-1 background--${color}-a${number}0 pointer`}

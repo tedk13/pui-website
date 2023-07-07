@@ -47,3 +47,26 @@ Messages can be used to display important information that will stand out on the
 <Callout header="Message Tip">
   <p>You can add a custom heading to any message using <code>data-header="\{Your Heading\}"</code>. You can also remove the heading by setting <code>data-header="none"</code>!</p>
 </Callout>
+<Codedemo>
+
+<div class="message message--info" data-header="Action Required">
+  <p class="skeleton" data-lines="1" data-color="var(--med-blue)" data-opacity="0.2"  role="presentation"></p>
+</div>
+
+This warning message below has no header.
+
+<div class="message message--warning" data-header="none">
+  <p class="skeleton" data-lines="2" data-color="var(--med-blue)" data-opacity="0.2"  role="presentation"></p>
+</div>
+</Codedemo>
+
+<Codemarkup>
+```html
+<div class="message message--info" data-header="Action Required">
+<!-- Content goes here -->
+</div>
+<div class="message message--warning" data-header="none">
+<!-- Content goes here -->
+</div>
+```
+</Codemarkup>

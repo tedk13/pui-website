@@ -1,0 +1,7 @@
+.form .input-icons [class^=pi-] {
+  display: flex;
+}
+
+.toggle input[type=checkbox]+label [class^=pi-], .toggle input[type=radio]+label [class^=pi-] {
+  display: flex;
+}
