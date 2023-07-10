@@ -3,6 +3,7 @@
 .vscode/
 node_modules/
 resources/
+dist/
 assets/js/platform-ui.min.js
 assets/css/platform-ui.min.css
 assets/output/
