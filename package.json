@@ -13,7 +13,7 @@
   "author": "RIMdev",
   "license": "ISC",
   "dependencies": {
-    "@astrojs/mdx": "^0.12.0",
+    "@astrojs/mdx": "^0.19.7",
     "@ritterim/platform-icons": "^2.1.7",
     "@ritterim/platform-ui": "^1.7.12",
     "astro": "^2.8.0"
