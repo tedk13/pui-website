@@ -575,49 +575,55 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <code>text--size-2xs</code>
   </td>
   
-  <td data-label="Result"><p>2xs smaller text.</p></td>
+  <td data-label="Result"><p>.422rem</p></td>
 </tr><tr>
   <td data-label="Class">
     <code>text--size-xs</code>
   </td>
   
-  <td data-label="Result"><p>xs text.</p></td>
+  <td data-label="Result"><p>.563rem</p></td>
 </tr><tr>
   <td data-label="Class">
     <code>text--size-sm</code>
   </td>
   
-  <td data-label="Result"><p>sm text.</p></td>
+  <td data-label="Result"><p>.75rem</p></td>
+</tr><tr>
+  <td data-label="Class">
+    <code>text--size-base</code>
+  </td>
+  
+  <td data-label="Result"><p>1rem</p></td>
 </tr><tr>
   <td data-label="Class">
     <code>text--size-md</code>
   </td>
   
-  <td data-label="Result"><p>medium text.</p></td>
+  <td data-label="Result"><p>1.333rem</p></td>
 </tr><tr>
   <td data-label="Class">
     <code>text--size-lg</code>
   </td>
   
-  <td data-label="Result"><p>large text.</p></td>
+  <td data-label="Result"><p>1.777rem</p></td>
 </tr><tr>
   <td data-label="Class">
     <code>text--size-xl</code>
   </td>
   
-  <td data-label="Result"><p>xl text.</p></td>
+  <td data-label="Result"><p>2.369rem</p></td>
 </tr><tr>
   <td data-label="Class">
     <code>text--size-2xl</code>
   </td>
   
-  <td data-label="Result"><p>2xl larger text.</p></td>
+  <td data-label="Result"><p>3.157rem</p></td>
 </tr><tr>
   <td data-label="Class">
     <code>text--size-3xl</code>
   </td>
   
-  <td data-label="Result"><p>3xl larger text.</p></td>
+  <td data-label="Result"><p>4.209rem</p></td>
 </tr>
       </tbody>
     </table>
@@ -661,18 +667,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <td data-label="Result"><p>Right-aligned text.</p></td>
 </tr><tr>
   <td data-label="Class">
+    <code>text--left</code>
+  </td>
+  
+  <td data-label="Result"><p>Left-aligned text.</p></td>
+</tr><tr>
+  <td data-label="Class">
     <code>text--nowrap</code>
   </td>
   
   <td data-label="Result"><p>Set no-wrap on a line of text.</p></td>
+</tr><tr>
+  <td data-label="Class">
+    <code>text--italic</code>
+  </td>
+  
+  <td data-label="Result"><p>font-style: italic</p></td>
+</tr><tr>
+  <td data-label="Class">
+    <code>text--normal</code>
+  </td>
+  
+  <td data-label="Result"><p>font-style: normal</p></td>
 </tr>
       </tbody>
     </table>
   </div>
 </section>
-<section class="mb-4">
-    <h3 class="mb-3 text--light text--size-md">Demo</h3>
-    <p class="text--bold">Hello World! (<code>text--bold</code>)</p><p class="text--underline">Hello World! (<code>text--underline</code>)</p><p class="text--center">Hello World! (<code>text--center</code>)</p><p class="text--right">Hello World! (<code>text--right</code>)</p><p class="text--nowrap">The quick brown fox jumped over the lazy dog. (<code>text--nowrap</code>)</p>
+<section class="p-0 my-4">
+  <h3 class="text--light text--size-md mb-3">Visualizer</h3>
+  <div class="linear-gradient text--purple px-1 pt-3 pb-1 rounded-2" data-gradient-direction="0deg" data-gradient-start="lavender" data-gradient-stop="lavender">
+    <div class="ml-3">
+      <p class="flex">
+        <i class="pi-rocket mr-1" aria-hidden="true"></i>
+        <strong class="mr-1">Try this!</strong>
+        Change the border-radius of the card
+      </p>
+    </div>
+    <div class="visualizer block-container p-3 py-4 tablet-up-2 background--white">
+      <div class="actions block"><ul class="list"><li><button class="button" data-example-elements="text--bold"><code>text--bold</code></button></li><li><button class="button" data-example-elements="text--underline"><code>text--underline</code></button></li><li><button class="button" data-example-elements="text--center"><code>text--center</code></button></li><li><button class="button" data-example-elements="text--right"><code>text--right</code></button></li><li><button class="button" data-example-elements="text--left"><code>text--left</code></button></li><li><button class="button" data-example-elements="text--nowrap"><code>text--nowrap</code></button></li><li><button class="button" data-example-elements="text--italic"><code>text--italic</code></button></li><li><button class="button" data-example-elements="text--normal"><code>text--normal</code></button></li><li><button class="button button--salmon text--white" data-reset="true">Reset</button></li></ul></div><div class="results rounded-2 block background--dark p-3" data-default-class="block-container flex--center-content"><div class="block block-9 h-100 card transition border--width-5"><span class="text--size-md">Example Card</span></div></div>
+    </div>
+  </div>
 </section>
       </article>
       <aside class="content-nav on-this-page hide show:lg-tablet tablet-up-4 lg-tablet-up-3 laptop-up-2 pr-4 text--capitalize">
@@ -769,6 +804,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 </footer>
 	<script src="https://cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
-<script type="text/javascript" src="https://unpkg.com/@ritterim/skellycss/dist/skelly.js" crossorigin defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@ritterim/skellycss/dist/skelly.js" crossorigin defer></script>
 <script src="/scripts/index.js" type="module"></script>
 </body></html>
