@@ -4,9 +4,9 @@
   "description": "Platform UI Styleguide and Docs",
   "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "run-s build:icons build:astro",
+    "build:astro": "astro build",
     "build:icons": "cp node_modules/@ritterim/platform-ui/src/platform-icons.json src/data/icons.json"
   },
   "keywords": [],
@@ -14,12 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",
-    "@ritterim/platform-icons": "^2.1.7",
-    "@ritterim/platform-ui": "^1.7.12",
+    "@ritterim/platform-ui": "^1.8.1",
     "astro": "^2.8.0"
   },
   "devDependencies": {
     "@astrojs/markdown-component": "^1.0.5",
+    "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.56.1"
   }
