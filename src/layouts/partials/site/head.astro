@@ -1,5 +1,4 @@
 ---
-import GtmHead from '../head/gtm-head.astro';
 import Og from '../head/og.astro';
 import Preconnects from '../head/preconnects.astro';
 import Schemadotorg from '../head/schemadotorg.astro';
@@ -14,7 +13,6 @@ const { pageTitle, description, skelly } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/images/favicon/platform-ui.svg">
     <meta name="generator" content={Astro.generator} />
-    <GtmHead />
     <Og pageTitle={pageTitle} description={description} />
     <Preconnects />
     <Schemadotorg pageTitle={pageTitle} description={description} />

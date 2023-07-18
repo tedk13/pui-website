@@ -1,6 +1,5 @@
 ---
 import Head from './partials/site/head.astro';
-import GtmBody from './partials/site/gtm-body.astro';
 import Header from './partials/site/header.astro';
 import Footer from './partials/site/footer.astro';
 import Scripts from './partials/site/scripts.astro';
@@ -21,7 +20,6 @@ const home = '/';
 	<Head pageTitle={pageTitle} description={description} skelly={skelly} />
 
 	<body class="flex flex--column">
-		<GtmBody />
 		<Header />
 
 		<div id="app" class={`header-fixed flex--grow${pathname === home ? " home" : ""}`}>
