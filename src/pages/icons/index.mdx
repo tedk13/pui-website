@@ -1,0 +1,66 @@
+---
+layout: ../../layouts/landing.astro
+title: Platform Icons
+weight: 6
+---
+import Callout from '../../components/callout.astro'
+import Classesrow from '../../components/classes-row.astro'
+import Classes from '../../components/classes.astro'
+import ClipboardJS from '../../components/clipboard.astro'
+import Codedemo from '../../components/code-demo.astro'
+import Codemarkup from '../../components/code-markup.astro'
+import Icons from '../../components/icons.astro'
+
+## [Usage](#usage)
+
+<Classes>
+<Classesrow classname="pi-{ icon name }" result="You get an icon "/>
+</Classes>
+
+You can add this class to any empty div. We hijack the deprecated `<i>` which has become the standard in recent years. 
+
+<Codedemo>
+<i class="pi-trophy"></i>
+</Codedemo>
+
+<Codemarkup>
+```html
+<i class="pi-trophy"></i>
+```
+</Codemarkup>
+
+<Callout header="aria-hidden" >
+Remeber to add the proper aria-label when the icon is a decoration only `aria-hidden="true"`. 
+</Callout>
+
+## [Icons](#icons)
+
+<Icons/>
+
+<ClipboardJS/>
+
+## [Sizing](#sizing)
+
+<Classes result="true">
+<Classesrow classname="pi-{ xs, sm, lg, xl, xxl }" result="Alter the size of your icon from `.5rem` to `3rem`."/>
+</Classes>
+
+<Codedemo>
+<i class="pi-rocket pi-xs"></i>
+<i class="pi-rocket pi-sm"></i>
+<i class="pi-rocket"></i>
+<i class="pi-rocket pi-lg"></i>
+<i class="pi-rocket pi-xl"></i>
+<i class="pi-rocket pi-xxl"></i>
+</Codedemo>
+
+<Codemarkup>
+```html
+<i class="pi-rocket pi-xs"></i>
+<i class="pi-rocket pi-sm"></i>
+<i class="pi-rocket"></i>
+<i class="pi-rocket pi-lg"></i>
+<i class="pi-rocket pi-xl"></i>
+<i class="pi-rocket pi-xxl"></i>   
+```
+</Codemarkup>

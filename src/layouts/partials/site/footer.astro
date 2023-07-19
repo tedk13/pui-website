@@ -1,6 +1,6 @@
 ---
 import {site} from '../../../data/config.json';
-import PuiVersion from '../../../mixins/puiversion.js';
+import PuiVersion from '../../../components/pui-version.astro';
 const nav = site.menu
 const date = new Date().getFullYear();
 ---
@@ -21,7 +21,7 @@ const date = new Date().getFullYear();
                 on <a class="text--beige" href="https://www.npmjs.com/package/@ritterim/skellycss" rel="external noopener" target="_blank">npm <i class="pi-link-external"></i></a> and
                 <a class="text--beige" href="https://github.com/ritterim/skellyCSS" rel="external noopener" target="_blank">github <i class="pi-link-external"></i></a>
             </p>
-            <p>Current version {PuiVersion}</p>
+            <p>Current version <PuiVersion/></p>
             <p class="mb-0">&copy;{date} {site.rim}</p>
         </div>
         <div class="block lg-tablet-up-8">

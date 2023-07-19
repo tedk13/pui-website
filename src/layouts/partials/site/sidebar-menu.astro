@@ -1,5 +1,4 @@
 ---
-import { SUPPORTED_MARKDOWN_FILE_EXTENSIONS } from "astro/dist/core/constants";
 import getFoldersArray from "../../../mixins/get-folders";
 const { title, url, files } = Astro.props;
 const layoutMd = await Astro.glob('../../../pages/launchpad/*.md');
@@ -14,7 +13,6 @@ const originalPath = new URL(Astro.request.url).pathname;
 const pathname = originalPath.split('/').slice(1);
 const ogFolder = pathname[0];
 const parentFolder = pathname[1];
-const childFile = pathname[2];
 
 // sorts nav items by weight in frontmatter
 const compare = ( a, b ) => {

@@ -5,8 +5,20 @@ weight: 1
 ---
 import Codemarkup from '../../../components/code-markup.astro'
 import Callout from '../../../components/callout.astro'
+import PuiVersion from '../../../components/pui-version.astro'
 
 The quickest and easiest way to implement Platform UI is by using a CDN. Here are a few examples.
+## [JSDELIVR](#jsdelivr)
+
+<Codemarkup>
+```html
+<!-- In the <head> of your site. -->
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/platform-ui.min.css" crossorigin>
+<!-- Directly before the closing </body> tag of your site. -->
+<script src="https://cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
+```
+</Codemarkup>
 
 ## [UNPKG](#unpkg)
 
@@ -21,20 +33,9 @@ The quickest and easiest way to implement Platform UI is by using a CDN. Here ar
 </Codemarkup>
 
 <Callout header="Pro Tip">
-Leaving out a version will always fetch the latest. Adding `@1.3.7`, or whatever version you're looking for, after `platform-ui` will get that specific version. 
+Leaving out a version will always fetch the latest. Adding <code><PuiVersion/></code>, or whatever version you're looking for, after `platform-ui` will get that specific version. 
 </Callout >
 
-## [JSDELIVR](#jsdelivr)
-
-<Codemarkup>
-```html
-<!-- In the <head> of your site. -->
-<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/platform-ui.min.css" crossorigin>
-<!-- Directly before the closing </body> tag of your site. -->
-<script src="cdn.jsdelivr.net/npm/@ritterim/platform-ui/dist/js/platform-ui.min.js" crossorigin defer></script>
-```
-</Codemarkup>
 
 ## [Skypack](#skypack)
 

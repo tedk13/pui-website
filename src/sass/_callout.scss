@@ -18,4 +18,12 @@
       color: var(--white);
       padding: 0 .25rem;
     }
+
+    p {
+      margin-bottom: 0;
+
+      + p {
+        margin-block-start: 1rem;
+      }
+    }
   }  
